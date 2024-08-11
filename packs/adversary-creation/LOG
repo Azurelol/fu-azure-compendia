@@ -1,0 +1,14 @@
+2024/08/11-21:58:25.402 ab0 Recovering log #12
+2024/08/11-21:58:25.405 ab0 Delete type=0 #12
+2024/08/11-21:58:25.405 ab0 Delete type=3 #10
+2024/08/11-22:00:14.704 3348 Level-0 table #17: started
+2024/08/11-22:00:14.704 3348 Level-0 table #17: 0 bytes OK
+2024/08/11-22:00:14.706 3348 Delete type=0 #15
+2024/08/11-22:00:14.709 3348 Manual compaction at level-0 from '!folders!hokaHML2mugwhvvL' @ 72057594037927935 : 1 .. '!items!2wiUZifs6rFH7Ijk' @ 0 : 0; will stop at (end)
+2024/08/11-22:00:14.709 3348 Manual compaction at level-1 from '!folders!hokaHML2mugwhvvL' @ 72057594037927935 : 1 .. '!items!2wiUZifs6rFH7Ijk' @ 0 : 0; will stop at '!folders!hokaHML2mugwhvvL' @ 1 : 1
+2024/08/11-22:00:14.709 3348 Compacting 1@1 + 0@2 files
+2024/08/11-22:00:14.712 3348 Generated table #18@1: 1 keys, 482 bytes
+2024/08/11-22:00:14.712 3348 Compacted 1@1 + 0@2 files => 482 bytes
+2024/08/11-22:00:14.713 3348 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/08/11-22:00:14.713 3348 Delete type=2 #9
+2024/08/11-22:00:14.716 3348 Manual compaction at level-1 from '!folders!hokaHML2mugwhvvL' @ 1 : 1 .. '!items!2wiUZifs6rFH7Ijk' @ 0 : 0; will stop at (end)
