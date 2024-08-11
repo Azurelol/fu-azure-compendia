@@ -1,2 +1,3 @@
-# fu-azure-compendia
-A module containing compendiums for Fabula Ultima
+# My Content Module
+
+A template for creating your own Foundry VTT content module.

@@ -1,0 +1,73 @@
+{
+    "id": "fu-azure-compendia",
+    "title": "Azure Compendia",
+    "description": "A collection of my compendiums for Fabula Ultima",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Christian Sagel",
+            "discord": "azurelol",
+            "url": "https://github.com/Azurelol"
+        }
+    ],
+    "minimumCoreVersion": "11",
+    "compatibleCoreVersion": "12",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "12"
+    },
+    "packs": [
+        {
+            "name": "module-creatures",
+            "label": "Module Creatures",
+            "path": "./packs/creatures.db",
+            "type": "Actor",
+            "system": "dnd5e"
+        },
+        {
+            "name": "module-items",
+            "label": "Module Items",
+            "path": "./packs/items.db",
+            "type": "Item",
+            "system": "dnd5e"
+        },
+        {
+            "name": "module-scenes",
+            "label": "Module Scenes",
+            "path": "./packs/scenes.db",
+            "type": "Scene"
+        },
+        {
+            "name": "module-journal-entries",
+            "label": "Module Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "module-macros",
+            "label": "Module Macros",
+            "path": "./packs/macros.db",
+            "type": "Macro"
+        },
+        {
+            "name": "module-roll-tables",
+            "label": "Module Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "type": "RollTable"
+        },
+        {
+            "name": "module-playlists",
+            "label": "Module Playlists",
+            "path": "./packs/playlists.db",
+            "type": "Playlist"
+        },
+        {
+            "name": "module-adventures",
+            "label": "Module Adventures",
+            "path": "./packs/adventures.db",
+            "type": "Adventure"
+        }
+    ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  }
