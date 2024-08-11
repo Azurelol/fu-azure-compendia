@@ -29,7 +29,7 @@
       "name": "adversary-creation",
       "label": "Adversary Creation",
       "path": "packs/adversary-creation",
-      "type": "Actor",
+      "type": "Item",
       "system": "projectfu",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -57,6 +57,19 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Azure Fabula Compendia",
+      "sorting": "m",
+      "color": "#08718c",
+      "packs":
+      [
+        "adversary-creation",
+        "adversaries",
+        "generators"
+      ]      
     }
   ]
 }
