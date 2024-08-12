@@ -1,3 +1,3 @@
-# My Content Module
+# Fabula Ultima Azure Compendia
 
-A template for creating your own Foundry VTT content module.
+A Foundry VTT compendia for the Fabula Ultima system.
