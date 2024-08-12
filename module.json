@@ -71,5 +71,7 @@
         "generators"
       ]      
     }
-  ]
+  ],
+  "manifest": "https://github.com/Azurelol/fu-azure-compendia/-/raw/main/module.json",
+  "download": "https://github.com/Azurelol/fu-azure-compendia/-/raw/main/fu-azure-compendia.zip"
 }
