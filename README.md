@@ -11,3 +11,9 @@ A Foundry VTT compendia for the Fabula Ultima system.
 3. Paste the `Manifest URL` above.
 4. Click "Install".
 5. Launch the game world and go to `Game Settings > Manage Modules` and enable the module.
+
+## Credits
+
+The graphical assets are sourced from the following sources:
+
+- [Game-icons.net]](https://game-icons.net/)
