@@ -34,7 +34,6 @@
       "type": "Item",
       "system": "projectfu",
       "ownership": {
-        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
@@ -45,7 +44,6 @@
       "type": "Actor",
       "system": "projectfu",
       "ownership": {
-        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
@@ -56,9 +54,15 @@
       "type": "RollTable",
       "system": "projectfu",
       "ownership": {
-        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "press-quick-start",
+      "label": "Press Quick Start",
+      "path": "packs/press-quick-start",
+      "type": "Adventure",
+      "system": "projectfu"
     }
   ],
   "packFolders": [
@@ -70,7 +74,8 @@
       [
         "adversary-creation",
         "adversaries",
-        "generators"
+        "generators",
+        "press-quick-start"
       ]      
     }
   ]  
