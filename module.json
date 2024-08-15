@@ -58,9 +58,9 @@
       }
     },
     {
-      "name": "press-quick-start",
-      "label": "Press Quick Start",
-      "path": "packs/press-quick-start",
+      "name": "press-start",
+      "label": "Press Start",
+      "path": "packs/press-start",
       "type": "Adventure",
       "system": "projectfu"
     }
@@ -75,7 +75,7 @@
         "adversary-creation",
         "adversaries",
         "generators",
-        "press-quick-start"
+        "press-start"
       ]      
     }
   ]  
