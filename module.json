@@ -58,6 +58,26 @@
       }
     },
     {
+      "name": "guides",
+      "label": "Guides",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "characters",
+      "label": "Characters",
+      "path": "packs/characters",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "press-start",
       "label": "Press Start",
       "path": "packs/press-start",
@@ -75,6 +95,8 @@
         "adversary-creation",
         "adversaries",
         "generators",
+        "characters",
+        "guides",
         "press-start"
       ]      
     }
