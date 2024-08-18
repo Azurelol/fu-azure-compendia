@@ -68,10 +68,20 @@
       }
     },
     {
-      "name": "characters",
-      "label": "Characters",
-      "path": "packs/characters",
+      "name": "character-inventory",
+      "label": "Character Inventory",
+      "path": "packs/character-inventory",
       "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
       "system": "projectfu",
       "ownership": {
         "ASSISTANT": "OWNER"
@@ -94,9 +104,10 @@
       [
         "adversary-creation",
         "adversaries",
+        "character-inventory",
         "generators",
-        "characters",
         "guides",
+        "macros",
         "press-start"
       ]      
     }
