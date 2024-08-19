@@ -1,0 +1,2 @@
+- The tank buster marker was made by [Denmo](https://buymeacoffee.com/denmo).
+- The flare, stack and gaze markers come from [Gamerescape](https://ffxiv.gamerescape.com/wiki/Common_Mechanics)
