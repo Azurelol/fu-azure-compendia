@@ -1,15 +1,8 @@
-2024/08/19-17:27:24.298 5d00 Recovering log #93
-2024/08/19-17:27:24.312 5d00 Delete type=0 #93
-2024/08/19-17:27:24.312 5d00 Delete type=3 #91
-2024/08/19-21:30:26.294 53b0 Level-0 table #98: started
-2024/08/19-21:30:26.296 53b0 Level-0 table #98: 1020 bytes OK
-2024/08/19-21:30:26.297 53b0 Delete type=0 #96
-2024/08/19-21:30:26.303 53b0 Manual compaction at level-0 from '!tables!4M1DYBRNndV2tCMo' @ 72057594037927935 : 1 .. '!tables.results!nxHscSagUZEdZWmA.U3MjG7qtpbOSRIeX' @ 0 : 0; will stop at (end)
-2024/08/19-21:30:26.306 53b0 Manual compaction at level-1 from '!tables!4M1DYBRNndV2tCMo' @ 72057594037927935 : 1 .. '!tables.results!nxHscSagUZEdZWmA.U3MjG7qtpbOSRIeX' @ 0 : 0; will stop at '!tables.results!nxHscSagUZEdZWmA.U3MjG7qtpbOSRIeX' @ 719 : 0
-2024/08/19-21:30:26.306 53b0 Compacting 1@1 + 1@2 files
-2024/08/19-21:30:26.307 53b0 Generated table #99@1: 17 keys, 2912 bytes
-2024/08/19-21:30:26.307 53b0 Compacted 1@1 + 1@2 files => 2912 bytes
-2024/08/19-21:30:26.308 53b0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/08/19-21:30:26.308 53b0 Delete type=2 #90
-2024/08/19-21:30:26.308 53b0 Delete type=2 #98
-2024/08/19-21:30:26.313 53b0 Manual compaction at level-1 from '!tables.results!nxHscSagUZEdZWmA.U3MjG7qtpbOSRIeX' @ 719 : 0 .. '!tables.results!nxHscSagUZEdZWmA.U3MjG7qtpbOSRIeX' @ 0 : 0; will stop at (end)
+2024/08/21-18:19:54.100 4b40 Recovering log #102
+2024/08/21-18:19:54.104 4b40 Delete type=0 #102
+2024/08/21-18:19:54.105 4b40 Delete type=3 #100
+2024/08/21-23:16:56.732 32cc Level-0 table #107: started
+2024/08/21-23:16:56.732 32cc Level-0 table #107: 0 bytes OK
+2024/08/21-23:16:56.733 32cc Delete type=0 #105
+2024/08/21-23:16:56.736 32cc Manual compaction at level-0 from '!tables!4M1DYBRNndV2tCMo' @ 72057594037927935 : 1 .. '!tables.results!nxHscSagUZEdZWmA.U3MjG7qtpbOSRIeX' @ 0 : 0; will stop at (end)
+2024/08/21-23:16:56.736 32cc Manual compaction at level-1 from '!tables!4M1DYBRNndV2tCMo' @ 72057594037927935 : 1 .. '!tables.results!nxHscSagUZEdZWmA.U3MjG7qtpbOSRIeX' @ 0 : 0; will stop at (end)
