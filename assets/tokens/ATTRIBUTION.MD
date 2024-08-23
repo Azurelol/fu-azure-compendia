@@ -1,14 +1,24 @@
 [Press Start Tokens by Tiny-Overlord](https://www.reddit.com/r/fabulaultima/comments/199ymr9/fabula_ultima_pixel_tokens/)
-- Blair
-- Cassandra
-- Dead-eye
-- Desdemona
-- Edgar
-- Elonian Trooper
-- Lavigne Fallbright
-- Tristan Perses
+- blair
+- cassandra
+- lavigne_fallbright
+- edgar
+- hexeye
+- elonian_trooper
+- desdemona_perses
+- tristan_perses
 
 [Joseph Seraph](https://opengameart.org/users/josephseraph)
-- goblin_*
+- goblin_1, goblin_2
 - elemental_*
 - wolf_*
+
+[Redshrike](https://opengameart.org/users/redshrike)
+- goblin_*
+- warlock_1
+- monster_1
+- slime
+- turtle
+- skeleton_spear
+- bee
+- spider
