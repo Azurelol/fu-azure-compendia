@@ -6,20 +6,58 @@ class Azurecompendia {
     static ID = 'fu-azure-compendia';
 
     /**
+     * A small helper function which leverages developer mode flags to gate debug logs.
+     * 
+     * @param {boolean} force - forces the log even if the debug flag is not on
+     * @param  {...any} args - what to log
+    */
+    static logIf(force, ...args) {
+        const shouldLog = force || game.modules.get('_dev-mode')?.api?.getPackageDebugValue(this.ID);
+
+        if (shouldLog) {
+            console.log(this.ID, '|', ...args);
+        }
+    }
+
+    /**
+     * A small helper function which leverages developer mode flags to gate debug logs.
+     * 
+     * @param  {...any} args - what to log
+    */
+    static log(...args) {
+        this.logIf(true, args)
+    }
+
+    /**
+     * Behaves like C# string format
+     * @param {*} s 
+     * @param  {...any} args 
+     * @returns 
+     */
+    static fmt(s, ...args) {
+        for (var arg in args) {
+            s = s.replace("{" + arg + "}", args[arg]);
+        }
+        return s;
+    };
+
+    Definition
+
+    /**
      * The character tier
      */
     static Tier = Object.freeze({
         // In the heroic tier, your character is already a hero, set apart from the common people by your natural talents, 
         // learned skills, and some hint of a greater destiny that lies before you.
         // From L5+
-        Heroic: "heroic",
+        Heroic: 0,
         // In the paragon tier, your character is a shining example of heroism, set well apart from the masses.In the paragon tier, 
         // your character is a shining example of heroism, set well apart from the masses.
         // From L20+
-        Paragon: "paragon",
+        Paragon: 1,
         // In the epic tier, your character’s capabilities are truly superheroic. 
         // From L40+
-        Epic: "epic"
+        Epic: 2
     });
 
     /**
@@ -30,6 +68,21 @@ class Azurecompendia {
         Heavy: 1,
         Massive: 2
     });
+    
+    static effectList = [
+        {
+          label: "Minor",
+          value: "0",
+        },
+        {
+          label: "Heavy",
+          value: "1",
+        },
+        {
+          label: "Massive",
+          value: "2",
+        }
+      ];
 
     /**
      * Damage per character tier and effect level
@@ -43,7 +96,7 @@ class Azurecompendia {
     /**
     * An array of damage types
     */
-    static damageTypes = [
+    static damageTypeData = [
         {
             label: "Physical",
             value: "physical",
@@ -96,13 +149,20 @@ class Azurecompendia {
         }
     ];
 
-    // Tier, Effect
-    static calculateImprovisedDamage(tier, effect) {
+    /**
+     * @param {Tier} tier The character tier
+     * @param {Effect} effect The effect level
+     * @returns 
+     */
+    static calculateImprovisedScalar(tier, effect) {
         const damage = this.damagePerTier[tier][effect]
         return damage
     }
 
-    // Gets the tier based from the level
+    /**
+     * @param {number} level The level of the character
+     * @returns The character tier
+     */
     static getCharacterTier(level) {
         if (level >= 40) {
             return this.Tier.Epic
@@ -112,31 +172,6 @@ class Azurecompendia {
         }
         return this.Tier.Heroic
     }
-
-
-    /**
-     * A small helper function which leverages developer mode flags to gate debug logs.
-     * 
-     * @param {boolean} force - forces the log even if the debug flag is not on
-     * @param  {...any} args - what to log
-   */
-    static logIf(force, ...args) {
-        const shouldLog = force || game.modules.get('_dev-mode')?.api?.getPackageDebugValue(this.ID);
-
-        if (shouldLog) {
-            console.log(this.ID, '|', ...args);
-        }
-    }
-
-    /**
-     * A small helper function which leverages developer mode flags to gate debug logs.
-     * 
-     * @param  {...any} args - what to log
-    */
-    static log(...args) {
-        this.logIf(true, args)
-    }
-
 }
 
 Hooks.once('devModeReady', ({ registerPackageDebugFlag }) => {
@@ -144,3 +179,5 @@ Hooks.once('devModeReady', ({ registerPackageDebugFlag }) => {
 });
 
 Azurecompendia.log('Hello World!');
+
+const tierLabelHtml = Azurecompendia.Effect.map((d) => renderTierLabel(d)).join("\n");
