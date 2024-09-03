@@ -29,9 +29,6 @@
   "scripts": [
     "scripts/azure-compendia.js"
   ],
-  "esmodules": [
-    "azure-compendia.js"
-  ],
   "styles": [
     "styles/azure-compendia.css"
   ],
