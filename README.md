@@ -1,6 +1,6 @@
 # Fabula Ultima Azure Compendia
 
-![Compendia Example](assets\art\compendia-example.png)
+![Compendia Example](assets/art/compendia-example.png)
 
 A Foundry VTT compendia for the Fabula Ultima system.
 
