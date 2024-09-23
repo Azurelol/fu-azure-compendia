@@ -1,21 +1,8 @@
-2024/09/19-18:49:20.088 49e8 Recovering log #115
-2024/09/19-18:49:20.092 49e8 Delete type=0 #115
-2024/09/19-18:49:20.092 49e8 Delete type=3 #114
-2024/09/19-19:34:23.359 6540 Level-0 table #119: started
-2024/09/19-19:34:23.359 6540 Level-0 table #119: 0 bytes OK
-2024/09/19-19:34:23.361 6540 Delete type=0 #117
-2024/09/19-19:34:23.364 6540 Manual compaction at level-0 from '!journal!5RbIqdBTUq0Hdj0I' @ 72057594037927935 : 1 .. '!journal.pages!frtcvtk7LF5oXR6g.UoZ2n7JsiqGtVwUE' @ 0 : 0; will stop at '!journal!nKKtuOOqEmQO4n8l' @ 1189 : 1
-2024/09/19-19:34:23.364 6540 Compacting 1@0 + 0@1 files
-2024/09/19-19:34:23.366 6540 Generated table #120@0: 1 keys, 491 bytes
-2024/09/19-19:34:23.366 6540 Compacted 1@0 + 0@1 files => 491 bytes
-2024/09/19-19:34:23.367 6540 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/09/19-19:34:23.367 6540 Delete type=2 #112
-2024/09/19-19:34:23.370 6540 Manual compaction at level-0 from '!journal!nKKtuOOqEmQO4n8l' @ 1189 : 1 .. '!journal.pages!frtcvtk7LF5oXR6g.UoZ2n7JsiqGtVwUE' @ 0 : 0; will stop at (end)
-2024/09/19-19:34:23.377 6540 Manual compaction at level-1 from '!journal!5RbIqdBTUq0Hdj0I' @ 72057594037927935 : 1 .. '!journal.pages!frtcvtk7LF5oXR6g.UoZ2n7JsiqGtVwUE' @ 0 : 0; will stop at '!journal!nKKtuOOqEmQO4n8l' @ 1189 : 1
-2024/09/19-19:34:23.377 6540 Compacting 1@1 + 1@2 files
-2024/09/19-19:34:23.378 6540 Generated table #121@1: 18 keys, 16595 bytes
-2024/09/19-19:34:23.378 6540 Compacted 1@1 + 1@2 files => 16595 bytes
-2024/09/19-19:34:23.379 6540 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/09/19-19:34:23.379 6540 Delete type=2 #98
-2024/09/19-19:34:23.380 6540 Delete type=2 #120
-2024/09/19-19:34:23.380 6540 Manual compaction at level-1 from '!journal!nKKtuOOqEmQO4n8l' @ 1189 : 1 .. '!journal.pages!frtcvtk7LF5oXR6g.UoZ2n7JsiqGtVwUE' @ 0 : 0; will stop at (end)
+2024/09/23-21:44:23.708 3610 Recovering log #127
+2024/09/23-21:44:23.712 3610 Delete type=0 #127
+2024/09/23-21:44:23.712 3610 Delete type=3 #126
+2024/09/24-00:06:58.197 1c3c Level-0 table #131: started
+2024/09/24-00:06:58.197 1c3c Level-0 table #131: 0 bytes OK
+2024/09/24-00:06:58.198 1c3c Delete type=0 #129
+2024/09/24-00:06:58.198 1c3c Manual compaction at level-0 from '!journal!5RbIqdBTUq0Hdj0I' @ 72057594037927935 : 1 .. '!journal.pages!frtcvtk7LF5oXR6g.UoZ2n7JsiqGtVwUE' @ 0 : 0; will stop at (end)
+2024/09/24-00:06:58.202 1c3c Manual compaction at level-1 from '!journal!5RbIqdBTUq0Hdj0I' @ 72057594037927935 : 1 .. '!journal.pages!frtcvtk7LF5oXR6g.UoZ2n7JsiqGtVwUE' @ 0 : 0; will stop at (end)

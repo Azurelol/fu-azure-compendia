@@ -40,5 +40,6 @@ This module has been made to be used by fellow game masters and the Fabula Ultim
 
 - [Game-icons.net](https://game-icons.net/)
 - [OpenGameArt.org](https://opengameart.org)
+- [Aekashics](http://www.akashics.moe/)
 
 For specific assets I will try my best to keep an `ATTRIBUTION.MD` file on the same folder as the asset to attribute the creator directly. I have taken care to use assets under the creative commons (CC) license.

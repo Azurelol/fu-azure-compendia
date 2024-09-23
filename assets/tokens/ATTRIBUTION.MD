@@ -9,6 +9,53 @@
 - desdemona_perses
 - tristan_perses
 
+# [Aekashics Librarium](http://www.akashics.moe/)
+
+- clockwork_*
+- mountain griffon
+- mountain hornette
+- mountain harpy
+- mountain owl
+- mountain serpent
+- mountain scorpion scopus
+- pirate bandit, pirate captain, pirate monkey, pirate parrot, pirate skeleton
+- sea beach emperor crab
+- egypt cobra
+- vampiric giant mosquito
+- undead skull tree
+- undead claw knight
+- skeleton archer
+- skeleton dragon
+- skeleton knight alstreim
+- skeleton knight baron
+- skeleton mage
+- undead wolf
+- undead walker
+- undead gigaraven
+- halloween vampire
+- egypt mummy a
+- plant warriors*
+- orc axe warrior, orc archer, orc sword warrior, orc war drummer, orc warlock
+- feathered snake
+- arcane orb*
+- arcane crystal magic circle
+- ancient automaton
+- forest catermoth
+- forest deer
+- forest golem
+- forest green spider
+- forest imperial widow
+- forest mothy
+- forest ogre orkgre
+- library book golem
+- wind feathered golem, wind snake, wind fairy, wind feathered razor, wind harpy, wind lion, wind mantis
+- rock golem
+- toxic carnivorous plant*, toxic maneater plant, toxic shroom
+- mountain fetero, mountain black wolf, mountain chimera, mountain warthog, mountain winter wolf, mountain behemoth, mountain bat
+- sea abismos, sea arman, sea armes, sea armon, sea beach dark star, sea shark, sea spheria, sea shelltacle
+- undead benkei
+- werewolf rigel, weretiger maxima
+
 # [OpenGameArt](https://opengameart.org/)
 
 The following licenses were used below (pardon me if I miss one):
