@@ -18,6 +18,10 @@ The following compendiums are present at this time of writing:
 - **Macros**: To be used during play.
 - **Press Start**: An adventure module to help you get started by running the adventure for your group.
 
+## Dependencies
+
+The module is currently targeting the latest alpha releases of [Project FU](https://github.com/League-of-Fabulous-Developers/FoundryVTT-Fabula-Ultima/releases).
+
 ## Installation
 
 1. Open the Foundry Setup screen and navigate to the "Add-on Modules" tab.
