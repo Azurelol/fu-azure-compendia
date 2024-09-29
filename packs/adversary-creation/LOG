@@ -1,15 +1,8 @@
-2024/09/29-14:56:30.939 9218 Recovering log #258
-2024/09/29-14:56:30.943 9218 Delete type=0 #258
-2024/09/29-14:56:30.943 9218 Delete type=3 #257
-2024/09/29-21:25:22.726 190c Level-0 table #262: started
-2024/09/29-21:25:22.729 190c Level-0 table #262: 88499 bytes OK
-2024/09/29-21:25:22.731 190c Delete type=0 #260
-2024/09/29-21:25:22.731 190c Manual compaction at level-0 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!yxyNXAMmsGYxv8iV.1P62kGJ4dYBHBYqb' @ 0 : 0; will stop at (end)
-2024/09/29-21:25:22.745 190c Manual compaction at level-1 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!yxyNXAMmsGYxv8iV.1P62kGJ4dYBHBYqb' @ 0 : 0; will stop at '!items.effects!yxyNXAMmsGYxv8iV.KwLqRmJmzKm6UxKu' @ 3132 : 1
-2024/09/29-21:25:22.746 190c Compacting 1@1 + 1@2 files
-2024/09/29-21:25:22.749 190c Generated table #263@1: 329 keys, 160321 bytes
-2024/09/29-21:25:22.749 190c Compacted 1@1 + 1@2 files => 160321 bytes
-2024/09/29-21:25:22.751 190c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/09/29-21:25:22.751 190c Delete type=2 #256
-2024/09/29-21:25:22.751 190c Delete type=2 #262
-2024/09/29-21:25:22.756 190c Manual compaction at level-1 from '!items.effects!yxyNXAMmsGYxv8iV.KwLqRmJmzKm6UxKu' @ 3132 : 1 .. '!items.effects!yxyNXAMmsGYxv8iV.1P62kGJ4dYBHBYqb' @ 0 : 0; will stop at (end)
+2024/09/29-21:31:14.126 9114 Recovering log #261
+2024/09/29-21:31:14.128 9114 Delete type=0 #261
+2024/09/29-21:31:14.128 9114 Delete type=3 #259
+2024/09/29-21:35:49.804 2eec Level-0 table #267: started
+2024/09/29-21:35:49.804 2eec Level-0 table #267: 0 bytes OK
+2024/09/29-21:35:49.805 2eec Delete type=0 #265
+2024/09/29-21:35:49.809 2eec Manual compaction at level-0 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!yxyNXAMmsGYxv8iV.1P62kGJ4dYBHBYqb' @ 0 : 0; will stop at (end)
+2024/09/29-21:35:49.809 2eec Manual compaction at level-1 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!yxyNXAMmsGYxv8iV.1P62kGJ4dYBHBYqb' @ 0 : 0; will stop at (end)
