@@ -1,8 +1,8 @@
-2024/09/29-21:31:14.174 9114 Recovering log #148
-2024/09/29-21:31:14.177 9114 Delete type=0 #148
-2024/09/29-21:31:14.177 9114 Delete type=3 #146
-2024/09/29-21:35:49.828 2eec Level-0 table #153: started
-2024/09/29-21:35:49.828 2eec Level-0 table #153: 0 bytes OK
-2024/09/29-21:35:49.829 2eec Delete type=0 #151
-2024/09/29-21:35:49.834 2eec Manual compaction at level-0 from '!folders!cYboTilysLIvvBor' @ 72057594037927935 : 1 .. '!macros!hkmXIY9WOSIubJYH' @ 0 : 0; will stop at (end)
-2024/09/29-21:35:49.834 2eec Manual compaction at level-1 from '!folders!cYboTilysLIvvBor' @ 72057594037927935 : 1 .. '!macros!hkmXIY9WOSIubJYH' @ 0 : 0; will stop at (end)
+2024/10/02-17:56:15.581 6480 Recovering log #157
+2024/10/02-17:56:15.585 6480 Delete type=0 #157
+2024/10/02-17:56:15.585 6480 Delete type=3 #156
+2024/10/02-23:47:20.767 8e68 Level-0 table #161: started
+2024/10/02-23:47:20.767 8e68 Level-0 table #161: 0 bytes OK
+2024/10/02-23:47:20.768 8e68 Delete type=0 #159
+2024/10/02-23:47:20.777 8e68 Manual compaction at level-0 from '!folders!cYboTilysLIvvBor' @ 72057594037927935 : 1 .. '!macros!hkmXIY9WOSIubJYH' @ 0 : 0; will stop at (end)
+2024/10/02-23:47:20.784 8e68 Manual compaction at level-1 from '!folders!cYboTilysLIvvBor' @ 72057594037927935 : 1 .. '!macros!hkmXIY9WOSIubJYH' @ 0 : 0; will stop at (end)
