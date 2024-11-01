@@ -70,7 +70,8 @@
       "type": "JournalEntry",
       "system": "projectfu",
       "ownership": {
-        "ASSISTANT": "OWNER"
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
       }
     },
     {
@@ -84,13 +85,25 @@
       }
     },
     {
+      "name": "effects",
+      "label": "Effects",
+      "path": "packs/effects",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      }
+    },
+    {
       "name": "macros",
       "label": "Macros",
       "path": "packs/macros",
       "type": "Macro",
       "system": "projectfu",
       "ownership": {
-        "ASSISTANT": "OWNER"
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
       }
     },
     {
@@ -111,9 +124,10 @@
         "adversary-creation",
         "adversaries",
         "character-inventory",
+        "effects",
         "generators",
-        "guides",
         "macros",
+        "guides",
         "press-start"
       ]      
     }
