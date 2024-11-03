@@ -172,6 +172,58 @@ class Azurecompendia {
         }
         return this.Tier.Heroic
     }
+
+    static getSelectedActor(){
+        let tokens  = canvas.tokens.controlled
+        if (tokens.length > 0) {
+            return tokens.at(0).actor
+        }
+        console.warn("No token selected")
+        return null
+    }
+
+    static getActorLevel(actor) {
+        return actor?.system?.level?.value ?? 0;
+    }
+
+    static getActorTier(actor){
+        const level = this.getActorLevel(actor)
+        return this.getCharacterTier(level)
+    }
+
+    static recoverSelectedActorHitPoints(effect) {
+        const actor = this.getSelectedActor()
+        if (actor == null) {
+            return
+        }
+
+        const tier = this.getActorTier(actor)
+        const amount = this.calculateImprovisedScalar(tier, effect)
+        const newAmount = actor.system.resources.hp.value + amount;
+        actor.update({'system.resources.hp.value': Math.min(newAmount, actor.system.resources.hp.max)});
+
+        ChatMessage.create({
+            user: game.user._id,
+            content: `<b>${actor.name}</b> recovers <b>${amount}</b> hit points`
+          });
+    }
+
+    static recoverSelectedActorMindPoints(effect) {
+        const actor = this.getSelectedActor()
+        if (actor == null) {
+            return
+        }
+
+        const tier = this.getActorTier(actor)
+        const amount = this.calculateImprovisedScalar(tier, effect)
+        const newAmount = actor.system.resources.mp.value + amount;
+        actor.update({'system.resources.mp.value': Math.min(newAmount, actor.system.resources.mp.max)});
+
+        ChatMessage.create({
+            user: game.user._id,
+            content: `<b>${actor.name}</b> recovers <b>${amount}</b> mind points`
+          });
+    }
 }
 
 Hooks.once('devModeReady', ({ registerPackageDebugFlag }) => {
@@ -179,5 +231,3 @@ Hooks.once('devModeReady', ({ registerPackageDebugFlag }) => {
 });
 
 Azurecompendia.log('Hello World!');
-
-const tierLabelHtml = Azurecompendia.Effect.map((d) => renderTierLabel(d)).join("\n");
