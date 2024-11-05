@@ -1,7 +1,14 @@
-2024/11/03-20:15:53.935 5e6c Recovering log #47
-2024/11/03-20:15:53.938 5e6c Delete type=0 #47
-2024/11/03-20:15:53.938 5e6c Delete type=3 #45
-2024/11/03-20:21:11.062 4274 Level-0 table #52: started
-2024/11/03-20:21:11.063 4274 Level-0 table #52: 0 bytes OK
-2024/11/03-20:21:11.064 4274 Delete type=0 #50
-2024/11/03-20:21:11.064 4274 Manual compaction at level-0 from '!folders!D4TsK6IObRqhKJQ9' @ 72057594037927935 : 1 .. '!items.effects!zqmBtaCGTo9DVmyR.8tjBfhHpqeHzk6uW' @ 0 : 0; will stop at (end)
+2024/11/03-20:21:17.307 6a00 Recovering log #51
+2024/11/03-20:21:17.311 6a00 Delete type=0 #51
+2024/11/03-20:21:17.311 6a00 Delete type=3 #49
+2024/11/03-21:34:19.104 4274 Level-0 table #56: started
+2024/11/03-21:34:19.105 4274 Level-0 table #56: 3297 bytes OK
+2024/11/03-21:34:19.106 4274 Delete type=0 #54
+2024/11/03-21:34:19.107 4274 Manual compaction at level-0 from '!folders!D4TsK6IObRqhKJQ9' @ 72057594037927935 : 1 .. '!items.effects!zqmBtaCGTo9DVmyR.8tjBfhHpqeHzk6uW' @ 0 : 0; will stop at '!items.effects!wmld4YK2TtfzQbzj.TwCNr8N4UX829cqH' @ 357 : 1
+2024/11/03-21:34:19.107 4274 Compacting 1@0 + 1@1 files
+2024/11/03-21:34:19.109 4274 Generated table #57@0: 91 keys, 25204 bytes
+2024/11/03-21:34:19.109 4274 Compacted 1@0 + 1@1 files => 25204 bytes
+2024/11/03-21:34:19.110 4274 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/11/03-21:34:19.111 4274 Delete type=2 #22
+2024/11/03-21:34:19.111 4274 Delete type=2 #56
+2024/11/03-21:34:19.115 4274 Manual compaction at level-0 from '!items.effects!wmld4YK2TtfzQbzj.TwCNr8N4UX829cqH' @ 357 : 1 .. '!items.effects!zqmBtaCGTo9DVmyR.8tjBfhHpqeHzk6uW' @ 0 : 0; will stop at (end)
