@@ -1,15 +1,8 @@
-2024/11/03-20:21:17.254 78b4 Recovering log #397
-2024/11/03-20:21:17.258 78b4 Delete type=0 #397
-2024/11/03-20:21:17.258 78b4 Delete type=3 #395
-2024/11/03-21:34:19.059 4274 Level-0 table #402: started
-2024/11/03-21:34:19.061 4274 Level-0 table #402: 5835 bytes OK
-2024/11/03-21:34:19.062 4274 Delete type=0 #400
-2024/11/03-21:34:19.067 4274 Manual compaction at level-0 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at (end)
-2024/11/03-21:34:19.067 4274 Manual compaction at level-1 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at '!items.effects!FriErSyhLwsZRyFX.cw5IeCOHFYPhSwIA' @ 4739 : 1
-2024/11/03-21:34:19.069 4274 Compacting 1@1 + 1@2 files
-2024/11/03-21:34:19.073 4274 Generated table #403@1: 383 keys, 202157 bytes
-2024/11/03-21:34:19.073 4274 Compacted 1@1 + 1@2 files => 202157 bytes
-2024/11/03-21:34:19.074 4274 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/11/03-21:34:19.075 4274 Delete type=2 #368
-2024/11/03-21:34:19.075 4274 Delete type=2 #402
-2024/11/03-21:34:19.095 4274 Manual compaction at level-1 from '!items.effects!FriErSyhLwsZRyFX.cw5IeCOHFYPhSwIA' @ 4739 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at (end)
+2024/11/08-18:32:19.727 155c Recovering log #411
+2024/11/08-18:32:19.731 155c Delete type=0 #411
+2024/11/08-18:32:19.731 155c Delete type=3 #409
+2024/11/08-18:36:57.315 5d80 Level-0 table #417: started
+2024/11/08-18:36:57.315 5d80 Level-0 table #417: 0 bytes OK
+2024/11/08-18:36:57.316 5d80 Delete type=0 #415
+2024/11/08-18:36:57.320 5d80 Manual compaction at level-0 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at (end)
+2024/11/08-18:36:57.320 5d80 Manual compaction at level-1 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at (end)

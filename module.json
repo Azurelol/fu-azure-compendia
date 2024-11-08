@@ -54,6 +54,16 @@
       }
     },
     {
+      "name": "allies",
+      "label": "Allies",
+      "path": "packs/allies",
+      "type": "Actor",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "generators",
       "label": "Generators",
       "path": "packs/generators",
@@ -123,6 +133,7 @@
       [
         "adversary-creation",
         "adversaries",
+        "allies",
         "character-inventory",
         "effects",
         "generators",
