@@ -95,6 +95,28 @@
       }
     },
     {
+      "name": "skills",
+      "label": "Skills",
+      "path": "packs/skills",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      }
+    },
+    {
       "name": "effects",
       "label": "Effects",
       "path": "packs/effects",
@@ -135,6 +157,8 @@
         "adversaries",
         "allies",
         "character-inventory",
+        "skills",
+        "spells",
         "effects",
         "generators",
         "macros",

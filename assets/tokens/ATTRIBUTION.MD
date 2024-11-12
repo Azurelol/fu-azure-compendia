@@ -55,6 +55,11 @@
 - sea abismos, sea arman, sea armes, sea armon, sea beach dark star, sea shark, sea spheria, sea shelltacle
 - undead benkei
 - werewolf rigel, weretiger maxima
+- colossal hydra, colossal snake
+- crocodile warriors*
+- eldritch*
+- darkness*
+- earth mandrake
 
 # [OpenGameArt](https://opengameart.org/)
 
@@ -141,3 +146,7 @@ The following licenses were used below (pardon me if I miss one):
 [Blarumyrran](https://opengameart.org/users/blarumyrran)
 [Sharm](https://opengameart.org/users/sharm)
 - dragon_*
+
+[Joline/Liquitty]
+- Olivia_fu
+- *_iconic

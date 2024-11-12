@@ -191,7 +191,11 @@ class Azurecompendia {
         return this.getCharacterTier(level)
     }
 
-    static recoverSelectedActorHitPoints(effect) {
+    static forSelectedActors() {
+        
+    }
+
+    static gainHitPointsForSelection(effect) {
         const actor = this.getSelectedActor()
         if (actor == null) {
             return
@@ -204,11 +208,11 @@ class Azurecompendia {
 
         ChatMessage.create({
             user: game.user._id,
-            content: `<b>${actor.name}</b> recovers <b>${amount}</b> hit points`
+            content: `<b>${actor.name}</b> gains <b>${amount}</b> hit points`
           });
     }
 
-    static recoverSelectedActorMindPoints(effect) {
+    static gainMindPointsForSelection(effect) {
         const actor = this.getSelectedActor()
         if (actor == null) {
             return
@@ -221,7 +225,24 @@ class Azurecompendia {
 
         ChatMessage.create({
             user: game.user._id,
-            content: `<b>${actor.name}</b> recovers <b>${amount}</b> mind points`
+            content: `<b>${actor.name}</b> gains <b>${amount}</b> mind points`
+          });
+    }
+
+    static loseMindPointsForSelection(effect) {
+        const actor = this.getSelectedActor()
+        if (actor == null) {
+            return
+        }
+
+        const tier = this.getActorTier(actor)
+        const amount = this.calculateImprovisedScalar(tier, effect)
+        const newAmount = actor.system.resources.mp.value - amount;
+        actor.update({'system.resources.mp.value': Math.min(0, newAmount)});
+
+        ChatMessage.create({
+            user: game.user._id,
+            content: `<b>${actor.name}</b> loses <b>${amount}</b> mind points`
           });
     }
 }
