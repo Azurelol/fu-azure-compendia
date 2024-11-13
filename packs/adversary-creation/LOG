@@ -1,8 +1,17 @@
-2024/11/12-21:55:27.711 2a78 Recovering log #448
-2024/11/12-21:55:27.714 2a78 Delete type=0 #448
-2024/11/12-21:55:27.714 2a78 Delete type=3 #446
-2024/11/12-22:25:17.980 4f9c Level-0 table #454: started
-2024/11/12-22:25:17.981 4f9c Level-0 table #454: 1090 bytes OK
-2024/11/12-22:25:17.982 4f9c Delete type=0 #452
-2024/11/12-22:25:17.985 4f9c Manual compaction at level-0 from '!folders!KYgu1b1Zvm1W4uef' @ 72057594037927935 : 1 .. '!items!ybj2poK2whkHOV4h' @ 0 : 0; will stop at (end)
-2024/11/12-22:25:17.985 4f9c Manual compaction at level-1 from '!folders!KYgu1b1Zvm1W4uef' @ 72057594037927935 : 1 .. '!items!ybj2poK2whkHOV4h' @ 0 : 0; will stop at (end)
+2024/11/13-20:29:24.240 8e0 Recovering log #453
+2024/11/13-20:29:24.246 8e0 Delete type=0 #453
+2024/11/13-20:29:24.247 8e0 Delete type=3 #451
+2024/11/13-22:50:13.586 6868 Level-0 table #458: started
+2024/11/13-22:50:13.587 6868 Level-0 table #458: 1965 bytes OK
+2024/11/13-22:50:13.588 6868 Delete type=0 #456
+2024/11/13-22:50:13.593 6868 Manual compaction at level-0 from '!folders!KYgu1b1Zvm1W4uef' @ 72057594037927935 : 1 .. '!items!ybj2poK2whkHOV4h' @ 0 : 0; will stop at (end)
+2024/11/13-22:50:13.593 6868 Expanding@1 1+1 (1965+40409 bytes) to 2+1 (3055+40409 bytes)
+2024/11/13-22:50:13.593 6868 Manual compaction at level-1 from '!folders!KYgu1b1Zvm1W4uef' @ 72057594037927935 : 1 .. '!items!ybj2poK2whkHOV4h' @ 0 : 0; will stop at '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 5264 : 0
+2024/11/13-22:50:13.593 6868 Compacting 2@1 + 1@2 files
+2024/11/13-22:50:13.595 6868 Generated table #459@1: 85 keys, 31740 bytes
+2024/11/13-22:50:13.595 6868 Compacted 2@1 + 1@2 files => 31740 bytes
+2024/11/13-22:50:13.596 6868 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/13-22:50:13.596 6868 Delete type=2 #450
+2024/11/13-22:50:13.596 6868 Delete type=2 #454
+2024/11/13-22:50:13.596 6868 Delete type=2 #458
+2024/11/13-22:50:13.617 6868 Manual compaction at level-1 from '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 5264 : 0 .. '!items!ybj2poK2whkHOV4h' @ 0 : 0; will stop at (end)
