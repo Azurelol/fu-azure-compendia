@@ -34,16 +34,6 @@
   ],
   "packs": [
     {
-      "name": "adversary-creation",
-      "label": "Adversary Creation",
-      "path": "packs/adversary-creation",
-      "type": "Item",
-      "system": "projectfu",
-      "ownership": {
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "adversaries",
       "label": "Adversaries",
       "path": "packs/adversaries",
@@ -163,10 +153,8 @@
       "color": "#08718c",
       "packs":
       [
-        "adversary-creation",
         "adversaries",
         "allies",
-        "character-inventory",
         "attacks",
         "skills",
         "spells",
@@ -174,6 +162,7 @@
         "generators",
         "macros",
         "guides",
+        "character-inventory",
         "press-start"
       ]      
     }
