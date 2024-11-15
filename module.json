@@ -95,6 +95,16 @@
       }
     },
     {
+      "name": "attacks",
+      "label": "Attacks",
+      "path": "packs/attacks",
+      "type": "Item",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "skills",
       "label": "Skills",
       "path": "packs/skills",
@@ -157,6 +167,7 @@
         "adversaries",
         "allies",
         "character-inventory",
+        "attacks",
         "skills",
         "spells",
         "effects",
