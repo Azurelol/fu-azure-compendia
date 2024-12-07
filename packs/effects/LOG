@@ -1,14 +1,14 @@
-2024/11/19-16:58:39.422 2fc0 Recovering log #125
-2024/11/19-16:58:39.426 2fc0 Delete type=0 #125
-2024/11/19-16:58:39.426 2fc0 Delete type=3 #123
-2024/11/19-18:04:58.291 4368 Level-0 table #131: started
-2024/11/19-18:04:58.294 4368 Level-0 table #131: 4506 bytes OK
-2024/11/19-18:04:58.296 4368 Delete type=0 #129
-2024/11/19-18:04:58.301 4368 Manual compaction at level-0 from '!folders!3BLIDFMsgi1NtvSX' @ 72057594037927935 : 1 .. '!items.effects!zqmBtaCGTo9DVmyR.8tjBfhHpqeHzk6uW' @ 0 : 0; will stop at '!items.effects!oOA6Cimb9xHwkaG8.eLmQVE9rb20iV1Hl' @ 839 : 1
-2024/11/19-18:04:58.301 4368 Compacting 1@0 + 1@1 files
-2024/11/19-18:04:58.303 4368 Generated table #132@0: 154 keys, 47099 bytes
-2024/11/19-18:04:58.303 4368 Compacted 1@0 + 1@1 files => 47099 bytes
-2024/11/19-18:04:58.305 4368 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/11/19-18:04:58.305 4368 Delete type=2 #127
-2024/11/19-18:04:58.305 4368 Delete type=2 #131
-2024/11/19-18:04:58.307 4368 Manual compaction at level-0 from '!items.effects!oOA6Cimb9xHwkaG8.eLmQVE9rb20iV1Hl' @ 839 : 1 .. '!items.effects!zqmBtaCGTo9DVmyR.8tjBfhHpqeHzk6uW' @ 0 : 0; will stop at (end)
+2024/12/07-18:54:09.949 4710 Recovering log #188
+2024/12/07-18:54:09.953 4710 Delete type=0 #188
+2024/12/07-18:54:09.953 4710 Delete type=3 #187
+2024/12/07-21:06:38.813 d44 Level-0 table #192: started
+2024/12/07-21:06:38.815 d44 Level-0 table #192: 5635 bytes OK
+2024/12/07-21:06:38.816 d44 Delete type=0 #190
+2024/12/07-21:06:38.816 d44 Manual compaction at level-0 from '!folders!3BLIDFMsgi1NtvSX' @ 72057594037927935 : 1 .. '!items.effects!zqmBtaCGTo9DVmyR.8tjBfhHpqeHzk6uW' @ 0 : 0; will stop at '!items.effects!eR3MKrx76pWhyJdn.YJtrcxzMCgHmUVpU' @ 920 : 0
+2024/12/07-21:06:38.816 d44 Compacting 1@0 + 1@1 files
+2024/12/07-21:06:38.819 d44 Generated table #193@0: 150 keys, 46272 bytes
+2024/12/07-21:06:38.819 d44 Compacted 1@0 + 1@1 files => 46272 bytes
+2024/12/07-21:06:38.820 d44 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/12/07-21:06:38.821 d44 Delete type=2 #186
+2024/12/07-21:06:38.821 d44 Delete type=2 #192
+2024/12/07-21:06:38.826 d44 Manual compaction at level-0 from '!items.effects!eR3MKrx76pWhyJdn.YJtrcxzMCgHmUVpU' @ 920 : 0 .. '!items.effects!zqmBtaCGTo9DVmyR.8tjBfhHpqeHzk6uW' @ 0 : 0; will stop at (end)
