@@ -1,15 +1,21 @@
-2024/12/31-09:42:04.211 22f0 Recovering log #151
-2024/12/31-09:42:04.215 22f0 Delete type=0 #151
-2024/12/31-09:42:04.215 22f0 Delete type=3 #149
-2024/12/31-20:07:29.723 c94 Level-0 table #157: started
-2024/12/31-20:07:29.725 c94 Level-0 table #157: 24423 bytes OK
-2024/12/31-20:07:29.726 c94 Delete type=0 #155
-2024/12/31-20:07:29.732 c94 Manual compaction at level-0 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at (end)
-2024/12/31-20:07:29.735 c94 Manual compaction at level-1 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at '!items!wxmBUwfZHjnVRddX' @ 1021 : 1
-2024/12/31-20:07:29.735 c94 Compacting 1@1 + 1@2 files
-2024/12/31-20:07:29.739 c94 Generated table #158@1: 257 keys, 124800 bytes
-2024/12/31-20:07:29.739 c94 Compacted 1@1 + 1@2 files => 124800 bytes
-2024/12/31-20:07:29.740 c94 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/31-20:07:29.740 c94 Delete type=2 #153
-2024/12/31-20:07:29.740 c94 Delete type=2 #157
-2024/12/31-20:07:29.746 c94 Manual compaction at level-1 from '!items!wxmBUwfZHjnVRddX' @ 1021 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at (end)
+2025/01/14-17:09:47.408 4290 Recovering log #190
+2025/01/14-17:09:47.412 4290 Delete type=0 #190
+2025/01/14-17:09:47.412 4290 Delete type=3 #189
+2025/01/14-17:42:49.001 4c84 Level-0 table #194: started
+2025/01/14-17:42:49.001 4c84 Level-0 table #194: 0 bytes OK
+2025/01/14-17:42:49.002 4c84 Delete type=0 #192
+2025/01/14-17:42:49.004 4c84 Manual compaction at level-0 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at '!items!UWyMYBrbzdbrUuZ5' @ 1067 : 1
+2025/01/14-17:42:49.004 4c84 Compacting 1@0 + 0@1 files
+2025/01/14-17:42:49.005 4c84 Generated table #195@0: 1 keys, 1064 bytes
+2025/01/14-17:42:49.005 4c84 Compacted 1@0 + 0@1 files => 1064 bytes
+2025/01/14-17:42:49.006 4c84 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/14-17:42:49.007 4c84 Delete type=2 #187
+2025/01/14-17:42:49.007 4c84 Manual compaction at level-0 from '!items!UWyMYBrbzdbrUuZ5' @ 1067 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at (end)
+2025/01/14-17:42:49.007 4c84 Manual compaction at level-1 from '!folders!02EELzRzHhrEwzoj' @ 72057594037927935 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at '!items!UWyMYBrbzdbrUuZ5' @ 1067 : 1
+2025/01/14-17:42:49.007 4c84 Compacting 1@1 + 1@2 files
+2025/01/14-17:42:49.011 4c84 Generated table #196@1: 258 keys, 125200 bytes
+2025/01/14-17:42:49.011 4c84 Compacted 1@1 + 1@2 files => 125200 bytes
+2025/01/14-17:42:49.012 4c84 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/14-17:42:49.012 4c84 Delete type=2 #169
+2025/01/14-17:42:49.012 4c84 Delete type=2 #195
+2025/01/14-17:42:49.018 4c84 Manual compaction at level-1 from '!items!UWyMYBrbzdbrUuZ5' @ 1067 : 1 .. '!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx' @ 0 : 0; will stop at (end)
