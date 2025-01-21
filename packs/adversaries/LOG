@@ -1,23 +1,8 @@
-2025/01/14-17:09:47.328 4740 Recovering log #603
-2025/01/14-17:09:47.329 4740 Level-0 table #605: started
-2025/01/14-17:09:47.331 4740 Level-0 table #605: 24930 bytes OK
-2025/01/14-17:09:47.335 4740 Delete type=0 #603
-2025/01/14-17:09:47.335 4740 Delete type=3 #602
-2025/01/14-17:42:48.965 4c84 Level-0 table #608: started
-2025/01/14-17:42:48.965 4c84 Level-0 table #608: 0 bytes OK
-2025/01/14-17:42:48.967 4c84 Delete type=0 #606
-2025/01/14-17:42:48.967 4c84 Manual compaction at level-0 from '!actors!0GquDVv4WHNRIJNG' @ 72057594037927935 : 1 .. '!folders!tIOEVSbnWaEuEk4L' @ 0 : 0; will stop at '!actors.effects!JJkdYuGSjIXWwC0U.DFhHtLFvvEczWcP8' @ 12523 : 1
-2025/01/14-17:42:48.967 4c84 Compacting 1@0 + 0@1 files
-2025/01/14-17:42:48.968 4c84 Generated table #609@0: 4 keys, 4675 bytes
-2025/01/14-17:42:48.968 4c84 Compacted 1@0 + 0@1 files => 4675 bytes
-2025/01/14-17:42:48.969 4c84 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/01/14-17:42:48.969 4c84 Delete type=2 #605
-2025/01/14-17:42:48.969 4c84 Manual compaction at level-0 from '!actors.effects!JJkdYuGSjIXWwC0U.DFhHtLFvvEczWcP8' @ 12523 : 1 .. '!folders!tIOEVSbnWaEuEk4L' @ 0 : 0; will stop at (end)
-2025/01/14-17:42:48.969 4c84 Manual compaction at level-1 from '!actors!0GquDVv4WHNRIJNG' @ 72057594037927935 : 1 .. '!folders!tIOEVSbnWaEuEk4L' @ 0 : 0; will stop at '!actors.effects!JJkdYuGSjIXWwC0U.DFhHtLFvvEczWcP8' @ 12526 : 0
-2025/01/14-17:42:48.969 4c84 Compacting 1@1 + 1@2 files
-2025/01/14-17:42:48.988 4c84 Generated table #610@1: 1907 keys, 1242612 bytes
-2025/01/14-17:42:48.988 4c84 Compacted 1@1 + 1@2 files => 1242612 bytes
-2025/01/14-17:42:48.988 4c84 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/01/14-17:42:48.988 4c84 Delete type=2 #601
-2025/01/14-17:42:48.989 4c84 Delete type=2 #609
-2025/01/14-17:42:48.995 4c84 Manual compaction at level-1 from '!actors.effects!JJkdYuGSjIXWwC0U.DFhHtLFvvEczWcP8' @ 12526 : 0 .. '!folders!tIOEVSbnWaEuEk4L' @ 0 : 0; will stop at (end)
+2025/01/21-17:13:44.777 69c4 Recovering log #631
+2025/01/21-17:13:44.781 69c4 Delete type=0 #631
+2025/01/21-17:13:44.781 69c4 Delete type=3 #629
+2025/01/21-17:36:43.476 6be0 Level-0 table #636: started
+2025/01/21-17:36:43.477 6be0 Level-0 table #636: 0 bytes OK
+2025/01/21-17:36:43.478 6be0 Delete type=0 #634
+2025/01/21-17:36:43.480 6be0 Manual compaction at level-0 from '!actors!0GquDVv4WHNRIJNG' @ 72057594037927935 : 1 .. '!folders!tIOEVSbnWaEuEk4L' @ 0 : 0; will stop at (end)
+2025/01/21-17:36:43.480 6be0 Manual compaction at level-1 from '!actors!0GquDVv4WHNRIJNG' @ 72057594037927935 : 1 .. '!folders!tIOEVSbnWaEuEk4L' @ 0 : 0; will stop at (end)

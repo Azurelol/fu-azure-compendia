@@ -1,21 +1,8 @@
-2025/01/14-17:09:47.420 600c Recovering log #183
-2025/01/14-17:09:47.424 600c Delete type=0 #183
-2025/01/14-17:09:47.424 600c Delete type=3 #182
-2025/01/14-17:42:49.014 4c84 Level-0 table #187: started
-2025/01/14-17:42:49.014 4c84 Level-0 table #187: 0 bytes OK
-2025/01/14-17:42:49.015 4c84 Delete type=0 #185
-2025/01/14-17:42:49.022 4c84 Manual compaction at level-0 from '!folders!3bUW8RxjfwdHZaeH' @ 72057594037927935 : 1 .. '!items!yi5dwj5hKi7QZMwL' @ 0 : 0; will stop at '!items!NfeRKAgrOHxtKQIP' @ 346 : 1
-2025/01/14-17:42:49.022 4c84 Compacting 1@0 + 0@1 files
-2025/01/14-17:42:49.023 4c84 Generated table #188@0: 1 keys, 1497 bytes
-2025/01/14-17:42:49.023 4c84 Compacted 1@0 + 0@1 files => 1497 bytes
-2025/01/14-17:42:49.024 4c84 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/01/14-17:42:49.024 4c84 Delete type=2 #180
-2025/01/14-17:42:49.027 4c84 Manual compaction at level-0 from '!items!NfeRKAgrOHxtKQIP' @ 346 : 1 .. '!items!yi5dwj5hKi7QZMwL' @ 0 : 0; will stop at (end)
-2025/01/14-17:42:49.031 4c84 Manual compaction at level-1 from '!folders!3bUW8RxjfwdHZaeH' @ 72057594037927935 : 1 .. '!items!yi5dwj5hKi7QZMwL' @ 0 : 0; will stop at '!items!NfeRKAgrOHxtKQIP' @ 346 : 1
-2025/01/14-17:42:49.031 4c84 Compacting 1@1 + 1@2 files
-2025/01/14-17:42:49.033 4c84 Generated table #189@1: 103 keys, 66366 bytes
-2025/01/14-17:42:49.033 4c84 Compacted 1@1 + 1@2 files => 66366 bytes
-2025/01/14-17:42:49.034 4c84 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/01/14-17:42:49.034 4c84 Delete type=2 #162
-2025/01/14-17:42:49.035 4c84 Delete type=2 #188
-2025/01/14-17:42:49.045 4c84 Manual compaction at level-1 from '!items!NfeRKAgrOHxtKQIP' @ 346 : 1 .. '!items!yi5dwj5hKi7QZMwL' @ 0 : 0; will stop at (end)
+2025/01/21-17:13:44.859 5a04 Recovering log #208
+2025/01/21-17:13:44.862 5a04 Delete type=0 #208
+2025/01/21-17:13:44.862 5a04 Delete type=3 #206
+2025/01/21-17:36:43.494 6be0 Level-0 table #213: started
+2025/01/21-17:36:43.494 6be0 Level-0 table #213: 0 bytes OK
+2025/01/21-17:36:43.497 6be0 Delete type=0 #211
+2025/01/21-17:36:43.500 6be0 Manual compaction at level-0 from '!folders!3bUW8RxjfwdHZaeH' @ 72057594037927935 : 1 .. '!items!yi5dwj5hKi7QZMwL' @ 0 : 0; will stop at (end)
+2025/01/21-17:36:43.500 6be0 Manual compaction at level-1 from '!folders!3bUW8RxjfwdHZaeH' @ 72057594037927935 : 1 .. '!items!yi5dwj5hKi7QZMwL' @ 0 : 0; will stop at (end)
