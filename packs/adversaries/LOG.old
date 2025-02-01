@@ -1,3 +1,8 @@
-2025/02/01-10:39:38.438 3a20 Recovering log #676
-2025/02/01-10:39:38.443 3a20 Delete type=0 #676
-2025/02/01-10:39:38.443 3a20 Delete type=3 #675
+2025/02/01-11:17:48.970 7394 Recovering log #678
+2025/02/01-11:17:48.973 7394 Delete type=0 #678
+2025/02/01-11:17:48.973 7394 Delete type=3 #677
+2025/02/01-13:35:40.170 7cfc Level-0 table #682: started
+2025/02/01-13:35:40.170 7cfc Level-0 table #682: 0 bytes OK
+2025/02/01-13:35:40.171 7cfc Delete type=0 #680
+2025/02/01-13:35:40.174 7cfc Manual compaction at level-0 from '!actors!0GquDVv4WHNRIJNG' @ 72057594037927935 : 1 .. '!folders!tIOEVSbnWaEuEk4L' @ 0 : 0; will stop at (end)
+2025/02/01-13:35:40.183 7cfc Manual compaction at level-1 from '!actors!0GquDVv4WHNRIJNG' @ 72057594037927935 : 1 .. '!folders!tIOEVSbnWaEuEk4L' @ 0 : 0; will stop at (end)

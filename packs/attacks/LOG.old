@@ -1,3 +1,8 @@
-2025/02/01-10:39:38.511 4d54 Recovering log #222
-2025/02/01-10:39:38.516 4d54 Delete type=0 #222
-2025/02/01-10:39:38.516 4d54 Delete type=3 #221
+2025/02/01-11:17:49.027 5864 Recovering log #224
+2025/02/01-11:17:49.030 5864 Delete type=0 #224
+2025/02/01-11:17:49.030 5864 Delete type=3 #223
+2025/02/01-13:35:40.157 7cfc Level-0 table #228: started
+2025/02/01-13:35:40.157 7cfc Level-0 table #228: 0 bytes OK
+2025/02/01-13:35:40.158 7cfc Delete type=0 #226
+2025/02/01-13:35:40.162 7cfc Manual compaction at level-0 from '!folders!MgMKdbFzDjpQzPDq' @ 72057594037927935 : 1 .. '!items!ybj2poK2whkHOV4h' @ 0 : 0; will stop at (end)
+2025/02/01-13:35:40.162 7cfc Manual compaction at level-1 from '!folders!MgMKdbFzDjpQzPDq' @ 72057594037927935 : 1 .. '!items!ybj2poK2whkHOV4h' @ 0 : 0; will stop at (end)
