@@ -1,8 +1,15 @@
-2025/01/28-17:07:11.814 8730 Recovering log #601
-2025/01/28-17:07:11.819 8730 Delete type=0 #601
-2025/01/28-17:07:11.819 8730 Delete type=3 #599
-2025/01/28-17:52:40.309 8b94 Level-0 table #606: started
-2025/01/28-17:52:40.309 8b94 Level-0 table #606: 0 bytes OK
-2025/01/28-17:52:40.310 8b94 Delete type=0 #604
-2025/01/28-17:52:40.310 8b94 Manual compaction at level-0 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.xzXAaSCkStCIoXok' @ 0 : 0; will stop at (end)
-2025/01/28-17:52:40.312 8b94 Manual compaction at level-1 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.xzXAaSCkStCIoXok' @ 0 : 0; will stop at (end)
+2025/02/01-11:17:49.003 6b94 Recovering log #616
+2025/02/01-11:17:49.006 6b94 Delete type=0 #616
+2025/02/01-11:17:49.006 6b94 Delete type=3 #615
+2025/02/01-13:35:40.147 7cfc Level-0 table #620: started
+2025/02/01-13:35:40.148 7cfc Level-0 table #620: 22189 bytes OK
+2025/02/01-13:35:40.151 7cfc Delete type=0 #618
+2025/02/01-13:35:40.151 7cfc Manual compaction at level-0 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.xzXAaSCkStCIoXok' @ 0 : 0; will stop at (end)
+2025/02/01-13:35:40.151 7cfc Manual compaction at level-1 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.xzXAaSCkStCIoXok' @ 0 : 0; will stop at '!tables.results!xZ5yD7AJteeZwEJQ.xzXAaSCkStCIoXok' @ 3578 : 0
+2025/02/01-13:35:40.151 7cfc Compacting 1@1 + 1@2 files
+2025/02/01-13:35:40.154 7cfc Generated table #621@1: 64 keys, 10216 bytes
+2025/02/01-13:35:40.154 7cfc Compacted 1@1 + 1@2 files => 10216 bytes
+2025/02/01-13:35:40.155 7cfc compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/01-13:35:40.155 7cfc Delete type=2 #288
+2025/02/01-13:35:40.155 7cfc Delete type=2 #620
+2025/02/01-13:35:40.162 7cfc Manual compaction at level-1 from '!tables.results!xZ5yD7AJteeZwEJQ.xzXAaSCkStCIoXok' @ 3578 : 0 .. '!tables.results!xZ5yD7AJteeZwEJQ.xzXAaSCkStCIoXok' @ 0 : 0; will stop at (end)
