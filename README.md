@@ -6,16 +6,18 @@ A Foundry VTT compendia for the Fabula Ultima system.
 
 `https://github.com/Azurelol/fu-azure-compendia/releases/latest/download/module.json`
 
+It is meant to be a supplement to help fellow GMs run their game.
+
 ## Features
 
 The following compendiums are present at this time of writing:
 
 - **Adversaries**: Generic NPCs of each creature type. (Note that while some of them have art, many don't)
 - **Adversary Creation**: Items such as attacks, skills, spells for creating and/or customizing NPCs.
-- **Generators**: Useful random tables for use during play such as rolling for random events or dangers.
+- **Generators**: Useful random tables for use during play such as rolling for random events, dangers, prompts, discoveries and traps!
 - **Guides**: Journals with explanations on how to create adversaries, run dungeons or even a campaign.
-- **Character Inventory**: Equipment and consumables for player characters!
-- **Macros**: To be used during play.
+- **Character Inventory**: Equipment and consumables for player characters! Regularly updated as the designs improve.
+- **Macros**: To be used during play for rolling on random tables.
 - **Press Start**: An adventure module to help you get started by running the adventure for your group.
 
 ## Dependencies

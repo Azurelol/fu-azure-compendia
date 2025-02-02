@@ -1,15 +1,8 @@
-2025/02/01-14:15:31.511 5864 Recovering log #546
-2025/02/01-14:15:31.516 5864 Delete type=0 #546
-2025/02/01-14:15:31.516 5864 Delete type=3 #544
-2025/02/01-19:27:04.020 7cfc Level-0 table #551: started
-2025/02/01-19:27:04.021 7cfc Level-0 table #551: 3431 bytes OK
-2025/02/01-19:27:04.023 7cfc Delete type=0 #549
-2025/02/01-19:27:04.033 7cfc Manual compaction at level-0 from '!folders!cYboTilysLIvvBor' @ 72057594037927935 : 1 .. '!macros!xbUmSEfMqTdWqOTl' @ 0 : 0; will stop at (end)
-2025/02/01-19:27:04.034 7cfc Manual compaction at level-1 from '!folders!cYboTilysLIvvBor' @ 72057594037927935 : 1 .. '!macros!xbUmSEfMqTdWqOTl' @ 0 : 0; will stop at '!macros!xbUmSEfMqTdWqOTl' @ 185 : 1
-2025/02/01-19:27:04.034 7cfc Compacting 1@1 + 1@2 files
-2025/02/01-19:27:04.036 7cfc Generated table #552@1: 13 keys, 3357 bytes
-2025/02/01-19:27:04.036 7cfc Compacted 1@1 + 1@2 files => 3357 bytes
-2025/02/01-19:27:04.037 7cfc compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/02/01-19:27:04.038 7cfc Delete type=2 #477
-2025/02/01-19:27:04.038 7cfc Delete type=2 #551
-2025/02/01-19:27:04.044 7cfc Manual compaction at level-1 from '!macros!xbUmSEfMqTdWqOTl' @ 185 : 1 .. '!macros!xbUmSEfMqTdWqOTl' @ 0 : 0; will stop at (end)
+2025/02/02-12:08:02.412 10e0 Recovering log #554
+2025/02/02-12:08:02.416 10e0 Delete type=0 #554
+2025/02/02-12:08:02.416 10e0 Delete type=3 #553
+2025/02/02-19:01:11.568 5334 Level-0 table #558: started
+2025/02/02-19:01:11.568 5334 Level-0 table #558: 0 bytes OK
+2025/02/02-19:01:11.569 5334 Delete type=0 #556
+2025/02/02-19:01:11.573 5334 Manual compaction at level-0 from '!folders!cYboTilysLIvvBor' @ 72057594037927935 : 1 .. '!macros!xbUmSEfMqTdWqOTl' @ 0 : 0; will stop at (end)
+2025/02/02-19:01:11.579 5334 Manual compaction at level-1 from '!folders!cYboTilysLIvvBor' @ 72057594037927935 : 1 .. '!macros!xbUmSEfMqTdWqOTl' @ 0 : 0; will stop at (end)
