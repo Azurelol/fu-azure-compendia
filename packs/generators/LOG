@@ -1,15 +1,8 @@
-2025/02/02-12:08:02.342 3f60 Recovering log #628
-2025/02/02-12:08:02.346 3f60 Delete type=0 #628
-2025/02/02-12:08:02.346 3f60 Delete type=3 #627
-2025/02/02-19:01:11.533 5334 Level-0 table #632: started
-2025/02/02-19:01:11.538 5334 Level-0 table #632: 99871 bytes OK
-2025/02/02-19:01:11.539 5334 Delete type=0 #630
-2025/02/02-19:01:11.547 5334 Manual compaction at level-0 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.s6N1EWpkNs5sAymo' @ 0 : 0; will stop at (end)
-2025/02/02-19:01:11.548 5334 Manual compaction at level-1 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.s6N1EWpkNs5sAymo' @ 0 : 0; will stop at '!tables.results!qLmjwS7NhlvvsxZL.zsel19q3Qp4muS8t' @ 8336 : 1
-2025/02/02-19:01:11.549 5334 Compacting 1@1 + 1@2 files
-2025/02/02-19:01:11.551 5334 Generated table #633@1: 99 keys, 15165 bytes
-2025/02/02-19:01:11.551 5334 Compacted 1@1 + 1@2 files => 15165 bytes
-2025/02/02-19:01:11.552 5334 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/02/02-19:01:11.552 5334 Delete type=2 #626
-2025/02/02-19:01:11.552 5334 Delete type=2 #632
-2025/02/02-19:01:11.561 5334 Manual compaction at level-1 from '!tables.results!qLmjwS7NhlvvsxZL.zsel19q3Qp4muS8t' @ 8336 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.s6N1EWpkNs5sAymo' @ 0 : 0; will stop at (end)
+2025/02/12-18:56:51.733 5158 Recovering log #670
+2025/02/12-18:56:51.737 5158 Delete type=0 #670
+2025/02/12-18:56:51.738 5158 Delete type=3 #668
+2025/02/12-22:41:33.122 2030 Level-0 table #675: started
+2025/02/12-22:41:33.122 2030 Level-0 table #675: 0 bytes OK
+2025/02/12-22:41:33.131 2030 Delete type=0 #673
+2025/02/12-22:41:33.132 2030 Manual compaction at level-0 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.s6N1EWpkNs5sAymo' @ 0 : 0; will stop at (end)
+2025/02/12-22:41:33.132 2030 Manual compaction at level-1 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.s6N1EWpkNs5sAymo' @ 0 : 0; will stop at (end)
