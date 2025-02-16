@@ -1,4 +1,4 @@
-class Azurecompendia {
+export class Azurecompendia {
 
     /**
      * The id of the package in the manifest
@@ -41,9 +41,3 @@ class Azurecompendia {
         return s;
     }; 
 }
-
-Hooks.once('devModeReady', ({ registerPackageDebugFlag }) => {
-    registerPackageDebugFlag(ToDoList.ID);
-});
-
-Azurecompendia.log('Hello World!');

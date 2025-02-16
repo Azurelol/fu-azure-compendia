@@ -16,7 +16,17 @@
         "type": "system",
         "compatibility": {}
       }
-    ]
+    ],
+    "requires": [
+      {
+          "id": "sequencer",
+          "type": "module",
+          "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json",
+          "compatibility": {
+              "minimum": "3.4.8"
+          }
+      }
+  ]
   },
   "authors": [
     {
@@ -26,8 +36,8 @@
       "flags": {}
     }
   ],
-  "scripts": [
-    "scripts/azure-compendia.js"
+  "esmodules": [
+    "azure-compendia.mjs"
   ],
   "styles": [
     "styles/azure-compendia.css"
