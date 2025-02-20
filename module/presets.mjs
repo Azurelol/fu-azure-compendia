@@ -64,10 +64,19 @@ const presets = Object.freeze({
     weak: new Preset("jb2a.icon.shield_cracked").withSound("fu-azure-compendia.sounds.status.weak").withDuration(1.5),
     enraged: new Preset("jb2a.icon.drop").withSound("fu-azure-compendia.sounds.status.enraged").withDuration(1.5),
     slow: new Preset("jb2a.icon.snowflake").withSound("fu-azure-compendia.sounds.status.slow").withDuration(1.5),
+    // Default attack
+    meleeAttack: new Preset('jb2a.melee_generic'),
+    rangedAttack: new Preset('jb2a.ranged.03'),
     // Specific: Will be used if found (Skills, Attacks, Misc. Abilities)
-
-
-
+    claw: new Preset('jb2a.claws'),
+    bite: new Preset('jb2a.bite'),
+    fist: new Preset('jb2a.melee_generic.creature_attack.fist'),
+    pincer: new Preset('jb2a.melee_generic.creature_attack.pincer'),
+    splash: new Preset('jb2a.water_splash'),
+    // Action Animations
+    spell: new Preset("jb2a.magic_signs.circle.02.conjuration.intro").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
+    // Spells
+    fireAttack: new Preset('jb2a.scorching_ray'),
 
 });
 
@@ -89,12 +98,54 @@ const supportedWeapons = new Set([
     "custom"
 ]);
 
-function getWeapon(traits) {
-    const chosenWeapons = [...supportedWeapons].filter(item => traits.has(item));
-    if (chosenWeapons.length === 1) {
-        return chosenWeapons[0]
+const supportedAttacks = new Set([
+    "claw",
+    "bite",
+    "fist",
+    "pincer",
+    "splash",
+]);
+
+/**
+ * @returns {Preset}
+ */
+function resolveWeapon(traits) {
+    const matches = [...supportedWeapons].filter(item => traits.has(item));
+    if (matches.length === 1) {
+        return get(matches[0])
     }
     return null;
+}
+
+const name_trait = "name:"
+
+/**
+ * @returns {Preset}
+ */
+function resolveAttack(traits) {
+    const nameTrait = [...traits].find(value => value.startsWith(name_trait));
+    if (nameTrait) {
+        const name = nameTrait.replace(name_trait, "");
+        for (const atk of supportedAttacks) {
+            if (name.includes(atk)) {
+                return get(atk);
+            }
+        }
+    }
+    if (traits.has("melee")) {
+        return presets.meleeAttack;
+    }
+    else if (traits.has("ranged")) {
+        return presets.rangedAttack;
+    }
+    return null;
+}
+
+/**
+ * @returns {Preset}
+ */
+function resolveSpell(traits) {
+    return presets.rangedAttack;
 }
 
 /**
@@ -106,5 +157,7 @@ function get(name) {
 
 export const AzureCompendiaPresets = Object.freeze({
     get,
-    getWeapon
+    resolveWeapon,
+    resolveAttack,
+    resolveSpell
 })

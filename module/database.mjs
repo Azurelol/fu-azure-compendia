@@ -101,7 +101,7 @@ const entries = {
             firearm: [
                 toEntry("firearm-gunshot-1.mp3"),
                 toEntry("firearm-gunshot-2.mp3"),
-                toEntry("firearm-gunshot-3.mp3"),
+                toEntry("firearm-shotgun-1.mp3"),
             ]
         },
         check: {
@@ -115,7 +115,7 @@ const entries = {
         },
         action: {
             spell: [
-                toEntry("radiant-build-up-1.mp3")
+                toEntry("spell-ray-1.mp3")
             ],
             skill: [
             ]
