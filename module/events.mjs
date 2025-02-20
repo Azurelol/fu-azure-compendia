@@ -46,7 +46,7 @@ function playMeleeAnimation(sequence, preset, sourceToken, targetToken) {
     const gridSize = canvas.grid.size;
     let hitPosition = Ray.towardsPoint(targetToken.center, sourceToken.center, gridSize).B;
 
-    const dash = !isTooClose(sourceToken, targetToken);
+    const dash = canMeleeDash && !isTooClose(sourceToken, targetToken);
     if (dash) {
         sequence.effect()
             .file("jb2a.gust_of_wind.veryfast")
@@ -91,7 +91,7 @@ function playMeleeAnimation(sequence, preset, sourceToken, targetToken) {
     }
 
     // Animate the hit
-    playSoundEffect(sequence, preset.sound);
+    playSoundEffect(sequence, preset);
     const path = preset.animation;
     sequence.effect()
         .file(path)
@@ -109,6 +109,7 @@ function playMeleeAnimation(sequence, preset, sourceToken, targetToken) {
 
 /**
  * @param {Sequence} sequence
+ * @param source
  * @param target
  */
 function shakeTarget(sequence, source, target) {
@@ -182,8 +183,9 @@ function playRangedAnimation(sequence, preset, sourceToken, targetToken) {
         return;
     }
 
-    playSoundEffect(sequence, preset.sound);
+    playSoundEffect(sequence, preset);
     const path = preset.animation;
+
     sequence.effect()
         .file(path)
         .atLocation(sourceToken)
@@ -193,22 +195,25 @@ function playRangedAnimation(sequence, preset, sourceToken, targetToken) {
 
 /**
  * @param {Sequence} sequence
- * @param {String} name
+ * @param {Preset} preset
  */
-function playSoundEffect(sequence, name) {
-    if (!name) {
+function playSoundEffect(sequence, preset) {
+    if (!preset.sound) {
         return;
     }
 
-    //const path = `${soundsDirectory}/${name}.ogg`
-    console.debug(`Playing sound ${name}`);
-    // foundry.audio.AudioHelper.play({ src: path, volume: 0.5 }, true);
+    Azurecompendia.log(`Playing sound ${preset.sound}`);
 
-    sequence
+    let section = sequence
         .sound()
-        .file(name)  // Specify your sound file
-        .volume(0.5)  // Adjust volume (optional)
+        .file(preset.sound)  // Specify your sound file
+        .volume(0.2)  // Adjust volume (optional)
         .delay(100)   // Optional delay before sound plays (in milliseconds)
+
+    if (preset.duration) {
+        section.duration(preset.duration * 1000)
+    }
+
 }
 
 /**
@@ -217,15 +222,23 @@ function playSoundEffect(sequence, name) {
  * @param token
  */
 function playAnimationOnToken(sequence, preset, token) {
-
-    playSoundEffect(sequence, preset.sound);
-
-    sequence.effect()
-        .file(preset.animation)
+    if (!preset){
+        return;
+    }
+    const animation = preset.animation;
+    Azurecompendia.log(`Playing animation ${animation} on token ${token.name}`);
+    let section = sequence.effect()
+        .file(animation)
         .atLocation(token)
         .scaleToObject(1.5, {
             considerTokenScale: true
         })
+
+    playSoundEffect(sequence, preset);
+
+    if (preset.duration) {
+        section.duration(preset.duration);
+    }
 }
 
 /////////////////
@@ -282,13 +295,14 @@ function subscribe() {
 
     Hooks.on('projectfu.events.damage', async event => {
         Azurecompendia.log(`Playing preset for damage event: ${event.type} on token: ${event.token.name} with traits: ${event.traits}`);
-        playDamagePreset(event);
+        await playDamagePreset(event);
     });
 
     Hooks.on('projectfu.events.gain', async event => {
         Azurecompendia.log(`Playing preset for gain event: ${event.resource} on token: ${event.token.name}`);
         let sequence = new Sequence();
         playAnimationOnToken(sequence, AzureCompendiaPresets.get(event.resource), event.token);
+        await sequence.play();
     });
 
     Hooks.on('projectfu.events.loss', async event => {
@@ -301,6 +315,11 @@ function subscribe() {
 
     Hooks.on('projectfu.events.status', async event => {
         Azurecompendia.log(`Playing preset for status event: ${event.status}, enabled=${event.enabled}, on token: ${event.token.name}`);
+        if (event.enabled) {
+            let sequence = new Sequence();
+            playAnimationOnToken(sequence, AzureCompendiaPresets.get(event.status), event.token);
+            await sequence.play();
+        }
     });
 
     Hooks.on('projectfu.events.combat', async event => {

@@ -3,7 +3,8 @@ const moduleId = 'fu-azure-compendia';
 // A key for each specific setting
 export const keys = Object.freeze({
   enableAnimationSystem : "enableAnimationSystem",
-  enableMeleeDash: "enableMeleeDash"
+  enableMeleeDash: "enableMeleeDash",
+  volume: "volume",
 })
 
 /**
@@ -30,9 +31,19 @@ function registerSettings() {
     config: true,   
     type: Boolean,  
     default: true,  
-    requiresReload: true,
+    requiresReload: false,
     onChange: value => console.log(`Dash enabled ? ${value}`)
-  }); 
+  });
+
+  game.settings.register(moduleId, keys.volume, {
+    name: "Volume",
+    hint: "The volume for the system's effects",
+    scope: "world",
+    config: true,
+    type: Number,
+    default: 0.5,
+    onChange: value => console.log(`Volumed ? ${value}`)
+  });
 
 }
 
