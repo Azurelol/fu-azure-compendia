@@ -74,9 +74,13 @@ const presets = Object.freeze({
     pincer: new Preset('jb2a.melee_generic.creature_attack.pincer'),
     splash: new Preset('jb2a.water_splash'),
     // Action Animations
-    spell: new Preset("jb2a.magic_signs.circle.02.conjuration.intro").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
+    spell: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
     // Spells
-    fireAttack: new Preset('jb2a.scorching_ray'),
+    fireSingle: new Preset('jb2a.scorching_ray'),
+    fireMultiple: new Preset('jb2a.explosion.01'),
+    iceSingle: new Preset('jb2a.ray_of_frost'),
+    iceMultiple: new Preset('jb2a.ice_spikes'),
+    boltMultiple: new Preset('jb2a.explosion.02')
 
 });
 
@@ -142,9 +146,18 @@ function resolveAttack(traits) {
 }
 
 /**
+ * @param {String} type
+ * @param {Boolean} multiple
+ * @param {Set<String>} traits
  * @returns {Preset}
  */
-function resolveSpell(traits) {
+function resolveSpell(type, multiple, traits) {
+    const qualifier = multiple ? 'Multiple' : 'Single';
+    const name = `${type}${qualifier}`;
+    const resolvedPreset = presets[name];
+    if (resolvedPreset) {
+        return resolvedPreset;
+    }
     return presets.rangedAttack;
 }
 

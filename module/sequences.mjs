@@ -36,8 +36,8 @@ function playSoundEffect(sequence, preset) {
 
 /**
  * @param {Sequence} sequence
- * @param source
- * @param target
+ * @param {Token} source
+ * @param {Token} target
  */
 function shakeTarget(sequence, source, target) {
 
@@ -98,11 +98,11 @@ function shakeTarget(sequence, source, target) {
  * @param {Sequence} sequence
  * @param {Set<String>} traits
  * @param {String} type
- * @param sourceToken
- * @param targetToken
+ * @param {Token} sourceToken
+ * @param {EventTarget[]} targets
  */
-function playMeleeAnimation(sequence, traits, type, sourceToken, targetToken) {
-    if (!sourceToken || !targetToken) {
+function playMeleeAnimation(sequence, traits, type, sourceToken, targets) {
+    if (!sourceToken || !targets || targets.length === 0) {
         return;
     }
 
@@ -112,24 +112,25 @@ function playMeleeAnimation(sequence, traits, type, sourceToken, targetToken) {
         attack = AzureCompendiaPresets.resolveAttack(traits);
     }
 
-    // Optional dash
     const gridSize = canvas.grid.size;
-    let hitPosition = Ray.towardsPoint(targetToken.center, sourceToken.center, gridSize).B;
+    const attackDelay = 250
+    const fadeOut = 500;
 
-    const isDashing = canMeleeDash() && !isTooClose(sourceToken, targetToken);
-    if (isDashing) {
+    // Optional dash
+    for (const target of targets) {
+        let hitPosition = Ray.towardsPoint(target.token.center, sourceToken.center, gridSize).B;
+        const miss = target.data.result === "miss";
+
         sequence.effect()
             .file("jb2a.gust_of_wind.veryfast")
             .playbackRate(2)
             .atLocation(sourceToken, {
                 cacheLocation: true
             })
-            .stretchTo(targetToken)
+            .stretchTo(target.token)
             .randomizeMirrorY()
             .belowTokens();
 
-
-        let hitRay = new Ray(sourceToken.center, targetToken.center);
         const randomId = foundry.utils.randomID();
         const duration = 1500;
 
@@ -152,45 +153,50 @@ function playMeleeAnimation(sequence, traits, type, sourceToken, targetToken) {
                 rotate: false,
                 ease: "easeOutQuint"
             })
+            .missed(miss)
             .duration(duration)
-            .fadeOut(500)
+            .fadeOut(fadeOut)
             .name(randomId)
             .animation()
             .on(sourceToken)
             .fadeOut(50)
+
+        // Animate the hit
+        playSoundEffect(sequence, attack);
+        const path = attack.animation;
+        sequence.effect()
+            .file(path)
+            .atLocation(target.token)
+            .missed(miss)
+            .scaleToObject(1.25, {
+                considerTokenScale: true
+            })
+
+        // Animate damage on token based on type
+        if (!miss) {
+            playAnimationOnToken(sequence, AzureCompendiaPresets.get(type), target.token)
+            shakeTarget(sequence, sourceToken, target.token);
+        }
+
+        sequence.wait(attackDelay)
     }
-
-    // Animate the hit
-    playSoundEffect(sequence, attack);
-    const path = attack.animation;
-    sequence.effect()
-        .file(path)
-        .atLocation(targetToken)
-        .scaleToObject(1.25, {
-            considerTokenScale: true
-        })
-
-    // Animate damage on token based on type
-    playAnimationOnToken(sequence, AzureCompendiaPresets.get(type), targetToken)
-    shakeTarget(sequence, sourceToken, targetToken);
 
     // Return
-    if (isDashing) {
-        sequence.animation()
-            .on(sourceToken)
-            .fadeIn(500);
-    }
+    sequence.wait(fadeOut)
+    sequence.animation()
+        .on(sourceToken)
+        .fadeIn(500);
 }
 
 /**
  * @param {Sequence} sequence
  * @param {Set<String>} traits
  * @param {String} type
- * @param sourceToken
- * @param targetToken
+ * @param {Token} sourceToken
+ * @param {EventTarget[]} targets
  */
-function playRangedAnimation(sequence, traits, type, sourceToken, targetToken) {
-    if (!sourceToken || !targetToken) {
+function playRangedAnimation(sequence, traits, type, sourceToken, targets) {
+    if (!sourceToken || !targets || targets.length === 0) {
         return;
     }
 
@@ -201,46 +207,85 @@ function playRangedAnimation(sequence, traits, type, sourceToken, targetToken) {
     }
 
     // Animate ranged attack from source to target
-    playSoundEffect(sequence, attack);
-    sequence.effect()
-        .file(attack.animation)
-        .atLocation(sourceToken)
-        .stretchTo(targetToken)
+    for(const target of targets){
+        const miss = target.data.result === "miss";
+        playSoundEffect(sequence, attack);
+        sequence.effect()
+            .file(attack.animation)
+            .atLocation(sourceToken)
+            .missed(miss)
+            .stretchTo(target.token)
 
-    // Animate damage on token based on type
-    playAnimationOnToken(sequence, AzureCompendiaPresets.get(type), targetToken)
-    shakeTarget(sequence, sourceToken, targetToken);
+        // Animate damage on token based on type
+        playAnimationOnToken(sequence, AzureCompendiaPresets.get(type), target.token)
+        shakeTarget(sequence, sourceToken, target.token);
+    }
 }
 
 /**
  * @param {Sequence} sequence
  * @param {Set<String>} traits
  * @param {String} type
- * @param sourceToken
- * @param targetToken
+ * @param {Token} sourceToken
+ * @param {EventTarget[]} targets
  */
-function playSpellAnimation(sequence, traits, type, sourceToken, targetToken) {
-    if (!sourceToken) {
+function playSpellAnimation(sequence, traits, type, sourceToken, targets) {
+    if (!sourceToken || !targets || targets.length === 0) {
         return;
     }
 
     // Animate spell circle
     const cast = AzureCompendiaPresets.get("spell");
-    const castSection = playAnimationOnToken(sequence, cast, sourceToken, 3);
+    const castSection = playAnimationOnToken(sequence, cast, sourceToken, 2);
     castSection.waitUntilFinished();
 
     // Select the spell animation to use
-    const spell = AzureCompendiaPresets.resolveSpell(traits);
-    // Animate ranged attack from source to target
-    playSoundEffect(sequence, spell);
-    sequence.effect()
-        .file(spell.animation)
-        .atLocation(sourceToken)
-        .stretchTo(targetToken)
+    const multiple = targets.length > 1;
+    const spell = AzureCompendiaPresets.resolveSpell(type, multiple, traits);
 
-    // Animate damage on token based on type
-    playAnimationOnToken(sequence, AzureCompendiaPresets.get(type), targetToken)
-    shakeTarget(sequence, sourceToken, targetToken);
+    // If multiple targets..
+    if (multiple) {
+        const maxTargetY = Math.max(...targets.map(t => t.token.bounds.top));
+        const maxTargetX = Math.max(...targets.map(t => t.token.bounds.right));
+        const minTargetY = Math.min(...targets.map(t => t.token.bounds.bottom));
+        const minTargetX = Math.min(...targets.map(t => t.token.bounds.left));
+        const targetHeight = maxTargetY - minTargetY;
+        const targetWidth = maxTargetX - minTargetX;
+        const aoeScale = 2
+
+        playSoundEffect(sequence, spell);
+        sequence.effect()
+            .file(spell.animation)
+            .atLocation({ x: maxTargetX - targetWidth / 2, y: maxTargetY - targetHeight / 2 })
+            .size(Math.max(targetHeight, targetWidth) * aoeScale)
+
+        for (const target of targets) {
+            const miss = target.data.result === "miss";
+            if (!miss){
+                playAnimationOnToken(sequence, AzureCompendiaPresets.get(type), target.token)
+                shakeTarget(sequence, sourceToken, target.token);
+            }
+        }
+    }
+    else{
+        // Animate ranged attack from source to target
+        for(const target of targets){
+            const miss = target.data.result === "miss";
+            playSoundEffect(sequence, spell);
+            sequence.effect()
+                .file(spell.animation)
+                .atLocation(sourceToken)
+                .missed(miss)
+                .stretchTo(target.token)
+
+            // Animate damage on token based on type
+            if (!miss){
+                playAnimationOnToken(sequence, AzureCompendiaPresets.get(type), target.token)
+                shakeTarget(sequence, sourceToken, target.token);
+            }
+        }
+    }
+
 }
 
 /**
@@ -250,7 +295,7 @@ function playSpellAnimation(sequence, traits, type, sourceToken, targetToken) {
  * @param {Number} scale
  * @returns {EffectSection}
  */
-function playAnimationOnToken(sequence, preset, token, scale = 1.5) {
+function playAnimationOnToken(sequence, preset, token, scale = 1) {
     if (!preset){
         console.warn(`No valid preset was given to play animation on token`)
         return null;
@@ -274,11 +319,36 @@ function playAnimationOnToken(sequence, preset, token, scale = 1.5) {
     return section
 }
 
+/**
+ * @param {Sequence} sequence
+ * @param {Preset} preset
+ * @param token
+ * @returns {EffectSection}
+ */
+function playStatusChangeOnToken(sequence, preset, token) {
+    if (!preset){
+        console.warn(`No valid preset was given to play animation on token`)
+        return null;
+    }
+
+    playSoundEffect(sequence, preset);
+    let section = sequence.effect()
+        .file(preset.animation)
+        .atLocation(token)
+
+    if (preset.duration) {
+        section.duration(preset.duration * 1000);
+    }
+
+    return section
+}
+
 export const AzureCompendiaSequences = Object.freeze({
     playSoundEffect,
     shakeTarget,
     playRangedAnimation,
     playAnimationOnToken,
     playMeleeAnimation,
-    playSpellAnimation
+    playSpellAnimation,
+    playStatusChangeOnToken
 })
