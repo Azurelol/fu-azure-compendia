@@ -121,13 +121,14 @@ function playMeleeAnimation(sequence, traits, type, sourceToken, targets) {
         let hitPosition = Ray.towardsPoint(target.token.center, sourceToken.center, gridSize).B;
         const miss = target.data.result === "miss";
 
+
         sequence.effect()
-            .file("jb2a.gust_of_wind.veryfast")
+            .file(AzureCompendiaPresets.get('dash').animation)
             .playbackRate(2)
             .atLocation(sourceToken, {
                 cacheLocation: true
             })
-            .stretchTo(target.token)
+            //.stretchTo(target.token)  // Gust Of Wind
             .randomizeMirrorY()
             .belowTokens();
 
@@ -254,10 +255,14 @@ function playSpellAnimation(sequence, traits, type, sourceToken, targets) {
         const aoeScale = 2
 
         playSoundEffect(sequence, spell);
-        sequence.effect()
+        const spellSequence= sequence.effect()
             .file(spell.animation)
             .atLocation({ x: maxTargetX - targetWidth / 2, y: maxTargetY - targetHeight / 2 })
             .size(Math.max(targetHeight, targetWidth) * aoeScale)
+
+        if (spell.duration) {
+            spellSequence.duration(spell.duration)
+        }
 
         for (const target of targets) {
             const miss = target.data.result === "miss";
@@ -297,7 +302,6 @@ function playSpellAnimation(sequence, traits, type, sourceToken, targets) {
  */
 function playAnimationOnToken(sequence, preset, token, scale = 1) {
     if (!preset){
-        console.warn(`No valid preset was given to play animation on token`)
         return null;
     }
 
@@ -327,14 +331,19 @@ function playAnimationOnToken(sequence, preset, token, scale = 1) {
  */
 function playStatusChangeOnToken(sequence, preset, token) {
     if (!preset){
-        console.warn(`No valid preset was given to play animation on token`)
         return null;
     }
 
     playSoundEffect(sequence, preset);
+    const maxY = token.bounds.top;
+    const margin = 16;
+    const position = { x: token.center.x, y: maxY - margin };
     let section = sequence.effect()
         .file(preset.animation)
-        .atLocation(token)
+        .atLocation(position)
+        .scaleToObject(1, {
+            considerTokenScale: true
+        })
 
     if (preset.duration) {
         section.duration(preset.duration * 1000);

@@ -30,6 +30,8 @@ class Preset {
     }
 }
 
+const effectLength = 1.5;
+
 /**
  * @type {Object<String, Preset>}
  */
@@ -38,7 +40,7 @@ const presets = Object.freeze({
     ice: new Preset("jb2a.impact_themed.ice_shard.blue").withSound("fu-azure-compendia.sounds.damage.ice"),
     fire: new Preset("jb2a.cast_generic.fire.01.orange.0").withSound("fu-azure-compendia.sounds.damage.fire"),
     bolt: new Preset("jb2a.thunderwave.center.blue").withSound("fu-azure-compendia.sounds.damage.bolt"),
-    earth: new Preset("jb2a.cast_generic.earth.01.browngreen.0").withSound("fu-azure-compendia.sounds.damage.earth"),
+    earth: new Preset("jb2a.impact.ground_crack").withSound("fu-azure-compendia.sounds.damage.earth"),
     dark: new Preset("jb2a.healing_generic.200px.purple").withSound("fu-azure-compendia.sounds.damage.dark"),
     light: new Preset("jb2a.twinkling_stars.points04.white").withSound("fu-azure-compendia.sounds.damage.light"),
     poison: new Preset("jb2a.energy_strands.in.green.01.0").withSound("fu-azure-compendia.sounds.damage.poison"),
@@ -57,31 +59,64 @@ const presets = Object.freeze({
     brawling: new Preset("jb2a.unarmed_strike.physical").withSound("fu-azure-compendia.sounds.weapon.brawling"),
     thrown: new Preset("jb2a.dagger.throw").withSound("fu-azure-compendia.sounds.weapon.thrown"),
     firearm: new Preset("jb2a.bullet").withSound("fu-azure-compendia.sounds.weapon.firearm"),
-    // Status
-    shaken: new Preset("jb2a.icon.fear").withSound("fu-azure-compendia.sounds.status.shaken").withDuration(1.5),
-    poisoned: new Preset("jb2a.icon.poison").withSound("fu-azure-compendia.sounds.status.poisoned").withDuration(1.5),
-    dazed: new Preset("jb2a.icon.stun").withSound("fu-azure-compendia.sounds.status.dazed").withDuration(1.5),
-    weak: new Preset("jb2a.icon.shield_cracked").withSound("fu-azure-compendia.sounds.status.weak").withDuration(1.5),
-    enraged: new Preset("jb2a.icon.drop").withSound("fu-azure-compendia.sounds.status.enraged").withDuration(1.5),
-    slow: new Preset("jb2a.icon.snowflake").withSound("fu-azure-compendia.sounds.status.slow").withDuration(1.5),
+
+    // Effects (All '-' get replaced by '_')
+    shaken: new Preset("jb2a.condition.curse.01.006").withSound("fu-azure-compendia.sounds.status.shaken").withDuration(effectLength),
+    poisoned: new Preset("jb2a.condition.curse.01.016").withSound("fu-azure-compendia.sounds.status.poisoned").withDuration(effectLength),
+    dazed: new Preset("jb2a.condition.curse.01.003").withSound("fu-azure-compendia.sounds.status.dazed").withDuration(effectLength),
+    weak: new Preset("jb2a.condition.curse.01.010").withSound("fu-azure-compendia.sounds.status.weak").withDuration(effectLength),
+    enraged: new Preset("jb2a.condition.curse.01.002").withSound("fu-azure-compendia.sounds.status.enraged").withDuration(effectLength),
+    slow: new Preset("jb2a.condition.curse.01.004").withSound("fu-azure-compendia.sounds.status.slow").withDuration(effectLength),
+    crisis: new Preset("jb2a.condition.curse.01.015").withSound("").withDuration(effectLength),
+    ko: new Preset("jb2a.condition.curse.01.005").withSound("").withDuration(effectLength),
+    guard: new Preset('jb2a.condition.boon.01.011').withSound("").withDuration(effectLength),
+    mig_up: new Preset('jb2a.condition.boon.01.020').withSound("").withDuration(effectLength),
+    wlp_up: new Preset('jb2a.condition.boon.01.004').withSound("").withDuration(effectLength),
+    ins_up: new Preset('jb2a.condition.boon.01.005').withSound("").withDuration(effectLength),
+    dex_up: new Preset('jb2a.condition.boon.01.015').withSound("").withDuration(effectLength),
+    mig_down: new Preset('jb2a.condition.curse.01.009').withSound("").withDuration(effectLength),
+    wlp_down: new Preset('jb2a.condition.curse.01.011').withSound("").withDuration(effectLength),
+    ins_down: new Preset('jb2a.condition.curse.01.020').withSound("").withDuration(effectLength),
+    dex_down: new Preset('jb2a.condition.curse.01.008').withSound("").withDuration(effectLength),
+
     // Default attack
     meleeAttack: new Preset('jb2a.melee_generic'),
     rangedAttack: new Preset('jb2a.ranged.03'),
+
+    // Action Animations (Before skills or spells)
+    dash: new Preset('jb2a.teleport'),
+    spell: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
+
+    // Spells
+    fireSingle: new Preset('jb2a.scorching_ray'),
+    fireMultiple: new Preset('jb2a.explosion.01'),
+    iceSingle: new Preset('jb2a.ray_of_frost'),
+    iceMultiple: new Preset('jb2a.ice_spikes'),
+    boltSingle: new Preset('jb2a.lightning_bolt'),
+    boltMultiple: new Preset('jb2a.thunderwave.center'),
+    earthSingle: new Preset('jb2a.boulder'),
+    earthMultiple: new Preset('jb2a.falling_rocks.top'),
+    poisonSingle: new Preset('jb2a.disintegrate.green'),
+    poisonMultiple: new Preset('jb2a.toll_the_dead.green.skull_smoke'),
+    lightSingle: new Preset('jb2a.divine_smite.target'),
+    lightMultiple: new Preset('jb2a.sacred_flame.target'),
+    darkSingle: new Preset('jb2a.eldritch_blast.purple'),
+    darkMultiple: new Preset('jb2a.sphere_of_annihilation.200px.purple').withDuration(2),
+    airSingle: new Preset('jb2a.gust_of_wind.veryfast'),
+    airMultiple: new Preset('jb2a.template_circle.whirl'),
+
     // Specific: Will be used if found (Skills, Attacks, Misc. Abilities)
     claw: new Preset('jb2a.claws'),
     bite: new Preset('jb2a.bite'),
     fist: new Preset('jb2a.melee_generic.creature_attack.fist'),
     pincer: new Preset('jb2a.melee_generic.creature_attack.pincer'),
     splash: new Preset('jb2a.water_splash'),
-    // Action Animations
-    spell: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
-    // Spells
-    fireSingle: new Preset('jb2a.scorching_ray'),
-    fireMultiple: new Preset('jb2a.explosion.01'),
-    iceSingle: new Preset('jb2a.ray_of_frost'),
-    iceMultiple: new Preset('jb2a.ice_spikes'),
-    boltMultiple: new Preset('jb2a.explosion.02')
 
+    // Breaths
+    fireBreath: new Preset('jb2a.breath_weapons.fire.cone'),
+    iceBreath: new Preset('jb2a.breath_weapons.cold.cone'),
+    poisonBreath: new Preset('jb2a.breath_weapons.poison.cone'),
+    boltBreath: new Preset('jb2a.breath_weapons.lightning.line')
 });
 
 /**
@@ -165,7 +200,12 @@ function resolveSpell(type, multiple, traits) {
  * @returns {Preset}
  */
 function get(name) {
-    return presets[name];
+    name = name.replace('-', '_')
+    const preset =  presets[name];
+    if (!preset){
+        console.warn(`Did not find preset ${name}`)
+    }
+    return preset;
 }
 
 export const AzureCompendiaPresets = Object.freeze({
