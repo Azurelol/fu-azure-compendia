@@ -7,11 +7,6 @@ function isTooClose(source, target) {
     return (target.bounds.pad(gridSize * (0.5), gridSize * (0.5))).intersects(source.bounds);
 }
 
-function canMeleeDash() {
-    return false;
-    //return AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.enableMeleeDash);
-}
-
 /**
  * @param {Sequence} sequence
  * @param {Preset} preset
@@ -94,14 +89,32 @@ function shakeTarget(sequence, source, target) {
         .fadeIn(50)
 }
 
+const skillDuration = 1.5;
+
+/**
+ * @param {Sequence} sequence
+ * @param {Token} sourceToken
+ * @param {String} name
+ * @param {String} fuid
+ */
+function animateSkill(sequence, sourceToken, name, fuid) {
+    const skill = AzureCompendiaPresets.resolveSpell(name, fuid);
+    if (skill) {
+        const section = playAnimationOnToken(sequence, skill, sourceToken, skillDuration);
+        section.waitUntilFinished();
+    }
+}
+
 /**
  * @param {Sequence} sequence
  * @param {Set<String>} traits
+ * @param {String} name
+ * @param {String} fuid
  * @param {String} type
  * @param {Token} sourceToken
  * @param {EventTarget[]} targets
  */
-function playMeleeAnimation(sequence, traits, type, sourceToken, targets) {
+function playMeleeAnimation(sequence, name, fuid, traits, type, sourceToken, targets) {
     if (!sourceToken || !targets || targets.length === 0) {
         return;
     }
@@ -114,27 +127,31 @@ function playMeleeAnimation(sequence, traits, type, sourceToken, targets) {
 
     const gridSize = canvas.grid.size;
     const attackDelay = 250
+    const dashDuration = 1250;
     const fadeOut = 500;
 
-    // Optional dash
+    // Optional skill if found
+    if (traits.has('skill')){
+        animateSkill(sequence, sourceToken, name, fuid);
+    }
+
+    // Animate leaving
+    sequence.effect()
+        .file(AzureCompendiaPresets.get('dash').animation)
+        .playbackRate(2)
+        .atLocation(sourceToken, {
+            cacheLocation: true
+        })
+        //.stretchTo(target.token)  // Gust Of Wind
+        .randomizeMirrorY()
+        .belowTokens();
+
     for (const target of targets) {
         let hitPosition = Ray.towardsPoint(target.token.center, sourceToken.center, gridSize).B;
         const miss = target.data.result === "miss";
-
-
-        sequence.effect()
-            .file(AzureCompendiaPresets.get('dash').animation)
-            .playbackRate(2)
-            .atLocation(sourceToken, {
-                cacheLocation: true
-            })
-            //.stretchTo(target.token)  // Gust Of Wind
-            .randomizeMirrorY()
-            .belowTokens();
-
         const randomId = foundry.utils.randomID();
-        const duration = 1500;
 
+        // Animate the dash towards target
         sequence.effect()
             .file(sourceToken.document.texture.src)
             .atLocation(sourceToken, {
@@ -155,19 +172,20 @@ function playMeleeAnimation(sequence, traits, type, sourceToken, targets) {
                 ease: "easeOutQuint"
             })
             .missed(miss)
-            .duration(duration)
+            .duration(dashDuration)
             .fadeOut(fadeOut)
             .name(randomId)
             .animation()
             .on(sourceToken)
             .fadeOut(50)
+            .waitUntilFinished()
 
         // Animate the hit
         playSoundEffect(sequence, attack);
-        const path = attack.animation;
         sequence.effect()
-            .file(path)
-            .atLocation(target.token)
+            .file(attack.animation)
+            .atLocation(hitPosition)
+            .rotateTowards(target.token)
             .missed(miss)
             .scaleToObject(1.25, {
                 considerTokenScale: true
@@ -225,24 +243,32 @@ function playRangedAnimation(sequence, traits, type, sourceToken, targets) {
 
 /**
  * @param {Sequence} sequence
+ * @param {Token} sourceToken
+ */
+function animmateSpellCast(sequence, sourceToken) {
+    const cast = AzureCompendiaPresets.get("spell");
+    const section = playAnimationOnToken(sequence, cast, sourceToken, skillDuration);
+    section.waitUntilFinished();
+}
+
+/**
+ * @param {Sequence} sequence
  * @param {Set<String>} traits
  * @param {String} type
  * @param {Token} sourceToken
  * @param {EventTarget[]} targets
  */
-function playSpellAnimation(sequence, traits, type, sourceToken, targets) {
+function playSpellAttack(sequence, traits, type, sourceToken, targets) {
     if (!sourceToken || !targets || targets.length === 0) {
         return;
     }
 
     // Animate spell circle
-    const cast = AzureCompendiaPresets.get("spell");
-    const castSection = playAnimationOnToken(sequence, cast, sourceToken, 2);
-    castSection.waitUntilFinished();
+    animmateSpellCast(sequence, sourceToken);
 
     // Select the spell animation to use
     const multiple = targets.length > 1;
-    const spell = AzureCompendiaPresets.resolveSpell(type, multiple, traits);
+    const spell = AzureCompendiaPresets.resolveSpellAttack(type, multiple, traits);
 
     // If multiple targets..
     if (multiple) {
@@ -290,7 +316,28 @@ function playSpellAnimation(sequence, traits, type, sourceToken, targets) {
             }
         }
     }
+}
 
+/**
+ * @param {Sequence} sequence
+ * @param {String} name
+ * @param {String} fuid
+ * @param {Set<String>} traits
+ * @param {Token} sourceToken
+ * @param {EventTarget[]} targets
+ */
+function playSpell(sequence, name, fuid, traits, sourceToken, targets) {
+
+    if (!sourceToken) {
+        return;
+    }
+
+    // Animate spell circle
+    animmateSpellCast(sequence, sourceToken);
+    const spell = AzureCompendiaPresets.resolveSpell(name, fuid, traits);
+    if (spell) {
+        playAnimationOnToken(sequence, spell, sourceToken, 2);
+    }
 }
 
 /**
@@ -358,6 +405,7 @@ export const AzureCompendiaSequences = Object.freeze({
     playRangedAnimation,
     playAnimationOnToken,
     playMeleeAnimation,
-    playSpellAnimation,
+    playSpellAttack,
+    playSpell,
     playStatusChangeOnToken
 })

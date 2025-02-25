@@ -19,6 +19,7 @@ import {AzureCompendiaSequences} from "./sequences.mjs";
  * @description Dispatched when an actor makes an attack (skill/spell)
  * @typedef AttackEvent
  * @property {String} name
+ * @property {String} fuid
  * @property {FU.damageTypes} type
  * @property {Set<String>} traits
  * @property {FUActor} actor
@@ -41,15 +42,15 @@ import {AzureCompendiaSequences} from "./sequences.mjs";
 async function animateAttack(event) {
 
     const traitString = new Array(...event.traits).join(' ')
-    Azurecompendia.log(`Animating damage event: ${event.type} on token: ${event.token.name} with traits: ${JSON.stringify(traitString)}`);
+    Azurecompendia.log(`Animating attack event: ${event.type} on token: ${event.token.name} with traits: ${JSON.stringify(traitString)}`);
 
     let sequence = new Sequence();
 
     if (event.traits.has('spell')) {
-        AzureCompendiaSequences.playSpellAnimation(sequence, event.traits, event.type, event.token, event.targets);
+        AzureCompendiaSequences.playSpellAttack(sequence, event.traits, event.type, event.token, event.targets);
     }
     else if (event.traits.has("melee")) {
-        AzureCompendiaSequences.playMeleeAnimation(sequence, event.traits, event.type, event.token, event.targets);
+        AzureCompendiaSequences.playMeleeAnimation(sequence, event.name, event.fuid, event.traits, event.type, event.token, event.targets);
     }
     else if (event.traits.has("ranged")) {
         AzureCompendiaSequences.playRangedAnimation(sequence, event.traits, event.type, event.token, event.targets);
@@ -61,11 +62,24 @@ async function animateAttack(event) {
 }
 
 /**
- * @description Handles an event where a character takes damage
- * @param {DamageEvent} event
+ * @description Dispatched when an actor performs a spell without a magic check.
+ * @typedef SpellEvent
+ * @property {String} name
+ * @property {String} fuid
+ * @property {Set<String>} traits
+ * @property {FUActor} actor
+ * @property {Token} token
+ * @property {EventTarget[]} targets
  */
-async function animateDamage(event) {
 
+/**
+ * @description Handles an event where a character takes damage
+ * @param {SpellEvent} event
+ */
+async function animateSpell(event) {
+    let sequence = new Sequence();
+    AzureCompendiaSequences.playSpell(sequence, event.name, event.fuid, event.traits, event.token, event.targets);
+    await sequence.play();
 }
 
 async function playResourceGainPreset(event) {
@@ -109,8 +123,8 @@ function subscribe() {
         await animateAttack(event);
     });
 
-    Hooks.on('projectfu.events.damage', async event => {
-        //await animateAttack(event);
+    Hooks.on('projectfu.events.spell', async event => {
+        await animateSpell(event);
     });
 
     Hooks.on('projectfu.events.gain', async event => {

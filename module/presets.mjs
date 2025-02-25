@@ -53,6 +53,7 @@ const presets = Object.freeze({
     // Weapons
     bow: new Preset("jb2a.arrow.physical.blue").withSound("fu-azure-compendia.sounds.weapon.bow"),
     sword: new Preset("jb2a.sword.melee").withSound("fu-azure-compendia.sounds.weapon.sword"),
+    sword_two_handed: new Preset('jb2a.greatsword.melee').withSound("fu-azure-compendia.sounds.weapon.sword"),
     dagger: new Preset("jb2a.dagger.melee").withSound("fu-azure-compendia.sounds.weapon.dagger"),
     spear: new Preset("jb2a.spear").withSound("fu-azure-compendia.sounds.weapon.spear"),
     heavy: new Preset("jb2a.melee_attack.02.battleaxe").withSound("fu-azure-compendia.sounds.weapon.heavy"),
@@ -87,7 +88,7 @@ const presets = Object.freeze({
     dash: new Preset('jb2a.teleport'),
     spell: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
 
-    // Spells
+    // Spells (attack)
     fireSingle: new Preset('jb2a.scorching_ray'),
     fireMultiple: new Preset('jb2a.explosion.01'),
     iceSingle: new Preset('jb2a.ray_of_frost'),
@@ -116,7 +117,16 @@ const presets = Object.freeze({
     fireBreath: new Preset('jb2a.breath_weapons.fire.cone'),
     iceBreath: new Preset('jb2a.breath_weapons.cold.cone'),
     poisonBreath: new Preset('jb2a.breath_weapons.poison.cone'),
-    boltBreath: new Preset('jb2a.breath_weapons.lightning.line')
+    boltBreath: new Preset('jb2a.breath_weapons.lightning.line'),
+
+    // Spells/Skills
+    elemental_weapon: new Preset('jb2a.magic_signs.rune.enchantment.intro'),
+    heal: new Preset('jb2a.healing_generic.03'),
+    shadow_strike: new Preset('jb2a.bats.loop.01'),
+    cheap_shot: new Preset('jb2a.sneak_attack.dark_green'),
+    bladestorm: new Preset('jb2a.energy_strands.overlay.blue'),
+    counterattack: new Preset('jb2a.melee_generic.whirlwind.01')
+
 });
 
 /**
@@ -145,13 +155,22 @@ const supportedAttacks = new Set([
     "splash",
 ]);
 
+const twoHandedTrait = 'two-handed';
+
 /**
  * @returns {Preset}
  */
 function resolveWeapon(traits) {
     const matches = [...supportedWeapons].filter(item => traits.has(item));
     if (matches.length === 1) {
-        return get(matches[0])
+        const name = matches[0];
+        if (traits.has(twoHandedTrait)) {
+            const twoHandedVariant = `${name}_two_handed`;
+            if (presets[twoHandedVariant]) {
+                return presets[twoHandedVariant];
+            }
+        }
+        return get(name)
     }
     return null;
 }
@@ -186,7 +205,7 @@ function resolveAttack(traits) {
  * @param {Set<String>} traits
  * @returns {Preset}
  */
-function resolveSpell(type, multiple, traits) {
+function resolveSpellAttack(type, multiple, traits) {
     const qualifier = multiple ? 'Multiple' : 'Single';
     const name = `${type}${qualifier}`;
     const resolvedPreset = presets[name];
@@ -194,6 +213,19 @@ function resolveSpell(type, multiple, traits) {
         return resolvedPreset;
     }
     return presets.rangedAttack;
+}
+
+/**
+ * @param {String} name
+ * @param {String} fuid
+ * @param {Set<String>} traits
+ * @returns {Preset}
+ */
+function resolveSpell(name, fuid, traits) {
+    const fromFuid = get(fuid);
+    if (fromFuid) {
+        return fromFuid;
+    }
 }
 
 /**
@@ -212,5 +244,6 @@ export const AzureCompendiaPresets = Object.freeze({
     get,
     resolveWeapon,
     resolveAttack,
+    resolveSpellAttack,
     resolveSpell
 })
