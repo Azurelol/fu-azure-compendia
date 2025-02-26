@@ -1,4 +1,3 @@
-import {AzureCompendiaSettings} from "./settings.mjs";
 import {Azurecompendia} from "./main.mjs";
 import {AzureCompendiaPresets} from "./presets.mjs";
 
@@ -6,6 +5,10 @@ function isTooClose(source, target) {
     const gridSize = canvas.grid.size;
     return (target.bounds.pad(gridSize * (0.5), gridSize * (0.5))).intersects(source.bounds);
 }
+
+// Constants
+const defaultVolume = 0.1
+const skillDuration = 1;
 
 /**
  * @param {Sequence} sequence
@@ -20,12 +23,13 @@ function playSoundEffect(sequence, preset) {
 
     let section = sequence
         .sound()
-        .file(preset.sound)  // Specify your sound file
-        .volume(0.2)  // Adjust volume (optional)
-        .delay(100)   // Optional delay before sound plays (in milliseconds)
+        .file(preset.sound)
+        .volume(defaultVolume)
+
 
     if (preset.duration) {
-        section.duration(preset.duration * 1000)
+        const duration = preset.duration * 1000;
+        section.timeRange(0, duration).fadeOutAudio(duration)
     }
 }
 
@@ -89,17 +93,18 @@ function shakeTarget(sequence, source, target) {
         .fadeIn(50)
 }
 
-const skillDuration = 1.5;
+
 
 /**
  * @param {Sequence} sequence
  * @param {Token} sourceToken
- * @param {String} name
- * @param {String} fuid
+ * @param {ItemReference} item
+ * @param {Set<String>} traits
  */
-function animateSkill(sequence, sourceToken, name, fuid) {
-    const skill = AzureCompendiaPresets.resolveSpell(name, fuid);
+function animateSkill(sequence, sourceToken, item, traits) {
+    const skill = AzureCompendiaPresets.resolveAction(item, traits);
     if (skill) {
+        playSoundEffect(sequence, AzureCompendiaPresets.get('skill'))
         const section = playAnimationOnToken(sequence, skill, sourceToken, skillDuration);
         section.waitUntilFinished();
     }
@@ -107,14 +112,13 @@ function animateSkill(sequence, sourceToken, name, fuid) {
 
 /**
  * @param {Sequence} sequence
+ * @param {ItemReference} item
  * @param {Set<String>} traits
- * @param {String} name
- * @param {String} fuid
  * @param {String} type
  * @param {Token} sourceToken
  * @param {EventTarget[]} targets
  */
-function playMeleeAnimation(sequence, name, fuid, traits, type, sourceToken, targets) {
+function playMeleeAnimation(sequence, item, traits, type, sourceToken, targets) {
     if (!sourceToken || !targets || targets.length === 0) {
         return;
     }
@@ -130,9 +134,17 @@ function playMeleeAnimation(sequence, name, fuid, traits, type, sourceToken, tar
     const dashDuration = 1250;
     const fadeOut = 500;
 
+    // If it's a trait or a critical, play a sound
+    if (traits.has('critical')) {
+        playSoundEffect(sequence, AzureCompendiaPresets.get('critical'));
+    }
+    else if (traits.has('fumble')) {
+        playSoundEffect(sequence, AzureCompendiaPresets.get('fumble'));
+    }
+
     // Optional skill if found
     if (traits.has('skill')){
-        animateSkill(sequence, sourceToken, name, fuid);
+        animateSkill(sequence, sourceToken, item, traits);
     }
 
     // Animate leaving
@@ -152,7 +164,7 @@ function playMeleeAnimation(sequence, name, fuid, traits, type, sourceToken, tar
         const randomId = foundry.utils.randomID();
 
         // Animate the dash towards target
-        sequence.effect()
+        let dash = sequence.effect()
             .file(sourceToken.document.texture.src)
             .atLocation(sourceToken, {
                 cacheLocation: true
@@ -178,7 +190,6 @@ function playMeleeAnimation(sequence, name, fuid, traits, type, sourceToken, tar
             .animation()
             .on(sourceToken)
             .fadeOut(50)
-            .waitUntilFinished()
 
         // Animate the hit
         playSoundEffect(sequence, attack);
@@ -190,6 +201,7 @@ function playMeleeAnimation(sequence, name, fuid, traits, type, sourceToken, tar
             .scaleToObject(1.25, {
                 considerTokenScale: true
             })
+            .delay(300)
 
         // Animate damage on token based on type
         if (!miss) {
@@ -320,13 +332,12 @@ function playSpellAttack(sequence, traits, type, sourceToken, targets) {
 
 /**
  * @param {Sequence} sequence
- * @param {String} name
- * @param {String} fuid
+ * @param {ItemReference} item
  * @param {Set<String>} traits
  * @param {Token} sourceToken
  * @param {EventTarget[]} targets
  */
-function playSpell(sequence, name, fuid, traits, sourceToken, targets) {
+function playSpell(sequence, item, traits, sourceToken, targets) {
 
     if (!sourceToken) {
         return;
@@ -334,7 +345,7 @@ function playSpell(sequence, name, fuid, traits, sourceToken, targets) {
 
     // Animate spell circle
     animmateSpellCast(sequence, sourceToken);
-    const spell = AzureCompendiaPresets.resolveSpell(name, fuid, traits);
+    const spell = AzureCompendiaPresets.resolveAction(item, traits);
     if (spell) {
         playAnimationOnToken(sequence, spell, sourceToken, 2);
     }

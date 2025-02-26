@@ -4,27 +4,20 @@ import { AzureCompendiaPresets } from "./presets.mjs";
 import {AzureCompendiaSequences} from "./sequences.mjs";
 
 /**
- * @description Dispatched when an actor suffers damage
- * @typedef DamageEvent
- * @property {String} type
- * @property {Number} amount
- * @property {FUActor} actor
- * @property {Token} token
- * @property {FUActor} sourceActor
- * @property {Token} sourceToken
- * @property {Set<String>} traits
- */
-
-/**
  * @description Dispatched when an actor makes an attack (skill/spell)
  * @typedef AttackEvent
- * @property {String} name
- * @property {String} fuid
+ * @property {ItemReference} item
  * @property {FU.damageTypes} type
  * @property {Set<String>} traits
  * @property {FUActor} actor
  * @property {Token} token
  * @property {EventTarget[]} targets
+ */
+
+/**
+ * @typedef ItemReference
+ * @property {String} name
+ * @property {String} fuid
  */
 
 /**
@@ -50,7 +43,7 @@ async function animateAttack(event) {
         AzureCompendiaSequences.playSpellAttack(sequence, event.traits, event.type, event.token, event.targets);
     }
     else if (event.traits.has("melee")) {
-        AzureCompendiaSequences.playMeleeAnimation(sequence, event.name, event.fuid, event.traits, event.type, event.token, event.targets);
+        AzureCompendiaSequences.playMeleeAnimation(sequence, event.item, event.traits, event.type, event.token, event.targets);
     }
     else if (event.traits.has("ranged")) {
         AzureCompendiaSequences.playRangedAnimation(sequence, event.traits, event.type, event.token, event.targets);
@@ -64,8 +57,7 @@ async function animateAttack(event) {
 /**
  * @description Dispatched when an actor performs a spell without a magic check.
  * @typedef SpellEvent
- * @property {String} name
- * @property {String} fuid
+ * @property {ItemReference} item
  * @property {Set<String>} traits
  * @property {FUActor} actor
  * @property {Token} token
@@ -78,7 +70,7 @@ async function animateAttack(event) {
  */
 async function animateSpell(event) {
     let sequence = new Sequence();
-    AzureCompendiaSequences.playSpell(sequence, event.name, event.fuid, event.traits, event.token, event.targets);
+    AzureCompendiaSequences.playSpell(sequence, event.item, event.traits, event.token, event.targets);
     await sequence.play();
 }
 

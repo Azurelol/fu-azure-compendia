@@ -15,6 +15,11 @@ class Preset {
         return this;
     }
 
+    withInternalSound(path) {
+        this.sound = `fu-azure-compendia.sounds.${path}`
+        return this;
+    }
+
     get animation() {
         const length = this.animations.length;
         if (length > 1) {
@@ -68,24 +73,27 @@ const presets = Object.freeze({
     weak: new Preset("jb2a.condition.curse.01.010").withSound("fu-azure-compendia.sounds.status.weak").withDuration(effectLength),
     enraged: new Preset("jb2a.condition.curse.01.002").withSound("fu-azure-compendia.sounds.status.enraged").withDuration(effectLength),
     slow: new Preset("jb2a.condition.curse.01.004").withSound("fu-azure-compendia.sounds.status.slow").withDuration(effectLength),
-    crisis: new Preset("jb2a.condition.curse.01.015").withSound("").withDuration(effectLength),
-    ko: new Preset("jb2a.condition.curse.01.005").withSound("").withDuration(effectLength),
-    guard: new Preset('jb2a.condition.boon.01.011').withSound("").withDuration(effectLength),
-    mig_up: new Preset('jb2a.condition.boon.01.020').withSound("").withDuration(effectLength),
-    wlp_up: new Preset('jb2a.condition.boon.01.004').withSound("").withDuration(effectLength),
-    ins_up: new Preset('jb2a.condition.boon.01.005').withSound("").withDuration(effectLength),
-    dex_up: new Preset('jb2a.condition.boon.01.015').withSound("").withDuration(effectLength),
-    mig_down: new Preset('jb2a.condition.curse.01.009').withSound("").withDuration(effectLength),
-    wlp_down: new Preset('jb2a.condition.curse.01.011').withSound("").withDuration(effectLength),
-    ins_down: new Preset('jb2a.condition.curse.01.020').withSound("").withDuration(effectLength),
-    dex_down: new Preset('jb2a.condition.curse.01.008').withSound("").withDuration(effectLength),
+    crisis: new Preset("jb2a.condition.curse.01.015").withInternalSound("status.crisis").withDuration(effectLength),
+    ko: new Preset("jb2a.condition.curse.01.005").withInternalSound("status.ko").withDuration(effectLength),
+    guard: new Preset('jb2a.condition.boon.01.011').withInternalSound('effect.boon').withDuration(effectLength),
+    mig_up: new Preset('jb2a.condition.boon.01.020').withInternalSound('effect.boon').withDuration(effectLength),
+    wlp_up: new Preset('jb2a.condition.boon.01.004').withInternalSound('effect.boon').withDuration(effectLength),
+    ins_up: new Preset('jb2a.condition.boon.01.005').withInternalSound('effect.boon').withDuration(effectLength),
+    dex_up: new Preset('jb2a.condition.boon.01.015').withInternalSound('effect.boon').withDuration(effectLength),
+    mig_down: new Preset('jb2a.condition.curse.01.009').withInternalSound('effect.bane').withDuration(effectLength),
+    wlp_down: new Preset('jb2a.condition.curse.01.011').withInternalSound('effect.bane').withDuration(effectLength),
+    ins_down: new Preset('jb2a.condition.curse.01.020').withInternalSound('effect.bane').withDuration(effectLength),
+    dex_down: new Preset('jb2a.condition.curse.01.008').withInternalSound('effect.bane').withDuration(effectLength),
 
     // Default attack
     meleeAttack: new Preset('jb2a.melee_generic'),
     rangedAttack: new Preset('jb2a.ranged.03'),
 
     // Action Animations (Before skills or spells)
-    dash: new Preset('jb2a.teleport'),
+    dash: new Preset('jb2a.teleport').withSound('fu-azure-compendia.sounds.action.dash'),
+    critical: new Preset().withSound('fu-azure-compendia.sounds.check.critical'),
+    fumble: new Preset().withSound('fu-azure-compendia.sounds.check.fumble'),
+    skill: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.skill").withDuration(2),
     spell: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
 
     // Spells (attack)
@@ -108,7 +116,7 @@ const presets = Object.freeze({
 
     // Specific: Will be used if found (Skills, Attacks, Misc. Abilities)
     claw: new Preset('jb2a.claws'),
-    bite: new Preset('jb2a.bite'),
+    bite: new Preset('jb2a.bite').withInternalSound('attack.bite'),
     fist: new Preset('jb2a.melee_generic.creature_attack.fist'),
     pincer: new Preset('jb2a.melee_generic.creature_attack.pincer'),
     splash: new Preset('jb2a.water_splash'),
@@ -216,16 +224,17 @@ function resolveSpellAttack(type, multiple, traits) {
 }
 
 /**
- * @param {String} name
- * @param {String} fuid
+ * @param {ItemReference} item
  * @param {Set<String>} traits
  * @returns {Preset}
  */
-function resolveSpell(name, fuid, traits) {
-    const fromFuid = get(fuid);
+function resolveAction(item, traits) {
+    const fromFuid = get(item.fuid);
     if (fromFuid) {
         return fromFuid;
     }
+    // TODO: Fallbacks
+    return null;
 }
 
 /**
@@ -245,5 +254,5 @@ export const AzureCompendiaPresets = Object.freeze({
     resolveWeapon,
     resolveAttack,
     resolveSpellAttack,
-    resolveSpell
+    resolveAction
 })

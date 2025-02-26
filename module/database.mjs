@@ -19,9 +19,8 @@ const entries = {
                 toEntry(`lightning-impact-3.mp3`),
             ],
             fire: [
-                toEntry('fire-blast-binaural-1.mp3'),
-                toEntry('fire-blast-binaural-2.mp3'),
-                toEntry('fire-blast-binaural-3.mp3'),
+                toEntry('explosion-1.mp3'),
+                toEntry('explosion-2.mp3'),
             ],
             ice: [
                 toEntry(`ice-blast-1.mp3`),
@@ -63,13 +62,27 @@ const entries = {
                 toEntry("Constrict_Snare.mp3")
             ],
             slow: [
-                toEntry("spell-decrescendo-short-1.mp3")
+                toEntry("Net_Web.mp3")
             ],
             enraged: [
                 toEntry("Rage.mp3")
             ],
             poisoned: [
                 toEntry("poison-puff-4.mp3")
+            ],
+            crisis: [
+                toEntry()
+            ],
+            ko: [
+                toEntry()
+            ]
+        },
+        effect: {
+            boon: [
+                toEntry('spell-buff-short-3.mp3')
+            ],
+            bane: [
+                toEntry('spell-decrescendo-short-1.mp3')
             ]
         },
         weapon: {
@@ -104,20 +117,32 @@ const entries = {
                 toEntry("firearm-shotgun-1.mp3"),
             ]
         },
+        attack: {
+            bite: [
+                toEntry("melee-impact-rip-1.mp3")
+            ]
+        },
         check: {
             critical: [
-                toEntry("slashing-swing-1.mp3")
+                toEntry("slashing-electric-1.mp3")
             ],
             miss: [
                 toEntry("melee-miss-1.mp3"),
+                toEntry("melee-miss-2.mp3"),
+            ],
+            fumble: [
                 toEntry("melee-miss-2.mp3"),
             ]
         },
         action: {
             spell: [
-                toEntry("spell-ray-1.mp3")
+                toEntry("Thaumaturgy.mp3")
             ],
             skill: [
+                toEntry('Constrict_Snare.mp3')
+            ],
+            dash: [
+                toEntry('spell-whoosh-6.mp3')
             ]
         }
 
