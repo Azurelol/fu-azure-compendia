@@ -4,145 +4,148 @@ import {AzureCompendiaSettings} from "./settings.mjs";
 const assetsDirectory = "modules/fu-azure-compendia/assets/sounds";
 
 function toEntry(name) {
-    return `${assetsDirectory}/${name}`;
+    return `${assetsDirectory}/${name}.ogg`;
 }
 
 const entries = {
     sounds: {
         damage: {
             physical: [
-                toEntry("melee-hit-2.mp3"),
+                toEntry("melee-hit-2"),
             ],
             bolt: [
-                toEntry(`lightning-impact-1.mp3`),
-                toEntry(`lightning-impact-2.mp3`),
-                toEntry(`lightning-impact-3.mp3`),
+                toEntry(`lightning-impact-1`),
+                toEntry(`lightning-impact-2`),
+                toEntry(`lightning-impact-3`),
             ],
             fire: [
-                toEntry('explosion-1.mp3'),
-                toEntry('explosion-2.mp3'),
+                toEntry('explosion-1'),
+                toEntry('explosion-2'),
             ],
             ice: [
-                toEntry(`ice-blast-1.mp3`),
+                toEntry(`ice-blast-1`),
             ],
             earth: [
-                toEntry("Fear.mp3")
+                toEntry("Fear")
             ],
             dark: [
-                toEntry("necrotic-short-1.mp3"),
-                toEntry(`necrotic-short-2.mp3`),
+                toEntry("necrotic-short-1"),
+                toEntry(`necrotic-short-2`),
             ],
             light: [
-                toEntry("radiant-impact-1.ogg")
+                toEntry("radiant-impact-1")
             ],
             air: [
-                toEntry("spell-air-moving-2.mp3")
+                toEntry("spell-air-moving-2")
             ],
             poison: [
-                toEntry("poison-nova-1.mp3"),
-                toEntry("poison-puff-1.mp3"),
+                toEntry("poison-nova-1"),
+                toEntry("poison-puff-1"),
             ]
         },
         gain: {
             hp: [
-                toEntry("hp-gain.ogg"),
+                toEntry("heal"),
             ],
             mp: [
-                toEntry("mp-gain.ogg"),
+                toEntry("enchant"),
+            ],
+            zenit: [
+                toEntry("zenit"),
             ]
         },
         status: {
             shaken: [
-                toEntry("spell-whispers-8.mp3")
+                toEntry("spell-whispers-8")
             ],
             dazed:[
-                toEntry("Moon-Beam.mp3")
+                toEntry("Moon-Beam")
             ],
             weak:[
-                toEntry("Constrict_Snare.mp3")
+                toEntry("Constrict_Snare")
             ],
             slow: [
-                toEntry("Net_Web.mp3")
+                toEntry("Net_Web")
             ],
             enraged: [
-                toEntry("Rage.mp3")
+                toEntry("Rage")
             ],
             poisoned: [
-                toEntry("poison-puff-4.mp3")
+                toEntry("poison-puff-4")
             ],
             crisis: [
-                toEntry()
+                toEntry('heartbeat')
             ],
             ko: [
-                toEntry()
+                toEntry('Toll-the-Dead')
             ]
         },
         effect: {
             boon: [
-                toEntry('spell-buff-short-3.mp3')
+                toEntry('spell-buff-short-3')
             ],
             bane: [
-                toEntry('spell-decrescendo-short-1.mp3')
+                toEntry('spell-decrescendo-short-1')
             ]
         },
         weapon: {
             bow: [
-                toEntry("arrow-fly-by-1.mp3"),
-                toEntry("arrow-fly-by-2.mp3"),
-                toEntry("arrow-fly-by-3.mp3"),
+                toEntry("arrow-fly-by-1"),
+                toEntry("arrow-fly-by-2"),
+                toEntry("arrow-fly-by-3"),
             ],
             sword:[
-                toEntry("slashing-swing-1.mp3"),
+                toEntry("slashing-swing-1"),
             ],
             dagger:[
-                toEntry("slashing-blood-1.mp3"),
+                toEntry("slashing-blood-1"),
             ],
             spear:[
-                toEntry("piercing-impact-metal-1.mp3"),
+                toEntry("piercing-impact-metal-1"),
             ],
             heavy:[
-                toEntry("bludgeoning-swing-impact-blunt-1.mp3"),
-                toEntry("bludgeoning-swing-impact-blunt-2.mp3"),
+                toEntry("bludgeoning-swing-impact-blunt-1"),
+                toEntry("bludgeoning-swing-impact-blunt-2"),
             ],
             brawling:[
-                toEntry("melee-hit-2.mp3"),
-                toEntry("melee-hit-3.mp3"),
+                toEntry("melee-hit-2"),
+                toEntry("melee-hit-3"),
             ],
             thrown:[
-                toEntry("throw-hit-1.mp3")
+                toEntry("throw-hit-1")
             ],
             firearm: [
-                toEntry("firearm-gunshot-1.mp3"),
-                toEntry("firearm-gunshot-2.mp3"),
-                toEntry("firearm-shotgun-1.mp3"),
+                toEntry("firearm-gunshot-1"),
+                toEntry("firearm-gunshot-2"),
+                toEntry("firearm-shotgun-1"),
             ]
         },
         attack: {
             bite: [
-                toEntry("melee-impact-rip-1.mp3")
+                toEntry("melee-impact-rip-1")
             ]
         },
         check: {
             critical: [
-                toEntry("slashing-electric-1.mp3")
+                toEntry("slashing-electric-1")
             ],
             miss: [
-                toEntry("melee-miss-1.mp3"),
-                toEntry("melee-miss-2.mp3"),
+                toEntry("melee-miss-1"),
+                toEntry("melee-miss-2"),
             ],
             fumble: [
-                toEntry("melee-miss-2.mp3"),
+                toEntry("melee-miss-2"),
             ]
         },
         action: {
             spell: [
-                toEntry("Thaumaturgy.mp3")
+                toEntry("Thaumaturgy")
             ],
             skill: [
-                toEntry('Constrict_Snare.mp3')
+                toEntry('Constrict_Snare')
             ],
             dash: [
-                toEntry('spell-whoosh-6.mp3')
+                toEntry('sand')
             ]
         }
 
