@@ -40,13 +40,13 @@ async function animateAttack(event) {
     let sequence = new Sequence();
 
     if (event.traits.has('spell')) {
-        AzureCompendiaSequences.playSpellAttack(sequence, event.traits, event.type, event.token, event.targets);
+        AzureCompendiaSequences.playSpellAttack(sequence, event.item, event.traits, event.type, event.token, event.targets);
     }
     else if (event.traits.has("melee")) {
         AzureCompendiaSequences.playMeleeAnimation(sequence, event.item, event.traits, event.type, event.token, event.targets);
     }
     else if (event.traits.has("ranged")) {
-        AzureCompendiaSequences.playRangedAnimation(sequence, event.traits, event.type, event.token, event.targets);
+        AzureCompendiaSequences.playRangedAnimation(sequence, event.item, event.traits, event.type, event.token, event.targets);
     }
 
     await sequence.play({
@@ -90,13 +90,28 @@ async function playStatusPreset(event) {
     }
 }
 
+async function animateDefeat(event){
+    if (fadeOnDefeat()) {
+        let sequence = new Sequence();
+        AzureCompendiaSequences.playDefeatAnimation(sequence, event.actor, event.token);
+        await sequence.play();
+    }
+}
+
+function isEnabled() {
+    return AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.enableAnimationSystem);
+}
+
+function fadeOnDefeat(){
+    return AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.fadeOnDefeat);
+}
+
 /**
  * @description Subscribes to the system combat events
  */
 function subscribe() {
 
-    const enabled = AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.enableAnimationSystem);
-    if (!enabled) {
+    if (!isEnabled()) {
         Azurecompendia.log(`Sound effects were not enabled`)
         return;
     }
@@ -133,6 +148,10 @@ function subscribe() {
 
     Hooks.on('projectfu.events.status', async event => {
         await playStatusPreset(event);
+    });
+
+    Hooks.on('projectfu.events.defeat', async event => {
+        await animateDefeat(event);
     });
 
     Hooks.on('projectfu.events.combat', async event => {

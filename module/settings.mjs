@@ -5,6 +5,7 @@ export const keys = Object.freeze({
   enableAnimationSystem : "enableAnimationSystem",
   enableMeleeDash: "enableMeleeDash",
   volume: "volume",
+  fadeOnDefeat: "fadeOnDefeat",
 })
 
 /**
@@ -20,19 +21,8 @@ function registerSettings() {
     config: true,     // Show in settings menu
     type: Boolean,     // Data type: String, Number, Boolean, Object
     default: true,  // The default value for the setting
-    requiresReload: true, // This will prompt the user to reload the application for the setting to take effect.
+    //requiresReload: true, // This will prompt the user to reload the application for the setting to take effect.
     onChange: value => console.log(`Animations enabled ? ${value}`)
-  }); 
-
-  game.settings.register(moduleId, keys.enableMeleeDash, {
-    name: "Enable Melee Dash",
-    hint: "Whether to animate characters dashing towards target to melee",
-    scope: "world", 
-    config: true,   
-    type: Boolean,  
-    default: true,  
-    requiresReload: false,
-    onChange: value => console.log(`Dash enabled ? ${value}`)
   });
 
   game.settings.register(moduleId, keys.volume, {
@@ -41,10 +31,19 @@ function registerSettings() {
     scope: "world",
     config: true,
     type: Number,
-    default: 0.5,
+    default: 0.2,
     onChange: value => console.log(`Volumed ? ${value}`)
   });
 
+  game.settings.register(moduleId, keys.fadeOnDefeat, {
+    name: "Fade on Defeat",
+    hint: "Whether to fade out NPC tokens on defeat",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: true,
+    onChange: value => console.log(`Fade on Defeat? ${value}`)
+  });
 }
 
 function getSetting(key) {

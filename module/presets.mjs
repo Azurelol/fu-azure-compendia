@@ -76,7 +76,7 @@ const presets = Object.freeze({
     weak: new Preset("jb2a.condition.curse.01.010").withSound("fu-azure-compendia.sounds.status.weak").withDuration(effectLength),
     enraged: new Preset("jb2a.condition.curse.01.002").withSound("fu-azure-compendia.sounds.status.enraged").withDuration(effectLength),
     slow: new Preset("jb2a.condition.curse.01.004").withSound("fu-azure-compendia.sounds.status.slow").withDuration(effectLength),
-    crisis: new Preset("jb2a.condition.curse.01.015").withInternalSound("status.crisis").withDuration(effectLength),
+    crisis: new Preset("jb2a.ui.heartbeat.02").withInternalSound("status.crisis").withDuration(effectLength),
     ko: new Preset("jb2a.condition.curse.01.005").withInternalSound("status.ko").withDuration(effectLength),
     guard: new Preset('jb2a.condition.boon.01.011').withInternalSound('effect.boon').withDuration(effectLength),
     mig_up: new Preset('jb2a.condition.boon.01.020').withInternalSound('effect.boon').withDuration(effectLength),
@@ -93,24 +93,27 @@ const presets = Object.freeze({
     rangedAttack: new Preset('jb2a.ranged.03'),
 
     // Action Animations (Before skills or spells)
-    dash: new Preset('jb2a.teleport').withSound('fu-azure-compendia.sounds.action.dash'),
-    critical: new Preset().withSound('fu-azure-compendia.sounds.check.critical'),
-    fumble: new Preset().withSound('fu-azure-compendia.sounds.check.fumble'),
+    miss: new Preset('jb2a.ui.miss').withInternalSound('check.miss'),
+    critical: new Preset('jb2a.ui.critical').withSound('fu-azure-compendia.sounds.check.critical'),
+    fumble: new Preset('jb2a.ui.critical_miss').withSound('fu-azure-compendia.sounds.check.fumble'),
     skill: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.skill").withDuration(2),
     spell: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
+    launchSingle: new Preset('').withInternalSound('action.launchSingle'),
+    launchMultiple: new Preset('').withInternalSound('action.launchMultiple'),
+    dash: new Preset('jb2a.teleport').withSound('fu-azure-compendia.sounds.action.dash'),
 
     // Spells (attack)
     fireSingle: new Preset('jb2a.scorching_ray'),
     fireMultiple: new Preset('jb2a.explosion.01'),
     iceSingle: new Preset('jb2a.ray_of_frost'),
-    iceMultiple: new Preset('jb2a.ice_spikes'),
+    iceMultiple: new Preset('jb2a.ice_spikes.radial.burst'),
     boltSingle: new Preset('jb2a.lightning_bolt'),
     boltMultiple: new Preset('jb2a.thunderwave.center'),
     earthSingle: new Preset('jb2a.boulder'),
     earthMultiple: new Preset('jb2a.falling_rocks.top'),
-    poisonSingle: new Preset('jb2a.disintegrate.green'),
+    poisonSingle: new Preset('jb2a.ranged.04.projectile.01.green'),
     poisonMultiple: new Preset('jb2a.toll_the_dead.green.skull_smoke'),
-    lightSingle: new Preset('jb2a.divine_smite.target'),
+    lightSingle: new Preset('jb2a.ranged.03.projectile.01.bluegreen'),
     lightMultiple: new Preset('jb2a.sacred_flame.target'),
     darkSingle: new Preset('jb2a.eldritch_blast.purple'),
     darkMultiple: new Preset('jb2a.sphere_of_annihilation.200px.purple').withDuration(2),
@@ -133,11 +136,11 @@ const presets = Object.freeze({
     // Spells/Skills
     elemental_weapon: new Preset('jb2a.magic_signs.rune.enchantment.intro'),
     heal: new Preset('jb2a.healing_generic.03'),
+    cleanse: new Preset('jb2a.cure_wounds.200px'),
     shadow_strike: new Preset('jb2a.bats.loop.01'),
     cheap_shot: new Preset('jb2a.sneak_attack.dark_green'),
     bladestorm: new Preset('jb2a.energy_strands.overlay.blue'),
     counterattack: new Preset('jb2a.melee_generic.whirlwind.01')
-
 });
 
 /**
@@ -169,10 +172,13 @@ const supportedAttacks = new Set([
 const twoHandedTrait = 'two-handed';
 
 /**
+ * @param {ItemReference} item
+ * @param {Set<String>} traits
  * @returns {Preset}
  */
-function resolveWeapon(traits) {
-    const matches = [...supportedWeapons].filter(item => traits.has(item));
+function resolveWeapon(item, traits) {
+    const itemName = item.name.toLowerCase()
+    const matches = [...supportedWeapons].filter(weapon => traits.has(weapon) || itemName.includes(weapon));
     if (matches.length === 1) {
         const name = matches[0];
         if (traits.has(twoHandedTrait)) {
@@ -189,9 +195,17 @@ function resolveWeapon(traits) {
 const name_trait = "name:"
 
 /**
+ * @param {ItemReference} item
+ * @param {Set<String>} traits
  * @returns {Preset}
  */
-function resolveAttack(traits) {
+function resolveAttack(item, traits) {
+
+    const weapon = resolveWeapon(item, traits);
+    if (weapon) {
+        return weapon;
+    }
+
     const nameTrait = [...traits].find(value => value.startsWith(name_trait));
     if (nameTrait) {
         const name = nameTrait.replace(name_trait, "");
@@ -211,19 +225,42 @@ function resolveAttack(traits) {
 }
 
 /**
+ * @typedef SpellPreset
+ * @property {Preset} preset
+ * @property {Boolean} aoe
+ */
+
+/**
+ * @param {ItemReference} item
  * @param {String} type
  * @param {Boolean} multiple
  * @param {Set<String>} traits
- * @returns {Preset}
+ * @returns {SpellPreset}
  */
-function resolveSpellAttack(type, multiple, traits) {
-    const qualifier = multiple ? 'Multiple' : 'Single';
-    const name = `${type}${qualifier}`;
-    const resolvedPreset = presets[name];
-    if (resolvedPreset) {
-        return resolvedPreset;
+function resolveSpellAttack(item, type, multiple, traits) {
+    // Specific
+    const name = item.name.toLowerCase();
+    switch (item.fuid) {
+        case "ignis": return { preset: presets.fireSingle, aoe: false};
+        case "fulgur": return { preset: presets.boltSingle, aoe: false};
+        case "lux": return { preset: presets.lightSingle, aoe: false};
+        default:
+            break;
     }
-    return presets.rangedAttack;
+    // Resolve based on type/multiple
+    const qualifier = multiple ? 'Multiple' : 'Single';
+    const resolvedPreset = presets[`${type}${qualifier}`];
+    if (resolvedPreset) {
+        return {
+            preset: resolvedPreset,
+            aoe: multiple,
+        }
+    }
+    // No match (Untyped?)
+    return {
+        preset: resolvedPreset,
+        aoe: false,
+    };
 }
 
 /**
@@ -251,6 +288,7 @@ function get(name) {
     }
     return preset;
 }
+
 
 export const AzureCompendiaPresets = Object.freeze({
     get,

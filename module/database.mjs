@@ -77,7 +77,7 @@ const entries = {
                 toEntry('heartbeat')
             ],
             ko: [
-                toEntry('Toll-the-Dead')
+                toEntry('spell-teleport-short-4')
             ]
         },
         effect: {
@@ -131,7 +131,6 @@ const entries = {
             ],
             miss: [
                 toEntry("melee-miss-1"),
-                toEntry("melee-miss-2"),
             ],
             fumble: [
                 toEntry("melee-miss-2"),
@@ -146,6 +145,12 @@ const entries = {
             ],
             dash: [
                 toEntry('sand')
+            ],
+            launchSingle: [
+                toEntry['spell-launch-single-1']
+            ],
+            launchMultiple: [
+                toEntry('spell-launch-multiple-1')
             ]
         }
 
