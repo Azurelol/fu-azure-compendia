@@ -15,8 +15,8 @@ export const keys = Object.freeze({
 function registerSettings() {
 
   game.settings.register(moduleId, keys.enableAnimationSystem, {
-    name: "Enable Animation System",
-    hint: "Whether to animate tokens due to combat events",
+    name: "Combat Tuned Realistic Pose and Locomotion Rendering",
+    hint: "Whether to animate tokens from combat events",
     scope: "world",  // "client" for per-user settings, "world" for global settings
     config: true,     // Show in settings menu
     type: Boolean,     // Data type: String, Number, Boolean, Object

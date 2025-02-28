@@ -74,10 +74,11 @@ async function animateSpell(event) {
     await sequence.play();
 }
 
-async function playResourceGainPreset(event) {
+async function playResourcePreset(event, type) {
     Azurecompendia.log(`Playing preset for gain event: ${event.resource} on token: ${event.token.name}`);
     let sequence = new Sequence();
-    AzureCompendiaSequences.playAnimationOnToken(sequence, AzureCompendiaPresets.get(event.resource), event.token);
+    const name = `${event.resource}_${type}`
+    AzureCompendiaSequences.playAnimationOnToken(sequence, AzureCompendiaPresets.get(name), event.token);
     await sequence.play();
 }
 
@@ -135,11 +136,11 @@ function subscribe() {
     });
 
     Hooks.on('projectfu.events.gain', async event => {
-        await playResourceGainPreset(event);
+        await playResourcePreset(event, "gain");
     });
 
     Hooks.on('projectfu.events.loss', async event => {
-        Azurecompendia.log(`Playing preset for loss event: ${event.resource} on token: ${event.token.name}`);
+        await playResourcePreset(event, "loss");
     });
 
     Hooks.on('projectfu.events.crisis', async event => {

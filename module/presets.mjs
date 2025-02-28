@@ -46,7 +46,7 @@ const presets = Object.freeze({
     fire: new Preset("jb2a.cast_generic.fire.01.orange.0").withSound("fu-azure-compendia.sounds.damage.fire"),
     bolt: new Preset("jb2a.thunderwave.center.blue").withSound("fu-azure-compendia.sounds.damage.bolt"),
     earth: new Preset("jb2a.impact.ground_crack").withSound("fu-azure-compendia.sounds.damage.earth"),
-    dark: new Preset("jb2a.healing_generic.200px.purple").withSound("fu-azure-compendia.sounds.damage.dark"),
+    dark: new Preset("jb2a.smoke.puff.centered.grey").withSound("fu-azure-compendia.sounds.damage.dark"),
     light: new Preset("jb2a.twinkling_stars.points04.white").withSound("fu-azure-compendia.sounds.damage.light"),
     poison: new Preset("jb2a.energy_strands.in.green.01.0").withSound("fu-azure-compendia.sounds.damage.poison"),
     air: new Preset("jb2a.energy_strands.overlay.blue.01").withSound("fu-azure-compendia.sounds.damage.air"),
@@ -54,9 +54,11 @@ const presets = Object.freeze({
     untyped: new Preset("jb2a.cast_generic.fire.01.orange.0"),
 
     // Resources    
-    hp: new Preset("jb2a.healing_generic.200px.green").withSound("fu-azure-compendia.sounds.gain.hp"),
-    mp: new Preset("jb2a.healing_generic.200px.blue").withSound("fu-azure-compendia.sounds.gain.mp"),
-    zenit: new Preset('').withInternalSound('gain.zenit'),
+    hp_gain: new Preset("jb2a.healing_generic.200px.green").withSound("fu-azure-compendia.sounds.gain.hp"),
+    mp_gain: new Preset("jb2a.healing_generic.200px.blue").withSound("fu-azure-compendia.sounds.gain.mp"),
+    hp_loss: new Preset('jb2a.healing_generic.200px.purple').withSound("fu-azure-compendia.sounds.loss.hp"),
+    mp_loss: new Preset('jb2a.healing_generic.400px.yellow').withSound("fu-azure-compendia.sounds.loss.mp"),
+    //zenit_gain: new Preset('').withInternalSound('gain.zenit'),
 
     // Weapons
     bow: new Preset("jb2a.arrow.physical.blue").withSound("fu-azure-compendia.sounds.weapon.bow"),
@@ -76,7 +78,7 @@ const presets = Object.freeze({
     weak: new Preset("jb2a.condition.curse.01.010").withSound("fu-azure-compendia.sounds.status.weak").withDuration(effectLength),
     enraged: new Preset("jb2a.condition.curse.01.002").withSound("fu-azure-compendia.sounds.status.enraged").withDuration(effectLength),
     slow: new Preset("jb2a.condition.curse.01.004").withSound("fu-azure-compendia.sounds.status.slow").withDuration(effectLength),
-    crisis: new Preset("jb2a.ui.heartbeat.02").withInternalSound("status.crisis").withDuration(effectLength),
+    crisis: new Preset("jb2a.ui.heartbeat.02").withInternalSound("status.crisis").withDuration(),
     ko: new Preset("jb2a.condition.curse.01.005").withInternalSound("status.ko").withDuration(effectLength),
     guard: new Preset('jb2a.condition.boon.01.011').withInternalSound('effect.boon').withDuration(effectLength),
     mig_up: new Preset('jb2a.condition.boon.01.020').withInternalSound('effect.boon').withDuration(effectLength),

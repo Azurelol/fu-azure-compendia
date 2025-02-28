@@ -8,7 +8,14 @@ function isTooClose(source, target) {
 
 // Constants
 const defaultVolume = 0.1
-const skillDuration = 1;
+const skillScale = 1.5;
+
+/**
+ * @typedef Ray
+ * @description A ray for the purposes of computing sight and collision Given points A[x,y] and B[x,y]
+ * @property distance The distance (length) of the Ray in pixels. The distance is computed lazily (only if required) and cached.
+ * @remarks https://foundryvtt.com/api/classes/client.Ray.html
+ */
 
 /**
  * @param {Sequence} sequence
@@ -31,6 +38,35 @@ function playSoundEffect(sequence, preset) {
         const duration = preset.duration * 1000;
         section.timeRange(0, duration).fadeOutAudio(duration)
     }
+}
+
+/**
+ * @param {Sequence} sequence
+ * @param {Token} source
+ * @param {Token} target
+ */
+function dodgeTarget(sequence, source, target) {
+    // TODO: Implement
+    // return;
+    // const origin =  { x: target.center.x, y: target.center.y };
+    // let hitRay = new Ray(target, source).reverse();
+    // let magnitude = hitRay.distance;
+    // const direction = { x: hitRay.dx / magnitude, y: hitRay.dy / magnitude };
+    // const distance = 50;
+    // const offset = { x: direction.x * distance, y: direction.y * distance };
+    // const fade = 50;
+    //
+    // sequence.animation(target)
+    //             .fadeOut(fade)
+    //             .delay(fade)
+    //             .moveTowards(target)
+    //             .offset(offset)
+    //             .waitUntilFinished()
+    //         .animation(target)
+    //             .delay(50)
+    //             .moveTowards(origin)
+    //             .fadeIn(fade)
+    //             .waitUntilFinished(50)
 }
 
 /**
@@ -105,7 +141,7 @@ function animateSkill(sequence, sourceToken, item, traits) {
     const skill = AzureCompendiaPresets.resolveAction(item, traits);
     if (skill) {
         playSoundEffect(sequence, AzureCompendiaPresets.get('skill'))
-        const section = playAnimationOnToken(sequence, skill, sourceToken, skillDuration);
+        const section = playAnimationOnToken(sequence, skill, sourceToken, skillScale);
         section.waitUntilFinished();
     }
 }
@@ -215,6 +251,9 @@ function playMeleeAnimation(sequence, item, traits, type, sourceToken, targets) 
             playAnimationOnToken(sequence, AzureCompendiaPresets.get(type), target.token)
             shakeTarget(sequence, sourceToken, target.token);
         }
+        else{
+            dodgeTarget(sequence, sourceToken, target.token);
+        }
 
         sequence.wait(attackDelay)
     }
@@ -259,6 +298,9 @@ function playRangedAnimation(sequence, item, traits, type, sourceToken, targets)
             playAnimationOnToken(sequence, damage, target.token)
             shakeTarget(sequence, sourceToken, target.token);
         }
+        else{
+            dodgeTarget(sequence, sourceToken, target.token);
+        }
     }
 }
 
@@ -268,7 +310,7 @@ function playRangedAnimation(sequence, item, traits, type, sourceToken, targets)
  */
 function animmateSpellCast(sequence, sourceToken) {
     const cast = AzureCompendiaPresets.get("spell");
-    const section = playAnimationOnToken(sequence, cast, sourceToken, skillDuration);
+    const section = playAnimationOnToken(sequence, cast, sourceToken, skillScale);
     section.waitUntilFinished();
 }
 
@@ -322,6 +364,9 @@ function playSpellAttack(sequence, item, traits, type, sourceToken, targets) {
             if (!miss){
                 playAnimationOnToken(sequence, damagePreset, target.token)
                 shakeTarget(sequence, sourceToken, target.token);
+            }
+            else{
+                dodgeTarget(sequence, sourceToken, target.token);
             }
         }
     }
@@ -441,10 +486,11 @@ function playStatusChangeOnToken(sequence, preset, token) {
 function playDefeatAnimation(sequence, actor, token){
     sequence
         .animation(token)
-        .fadeOut(2 * 1000)
-        .waitUntilFinished()
-        .hide(true)
-        .fadeIn(0)
+            .fadeOut(2 * 1000)
+            .waitUntilFinished()
+        .animation(token)
+            .hide(true)
+            .fadeIn(0)
 }
 
 export const AzureCompendiaSequences = Object.freeze({

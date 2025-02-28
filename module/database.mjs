@@ -54,6 +54,14 @@ const entries = {
                 toEntry("zenit"),
             ]
         },
+        loss: {
+            hp: [
+                toEntry("melee-hit-1"),
+            ],
+            mp: [
+                toEntry("spell-whoosh-16"),
+            ]
+        },
         status: {
             shaken: [
                 toEntry("spell-whispers-8")
