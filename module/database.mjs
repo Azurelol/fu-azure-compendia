@@ -159,9 +159,27 @@ const entries = {
             ],
             launchMultiple: [
                 toEntry('spell-launch-multiple-1')
+            ],
+        },
+        skill: {
+            verse: [
+                toEntry('spell-lively-3')
+            ],
+            dance: [
+                toEntry('spell-lively-2')
+            ],
+            encourage: [
+                toEntry('cheer')
+            ],
+            counterattack: [
+                toEntry('piercing-impact-metal-1')
+            ]
+        },
+        spell: {
+            heal: [
+                toEntry('blessing2')
             ]
         }
-
     }
 }
 

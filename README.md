@@ -12,16 +12,18 @@ It is meant to be a supplement to help fellow GMs run their game.
 
 The following compendiums are present at this time of writing:
 
-- **CTRPLR**: A cutting-edge animation system for actors in conflicts.
 - **Adversaries**: Generic NPCs of each creature type. (Note that while some of them have art, many don't)
 - **Adversary Creation**: Items such as attacks, skills, spells for creating and/or customizing NPCs.
 - **Generators**: Useful random tables for use during play such as rolling for random events, dangers, prompts, discoveries and traps!
 - **Guides**: Journals with explanations on how to create adversaries, run dungeons or even a campaign.
 - **Character Inventory**: Equipment and consumables for player characters! Regularly updated as the designs improve.
 - **Macros**: To be used during play for rolling on random tables.
+- **CTRPLR**: A "cutting-edge" animation system for actors in conflicts.
 - **Press Start**: An adventure module to help you get started by running the adventure for your group.
 
 ### CTRPLR 
+
+![CTRPLR Example](assets/art/fu_event_anim_example_8.gif)
 
 The 'Combat-Tuned Realistic Pose and Locomotion Rendering' system, it works by subscribing to combat and character events
 and animating the tokens in the canvas from the information gathered in the event.

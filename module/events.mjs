@@ -43,7 +43,12 @@ async function animateAttack(event) {
         AzureCompendiaSequences.playSpellAttack(sequence, event.item, event.traits, event.type, event.token, event.targets);
     }
     else if (event.traits.has("melee")) {
-        AzureCompendiaSequences.playMeleeAnimation(sequence, event.item, event.traits, event.type, event.token, event.targets);
+        if (AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.dashOnMelee)) {
+            AzureCompendiaSequences.animateMeleeDash(sequence, event.item, event.traits, event.type, event.token, event.targets);
+        }
+        else {
+            AzureCompendiaSequences.animateMeleeAttack(sequence, event.item, event.traits, event.type, event.token, event.targets);
+        }
     }
     else if (event.traits.has("ranged")) {
         AzureCompendiaSequences.playRangedAnimation(sequence, event.item, event.traits, event.type, event.token, event.targets);
@@ -64,13 +69,15 @@ async function animateAttack(event) {
  * @property {EventTarget[]} targets
  */
 
-/**
- * @description Handles an event where a character takes damage
- * @param {SpellEvent} event
- */
 async function animateSpell(event) {
     let sequence = new Sequence();
     AzureCompendiaSequences.playSpell(sequence, event.item, event.traits, event.token, event.targets);
+    await sequence.play();
+}
+
+async function animateSkill(event) {
+    let sequence = new Sequence();
+    AzureCompendiaSequences.animateSkill(sequence, event.token, event.item, event.traits);
     await sequence.play();
 }
 
@@ -133,6 +140,10 @@ function subscribe() {
 
     Hooks.on('projectfu.events.spell', async event => {
         await animateSpell(event);
+    });
+
+    Hooks.on('projectfu.events.skill', async event => {
+        await animateSkill(event);
     });
 
     Hooks.on('projectfu.events.gain', async event => {

@@ -2,12 +2,16 @@
 // Uses: https://fantasycomputer.works/FoundryVTT-Sequencer/#/
 /**
  * @property {String[]} animations
- * @property {String} sound
- * @property {Number} duration If set, the maximum duration
+ * @property {String|null} sound
+ * @property {Number|null} duration If set, the maximum duration
+ * @property {Number} scale
+ * @property {Boolean} stretch
  */
 class Preset {
     constructor(...animations) {
         this.animations = animations;
+        this.stretch = true;
+        this.scale = 1;
     }
 
     withSound(sound) {
@@ -31,6 +35,16 @@ class Preset {
 
     withDuration(duration) {
         this.duration = duration;
+        return this;
+    }
+
+    withScale(scale) {
+        this.scale = scale;
+        return this;
+    }
+
+    disableStretch() {
+        this.stretch = false;
         return this;
     }
 }
@@ -60,7 +74,7 @@ const presets = Object.freeze({
     mp_loss: new Preset('jb2a.healing_generic.400px.yellow').withSound("fu-azure-compendia.sounds.loss.mp"),
     //zenit_gain: new Preset('').withInternalSound('gain.zenit'),
 
-    // Weapons
+    // Weapon Categories
     bow: new Preset("jb2a.arrow.physical.blue").withSound("fu-azure-compendia.sounds.weapon.bow"),
     sword: new Preset("jb2a.sword.melee").withSound("fu-azure-compendia.sounds.weapon.sword"),
     sword_two_handed: new Preset('jb2a.greatsword.melee').withSound("fu-azure-compendia.sounds.weapon.sword"),
@@ -96,7 +110,7 @@ const presets = Object.freeze({
 
     // Action Animations (Before skills or spells)
     miss: new Preset('jb2a.ui.miss').withInternalSound('check.miss'),
-    critical: new Preset('jb2a.ui.critical').withSound('fu-azure-compendia.sounds.check.critical'),
+    critical: new Preset('jb2a.ui.critical.red.1').withSound('fu-azure-compendia.sounds.check.critical'),
     fumble: new Preset('jb2a.ui.critical_miss').withSound('fu-azure-compendia.sounds.check.fumble'),
     skill: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.skill").withDuration(2),
     spell: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
@@ -112,7 +126,7 @@ const presets = Object.freeze({
     boltSingle: new Preset('jb2a.lightning_bolt'),
     boltMultiple: new Preset('jb2a.thunderwave.center'),
     earthSingle: new Preset('jb2a.boulder'),
-    earthMultiple: new Preset('jb2a.falling_rocks.top'),
+    earthMultiple: new Preset('jb2a.falling_rocks.top').withDuration(2),
     poisonSingle: new Preset('jb2a.ranged.04.projectile.01.green'),
     poisonMultiple: new Preset('jb2a.toll_the_dead.green.skull_smoke'),
     lightSingle: new Preset('jb2a.ranged.03.projectile.01.bluegreen'),
@@ -122,28 +136,43 @@ const presets = Object.freeze({
     airSingle: new Preset('jb2a.gust_of_wind.veryfast'),
     airMultiple: new Preset('jb2a.template_circle.whirl'),
 
-    // Specific: Will be used if found (Skills, Attacks, Misc. Abilities)
+    // Specific Attacks: Will be used if found (Skills, Attacks, Misc. Abilities)
     claw: new Preset('jb2a.claws'),
     bite: new Preset('jb2a.bite').withInternalSound('attack.bite'),
     fist: new Preset('jb2a.melee_generic.creature_attack.fist'),
     pincer: new Preset('jb2a.melee_generic.creature_attack.pincer'),
     splash: new Preset('jb2a.water_splash'),
+    glare: new Preset('jb2a.eyes.01.dark_green.single').disableStretch().withDuration(1),
+    axe: new Preset('jb2a.handaxe.melee'),
+    greataxe: new Preset('jb2a.greataxe.melee'),
+    glaive: new Preset('jb2a.glaive'),
+    greatsword: new Preset('jb2a.greatsword'),
+    hammer: new Preset('jb2a.hammer'),
+    mace: new Preset('jb2a.mace'),
+    maul: new Preset('jb2a.maul'),
+    warhammer: new Preset('jb2a.warhammer'),
+    wrench: new Preset('jb2a.wrench'),
 
     // Breaths
     fireBreath: new Preset('jb2a.breath_weapons.fire.cone'),
     iceBreath: new Preset('jb2a.breath_weapons.cold.cone'),
     poisonBreath: new Preset('jb2a.breath_weapons.poison.cone'),
     boltBreath: new Preset('jb2a.breath_weapons.lightning.line'),
+});
 
-    // Spells/Skills
+const actionPresets = Object.freeze({
     elemental_weapon: new Preset('jb2a.magic_signs.rune.enchantment.intro'),
-    heal: new Preset('jb2a.healing_generic.03'),
+    heal: new Preset('jb2a.healing_generic.03').withInternalSound('spell.heal'),
     cleanse: new Preset('jb2a.cure_wounds.200px'),
     shadow_strike: new Preset('jb2a.bats.loop.01'),
     cheap_shot: new Preset('jb2a.sneak_attack.dark_green'),
     bladestorm: new Preset('jb2a.energy_strands.overlay.blue'),
-    counterattack: new Preset('jb2a.melee_generic.whirlwind.01')
-});
+    encourage: new Preset('jb2a.glint').withInternalSound('skill.encourage').withDuration(1.5),
+    counterattack: new Preset('jb2a.impact.004.blue').withInternalSound('skill.counterattack'),
+    verse: new Preset('jb2a.bardic_inspiration').withInternalSound('skill.verse'),
+    dance: new Preset('jb2a.dancing_light').withInternalSound('skill.dance').withDuration(3),
+})
+const actionPresetKeys = Object.keys(actionPresets);
 
 /**
  * @typedef {"arcane", "bow", "brawling", "dagger", "firearm", "flail", "heavy", "spear", "sword", "thrown", "custom"} WeaponCategory
@@ -169,6 +198,16 @@ const supportedAttacks = new Set([
     "fist",
     "pincer",
     "splash",
+    "glare",
+    "axe",
+    "glaive",
+    "greataxe",
+    "greatsword",
+    "hammer",
+    "mace",
+    "maul",
+    "warhammer",
+    "wrench"
 ]);
 
 const twoHandedTrait = 'two-handed';
@@ -203,20 +242,21 @@ const name_trait = "name:"
  */
 function resolveAttack(item, traits) {
 
+    // Check against weapon categories
     const weapon = resolveWeapon(item, traits);
     if (weapon) {
         return weapon;
     }
 
-    const nameTrait = [...traits].find(value => value.startsWith(name_trait));
-    if (nameTrait) {
-        const name = nameTrait.replace(name_trait, "");
-        for (const atk of supportedAttacks) {
-            if (name.includes(atk)) {
-                return get(atk);
-            }
+    // Check against supported attacks
+    const name = item.name.toLowerCase();
+    for (const atk of supportedAttacks) {
+        if (name.includes(atk)) {
+            return get(atk);
         }
     }
+
+    // Generic fallbacks
     if (traits.has("melee")) {
         return presets.meleeAttack;
     }
@@ -241,7 +281,6 @@ function resolveAttack(item, traits) {
  */
 function resolveSpellAttack(item, type, multiple, traits) {
     // Specific
-    const name = item.name.toLowerCase();
     switch (item.fuid) {
         case "ignis": return { preset: presets.fireSingle, aoe: false};
         case "fulgur": return { preset: presets.boltSingle, aoe: false};
@@ -271,10 +310,20 @@ function resolveSpellAttack(item, type, multiple, traits) {
  * @returns {Preset}
  */
 function resolveAction(item, traits) {
-    const fromFuid = get(item.fuid);
-    if (fromFuid) {
-        return fromFuid;
+    const fuid = item.fuid.replace('-','_');
+
+    // Exact match
+    const exactMatch = actionPresets[fuid]
+    if (exactMatch) {
+        return exactMatch;
     }
+    // Loose match
+    const matches = actionPresetKeys.filter(action => fuid.includes(action));
+    if (matches.length === 1) {
+        const match = matches[0];
+        return actionPresets[match];
+    }
+
     // TODO: Fallbacks
     return null;
 }

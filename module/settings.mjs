@@ -1,11 +1,12 @@
 const moduleId = 'fu-azure-compendia';
 
 // A key for each specific setting
-export const keys = Object.freeze({
+const keys = Object.freeze({
   enableAnimationSystem : "enableAnimationSystem",
-  enableMeleeDash: "enableMeleeDash",
-  volume: "volume",
+  playSounds: "playSounds",
+  dashOnMelee: "dashOnMelee",
   fadeOnDefeat: "fadeOnDefeat",
+  dodgeOnMiss: 'dodgeOnMiss',
 })
 
 /**
@@ -13,36 +14,22 @@ export const keys = Object.freeze({
  * @example https://foundryvtt.com/api/classes/client.ClientSettings.html#register
  */
 function registerSettings() {
+  registerToggle(keys.enableAnimationSystem, "Combat Tuned Realistic Pose and Locomotion Rendering", "Animate canvas tokens on combat events");
+  registerToggle(keys.playSounds, "Play Sounds", "Whether sounds are enabled");
+  registerToggle(keys.dashOnMelee, "Dash on Melee", "Whether for tokens to dash towards target on melee attacks");
+  registerToggle(keys.fadeOnDefeat, "Fade on KO", "Whether to fade out NPC tokens on defeat");
+  registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check")
+}
 
-  game.settings.register(moduleId, keys.enableAnimationSystem, {
-    name: "Combat Tuned Realistic Pose and Locomotion Rendering",
-    hint: "Whether to animate tokens from combat events",
-    scope: "world",  // "client" for per-user settings, "world" for global settings
-    config: true,     // Show in settings menu
-    type: Boolean,     // Data type: String, Number, Boolean, Object
-    default: true,  // The default value for the setting
-    //requiresReload: true, // This will prompt the user to reload the application for the setting to take effect.
-    onChange: value => console.log(`Animations enabled ? ${value}`)
-  });
-
-  game.settings.register(moduleId, keys.volume, {
-    name: "Volume",
-    hint: "The volume for the system's effects",
-    scope: "world",
-    config: true,
-    type: Number,
-    default: 0.2,
-    onChange: value => console.log(`Volumed ? ${value}`)
-  });
-
-  game.settings.register(moduleId, keys.fadeOnDefeat, {
-    name: "Fade on Defeat",
-    hint: "Whether to fade out NPC tokens on defeat",
+function registerToggle(key, name, hint) {
+  game.settings.register(moduleId, key, {
+    name: name,
+    hint: hint,
     scope: "world",
     config: true,
     type: Boolean,
     default: true,
-    onChange: value => console.log(`Fade on Defeat? ${value}`)
+    onChange: value => console.log(`${name}? ${value}`)
   });
 }
 
@@ -50,9 +37,15 @@ function getSetting(key) {
   return game.settings.get(moduleId, key);
 }
 
+function isEnabled(key) {
+  const value = getSetting(key);
+  return value === true;
+}
+
 export const AzureCompendiaSettings = Object.freeze({
     registerSettings,
     getSetting,
+    isEnabled,
     moduleId,
     keys,
 });
