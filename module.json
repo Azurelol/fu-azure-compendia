@@ -37,7 +37,7 @@
     }
   ],
   "esmodules": [
-    "azure-compendia.mjs"
+    "scripts/azure-compendia.mjs"
   ],
   "styles": [
     "styles/azure-compendia.css"
