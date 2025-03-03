@@ -136,8 +136,6 @@ function shakeTarget(sequence, source, target) {
         .fadeIn(50)
 }
 
-
-
 /**
  * @param {Sequence} sequence
  * @param {Token} sourceToken
@@ -155,17 +153,27 @@ function animateSkill(sequence, sourceToken, item, traits) {
     }
 }
 
+const missPreset = AzureCompendiaPresets.get('miss');
+const criticalPreset = AzureCompendiaPresets.get('critical');
+const fumblePreset = AzureCompendiaPresets.get('fumble');
+
+
 function animateCheck(sequence, miss, traits, token) {
+    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateCheck)) {
+        return;
+    }
     if (miss) {
-        playAnimationOnToken(sequence, AzureCompendiaPresets.get('miss'), token)
+        playSoundEffect(sequence, missPreset);
         return true;
     }
     else if (traits.has('critical')) {
-        playAnimationOnToken(sequence, AzureCompendiaPresets.get('critical'), token)
+        playSoundEffect(sequence, criticalPreset);
+        //playAnimationOnToken(sequence, criticalPreset, token);
         return true;
     }
     else if (traits.has('fumble')) {
-        playAnimationOnToken(sequence, AzureCompendiaPresets.get('fumble'), token);
+        playSoundEffect(sequence, fumblePreset);
+        //playAnimationOnToken(sequence, fumblePreset, token);
         return true;
     }
     return false;
@@ -309,6 +317,7 @@ function animateMeleeAttack(sequence, item, traits, type, sourceToken, targets) 
  * @param {Boolean} miss
  */
 function animateDamageTaken(sequence, sourceToken, targetToken, type, traits, miss) {
+    animateCheck(sequence, miss, traits, targetToken)
     if (!miss) {
         playAnimationOnToken(sequence, AzureCompendiaPresets.get(type), targetToken)
         shakeTarget(sequence, sourceToken, targetToken);
@@ -316,7 +325,6 @@ function animateDamageTaken(sequence, sourceToken, targetToken, type, traits, mi
     else{
         dodgeTarget(sequence, sourceToken, targetToken);
     }
-    animateCheck(sequence, miss, traits, targetToken)
 }
 
 /**
@@ -365,7 +373,7 @@ function playRangedAnimation(sequence, item, traits, type, sourceToken, targets)
  * @param {Sequence} sequence
  * @param {Token} sourceToken
  */
-function animmateSpellCast(sequence, sourceToken) {
+function animmateSpellChannel(sequence, sourceToken) {
     const cast = AzureCompendiaPresets.get("spell");
     const section = playAnimationOnToken(sequence, cast, sourceToken, skillScale);
     section.waitUntilFinished();
@@ -385,7 +393,7 @@ function playSpellAttack(sequence, item, traits, type, sourceToken, targets) {
     }
 
     // Animate spell circle
-    animmateSpellCast(sequence, sourceToken);
+    animmateSpellChannel(sequence, sourceToken);
 
     // Select the spell animation to use
     const multiple = targets.length > 1;
@@ -442,14 +450,16 @@ function playSpellAttack(sequence, item, traits, type, sourceToken, targets) {
  * @param {Token} sourceToken
  * @param {EventTarget[]} targets
  */
-function playSpell(sequence, item, traits, sourceToken, targets) {
+function animateSpell(sequence, item, traits, sourceToken, targets) {
     if (!sourceToken) {
         return;
     }
-    animmateSpellCast(sequence, sourceToken);
     const spell = AzureCompendiaPresets.resolveAction(item, traits);
     if (spell) {
         playAnimationOnToken(sequence, spell, sourceToken, 2);
+    }
+    else{
+        animmateSpellChannel(sequence, sourceToken);
     }
 }
 
@@ -475,10 +485,8 @@ function playAnimationOnToken(sequence, preset, token, scale = 1) {
             considerTokenScale: true
         })
 
-
     if (preset.duration) {
-        const duration = preset.duration * 1000;
-        section.timeRange(0, duration)
+        section.duration(preset.duration * 1000);
     }
 
     return section
@@ -490,7 +498,7 @@ function playAnimationOnToken(sequence, preset, token, scale = 1) {
  * @param token
  * @returns {EffectSection}
  */
-function playStatusChangeOnToken(sequence, preset, token) {
+function animateEffectAboveToken(sequence, preset, token) {
     if (!preset){
         return null;
     }
@@ -541,8 +549,8 @@ export const AzureCompendiaSequences = Object.freeze({
     animateMeleeDash,
     animateMeleeAttack,
     playSpellAttack,
-    playSpell,
+    animateSpell,
     animateSkill,
     playDefeatAnimation,
-    playStatusChangeOnToken
+    animateEffectAboveToken,
 })

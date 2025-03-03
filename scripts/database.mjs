@@ -173,6 +173,9 @@ const entries = {
             ],
             counterattack: [
                 toEntry('piercing-impact-metal-1')
+            ],
+            jump: [
+                toEntry('Ki')
             ]
         },
         spell: {

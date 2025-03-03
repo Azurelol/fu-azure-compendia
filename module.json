@@ -39,6 +39,11 @@
   "esmodules": [
     "scripts/azure-compendia.mjs"
   ],
+  "scripts": [
+    "vendor/pixi-filters.js",
+    "greensock/dist/gsap.min.js",
+    "greensock/dist/PixiPlugin.min.js"
+  ],
   "styles": [
     "styles/azure-compendia.css"
   ],

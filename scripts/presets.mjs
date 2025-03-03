@@ -160,10 +160,12 @@ const presets = Object.freeze({
     boltBreath: new Preset('jb2a.breath_weapons.lightning.line'),
 });
 
+// Specific actions
 const actionPresets = Object.freeze({
     elemental_weapon: new Preset('jb2a.magic_signs.rune.enchantment.intro'),
     heal: new Preset('jb2a.healing_generic.03').withInternalSound('spell.heal'),
     cleanse: new Preset('jb2a.cure_wounds.200px'),
+    soaring_strike: new Preset('jb2a.smoke.puff.ring').withInternalSound('skill.jump'),
     shadow_strike: new Preset('jb2a.bats.loop.01'),
     cheap_shot: new Preset('jb2a.sneak_attack.dark_green'),
     bladestorm: new Preset('jb2a.energy_strands.overlay.blue'),
@@ -173,6 +175,14 @@ const actionPresets = Object.freeze({
     dance: new Preset('jb2a.dancing_light').withInternalSound('skill.dance').withDuration(3),
 })
 const actionPresetKeys = Object.keys(actionPresets);
+
+// Combat events
+const combatPresets =  Object.freeze({
+    startOfCombat: new Preset(),
+    endOfCombat: new Preset(),
+    startOfTurn: new Preset('jb2a.zoning.directional.once.bluegreen.line200'),
+    endOfTurn: new Preset(),
+})
 
 /**
  * @typedef {"arcane", "bow", "brawling", "dagger", "firearm", "flail", "heavy", "spear", "sword", "thrown", "custom"} WeaponCategory
@@ -346,5 +356,6 @@ export const AzureCompendiaPresets = Object.freeze({
     resolveWeapon,
     resolveAttack,
     resolveSpellAttack,
-    resolveAction
+    resolveAction,
+    combatPresets
 })

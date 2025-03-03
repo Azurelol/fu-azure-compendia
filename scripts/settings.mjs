@@ -7,6 +7,8 @@ const keys = Object.freeze({
   dashOnMelee: "dashOnMelee",
   fadeOnDefeat: "fadeOnDefeat",
   dodgeOnMiss: 'dodgeOnMiss',
+  animateCheck: 'animateCheck',
+  animateCombatEvent: 'animateCombatEvent',
 })
 
 /**
@@ -14,20 +16,23 @@ const keys = Object.freeze({
  * @example https://foundryvtt.com/api/classes/client.ClientSettings.html#register
  */
 function registerSettings() {
-  registerToggle(keys.enableAnimationSystem, "Combat Tuned Realistic Pose and Locomotion Rendering", "Animate canvas tokens on combat events");
+  registerToggle(keys.enableAnimationSystem, "Combat Tuned Realistic Pose and Locomotion Rendering", "Animate canvas tokens based on combat events (attack, spells, skills)", true);
   registerToggle(keys.playSounds, "Play Sounds", "Whether sounds are enabled");
   registerToggle(keys.dashOnMelee, "Dash on Melee", "Whether for tokens to dash towards target on melee attacks");
   registerToggle(keys.fadeOnDefeat, "Fade on KO", "Whether to fade out NPC tokens on defeat");
-  registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check")
+  registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check");
+  registerToggle(keys.animateCheck, 'Animate Check', "Whether to show text for the result of the check on targeted tokens");
+  registerToggle(keys.animateCombatEvent, 'Animate Combat Events', "Whether to animate combat lifetime events (turns, rounds, etc)");
 }
 
-function registerToggle(key, name, hint) {
+function registerToggle(key, name, hint, reload = false) {
   game.settings.register(moduleId, key, {
     name: name,
     hint: hint,
     scope: "world",
     config: true,
     type: Boolean,
+    requiresReload: reload,
     default: true,
     onChange: value => console.log(`${name}? ${value}`)
   });

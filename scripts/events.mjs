@@ -2,6 +2,33 @@ import { Azurecompendia } from "./main.mjs";
 import { AzureCompendiaSettings } from "./settings.mjs";
 import { AzureCompendiaPresets } from "./presets.mjs";
 import {AzureCompendiaSequences} from "./sequences.mjs";
+import {AzureCompendiaFilters} from "./filters.mjs";
+
+/**
+ * @typedef CombatEvent
+ * @description Dispatched by the combat during its lifetime
+ * @property {FU.combatEvent} type The type of event
+ * @property {Number} round The round the event is taking place in
+ * @property {Combatant} combatant The current combatant taking a turn, which can be null.
+ * @property {FUActor|*} actor The actor involved in the event, which can be null.
+ * @property {Token|*} token The token of the combatant taking a turn, which can be null.
+ * @property {Combatant[]} combatants The actors involved in the combat
+ * @property {FUActor[]} actors The actors involved in the combat
+ * @remarks Depending on the {@linkcode type} of the event, some properties will be assigned and others will not.
+ * Combat and round events will include all combatants, whereas turn events are relegated to the single combatant.
+ */
+
+/**
+ * @typedef Combatant
+ * @property {Number} id
+ * @property {Number} actorId
+ * @property {FUActor} actor
+ * @property {TokenDocument} token
+ * @property {Boolean} isNPC
+ * @property {Boolean} visible
+ * @property {Boolean} isDefeated
+ * @remarks {@link https://foundryvtt.com/api/classes/client.Combatant.html}
+ */
 
 /**
  * @description Dispatched when an actor makes an attack (skill/spell)
@@ -71,7 +98,7 @@ async function animateAttack(event) {
 
 async function animateSpell(event) {
     let sequence = new Sequence();
-    AzureCompendiaSequences.playSpell(sequence, event.item, event.traits, event.token, event.targets);
+    AzureCompendiaSequences.animateSpell(sequence, event.item, event.traits, event.token, event.targets);
     await sequence.play();
 }
 
@@ -93,7 +120,7 @@ async function playStatusPreset(event) {
     Azurecompendia.log(`Playing preset for status event: ${event.status}, enabled=${event.enabled}, on token: ${event.token.name}`);
     if (event.enabled) {
         let sequence = new Sequence();
-        AzureCompendiaSequences.playStatusChangeOnToken(sequence, AzureCompendiaPresets.get(event.status), event.token);
+        AzureCompendiaSequences.animateEffectAboveToken(sequence, AzureCompendiaPresets.get(event.status), event.token);
         await sequence.play();
     }
 }
@@ -103,6 +130,36 @@ async function animateDefeat(event){
         let sequence = new Sequence();
         AzureCompendiaSequences.playDefeatAnimation(sequence, event.actor, event.token);
         await sequence.play();
+    }
+}
+
+/**
+ * @param {CombatEvent} event
+ * @returns {Promise<void>}
+ */
+async function animateCombatEvent(event) {
+    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateCombatEvent)) {
+        return;
+    }
+
+    switch (event.type) {
+        case 'FU.StartOfCombat':
+            break;
+        case 'FU.EndOfCombat':
+            Azurecompendia.log(`Playing preset for combat event: ${event.type}`);
+            AzureCompendiaFilters.clearTokenFilters(event.combatants)
+            break;
+
+        case 'FU.StartOfTurn':
+            Azurecompendia.log(`Playing preset for combat event ${event.type} on token ${event.token.name}`);
+            AzureCompendiaFilters.toggleTokenOutline(event.combatant, event.token, true)
+            break;
+        case 'FU.EndOfTurn':
+            Azurecompendia.log(`Playing preset for combat event ${event.type} on token ${event.token.name}`);
+            AzureCompendiaFilters.toggleTokenOutline(event.combatant, event.token, false)
+            break;
+        default:
+            break;
     }
 }
 
@@ -167,24 +224,9 @@ function subscribe() {
     });
 
     Hooks.on('projectfu.events.combat', async event => {
-        switch (event.type) {
-            case 'FU.StartOfCombat':
-            case 'FU.EndOfCombat':
-                Azurecompendia.log(`Playing preset for combat event: ${event.type}`);
-                break;
-
-            case 'FU.StartOfTurn':
-                Azurecompendia.log(`Playing preset for combat event ${event.type} on token ${event.token.name}`);
-                break;
-            case 'FU.EndOfTurn':
-                Azurecompendia.log(`Playing preset for combat event ${event.type} on token ${event.token.name}`);
-                break;
-            default:
-                break;
-        }
+        await animateCombatEvent(event)
     });
 }
-
 
 export const AzureCompendiaEvents = Object.freeze({
     subscribe

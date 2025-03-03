@@ -28,6 +28,8 @@ The following compendiums are present at this time of writing:
 The 'Combat-Tuned Realistic Pose and Locomotion Rendering' system, it works by subscribing to combat and character events
 and animating the tokens in the canvas from the information gathered in the event.
 
+Note that this system depends on `JBA2A - Free Module` for its animations.
+
 ## Dependencies
 
 The module is currently targeting the latest alpha releases of [Project FU](https://github.com/League-of-Fabulous-Developers/FoundryVTT-Fabula-Ultima/releases).
@@ -46,7 +48,7 @@ Once installed, you can find the compendiums in your Compendiums tab.
 
 ## Credits
 
-I can't thank the developers of the unofficial Foundry VTT system, [Project FU](https://github.com/League-of-Fabulous-Developers/FoundryVTT-Fabula-Ultima) enough for their work and contribution to the very small community. I come from a software development background so I can only commend them for their regular update cadence for an open project like this. Without the system being where it is, I would not be running the game for my players or enjoying myself so much.
+I can't thank my fellow developers of the unofficial Foundry VTT system, [Project FU](https://github.com/League-of-Fabulous-Developers/FoundryVTT-Fabula-Ultima) for their work and contribution to the very small community. 
 
 Since I have not contributed directly to their efforts, I feel the best I could do at the moment was to share the work I have been doing as a Game Master with the community: so that it may end up saving others even a little bit of time when they prepare for their own games.
 
