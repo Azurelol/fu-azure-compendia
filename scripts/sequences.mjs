@@ -8,7 +8,6 @@ function isTooClose(source, target) {
 }
 
 // Constants
-const defaultVolume = 0.1
 const skillScale = 1.5;
 
 /**
@@ -35,7 +34,7 @@ function playSoundEffect(sequence, preset) {
     let section = sequence
         .sound()
         .file(preset.sound)
-        .volume(defaultVolume)
+        .volume(AzureCompendiaSettings.getVolume())
 
 
     if (preset.duration) {

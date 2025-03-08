@@ -4,6 +4,7 @@ const moduleId = 'fu-azure-compendia';
 const keys = Object.freeze({
   enableAnimationSystem : "enableAnimationSystem",
   playSounds: "playSounds",
+  volume: "volume",
   dashOnMelee: "dashOnMelee",
   fadeOnDefeat: "fadeOnDefeat",
   dodgeOnMiss: 'dodgeOnMiss',
@@ -23,6 +24,7 @@ function registerSettings() {
   registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check");
   registerToggle(keys.animateCheck, 'Animate Check', "Whether to show text for the result of the check on targeted tokens");
   registerToggle(keys.animateCombatEvent, 'Animate Combat Events', "Whether to animate combat lifetime events (turns, rounds, etc)");
+  registerSlider(keys.volume, "Volume", "The volume of sound effects", 0.25, 0, 1, 0.1);
 }
 
 function registerToggle(key, name, hint, reload = false) {
@@ -38,6 +40,21 @@ function registerToggle(key, name, hint, reload = false) {
   });
 }
 
+function registerSlider(key, name, hint, base, min, max, step) {
+  game.settings.register(moduleId, key, {
+    name: name,
+    hint: hint,
+    scope: "client",
+    config: true,
+    default: base,
+    type: Number,
+    range: {
+      min: min,
+      max: max,
+      step: step
+    }});
+}
+
 function getSetting(key) {
   return game.settings.get(moduleId, key);
 }
@@ -47,10 +64,18 @@ function isEnabled(key) {
   return value === true;
 }
 
+/**
+ * @returns {Number}
+ */
+function getVolume() {
+  return getSetting(keys.volume);
+}
+
 export const AzureCompendiaSettings = Object.freeze({
     registerSettings,
     getSetting,
     isEnabled,
     moduleId,
     keys,
+    getVolume
 });
