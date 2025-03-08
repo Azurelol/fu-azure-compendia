@@ -68,15 +68,18 @@ const presets = Object.freeze({
     untyped: new Preset("jb2a.cast_generic.fire.01.orange.0"),
 
     // Resources    
-    hp_gain: new Preset("jb2a.healing_generic.200px.green").withSound("fu-azure-compendia.sounds.gain.hp"),
-    mp_gain: new Preset("jb2a.healing_generic.200px.blue").withSound("fu-azure-compendia.sounds.gain.mp"),
-    hp_loss: new Preset('jb2a.healing_generic.200px.purple').withSound("fu-azure-compendia.sounds.loss.hp"),
-    mp_loss: new Preset('jb2a.healing_generic.400px.yellow').withSound("fu-azure-compendia.sounds.loss.mp"),
-    //zenit_gain: new Preset('').withInternalSound('gain.zenit'),
+    hp_gain: new Preset("jb2a.healing_generic.200px.green").withInternalSound("gain.hp"),
+    mp_gain: new Preset("jb2a.healing_generic.200px.blue").withInternalSound("gain.mp"),
+    ip_gain: new Preset("jb2a.firework.01.yellow").withInternalSound("gain.ip").withDuration(2),
+    zenit_gain: new Preset('jb2a.butterflies.outward_burst').withInternalSound('gain.zenit'),
+    hp_loss: new Preset('jb2a.healing_generic.200px.purple').withInternalSound("loss.hp"),
+    mp_loss: new Preset('jb2a.healing_generic.400px.yellow').withInternalSound("loss.mp"),
+    ip_loss: new Preset('jb2a.swirling_feathers.outburst').withInternalSound("loss.ip"),
+    zenit_loss: new Preset('jb2a.on_token_buff.001.001.orangeyellow').withInternalSound("loss.zenit"),
 
     // Weapon Categories
     bow: new Preset("jb2a.arrow.physical.blue").withSound("fu-azure-compendia.sounds.weapon.bow"),
-    sword: new Preset("jb2a.sword.melee").withSound("fu-azure-compendia.sounds.weapon.sword"),
+    sword: new Preset("jb2a.sword.melee").withInternalSound("weapon.sword"),
     sword_two_handed: new Preset('jb2a.greatsword.melee').withSound("fu-azure-compendia.sounds.weapon.sword"),
     dagger: new Preset("jb2a.dagger.melee").withSound("fu-azure-compendia.sounds.weapon.dagger"),
     spear: new Preset("jb2a.spear").withSound("fu-azure-compendia.sounds.weapon.spear"),
@@ -103,6 +106,8 @@ const presets = Object.freeze({
     wlp_down: new Preset('jb2a.condition.curse.01.011').withInternalSound('effect.bane').withDuration(effectLength),
     ins_down: new Preset('jb2a.condition.curse.01.020').withInternalSound('effect.bane').withDuration(effectLength),
     dex_down: new Preset('jb2a.condition.curse.01.008').withInternalSound('effect.bane').withDuration(effectLength),
+    provoked: new Preset('jb2a.condition.curse.01.007').withInternalSound('effect.bane').withDuration(effectLength),
+    sleep: new Preset('jb2a.condition.curse.01.019').withInternalSound('effect.bane').withDuration(effectLength),
 
     // Default attack
     meleeAttack: new Preset('jb2a.melee_generic'),
@@ -143,8 +148,8 @@ const presets = Object.freeze({
     pincer: new Preset('jb2a.melee_generic.creature_attack.pincer'),
     splash: new Preset('jb2a.water_splash'),
     glare: new Preset('jb2a.eyes.01.dark_green.single').disableStretch().withDuration(1),
-    axe: new Preset('jb2a.handaxe.melee'),
-    greataxe: new Preset('jb2a.greataxe.melee'),
+    axe: new Preset('jb2a.handaxe.melee').withInternalSound("weapon.heavy"),
+    greataxe: new Preset('jb2a.greataxe.melee').withInternalSound("weapon.heavy"),
     glaive: new Preset('jb2a.glaive'),
     greatsword: new Preset('jb2a.greatsword'),
     hammer: new Preset('jb2a.hammer'),

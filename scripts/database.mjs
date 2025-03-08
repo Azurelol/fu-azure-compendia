@@ -50,8 +50,11 @@ const entries = {
             mp: [
                 toEntry("enchant"),
             ],
+            ip: [
+                toEntry("gold_sack"),
+            ],
             zenit: [
-                toEntry("zenit"),
+                toEntry("gold_sack"),
             ]
         },
         loss: {
@@ -60,6 +63,12 @@ const entries = {
             ],
             mp: [
                 toEntry("spell-whoosh-16"),
+            ],
+            ip: [
+                toEntry("gold_sack"),
+            ],
+            zenit: [
+                toEntry("gold_sack"),
             ]
         },
         status: {
@@ -160,6 +169,9 @@ const entries = {
             launchMultiple: [
                 toEntry('spell-launch-multiple-1')
             ],
+            item: [
+                toEntry('')
+            ]
         },
         skill: {
             verse: [

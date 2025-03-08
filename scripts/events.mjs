@@ -123,6 +123,14 @@ async function playStatusPreset(event) {
         AzureCompendiaSequences.animateEffectAboveToken(sequence, AzureCompendiaPresets.get(event.status), event.token);
         await sequence.play();
     }
+    else{
+        // TODO: Handle?
+        // if (event.status === "ko") {
+        //     let sequence = new Sequence();
+        //     sequence.animation(event.token).show(true)
+        //     await sequence.play()
+        // }
+    }
 }
 
 async function animateDefeat(event){

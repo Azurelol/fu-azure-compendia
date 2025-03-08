@@ -531,9 +531,19 @@ function playDefeatAnimation(sequence, actor, token){
         return null;
     }
 
+    const isPC = token.document.disposition === 1;
+    if (isPC) {
+        return;
+    }
+
+    const rank = actor.system.rank.value;
+    // TODO: Different animation for elites, champions
+
+    const defeatDuration = 3;
+
     sequence
         .animation(token)
-            .fadeOut(2 * 1000)
+            .fadeOut(defeatDuration * 1000)
             .waitUntilFinished()
         .animation(token)
             .hide(true)
