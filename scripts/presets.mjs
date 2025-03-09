@@ -111,7 +111,7 @@ const presets = Object.freeze({
     ins_down: new Preset('jb2a.condition.curse.01.020').withInternalSound('effect.bane').withDuration(effectLength),
     dex_down: new Preset('jb2a.condition.curse.01.008').withInternalSound('effect.bane').withDuration(effectLength),
     provoked: new Preset('jb2a.condition.curse.01.007').withInternalSound('effect.bane').withDuration(effectLength),
-    sleep: new Preset('jb2a.condition.curse.01.019').withInternalSound('effect.bane').withDuration(effectLength),
+    sleep: new Preset('jb2a.condition.curse.01.019').withInternalSound('effect.sleep').withDuration(effectLength),
 
     // Default attack
     meleeAttack: new Preset('jb2a.melee_generic'),
@@ -119,13 +119,14 @@ const presets = Object.freeze({
 
     // Action Animations (Before skills or spells)
     miss: new Preset('jb2a.ui.miss').withInternalSound('check.miss'),
-    critical: new Preset('jb2a.ui.critical.red.1').withSound('fu-azure-compendia.sounds.check.critical'),
-    fumble: new Preset('jb2a.ui.critical_miss').withSound('fu-azure-compendia.sounds.check.fumble'),
-    skill: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.skill").withDuration(2),
-    spell: new Preset("jb2a.static_electricity").withSound("fu-azure-compendia.sounds.action.spell").withDuration(2),
+    critical: new Preset('jb2a.ui.critical.red.1').withInternalSound('check.critical'),
+    fumble: new Preset('jb2a.ui.critical_miss').withInternalSound('check.fumble'),
+    skill: new Preset("jb2a.static_electricity").withInternalSound("action.skill").withDuration(2),
+    spell: new Preset("jb2a.static_electricity").withInternalSound("action.spell").withDuration(2),
+    study: new Preset('jb2a.zoning.inward.circle.loop').withInternalSound('action.study'),
     launchSingle: new Preset('').withInternalSound('action.launchSingle'),
     launchMultiple: new Preset('').withInternalSound('action.launchMultiple'),
-    dash: new Preset('jb2a.teleport').withSound('fu-azure-compendia.sounds.action.dash'),
+    dash: new Preset('jb2a.teleport').withInternalSound('action.dash'),
 
     // Spells (attack)
     fireSingle: new Preset('jb2a.scorching_ray'),
@@ -146,7 +147,7 @@ const presets = Object.freeze({
     airMultiple: new Preset('jb2a.template_circle.whirl'),
 
     // Specific Attacks: Will be used if found (Skills, Attacks, Misc. Abilities)
-    claw: new Preset('jb2a.claws'),
+    claw: new Preset('jb2a.claws').withInternalSound('attack.claw'),
     bite: new Preset('jb2a.bite').withInternalSound('attack.bite'),
     fist: new Preset('jb2a.melee_generic.creature_attack.fist'),
     pincer: new Preset('jb2a.melee_generic.creature_attack.pincer'),
@@ -171,7 +172,7 @@ const presets = Object.freeze({
 
 // Specific actions
 const actionPresets = Object.freeze({
-    elemental_weapon: new Preset('jb2a.magic_signs.rune.enchantment.intro'),
+    elemental_weapon: new Preset('jb2a.magic_signs.rune.enchantment.intro').withInternalSound('spell.enchant'),
     heal: new Preset('jb2a.healing_generic.03').withInternalSound('spell.heal'),
     cleanse: new Preset('jb2a.cure_wounds.200px'),
     soaring_strike: new Preset('jb2a.smoke.puff.ring').withInternalSound('skill.jump'),
@@ -187,7 +188,7 @@ const actionPresetKeys = Object.keys(actionPresets);
 
 // Combat events
 const combatPresets =  Object.freeze({
-    startOfCombat: new Preset(),
+    startOfCombat: new Preset().withInternalSound('combat.start'),
     endOfCombat: new Preset(),
     startOfTurn: new Preset('jb2a.zoning.directional.once.bluegreen.line200'),
     endOfTurn: new Preset(),

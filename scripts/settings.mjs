@@ -24,6 +24,7 @@ function registerSettings() {
   registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check");
   registerToggle(keys.animateCheck, 'Animate Check', "Whether to show text for the result of the check on targeted tokens");
   registerToggle(keys.animateCombatEvent, 'Animate Combat Events', "Whether to animate combat lifetime events (turns, rounds, etc)");
+
   registerSlider(keys.volume, "Volume", "The volume of sound effects", 0.25, 0, 1, 0.1);
 }
 

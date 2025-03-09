@@ -68,7 +68,7 @@ const entries = {
                 toEntry("gold_sack"),
             ],
             zenit: [
-                toEntry("gold_sack"),
+                toEntry("Cash_Register_1-2"),
             ]
         },
         status: {
@@ -95,6 +95,9 @@ const entries = {
             ],
             ko: [
                 toEntry('spell-teleport-short-4')
+            ],
+            sleep: [
+                toEntry('44_Sleep_01')
             ]
         },
         effect: {
@@ -140,6 +143,9 @@ const entries = {
         attack: {
             bite: [
                 toEntry("melee-impact-rip-1")
+            ],
+            claw: [
+                toEntry("03_Claw_03")
             ]
         },
         check: {
@@ -160,6 +166,9 @@ const entries = {
             skill: [
                 toEntry('Constrict_Snare')
             ],
+            study: [
+                toEntry('radar_ready')
+            ],
             dash: [
                 toEntry('sand')
             ],
@@ -170,7 +179,8 @@ const entries = {
                 toEntry('spell-launch-multiple-1')
             ],
             item: [
-                toEntry('')
+                toEntry('Item1A'),
+                toEntry('Item1B'),
             ]
         },
         skill: {
@@ -193,6 +203,9 @@ const entries = {
         spell: {
             heal: [
                 toEntry('blessing2')
+            ],
+            enchant: [
+                toEntry('16_Atk_buff_04')
             ]
         },
         item: {
@@ -201,6 +214,11 @@ const entries = {
             ],
             utility: [
                 toEntry("jds_swipe_2")
+            ]
+        },
+        combat: {
+            start: [
+                toEntry('55_Encounter_02')
             ]
         }
     }

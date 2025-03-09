@@ -126,9 +126,28 @@ async function animateSkill(event) {
  * @property {Token} token
  * @property {EventTarget[]} targets
  */
+
 async function animateItem(event) {
     let sequence = new Sequence();
     AzureCompendiaSequences.animateItem(sequence, event.item, event.type, event.actor, event.token, event.targets);
+    await sequence.play();
+}
+
+/**
+ * @description Dispatched when an actor performs a study check
+ * @typedef StudyEvent
+ * @property {FUActor} actor
+ * @property {Token} token
+ * @property {EventTarget[]} targets
+ */
+
+async function animateStudy(event) {
+    Azurecompendia.log(`Playing preset for study event`);
+    let sequence = new Sequence();
+    const preset = AzureCompendiaPresets.get("study");
+    for(const target of event.targets){
+        AzureCompendiaSequences.playAnimationOnToken(sequence, preset, target.token, 2);
+    }
     await sequence.play();
 }
 
@@ -176,6 +195,9 @@ async function animateCombatEvent(event) {
 
     switch (event.type) {
         case 'FU.StartOfCombat':
+            let sequence = new Sequence();
+            AzureCompendiaSequences.playSoundEffect(sequence, AzureCompendiaPresets.combatPresets.startOfCombat);
+            await sequence.play();
             break;
         case 'FU.EndOfCombat':
             Azurecompendia.log(`Playing preset for combat event: ${event.type}`);
@@ -237,6 +259,10 @@ function subscribe() {
 
     Hooks.on('projectfu.events.item', async event => {
         await animateItem(event);
+    });
+
+    Hooks.on('projectfu.events.study', async event => {
+        await animateStudy(event);
     });
 
     Hooks.on('projectfu.events.gain', async event => {

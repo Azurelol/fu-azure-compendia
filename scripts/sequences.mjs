@@ -255,10 +255,8 @@ function animateMeleeDash(sequence, item, traits, type, sourceToken, targets) {
             .atLocation(hitPosition)
             .rotateTowards(target.token)
             .missed(miss)
-            .scaleToObject(1.25, {
-                considerTokenScale: true
-            })
-            .delay(300)
+            .scaleToObject(2)
+            .waitUntilFinished(-1250)
 
         animateDamageTaken(sequence, sourceToken, target.token, type, traits, miss);
         sequence.wait(attackDelay)
@@ -489,7 +487,6 @@ function animateItem(sequence, item, type, actor, token, targets){
     }
     // Otherwise, use self? Perhaps not needed as IP is spent
     else{
-
     }
 }
 
