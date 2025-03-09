@@ -102,9 +102,33 @@ async function animateSpell(event) {
     await sequence.play();
 }
 
+/**
+ * @description Dispatched when an actor performs a skill without am accuracy check.
+ * @typedef SkillEvent
+ * @property {ItemReference} item
+ * @property {Set<String>} traits
+ * @property {FUActor} actor
+ * @property {Token} token
+ * @property {EventTarget[]} targets
+ */
 async function animateSkill(event) {
     let sequence = new Sequence();
     AzureCompendiaSequences.animateSkill(sequence, event.token, event.item, event.traits);
+    await sequence.play();
+}
+
+/**
+ * @description Dispatched when an actor performs a skill without am accuracy check.
+ * @typedef ItemEvent
+ * @property {ItemReference} item
+ * @property {String} type The item type
+ * @property {FUActor} actor
+ * @property {Token} token
+ * @property {EventTarget[]} targets
+ */
+async function animateItem(event) {
+    let sequence = new Sequence();
+    AzureCompendiaSequences.animateItem(sequence, event.item, event.type, event.actor, event.token, event.targets);
     await sequence.play();
 }
 
@@ -209,6 +233,10 @@ function subscribe() {
 
     Hooks.on('projectfu.events.skill', async event => {
         await animateSkill(event);
+    });
+
+    Hooks.on('projectfu.events.item', async event => {
+        await animateItem(event);
     });
 
     Hooks.on('projectfu.events.gain', async event => {

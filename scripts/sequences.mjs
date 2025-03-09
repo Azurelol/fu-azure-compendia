@@ -464,6 +464,37 @@ function animateSpell(sequence, item, traits, sourceToken, targets) {
 
 /**
  * @param {Sequence} sequence
+ * @param {ItemReference} item
+ * @param {String} type
+ * @param actor
+ * @param token
+ * @param {EventTarget[]} targets
+ */
+function animateItem(sequence, item, type, actor, token, targets){
+
+    let preset = AzureCompendiaPresets.get(type);
+
+    // If there's targets, throw the item
+    if (targets.length > 0){
+        // Animate ranged attack from source to target
+        for(const target of targets){
+            playSoundEffect(sequence, preset);
+            sequence.effect()
+                .file(preset.animation)
+                .atLocation(token)
+                .stretchTo(target.token)
+                .waitUntilFinished()
+            playAnimationOnToken(sequence, AzureCompendiaPresets.get('splash'), target.token);
+        }
+    }
+    // Otherwise, use self? Perhaps not needed as IP is spent
+    else{
+
+    }
+}
+
+/**
+ * @param {Sequence} sequence
  * @param {Preset} preset
  * @param token
  * @param {Number} scale
@@ -560,6 +591,7 @@ export const AzureCompendiaSequences = Object.freeze({
     playSpellAttack,
     animateSpell,
     animateSkill,
+    animateItem,
     playDefeatAnimation,
     animateEffectAboveToken,
 })

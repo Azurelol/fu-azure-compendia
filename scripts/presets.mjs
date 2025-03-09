@@ -88,6 +88,10 @@ const presets = Object.freeze({
     thrown: new Preset("jb2a.dagger.throw").withSound("fu-azure-compendia.sounds.weapon.thrown"),
     firearm: new Preset("jb2a.bullet").withSound("fu-azure-compendia.sounds.weapon.firearm"),
 
+    // Item categories
+    potion: new Preset("jb2a.throwable.throw.flask").withInternalSound("item.potion"),
+    utility: new Preset('jb2a.throwable.throw.bomb').withInternalSound('item.utility'),
+
     // Effects (All '-' get replaced by '_')
     shaken: new Preset("jb2a.condition.curse.01.006").withSound("fu-azure-compendia.sounds.status.shaken").withDuration(effectLength),
     poisoned: new Preset("jb2a.condition.curse.01.016").withSound("fu-azure-compendia.sounds.status.poisoned").withDuration(effectLength),
@@ -146,7 +150,7 @@ const presets = Object.freeze({
     bite: new Preset('jb2a.bite').withInternalSound('attack.bite'),
     fist: new Preset('jb2a.melee_generic.creature_attack.fist'),
     pincer: new Preset('jb2a.melee_generic.creature_attack.pincer'),
-    splash: new Preset('jb2a.water_splash'),
+    splash: new Preset('jb2a.liquid.splash.blue'),
     glare: new Preset('jb2a.eyes.01.dark_green.single').disableStretch().withDuration(1),
     axe: new Preset('jb2a.handaxe.melee').withInternalSound("weapon.heavy"),
     greataxe: new Preset('jb2a.greataxe.melee').withInternalSound("weapon.heavy"),
@@ -187,6 +191,10 @@ const combatPresets =  Object.freeze({
     endOfCombat: new Preset(),
     startOfTurn: new Preset('jb2a.zoning.directional.once.bluegreen.line200'),
     endOfTurn: new Preset(),
+})
+
+// Specific items
+const itemPresets = Object.freeze({
 })
 
 /**

@@ -194,6 +194,14 @@ const entries = {
             heal: [
                 toEntry('blessing2')
             ]
+        },
+        item: {
+            potion: [
+                toEntry("jds_swipe_1")
+            ],
+            utility: [
+                toEntry("jds_swipe_2")
+            ]
         }
     }
 }
