@@ -193,28 +193,31 @@ async function animateCombatEvent(event) {
         return;
     }
 
+    let sequence = new Sequence();
+
     switch (event.type) {
         case 'FU.StartOfCombat':
-            let sequence = new Sequence();
             AzureCompendiaSequences.playSoundEffect(sequence, AzureCompendiaPresets.combatPresets.startOfCombat);
-            await sequence.play();
             break;
         case 'FU.EndOfCombat':
             Azurecompendia.log(`Playing preset for combat event: ${event.type}`);
             AzureCompendiaFilters.clearTokenFilters(event.combatants)
             break;
-
         case 'FU.StartOfTurn':
             Azurecompendia.log(`Playing preset for combat event ${event.type} on token ${event.token.name}`);
             AzureCompendiaFilters.toggleTokenOutline(event.combatant, event.token, true)
+            AzureCompendiaSequences.playSoundEffect(sequence, AzureCompendiaPresets.combatPresets.startOfTurn);
             break;
         case 'FU.EndOfTurn':
             Azurecompendia.log(`Playing preset for combat event ${event.type} on token ${event.token.name}`);
             AzureCompendiaFilters.toggleTokenOutline(event.combatant, event.token, false)
+            AzureCompendiaSequences.playSoundEffect(sequence, AzureCompendiaPresets.combatPresets.endOfTurn);
             break;
         default:
             break;
     }
+
+    await sequence.play();
 }
 
 function isEnabled() {

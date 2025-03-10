@@ -189,9 +189,11 @@ const actionPresetKeys = Object.keys(actionPresets);
 // Combat events
 const combatPresets =  Object.freeze({
     startOfCombat: new Preset().withInternalSound('combat.start'),
-    endOfCombat: new Preset(),
-    startOfTurn: new Preset('jb2a.zoning.directional.once.bluegreen.line200'),
-    endOfTurn: new Preset(),
+    endOfCombat: new Preset().withInternalSound('combat.end'),
+    startOfRound: new Preset().withInternalSound('combat.roundStart'),
+    endOfRound: new Preset().withInternalSound('combat.roundEnd'),
+    startOfTurn: new Preset().withInternalSound('combat.turnStart'),
+    endOfTurn: new Preset().withInternalSound('combat.turnEnd'),
 })
 
 // Specific items

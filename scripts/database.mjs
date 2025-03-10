@@ -219,6 +219,21 @@ const entries = {
         combat: {
             start: [
                 toEntry('55_Encounter_02')
+            ],
+            end: [
+            ],
+            victory: [
+                toEntry('Lively_Meadow_Victory_Fanfare')
+            ],
+            roundStart: [
+            ],
+            roundEnd: [
+            ],
+            turnStart: [
+                toEntry('Magical_Interface_5-1')
+            ],
+            turnEnd: [
+                toEntry('Magical_Interface_8-1')
             ]
         }
     }
