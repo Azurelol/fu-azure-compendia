@@ -162,6 +162,7 @@ const presets = Object.freeze({
     maul: new Preset('jb2a.maul'),
     warhammer: new Preset('jb2a.warhammer'),
     wrench: new Preset('jb2a.wrench'),
+    shield: new Preset('jb2a.melee_attack.06.shield'),
 
     // Breaths
     fireBreath: new Preset('jb2a.breath_weapons.fire.cone'),
@@ -233,7 +234,8 @@ const supportedAttacks = new Set([
     "mace",
     "maul",
     "warhammer",
-    "wrench"
+    "wrench",
+    "shield"
 ]);
 
 const twoHandedTrait = 'two-handed';
@@ -268,18 +270,18 @@ const name_trait = "name:"
  */
 function resolveAttack(item, traits) {
 
-    // Check against weapon categories
-    const weapon = resolveWeapon(item, traits);
-    if (weapon) {
-        return weapon;
-    }
-
     // Check against supported attacks
     const name = item.name.toLowerCase();
     for (const atk of supportedAttacks) {
         if (name.includes(atk)) {
             return get(atk);
         }
+    }
+
+    // Check against weapon categories
+    const weapon = resolveWeapon(item, traits);
+    if (weapon) {
+        return weapon;
     }
 
     // Generic fallbacks
@@ -358,6 +360,10 @@ function resolveAction(item, traits) {
  * @returns {Preset}
  */
 function get(name) {
+    if (!name){
+        console.warn(`No name given for preset resolution`)
+        return null;
+    }
     name = name.replace('-', '_')
     const preset =  presets[name];
     if (!preset){

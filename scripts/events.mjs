@@ -234,7 +234,7 @@ function fadeOnDefeat(){
 function subscribe() {
 
     if (!isEnabled()) {
-        Azurecompendia.log(`Sound effects were not enabled`)
+        Azurecompendia.log(`CTRPLR was not enabled`)
         return;
     }
 
@@ -243,7 +243,7 @@ function subscribe() {
         return;
     }
 
-    if (!game.modules.get("JB2A_DnD5e")?.active) {
+    if (!game.modules.get("JB2A_DnD5e")?.active && !game.modules.get("jb2a_patreon")?.active) {
         console.debug("JB2A module not installed and active!");
         return;
     }
