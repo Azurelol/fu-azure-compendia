@@ -327,7 +327,7 @@ function resolveSpellAttack(item, type, multiple, traits) {
     }
     // No match (Untyped?)
     return {
-        preset: resolvedPreset,
+        preset: presets.untyped,
         aoe: false,
     };
 }

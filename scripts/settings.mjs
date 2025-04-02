@@ -3,6 +3,7 @@ const moduleId = 'fu-azure-compendia';
 // A key for each specific setting
 const keys = Object.freeze({
   enableAnimationSystem : "enableAnimationSystem",
+  animateActions: 'animateActions',
   playSounds: "playSounds",
   volume: "volume",
   dashOnMelee: "dashOnMelee",
@@ -19,6 +20,7 @@ const keys = Object.freeze({
 function registerSettings() {
   registerToggle(keys.enableAnimationSystem, "Combat Tuned Realistic Pose and Locomotion Rendering", "Animate canvas tokens based on combat events (attack, spells, skills)", true);
   registerToggle(keys.playSounds, "Play Sounds", "Whether sounds are enabled");
+  registerToggle(keys.animateActions, "Animate Actions", "Whether to animate action events such as attacks, skills, etc");
   registerToggle(keys.dashOnMelee, "Dash on Melee", "Whether for tokens to dash towards target on melee attacks");
   registerToggle(keys.fadeOnDefeat, "Fade on KO", "Whether to fade out NPC tokens on defeat");
   registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check");

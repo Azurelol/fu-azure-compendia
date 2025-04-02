@@ -384,7 +384,7 @@ function animmateSpellChannel(sequence, sourceToken) {
  * @param {Token} sourceToken
  * @param {EventTarget[]} targets
  */
-function playSpellAttack(sequence, item, traits, type, sourceToken, targets) {
+function animateSpellAttack(sequence, item, traits, type, sourceToken, targets) {
     if (!sourceToken || !targets || targets.length === 0) {
         return;
     }
@@ -585,7 +585,7 @@ export const AzureCompendiaSequences = Object.freeze({
     playAnimationOnToken,
     animateMeleeDash,
     animateMeleeAttack,
-    playSpellAttack,
+    animateSpellAttack,
     animateSpell,
     animateSkill,
     animateItem,
