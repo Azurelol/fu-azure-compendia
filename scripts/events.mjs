@@ -166,6 +166,9 @@ async function animateStudy(event) {
 }
 
 async function playResourcePreset(event, type) {
+    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateResourceEvent)) {
+        return;
+    }
     Azurecompendia.log(`Playing preset for gain event: ${event.resource} on token: ${event.token.name}`);
     let sequence = new Sequence();
     const name = `${event.resource}_${type}`
@@ -174,24 +177,22 @@ async function playResourcePreset(event, type) {
 }
 
 async function playStatusPreset(event) {
+    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateStatusEvent)) {
+        return;
+    }
     Azurecompendia.log(`Playing preset for status event: ${event.status}, enabled=${event.enabled}, on token: ${event.token.name}`);
     if (event.enabled) {
         let sequence = new Sequence();
         AzureCompendiaSequences.animateEffectAboveToken(sequence, AzureCompendiaPresets.get(event.status), event.token);
         await sequence.play();
     }
-    else{
-        // TODO: Handle?
-        // if (event.status === "ko") {
-        //     let sequence = new Sequence();
-        //     sequence.animation(event.token).show(true)
-        //     await sequence.play()
-        // }
-    }
 }
 
 async function animateDefeat(event){
-    if (fadeOnDefeat() && event.actor.system.resources.hp.value <= 0) {
+    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.fadeOnDefeat)) {
+        return;
+    }
+    if (event.actor.system.resources.hp.value <= 0) {
         Azurecompendia.log(`Animating defeat for ${event.actor}`);
         let sequence = new Sequence();
         AzureCompendiaSequences.playDefeatAnimation(sequence, event.actor, event.token);
@@ -237,10 +238,6 @@ async function animateCombatEvent(event) {
 
 function isEnabled() {
     return AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.enableAnimationSystem);
-}
-
-function fadeOnDefeat(){
-    return AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.fadeOnDefeat);
 }
 
 /**

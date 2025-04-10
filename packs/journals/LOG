@@ -1,3 +1,8 @@
-2025/03/03-20:21:57.066 4f94 Recovering log #786
-2025/03/03-20:21:57.071 4f94 Delete type=0 #786
-2025/03/03-20:21:57.072 4f94 Delete type=3 #785
+2025/04/10-18:18:59.095 1100 Recovering log #936
+2025/04/10-18:18:59.098 1100 Delete type=0 #936
+2025/04/10-18:18:59.098 1100 Delete type=3 #935
+2025/04/10-20:08:47.718 3a98 Level-0 table #940: started
+2025/04/10-20:08:47.718 3a98 Level-0 table #940: 0 bytes OK
+2025/04/10-20:08:47.718 3a98 Delete type=0 #938
+2025/04/10-20:08:47.720 3a98 Manual compaction at level-0 from '!journal!5RbIqdBTUq0Hdj0I' @ 72057594037927935 : 1 .. '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 0 : 0; will stop at (end)
+2025/04/10-20:08:47.721 3a98 Manual compaction at level-1 from '!journal!5RbIqdBTUq0Hdj0I' @ 72057594037927935 : 1 .. '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 0 : 0; will stop at (end)

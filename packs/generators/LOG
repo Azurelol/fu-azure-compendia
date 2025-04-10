@@ -1,3 +1,24 @@
-2025/03/03-20:21:57.055 474c Recovering log #835
-2025/03/03-20:21:57.060 474c Delete type=0 #835
-2025/03/03-20:21:57.061 474c Delete type=3 #834
+2025/04/10-18:18:59.087 30e8 Recovering log #985
+2025/04/10-18:18:59.087 30e8 Level-0 table #987: started
+2025/04/10-18:18:59.089 30e8 Level-0 table #987: 17020 bytes OK
+2025/04/10-18:18:59.092 30e8 Delete type=0 #985
+2025/04/10-18:18:59.092 30e8 Delete type=3 #984
+2025/04/10-20:08:47.716 3a98 Level-0 table #990: started
+2025/04/10-20:08:47.717 3a98 Level-0 table #990: 4998 bytes OK
+2025/04/10-20:08:47.718 3a98 Delete type=0 #988
+2025/04/10-20:08:47.718 3a98 Manual compaction at level-0 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.s6N1EWpkNs5sAymo' @ 0 : 0; will stop at '!tables.results!uOAFED1ImT1yWFKQ.cnxFDaB5lAhsj3MQ' @ 8887 : 1
+2025/04/10-20:08:47.718 3a98 Compacting 2@0 + 0@1 files
+2025/04/10-20:08:47.719 3a98 Generated table #991@0: 13 keys, 1872 bytes
+2025/04/10-20:08:47.719 3a98 Compacted 2@0 + 0@1 files => 1872 bytes
+2025/04/10-20:08:47.720 3a98 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/10-20:08:47.720 3a98 Delete type=2 #987
+2025/04/10-20:08:47.720 3a98 Delete type=2 #990
+2025/04/10-20:08:47.721 3a98 Manual compaction at level-0 from '!tables.results!uOAFED1ImT1yWFKQ.cnxFDaB5lAhsj3MQ' @ 8887 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.s6N1EWpkNs5sAymo' @ 0 : 0; will stop at (end)
+2025/04/10-20:08:47.722 3a98 Manual compaction at level-1 from '!folders!QtyzxwYnKnGuuppa' @ 72057594037927935 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.s6N1EWpkNs5sAymo' @ 0 : 0; will stop at '!tables.results!uOAFED1ImT1yWFKQ.cnxFDaB5lAhsj3MQ' @ 9180 : 1
+2025/04/10-20:08:47.722 3a98 Compacting 1@1 + 1@2 files
+2025/04/10-20:08:47.723 3a98 Generated table #992@1: 109 keys, 17206 bytes
+2025/04/10-20:08:47.723 3a98 Compacted 1@1 + 1@2 files => 17206 bytes
+2025/04/10-20:08:47.723 3a98 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/10-20:08:47.723 3a98 Delete type=2 #633
+2025/04/10-20:08:47.724 3a98 Delete type=2 #991
+2025/04/10-20:08:47.725 3a98 Manual compaction at level-1 from '!tables.results!uOAFED1ImT1yWFKQ.cnxFDaB5lAhsj3MQ' @ 9180 : 1 .. '!tables.results!xZ5yD7AJteeZwEJQ.s6N1EWpkNs5sAymo' @ 0 : 0; will stop at (end)

@@ -11,6 +11,8 @@ const keys = Object.freeze({
   dodgeOnMiss: 'dodgeOnMiss',
   animateCheck: 'animateCheck',
   animateCombatEvent: 'animateCombatEvent',
+  animateResourceEvent: 'animateResourceEvent',
+  animateStatusEvent: 'animateStatusEvent',
 })
 
 /**
@@ -21,11 +23,14 @@ function registerSettings() {
   registerToggle(keys.enableAnimationSystem, "Combat Tuned Realistic Pose and Locomotion Rendering", "Animate canvas tokens based on combat events (attack, spells, skills)", true);
   registerToggle(keys.playSounds, "Play Sounds", "Whether sounds are enabled");
   registerToggle(keys.animateActions, "Animate Actions", "Whether to animate action events such as attacks, skills, etc");
+  registerToggle(keys.animateCombatEvent, 'Animate Combat Lifetime Events', "Whether to animate combat lifetime events (turns, rounds, etc)");
+  registerToggle(keys.animateResourceEvent, 'Animate Resource Events', "Whether to animate resource gain and loss events");
+  registerToggle(keys.animateStatusEvent, 'Animate Status Events', "Whether to animate status events");
+  registerToggle(keys.animateCheck, 'Animate Checks', "Whether to show text for the result of the check on targeted tokens");
+
   registerToggle(keys.dashOnMelee, "Dash on Melee", "Whether for tokens to dash towards target on melee attacks");
   registerToggle(keys.fadeOnDefeat, "Fade on KO", "Whether to fade out NPC tokens on defeat");
   registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check");
-  registerToggle(keys.animateCheck, 'Animate Check', "Whether to show text for the result of the check on targeted tokens");
-  registerToggle(keys.animateCombatEvent, 'Animate Combat Events', "Whether to animate combat lifetime events (turns, rounds, etc)");
 
   registerSlider(keys.volume, "Volume", "The volume of sound effects", 0.25, 0, 1, 0.1);
 }
