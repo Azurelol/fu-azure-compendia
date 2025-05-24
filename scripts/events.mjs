@@ -169,6 +169,9 @@ async function playResourcePreset(event, type) {
     if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateResourceEvent)) {
         return;
     }
+    if (!event.token){
+        return;
+    }
     Azurecompendia.log(`Playing preset for gain event: ${event.resource} on token: ${event.token.name}`);
     let sequence = new Sequence();
     const name = `${event.resource}_${type}`
@@ -178,6 +181,9 @@ async function playResourcePreset(event, type) {
 
 async function playStatusPreset(event) {
     if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateStatusEvent)) {
+        return;
+    }
+    if (!event.token){
         return;
     }
     Azurecompendia.log(`Playing preset for status event: ${event.status}, enabled=${event.enabled}, on token: ${event.token.name}`);

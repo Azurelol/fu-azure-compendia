@@ -96,6 +96,7 @@
       "type": "Item",
       "system": "projectfu",
       "ownership": {
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
