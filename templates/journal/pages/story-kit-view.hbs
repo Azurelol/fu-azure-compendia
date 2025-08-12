@@ -1,0 +1,118 @@
+<section class="story-kit">
+
+    <!-- Header -->
+    <header class="story-kit__header">
+        <div class="story-kit__title">
+            <h1>{{system.title}}</h1>
+        </div>
+        <div class="story-kit__flavor">
+            <div class="story-kit__flavor-item">{{system.flavorLeft}}</div>
+            <div class="story-kit__flavor-item">{{system.flavorCenter}}</div>
+            <div class="story-kit__flavor-item">{{system.flavorRight}}</div>
+        </div>
+        <div class="story-kit__intro">
+            {{{system.introHtml}}}
+        </div>
+    </header>
+
+    <!-- Main Sections -->
+    <div class="story-kit__sections">
+        <div class="story-kit__column">
+            <h3>{{system.section1Title}}</h3>
+            <ul>
+                {{#each system.section1Items}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="story-kit__column">
+            <h3>{{system.section2Title}}</h3>
+            <ul>
+                {{#each system.section2Items}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="story-kit__column">
+            <h3>{{system.section3Title}}</h3>
+            <ul>
+                {{#each system.section3Items}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Useful Pieces -->
+    <section class="story-kit__block">
+        <h2>Useful Pieces</h2>
+        <div class="story-kit__three-cols">
+            <div class="story-kit__col">
+                <strong>{{system.useful1Title}}</strong>
+                <p>{{{system.useful1Html}}}</p>
+            </div>
+            <div class="story-kit__col">
+                <strong>{{system.useful2Title}}</strong>
+                <p>{{{system.useful2Html}}}</p>
+            </div>
+            <div class="story-kit__col">
+                <strong>{{system.useful3Title}}</strong>
+                <p>{{{system.useful3Html}}}</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Setup Section -->
+    <section class="story-kit__block">
+        <h2>Set It Up</h2>
+        <div class="story-kit__three-cols">
+            <div class="story-kit__col">
+                <strong>{{system.setup1Title}}</strong>
+                <ul>
+                    {{#each system.setup1Options}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="story-kit__col">
+                <strong>{{system.setup2Title}}</strong>
+                <ul>
+                    {{#each system.setup2Options}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="story-kit__col">
+                <strong>{{system.setup3Title}}</strong>
+                <ul>
+                    {{#each system.setup3Options}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Grid -->
+    <section class="story-kit__events">
+        {{#each system.events}}
+            <div class="story-kit__event">
+                <h4>{{this.title}}</h4>
+                <ul>
+                    {{#each this.items}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        {{/each}}
+    </section>
+
+    <!-- Mix It Up -->
+    <footer class="story-kit__footer">
+        <h3>Mix It Up</h3>
+        <p>{{system.mixItUp}}</p>
+    </footer>
+
+</section>

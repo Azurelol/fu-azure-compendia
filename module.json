@@ -6,8 +6,8 @@
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "13",
+    "verified": "13"
   },
   "relationships": {
     "systems": [
@@ -37,7 +37,7 @@
     }
   ],
   "esmodules": [
-    "scripts/azure-compendia.mjs"
+    "src/azure-compendia.mjs"
   ],
   "scripts": [
     "vendor/pixi-filters.js",
@@ -46,6 +46,17 @@
   ],
   "styles": [
     "styles/azure-compendia.css"
+  ],
+  "documentTypes": {
+    "JournalEntryPage": {
+      "storyKit": {
+        "label": "Story Kit",
+        "htmlFields": ["description"]
+      }
+    }
+  },
+  "languages": [
+    {"lang": "en", "name": "English", "path": "lang/en.json"}
   ],
   "packs": [
     {
@@ -155,6 +166,16 @@
       }
     },
     {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "press-start",
       "label": "Press Start",
       "path": "packs/press-start",
@@ -179,6 +200,7 @@
         "macros",
         "guides",
         "character-inventory",
+        "scenes",
         "press-start"
       ]      
     }

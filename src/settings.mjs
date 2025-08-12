@@ -1,4 +1,5 @@
 const moduleId = 'fu-azure-compendia';
+const modulePath = `modules/${moduleId}`;
 
 // A key for each specific setting
 const keys = Object.freeze({
@@ -72,6 +73,10 @@ function isEnabled(key) {
   return value === true;
 }
 
+function getTemplatePath(path) {
+  return `${modulePath}/templates/${path}.hbs`;
+}
+
 /**
  * @returns {Number}
  */
@@ -85,5 +90,6 @@ export const AzureCompendiaSettings = Object.freeze({
     isEnabled,
     moduleId,
     keys,
-    getVolume
+    getVolume,
+    getTemplatePath
 });
