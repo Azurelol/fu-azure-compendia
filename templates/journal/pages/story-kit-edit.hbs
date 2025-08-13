@@ -1,7 +1,8 @@
 <form>
     <div class="form-group">
-        <label>Description</label>
-        {{editor system.description target="system.description" button=true owner=owner editable=editable}}
+        <label>
+            <input type="text" name="system.introduction" maxlength="300" value="{{ system.introduction }}"  data-dtype="String" />
+        </label>
     </div>
 
     <div class="form-group">
@@ -17,4 +18,5 @@
         <label>GM Notes</label>
         {{editor system.gmNotes target="system.gmNotes" button=true owner=owner editable=editable}}
     </div>
+
 </form>

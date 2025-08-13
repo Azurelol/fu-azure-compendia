@@ -3,7 +3,7 @@ import {AzureCompendiaSettings} from "../settings.mjs";
 export class StoryKitSheet extends foundry.applications.sheets.journal.JournalEntryPageHandlebarsSheet   {
     /** @override */
     static DEFAULT_OPTIONS = {
-        classes: ["story-kit"],
+        classes: ["sk"],
         window: {
             icon: "fa-brands fa-markdown"
         }
@@ -22,7 +22,7 @@ export class StoryKitSheet extends foundry.applications.sheets.journal.JournalEn
     static VIEW_PARTS = {
         content: {
             template: AzureCompendiaSettings.getTemplatePath("journal/pages/story-kit-view"),
-            classes: ["story-kit"],
+            classes: ["sk"],
             root: true
         }
     };

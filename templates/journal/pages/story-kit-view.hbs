@@ -1,118 +1,226 @@
-<section class="story-kit">
+<div>
 
-    <!-- Header -->
-    <header class="story-kit__header">
-        <div class="story-kit__title">
-            <h1>{{system.title}}</h1>
-        </div>
-        <div class="story-kit__flavor">
-            <div class="story-kit__flavor-item">{{system.flavorLeft}}</div>
-            <div class="story-kit__flavor-item">{{system.flavorCenter}}</div>
-            <div class="story-kit__flavor-item">{{system.flavorRight}}</div>
-        </div>
-        <div class="story-kit__intro">
-            {{{system.introHtml}}}
-        </div>
+    <!-- Title banner -->
+    <header class="sk-titlebar">
+        <div class="sk-title-icon">◆</div>
+        <h1 class="sk-title">{{name}}</h1>
+        <div class="sk-title-meta">STORY KIT</div>
     </header>
 
-    <!-- Main Sections -->
-    <div class="story-kit__sections">
-        <div class="story-kit__column">
-            <h3>{{system.section1Title}}</h3>
-            <ul>
-                {{#each system.section1Items}}
-                    <li>{{this}}</li>
-                {{/each}}
-            </ul>
-        </div>
+    <!-- Flavor triptych -->
+    <section class="sk-flavor">
+        <div class="sk-chip">A note nailed to a sign reads, “Dreghill at night—keep walking.”</div>
+        <div class="sk-chip">A shoe lies abandoned in the square, bloody and torn.</div>
+        <div class="sk-chip">Arriving just after sunset, things are quiet—far too quiet, really.</div>
+    </section>
 
-        <div class="story-kit__column">
-            <h3>{{system.section2Title}}</h3>
-            <ul>
-                {{#each system.section2Items}}
-                    <li>{{this}}</li>
-                {{/each}}
-            </ul>
-        </div>
+    <!-- Intro callout -->
+    <section class="sk-intro">
+        <p>
+            Each night, doors lock, windows shut, and <strong>DREGHILL VILLAGE</strong> holds its breath as the goblins come.
+            Fighting back only led to disappearances, so now they stay inside and refuse to speak on what happens at night…
+        </p>
+    </section>
 
-        <div class="story-kit__column">
-            <h3>{{system.section3Title}}</h3>
-            <ul>
-                {{#each system.section3Items}}
-                    <li>{{this}}</li>
-                {{/each}}
+    <!-- Events row (3 cards with dice + connectors) -->
+    <section class="sk-events">
+        <article class="sk-event">
+            <div class="sk-die">4d</div>
+            <h3 class="sk-event-title">Night Falls</h3>
+            <ul class="sk-bullets">
+                <li>Someone locked outside.</li>
+                <li>Granary catches fire.</li>
+                <li>PCs ambushed in the square.</li>
             </ul>
-        </div>
-    </div>
+        </article>
 
-    <!-- Useful Pieces -->
-    <section class="story-kit__block">
-        <h2>Useful Pieces</h2>
-        <div class="story-kit__three-cols">
-            <div class="story-kit__col">
-                <strong>{{system.useful1Title}}</strong>
-                <p>{{{system.useful1Html}}}</p>
-            </div>
-            <div class="story-kit__col">
-                <strong>{{system.useful2Title}}</strong>
-                <p>{{{system.useful2Html}}}</p>
-            </div>
-            <div class="story-kit__col">
-                <strong>{{system.useful3Title}}</strong>
-                <p>{{{system.useful3Html}}}</p>
-            </div>
+        <div class="sk-connector" aria-hidden="true"></div>
+
+        <article class="sk-event">
+            <div class="sk-die">4d</div>
+            <h3 class="sk-event-title">Dawn Breaks</h3>
+            <ul class="sk-bullets">
+                <li>Prominent villager lies dead.</li>
+                <li>Doors smashed all over town.</li>
+                <li>Villager babbles in <em>goblintongue</em>.</li>
+            </ul>
+        </article>
+
+        <div class="sk-connector" aria-hidden="true"></div>
+
+        <article class="sk-event">
+            <div class="sk-die">4d</div>
+            <h3 class="sk-event-title">Townsfolk Snap</h3>
+            <ul class="sk-bullets">
+                <li><strong>Enraged</strong> mob chases off PCs.</li>
+                <li>Neighbors turn on each other.</li>
+                <li>Permanently turn into goblins.</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- USEFUL PIECES -->
+    <section class="sk-panel">
+        <div class="sk-panel-head">USEFUL PIECES</div>
+        <div class="sk-panel-grid">
+            <article class="sk-box">
+                <h4>VILLAGERS</h4>
+                <p><em>Honest, hard-working people that put up a united front against <strong>nosey outsiders</strong>.</em></p>
+                <ul class="sk-tri">
+                    <li>Refuse to speak on the problem.</li>
+                    <li>Disappear entirely after sundown.</li>
+                    <li>Friendly enough, otherwise.</li>
+                </ul>
+            </article>
+            <article class="sk-box">
+                <h4>THE WELL</h4>
+                <p>Life in <strong>Dreghill</strong> revolves around the small square in the center of the village.</p>
+                <ul class="sk-tri">
+                    <li>Emits a peculiar <em>metallic</em> smell.</li>
+                    <li>Villagers insist on gathering there.</li>
+                    <li>Goblins are drawn to it.</li>
+                </ul>
+            </article>
+            <article class="sk-box">
+                <h4>MELLA GORTIS</h4>
+                <p><em>Village elder, shrewd:</em> closest thing the village has to a leader, she is <strong>well-trusted</strong> by all.</p>
+                <ul class="sk-tri">
+                    <li>Always gets in the PCs' way.</li>
+                    <li>Curses in <em>goblintongue</em>.</li>
+                    <li>Has a soft spot for outsiders.</li>
+                </ul>
+            </article>
         </div>
     </section>
 
-    <!-- Setup Section -->
-    <section class="story-kit__block">
-        <h2>Set It Up</h2>
-        <div class="story-kit__three-cols">
-            <div class="story-kit__col">
-                <strong>{{system.setup1Title}}</strong>
-                <ul>
-                    {{#each system.setup1Options}}
-                        <li>{{this}}</li>
-                    {{/each}}
+    <!-- SET IT UP -->
+    <section class="sk-panel">
+        <div class="sk-panel-head">SET IT UP</div>
+        <div class="sk-panel-grid">
+            <article class="sk-box">
+                <h4>GOBLIN PLAGUE</h4>
+                <p>Choose 2 causes of the sickness and 1 odd thing that's ultimately a false trail.</p>
+                <ul class="sk-check">
+                    <li>Villagers started eating exotic roots.</li>
+                    <li>A hag in the forest.</li>
+                    <li>Dead goblin in the well.</li>
+                    <li>Goblin relics from a mine.</li>
+                    <li>Farmer acting really suspicious.</li>
                 </ul>
-            </div>
-            <div class="story-kit__col">
-                <strong>{{system.setup2Title}}</strong>
-                <ul>
-                    {{#each system.setup2Options}}
-                        <li>{{this}}</li>
-                    {{/each}}
+            </article>
+            <article class="sk-box">
+                <h4>DEATH</h4>
+                <p>Choose 1 usual outcome when a goblin dies and 1 rare possibility.</p>
+                <ul class="sk-check">
+                    <li>Dies like a goblin normally would.</li>
+                    <li>Reverts into a human, dead.</li>
+                    <li>Reverts into a human, <em>alive</em>.</li>
+                    <li>Releases a cloud of plague spores.</li>
+                    <li>Random one of the above.</li>
                 </ul>
-            </div>
-            <div class="story-kit__col">
-                <strong>{{system.setup3Title}}</strong>
-                <ul>
-                    {{#each system.setup3Options}}
-                        <li>{{this}}</li>
-                    {{/each}}
+            </article>
+            <article class="sk-box">
+                <h4>DESIRES</h4>
+                <p>Choose 2 goblins crave with wild abandon and 1 that strikes them with irrational dread.</p>
+                <ul class="sk-check sk-two">
+                    <li>Shiny things</li><li>Flames</li>
+                    <li>Weapons</li><li>Sunrise</li>
+                    <li>Hijinx</li><li>Arcana</li>
+                    <li>Animals</li><li>Bell tolls</li>
+                    <li>Humans</li><li>Kindness</li>
                 </ul>
-            </div>
+            </article>
         </div>
     </section>
 
-    <!-- Events Grid -->
-    <section class="story-kit__events">
-        {{#each system.events}}
-            <div class="story-kit__event">
-                <h4>{{this.title}}</h4>
-                <ul>
-                    {{#each this.items}}
-                        <li>{{this}}</li>
-                    {{/each}}
-                </ul>
+    <!-- Small action cards -->
+    <section class="sk-actions">
+        <article class="sk-action">
+            <header><span class="sk-die">4d</span><span class="sk-action-title">Ask One Question</span></header>
+            <ul class="sk-star">
+                <li>Tightly sealed lips</li>
+                <li>Strength in numbers</li>
+            </ul>
+            <hr>
+            <div class="sk-action-body">
+                <div class="sk-col">
+                    <ul class="sk-dot bold">
+                        <li>Make Excuses</li>
+                        <li>Change Subjects</li>
+                        <li>Ignore Reason</li>
+                    </ul>
+                </div>
+                <div class="sk-fail">X 4d Anger Villagers</div>
             </div>
-        {{/each}}
+        </article>
+
+        <article class="sk-action">
+            <header><span class="sk-die">4d</span><span class="sk-action-title">Falsely Accused</span></header>
+            <ul class="sk-star">
+                <li>Since you came, chaos</li>
+                <li>Town hates outsiders</li>
+            </ul>
+            <hr>
+            <div class="sk-action-body">
+                <div class="sk-col">
+                    <ul class="sk-dot bold">
+                        <li>Need a Scapegoat</li>
+                        <li>Misjudged Evidence</li>
+                        <li>False Witnesses</li>
+                    </ul>
+                </div>
+                <div class="sk-fail">X 4d Found Guilty</div>
+            </div>
+        </article>
+
+        <article class="sk-action">
+            <header><span class="sk-die">8d</span><span class="sk-action-title">Chase ’Em Down</span></header>
+            <ul class="sk-star">
+                <li>Know the town well</li>
+                <li>Fit into small spaces</li>
+            </ul>
+            <hr>
+            <div class="sk-action-body">
+                <div class="sk-col">
+                    <ul class="sk-dot bold">
+                        <li>Mad Scramble</li>
+                        <li>Goblinpile</li>
+                        <li>Juke</li>
+                    </ul>
+                </div>
+                <div class="sk-fail">X Lose the Trail</div>
+            </div>
+        </article>
+
+        <article class="sk-action">
+            <header><span class="sk-die">6d</span><span class="sk-action-title">Goblin Ambush</span></header>
+            <ul class="sk-star">
+                <li>Super sneaky</li>
+                <li>Night-vision</li>
+            </ul>
+            <hr>
+            <div class="sk-action-body">
+                <div class="sk-col">
+                    <ul class="sk-dot bold">
+                        <li>Jump from Above</li>
+                        <li>Bite Neck</li>
+                        <li>Yelp for Help</li>
+                    </ul>
+                </div>
+                <div class="sk-fail">X Kill a Goblin</div>
+            </div>
+        </article>
     </section>
 
-    <!-- Mix It Up -->
-    <footer class="story-kit__footer">
-        <h3>Mix It Up</h3>
-        <p>{{system.mixItUp}}</p>
+    <!-- Mix it up bar -->
+    <section class="sk-mix">
+        <div class="sk-mix-label">MIX IT UP</div>
+        <div class="sk-mix-text">Mella Gortis is a hag in disguise—villagers originally goblins—goblin village with A Plague of Humans.</div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="sk-footer">
+        <div class="sk-page">Something</div>
+        <div class="sk-chapter">Grimwild Free Edition</div>
     </footer>
-
-</section>
+</div>
