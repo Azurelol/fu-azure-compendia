@@ -7,7 +7,7 @@ export class StoryKitDataModel extends foundry.abstract.TypeDataModel {
         return {
             hooks: new fields.ArrayField(
                 new fields.StringField(),
-                { required: true, initial: [] }, { max: 3}
+                { required: true, initial: "Hook",}, { min: 3, max: 3}
             ),
             introduction: new fields.HTMLField({ required: true }),
             // Act as timers, rolled to build tension
@@ -32,7 +32,8 @@ export class StoryKitDataModel extends foundry.abstract.TypeDataModel {
                 })
             ),
 
-            mixItUp: new fields.StringField()
+            mixItUp: new fields.StringField(),
+            author: new fields.StringField()
         };
     }
 }

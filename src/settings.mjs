@@ -84,6 +84,14 @@ function getVolume() {
   return getSetting(keys.volume);
 }
 
+/**
+ * @param {String} name
+ * @returns {string}
+ */
+function prefixed(name) {
+  return `${moduleId}.${name}`;
+}
+
 export const AzureCompendiaSettings = Object.freeze({
     registerSettings,
     getSetting,
@@ -91,5 +99,6 @@ export const AzureCompendiaSettings = Object.freeze({
     moduleId,
     keys,
     getVolume,
-    getTemplatePath
+    getTemplatePath,
+    prefixed
 });

@@ -14,7 +14,7 @@ Hooks.once('init', () => {
         Sequencer.Database.registerEntries(AzureCompendiaSettings.moduleId, AzureCompendiaDatabase.entries);
     });
     // Register documents
-    CONFIG.JournalEntryPage.dataModels["storyKit"] = StoryKitDataModel;
+    CONFIG.JournalEntryPage.dataModels[AzureCompendiaSettings.prefixed("storyKit")] = StoryKitDataModel;
     foundry.applications.apps.DocumentSheetConfig.registerSheet(JournalEntryPage, AzureCompendiaSettings.moduleId, StoryKitSheet, {
         types: ["fu-azure-compendia.storyKit"],
         label: 'Story Kit Page',

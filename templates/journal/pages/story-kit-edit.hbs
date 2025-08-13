@@ -1,17 +1,24 @@
 <form>
     <div class="form-group">
+        <label>Introduction</label>
         <label>
             <input type="text" name="system.introduction" maxlength="300" value="{{ system.introduction }}"  data-dtype="String" />
         </label>
     </div>
 
     <div class="form-group">
-        <label>Scenes</label>
-        <ul>
-            {{#each system.scenes}}
-                <li>{{this}}</li>
-            {{/each}}
-        </ul>
+        <label>Hooks</label>
+        <ol>
+            <li>
+                <input type="text" name="system.hook1" maxlength="40" value="{{ system.hook1 }}"  data-dtype="String" />
+            </li>
+            <li>
+                <input type="text" name="system.hook2" maxlength="40" value="{{ system.hook2 }}"  data-dtype="String" />
+            </li>
+            <li>
+                <input type="text" name="system.hook3" maxlength="40" value="{{ system.hook3 }}"  data-dtype="String" />
+            </li>
+        </ol>
     </div>
 
     <div class="form-group">
