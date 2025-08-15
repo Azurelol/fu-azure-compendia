@@ -9,54 +9,25 @@
 
     <!-- Flavor triptych -->
     <section class="sk-flavor">
-        <div class="sk-chip">A note nailed to a sign reads, “Dreghill at night—keep walking.”</div>
-        <div class="sk-chip">A shoe lies abandoned in the square, bloody and torn.</div>
-        <div class="sk-chip">Arriving just after sunset, things are quiet—far too quiet, really.</div>
+        <div class="sk-chip">{{system.hook1}}</div>
+        <div class="sk-chip">{{system.hook2}}</div>
+        <div class="sk-chip">{{system.hook3}}</div>
     </section>
 
     <!-- Intro callout -->
     <section class="sk-intro">
         <p>
-            Each night, doors lock, windows shut, and <strong>DREGHILL VILLAGE</strong> holds its breath as the goblins come.
-            Fighting back only led to disappearances, so now they stay inside and refuse to speak on what happens at night…
+            {{{enrichedIntroduction}}}
         </p>
     </section>
 
-    <!-- Events row (3 cards with dice + connectors) -->
+    <!-- PRESSURE POOLS (3 cards with dice + connectors) -->
     <section class="sk-events">
-        <article class="sk-event">
-            <div class="sk-die">4d</div>
-            <h3 class="sk-event-title">Night Falls</h3>
-            <ul class="sk-bullets">
-                <li>Someone locked outside.</li>
-                <li>Granary catches fire.</li>
-                <li>PCs ambushed in the square.</li>
-            </ul>
-        </article>
-
+        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool.hbs" pool=system.prelude}}
         <div class="sk-connector" aria-hidden="true"></div>
-
-        <article class="sk-event">
-            <div class="sk-die">4d</div>
-            <h3 class="sk-event-title">Dawn Breaks</h3>
-            <ul class="sk-bullets">
-                <li>Prominent villager lies dead.</li>
-                <li>Doors smashed all over town.</li>
-                <li>Villager babbles in <em>goblintongue</em>.</li>
-            </ul>
-        </article>
-
+        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool.hbs" pool=system.escalation}}
         <div class="sk-connector" aria-hidden="true"></div>
-
-        <article class="sk-event">
-            <div class="sk-die">4d</div>
-            <h3 class="sk-event-title">Townsfolk Snap</h3>
-            <ul class="sk-bullets">
-                <li><strong>Enraged</strong> mob chases off PCs.</li>
-                <li>Neighbors turn on each other.</li>
-                <li>Permanently turn into goblins.</li>
-            </ul>
-        </article>
+        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool.hbs" pool=system.climax}}
     </section>
 
     <!-- USEFUL PIECES -->

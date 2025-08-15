@@ -5,6 +5,20 @@ import {AzureCompendiaDatabase} from "./database.mjs";
 import {StoryKitSheet} from "./documents/story-kit-sheet.mjs";
 import {StoryKitDataModel} from "./documents/story-kit-data-model.mjs";
 
+/**
+ * Preloads templates for partials
+ */
+function preloadTemplates()
+{
+    let templates = [
+        //"partials/pressure-pool",
+    ];
+
+    templates = templates.map((t) => AzureCompendiaSettings.getTemplatePath(t));
+    foundry.applications.handlebars.loadTemplates(templates);
+}
+
+// Invoked by the foundry system
 Hooks.once('init', () => {
     AzureCompendiaSettings.registerSettings();
     AzureCompendiaEvents.subscribe();
@@ -16,11 +30,14 @@ Hooks.once('init', () => {
     // Register documents
     CONFIG.JournalEntryPage.dataModels[AzureCompendiaSettings.prefixed("storyKit")] = StoryKitDataModel;
     foundry.applications.apps.DocumentSheetConfig.registerSheet(JournalEntryPage, AzureCompendiaSettings.moduleId, StoryKitSheet, {
-        types: ["fu-azure-compendia.storyKit"],
+        types: [AzureCompendiaSettings.prefixed("storyKit")],
         label: 'Story Kit Page',
         makeDefault: false,
     });
 
+    // Load templates
+    preloadTemplates();
+    // Emit salutations
     Azurecompendia.log('Hello World!');
 });
 

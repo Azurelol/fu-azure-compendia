@@ -1,0 +1,32 @@
+<div class="form-group">
+    <label class="sk-field">
+          <textarea
+                  name="{{path}}.description"
+                  class="sk-textarea"
+                  maxlength="115"
+                  data-dtype="String"
+                  rows="2"
+                  placeholder="Up to 115 characters…">
+              {{~thread.description}}
+          </textarea>
+    </label>
+    <h3>Entries</h3>
+    <ol>
+        <li>
+            <label>
+                <input type="text" name="{{path}}.entry1" maxlength="30" value="{{ thread.entry1 }}" data-dtype="String" />
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="text" name="{{path}}.entry2" maxlength="30" value="{{ thread.entry2 }}" data-dtype="String" />
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="text" name="{{path}}.entry3" maxlength="30" value="{{ thread.entry3 }}" data-dtype="String" />
+            </label>
+        </li>
+    </ol>
+</div>
+

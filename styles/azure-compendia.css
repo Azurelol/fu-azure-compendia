@@ -32,6 +32,17 @@
     box-shadow: inset 0 0 0 2px #403c36;
 }
 
+/* make the wrapper span the full line */
+.sk-field { display: block; width: 100%; }
+
+/* make the textarea fill the available width */
+.sk-textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;           /* no horizontal scrollbar */
+}
+
 .sk-title {
     margin: 0;
     text-align: center;
@@ -342,4 +353,11 @@
     .sk-panel-grid { grid-template-columns: 1fr; }
     .sk-actions { grid-template-columns: 1fr 1fr; }
     .sk-mix { grid-template-columns: 1fr; }
+}
+
+
+.azure-compendia .inline-fields {
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }

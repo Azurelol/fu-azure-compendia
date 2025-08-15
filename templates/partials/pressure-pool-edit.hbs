@@ -1,0 +1,33 @@
+<div class="form-group">
+    <div class="inline-fields">
+        <label>
+            Title
+            <input type="text" name="{{path}}.label" maxlength="15" value="{{ pool.label }}"  data-dtype="String" />
+        </label>
+
+        <label>
+            Size
+            <input type="number" name="{{path}}.size" min="0" max="6"  value="{{ pool.size }}"  data-dtype="Number" />
+        </label>
+    </div>
+
+    <h3>Events</h3>
+    <ol>
+        <li>
+            <label>
+                <input type="text" name="{{path}}.event1" maxlength="30" value="{{ pool.event1 }}" data-dtype="String" />
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="text" name="{{path}}.event2" maxlength="30" value="{{ pool.event2 }}" data-dtype="String" />
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="text" name="{{path}}.event3" maxlength="30" value="{{ pool.event3 }}" data-dtype="String" />
+            </label>
+        </li>
+    </ol>
+</div>
+

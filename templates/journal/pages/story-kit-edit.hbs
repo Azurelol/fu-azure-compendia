@@ -1,29 +1,53 @@
-<form>
+<section>
     <div class="form-group">
-        <label>Introduction</label>
-        <label>
-            <input type="text" name="system.introduction" maxlength="300" value="{{ system.introduction }}"  data-dtype="String" />
-        </label>
-    </div>
-
-    <div class="form-group">
-        <label>Hooks</label>
+        <h2>Hooks</h2>
         <ol>
             <li>
-                <input type="text" name="system.hook1" maxlength="40" value="{{ system.hook1 }}"  data-dtype="String" />
+                {{formInput system.schema.fields.hook1 name="system.hook1" value=system.hook1 dataset=(object maxlength=40)}}
             </li>
             <li>
-                <input type="text" name="system.hook2" maxlength="40" value="{{ system.hook2 }}"  data-dtype="String" />
+                {{formInput system.schema.fields.hook2 name="system.hook2" value=system.hook2}}
             </li>
             <li>
-                <input type="text" name="system.hook3" maxlength="40" value="{{ system.hook3 }}"  data-dtype="String" />
+                {{formInput system.schema.fields.hook3 name="system.hook3" value=system.hook3}}
             </li>
         </ol>
     </div>
 
     <div class="form-group">
-        <label>GM Notes</label>
-        {{editor system.gmNotes target="system.gmNotes" button=true owner=owner editable=editable}}
+        <h2>Introduction</h2>
+        <label class="sk-field">
+          <textarea
+                  name="system.introduction"
+                  class="sk-textarea"
+                  maxlength="300"
+                  data-dtype="String"
+                  rows="6"
+                  placeholder="Up to 300 characters…">
+              {{~system.introduction}}
+          </textarea>
+        </label>
     </div>
 
-</form>
+    <div class="form-group">
+        <h2>Pressure Pools</h2>
+        <h3>Prelude</h3>
+        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-edit.hbs" path="system.prelude" pool=system.prelude}}
+        <hr>
+        <h3>Escalation</h3>
+        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-edit.hbs" path="system.escalation" pool=system.escalation}}
+        <hr>
+        <h3>Climax</h3>
+        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-edit.hbs" path="system.climax" pool=system.climax}}
+    </div>
+
+    <div class="form-group">
+        <h2>Threads</h2>
+        {{> "modules/fu-azure-compendia/templates/partials/thread-edit.hbs" path="system.thread1" thread=system.thread1}}
+        <hr>
+        {{> "modules/fu-azure-compendia/templates/partials/thread-edit.hbs" path="system.thread2" thread=system.thread2}}
+        <hr>
+        {{> "modules/fu-azure-compendia/templates/partials/thread-edit.hbs" path="system.thread3" thread=system.thread3}}
+    </div>
+
+</section>
