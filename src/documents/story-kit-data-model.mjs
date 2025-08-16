@@ -17,14 +17,81 @@ export class PressurePoolDataModel extends foundry.abstract.DataModel {
     }
 }
 
+/**
+ * Useful pieces, props, NPCs and more that form the backbone.
+ */
 export class ThreadDataModel extends foundry.abstract.DataModel {
     static defineSchema() {
         return {
-            description: new fields.StringField({ required: true, initial: "Label: Succinct paragraph." }),
+            label: new fields.StringField({ required: true, initial: "Label" }),
+            description: new fields.StringField({ required: true, initial: "Succinct paragraph." }),
             entry1: new fields.StringField({ required: true, initial: "Entry 1" }),
             entry2: new fields.StringField({ required: true, initial: "Entry 2" }),
             entry3: new fields.StringField({ required: true, initial: "Entry 3" }),
         };
+    }
+}
+
+/**
+ * Useful pieces, props, NPCs and more that form the backbone.
+ */
+export class ChallengeDataModel extends foundry.abstract.DataModel {
+    static defineSchema() {
+        return {
+            label: new fields.StringField({ required: true, initial: "Label" }),
+            description: new fields.StringField({ required: true, initial: "Succinct paragraph." }),
+            entry1: new fields.StringField({ required: true, initial: "Entry 1" }),
+            entry2: new fields.StringField({ required: true, initial: "Entry 2" }),
+            entry3: new fields.StringField({ required: true, initial: "Entry 3" }),
+        };
+    }
+}
+
+/**
+ * Useful pieces, props, NPCs and more that form the backbone.
+ */
+export class SetupDataModel extends foundry.abstract.DataModel {
+
+    static numChoices = 10;
+
+    static defineSchema() {
+        return {
+            label: new fields.StringField({ required: true, initial: "Label" }),
+            description: new fields.StringField({ required: true, initial: "Description" }),
+            extended: new fields.BooleanField({required:true}),
+            choices: new fields.ArrayField(new fields.SchemaField({
+                text: new fields.StringField({required:true}),
+                checked: new fields.BooleanField()
+            }),  { required: true, validate: (value, model) => {
+                    if (model.source.extended) {
+                        while (value.length < 10) {
+                            value.push({ text: "", checked: false });
+                        }
+                    }
+                    else {
+                        while (value.length < 5) {
+                            value.push({ text: "", checked: false });
+                        }
+                        if (value.length > 5) {
+                            value.splice(5);
+                        }
+                    }
+                },},),
+        };
+    }
+
+    /** @override **/
+    initialize(data = {}, options) {
+        super.initialize(data, options);
+    }
+
+    get choiceTextLength() {
+        return this.extended ? 15: 30;
+    }
+
+    get columns() {
+        const count = this.choices.filter(c => c.text.length > 0).length;
+        return count > 5 ? 2 : 1;
     }
 }
 
@@ -47,12 +114,12 @@ export class StoryKitDataModel extends foundry.abstract.TypeDataModel {
             thread2: new fields.EmbeddedDataField(ThreadDataModel, {}),
             thread3: new fields.EmbeddedDataField(ThreadDataModel, {}),
             // Setup
-            setup: new fields.ArrayField(
-                new fields.SchemaField({
-                    title: new fields.StringField({ required: true }),
-                    checklist: new fields.ArrayField(new fields.StringField(), { max: 3})
-                })
-            ),
+            setup1: new fields.EmbeddedDataField(SetupDataModel, {}),
+            setup2: new fields.EmbeddedDataField(SetupDataModel, {}),
+            setup3: new fields.EmbeddedDataField(SetupDataModel, {}),
+            // Challenges
+
+            // Mix it up
             mixItUp: new fields.StringField(),
             author: new fields.StringField()
         };

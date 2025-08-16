@@ -1,30 +1,40 @@
 <div class="form-group">
+
+    <div class="inline-fields">
+        <label>
+            Label
+            <input type="text" name="{{path}}.label" maxlength="15" value="{{ thread.label }}"  data-dtype="String"/>
+        </label>
+    </div>
+
     <label class="sk-field">
+        Description
           <textarea
                   name="{{path}}.description"
                   class="sk-textarea"
-                  maxlength="115"
+                  maxlength="100"
                   data-dtype="String"
                   rows="2"
-                  placeholder="Up to 115 characters…">
+                  placeholder="Up to 100 characters…">
               {{~thread.description}}
           </textarea>
     </label>
+
     <h3>Entries</h3>
     <ol>
         <li>
             <label>
-                <input type="text" name="{{path}}.entry1" maxlength="30" value="{{ thread.entry1 }}" data-dtype="String" />
+                <input type="text" name="{{path}}.entry1" maxlength="35" value="{{ thread.entry1 }}" data-dtype="String" />
             </label>
         </li>
         <li>
             <label>
-                <input type="text" name="{{path}}.entry2" maxlength="30" value="{{ thread.entry2 }}" data-dtype="String" />
+                <input type="text" name="{{path}}.entry2" maxlength="35" value="{{ thread.entry2 }}" data-dtype="String" />
             </label>
         </li>
         <li>
             <label>
-                <input type="text" name="{{path}}.entry3" maxlength="30" value="{{ thread.entry3 }}" data-dtype="String" />
+                <input type="text" name="{{path}}.entry3" maxlength="35" value="{{ thread.entry3 }}" data-dtype="String" />
             </label>
         </li>
     </ol>

@@ -23,84 +23,30 @@
 
     <!-- PRESSURE POOLS (3 cards with dice + connectors) -->
     <section class="sk-events">
-        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool.hbs" pool=system.prelude}}
+        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-view.hbs" data=system.prelude}}
         <div class="sk-connector" aria-hidden="true"></div>
-        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool.hbs" pool=system.escalation}}
+        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-view.hbs" data=system.escalation}}
         <div class="sk-connector" aria-hidden="true"></div>
-        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool.hbs" pool=system.climax}}
+        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-view.hbs" data=system.climax}}
     </section>
 
-    <!-- USEFUL PIECES -->
+    <!-- THREADS -->
     <section class="sk-panel">
-        <div class="sk-panel-head">USEFUL PIECES</div>
+        <div class="sk-panel-head">THREADS</div>
         <div class="sk-panel-grid">
-            <article class="sk-box">
-                <h4>VILLAGERS</h4>
-                <p><em>Honest, hard-working people that put up a united front against <strong>nosey outsiders</strong>.</em></p>
-                <ul class="sk-tri">
-                    <li>Refuse to speak on the problem.</li>
-                    <li>Disappear entirely after sundown.</li>
-                    <li>Friendly enough, otherwise.</li>
-                </ul>
-            </article>
-            <article class="sk-box">
-                <h4>THE WELL</h4>
-                <p>Life in <strong>Dreghill</strong> revolves around the small square in the center of the village.</p>
-                <ul class="sk-tri">
-                    <li>Emits a peculiar <em>metallic</em> smell.</li>
-                    <li>Villagers insist on gathering there.</li>
-                    <li>Goblins are drawn to it.</li>
-                </ul>
-            </article>
-            <article class="sk-box">
-                <h4>MELLA GORTIS</h4>
-                <p><em>Village elder, shrewd:</em> closest thing the village has to a leader, she is <strong>well-trusted</strong> by all.</p>
-                <ul class="sk-tri">
-                    <li>Always gets in the PCs' way.</li>
-                    <li>Curses in <em>goblintongue</em>.</li>
-                    <li>Has a soft spot for outsiders.</li>
-                </ul>
-            </article>
+            {{> "modules/fu-azure-compendia/templates/partials/thread-view.hbs" data=system.thread1}}
+            {{> "modules/fu-azure-compendia/templates/partials/thread-view.hbs" data=system.thread2}}
+            {{> "modules/fu-azure-compendia/templates/partials/thread-view.hbs" data=system.thread3}}
         </div>
     </section>
 
-    <!-- SET IT UP -->
+    <!-- SETUP -->
     <section class="sk-panel">
-        <div class="sk-panel-head">SET IT UP</div>
+        <div class="sk-panel-head">SETUP</div>
         <div class="sk-panel-grid">
-            <article class="sk-box">
-                <h4>GOBLIN PLAGUE</h4>
-                <p>Choose 2 causes of the sickness and 1 odd thing that's ultimately a false trail.</p>
-                <ul class="sk-check">
-                    <li>Villagers started eating exotic roots.</li>
-                    <li>A hag in the forest.</li>
-                    <li>Dead goblin in the well.</li>
-                    <li>Goblin relics from a mine.</li>
-                    <li>Farmer acting really suspicious.</li>
-                </ul>
-            </article>
-            <article class="sk-box">
-                <h4>DEATH</h4>
-                <p>Choose 1 usual outcome when a goblin dies and 1 rare possibility.</p>
-                <ul class="sk-check">
-                    <li>Dies like a goblin normally would.</li>
-                    <li>Reverts into a human, dead.</li>
-                    <li>Reverts into a human, <em>alive</em>.</li>
-                    <li>Releases a cloud of plague spores.</li>
-                    <li>Random one of the above.</li>
-                </ul>
-            </article>
-            <article class="sk-box">
-                <h4>DESIRES</h4>
-                <p>Choose 2 goblins crave with wild abandon and 1 that strikes them with irrational dread.</p>
-                <ul class="sk-check sk-two">
-                    <li>Shiny things</li><li>Flames</li>
-                    <li>Weapons</li><li>Sunrise</li>
-                    <li>Hijinx</li><li>Arcana</li>
-                    <li>Animals</li><li>Bell tolls</li>
-                    <li>Humans</li><li>Kindness</li>
-                </ul>
-            </article>
+            {{> "modules/fu-azure-compendia/templates/partials/setup-view.hbs" data=system.setup1}}
+            {{> "modules/fu-azure-compendia/templates/partials/setup-view.hbs" data=system.setup2}}
+            {{> "modules/fu-azure-compendia/templates/partials/setup-view.hbs" data=system.setup3}}
         </div>
     </section>
 

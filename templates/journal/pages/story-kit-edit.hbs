@@ -1,53 +1,71 @@
 <section>
     <div class="form-group">
-        <h2>Hooks</h2>
-        <ol>
-            <li>
-                {{formInput system.schema.fields.hook1 name="system.hook1" value=system.hook1 dataset=(object maxlength=40)}}
-            </li>
-            <li>
-                {{formInput system.schema.fields.hook2 name="system.hook2" value=system.hook2}}
-            </li>
-            <li>
-                {{formInput system.schema.fields.hook3 name="system.hook3" value=system.hook3}}
-            </li>
-        </ol>
+        <details>
+            <summary>Introduction</summary>
+            <h3>Hooks</h3>
+            <ol>
+                <li>
+                    {{formInput system.schema.fields.hook1 name="system.hook1" value=system.hook1
+                                dataset=(object maxlength=40)}}
+                </li>
+                <li>
+                    {{formInput system.schema.fields.hook2 name="system.hook2" value=system.hook2}}
+                </li>
+                <li>
+                    {{formInput system.schema.fields.hook3 name="system.hook3" value=system.hook3}}
+                </li>
+            </ol>
+
+            <label class="sk-field">
+              <textarea
+                      name="system.introduction"
+                      class="sk-textarea"
+                      maxlength="300"
+                      data-dtype="String"
+                      rows="6"
+                      placeholder="Up to 300 characters…">
+                  {{~system.introduction}}
+              </textarea>
+            </label>
+        </details>
     </div>
 
     <div class="form-group">
-        <h2>Introduction</h2>
-        <label class="sk-field">
-          <textarea
-                  name="system.introduction"
-                  class="sk-textarea"
-                  maxlength="300"
-                  data-dtype="String"
-                  rows="6"
-                  placeholder="Up to 300 characters…">
-              {{~system.introduction}}
-          </textarea>
-        </label>
+        <details>
+            <summary>Pressure Pools</summary>
+            <h3>Prelude</h3>
+            {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-edit.hbs" path="system.prelude" pool=system.prelude}}
+            <hr>
+            <h3>Escalation</h3>
+            {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-edit.hbs" path="system.escalation" pool=system.escalation}}
+            <hr>
+            <h3>Climax</h3>
+            {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-edit.hbs" path="system.climax" pool=system.climax}}
+        </details>
     </div>
 
     <div class="form-group">
-        <h2>Pressure Pools</h2>
-        <h3>Prelude</h3>
-        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-edit.hbs" path="system.prelude" pool=system.prelude}}
-        <hr>
-        <h3>Escalation</h3>
-        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-edit.hbs" path="system.escalation" pool=system.escalation}}
-        <hr>
-        <h3>Climax</h3>
-        {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-edit.hbs" path="system.climax" pool=system.climax}}
+        <details>
+            <summary>Threads</summary>
+            {{> "modules/fu-azure-compendia/templates/partials/thread-edit.hbs" path="system.thread1" thread=system.thread1}}
+            <hr>
+            {{> "modules/fu-azure-compendia/templates/partials/thread-edit.hbs" path="system.thread2" thread=system.thread2}}
+            <hr>
+            {{> "modules/fu-azure-compendia/templates/partials/thread-edit.hbs" path="system.thread3" thread=system.thread3}}
+        </details>
+
     </div>
 
     <div class="form-group">
-        <h2>Threads</h2>
-        {{> "modules/fu-azure-compendia/templates/partials/thread-edit.hbs" path="system.thread1" thread=system.thread1}}
-        <hr>
-        {{> "modules/fu-azure-compendia/templates/partials/thread-edit.hbs" path="system.thread2" thread=system.thread2}}
-        <hr>
-        {{> "modules/fu-azure-compendia/templates/partials/thread-edit.hbs" path="system.thread3" thread=system.thread3}}
+        <details>
+            <summary>Setup</summary>
+            {{> "modules/fu-azure-compendia/templates/partials/setup-edit.hbs" path="system.setup1" data=system.setup1}}
+            <hr>
+            {{> "modules/fu-azure-compendia/templates/partials/setup-edit.hbs" path="system.setup2" data=system.setup2}}
+            <hr>
+            {{> "modules/fu-azure-compendia/templates/partials/setup-edit.hbs" path="system.setup3" data=system.setup3}}
+        </details>
     </div>
+
 
 </section>

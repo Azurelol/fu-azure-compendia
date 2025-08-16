@@ -1,0 +1,32 @@
+<div class="form-group">
+    <div class="inline-fields">
+        <label>
+            Label
+            <input type="text" name="{{path}}.label" maxlength="15" value="{{ data.label }}" data-dtype="String"/>
+        </label>
+    </div>
+
+    <label class="sk-field">
+        Description
+        <input type="text" name="{{path}}.description" maxlength="90" value="{{ data.description }}" data-dtype="String"/>
+    </label>
+
+    <h3>Choices</h3>
+    <label title="Extended">
+        Extended <input type="checkbox" name="{{path}}.extended" {{ checked data.extended }} />
+    </label>
+    <!-- Length 15 for 10 entries, Length 30 for 5. -->
+    <ol>
+        {{#each data.choices as |choice index|}}
+            <li>
+                <label>
+                    <input type="text" name="{{../path}}.choices.{{ index }}.text"
+                           value="{{ choice.text }}"
+                           maxlength="{{#if ../data.extended}}15{{else}}30{{/if}}"
+                           data-dtype="String" />
+                </label>
+            </li>
+        {{/each}}
+    </ol>
+</div>
+

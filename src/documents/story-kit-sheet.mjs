@@ -6,7 +6,10 @@ export class StoryKitSheet extends foundry.applications.sheets.journal.JournalEn
         classes: ["azure-compendia", "sk"],
         window: {
             icon: "fa-brands fa-markdown"
-        }
+        },
+        form: {
+            submitOnChange: false,
+        },
     };
 
     /** @inheritDoc */
@@ -16,7 +19,8 @@ export class StoryKitSheet extends foundry.applications.sheets.journal.JournalEn
             template: AzureCompendiaSettings.getTemplatePath("journal/pages/story-kit-edit"),
             templates: [
                 AzureCompendiaSettings.getTemplatePath("partials/pressure-pool-edit"),
-                AzureCompendiaSettings.getTemplatePath("partials/thread-edit")
+                AzureCompendiaSettings.getTemplatePath("partials/thread-edit"),
+                AzureCompendiaSettings.getTemplatePath("partials/setup-edit"),
             ],
             classes: ['scrollable']
         },
@@ -28,7 +32,9 @@ export class StoryKitSheet extends foundry.applications.sheets.journal.JournalEn
         content: {
             template: AzureCompendiaSettings.getTemplatePath("journal/pages/story-kit-view"),
             templates: [
-                AzureCompendiaSettings.getTemplatePath("partials/pressure-pool")
+                AzureCompendiaSettings.getTemplatePath("partials/pressure-pool-view"),
+                AzureCompendiaSettings.getTemplatePath("partials/thread-view"),
+                AzureCompendiaSettings.getTemplatePath("partials/setup-view"),
             ],
             classes: ["sk"],
             root: true
@@ -58,5 +64,14 @@ export class StoryKitSheet extends foundry.applications.sheets.journal.JournalEn
             }
         });
         return parts;
+    }
+
+    /**
+     * @inheritDoc
+     * @override
+     */
+    _attachFrameListeners() {
+        super._attachFrameListeners();
+        const html = this.element;
     }
 }
