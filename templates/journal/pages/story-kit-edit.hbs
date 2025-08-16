@@ -1,7 +1,7 @@
 <section>
     <div class="form-group">
         <details>
-            <summary>Introduction</summary>
+            <summary>Overview</summary>
             <h3>Hooks</h3>
             <ol>
                 <li>
@@ -27,6 +27,17 @@
                   {{~system.introduction}}
               </textarea>
             </label>
+
+            <label>
+                Twist
+                <input type="text" name="system.twist" value="{{system.twist}}" data-dtype="String"/>
+            </label>
+
+            <label>
+                Author
+                <input type="text" name="system.author" maxlength="50" value="{{system.author}}" data-dtype="String"/>
+            </label>
+
         </details>
     </div>
 
@@ -67,5 +78,10 @@
         </details>
     </div>
 
+    <div class="form-group">
+        <details>
+            <summary>Challenges</summary>
 
+        </details>
+    </div>
 </section>

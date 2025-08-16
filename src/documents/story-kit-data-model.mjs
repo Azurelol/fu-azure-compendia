@@ -9,7 +9,7 @@ export class PressurePoolDataModel extends foundry.abstract.DataModel {
     static defineSchema() {
         return {
             label: new fields.StringField({ required: true, initial: "Pool Label" }),
-            size: new fields.NumberField({ initial: 6, min: 0, max: 6, integer: true }),
+            clock: new fields.NumberField({ initial: 6, min: 0, max: 6, integer: true }),
             event1: new fields.StringField({ required: true, initial: "Event 1" }),
             event2: new fields.StringField({ required: true, initial: "Event 2" }),
             event3: new fields.StringField({ required: true, initial: "Event 3" }),
@@ -32,28 +32,7 @@ export class ThreadDataModel extends foundry.abstract.DataModel {
     }
 }
 
-/**
- * Useful pieces, props, NPCs and more that form the backbone.
- */
-export class ChallengeDataModel extends foundry.abstract.DataModel {
-    static defineSchema() {
-        return {
-            label: new fields.StringField({ required: true, initial: "Label" }),
-            description: new fields.StringField({ required: true, initial: "Succinct paragraph." }),
-            entry1: new fields.StringField({ required: true, initial: "Entry 1" }),
-            entry2: new fields.StringField({ required: true, initial: "Entry 2" }),
-            entry3: new fields.StringField({ required: true, initial: "Entry 3" }),
-        };
-    }
-}
-
-/**
- * Useful pieces, props, NPCs and more that form the backbone.
- */
 export class SetupDataModel extends foundry.abstract.DataModel {
-
-    static numChoices = 10;
-
     static defineSchema() {
         return {
             label: new fields.StringField({ required: true, initial: "Label" }),
@@ -79,19 +58,15 @@ export class SetupDataModel extends foundry.abstract.DataModel {
                 },},),
         };
     }
+}
 
-    /** @override **/
-    initialize(data = {}, options) {
-        super.initialize(data, options);
-    }
-
-    get choiceTextLength() {
-        return this.extended ? 15: 30;
-    }
-
-    get columns() {
-        const count = this.choices.filter(c => c.text.length > 0).length;
-        return count > 5 ? 2 : 1;
+export class ChallengeDataModel extends foundry.abstract.DataModel {
+    static defineSchema() {
+        return {
+            label: new fields.StringField({ required: true, initial: "Label" }),
+            description: new fields.HTMLField({ required: true}),
+            clock: new fields.NumberField({ initial: 0, min: 0, max: 8, integer: true }),
+        };
     }
 }
 
@@ -118,9 +93,12 @@ export class StoryKitDataModel extends foundry.abstract.TypeDataModel {
             setup2: new fields.EmbeddedDataField(SetupDataModel, {}),
             setup3: new fields.EmbeddedDataField(SetupDataModel, {}),
             // Challenges
-
+            challenge1: new fields.EmbeddedDataField(ChallengeDataModel, {}),
+            challenge2: new fields.EmbeddedDataField(ChallengeDataModel, {}),
+            challenge3: new fields.EmbeddedDataField(ChallengeDataModel, {}),
+            challenge4: new fields.EmbeddedDataField(ChallengeDataModel, {}),
             // Mix it up
-            mixItUp: new fields.StringField(),
+            twist: new fields.StringField(),
             author: new fields.StringField()
         };
     }
