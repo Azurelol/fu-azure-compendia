@@ -8,11 +8,11 @@ const stringOptions = { required: true };
 export class PressurePoolDataModel extends foundry.abstract.DataModel {
     static defineSchema() {
         return {
-            label: new fields.StringField({ required: true, initial: "Pool Label" }),
+            label: new fields.StringField({ required: true, initial: "" }),
             clock: new fields.NumberField({ initial: 6, min: 0, max: 6, integer: true }),
-            event1: new fields.StringField({ required: true, initial: "Event 1" }),
-            event2: new fields.StringField({ required: true, initial: "Event 2" }),
-            event3: new fields.StringField({ required: true, initial: "Event 3" }),
+            event1: new fields.StringField({ required: true, initial: "" }),
+            event2: new fields.StringField({ required: true, initial: "" }),
+            event3: new fields.StringField({ required: true, initial: "" }),
         };
     }
 }
@@ -24,10 +24,10 @@ export class ThreadDataModel extends foundry.abstract.DataModel {
     static defineSchema() {
         return {
             label: new fields.StringField({ required: true, initial: "Label" }),
-            description: new fields.StringField({ required: true, initial: "Succinct paragraph." }),
-            entry1: new fields.StringField({ required: true, initial: "Entry 1" }),
-            entry2: new fields.StringField({ required: true, initial: "Entry 2" }),
-            entry3: new fields.StringField({ required: true, initial: "Entry 3" }),
+            description: new fields.StringField({ required: true, initial: "" }),
+            entry1: new fields.StringField({ required: true, initial: "" }),
+            entry2: new fields.StringField({ required: true, initial: "" }),
+            entry3: new fields.StringField({ required: true, initial: "" }),
         };
     }
 }
@@ -35,8 +35,8 @@ export class ThreadDataModel extends foundry.abstract.DataModel {
 export class SetupDataModel extends foundry.abstract.DataModel {
     static defineSchema() {
         return {
-            label: new fields.StringField({ required: true, initial: "Label" }),
-            description: new fields.StringField({ required: true, initial: "Description" }),
+            label: new fields.StringField({ required: true, initial: "" }),
+            description: new fields.StringField({ required: true, initial: "" }),
             extended: new fields.BooleanField({required:true}),
             choices: new fields.ArrayField(new fields.SchemaField({
                 text: new fields.StringField({required:true}),

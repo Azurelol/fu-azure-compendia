@@ -2,7 +2,7 @@
     <div class="inline-fields">
         <label>
             Label
-            <input type="text" name="{{path}}.label" maxlength="15" value="{{ data.label }}" data-dtype="String"/>
+            <input type="text" name="{{path}}.label" maxlength="20" value="{{ data.label }}" data-dtype="String"/>
         </label>
     </div>
 
@@ -21,7 +21,7 @@
                 <label>
                     <input type="text" name="{{../path}}.choices.{{ index }}.text"
                            value="{{ choice.text }}"
-                           maxlength="{{#if ../data.extended}}15{{else}}30{{/if}}"
+                           maxlength="{{#if ../data.extended}}18{{else}}32{{/if}}"
                            data-dtype="String" />
                 </label>
             </li>

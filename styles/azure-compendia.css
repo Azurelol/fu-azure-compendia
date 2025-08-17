@@ -8,6 +8,11 @@
     box-shadow: 0 2px 0 rgba(0,0,0,.08), 0 8px 24px rgba(0,0,0,.08) inset;
 }
 
+.application.sk {
+    background: #f8f5ec !important;   /* parchment background */
+    color: #222 !important;
+}
+
 /* --- title banner --- */
 .sk-titlebar {
     display: grid;

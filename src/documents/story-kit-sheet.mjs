@@ -4,8 +4,10 @@ export class StoryKitSheet extends foundry.applications.sheets.journal.JournalEn
     /** @override */
     static DEFAULT_OPTIONS = {
         classes: ["azure-compendia", "sk"],
+        viewClasses: ["azure-compendia", "sk"],
         window: {
-            icon: "fa-brands fa-markdown"
+            icon: "fa-brands fa-markdown",
+            contentClasses: ['sk']
         },
         form: {
             submitOnChange: false,
