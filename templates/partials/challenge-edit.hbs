@@ -1,0 +1,48 @@
+<div class="form-group">
+
+    <div class="inline-fields">
+        <label>
+            Label
+            <input type="text" name="{{path}}.label" maxlength="18" value="{{ data.label }}"  data-dtype="String"/>
+        </label>
+
+        <label>
+            Clock
+            <input type="number" name="{{path}}.clock" min="0" max="8"  value="{{ data.clock }}"  data-dtype="Number" />
+        </label>
+
+        {{#if data.clock}}
+            <label>
+                Fail State
+                <input type="text" name="{{path}}.failState" maxlength="18" value="{{ data.failState }}"  data-dtype="String"/>
+            </label>
+        {{/if}}
+    </div>
+
+    <h3>Traits</h3>
+    <ol>
+        {{#each data.traits as |entry index|}}
+            <li>
+                <label>
+                    <input type="text" name="{{../path}}.traits.{{ index }}"
+                           value="{{ entry }}"
+                           data-dtype="String" />
+                </label>
+            </li>
+        {{/each}}
+    </ol>
+
+    <h3>Moves</h3>
+    <ol>
+        {{#each data.moves as |entry index|}}
+            <li>
+                <label>
+                    <input type="text" name="{{../path}}.moves.{{ index }}"
+                           value="{{ entry }}"
+                           data-dtype="String" />
+                </label>
+            </li>
+        {{/each}}
+    </ol>
+</div>
+

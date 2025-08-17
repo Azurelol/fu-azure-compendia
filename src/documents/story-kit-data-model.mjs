@@ -63,11 +63,27 @@ export class SetupDataModel extends foundry.abstract.DataModel {
 export class ChallengeDataModel extends foundry.abstract.DataModel {
     static defineSchema() {
         return {
-            label: new fields.StringField({ required: true, initial: "Label" }),
-            description: new fields.HTMLField({ required: true}),
+            label: new fields.StringField({ required: true, initial: "" }),
             clock: new fields.NumberField({ initial: 0, min: 0, max: 8, integer: true }),
+            linked: new fields.BooleanField({required:true}),
+            traits: new fields.ArrayField(new fields.StringField({required:true}), { validate: (value) => {
+                    while (value.length < 3) {
+                        value.push("");
+                    }
+                }}),
+            moves: new fields.ArrayField(new fields.StringField({required:true}), { validate: (value) => {
+                    while (value.length < 3) {
+                        value.push("");
+                    }
+                }}),
+            failState: new fields.StringField({required:true}),
         };
     }
+
+    get hasTraits() {
+        return this.traits.filter(t => t.length > 0).length > 0;
+    }
+
 }
 
 export class StoryKitDataModel extends foundry.abstract.TypeDataModel {

@@ -279,9 +279,9 @@
 }
 
 .sk-action hr {
+    margin: 1px 0;
     border: none;
-    border-top: 1px solid #cfc9c1;
-    margin: 4px 0;
+    border-top: 1px solid rgba(0,0,0,0.25);
 }
 
 .sk-action-body {
@@ -290,14 +290,22 @@
     gap: 6px;
 }
 
+.sk-action ul {
+}
+
 .sk-dot {
     margin: 0;
     padding-left: 1.1rem;
 }
 
 .sk-dot li {
-    list-style: disc;
+    list-style: none;
     margin: .15rem 0;
+}
+
+.sk-dot li::before {
+    content: "◉ ";
+    font-size: .9em;
 }
 
 .bold li {

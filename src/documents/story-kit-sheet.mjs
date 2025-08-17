@@ -21,6 +21,7 @@ export class StoryKitSheet extends foundry.applications.sheets.journal.JournalEn
                 AzureCompendiaSettings.getTemplatePath("partials/pressure-pool-edit"),
                 AzureCompendiaSettings.getTemplatePath("partials/thread-edit"),
                 AzureCompendiaSettings.getTemplatePath("partials/setup-edit"),
+                AzureCompendiaSettings.getTemplatePath("partials/challenge-edit"),
             ],
             classes: ['scrollable']
         },
@@ -35,6 +36,7 @@ export class StoryKitSheet extends foundry.applications.sheets.journal.JournalEn
                 AzureCompendiaSettings.getTemplatePath("partials/pressure-pool-view"),
                 AzureCompendiaSettings.getTemplatePath("partials/thread-view"),
                 AzureCompendiaSettings.getTemplatePath("partials/setup-view"),
+                AzureCompendiaSettings.getTemplatePath("partials/challenge-view"),
             ],
             classes: ["sk"],
             root: true

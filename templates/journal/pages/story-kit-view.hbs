@@ -50,83 +50,12 @@
         </div>
     </section>
 
-    <!-- Small action cards -->
+    <!-- CHALLENGES -->
     <section class="sk-actions">
-        <article class="sk-action">
-            <header><span class="sk-die">4d</span><span class="sk-action-title">Ask One Question</span></header>
-            <ul class="sk-star">
-                <li>Tightly sealed lips</li>
-                <li>Strength in numbers</li>
-            </ul>
-            <hr>
-            <div class="sk-action-body">
-                <div class="sk-col">
-                    <ul class="sk-dot bold">
-                        <li>Make Excuses</li>
-                        <li>Change Subjects</li>
-                        <li>Ignore Reason</li>
-                    </ul>
-                </div>
-                <div class="sk-fail">X 4d Anger Villagers</div>
-            </div>
-        </article>
-
-        <article class="sk-action">
-            <header><span class="sk-die">4d</span><span class="sk-action-title">Falsely Accused</span></header>
-            <ul class="sk-star">
-                <li>Since you came, chaos</li>
-                <li>Town hates outsiders</li>
-            </ul>
-            <hr>
-            <div class="sk-action-body">
-                <div class="sk-col">
-                    <ul class="sk-dot bold">
-                        <li>Need a Scapegoat</li>
-                        <li>Misjudged Evidence</li>
-                        <li>False Witnesses</li>
-                    </ul>
-                </div>
-                <div class="sk-fail">X 4d Found Guilty</div>
-            </div>
-        </article>
-
-        <article class="sk-action">
-            <header><span class="sk-die">8d</span><span class="sk-action-title">Chase ’Em Down</span></header>
-            <ul class="sk-star">
-                <li>Know the town well</li>
-                <li>Fit into small spaces</li>
-            </ul>
-            <hr>
-            <div class="sk-action-body">
-                <div class="sk-col">
-                    <ul class="sk-dot bold">
-                        <li>Mad Scramble</li>
-                        <li>Goblinpile</li>
-                        <li>Juke</li>
-                    </ul>
-                </div>
-                <div class="sk-fail">X Lose the Trail</div>
-            </div>
-        </article>
-
-        <article class="sk-action">
-            <header><span class="sk-die">6d</span><span class="sk-action-title">Goblin Ambush</span></header>
-            <ul class="sk-star">
-                <li>Super sneaky</li>
-                <li>Night-vision</li>
-            </ul>
-            <hr>
-            <div class="sk-action-body">
-                <div class="sk-col">
-                    <ul class="sk-dot bold">
-                        <li>Jump from Above</li>
-                        <li>Bite Neck</li>
-                        <li>Yelp for Help</li>
-                    </ul>
-                </div>
-                <div class="sk-fail">X Kill a Goblin</div>
-            </div>
-        </article>
+        {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge1}}
+        {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge2}}
+        {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge3}}
+        {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge4}}
     </section>
 
     <!-- Mix it up bar -->
