@@ -1,26 +1,29 @@
-<article class="sk-action">
-    <header>
+<article class="sk-event">
+    <header class="sk-event-header">
         {{#if data.clock}}
-            <span class="sk-die">{{data.clock}}d</span>
+            <span class="die">{{data.clock}}D</span>
         {{/if}}
-        <span class="sk-action-title">{{data.label}}</span>
+        {{data.label}}
     </header>
-    <ul class="sk-star">
-        {{#each data.traits as |entry|}}
-            {{#if entry}}
-                <li><i>{{entry}}</i></li>
-            {{/if}}
-        {{/each}}
-    </ul>
-    <hr>
-    <ul class="sk-dot bold">
-        {{#each data.moves as |entry|}}
-            {{#if entry}}
-                <li>{{entry}}</li>
-            {{/if}}
-        {{/each}}
-    </ul>
-    {{#if data.failState}}
-        <div class="sk-fail">✘ {{data.failState}}</div>
-    {{/if}}
+    <section class="sk-event-content">
+        <ul class="sk-event-list sk-star">
+            {{#each data.traits as |entry|}}
+                {{#if entry}}
+                    <li><i>{{entry}}</i></li>
+                {{/if}}
+            {{/each}}
+        </ul>
+        <hr>
+        <ul class="sk-event-list sk-dot bold">
+            {{#each data.moves as |entry|}}
+                {{#if entry}}
+                    <li>{{entry}}</li>
+                {{/if}}
+            {{/each}}
+        </ul>
+        {{#if data.failState}}
+            <hr>
+            <div class="sk-fail">✘ {{data.failState}}</div>
+        {{/if}}
+    </section>
 </article>

@@ -1,7 +1,9 @@
 <article class="sk-event">
-    <div class="sk-die">{{data.clock}}d</div>
-    <h3 class="sk-event-title">{{data.label}}</h3>
-    <ul class="sk-bullets">
+    <header class="sk-event-header">
+        <span class="die">{{data.clock}}D</span>
+        {{data.label}}
+    </header>
+    <ul class="sk-event-list">
         <li>{{data.event1}}</li>
         <li>{{data.event2}}</li>
         <li>{{data.event3}}</li>

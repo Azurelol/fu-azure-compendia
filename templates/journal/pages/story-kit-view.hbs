@@ -24,9 +24,9 @@
     <!-- PRESSURE POOLS (3 cards with dice + connectors) -->
     <section class="sk-events">
         {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-view.hbs" data=system.prelude}}
-        <div class="sk-connector" aria-hidden="true"></div>
+
         {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-view.hbs" data=system.escalation}}
-        <div class="sk-connector" aria-hidden="true"></div>
+
         {{> "modules/fu-azure-compendia/templates/partials/pressure-pool-view.hbs" data=system.climax}}
     </section>
 
@@ -51,7 +51,7 @@
     </section>
 
     <!-- CHALLENGES -->
-    <section class="sk-actions">
+    <section class="sk-challenges">
         {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge1}}
         {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge2}}
         {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge3}}

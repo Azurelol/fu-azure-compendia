@@ -1,6 +1,5 @@
 <article class="sk-box">
-    <h4>{{data.label}}</h4>
-    <p>{{data.description}}</p>
+    <p><em><b>{{data.label}}</b>: {{data.description}}</em></p>
     <ul class="sk-check {{#if data.extended}}sk-two{{/if}}">
         {{#each data.choices as |choice index|}}
             <li>
