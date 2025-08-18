@@ -6,6 +6,9 @@
         {{data.label}}
     </header>
     <section class="sk-event-content">
+        {{#if data.description}}
+            {{{data.description}}}
+        {{/if}}
         <ul class="sk-event-list sk-star">
             {{#each data.traits as |entry|}}
                 {{#if entry}}
@@ -13,15 +16,19 @@
                 {{/if}}
             {{/each}}
         </ul>
-        <hr>
-        <ul class="sk-event-list sk-dot bold">
-            {{#each data.moves as |entry|}}
-                {{#if entry}}
-                    <li>{{entry}}</li>
-                {{/if}}
-            {{/each}}
-        </ul>
-        {{#if data.failState}}
+
+        {{#if data.hasMoves}}
+            <hr>
+            <ul class="sk-event-list sk-dot bold">
+                {{#each data.moves as |entry|}}
+                    {{#if entry}}
+                        <li>{{entry}}</li>
+                    {{/if}}
+                {{/each}}
+            </ul>
+        {{/if}}
+
+        {{#if data.hasFailState}}
             <hr>
             <div class="sk-fail">✘ {{data.failState}}</div>
         {{/if}}

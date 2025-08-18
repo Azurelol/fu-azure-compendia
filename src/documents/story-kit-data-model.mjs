@@ -77,13 +77,21 @@ export class ChallengeDataModel extends foundry.abstract.DataModel {
                     }
                 }}),
             failState: new fields.StringField({required:true}),
+            description: new fields.HTMLField({ required: true, initial: "" }),
         };
     }
 
-    get hasTraits() {
-        return this.traits.filter(t => t.length > 0).length > 0;
+    get valid() {
+        return this.label !== ""
     }
 
+    get hasMoves() {
+        return this.moves.filter(t => t.length > 0).length > 0;
+    }
+
+    get hasFailState(){
+        return this.failState !== ""
+    }
 }
 
 export class StoryKitDataModel extends foundry.abstract.TypeDataModel {

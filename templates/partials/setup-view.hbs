@@ -2,9 +2,11 @@
     <p><em><b>{{data.label}}</b>: {{data.description}}</em></p>
     <ul class="sk-check {{#if data.extended}}sk-two{{/if}}">
         {{#each data.choices as |choice index|}}
-            <li>
-                {{choice.text}}
-            </li>
+            {{#if choice.text}}
+                <li>
+                    {{choice.text}}
+                </li>
+            {{/if}}
         {{/each}}
     </ul>
 </article>

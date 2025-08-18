@@ -2,24 +2,23 @@
 
     <!-- Title banner -->
     <header class="sk-titlebar">
-        <div class="sk-title-icon">◆</div>
-        <h1 class="sk-title">{{name}}</h1>
-        <div class="sk-title-meta"></div>
+        <h1 class="title"><b>{{name}}</b></h1>
+
+        <section class="hooks">
+            <div class="hook">{{system.hook1}}</div>
+            <div class="hook">{{system.hook2}}</div>
+            <div class="hook">{{system.hook3}}</div>
+        </section>
+
+        <!-- Intro callout -->
+        <section class="intro">
+            <p>
+                {{{enrichedIntroduction}}}
+            </p>
+        </section>
     </header>
 
-    <!-- Flavor triptych -->
-    <section class="sk-flavor">
-        <div class="sk-chip">{{system.hook1}}</div>
-        <div class="sk-chip">{{system.hook2}}</div>
-        <div class="sk-chip">{{system.hook3}}</div>
-    </section>
 
-    <!-- Intro callout -->
-    <section class="sk-intro">
-        <p>
-            {{{enrichedIntroduction}}}
-        </p>
-    </section>
 
     <!-- PRESSURE POOLS (3 cards with dice + connectors) -->
     <section class="sk-events">
@@ -55,7 +54,9 @@
         {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge1}}
         {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge2}}
         {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge3}}
-        {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge4}}
+        {{#if system.challenge4.valid}}
+            {{> "modules/fu-azure-compendia/templates/partials/challenge-view.hbs" data=system.challenge4}}
+        {{/if}}
     </section>
 
     <!-- Mix it up bar -->
