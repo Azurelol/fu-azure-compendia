@@ -6,8 +6,8 @@
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "13",
+    "verified": "13"
   },
   "relationships": {
     "systems": [
@@ -25,6 +25,11 @@
           "compatibility": {
               "minimum": "3.4.8"
           }
+      },
+      {
+        "id": "azure-campaign-compendia",
+        "type": "module",
+        "manifest": "https://github.com/Azurelol/fu-azure-compendia/releases/latest/download/module.json"
       }
   ]
   },
@@ -79,8 +84,8 @@
       }
     },
     {
-      "name": "guides",
-      "label": "Guides",
+      "name": "journals",
+      "label": "Journals",
       "path": "packs/journals",
       "type": "JournalEntry",
       "system": "projectfu",
@@ -155,6 +160,16 @@
       }
     },
     {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "projectfu",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "press-start",
       "label": "Press Start",
       "path": "packs/press-start",
@@ -175,12 +190,13 @@
         "skills",
         "spells",
         "effects",
+        "journals",
         "generators",
         "macros",
-        "guides",
         "character-inventory",
+        "scenes",
         "press-start"
-      ]      
+      ]
     }
-  ]  
+  ]
 }
