@@ -1,3 +1,23 @@
-2025/05/22-18:16:04.882 3aec Recovering log #1064
-2025/05/22-18:16:04.884 3aec Delete type=0 #1064
-2025/05/22-18:16:04.884 3aec Delete type=3 #1063
+2025/08/20-17:43:30.438 5260 Recovering log #1070
+2025/08/20-17:43:30.438 5260 Level-0 table #1072: started
+2025/08/20-17:43:30.439 5260 Level-0 table #1072: 28102 bytes OK
+2025/08/20-17:43:30.441 5260 Delete type=0 #1070
+2025/08/20-17:43:30.441 5260 Delete type=3 #1069
+2025/08/20-20:58:41.343 6fd4 Level-0 table #1075: started
+2025/08/20-20:58:41.343 6fd4 Level-0 table #1075: 0 bytes OK
+2025/08/20-20:58:41.343 6fd4 Delete type=0 #1073
+2025/08/20-20:58:41.345 6fd4 Manual compaction at level-0 from '!journal!5RbIqdBTUq0Hdj0I' @ 72057594037927935 : 1 .. '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 0 : 0; will stop at '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 1836 : 1
+2025/08/20-20:58:41.345 6fd4 Compacting 1@0 + 0@1 files
+2025/08/20-20:58:41.346 6fd4 Generated table #1076@0: 33 keys, 28102 bytes
+2025/08/20-20:58:41.346 6fd4 Compacted 1@0 + 0@1 files => 28102 bytes
+2025/08/20-20:58:41.347 6fd4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/20-20:58:41.347 6fd4 Delete type=2 #1072
+2025/08/20-20:58:41.354 6fd4 Manual compaction at level-0 from '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 1836 : 1 .. '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 0 : 0; will stop at (end)
+2025/08/20-20:58:41.354 6fd4 Manual compaction at level-1 from '!journal!5RbIqdBTUq0Hdj0I' @ 72057594037927935 : 1 .. '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 0 : 0; will stop at '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 1836 : 1
+2025/08/20-20:58:41.354 6fd4 Compacting 1@1 + 1@2 files
+2025/08/20-20:58:41.355 6fd4 Generated table #1077@1: 33 keys, 28102 bytes
+2025/08/20-20:58:41.355 6fd4 Compacted 1@1 + 1@2 files => 28102 bytes
+2025/08/20-20:58:41.355 6fd4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/20-20:58:41.355 6fd4 Delete type=2 #612
+2025/08/20-20:58:41.355 6fd4 Delete type=2 #1076
+2025/08/20-20:58:41.361 6fd4 Manual compaction at level-1 from '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 1836 : 1 .. '!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma' @ 0 : 0; will stop at (end)
