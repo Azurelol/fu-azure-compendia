@@ -1,0 +1,47 @@
+name: 📥 Content Submission
+description: Submit content to be added to the compendia.
+title: "Content"
+labels: ["content"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks you for contributing! Please fill out the details below.
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: A short description of the content.
+      placeholder: "Burning Burning Sword"
+    validations:
+      required: true
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: Paste the actual content here, whether it be a JSON export, the description, an external link, etc...
+      placeholder: "It burns ever brighter the more friendship the user has!"
+    validations:
+      required: true
+
+  - type: input
+    id: attribution
+    attributes:
+      label: Attribution
+      description: How would you like to be credited for this content?
+      placeholder: "Example: Jane Doe, @janedoe, or https://example.com"
+    validations:
+      required: true
+
+
+  - type: checkboxes
+    id: content-rights
+    attributes:
+      label: Content Rights Agreement
+      description: Please confirm that you are allowed to share this content.
+      options:
+        - label: I confirm that I own or have permission to share this content
+          required: true
