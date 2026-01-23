@@ -1,0 +1,22 @@
+{
+  "name": "Complex",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "ioJ1w5rsjvKTT4n0",
+  "description": "",
+  "sort": 1200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1735328633056,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!ioJ1w5rsjvKTT4n0"
+}

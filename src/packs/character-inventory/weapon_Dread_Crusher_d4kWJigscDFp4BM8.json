@@ -1,0 +1,112 @@
+{
+  "name": "Dread Crusher",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-flanged-steel.webp",
+  "system": {
+    "subtype": {
+      "value": ""
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 200
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "attributes": {
+      "primary": {
+        "value": "mig"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "value": 6
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "heavy"
+    },
+    "hands": {
+      "value": "one-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "defense": "def",
+    "fuid": "iron-hammer",
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "IZMAQnkxmITmAgGP",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738512646384,
+    "modifiedTime": 1738517478262,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "BwRsFvMHAq9vUtEO": 3,
+    "esOkelwPNblkbxW3": 3
+  },
+  "_id": "d4kWJigscDFp4BM8",
+  "sort": 0,
+  "_key": "!items!d4kWJigscDFp4BM8"
+}

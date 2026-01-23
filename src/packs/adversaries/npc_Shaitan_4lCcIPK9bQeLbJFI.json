@@ -1,0 +1,1080 @@
+{
+  "folder": "TFz7hllUTJ6fGmXr",
+  "name": "Shaitan",
+  "type": "npc",
+  "img": "modules/fu-azure-compendia/assets/tokens/elementals/elemental_earth.png",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "resources": {
+      "hp": {
+        "value": 120,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 50,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 3
+      },
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 1
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 2
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": -1
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 1
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 1,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 1,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "traits": {
+      "value": ""
+    },
+    "species": {
+      "value": "elemental"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "isElite": {
+      "value": true
+    },
+    "isChampion": {
+      "value": 1
+    },
+    "isCompanion": {
+      "value": false
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "",
+    "associatedTherioforms": "",
+    "role": {
+      "value": "sentinel"
+    }
+  },
+  "prototypeToken": {
+    "name": "Shaitan",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1.5,
+    "height": 1.5,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/elementals/elemental_earth.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "folder": "qRpDGGGdnhmkFuQj",
+      "name": "Stone",
+      "type": "basic",
+      "img": "icons/magic/earth/projectile-stone-boulder-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "wlp"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "mdef",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "ranged"
+        },
+        "damageType": {
+          "value": "earth"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.AeqoSp3kinofqWqE",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725201075705,
+        "modifiedTime": 1725201075705,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "Lh6dZzmvyTLYBh61",
+      "sort": 0,
+      "_key": "!actors.items!4lCcIPK9bQeLbJFI.Lh6dZzmvyTLYBh61"
+    },
+    {
+      "folder": "MgMKdbFzDjpQzPDq",
+      "name": "Slam",
+      "type": "basic",
+      "_id": "g6RCjqSJ9V89iRKS",
+      "img": "modules/fu-azure-compendia/assets/icons/attacks/paw.png",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You slam the target with heavy force"
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.sKLlU0fKnuZHn2nc",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725201090664,
+        "modifiedTime": 1725201090664,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lCcIPK9bQeLbJFI.g6RCjqSJ9V89iRKS"
+    },
+    {
+      "folder": "e0HDO7LcX9neHVMp",
+      "name": "Improved Defenses",
+      "type": "rule",
+      "_id": "FXDg3d5qJ4e8Ws8Q",
+      "img": "modules/fu-azure-compendia/assets/icons/skills/armor-upgrade.png",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You have improved defenses.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.rkhbieuq5s515y3K",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Improved Defenses",
+          "img": "modules/fu-azure-compendia/assets/icons/skills/armor-upgrade.png",
+          "_id": "mwAiEO6nb1mDEuJm",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.derived.def.bonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            },
+            {
+              "key": "system.derived.mdef.bonus",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": 1725201106893,
+            "lastModifiedBy": "esOkelwPNblkbxW3",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!4lCcIPK9bQeLbJFI.FXDg3d5qJ4e8Ws8Q.mwAiEO6nb1mDEuJm"
+        },
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.rkhbieuq5s515y3K",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "name": "Improved Magical Defenses",
+          "img": "modules/fu-azure-compendia/assets/icons/skills/armor-upgrade.png",
+          "_id": "q0uUVgcqZ2q7xMJo",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.derived.def.bonus",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            },
+            {
+              "key": "system.derived.mdef.bonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!4lCcIPK9bQeLbJFI.FXDg3d5qJ4e8Ws8Q.q0uUVgcqZ2q7xMJo"
+        }
+      ],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.rkhbieuq5s515y3K",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725201104513,
+        "modifiedTime": 1725201104513,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lCcIPK9bQeLbJFI.FXDg3d5qJ4e8Ws8Q"
+    },
+    {
+      "folder": "ioJ1w5rsjvKTT4n0",
+      "name": "Wall of Stone",
+      "type": "spell",
+      "img": "modules/fu-azure-compendia/assets/icons/spells/brick-wall.png",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You erect a wall of made of stone that divides the battlefield in two, leaving half of your targets on the other side and the rest with you. Breaking down the wall is an <strong>easy 6-section clock</strong>.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": ""
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "30"
+        },
+        "maxTargets": {
+          "value": 0
+        },
+        "target": {
+          "value": ""
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 5,
+            "type": {
+              "value": "dark"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.noRsRmnGeqy574C6",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725201138956,
+        "modifiedTime": 1725201138956,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "VYDIHsi1c5juZWE5",
+      "sort": 300000,
+      "_key": "!actors.items!4lCcIPK9bQeLbJFI.VYDIHsi1c5juZWE5"
+    },
+    {
+      "folder": "3wV2pvX92KXaJvom",
+      "name": "Exploding Earth",
+      "type": "spell",
+      "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Spires of jagged rock erupt from the ground beneath your foes, closing around them. Each target hit by this spell suffers <strong>earth</strong> damage. This spell cannot target creatures who are flying, floating, falling, or otherwise in mid-air.</p><p><strong>Opportunity:</strong> Each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions).</p><hr /><ul><li><p>@LOSS[10 mp] for <strong>one</strong> target.</p></li><li><p>@LOSS[20 mp] for <strong>two</strong> targets.</p></li><li><p>@LOSS[30 mp] for <strong>three</strong> targets.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": ""
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "target": {
+          "value": "Up to three creatures"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "earth"
+            },
+            "value": 15
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "Each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions).",
+        "maxTargets": {
+          "value": 3
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.3UdARTEp3UBLwVob",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725201167324,
+        "modifiedTime": 1725201167324,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "UTePfHW8tcy0HO05",
+      "sort": 100000,
+      "_key": "!actors.items!4lCcIPK9bQeLbJFI.UTePfHW8tcy0HO05"
+    },
+    {
+      "folder": "02EELzRzHhrEwzoj",
+      "name": "Reflexive Shield",
+      "type": "rule",
+      "img": "icons/skills/melee/shield-block-bash-yellow.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>After an enemy <strong>hits you with an attack</strong>, you may perform a <strong>Guard </strong>against that attack before it has been fully resolved.</p><p><em>Note that the frequency of this skill depends on your rank.</em></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.GhT8kJxE2Bntn0wQ",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725202122296,
+        "modifiedTime": 1725202122296,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "xVzbEhalzbmUJR43",
+      "sort": 0,
+      "_key": "!actors.items!4lCcIPK9bQeLbJFI.xVzbEhalzbmUJR43"
+    },
+    {
+      "folder": "2yYVHxTETZOIfumo",
+      "name": "Counter Offensive",
+      "type": "rule",
+      "img": "icons/skills/melee/shield-block-gray-yellow.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>If you performed the <strong>Guard</strong> action on your previous turn, your next attack will deal extra damage.</p><ul><li><p><strong>Target</strong>: @DMG[&amp;step(5,10,15) physical]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "counter-offensive"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.kHFt3kzvxakKqtmJ",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735497926051,
+        "modifiedTime": 1735497926051,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "raYjtRPBD9r38gpC",
+      "sort": 200000,
+      "_key": "!actors.items!4lCcIPK9bQeLbJFI.raYjtRPBD9r38gpC"
+    },
+    {
+      "folder": "02EELzRzHhrEwzoj",
+      "name": "Expel Poison",
+      "type": "rule",
+      "img": "icons/creatures/slimes/slime-movement-swirling-green.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you are <strong>hit by a melee attack,</strong> the attacker takes <strong>poison damage</strong>.</p><ul><li><p><strong>Attacker</strong>: @DMG[&amp;step(5,10,15) poison]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "expel-poison"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.QjZIsgnlMW9uqYKy",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735497935393,
+        "modifiedTime": 1735497935393,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "Trs3wFeZa24I8345",
+      "sort": 0,
+      "_key": "!actors.items!4lCcIPK9bQeLbJFI.Trs3wFeZa24I8345"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724170126403,
+    "modifiedTime": 1733599929098,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "4lCcIPK9bQeLbJFI",
+  "sort": 100000,
+  "_key": "!actors!4lCcIPK9bQeLbJFI"
+}

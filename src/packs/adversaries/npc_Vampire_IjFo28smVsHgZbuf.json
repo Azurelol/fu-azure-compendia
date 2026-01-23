@@ -1,0 +1,822 @@
+{
+  "folder": "2neNam43J0ZZWlXo",
+  "name": "Vampire",
+  "type": "npc",
+  "_id": "IjFo28smVsHgZbuf",
+  "img": "modules/fu-azure-compendia/assets/tokens/undead/Halloween%20Vampire.png",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "resources": {
+      "hp": {
+        "value": 60,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 60,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 3
+      },
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 1
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": -1
+      },
+      "poison": {
+        "base": 1
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 1,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 1,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "traits": {
+      "value": "skirmisher, amoral, shadowy, predatory"
+    },
+    "species": {
+      "value": "undead"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "isElite": {
+      "value": false
+    },
+    "isChampion": {
+      "value": 1
+    },
+    "isCompanion": {
+      "value": false
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "",
+    "associatedTherioforms": "",
+    "role": {
+      "value": "saboteur"
+    }
+  },
+  "prototypeToken": {
+    "name": "Vampire",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/undead/Halloween%20Vampire.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "folder": "qRpDGGGdnhmkFuQj",
+      "name": "Shadow Bolt",
+      "type": "basic",
+      "img": "icons/magic/light/beam-explosion-pink-purple.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "wlp"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "mdef",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "ranged"
+        },
+        "damageType": {
+          "value": "dark"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.aWahhmOJLQ4ZlkVM",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725296562605,
+        "modifiedTime": 1725296562605,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "zdVsyNJZcOdeSehk",
+      "sort": 0,
+      "_key": "!actors.items!IjFo28smVsHgZbuf.zdVsyNJZcOdeSehk"
+    },
+    {
+      "folder": "MgMKdbFzDjpQzPDq",
+      "name": "Bite",
+      "type": "basic",
+      "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You bite the target with your jaws."
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "bite"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.xUIG5JCaXBmqJ8yr",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.25",
+        "createdTime": 1727382485228,
+        "modifiedTime": 1727382485228,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "xATYexxSL8ysn6Ip",
+      "sort": 500000,
+      "_key": "!actors.items!IjFo28smVsHgZbuf.xATYexxSL8ysn6Ip"
+    },
+    {
+      "folder": "e0HDO7LcX9neHVMp",
+      "name": "Spellcaster",
+      "type": "rule",
+      "_id": "D32LfltHxi2c2dKw",
+      "img": "icons/magic/symbols/star-yellow.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You are a wizard, Imperial Mage 72"
+        },
+        "description": "<p>You have the ability to cast spells. Choose from one option:</p><ul><li><p>You learn <strong>one spell</strong> and increase your maximum Mind Points by 10.</p></li><li><p>You learn <strong>two spells</strong>.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "spellcaster"
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Increased Mind Points",
+          "img": "icons/magic/symbols/star-yellow.webp",
+          "_id": "dEsAGF1XtfqBrZKh",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.resources.mp.max",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none",
+              "type": "default",
+              "source": ""
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "2.4.0-alpha.30",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!IjFo28smVsHgZbuf.D32LfltHxi2c2dKw.dEsAGF1XtfqBrZKh"
+        }
+      ],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": 1730588670504,
+        "modifiedTime": 1730588670504,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!IjFo28smVsHgZbuf.D32LfltHxi2c2dKw"
+    },
+    {
+      "folder": "02EELzRzHhrEwzoj",
+      "name": "Charm",
+      "type": "rule",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>After an enemy <strong>hits you with a melee or ranged attack</strong> , you attempt to charm their senses and redirect their attack onto one of their allies with a @CHECK[ins wlp hard] <strong>check</strong>.</p><p><em>This can only trigger once per round.</em></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "charm"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.1ISTlygCBp5wselZ",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1733601154004,
+        "modifiedTime": 1733601154004,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "SuhN80ycPawnYXEX",
+      "sort": 0,
+      "_key": "!actors.items!IjFo28smVsHgZbuf.SuhN80ycPawnYXEX"
+    },
+    {
+      "folder": "zIE4HffOuIlr8u9q",
+      "name": "Curse of Gluttony",
+      "type": "spell",
+      "_id": "T9CHoUfiqr7UwHzb",
+      "img": "icons/magic/unholy/hands-circle-light-green.webp",
+      "system": {
+        "fuid": "curse-of-gluttony",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>With a dark incantation you apply a curse on the target for 1 turn.</p><ul><li><p><strong>You</strong>: @LOSS[10 mp]</p></li><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.vDqaGeyYApfgis97]{Curse of Gluttony}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": ""
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "maxTargets": {
+          "value": 0
+        },
+        "target": {
+          "value": ""
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "mig"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 0,
+            "type": {
+              "value": "physical"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": ""
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.spells.Item.aTaFyVloJbjgfLNg",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735502635024,
+        "modifiedTime": 1735502635024,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!IjFo28smVsHgZbuf.T9CHoUfiqr7UwHzb"
+    },
+    {
+      "folder": "yfNBuxkwJmpLWyP5",
+      "name": "Lifesteal",
+      "type": "rule",
+      "_id": "VvKzUDNZdYz6exSx",
+      "img": "icons/magic/unholy/projectile-helix-blood-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Your <strong>melee attack</strong> on a target invigorates you, allowing you to <strong>recover</strong> <strong>minor hit points</strong>..</p><ul><li><p><strong>You</strong>: @GAIN[$minor hp] </p></li></ul><p><em>Note that the frequency of this skill depends on your rank.</em></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "lifesteal"
+      },
+      "effects": [],
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.mRJ87ZMLnDVG9Lp0",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735502643940,
+        "modifiedTime": 1735502643940,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!IjFo28smVsHgZbuf.VvKzUDNZdYz6exSx"
+    }
+  ],
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1725296178798,
+    "modifiedTime": 1733601189951,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!actors!IjFo28smVsHgZbuf"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "ah7fDyvHRdf6iRyQ",
+  "name": "Magical Duelist",
+  "type": "rule",
+  "_id": "9XlQeX9VJ5OfGTWJ",
+  "img": "icons/sundries/gaming/playing-cards-grey.webp",
+  "system": {
+    "fuid": "magical-duelist",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You are a magical duelist, a practitioner who uses magically-inscribed cards to cast magical spells in combat. On each of your turns, you can do the following in order:</p><ol><li><p>You <strong>draw a card</strong> from your deck.</p></li><li><p>You can <strong>summon a monster</strong> on the field, up to a <em>maximum of two</em> on the field.</p></li><li><p>You can <strong>set a trap card,</strong> which can be activated outside of your turn.</p></li><li><p>You can <strong>play a spell card</strong>.</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731434967633,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!9XlQeX9VJ5OfGTWJ"
+}

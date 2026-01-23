@@ -1,0 +1,851 @@
+{
+  "folder": "qW2vX0rlD0TgPNos",
+  "name": "Pumpkin Guardian",
+  "type": "npc",
+  "_id": "9Lje5n6KqrNQ6EzE",
+  "img": "modules/fu-azure-compendia/assets/tokens/villains/Halloween%20Pumpkin%20Chariot%20No%20Minion.png",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "resources": {
+      "hp": {
+        "value": 120,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 50,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 5
+      },
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 1
+      },
+      "earth": {
+        "base": -1
+      },
+      "fire": {
+        "base": 1
+      },
+      "ice": {
+        "base": -1
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {},
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 1,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 1,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "traits": {
+      "value": "sentinel,protector,big,simple"
+    },
+    "species": {
+      "value": "construct"
+    },
+    "villain": {
+      "value": "minor"
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "rank": {
+      "value": "elite",
+      "replacedSoldiers": 1
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "<ul><li><p>Protects the @UUID[Compendium.fu-azure-compendia.adversaries.Actor.FQ3xRB6C9iu9ocZL]{Witch}</p></li></ul>",
+    "associatedTherioforms": "",
+    "role": {
+      "value": "sentinel"
+    }
+  },
+  "prototypeToken": {
+    "name": "Pumpkin Guardian",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/villains/Halloween%20Pumpkin%20Chariot%20No%20Minion.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728323182487,
+        "modifiedTime": 1728323182487,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "d7FLGgjMr6PE4pdk",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "_key": "!actors.items!9Lje5n6KqrNQ6EzE.d7FLGgjMr6PE4pdk"
+    },
+    {
+      "folder": "qRpDGGGdnhmkFuQj",
+      "name": "Fire Bolt",
+      "type": "basic",
+      "_id": "vEaOrTWzRdmiqfHB",
+      "img": "icons/magic/fire/projectile-fireball-smoke-orange-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "wlp"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "mdef",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "ranged"
+        },
+        "damageType": {
+          "value": "fire"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "fire-bolt"
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.isShzw5XShFBwvLI",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728341839385,
+        "modifiedTime": 1728341839385,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!9Lje5n6KqrNQ6EzE.vEaOrTWzRdmiqfHB"
+    },
+    {
+      "folder": "MgMKdbFzDjpQzPDq",
+      "name": "Slam",
+      "type": "basic",
+      "_id": "YO7frG01Zps5bZ1y",
+      "img": "icons/creatures/abilities/paw-print-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You slam the target with heavy force"
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "slam"
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.sKLlU0fKnuZHn2nc",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728341871285,
+        "modifiedTime": 1728341871285,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!9Lje5n6KqrNQ6EzE.YO7frG01Zps5bZ1y"
+    },
+    {
+      "folder": "02EELzRzHhrEwzoj",
+      "name": "Protect",
+      "type": "rule",
+      "_id": "kyiwhqB0IPgYJJU4",
+      "img": "icons/skills/melee/shield-block-bash-blue.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You protect one of your allies from harm"
+        },
+        "description": "<p>When another creature is threatened by an <strong>attack</strong>, <strong>spell</strong>, or other <strong>danger</strong>, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill <strong>before</strong> the Checks have been made). If the danger already affected you, it affects you <strong>twice</strong> (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p><p><em>After you use this skill, you cannot use it again until the start of your next turn.</em></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "protect"
+      },
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.dIa2ZBc9U52ndIQw",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728341929874,
+        "modifiedTime": 1728341929874,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!9Lje5n6KqrNQ6EzE.kyiwhqB0IPgYJJU4"
+    },
+    {
+      "folder": "wJl9ksKpDg0rAuUA",
+      "name": "Sacrifice",
+      "type": "miscAbility",
+      "_id": "8o27OvI7Ii2Kce5U",
+      "img": "icons/magic/life/heart-broken-red.webp",
+      "system": {
+        "subtype": {
+          "value": "other"
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You transfer your hit points to another creature you can see. That creature recovers an equal amount of Hit Points.</p><ul><li><p><strong>You</strong>: @LOSS[heavy hp]</p></li><li><p><strong>Target</strong>: @GAIN[heavy hp]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            },
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 0,
+            "type": {
+              "value": "physical"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "sacrifice"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.p6xE1zGLG1wWhCEl",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735637665261,
+        "modifiedTime": 1735637665261,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!9Lje5n6KqrNQ6EzE.8o27OvI7Ii2Kce5U"
+    },
+    {
+      "folder": "y9VacGKyFP10h5ee",
+      "name": "Soul Release",
+      "type": "rule",
+      "_id": "rfCEAniH5tx2pYGF",
+      "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+      "system": {
+        "fuid": "soul-release",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you are reduced to 0 Hit Points, each other character in the scene recovers a <strong>heavy amount of mind points</strong>.</p><ul><li><p><strong>Targets</strong>: @GAIN[$heavy mp]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.wlPepXxwrIPiXEDS",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735637677106,
+        "modifiedTime": 1735637677106,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!9Lje5n6KqrNQ6EzE.rfCEAniH5tx2pYGF"
+    }
+  ],
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728323182414,
+    "modifiedTime": 1733601620589,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!actors!9Lje5n6KqrNQ6EzE"
+}

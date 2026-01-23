@@ -1,0 +1,58 @@
+{
+  "folder": "ER4fJEFZ4NTb9aAE",
+  "name": "Dark Angel's Diary",
+  "type": "accessory",
+  "_id": "25czMNryQ3mHVtdL",
+  "img": "icons/sundries/books/book-purple-detail.webp",
+  "system": {
+    "fuid": "dark-angels-journal",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Class: @UUID[Compendium.projectfu.classes.AgYLSVuJduaQBja0]{Darkblade}</p><hr /><h2>Qualities</h2><ol><li><p>When you trigger @UUID[Compendium.projectfu.skills.e6ids95gOPher40d]{Heart of Darkness} you also gain @UUID[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength}</p></li><li><p>When you trigger @UUID[Compendium.projectfu.skills.YkMaFGnNoWMo6k1U]{Painful Lessons} you gain @UUID[Compendium.fu-azure-compendia.effects.x1tLaaRsBa4Ag1cZ]{Riposte}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 1
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737395077029,
+    "modifiedTime": 1737751918292,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!25czMNryQ3mHVtdL"
+}

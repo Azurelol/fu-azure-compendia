@@ -1,0 +1,63 @@
+{
+  "folder": "hDxRisIuYNCNBKir",
+  "name": "Magister's Regalia",
+  "type": "armor",
+  "_id": "UCfCRD5lNLd86KKK",
+  "img": "icons/equipment/chest/robe-layered-red.webp",
+  "system": {
+    "fuid": "crimson-leathers",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>@UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><hr /><h2>Qualities</h2><ol><li><p>You may spend an <strong>opportunity</strong> to inflict @UUID[Compendium.projectfu.actor-effects.dAFACJSQzCbcU9We]{Fire Weakness} or  @UUID[Compendium.projectfu.actor-effects.BVOW692emrw4yxR0]{Ice Weakness} until the <strong>end of your next turn.</strong></p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "attribute": "dex",
+      "value": 1
+    },
+    "mdef": {
+      "attribute": "ins",
+      "value": 2
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738517066849,
+    "modifiedTime": 1738518676312,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!UCfCRD5lNLd86KKK"
+}

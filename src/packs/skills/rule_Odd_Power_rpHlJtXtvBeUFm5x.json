@@ -1,0 +1,58 @@
+{
+  "folder": "UwcyjtjzjqdeSyde",
+  "name": "Odd Power",
+  "type": "rule",
+  "img": "icons/skills/trades/gaming-gambling-dice-gray.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Every 7 times</strong> a <strong>pair of odd numbers</strong> is rolled during a conflict, you immediately perform a <strong>free HR0 attack</strong> on either the <strong>enemy who rolled them</strong> or the <strong>last target of an ally who did.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "odd-power"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "rpHlJtXtvBeUFm5x",
+  "sort": 150000,
+  "_key": "!items!rpHlJtXtvBeUFm5x"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "CxiOOFr6RmoYlFk8",
+  "name": "Weapon Specialization",
+  "type": "rule",
+  "img": "icons/equipment/hand/gauntlet-armored-red-gold.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "You are an expert with your weapon of choice"
+    },
+    "description": "<p>When you <strong>attack a target</strong> with a <strong>melee or ranged attack</strong>, you may execute a special technique with your weapon by spending @LOSS[10 mp].</p><table><tbody><tr><td data-colwidth=\"89\"><p><strong>Type</strong></p></td><td data-colwidth=\"104\"><p><strong>Action</strong></p></td><td><p><strong>Effect</strong></p></td></tr><tr><td data-colwidth=\"89\"><p>Sword</p></td><td data-colwidth=\"104\"><p>Flourish</p></td><td><p>The attack <strong>triggers no reactions</strong></p></td></tr><tr><td data-colwidth=\"89\"><p>Axe</p></td><td data-colwidth=\"104\"><p>Cleave</p></td><td><p>The attack gains <strong>multi (2)</strong></p></td></tr><tr><td data-colwidth=\"89\"><p>Spear</p></td><td data-colwidth=\"104\"><p>Pierce</p></td><td><p>The attack <strong>ignores any resistances</strong></p></td></tr><tr><td data-colwidth=\"89\"><p>Greatsword</p></td><td data-colwidth=\"104\"><p>Smash</p></td><td><p>The attack cancels the target's <strong>Guard</strong> after damage is dealt</p></td></tr><tr><td data-colwidth=\"89\"><p>Bow</p></td><td data-colwidth=\"104\"><p>Hamstring</p></td><td><p>@EFFECT[slow]</p></td></tr></tbody></table>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "weapon-specialization"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731533594495,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "HjllQ4llUr5BNQgk",
+  "sort": 900000,
+  "_key": "!items!HjllQ4llUr5BNQgk"
+}

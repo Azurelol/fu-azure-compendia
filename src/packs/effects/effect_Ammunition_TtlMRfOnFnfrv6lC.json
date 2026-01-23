@@ -1,0 +1,76 @@
+{
+  "folder": "ecb265AiQGmQqXcQ",
+  "name": "Ammunition",
+  "type": "effect",
+  "_id": "TtlMRfOnFnfrv6lC",
+  "img": "icons/weapons/ammunition/bullets-cartridge-shell-gray.webp",
+  "system": {
+    "fuid": "fua-ammunition",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.effects.Item.TtlMRfOnFnfrv6lC",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Ammunition",
+      "img": "icons/weapons/ammunition/bullets-cartridge-shell-gray.webp",
+      "_id": "eS0sWMVYpHMl0gZr",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1733786083063,
+        "modifiedTime": 1733786301679,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!TtlMRfOnFnfrv6lC.eS0sWMVYpHMl0gZr"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1733786077347,
+    "modifiedTime": 1733786249678,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!TtlMRfOnFnfrv6lC"
+}

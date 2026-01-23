@@ -1,0 +1,48 @@
+{
+  "folder": "TNdgvF4e0RW4FlMq",
+  "name": "Ten-Unit Pole",
+  "type": "consumable",
+  "_id": "fR8SKHJgNheAUAhA",
+  "img": "icons/tools/fishing/rod-simple-stick-brown.webp",
+  "system": {
+    "fuid": "10-unit-pole",
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you would trigger a <strong>trap</strong> as a result of a <strong>failed check,</strong> you instead suffer no harm.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737397222678,
+    "modifiedTime": 1739392835497,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!fR8SKHJgNheAUAhA"
+}

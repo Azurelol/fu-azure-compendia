@@ -1,0 +1,22 @@
+{
+  "name": "Wings of Crimson",
+  "sorting": "a",
+  "folder": "s1WpAQA2wlGpd1eg",
+  "type": "Actor",
+  "_id": "KpOSMsTjTERHj1fK",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731426667116,
+    "modifiedTime": 1731426669122,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!KpOSMsTjTERHj1fK"
+}

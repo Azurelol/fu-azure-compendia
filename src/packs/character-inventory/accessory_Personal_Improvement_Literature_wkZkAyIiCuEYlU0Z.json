@@ -1,0 +1,74 @@
+{
+  "folder": "Tw1AVAJxY0kjNgy4",
+  "name": "Personal Improvement Literature",
+  "type": "accessory",
+  "_id": "wkZkAyIiCuEYlU0Z",
+  "img": "icons/sundries/books/book-simple-brown.webp",
+  "system": {
+    "fuid": "personal-improvement-literature",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<h2>Qualities</h2><ol><li><p>When <strong>you</strong> <strong>fail</strong> a check and <strong>reroll</strong> it  you recover @GAIN[&amp;step(5,10,15) mp]</p></li><li><p>When an <strong>ally</strong> <strong>fails</strong> a check you can encourage them with some introspective advice gleaned from the contents of this book. You <strong>spend</strong> @LOSS[5 mp] and they can recover from a <strong>single status effect</strong>.</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1730827820097,
+    "modifiedTime": 1737757452790,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!wkZkAyIiCuEYlU0Z"
+}

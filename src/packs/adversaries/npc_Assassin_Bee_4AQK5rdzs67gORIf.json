@@ -1,0 +1,536 @@
+{
+  "folder": "slqzGcPlrrYV41ml",
+  "name": "Assassin Bee",
+  "type": "npc",
+  "img": "modules/fu-azure-compendia/assets/tokens/beasts/Insects%20Bee.png",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 40,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 45,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 3
+      },
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": -1
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 1
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 10
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 6
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "traits": {
+      "value": "skirmisher,quick,"
+    },
+    "species": {
+      "value": "beast"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "isElite": {
+      "value": false
+    },
+    "isChampion": {
+      "value": 1
+    },
+    "isCompanion": {
+      "value": false
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "",
+    "associatedTherioforms": "",
+    "role": {
+      "value": "saboteur"
+    }
+  },
+  "prototypeToken": {
+    "name": "NPC",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/beasts/Insects%20Bee.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "folder": "MgMKdbFzDjpQzPDq",
+      "name": "Sting",
+      "type": "basic",
+      "_id": "t9rHmqQg3nmKq6Fk",
+      "img": "icons/creatures/abilities/stinger-poison-scorpion-brown.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You sting the target with your tail"
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "def",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "poison"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "sting"
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.kID3kXPZcGvBgCMY",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.23",
+        "createdTime": 1725735535182,
+        "modifiedTime": 1725735535182,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!4AQK5rdzs67gORIf.t9rHmqQg3nmKq6Fk"
+    },
+    {
+      "folder": "e0HDO7LcX9neHVMp",
+      "name": "Flying",
+      "type": "rule",
+      "_id": "IJm2Kir54xqd4ATh",
+      "img": "systems/projectfu/styles/static/statuses/Flying.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You have the ability to fly or levitate"
+        },
+        "description": "<p>Your gain the benefits of @UUID[Compendium.fu-azure-compendia.effects.TaI0WVX1BfRa95iA]{Flying}</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "flying"
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.effects.Item.TaI0WVX1BfRa95iA",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Flying",
+          "img": "systems/projectfu/styles/static/statuses/Flying.webp",
+          "_id": "L4OHhlYm9EPvNLhQ",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "description": "<p>Your have ability to fly or levitate. Because of this, <strong>creatures on the ground cannot reach you with melee attacks as long as you are in mid-air</strong> (though you can perform melee attacks against targets who are on the ground).</p><p>If you <strong>suffer damage</strong> of a type<strong> </strong>you are <strong>vulnerable </strong>to, <strong>you are immediately forced to land</strong> and <strong>lose the benefits of this Skill until the end of the round,</strong> when you will automatically regain the benefits. You may also be forced to land when an attacker spends an opportunity.</p><p>Whenever you are in Crisis, you <strong>lose</strong> all benefits granted by this Skill.</p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [
+            "flying"
+          ],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "type": "default",
+              "source": "",
+              "CrisisInteraction": "inactive"
+            }
+          },
+          "_stats": {
+            "compendiumSource": "Compendium.fu-azure-compendia.effects.Item.TaI0WVX1BfRa95iA.ActiveEffect.LLuPr3JQJNm6huWk",
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "2.4.0-alpha.30",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!4AQK5rdzs67gORIf.IJm2Kir54xqd4ATh.L4OHhlYm9EPvNLhQ"
+        }
+      ],
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.fQUtLJk5vnZ1kE8U",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": 1730581430210,
+        "modifiedTime": 1730581430210,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!4AQK5rdzs67gORIf.IJm2Kir54xqd4ATh"
+    },
+    {
+      "folder": "yfNBuxkwJmpLWyP5",
+      "name": "Pack Attack",
+      "type": "rule",
+      "_id": "3v7Utxic8XVO8sES",
+      "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "Together you are strong"
+        },
+        "description": "<p>You deal additional damage to targets equal to the number of allies of your species:</p><ol><li><p>@DMG[3 physical]</p></li><li><p>@DMG[5 physical]</p></li><li><p>@DMG[7 physical]</p></li></ol>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "pack-attack"
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.x02fb9ZiURYx3YDP",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": 1730581447193,
+        "modifiedTime": 1730581447193,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!4AQK5rdzs67gORIf.3v7Utxic8XVO8sES"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724443312429,
+    "modifiedTime": 1733076997962,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "4AQK5rdzs67gORIf",
+  "sort": 900000,
+  "_key": "!actors!4AQK5rdzs67gORIf"
+}

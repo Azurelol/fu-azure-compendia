@@ -1,0 +1,141 @@
+{
+  "folder": "llE2mBujrfK9znnV",
+  "name": "Toxic Cloud",
+  "type": "spell",
+  "_id": "eBcjuXvGiHpimmcx",
+  "img": "icons/magic/air/fog-gas-smoke-dense-green.webp",
+  "system": {
+    "fuid": "toxic-cloud",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you conjure a poisonous fog which blankets the scene. All targets suffer <strong>unavoidable poison damage</strong>, leaving them poisoned while the cloud persists. Clearing this cloud is a <strong>normal 4-section clock.</strong></p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets: </strong>@DMG[&amp;step(15,20,25) poison] +<strong> </strong>@EFFECT[poisoned]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "40"
+    },
+    "maxTargets": {
+      "value": 0
+    },
+    "target": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731527493814,
+    "modifiedTime": 1735328566812,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!eBcjuXvGiHpimmcx"
+}

@@ -1,0 +1,716 @@
+{
+  "folder": "QFOFtL8LRoN1gPnq",
+  "name": "Clockwork Soldier",
+  "type": "npc",
+  "_id": "K4Bst1DJhTYTUkoQ",
+  "img": "modules/fu-azure-compendia/assets/tokens/constructs/Clockwork%20Prototype.png",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 50,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 35,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 3
+      },
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 10
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 6
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "traits": {
+      "value": ""
+    },
+    "species": {
+      "value": "construct"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "isElite": {
+      "value": false
+    },
+    "isChampion": {
+      "value": 1
+    },
+    "isCompanion": {
+      "value": false
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "",
+    "associatedTherioforms": "",
+    "role": {
+      "value": "hunter"
+    }
+  },
+  "prototypeToken": {
+    "name": "Clockwork Soldier",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/constructs/Clockwork%20Prototype.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "folder": "02EELzRzHhrEwzoj",
+      "name": "Punish",
+      "type": "rule",
+      "_id": "Xef3pisaueyVw7yS",
+      "img": "icons/skills/melee/strike-axe-energy-pink.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>After an enemy <strong>hits an ally with a melee attack</strong>, if the Result of their Accuracy Check was an <strong>even number</strong> you may perform a <strong>free attack</strong> against that enemy (after their attack has been fully resolved). This attack must be a <strong>melee</strong> attack and must have that enemy as its only target; treat your <strong>High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p><p><em>Note that the frequency of this skill depends on your rank.</em></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "punish"
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.KnzS7X7Ew1AnvevI",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.23",
+        "createdTime": 1725729433506,
+        "modifiedTime": 1725729433506,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!K4Bst1DJhTYTUkoQ.Xef3pisaueyVw7yS"
+    },
+    {
+      "folder": "0E4NolxNeKyh7STs",
+      "name": "Construct",
+      "type": "rule",
+      "_id": "8qJ4xwBdA2IECQDu",
+      "img": "icons/magic/control/control-influence-puppet.webp",
+      "system": {
+        "fuid": "afc-construct",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Constructs are <strong>artificial</strong> beings animated by the power of souls, often crafted by alchemists, mages, or scientists.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.hEYsleRTIdbVkQl5",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Construct",
+          "img": "icons/magic/control/control-influence-puppet.webp",
+          "_id": "RfVJdSAQKetGfrkg",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.affinities.earth.current",
+              "mode": 5,
+              "value": "1",
+              "priority": null
+            },
+            {
+              "key": "system.affinities.poison.current",
+              "mode": 5,
+              "value": "2",
+              "priority": null
+            },
+            {
+              "key": "system.immunities.poisoned.base",
+              "mode": 5,
+              "value": "true",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "2.4.0-alpha.23",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!K4Bst1DJhTYTUkoQ.8qJ4xwBdA2IECQDu.RfVJdSAQKetGfrkg"
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.hEYsleRTIdbVkQl5",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.23",
+        "createdTime": 1725729516653,
+        "modifiedTime": 1725729516653,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!K4Bst1DJhTYTUkoQ.8qJ4xwBdA2IECQDu"
+    },
+    {
+      "folder": "tjWV9h97KAbXCCnC",
+      "name": "Glaive",
+      "type": "basic",
+      "_id": "rS2AIC7pXduLcIXK",
+      "img": "icons/weapons/polearms/glaive-hooked-steel.webp",
+      "system": {
+        "fuid": "glaive",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "def",
+        "damage": {
+          "value": 8
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.5z2lqDTWegHAv917",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.23",
+        "createdTime": 1725729584490,
+        "modifiedTime": 1725729584490,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!K4Bst1DJhTYTUkoQ.rS2AIC7pXduLcIXK"
+    },
+    {
+      "folder": "0E4NolxNeKyh7STs",
+      "name": "Clockwork",
+      "type": "rule",
+      "_id": "RkEdmeaGODl2AeN2",
+      "img": "icons/environment/creatures/golem-stone-purple.webp",
+      "system": {
+        "fuid": "clockwork",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You are <strong>clockwork</strong>, a member a type of intricate, complex machines that are <strong>built</strong> with care by highly skilled engineers. Though their creation involves some amount of magic, they're <strong>primarily mechanical,</strong> packed with precision-tuned gears and springs working in concert.</span></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.oxIWQWrhFjKHtv33",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Clockwork",
+          "img": "icons/environment/creatures/golem-stone-purple.webp",
+          "_id": "BOyS5zvowTrirhcr",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.affinities.bolt.current",
+              "mode": 5,
+              "value": "-1",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "2.4.0-alpha.23",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!K4Bst1DJhTYTUkoQ.RkEdmeaGODl2AeN2.BOyS5zvowTrirhcr"
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.oxIWQWrhFjKHtv33",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.23",
+        "createdTime": 1725730367209,
+        "modifiedTime": 1725730367209,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!K4Bst1DJhTYTUkoQ.RkEdmeaGODl2AeN2"
+    },
+    {
+      "folder": "y9VacGKyFP10h5ee",
+      "name": "Malfunction",
+      "type": "rule",
+      "_id": "G4TavAiRWu46BHH8",
+      "img": "icons/magic/lightning/bolt-strike-creature-pink.webp",
+      "system": {
+        "fuid": "malfunction",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, there's a chance a mechanism you possess breaks or begins to malfunction. <strong>Roll a d8</strong> and consult the table below for the <strong>effect</strong>.</p><table><tbody><tr><td data-colwidth=\"134\"><p><strong>Dice</strong></p></td><td data-colwidth=\"136\"><p><strong>Effect</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td data-colwidth=\"134\"><p>1-2</p></td><td data-colwidth=\"136\"><p>Backfire</p></td><td><p>You take @DMG[$minor fire]. If you were struck in melee, the attacker also takes this damage as well.</p></td></tr><tr><td data-colwidth=\"134\"><p>3-4</p></td><td data-colwidth=\"136\"><p>Damaged Propulsion</p></td><td><p>You are affected by @EFFECT[dex-down]</p></td></tr><tr><td data-colwidth=\"134\"><p>5-6</p></td><td data-colwidth=\"136\"><p>Loose Screws</p></td><td><p>You are affected by @EFFECT[mig-down]</p></td></tr><tr><td data-colwidth=\"134\"><p>7-8</p></td><td data-colwidth=\"136\"><p>Reboot</p></td><td><p>You are @UUID[Compendium.fu-azure-compendia.effects.2CdYy1zLjc6uOIPC]{Stunned}</p></td></tr></tbody></table>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [],
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.QCXmofmGGV8EdGcX",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735331880896,
+        "modifiedTime": 1735331880896,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!K4Bst1DJhTYTUkoQ.G4TavAiRWu46BHH8"
+    }
+  ],
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724691243705,
+    "modifiedTime": 1735665600226,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!actors!K4Bst1DJhTYTUkoQ"
+}

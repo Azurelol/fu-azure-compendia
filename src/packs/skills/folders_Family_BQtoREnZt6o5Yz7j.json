@@ -1,0 +1,22 @@
+{
+  "name": "Family",
+  "sorting": "a",
+  "folder": "e0HDO7LcX9neHVMp",
+  "type": "Item",
+  "_id": "BQtoREnZt6o5Yz7j",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!BQtoREnZt6o5Yz7j"
+}

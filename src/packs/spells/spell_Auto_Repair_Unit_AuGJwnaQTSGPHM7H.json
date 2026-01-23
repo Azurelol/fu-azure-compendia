@@ -1,0 +1,141 @@
+{
+  "folder": "Lh0MHor59rXtxZOz",
+  "name": "Auto Repair Unit",
+  "type": "spell",
+  "_id": "AuGJwnaQTSGPHM7H",
+  "img": "icons/tools/smithing/hammer-sledge-steel-grey.webp",
+  "system": {
+    "fuid": "auto-repair-unit",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You engage your auto-repair unit, which will <strong>automatically repair the damage you have taken.</strong> At the <strong>beginning of each round</strong> you will <strong>recover a minor amount of hit points</strong>.</p><ul><li><p><strong>You:</strong> @UUID[Compendium.fu-azure-compendia.effects.wmld4YK2TtfzQbzj]{Regeneration}</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "20"
+    },
+    "maxTargets": {
+      "value": 0
+    },
+    "target": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429073863,
+    "modifiedTime": 1735330940436,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!AuGJwnaQTSGPHM7H"
+}

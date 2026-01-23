@@ -1,0 +1,58 @@
+{
+  "folder": "ViM4tJL6WtXIChbr",
+  "name": "Sudden Slime",
+  "type": "rule",
+  "_id": "c8Q623Pyr3cCelv9",
+  "img": "icons/creatures/slimes/slime-face-melting-green.webp",
+  "system": {
+    "fuid": "ceiling-slime",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>A slime drops from above onto an unsuspecting <strong>character</strong> in the party. They must make a @CHECK[dex ins normal] or find themselves quickly <strong>suffocated</strong> by the slime. In the aftermath the character will have lost @LOSS[1 ip]</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738409691884,
+    "modifiedTime": 1738426771332,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!c8Q623Pyr3cCelv9"
+}

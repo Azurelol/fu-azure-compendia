@@ -1,0 +1,22 @@
+{
+  "name": "Ranged",
+  "sorting": "a",
+  "folder": "Y30FsMWJPwv01kX5",
+  "type": "Item",
+  "_id": "2KJQRZg4WkBly58w",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!2KJQRZg4WkBly58w"
+}

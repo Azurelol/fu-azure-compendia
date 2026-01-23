@@ -1,0 +1,58 @@
+{
+  "folder": "VhDvktGWCoZOFp3W",
+  "name": "Aura of Despair",
+  "type": "rule",
+  "_id": "OWipG0O7sPljN6VM",
+  "img": "icons/magic/control/fear-fright-white.webp",
+  "system": {
+    "fuid": "aura-of-despair",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Living creatures in the scene are @EFFECT[shaken]. This is removed when you are defeated.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!OWipG0O7sPljN6VM"
+}

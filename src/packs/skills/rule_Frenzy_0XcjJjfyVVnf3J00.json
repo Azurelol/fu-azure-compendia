@@ -1,0 +1,100 @@
+{
+  "folder": "y9VacGKyFP10h5ee",
+  "name": "Frenzy",
+  "type": "rule",
+  "_id": "0XcjJjfyVVnf3J00",
+  "img": "icons/magic/perception/hand-eye-pink.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "You are whipped into a frenzy"
+    },
+    "description": "<p>As long as you are in <strong>Crisis</strong>, one or more of your attacks gains <strong>multi (2).</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "frenzy"
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.0XcjJjfyVVnf3J00",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Frenzy",
+      "img": "modules/fu-azure-compendia/assets/icons/skills/moon-claws.png",
+      "_id": "Mrf9Vdkau1IRRVBJ",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "<p>Your attacks gain <strong>multi (2)</strong></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "active"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!0XcjJjfyVVnf3J00.Mrf9Vdkau1IRRVBJ"
+    }
+  ],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!0XcjJjfyVVnf3J00"
+}

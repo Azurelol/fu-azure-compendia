@@ -1,0 +1,22 @@
+{
+  "name": "Crisis",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "y9VacGKyFP10h5ee",
+  "description": "",
+  "sort": 700000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1731526744554,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!y9VacGKyFP10h5ee"
+}

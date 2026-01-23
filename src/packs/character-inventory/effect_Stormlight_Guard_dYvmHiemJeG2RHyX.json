@@ -1,0 +1,95 @@
+{
+  "folder": "OJ6V9dx4DY3ZbV4j",
+  "name": "Stormlight Guard",
+  "type": "effect",
+  "_id": "dYvmHiemJeG2RHyX",
+  "img": "icons/magic/light/beam-rays-blue-large.webp",
+  "system": {
+    "fuid": "stormlight-guard",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "img": "icons/magic/light/beam-rays-blue-large.webp",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.dYvmHiemJeG2RHyX",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Stormlight Guard",
+      "_id": "eJzh7JveUcx0aPru",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.incomingDamage.light",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.incomingDamage.bolt",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.incomingDamage.dark",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "<p>You <strong>reduce light and</strong> <strong>bolt damage</strong> taken while <strong>increasing dark damage</strong> taken.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1739394252722,
+        "modifiedTime": 1739394892554,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dYvmHiemJeG2RHyX.eJzh7JveUcx0aPru"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739394251055,
+    "modifiedTime": 1739394904710,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!dYvmHiemJeG2RHyX"
+}

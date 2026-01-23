@@ -1,0 +1,107 @@
+{
+  "folder": "KtaUckdlpuTepIbr",
+  "name": "Deliverance",
+  "type": "weapon",
+  "_id": "Leg4aYkGH7LaJvf1",
+  "img": "icons/weapons/swords/greatsword-crossguard-embossed-gold.webp",
+  "system": {
+    "fuid": "deliverance",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><em>A sword with a blade that glows bright when infused with mana.</em></p><p>@UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><h2>Qualities</h2><ol><li><p>Once per round when you would suffer dark damage you can spend @LOSS[5 mp] in order to gain @UUID[Compendium.projectfu.actor-effects.fBbLvII5LUEqInQQ]{Dark Resistance} until the <strong>start of your next turn</strong>.</p></li><li><p><strong>Purification</strong>: You can spend @LOSS[10 mp] before you make an attack in order to charge it with light energy. If it hits, you can remove one spell affecting the target.</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 1
+    },
+    "defense": "def",
+    "damage": {
+      "value": 10
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "sword"
+    },
+    "hands": {
+      "value": "two-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "light"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1726688326949,
+    "modifiedTime": 1738513644211,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!Leg4aYkGH7LaJvf1"
+}

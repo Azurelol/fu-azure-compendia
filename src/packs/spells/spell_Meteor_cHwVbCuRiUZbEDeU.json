@@ -1,0 +1,141 @@
+{
+  "folder": "llE2mBujrfK9znnV",
+  "name": "Meteor",
+  "type": "spell",
+  "img": "icons/magic/fire/projectile-fireball-smoke-strong-orange.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you summon a great meteor from the heavens above the battlefield which will will crash at the <strong>end of the next round</strong>. Unless stopped, it will deal <strong>massive fire damage</strong> to all your targets. Enduring the meteor is an <strong>6-secction clock</strong> they must attempt to erase.</p><p>At the <strong>end of the next round</strong> each of your targets may attempt to turn back the clock with a <strong>suitable hard check</strong>.</p><table><tbody><tr><td data-colwidth=\"383\"><p><strong>Clock Left</strong></p></td><td><p><strong>Effect</strong></p></td></tr><tr><td data-colwidth=\"383\"><p>Full</p></td><td><p>All targets suffer @DMG[999 fire]</p></td></tr><tr><td data-colwidth=\"383\"><p>Half</p></td><td><p>All targets suffer @DMG[$massive fire]</p></td></tr><tr><td data-colwidth=\"383\"><p>Empty</p></td><td><p>All targets gain @UUID[Compendium.fu-azure-compendia.effects.Item.hnXVEabmOmtGQtNv]{Brilliant Conviction} for 1 round</p></td></tr></tbody></table>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "40"
+    },
+    "maxTargets": {
+      "value": 0
+    },
+    "target": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "wlp"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 5,
+        "type": {
+          "value": "dark"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "fuid": "meteor"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429073863,
+    "modifiedTime": 1735328393945,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "cHwVbCuRiUZbEDeU",
+  "sort": 200000,
+  "_key": "!items!cHwVbCuRiUZbEDeU"
+}

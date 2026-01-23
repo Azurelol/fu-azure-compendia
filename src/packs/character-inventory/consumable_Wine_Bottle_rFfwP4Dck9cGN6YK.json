@@ -1,0 +1,48 @@
+{
+  "folder": "BYGNpBIU9IpbOZHE",
+  "name": "Wine Bottle",
+  "type": "consumable",
+  "_id": "rFfwP4Dck9cGN6YK",
+  "img": "icons/consumables/drinks/wine-amphora-clay-blue.webp",
+  "system": {
+    "fuid": "whiskey-flask",
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>During a rest scene</strong>, you share a drink with a party member of your choice. Depending on the choice of story you tell you both gain one of the following benefits:</p><ul><li><p>A <strong>happy</strong> story: @UUID[Compendium.fu-azure-compendia.effects.Item.q8VBAZTtL8SdLUCs]{Strength}</p></li><li><p>A <strong>sad</strong> story: @UUID[Compendium.fu-azure-compendia.effects.Item.13ubm3WjQ8Xuc63Q]{Block}</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739390212682,
+    "modifiedTime": 1739391068814,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!rFfwP4Dck9cGN6YK"
+}

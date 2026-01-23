@@ -1,0 +1,159 @@
+{
+  "folder": "y9VacGKyFP10h5ee",
+  "name": "Hard Shell",
+  "type": "rule",
+  "img": "icons/equipment/shield/heater-crystal-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You are <strong>resistant</strong> to <strong>physical</strong> damage. When you enter <strong>Crisis</strong> for the first time in a conflict you become <strong>vulnerable</strong> instead.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "hard-shell"
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.weWHiRiTzSVx0w4r",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Hard Shell",
+      "img": "icons/skills/melee/shield-block-gray-yellow.webp",
+      "_id": "SZuHPI5RUyWh1qXx",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.affinities.physical.current",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "inactive",
+          "type": "default",
+          "source": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!weWHiRiTzSVx0w4r.SZuHPI5RUyWh1qXx"
+    },
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.weWHiRiTzSVx0w4r",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Cracked Shell",
+      "img": "icons/skills/melee/shield-damaged-broken-blue.webp",
+      "_id": "AMdNGYHmxXq7ZRwR",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.affinities.physical.current",
+          "mode": 5,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "active",
+          "type": "default",
+          "source": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!weWHiRiTzSVx0w4r.AMdNGYHmxXq7ZRwR"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "weWHiRiTzSVx0w4r",
+  "sort": 1100000,
+  "_key": "!items!weWHiRiTzSVx0w4r"
+}

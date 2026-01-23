@@ -1,0 +1,935 @@
+{
+  "folder": "8CT1buZifSChIz0L",
+  "name": "Chimera",
+  "type": "npc",
+  "_id": "7oXQ2SzVVQ6FTpF1",
+  "img": "modules/fu-azure-compendia/assets/tokens/monsters/Mountain%20Chimera.png",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "resources": {
+      "hp": {
+        "value": 70,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 50,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 3
+      },
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 6
+      },
+      "mig": {
+        "base": 10
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 1,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 1,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "traits": {
+      "value": ""
+    },
+    "species": {
+      "value": "monster"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "isElite": {
+      "value": false
+    },
+    "isChampion": {
+      "value": 1
+    },
+    "isCompanion": {
+      "value": false
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "",
+    "associatedTherioforms": "",
+    "role": {
+      "value": "brute"
+    }
+  },
+  "prototypeToken": {
+    "name": "Chimera",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/monsters/Mountain%20Chimera.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "folder": "3wV2pvX92KXaJvom",
+      "name": "Chain Lightning",
+      "type": "spell",
+      "img": "icons/magic/lightning/bolts-forked-large-blue.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You weave electricity into a wave of crackling bolts. Each target hit by this spell suffers<strong> bolt</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p><hr /><ul><li><p>@LOSS[10 mp] for <strong>one</strong> target.</p></li><li><p>@LOSS[20 mp] for <strong>two</strong> targets.</p></li><li><p>@LOSS[30 mp] for <strong>three</strong> targets.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": ""
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "target": {
+          "value": "Up to three creatures"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "bolt"
+            },
+            "value": 10
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "Each target hit by this spell suffers dazed.",
+        "maxTargets": {
+          "value": 3
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.IWL1I8rGZAefcFLQ",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725142143891,
+        "modifiedTime": 1725142143891,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "BPsRFl0whss9TE3G",
+      "sort": 500000,
+      "_key": "!actors.items!7oXQ2SzVVQ6FTpF1.BPsRFl0whss9TE3G"
+    },
+    {
+      "folder": "3wV2pvX92KXaJvom",
+      "name": "Ice Shards",
+      "type": "spell",
+      "img": "icons/magic/water/projectiles-ice-faceted-salvo-blue.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You coat your foes under a thick layer of frost. Each target hit by this spell suffers <strong>ice</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[slow].</p><hr /><ul><li><p>@LOSS[10 mp] for <strong>one</strong> target.</p></li><li><p>@LOSS[20 mp] for <strong>two</strong> targets.</p></li><li><p>@LOSS[30 mp] for <strong>three</strong> targets.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "target": {
+          "value": "Up to three creatures"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "ice"
+            },
+            "value": 10
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "Each target hit by this spell suffers slow.",
+        "maxTargets": {
+          "value": 3
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.rKWF6CYWnAzLIr6U",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725142209477,
+        "modifiedTime": 1725142209477,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "nwQ5OwgFuUQpJkkC",
+      "sort": 0,
+      "_key": "!actors.items!7oXQ2SzVVQ6FTpF1.nwQ5OwgFuUQpJkkC"
+    },
+    {
+      "folder": "MgMKdbFzDjpQzPDq",
+      "name": "Sting",
+      "type": "basic",
+      "_id": "ITobGZoKpifGgtzs",
+      "img": "icons/creatures/abilities/stinger-poison-scorpion-brown.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You sting the target with your tail"
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "def",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "poison"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "sting"
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.kID3kXPZcGvBgCMY",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.23",
+        "createdTime": 1725735027466,
+        "modifiedTime": 1725735027466,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7oXQ2SzVVQ6FTpF1.ITobGZoKpifGgtzs"
+    },
+    {
+      "folder": "e0HDO7LcX9neHVMp",
+      "name": "Spellcaster",
+      "type": "rule",
+      "_id": "c3ZebtcvY62rrMu4",
+      "img": "icons/magic/symbols/star-yellow.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You are a wizard, Imperial Mage 72"
+        },
+        "description": "<p>You have the ability to cast spells. Choose from one option:</p><ul><li><p>You learn <strong>one spell</strong> and increase your maximum Mind Points by 10.</p></li><li><p>You learn <strong>two spells</strong>.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "spellcaster"
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "name": "Increased Mind Points",
+          "img": "modules/fu-azure-compendia/assets/icons/skills/spell-book.png",
+          "_id": "dEsAGF1XtfqBrZKh",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.resources.mp.max",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "2.4.0-alpha.25",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!7oXQ2SzVVQ6FTpF1.c3ZebtcvY62rrMu4.dEsAGF1XtfqBrZKh"
+        }
+      ],
+      "sort": 325000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.25",
+        "createdTime": 1727619106197,
+        "modifiedTime": 1727619106197,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7oXQ2SzVVQ6FTpF1.c3ZebtcvY62rrMu4"
+    },
+    {
+      "folder": "e0HDO7LcX9neHVMp",
+      "name": "Flying",
+      "type": "rule",
+      "_id": "hTpncRr7fYe8LG5t",
+      "img": "systems/projectfu/styles/static/statuses/Flying.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You have the ability to fly or levitate"
+        },
+        "description": "<p>Your gain the benefits of @UUID[Compendium.fu-azure-compendia.effects.TaI0WVX1BfRa95iA]{Flying}</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "flying"
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.effects.Item.TaI0WVX1BfRa95iA",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Flying",
+          "img": "systems/projectfu/styles/static/statuses/Flying.webp",
+          "_id": "L4OHhlYm9EPvNLhQ",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "description": "<p>Your have ability to fly or levitate. Because of this, <strong>creatures on the ground cannot reach you with melee attacks as long as you are in mid-air</strong> (though you can perform melee attacks against targets who are on the ground).</p><p>If you <strong>suffer damage</strong> of a type<strong> </strong>you are <strong>vulnerable </strong>to, <strong>you are immediately forced to land</strong> and <strong>lose the benefits of this Skill until the end of the round,</strong> when you will automatically regain the benefits. You may also be forced to land when an attacker spends an opportunity.</p><p>Whenever you are in Crisis, you <strong>lose</strong> all benefits granted by this Skill.</p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [
+            "flying"
+          ],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "type": "default",
+              "source": "",
+              "CrisisInteraction": "inactive"
+            }
+          },
+          "_stats": {
+            "compendiumSource": "Compendium.fu-azure-compendia.effects.Item.TaI0WVX1BfRa95iA.ActiveEffect.LLuPr3JQJNm6huWk",
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "2.4.0-alpha.30",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!7oXQ2SzVVQ6FTpF1.hTpncRr7fYe8LG5t.L4OHhlYm9EPvNLhQ"
+        }
+      ],
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.fQUtLJk5vnZ1kE8U",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": 1730587012525,
+        "modifiedTime": 1730587012525,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7oXQ2SzVVQ6FTpF1.hTpncRr7fYe8LG5t"
+    },
+    {
+      "folder": "CxiOOFr6RmoYlFk8",
+      "name": "Poisoner",
+      "type": "rule",
+      "img": "icons/skills/melee/strike-dagger-poison-green.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you <strong>hit a target with a melee attack</strong> and the <strong>result of the accuracy check is an odd number</strong>, you may <strong>spend</strong>  @LOSS[10 mp] and <strong>treat your High Roll (HR) as 0</strong> in order to inflict them with @EFFECT[poisoned].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "poisoner"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.ACU95t7R0ayHSAFv",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1733600483353,
+        "modifiedTime": 1733600483353,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "dtoHXX7kD3zvblMZ",
+      "sort": 1100000,
+      "_key": "!actors.items!7oXQ2SzVVQ6FTpF1.dtoHXX7kD3zvblMZ"
+    }
+  ],
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1725142089066,
+    "modifiedTime": 1733600476131,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!actors!7oXQ2SzVVQ6FTpF1"
+}

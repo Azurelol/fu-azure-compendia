@@ -1,0 +1,150 @@
+{
+  "folder": "jhB4JfgEJK1iRZu9",
+  "name": "Clear a Path",
+  "type": "miscAbility",
+  "_id": "Mn6WcmWK3s04e79f",
+  "img": "icons/skills/ranged/projectile-strike-egg-blue.webp",
+  "system": {
+    "fuid": "clear-a-path",
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1735592473251,
+    "modifiedTime": 1739395956410,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!Mn6WcmWK3s04e79f"
+}

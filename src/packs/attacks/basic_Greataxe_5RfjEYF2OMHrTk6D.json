@@ -1,0 +1,83 @@
+{
+  "folder": "tjWV9h97KAbXCCnC",
+  "name": "Greataxe",
+  "type": "basic",
+  "_id": "5RfjEYF2OMHrTk6D",
+  "img": "systems/projectfu/styles/static/compendium/weapons/waraxe.png",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "You swing your greataxe at the target"
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "mig"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": -1
+    },
+    "defense": "def",
+    "damage": {
+      "value": 12
+    },
+    "type": {
+      "value": "melee"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "fuid": "greataxe"
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731694797281,
+    "modifiedTime": 1733784385946,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!5RfjEYF2OMHrTk6D"
+}

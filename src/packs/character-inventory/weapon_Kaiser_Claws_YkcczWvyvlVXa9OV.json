@@ -1,0 +1,107 @@
+{
+  "folder": "IZMAQnkxmITmAgGP",
+  "name": "Kaiser Claws",
+  "type": "weapon",
+  "_id": "YkcczWvyvlVXa9OV",
+  "img": "icons/weapons/fist/claws-engraved-grey.webp",
+  "system": {
+    "fuid": "handwraps-of-glory",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 6
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "brawling"
+    },
+    "hands": {
+      "value": "one-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738510376000,
+    "modifiedTime": 1738510651868,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!YkcczWvyvlVXa9OV"
+}

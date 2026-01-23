@@ -1,0 +1,28 @@
+{
+  "name": "Roll Draw Card",
+  "type": "script",
+  "img": "icons/svg/card-hand.svg",
+  "command": "const table = await fromUuid(\"Compendium.fu-azure-compendia.generators.RollTable.bJI5GMXVT7DoH9Hk\");\nawait table.draw();",
+  "author": "esOkelwPNblkbxW3",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.30",
+    "createdTime": 1730057799765,
+    "modifiedTime": 1738433416899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "xbUmSEfMqTdWqOTl",
+  "sort": 800000,
+  "_key": "!macros!xbUmSEfMqTdWqOTl"
+}

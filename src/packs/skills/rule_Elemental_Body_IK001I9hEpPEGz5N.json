@@ -1,0 +1,58 @@
+{
+  "folder": "02EELzRzHhrEwzoj",
+  "name": "Elemental Body",
+  "type": "rule",
+  "_id": "IK001I9hEpPEGz5N",
+  "img": "icons/magic/fire/elemental-fire-humanoid.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "Your body radiates dangerous elemental energy"
+    },
+    "description": "<p>Your body is emanating dangerous amounts of elemental energy. When you are <strong>hit by a melee attack</strong>, the attacker takes elemental damage.</p><ul><li><p><strong>Attacker</strong>: @DMG[&amp;step(5,10,15) fire]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "elemental-body"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1734805430192,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!IK001I9hEpPEGz5N"
+}

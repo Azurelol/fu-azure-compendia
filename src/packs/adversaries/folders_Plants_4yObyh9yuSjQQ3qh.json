@@ -1,0 +1,22 @@
+{
+  "name": "Plants",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "4yObyh9yuSjQQ3qh",
+  "description": "",
+  "sort": 800000,
+  "color": "#4d8420",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723754350335,
+    "modifiedTime": 1727902723808,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!4yObyh9yuSjQQ3qh"
+}

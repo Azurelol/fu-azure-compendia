@@ -1,0 +1,111 @@
+{
+  "folder": "QtyzxwYnKnGuuppa",
+  "name": "Draw Card",
+  "_id": "bJI5GMXVT7DoH9Hk",
+  "img": "icons/svg/card-hand.svg",
+  "description": "<p>Draw!</p>",
+  "results": [
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "cards/dark-gold/diamonds-jack.webp",
+      "_id": "Cj3COGvXsySivTat",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Trap Card",
+      "documentUuid": "Compendium.fu-azure-compendia.generators.RollTable.Bwjtmtn4VQ7xl3Lz",
+      "description": "",
+      "_key": "!tables.results!bJI5GMXVT7DoH9Hk.Cj3COGvXsySivTat"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+      "_id": "noCUnJ0c0Mpt2cU9",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Spell Card",
+      "documentUuid": "Compendium.fu-azure-compendia.generators.RollTable.YIGREpxw5Tz2xWyJ",
+      "description": "",
+      "_key": "!tables.results!bJI5GMXVT7DoH9Hk.noCUnJ0c0Mpt2cU9"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+      "_id": "FeQompMSE6TvdGwX",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Summon Monster",
+      "documentUuid": "Compendium.fu-azure-compendia.adversary-creation.CDZEWdbkRdHILIDn",
+      "description": "",
+      "_key": "!tables.results!bJI5GMXVT7DoH9Hk.FeQompMSE6TvdGwX"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.25",
+    "createdTime": 1726690381562,
+    "modifiedTime": 1730051255033,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "formula": "1d3",
+  "_key": "!tables!bJI5GMXVT7DoH9Hk"
+}

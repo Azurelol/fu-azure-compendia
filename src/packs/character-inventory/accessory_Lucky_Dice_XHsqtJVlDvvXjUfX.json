@@ -1,0 +1,58 @@
+{
+  "folder": "eEU4WXEPFjPZ0Fkw",
+  "name": "Lucky Dice",
+  "type": "accessory",
+  "_id": "XHsqtJVlDvvXjUfX",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "system": {
+    "fuid": "lucky-dicce",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.A24rkaeNHdKThN4N]{Entropist}</p><hr /><h2>Qualities</h2><ol><li><p>Whenever you <strong>reroll</strong> a check and it fails you can give another ally @UUID[Compendium.fu-azure-compendia.effects.Uw1tWLyDpdw06ONL]{Aid}</p></li><li><p>Whenever you trigger @UUID[Compendium.projectfu.skills.HgxY0x6jUjS6ppBc]{Lucky Seven} you recover @GAIN[7 hp] @GAIN[7 mp]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737753914684,
+    "modifiedTime": 1737754118732,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!XHsqtJVlDvvXjUfX"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "OKgnuUaBZZLmk2Rs",
+  "name": "Adventurer's Journal",
+  "type": "accessory",
+  "_id": "cQ6UfqqmdkHRriWP",
+  "img": "icons/sundries/books/book-open-brown-black.webp",
+  "system": {
+    "fuid": "adventurers-journal",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Class: @UUID[Compendium.projectfu.classes.EWKUOGOMmyHfgOJm]{Wayfarer}</p><hr /><p><em>What tales have you recorded in these well-worn pages?</em></p><h2>Qualities</h2><ol><li><p>The benefits of @UUID[Compendium.projectfu.skills.0n8T7U81oNP7yU5X]{Resourceful} also trigger when you <strong>rest</strong> <strong>without a travel roll</strong>.</p></li><li><p>When you make a discovery due to @UUID[Compendium.projectfu.skills.rsGhkElIiEBgN5zA]{Treasure Hunter} you may perform a @CHECK[ins ins veryHard] check with a bonus equal to your skill level in order to find an <strong>additional item</strong>.</p></li><li><p>The benefits of @UUID[Compendium.projectfu.skills.CHMsojkTh3fU8HXg]{Tavern Talk} also trigger when you <strong>rest in the wilderness</strong> though you must use @UUID[Compendium.fu-azure-compendia.character-inventory.VA3XpOnjvxvNQY3e]{Refreshments} (which you gain the usage of).</p></li><li><p>When you make a travel roll involving ships you must perform a @CHECK[ins wlp 3]. On a failure your party will become <em>shipwrecked</em>.</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737413938620,
+    "modifiedTime": 1737477238396,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!cQ6UfqqmdkHRriWP"
+}

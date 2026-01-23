@@ -1,0 +1,28 @@
+{
+  "folder": "cYboTilysLIvvBor",
+  "name": "Gaze Marker",
+  "type": "script",
+  "_id": "S1W771PUCfTPuZ5p",
+  "author": "esOkelwPNblkbxW3",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "let name = \"gaze_marker.webm\";\nlet path = \"modules/fu-azure-compendia/assets/tiles/\" + name;\n\nlet token = canvas.tokens.controlled[0];\nlet position = token.position;\nlet offset = 25;\n\nlet tileData = {\n  x: position.x, \n  y: position.y + offset,\n  width: 100,\n  height: 100,\n  texture: {src: path}\n};\ncanvas.scene.createEmbeddedDocuments(\"Tile\",[tileData]);",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724087618545,
+    "modifiedTime": 1724087628419,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!macros!S1W771PUCfTPuZ5p"
+}

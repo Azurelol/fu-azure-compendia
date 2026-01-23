@@ -1,0 +1,22 @@
+{
+  "name": "Channeled",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "llE2mBujrfK9znnV",
+  "description": "",
+  "sort": 1300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1735328633056,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!llE2mBujrfK9znnV"
+}

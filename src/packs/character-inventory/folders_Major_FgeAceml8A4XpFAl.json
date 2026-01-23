@@ -1,0 +1,22 @@
+{
+  "name": "Major",
+  "sorting": "a",
+  "folder": "kRm5QW0PYcTwI93W",
+  "type": "Item",
+  "_id": "FgeAceml8A4XpFAl",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": 1738082391605,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!FgeAceml8A4XpFAl"
+}

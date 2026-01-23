@@ -1,0 +1,22 @@
+{
+  "name": "Golems",
+  "sorting": "a",
+  "folder": "HH8m094MPYLrdyqp",
+  "type": "Actor",
+  "_id": "cfFsgwDcfxgWhP6n",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!cfFsgwDcfxgWhP6n"
+}

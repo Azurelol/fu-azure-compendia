@@ -1,0 +1,141 @@
+{
+  "folder": "ioJ1w5rsjvKTT4n0",
+  "name": "Trial by Sword",
+  "type": "spell",
+  "_id": "NLMOabNEJbxN4oen",
+  "img": "icons/weapons/swords/sword-winged-pink.webp",
+  "system": {
+    "fuid": "trial-by-sword",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You <strong>summon</strong> apparitions of weapons on the field, then take a defensive stance as you @EFFECT[guard]. Each apparition can be destroyed in either of two ways: It can be attacked directly or you can use a suitable <strong>Objective</strong> action in order to clear a <strong>3-section hard clock</strong>.</p><p>At the <strong>end of the round</strong> you deal damage to all your enemies. <strong>For each</strong> apparition still present when the round ends, you deal an <strong>additional</strong> instance of damage, up to a <strong>minimum of 1</strong> for all weapons destroyed.</p><ul><li><p><strong>You</strong>: @LOSS[20 mp]</p></li><li><p><strong>Targets</strong>: @DMG[$minor untyped]</p></li></ul><p></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "30"
+    },
+    "maxTargets": {
+      "value": 0
+    },
+    "target": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429073863,
+    "modifiedTime": 1735330382085,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!NLMOabNEJbxN4oen"
+}

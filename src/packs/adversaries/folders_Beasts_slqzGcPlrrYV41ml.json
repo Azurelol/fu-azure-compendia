@@ -1,0 +1,22 @@
+{
+  "name": "Beasts",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "slqzGcPlrrYV41ml",
+  "description": "",
+  "sort": 1000000,
+  "color": "#ac6422",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723700164561,
+    "modifiedTime": 1727902723808,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!slqzGcPlrrYV41ml"
+}

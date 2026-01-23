@@ -1,0 +1,107 @@
+{
+  "folder": "xZzbny0LJF6KRYnq",
+  "name": "Twilight Hammer",
+  "type": "weapon",
+  "_id": "ltNlugX2XNT9sNZW",
+  "img": "icons/weapons/maces/mace-round-spiked-grey.webp",
+  "system": {
+    "fuid": "twilight-hammer",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "attributes": {
+      "primary": {
+        "value": "mig"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 6
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "heavy"
+    },
+    "hands": {
+      "value": "one-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738512929720,
+    "modifiedTime": 1738512957762,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!ltNlugX2XNT9sNZW"
+}

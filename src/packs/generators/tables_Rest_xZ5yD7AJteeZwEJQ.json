@@ -1,0 +1,83 @@
+{
+  "name": "Rest",
+  "_id": "xZ5yD7AJteeZwEJQ",
+  "img": "icons/environment/settlement/tent-flag.webp",
+  "description": "<p>While resting <em>something</em> happens to a <strong>character</strong> or the <strong>party</strong>.</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "peeLMTZQO2D6vF70",
+      "img": "icons/skills/melee/strike-dagger-skull-white.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The party is suddenly attacked!",
+      "name": "",
+      "_key": "!tables.results!xZ5yD7AJteeZwEJQ.peeLMTZQO2D6vF70"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        9
+      ],
+      "name": "Prompt",
+      "img": "icons/skills/social/diplomacy-handshake-blue.webp",
+      "documentUuid": "Compendium.azure-campaign-compendia.tables.RollTable.V3BZ0FNC9gohmZPi",
+      "_id": "wlZLRN2X2ayne3CK",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1755716958839,
+        "modifiedTime": 1755716958839,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!tables.results!xZ5yD7AJteeZwEJQ.wlZLRN2X2ayne3CK"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724340957176,
+    "modifiedTime": 1755716964806,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
+  },
+  "formula": "1d2",
+  "_key": "!tables!xZ5yD7AJteeZwEJQ"
+}

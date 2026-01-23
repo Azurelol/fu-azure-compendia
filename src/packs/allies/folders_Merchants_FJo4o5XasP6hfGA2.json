@@ -1,0 +1,22 @@
+{
+  "name": "Merchants",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "FJo4o5XasP6hfGA2",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731092549928,
+    "modifiedTime": 1731092549928,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!FJo4o5XasP6hfGA2"
+}

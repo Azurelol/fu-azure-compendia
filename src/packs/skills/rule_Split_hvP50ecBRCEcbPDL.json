@@ -1,0 +1,58 @@
+{
+  "folder": "y9VacGKyFP10h5ee",
+  "name": "Split",
+  "type": "rule",
+  "img": "icons/magic/control/silhouette-grow-shrink-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, you immediately <strong>split into two identical beings</strong>.</p><p><em>Instantiate a copy of this actor with your current hit points.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "split"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "hvP50ecBRCEcbPDL",
+  "sort": 0,
+  "_key": "!items!hvP50ecBRCEcbPDL"
+}

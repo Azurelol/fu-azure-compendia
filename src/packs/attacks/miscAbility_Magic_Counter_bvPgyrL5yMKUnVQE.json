@@ -1,0 +1,150 @@
+{
+  "folder": "ht9aFgrgTbRLF3M6",
+  "name": "Magic Counter",
+  "type": "miscAbility",
+  "_id": "bvPgyrL5yMKUnVQE",
+  "img": "icons/skills/melee/sword-stuck-glowing-pink.webp",
+  "system": {
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After an enemy casts a spell, you automatically perform an attack against that character (this attack takes place after the effects of the spell have been fully resolved). If this attack hits, it deals exactly @DMG[10 physical].</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "fuid": "magic-counter"
+  },
+  "effects": [],
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731694796152,
+    "modifiedTime": 1731694796152,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!bvPgyrL5yMKUnVQE"
+}

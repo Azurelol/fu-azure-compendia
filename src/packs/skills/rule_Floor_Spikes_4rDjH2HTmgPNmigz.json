@@ -1,0 +1,58 @@
+{
+  "folder": "ViM4tJL6WtXIChbr",
+  "name": "Floor Spikes",
+  "type": "rule",
+  "_id": "4rDjH2HTmgPNmigz",
+  "img": "icons/environment/traps/spiked-wall.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Three characters</strong> in the scene where the trap has been sprung must make a @CHECK[dex ins easy] check or suffer @DMG[&amp;step(15,20,25) physical] damage and @EFFECT[weak]</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "floor-spikes"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731694971141,
+    "modifiedTime": 1738427609527,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!4rDjH2HTmgPNmigz"
+}

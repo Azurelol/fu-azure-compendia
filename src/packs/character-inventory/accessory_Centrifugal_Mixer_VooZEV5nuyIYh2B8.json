@@ -1,0 +1,58 @@
+{
+  "folder": "7tnvOZeP6C4fIrSY",
+  "name": "Centrifugal Mixer",
+  "type": "accessory",
+  "_id": "VooZEV5nuyIYh2B8",
+  "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
+  "system": {
+    "fuid": "centrifugal-mixer",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.Zmqvu8QKmgyIci7C]{Tinkerer}</p><hr /><p>The <strong>usage</strong> of @UUID[Compendium.projectfu.skills.xzyAHegWwSaysYqV]{Potion Rain} has been extended to <strong>additional</strong> items. @UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><h2>Qualities</h2><ol><li><p>@UUID[Compendium.projectfu.consumables.00h8sKH3ktIFF5ei]{Elemental Shard} can be used.</p></li></ol><p></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737396533732,
+    "modifiedTime": 1737415511577,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!VooZEV5nuyIYh2B8"
+}

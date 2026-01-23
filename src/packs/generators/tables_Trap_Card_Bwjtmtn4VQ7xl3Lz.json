@@ -1,0 +1,526 @@
+{
+  "folder": "QtyzxwYnKnGuuppa",
+  "name": "Trap Card",
+  "_id": "Bwjtmtn4VQ7xl3Lz",
+  "img": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
+  "description": "<p>You have activated my trap card!</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "srm4w6sf07pM8f7y",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "When your opponent casts a spell, you can spend its cost in MP in HP to negate the casting.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.srm4w6sf07pM8f7y"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "NFqXpgS5gJuGLEkC",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "When your opponent casts an enhancement spell, you negate its effects.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.NFqXpgS5gJuGLEkC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "H7kwd2Une6fGPEMG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "When your opponent casts an enhancement spell, you prevent it from being cast again.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.H7kwd2Une6fGPEMG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "3ote9vsAPQUCKHaR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Target one creature that is taking an action. You choose its target before it resolvves.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.3ote9vsAPQUCKHaR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "xGo53U6CrniXfzEH",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Dispel all magical enhancements on the scene.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.xGo53U6CrniXfzEH"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "DDPnOmg1QlonC0lV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "When your opponent makes a melee attack against you, you negate it before springing them up into the air.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.DDPnOmg1QlonC0lV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "S3qbgZdeRkwnUhw4",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "When your opponent counters an attack, you negate the counter then drain them of minor amount of mind points.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.S3qbgZdeRkwnUhw4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "TAr0N9QL8RdzIgT7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "When your opponent makes an attack that deals elemental damage, they are now Vulnerable to that element for one round.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.TAr0N9QL8RdzIgT7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "gplPYtBfXhe4go4h",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Declare one type of action. It cannot be used until the start of the next round.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.gplPYtBfXhe4go4h"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "aFEuyWY2aVf7j0Hc",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "When you would be hit by an attack, pay a heavy amount of hit points to negate this and any other attacks made against you this turn.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.aFEuyWY2aVf7j0Hc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "itsOGP0VvIiSw5SB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "When your opponent declares an attack, cancel it and make them take the Guard action instead.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.itsOGP0VvIiSw5SB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "CUlh5wh7eNTxcgyN",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "When your opponent casts a spell, double its cost and that of any other spells until the end of the round.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.CUlh5wh7eNTxcgyN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "B7UolfMwaHVLhVED",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Recovery of mind points on the scene is negated until the end of the round.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.B7UolfMwaHVLhVED"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "V3RWzVsfRuISTldn",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "While you control a monster, you take no damage.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.V3RWzVsfRuISTldn"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "PQFPd0RejoU2cfnj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You immediately end the round.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.PQFPd0RejoU2cfnj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "WnVNHLNIW93AeqGG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Until the end of this round, no one can use reactions.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.WnVNHLNIW93AeqGG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "nL3Pr6DSenY1Yeax",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Until the end of the round, when any opponent declares an attack they must guess the type of a random card in your hand. If they fail, their action ins canceled.",
+      "name": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.nL3Pr6DSenY1Yeax"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "H6XxU4Gk8369mfyd",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "",
+      "documentUuid": null,
+      "description": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.H6XxU4Gk8369mfyd"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "4xGeeWh1Rv0imjJl",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "",
+      "documentUuid": null,
+      "description": "",
+      "_key": "!tables.results!Bwjtmtn4VQ7xl3Lz.4xGeeWh1Rv0imjJl"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.25",
+    "createdTime": 1726689433759,
+    "modifiedTime": 1738432171043,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "formula": "1d19",
+  "_key": "!tables!Bwjtmtn4VQ7xl3Lz"
+}

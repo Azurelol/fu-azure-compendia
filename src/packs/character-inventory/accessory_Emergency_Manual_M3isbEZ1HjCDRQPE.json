@@ -1,0 +1,58 @@
+{
+  "folder": "7tnvOZeP6C4fIrSY",
+  "name": "Emergency Manual",
+  "type": "accessory",
+  "_id": "M3isbEZ1HjCDRQPE",
+  "img": "icons/sundries/books/book-backed-blue-gold.webp",
+  "system": {
+    "fuid": "fua-emergency-manual",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.Zmqvu8QKmgyIci7C]{Tinkerer}</p><hr /><p>When you gain the benefits of @UUID[Compendium.projectfu.skills.2MoV74xWJnF5Ru8u]{Emergency Item} you can <strong>spend an additional inventory point</strong> in order to have resulting potions <strong>restore their normal amount.</strong></p><p>@LOSS[1 ip]</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737396165315,
+    "modifiedTime": 1737411841439,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!M3isbEZ1HjCDRQPE"
+}

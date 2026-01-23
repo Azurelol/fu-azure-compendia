@@ -1,0 +1,58 @@
+{
+  "folder": "9sF7Li98rc4NikRM",
+  "name": "Ignite",
+  "type": "rule",
+  "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After you <strong>hit an enemy with a fire attack or spell,</strong> they are left @UUID[Compendium.fu-azure-compendia.effects.OYh5Swp0087I3f0k]{Burning} for 1 round.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "ignite"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "9odfCxtQtwOjnwYq",
+  "sort": 400000,
+  "_key": "!items!9odfCxtQtwOjnwYq"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "yfNBuxkwJmpLWyP5",
+  "name": "Executioner",
+  "type": "rule",
+  "_id": "wEEnut5Q90ukV91M",
+  "img": "icons/weapons/axes/axe-battle-eyes-red.webp",
+  "system": {
+    "fuid": "executioner",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You deal <strong>extra damage</strong> with your attacks against targets that <strong>are in crisis.</strong></p><ul><li><p><strong>Target:</strong> @DMG[&amp;step(5,10,15) untyped]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1734805651998,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!wEEnut5Q90ukV91M"
+}

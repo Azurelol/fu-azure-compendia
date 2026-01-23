@@ -1,0 +1,22 @@
+{
+  "name": "Seals",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "l1GpVcN4agExMG9J",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737750087198,
+    "modifiedTime": 1737750087198,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!l1GpVcN4agExMG9J"
+}

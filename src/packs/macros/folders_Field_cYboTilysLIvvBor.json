@@ -1,0 +1,22 @@
+{
+  "name": "Field",
+  "sorting": "a",
+  "folder": null,
+  "type": "Macro",
+  "_id": "cYboTilysLIvvBor",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723984209104,
+    "modifiedTime": 1723984209104,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!cYboTilysLIvvBor"
+}

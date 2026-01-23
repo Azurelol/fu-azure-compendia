@@ -1,0 +1,58 @@
+{
+  "folder": "CxiOOFr6RmoYlFk8",
+  "name": "Dispelling Strike",
+  "type": "rule",
+  "img": "icons/skills/melee/strike-sword-dagger-runes-yellow.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you <strong>hit a target</strong> with an <strong>attack</strong> and the result of the <strong>accuracy check was an odd number</strong> you may treat your <strong>High Roll (HR) as 0</strong> in order to remove <strong>a single spell</strong> with the <strong>duration of Scene</strong> from the target.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "dispelling-strike"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1735591933693,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "UR1neFyBrxmpcJD7",
+  "sort": 1300000,
+  "_key": "!items!UR1neFyBrxmpcJD7"
+}

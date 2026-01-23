@@ -1,0 +1,22 @@
+{
+  "name": "Actions",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "Y30FsMWJPwv01kX5",
+  "description": "",
+  "sort": 500000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1731526744554,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!Y30FsMWJPwv01kX5"
+}

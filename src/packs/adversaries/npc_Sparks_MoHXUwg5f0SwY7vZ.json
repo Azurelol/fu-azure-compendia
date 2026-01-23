@@ -1,0 +1,1218 @@
+{
+  "folder": "qW2vX0rlD0TgPNos",
+  "name": "Sparks",
+  "type": "npc",
+  "_id": "MoHXUwg5f0SwY7vZ",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "level": {
+      "value": 20
+    },
+    "resources": {
+      "hp": {
+        "value": 160,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 120,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 0
+      },
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 1
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": -1
+      },
+      "fire": {
+        "base": 1
+      },
+      "ice": {
+        "base": -1
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 10
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {},
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "accuracyCheck": 2,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 2,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 5,
+        "ranged": 5,
+        "spell": 5,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "traits": {
+      "value": ""
+    },
+    "species": {
+      "value": "humanoid"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "rank": {
+      "value": "champion",
+      "replacedSoldiers": 2
+    },
+    "role": {
+      "value": "hunter"
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "<p>Partner of @UUID[Compendium.fu-azure-compendia.adversaries.oi3PP9tSvvBfYgzB]{Brash}</p>",
+    "associatedTherioforms": ""
+  },
+  "prototypeToken": {
+    "name": "Sparks",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735588958553,
+        "modifiedTime": 1735588958553,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "DZv23vLhAMWRYf5c",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.DZv23vLhAMWRYf5c"
+    },
+    {
+      "folder": "tjWV9h97KAbXCCnC",
+      "name": "Stun Baton",
+      "type": "basic",
+      "_id": "ZzxxUgyHZeSIr3cQ",
+      "img": "icons/weapons/clubs/club-baton-brown.webp",
+      "system": {
+        "fuid": "afc-stun-baton",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Inflicts @UUID[Compendium.projectfu.conditions-effects.dl04MUhnkGS7KY5x]{Dazed} on a hit</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "def",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.x2dWlZte78f907Ao",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735589608277,
+        "modifiedTime": 1735589608277,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.ZzxxUgyHZeSIr3cQ"
+    },
+    {
+      "folder": "02EELzRzHhrEwzoj",
+      "name": "Pursuit",
+      "type": "rule",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>After an <strong>ally hits an enemy with a melee or ranged attack,</strong> you may follow up with an <strong>HR0 attack on the same target</strong>.</p><p><em>After you use this skill, you cannot use it again until the start of your next turn.</em></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "pursuit"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.7yLlebhC3qjdMJA5",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735589691695,
+        "modifiedTime": 1735589691695,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "HyI3LsiKFrs2h1ZB",
+      "sort": 0,
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.HyI3LsiKFrs2h1ZB"
+    },
+    {
+      "folder": "y9VacGKyFP10h5ee",
+      "name": "Frenzy",
+      "type": "rule",
+      "_id": "rUHcxHaTOmSiRJB4",
+      "img": "icons/magic/perception/hand-eye-pink.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You are whipped into a frenzy"
+        },
+        "description": "<p>As long as you are in <strong>Crisis</strong>, one or more of your attacks gains <strong>multi (2).</strong></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "frenzy"
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.0XcjJjfyVVnf3J00",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Frenzy",
+          "img": "modules/fu-azure-compendia/assets/icons/skills/moon-claws.png",
+          "_id": "Mrf9Vdkau1IRRVBJ",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "description": "<p>Your attacks gain <strong>multi (2)</strong></p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "active"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!MoHXUwg5f0SwY7vZ.rUHcxHaTOmSiRJB4.Mrf9Vdkau1IRRVBJ"
+        }
+      ],
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.0XcjJjfyVVnf3J00",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735589738440,
+        "modifiedTime": 1735589738440,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.rUHcxHaTOmSiRJB4"
+    },
+    {
+      "folder": "N2XHNVAETv6r1OK6",
+      "name": "Jump",
+      "type": "miscAbility",
+      "_id": "A9zT8K7zCkEJo1u6",
+      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+      "system": {
+        "subtype": {
+          "value": "other"
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You jump into the air while preparing to unleash a powerful attack.</p><ul><li><p><strong>You</strong>: @UUID[Compendium.fu-azure-compendia.effects.TaI0WVX1BfRa95iA]{Flying} and @UUID[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength} until the end of your next turn.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            },
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 4
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 10,
+            "type": {
+              "value": "physical"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "jump"
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.XgxSmplTu1qM0Nc0",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735589859170,
+        "modifiedTime": 1735589859170,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.A9zT8K7zCkEJo1u6"
+    },
+    {
+      "folder": "9VMVM0zzARloavFS",
+      "name": "Taunt",
+      "type": "rule",
+      "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>By wit or might you provoke the target. You make an <strong>HR0 attack on the target</strong>. If it hits the target is <strong>taunted </strong>until the start of your next turn. If it attacks anyone else but you it takes <strong>penalty to their accuracy check</strong>.</p><ul><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.Item.jrftu34Y8P6ATh5F]{Taunted}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "taunt"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.mDn9aHU99h9GKna2",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735589896110,
+        "modifiedTime": 1735589896110,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "a1ANF7r1q2RF219u",
+      "sort": 200000,
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.a1ANF7r1q2RF219u"
+    },
+    {
+      "folder": "CxiOOFr6RmoYlFk8",
+      "name": "Hamper",
+      "type": "rule",
+      "_id": "kVsrnbovvr9ppHp1",
+      "img": "icons/skills/melee/hand-grip-staff-teal.webp",
+      "system": {
+        "fuid": "hamper",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you <strong>Hinder</strong> an enemy, you also deal a <strong>minor amount of damage.</strong></p><ul><li><p><strong>Enemy</strong>: @DMG[$minor physical]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.DuGKllNr3fAnCIQv",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735589942949,
+        "modifiedTime": 1735589942949,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.kVsrnbovvr9ppHp1"
+    },
+    {
+      "folder": "yfNBuxkwJmpLWyP5",
+      "name": "Agile Attacker",
+      "type": "rule",
+      "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Whenever you <strong>hit a target</strong> with one of your attacks and the result of the accuracy check was an <strong>even number</strong>, you <strong>provoke no reactions</strong>.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "agile-attacker"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.Ws6d4L9JBi6CBwuM",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735589997771,
+        "modifiedTime": 1735589997771,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "XlNXp5qTEu6mOsU5",
+      "sort": 25000,
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.XlNXp5qTEu6mOsU5"
+    },
+    {
+      "folder": "N2XHNVAETv6r1OK6",
+      "name": "Smash",
+      "type": "miscAbility",
+      "_id": "6j8EjGVhOIBufH4G",
+      "img": "icons/skills/movement/arrow-down-pink.webp",
+      "system": {
+        "subtype": {
+          "value": "other"
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You leap towards a target that you previously @UUID[Compendium.fu-azure-compendia.effects.Firc8bjg6bcDR1e1]{Launched} and attempt to smash it into the ground. You make a <strong>melee</strong> attack against the target. If it hits the target is slammed into the ground and is @UUID[Compendium.fu-azure-compendia.effects.2CdYy1zLjc6uOIPC]{Stunned}.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            },
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 0,
+            "type": {
+              "value": "physical"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "smash"
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.d7DDMqf3YWlpKDeT",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735590100839,
+        "modifiedTime": 1735590100839,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.6j8EjGVhOIBufH4G"
+    },
+    {
+      "folder": "9sF7Li98rc4NikRM",
+      "name": "Electric Arc",
+      "type": "rule",
+      "img": "icons/magic/lightning/bolt-strike-sparks-yellow.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>After you <strong>hit an enemy with a bolt attack or spell,</strong> you can deal bolt damage to an <strong>additional target</strong>.</p><ul><li><p><strong>Additional Target</strong>: @DMG[&amp;step(5,10,15) bolt]</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "electric-arc"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.HTgOgZvPUu9EXset",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735637466307,
+        "modifiedTime": 1735637466307,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "npoDPfnFHKDhrR8Q",
+      "sort": 500000,
+      "_key": "!actors.items!MoHXUwg5f0SwY7vZ.npoDPfnFHKDhrR8Q"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1735588958464,
+    "modifiedTime": 1735590128709,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!actors!MoHXUwg5f0SwY7vZ"
+}

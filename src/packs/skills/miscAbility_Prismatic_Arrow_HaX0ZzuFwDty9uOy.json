@@ -1,0 +1,194 @@
+{
+  "folder": "qsJT6TCOmuMfiZMm",
+  "name": "Prismatic Arrow",
+  "type": "miscAbility",
+  "_id": "HaX0ZzuFwDty9uOy",
+  "img": "icons/skills/ranged/arrows-flying-salvo-blue-light.webp",
+  "system": {
+    "fuid": "fua-prismatic-arrow",
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After charging your @UUID[Compendium.fu-azure-compendia.effects.1nffZ0gn6OMwKgH5]{Ultima Clock} you shoot a powerfully charged magical arrow at the air above your targets, where it splits into <strong>elemental arrows</strong> which fly towards your foes. <strong>Each arrow</strong> can hit an enemy of <strong>your choosing</strong>.</p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets</strong>: @DMG[10 air] + @DMG[10 bolt] + @DMG[10 dark] + @DMG[10 earth] + @DMG[10 ice] + @DMG[10 fire] + @DMG[10 light] + @DMG[10 poison]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": true
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Charge",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [
+    {
+      "name": "Ultima Clock",
+      "img": "icons/magic/lightning/orb-ball-purple.webp",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>You have an <strong>Ultima Power</strong> you can perform by filling up its clock, with the following triggers:</p><ul><li><p>Fill 1 section each time you lose Hit Points in a round, unless that loss was self-inflicted.</p></li><li><p>Fill 1 section when you enter Crisis for the first time in a conflict.</p></li><li><p>Fill 1 section when you hit with an attack or spell and the <strong>result of the accuracy check was an odd number</strong>.</p></li><li><p>Unleashing the zero effect erases all sections of the Zero Clock.</p></li></ul>",
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.1nffZ0gn6OMwKgH5",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.1nffZ0gn6OMwKgH5.ActiveEffect.BjCVxlMGdGOt6Rhm",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "EhNbfPhJfG9G0tYD",
+      "_key": "!items.effects!HaX0ZzuFwDty9uOy.EhNbfPhJfG9G0tYD"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731430064651,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!HaX0ZzuFwDty9uOy"
+}

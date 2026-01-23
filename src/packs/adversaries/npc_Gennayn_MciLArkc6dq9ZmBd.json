@@ -1,0 +1,923 @@
+{
+  "folder": "TFz7hllUTJ6fGmXr",
+  "name": "Gennayn",
+  "type": "npc",
+  "img": "modules/fu-azure-compendia/assets/tokens/elementals/elemental_air.png",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "resources": {
+      "hp": {
+        "value": 120,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 60,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 3
+      },
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 2
+      },
+      "bolt": {
+        "base": -1
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": -1
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 1,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 1,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "traits": {
+      "value": ""
+    },
+    "species": {
+      "value": "elemental"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "isElite": {
+      "value": true
+    },
+    "isChampion": {
+      "value": 1
+    },
+    "isCompanion": {
+      "value": false
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "",
+    "associatedTherioforms": "",
+    "role": {
+      "value": "sentinel"
+    }
+  },
+  "prototypeToken": {
+    "name": "Gennayn",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1.5,
+    "height": 1.5,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/elementals/elemental_air.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "folder": "qRpDGGGdnhmkFuQj",
+      "name": "Air Cutter",
+      "type": "basic",
+      "img": "modules/fu-azure-compendia/assets/icons/attacks/air-zigzag.png",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "wlp"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "mdef",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "ranged"
+        },
+        "damageType": {
+          "value": "air"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.7p8S600YH4rb3rYw",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725200826816,
+        "modifiedTime": 1725200826816,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "9RNe8uUNL84Jyx6Q",
+      "sort": 0,
+      "_key": "!actors.items!MciLArkc6dq9ZmBd.9RNe8uUNL84Jyx6Q"
+    },
+    {
+      "folder": "y9VacGKyFP10h5ee",
+      "name": "Frenzy",
+      "type": "rule",
+      "_id": "XPjYGwBYLxZPRog2",
+      "img": "modules/fu-azure-compendia/assets/icons/skills/moon-claws.png",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You are whipped into a frenzy"
+        },
+        "description": "<p>As long as you are in <strong>Crisis</strong>, one or more of your attacks gains <strong>multi (2).</strong></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.0XcjJjfyVVnf3J00",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Frenzy",
+          "img": "modules/fu-azure-compendia/assets/icons/skills/moon-claws.png",
+          "_id": "Mrf9Vdkau1IRRVBJ",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "description": "<p>Your attacks gain <strong>multi (2)</strong></p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "active"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!MciLArkc6dq9ZmBd.XPjYGwBYLxZPRog2.Mrf9Vdkau1IRRVBJ"
+        }
+      ],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.0XcjJjfyVVnf3J00",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725200834110,
+        "modifiedTime": 1725200834110,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!MciLArkc6dq9ZmBd.XPjYGwBYLxZPRog2"
+    },
+    {
+      "folder": "3wV2pvX92KXaJvom",
+      "name": "Gale",
+      "type": "spell",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You summon the power of winds against your enemy. Each target hit by this spell suffers <strong>air</strong> damage.</p><p><strong>Opportunity:</strong> Each <strong>flying</strong> target hit by this spell is forced to land immediately.</p><hr /><ul><li><p>@LOSS[10 mp] for <strong>one</strong> target.</p></li><li><p>@LOSS[20 mp] for <strong>two</strong> targets.</p></li><li><p>@LOSS[30 mp] for <strong>three</strong> targets.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": ""
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "target": {
+          "value": "Up to three creatures"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "air"
+            },
+            "value": 10
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "Each flying target hit by this spell is forced to land immediately.",
+        "maxTargets": {
+          "value": 3
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.fiyZUq9jGgV8aaoW",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725200941209,
+        "modifiedTime": 1725200941209,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "p2dU3lU1omLYp38c",
+      "sort": 400000,
+      "_key": "!actors.items!MciLArkc6dq9ZmBd.p2dU3lU1omLYp38c"
+    },
+    {
+      "folder": "e0HDO7LcX9neHVMp",
+      "name": "Spellcaster",
+      "type": "rule",
+      "_id": "Yg9D47hIGJYuzBma",
+      "img": "modules/fu-azure-compendia/assets/icons/skills/spell-book.png",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You are a wizard, Imperial Mage 72"
+        },
+        "description": "<p>You can cast spells. Choose from one option:</p><ul><li><p>You learn <strong>one spell</strong> and increase your maximum Mind Points by 10.</p></li><li><p>You learn <strong>two spells</strong>.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Increased Mind Points",
+          "img": "modules/fu-azure-compendia/assets/icons/skills/spell-book.png",
+          "_id": "dEsAGF1XtfqBrZKh",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.resources.mp.max",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "createdTime": null,
+            "modifiedTime": 1725200956662,
+            "lastModifiedBy": "esOkelwPNblkbxW3",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!MciLArkc6dq9ZmBd.Yg9D47hIGJYuzBma.dEsAGF1XtfqBrZKh"
+        }
+      ],
+      "sort": 325000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725200953686,
+        "modifiedTime": 1725200953686,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!MciLArkc6dq9ZmBd.Yg9D47hIGJYuzBma"
+    },
+    {
+      "folder": "02EELzRzHhrEwzoj",
+      "name": "Counter",
+      "type": "rule",
+      "_id": "ex19fRiOXV0fkLWB",
+      "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>After an enemy <strong>misses you with a melee attack</strong>, you may perform a <strong>free attack</strong> against that enemy (after their attack has been fully resolved). This attack must be a <strong>melee</strong> attack and must have that enemy as its only target; treat your <strong>High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p><p><em>After you use this skill, you cannot use it again until the start of your next turn.</em></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "counter"
+      },
+      "effects": [],
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.lRjo9KLPKauxuoqH",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1733599910703,
+        "modifiedTime": 1733599910703,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!MciLArkc6dq9ZmBd.ex19fRiOXV0fkLWB"
+    },
+    {
+      "folder": "llE2mBujrfK9znnV",
+      "name": "Tornado",
+      "type": "spell",
+      "img": "icons/magic/air/wind-tornado-cyclone-white.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you summon a localized small tornado against your enemies that lifts them up high into the air and cuts them with slicing winds. All targets suffer <strong>unavoidable air damage</strong> and are considered launched until the <strong>end of the next round.</strong></p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 air] +  @UUID[Compendium.fu-azure-compendia.effects.Firc8bjg6bcDR1e1]{Launched}</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": ""
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "40"
+        },
+        "maxTargets": {
+          "value": 1
+        },
+        "target": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 5,
+            "type": {
+              "value": "dark"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "tornado"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.spells.Item.6nS6L2l04B7zt4Mp",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735497845836,
+        "modifiedTime": 1735497845836,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "5jUF2PmNUkQADpWn",
+      "sort": 250000,
+      "_key": "!actors.items!MciLArkc6dq9ZmBd.5jUF2PmNUkQADpWn"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724170166613,
+    "modifiedTime": 1733599904553,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "MciLArkc6dq9ZmBd",
+  "sort": 300000,
+  "_key": "!actors!MciLArkc6dq9ZmBd"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Elementalist",
+  "sorting": "a",
+  "folder": "F9mqRMVKb439LYON",
+  "type": "Item",
+  "_id": "QewFtrmh9koj7U7n",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!QewFtrmh9koj7U7n"
+}

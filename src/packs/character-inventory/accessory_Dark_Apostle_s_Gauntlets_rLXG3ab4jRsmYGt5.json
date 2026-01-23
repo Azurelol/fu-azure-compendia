@@ -1,0 +1,58 @@
+{
+  "folder": "ER4fJEFZ4NTb9aAE",
+  "name": "Dark Apostle's Gauntlets",
+  "type": "accessory",
+  "_id": "rLXG3ab4jRsmYGt5",
+  "img": "icons/equipment/hand/glove-spiked-leather-grey.webp",
+  "system": {
+    "fuid": "dark-apostles-cloak",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class:</strong> @UUID[Compendium.projectfu.classes.AgYLSVuJduaQBja0]{Darkblade}</p><hr /><h2>Qualities</h2><ol><li><p>When you perform @UUID[Compendium.projectfu.skills.W5hE9L8x7AsJI7a1]{Shadow Strike} you may <strong>spend </strong>@LOSS[10 mp] to <strong>recover</strong> @GAIN[$step(5,10,15) hp]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 1
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737410183608,
+    "modifiedTime": 1737751793879,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!rLXG3ab4jRsmYGt5"
+}

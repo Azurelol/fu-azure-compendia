@@ -1,0 +1,74 @@
+{
+  "folder": "Vam3ztpfKmZRRbSw",
+  "name": "Ogre Armbands",
+  "type": "accessory",
+  "_id": "N6MqjBiFGpFUHALY",
+  "img": "icons/equipment/wrist/bracer-simple-wide-leather.webp",
+  "system": {
+    "fuid": "ogre-armbands",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.JqjAUSTgQyZdfAML]{Fury}</p><hr /><h2>Qualities</h2><ol><li><p>When you use the <strong>Hinder</strong> action and it was successful, you also deal @DMG[&amp;step(5,10,15) physical] to the target.</p></li><li><p>When you gain an <strong>opportunity</strong> you may spend it to inflict @UUID[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1730826004089,
+    "modifiedTime": 1737752979274,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!N6MqjBiFGpFUHALY"
+}

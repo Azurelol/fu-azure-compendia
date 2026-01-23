@@ -1,0 +1,58 @@
+{
+  "folder": "02EELzRzHhrEwzoj",
+  "name": "Splinter",
+  "type": "rule",
+  "_id": "w0UDdYYf07wtuT0h",
+  "img": "icons/magic/earth/projectile-stone-bullet-pink.webp",
+  "system": {
+    "fuid": "splinter",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you take <strong>physical damage from a melee attack</strong> and the <strong>result of the accuracy check</strong> was an <strong>odd number</strong>, a jagged splinter of your body lances out towards your attacker. They take a small amount of physical damage.</p><ul><li><p><strong>Attacker</strong>: @DMG[&amp;step(5,10,15) physical]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1734805476633,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!w0UDdYYf07wtuT0h"
+}

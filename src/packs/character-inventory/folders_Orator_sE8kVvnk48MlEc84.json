@@ -1,0 +1,22 @@
+{
+  "name": "Orator",
+  "sorting": "a",
+  "folder": "F9mqRMVKb439LYON",
+  "type": "Item",
+  "_id": "sE8kVvnk48MlEc84",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": 1737411993316,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!sE8kVvnk48MlEc84"
+}

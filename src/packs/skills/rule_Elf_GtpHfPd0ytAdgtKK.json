@@ -1,0 +1,113 @@
+{
+  "folder": "BQtoREnZt6o5Yz7j",
+  "name": "Elf",
+  "type": "rule",
+  "_id": "GtpHfPd0ytAdgtKK",
+  "img": "icons/magic/nature/leaf-juggle-humanoid-green.webp",
+  "system": {
+    "fuid": "fa-elf",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.GtpHfPd0ytAdgtKK",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Elf",
+      "img": "icons/magic/nature/leaf-juggle-humanoid-green.webp",
+      "_id": "ML70xwa1GuTYu1fX",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.derived.mdef.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.affinities.earth.base",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!GtpHfPd0ytAdgtKK.ML70xwa1GuTYu1fX"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!GtpHfPd0ytAdgtKK"
+}

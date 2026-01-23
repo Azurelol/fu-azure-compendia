@@ -1,0 +1,22 @@
+{
+  "name": "Hazards",
+  "sorting": "a",
+  "folder": "ZdTfeUcpLWrXOfOl",
+  "type": "Item",
+  "_id": "Vmxx1XUVjl7nMufb",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731694981167,
+    "modifiedTime": 1738408577817,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!Vmxx1XUVjl7nMufb"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "VhDvktGWCoZOFp3W",
+  "name": "Aura of Misfortune",
+  "type": "rule",
+  "_id": "F9gSPyo7D1YXuRtl",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "system": {
+    "fuid": "aura-of-misfortune",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Living creatures in the scene must <strong>roll twice</strong> for their accuracy checks and <strong>take the lower result.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!F9gSPyo7D1YXuRtl"
+}

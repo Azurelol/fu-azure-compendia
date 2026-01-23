@@ -1,0 +1,57 @@
+{
+  "name": "Event",
+  "_id": "tCWtMn6jeMi2U5HT",
+  "img": "icons/skills/social/diplomacy-offering-ritual.webp",
+  "description": "<p>What happens?</p>",
+  "results": [
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "img": "modules/fu-azure-compendia/assets/icons/location/talk.png",
+      "_id": "wBUdxmWaCaxAWuGN",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": 1755716998226,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Prompt",
+      "documentUuid": "Compendium.azure-campaign-compendia.tables.RollTable.V3BZ0FNC9gohmZPi",
+      "description": "",
+      "_key": "!tables.results!tCWtMn6jeMi2U5HT.wBUdxmWaCaxAWuGN"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724337331149,
+    "modifiedTime": 1738433661883,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "_key": "!tables!tCWtMn6jeMi2U5HT"
+}

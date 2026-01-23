@@ -1,0 +1,83 @@
+{
+  "folder": "qRpDGGGdnhmkFuQj",
+  "name": "Stone",
+  "type": "basic",
+  "img": "icons/magic/earth/projectile-stone-boulder-orange.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "wlp"
+      }
+    },
+    "accuracy": {
+      "value": 1
+    },
+    "defense": "mdef",
+    "damage": {
+      "value": 5
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "damageType": {
+      "value": "earth"
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "fuid": "stone"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731694793976,
+    "modifiedTime": 1731694793976,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "AeqoSp3kinofqWqE",
+  "sort": 0,
+  "_key": "!items!AeqoSp3kinofqWqE"
+}

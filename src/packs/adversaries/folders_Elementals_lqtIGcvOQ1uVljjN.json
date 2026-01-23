@@ -1,0 +1,22 @@
+{
+  "name": "Elementals",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "lqtIGcvOQ1uVljjN",
+  "description": "",
+  "sort": 600000,
+  "color": "#5f68d8",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723754336637,
+    "modifiedTime": 1727902723808,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!lqtIGcvOQ1uVljjN"
+}

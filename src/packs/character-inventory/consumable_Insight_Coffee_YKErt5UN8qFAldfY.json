@@ -1,0 +1,48 @@
+{
+  "folder": "876sKGjwrabaUXAf",
+  "name": "Insight Coffee",
+  "type": "consumable",
+  "_id": "YKErt5UN8qFAldfY",
+  "img": "icons/consumables/potions/bottle-corked-empty.webp",
+  "system": {
+    "fuid": "scanner",
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You perform the <strong>Study</strong> action with a <strong>+4 bonus</strong> to the check. If you succeed you learn about <strong>an additional affinity.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731101604620,
+    "modifiedTime": 1739391084216,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!YKErt5UN8qFAldfY"
+}

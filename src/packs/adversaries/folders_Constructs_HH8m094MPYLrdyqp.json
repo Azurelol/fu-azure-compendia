@@ -1,0 +1,22 @@
+{
+  "name": "Constructs",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "HH8m094MPYLrdyqp",
+  "description": "",
+  "sort": 500000,
+  "color": "#238087",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723754153387,
+    "modifiedTime": 1727902723808,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!HH8m094MPYLrdyqp"
+}

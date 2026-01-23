@@ -1,0 +1,58 @@
+{
+  "folder": "h9S7yuoCi0VIQpPU",
+  "name": "Spyglass",
+  "type": "accessory",
+  "_id": "dLkNQm3zK9HENfhG",
+  "img": "icons/tools/navigation/spyglass-telescope-brass.webp",
+  "system": {
+    "fuid": "thing",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>; @UUID[Compendium.projectfu.classes.eO37Jm8x3VaGmE7c]{Sharpshooter}</p><hr /><h2>Qualities</h2><ol><li><p>If you have @UUID[Compendium.projectfu.skills.sIkQa2NzkqsvczBr]{Crossfire} it may <strong>also</strong> apply to <strong>melee attacks</strong> against an <strong>ally of your choosing</strong> that you declare at the <strong>start of each of your turns.</strong></p></li><li><p>When you perform @UUID[Compendium.projectfu.skills.Ovmw7cMrN6qvagG4]{Warning Shot} you gain @UUID[Compendium.fu-azure-compendia.effects.Item.q8VBAZTtL8SdLUCs]{Strength}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737749063191,
+    "modifiedTime": 1737756005374,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!dLkNQm3zK9HENfhG"
+}

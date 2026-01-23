@@ -1,0 +1,58 @@
+{
+  "folder": "ViM4tJL6WtXIChbr",
+  "name": "Slick Surface",
+  "type": "rule",
+  "_id": "VBbQpbhfZwmgcxxh",
+  "img": "icons/magic/control/debuff-energy-snare-brown.webp",
+  "system": {
+    "fuid": "slick-surface",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Two</strong> characters in the party step into a <strong>slick</strong> surface and begin careening uncontrollably onto a nearby <strong>danger</strong> unless they make @CHECK[dex ins normal] checks.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738427953007,
+    "modifiedTime": 1738430970609,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!VBbQpbhfZwmgcxxh"
+}

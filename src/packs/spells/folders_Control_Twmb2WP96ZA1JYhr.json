@@ -1,0 +1,22 @@
+{
+  "name": "Control",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "Twmb2WP96ZA1JYhr",
+  "description": "",
+  "sort": 800000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1735328633056,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!Twmb2WP96ZA1JYhr"
+}

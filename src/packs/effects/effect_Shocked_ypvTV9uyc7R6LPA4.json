@@ -1,0 +1,89 @@
+{
+  "folder": "x4r2l19ki57NSa8K",
+  "name": "Shocked",
+  "type": "effect",
+  "_id": "ypvTV9uyc7R6LPA4",
+  "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp",
+  "system": {
+    "fuid": "shocked",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.effects.Item.ypvTV9uyc7R6LPA4",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Shocked",
+      "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp",
+      "_id": "JV8BAhAfpkcdPtW0",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.derived.def.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.derived.mdef.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "description": "<p>Your body has been hit by a bolt of electricity, temporarily impairing your nervous system. Your defenses are lowered until the <strong>end of your turn.</strong></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": 1730824310577,
+        "modifiedTime": 1731696034694,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ypvTV9uyc7R6LPA4.JV8BAhAfpkcdPtW0"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.30",
+    "createdTime": 1730824306089,
+    "modifiedTime": 1730824346508,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!ypvTV9uyc7R6LPA4"
+}

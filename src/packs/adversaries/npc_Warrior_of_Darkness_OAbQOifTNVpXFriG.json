@@ -1,0 +1,1782 @@
+{
+  "name": "Warrior of Darkness",
+  "type": "npc",
+  "img": "modules/fu-azure-compendia/assets/tokens/villains/Legendary%20Knight%20Michael.png",
+  "system": {
+    "level": {
+      "value": 20
+    },
+    "resources": {
+      "hp": {
+        "value": 360,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 120,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 5
+      },
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": -1
+      },
+      "bolt": {
+        "base": 1
+      },
+      "dark": {
+        "base": 1
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": -1
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 10
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {},
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 2,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 2,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 5,
+        "ranged": 5,
+        "spell": 5,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "traits": {
+      "value": "soldier,dreadful,fallen,hopeless"
+    },
+    "species": {
+      "value": "humanoid"
+    },
+    "villain": {
+      "value": "minor"
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "rank": {
+      "value": "champion",
+      "replacedSoldiers": 4
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "<ul><li><p>The round after entering crisis, use the <strong>limit break</strong>. Do not take actions until after the first PC breaks free.</p></li></ul><p></p>",
+    "associatedTherioforms": "",
+    "role": {
+      "value": "sentinel"
+    }
+  },
+  "prototypeToken": {
+    "name": "Warrior of Darkness",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/villains/Legendary%20Knight%20Michael.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "FZpzBL5kyjkD7wY8",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.FZpzBL5kyjkD7wY8"
+    },
+    {
+      "folder": "tjWV9h97KAbXCCnC",
+      "name": "Greatsword",
+      "type": "basic",
+      "_id": "osCaQxYKxyabj2ez",
+      "img": "systems/projectfu/styles/static/compendium/weapons/greatsword.png",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You attack the target with a heavy swing of your greatsword"
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "value": 10
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "greatsword"
+      },
+      "effects": [],
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.rbTkslhibuaTrQcq",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.osCaQxYKxyabj2ez"
+    },
+    {
+      "folder": "VhDvktGWCoZOFp3W",
+      "name": "Aura of Despair",
+      "type": "rule",
+      "_id": "MdvPpJ6XcneGRsb2",
+      "img": "icons/magic/control/fear-fright-white.webp",
+      "system": {
+        "fuid": "aura-of-despair",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Living creatures in the scene are @EFFECT[shaken]. This is removed when you are defeated.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.OWipG0O7sPljN6VM",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.MdvPpJ6XcneGRsb2"
+    },
+    {
+      "folder": "3wV2pvX92KXaJvom",
+      "name": "Shadow Barrage",
+      "type": "spell",
+      "img": "icons/magic/unholy/projectile-bolts-salvo-pink.webp",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>A storm of dark energy turns matter into ash. Each target hit by this spell suffers <strong>dark </strong>damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[weak].</p><hr /><ul><li><p>@LOSS[10 mp] for <strong>one</strong> target.</p></li><li><p>@LOSS[20 mp] for <strong>two</strong> targets.</p></li><li><p>@LOSS[30 mp] for <strong>three</strong> targets.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Entropist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "target": {
+          "value": "Up to three creatures"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "dark"
+            },
+            "value": 10
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "Each target hit by this spell suffers weak.",
+        "maxTargets": {
+          "value": 3
+        },
+        "fuid": "shadow-barrage"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.krr6QdlTLykrP08H",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "GytXLyKfsvnH5sUT",
+      "sort": 800000,
+      "_key": "!actors.items!OAbQOifTNVpXFriG.GytXLyKfsvnH5sUT"
+    },
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "subtype": {
+          "value": ""
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "isCustomWeapon": {
+          "value": false
+        },
+        "source": {
+          "value": "FUCR130"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728074050579,
+        "modifiedTime": 1728074050579,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "J1Z43PMKIIIr5wMl",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.J1Z43PMKIIIr5wMl"
+    },
+    {
+      "folder": "Twmb2WP96ZA1JYhr",
+      "name": "Fetters",
+      "type": "spell",
+      "_id": "FdeUAjpCuszJ5chs",
+      "img": "icons/magic/control/debuff-chains-purple.webp",
+      "system": {
+        "fuid": "fetters",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You bind a target suffering from @EFFECT[slow] with magical chains. . It <strong>cannot take actions</strong> until it has been freed. Freeing a chained target is an <strong>easy 2-section clock</strong>.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": ""
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "20"
+        },
+        "maxTargets": {
+          "value": 1
+        },
+        "target": {
+          "value": ""
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "mig"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 0,
+            "type": {
+              "value": "physical"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.YkB3RtaXQl1HKFe5",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728074676493,
+        "modifiedTime": 1728074676493,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.FdeUAjpCuszJ5chs"
+    },
+    {
+      "folder": "yfNBuxkwJmpLWyP5",
+      "name": "Executioner",
+      "type": "rule",
+      "_id": "QqpD3BAMdXWrgnXh",
+      "img": "icons/weapons/axes/axe-battle-eyes-red.webp",
+      "system": {
+        "fuid": "executioner",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You deal <strong>extra damage</strong> with your attacks against targets that <strong>are in Crisis. </strong>@DMG[5 untyped]</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.wEEnut5Q90ukV91M",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728074679967,
+        "modifiedTime": 1728074679967,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.QqpD3BAMdXWrgnXh"
+    },
+    {
+      "folder": "yfNBuxkwJmpLWyP5",
+      "name": "Lifesteal",
+      "type": "rule",
+      "_id": "EnlFfzUJluL2Lcqw",
+      "img": "icons/magic/unholy/projectile-helix-blood-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Your <strong>melee attack</strong> on a target invigorates you, recovering hit points based on your level.</p><ul><li><p>@GAIN[10 hp] from level 5.</p></li><li><p>@GAIN[20 hp] from level 20</p></li><li><p>@GAIN[30 hp] from level 40</p></li></ul><p><em>Note that the frequency of this skill depends on your rank.</em></p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "lifesteal"
+      },
+      "effects": [],
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.mRJ87ZMLnDVG9Lp0",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728074686347,
+        "modifiedTime": 1728074686347,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.EnlFfzUJluL2Lcqw"
+    },
+    {
+      "folder": "CxiOOFr6RmoYlFk8",
+      "name": "Debilitating Strike",
+      "type": "rule",
+      "_id": "9ZwXcJfFBwEXAEuc",
+      "img": "icons/skills/melee/blade-tip-energy-green.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you <strong>hit a target with a melee</strong> <strong>attack </strong>and the <strong>result of the accuracy check is an odd number</strong>, you may <strong>treat your High Roll (HR) as 0</strong> in order to debilitate them instead with @EFFECT[slow] or @EFFECT[weak] or @EFFECT[dazed].</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "debilitating-strike"
+      },
+      "effects": [],
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.KzALz6C6LL53CiBz",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728074688223,
+        "modifiedTime": 1728074688223,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.9ZwXcJfFBwEXAEuc"
+    },
+    {
+      "folder": "Lh0MHor59rXtxZOz",
+      "name": "Life in Captivity",
+      "type": "spell",
+      "_id": "REAgneeCVjtLwmkk",
+      "img": "icons/magic/control/debuff-chains-purple.webp",
+      "system": {
+        "fuid": "life-in-captivity",
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>With the gathered power of your @UUID[Compendium.fu-azure-compendia.adversary-creation.Item.l2TOqEUyVp4kmMDy]{Limit Break}, you bind all your enemies with magical chains. Each target <strong>cannot take actions</strong> until it has been freed and will suffer @DMG[5 dark] at the end of their turns. Freeing a chained target is an <strong>normal 2-section clock</strong>.</p><p> @LOSS[30 mp] </p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": ""
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "mpCost": {
+          "value": "20"
+        },
+        "maxTargets": {
+          "value": 0
+        },
+        "target": {
+          "value": ""
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "mig"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 0,
+            "type": {
+              "value": "physical"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.7MdmceYYwFOP4HvV",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728075983449,
+        "modifiedTime": 1728075983449,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.REAgneeCVjtLwmkk"
+    },
+    {
+      "folder": "Hj9kM30W1OxU1kBe",
+      "name": "Limit Break",
+      "type": "miscAbility",
+      "_id": "SnUd3PkLd0fYjxdK",
+      "img": "icons/skills/melee/weapons-crossed-swords-teal.webp",
+      "system": {
+        "fuid": "limit-break",
+        "subtype": {
+          "value": "other"
+        },
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You begin to transcend your limits. You spend <strong>1 Ultima Point.</strong> At the <strong>end of the round</strong> you will perform an <strong>extremely powerful ability</strong>. After you have performed it, you will be <strong>unable to take any actions</strong> for the following round.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "ins"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "accuracy": {
+              "value": false
+            },
+            "damage": {
+              "value": false
+            },
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 0,
+            "type": {
+              "value": "physical"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.l2TOqEUyVp4kmMDy",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728152204377,
+        "modifiedTime": 1728152204377,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.SnUd3PkLd0fYjxdK"
+    },
+    {
+      "folder": "e0HDO7LcX9neHVMp",
+      "name": "Flying",
+      "type": "rule",
+      "_id": "62EAz0aobWa1SbB3",
+      "img": "systems/projectfu/styles/static/statuses/Flying.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You have the ability to fly or levitate"
+        },
+        "description": "<p>Your gain the benefits of @UUID[Compendium.fu-azure-compendia.effects.TaI0WVX1BfRa95iA]{Flying}</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "flying"
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.effects.Item.TaI0WVX1BfRa95iA",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Flying",
+          "img": "systems/projectfu/styles/static/statuses/Flying.webp",
+          "_id": "L4OHhlYm9EPvNLhQ",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "description": "<p>Your have ability to fly or levitate. Because of this, <strong>creatures on the ground cannot reach you with melee attacks as long as you are in mid-air</strong> (though you can perform melee attacks against targets who are on the ground).</p><p>If you <strong>suffer damage</strong> of a type<strong> </strong>you are <strong>vulnerable </strong>to, <strong>you are immediately forced to land</strong> and <strong>lose the benefits of this Skill until the end of the round,</strong> when you will automatically regain the benefits. You may also be forced to land when an attacker spends an opportunity.</p><p>Whenever you are in Crisis, you <strong>lose</strong> all benefits granted by this Skill.</p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [
+            "flying"
+          ],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "type": "default",
+              "source": "",
+              "CrisisInteraction": "inactive"
+            }
+          },
+          "_stats": {
+            "compendiumSource": "Compendium.fu-azure-compendia.effects.Item.TaI0WVX1BfRa95iA.ActiveEffect.LLuPr3JQJNm6huWk",
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "2.4.0-alpha.30",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!OAbQOifTNVpXFriG.62EAz0aobWa1SbB3.L4OHhlYm9EPvNLhQ"
+        }
+      ],
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.fQUtLJk5vnZ1kE8U",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": 1730589807173,
+        "modifiedTime": 1730589807173,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!OAbQOifTNVpXFriG.62EAz0aobWa1SbB3"
+    }
+  ],
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.Bihtv3sk80nGKAsc",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Accuracy Check Bonus",
+      "img": "icons/skills/targeting/target-strike-gray.webp",
+      "_id": "lJb0Q4CqGLSf7sSd",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.accuracy.accuracyCheck",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "<p>You gain a +3 bonus to your accuracy checks.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728139994406,
+        "modifiedTime": 1728139995645,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.effects!OAbQOifTNVpXFriG.lJb0Q4CqGLSf7sSd"
+    },
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.Bihtv3sk80nGKAsc",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "name": "Magic Check",
+      "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
+      "_id": "m7NUyzLT2NGwf5Wo",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.accuracy.magicCheck",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "<p>You gain a +3 bonus to your magic checks.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728139994417,
+        "modifiedTime": 1728139994417,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.effects!OAbQOifTNVpXFriG.m7NUyzLT2NGwf5Wo"
+    },
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.Bihtv3sk80nGKAsc",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Opposed Check Bonus",
+      "img": "icons/skills/melee/unarmed-punch-fist-blue.webp",
+      "_id": "F55ZeNyMuJ5eXmvm",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.accuracy.opposedCheck",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "<p>You gain a +3 bonus to your opposed checks.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728139994581,
+        "modifiedTime": 1728139997396,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.effects!OAbQOifTNVpXFriG.F55ZeNyMuJ5eXmvm"
+    },
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.EXln55s5qgqND6Od",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Improved Defenses",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "_id": "89gCdSaxlh9TgowU",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.derived.def.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.derived.mdef.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "<p>You gain a +2 bonus to defense and +1 to magical defense.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728140001702,
+        "modifiedTime": 1728140003074,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.effects!OAbQOifTNVpXFriG.89gCdSaxlh9TgowU"
+    },
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.EXln55s5qgqND6Od",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "name": "Improved Magical Defenses",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "_id": "3nbjIrgaAE9fHbkE",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.derived.def.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.derived.mdef.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "<p>You gain a +1 bonus to defense and +2 to magical defense.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.27",
+        "createdTime": 1728140001723,
+        "modifiedTime": 1728140001723,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.effects!OAbQOifTNVpXFriG.3nbjIrgaAE9fHbkE"
+    }
+  ],
+  "folder": "qW2vX0rlD0TgPNos",
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728074050527,
+    "modifiedTime": 1733601856887,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "OAbQOifTNVpXFriG",
+  "sort": 1200000,
+  "_key": "!actors!OAbQOifTNVpXFriG"
+}

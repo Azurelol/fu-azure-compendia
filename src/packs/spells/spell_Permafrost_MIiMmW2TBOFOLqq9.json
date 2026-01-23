@@ -1,0 +1,141 @@
+{
+  "folder": "llE2mBujrfK9znnV",
+  "name": "Permafrost",
+  "type": "spell",
+  "_id": "MIiMmW2TBOFOLqq9",
+  "img": "icons/magic/water/barrier-ice-wall-snow.webp",
+  "system": {
+    "fuid": "permafrost",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you coat the ground in thin ice, making it especially <strong>treacherous to move around</strong> in.</p><ul><li><p><strong>You</strong>: @LOSS[20 mp]</p></li><li><p><strong>Targets</strong>: @UUID[Compendium.fu-azure-compendia.effects.d5DMA3DVnNON1QUA]{Unsteady}</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "20"
+    },
+    "maxTargets": {
+      "value": 0
+    },
+    "target": {
+      "value": ""
+    },
+    "duration": {
+      "value": "scene"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429073863,
+    "modifiedTime": 1731968449338,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!MIiMmW2TBOFOLqq9"
+}

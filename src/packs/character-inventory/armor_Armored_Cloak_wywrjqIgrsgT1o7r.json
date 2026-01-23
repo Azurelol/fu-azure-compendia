@@ -1,0 +1,133 @@
+{
+  "folder": "hDxRisIuYNCNBKir",
+  "name": "Armored Cloak",
+  "type": "armor",
+  "_id": "wywrjqIgrsgT1o7r",
+  "img": "icons/equipment/chest/robe-layered-blue.webp",
+  "system": {
+    "fuid": "armored-cloak",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><em>Interwoven with lightweight plating to reduce impact of physical blows.</em></p><p>@UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><hr /><h2>Qualities</h2><ol><li><p>@UUID[Compendium.fu-azure-compendia.character-inventory.WS6gdl1CPz3zADqB]{Physical Resilience}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 2
+    },
+    "mdef": {
+      "value": 1
+    },
+    "init": {
+      "value": -2
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Physical Resilience",
+      "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.incomingDamage",
+          "value": "-2",
+          "mode": 2,
+          "priority": 30
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>All <strong>physical</strong> damage is reduced by 2.</p>",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.WS6gdl1CPz3zADqB",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1738082236988,
+        "modifiedTime": 1738082236988,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "uu6gT9nlmDTPH6s8",
+      "_key": "!items.effects!wywrjqIgrsgT1o7r.uu6gT9nlmDTPH6s8"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1729613775742,
+    "modifiedTime": 1738518618742,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!wywrjqIgrsgT1o7r"
+}

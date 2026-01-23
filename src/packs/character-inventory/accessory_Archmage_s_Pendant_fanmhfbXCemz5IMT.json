@@ -1,0 +1,58 @@
+{
+  "folder": "QewFtrmh9koj7U7n",
+  "name": "Archmage's Pendant",
+  "type": "accessory",
+  "_id": "fanmhfbXCemz5IMT",
+  "img": "icons/equipment/neck/amulet-geometric-gold-green.webp",
+  "system": {
+    "fuid": "a",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.vSE3PMoHTGLC1yzG]{Elementalist}</p><hr /><h2>Qualities</h2><ol><li><p>When you would <strong>receive elemental damage</strong> of the same type of a <strong>damaging spell</strong> that you already have <strong>learned</strong>, you may gain <strong>resistance</strong> to it by spending @LOSS[10 mp]</p></li><li><p>When you cast @UUID[Compendium.projectfu.spells.AIqyQ1m2hpX27rsd]{Elemental Weapon} you may include an <strong>additional</strong> ally to receive the effect until the <strong>end of their next turn</strong> by spending @LOSS[5 mp]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 1
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737750460393,
+    "modifiedTime": 1737751516341,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!fanmhfbXCemz5IMT"
+}

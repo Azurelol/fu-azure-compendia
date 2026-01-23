@@ -1,0 +1,76 @@
+{
+  "folder": "ecb265AiQGmQqXcQ",
+  "name": "Split",
+  "type": "effect",
+  "_id": "S7Ho4f017SvNGzLd",
+  "img": "icons/magic/control/silhouette-grow-shrink-blue.webp",
+  "system": {
+    "fuid": "afc-split",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.S7Ho4f017SvNGzLd",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Split",
+      "img": "icons/magic/control/silhouette-grow-shrink-blue.webp",
+      "_id": "zZUxUOviYLMl0ao2",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "<p>You have been split from your original body and start with the current hit points of your original.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none",
+          "type": "default",
+          "source": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!S7Ho4f017SvNGzLd.zZUxUOviYLMl0ao2"
+    }
+  ],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.30",
+    "createdTime": 1730492177716,
+    "modifiedTime": 1731098686825,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!S7Ho4f017SvNGzLd"
+}

@@ -1,0 +1,77 @@
+{
+  "folder": "hpvqjDAkwK9kAXTh",
+  "name": "Glacial Orb",
+  "type": "accessory",
+  "_id": "fTjqo0nisvgWzHXA",
+  "img": "icons/equipment/finger/ring-ball-silver.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<h2>Qualities</h2><ul><li><p><strong>Once</strong> per round when you are about to receive <strong>ice damage</strong> you can spend @LOSS[5 mp] in order to gain @UUID[Compendium.projectfu.actor-effects.SWdZeuJTEq1ig6S8]{Ice Resistance} until the <strong>start of your next turn</strong>.</p></li><li><p><strong>Every three times</strong> that you perform the above you can <strong>remove a negative status effect.</strong></p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "isEquipped": {
+      "value": false
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 1
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "fuid": ""
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723997271423,
+    "modifiedTime": 1738081647381,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!fTjqo0nisvgWzHXA"
+}

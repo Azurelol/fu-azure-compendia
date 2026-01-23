@@ -1,0 +1,112 @@
+{
+  "name": "Golden Bolter",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-golden-bolt.webp",
+  "system": {
+    "subtype": {
+      "value": ""
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 200
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "value": 8
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "category": {
+      "value": "bow"
+    },
+    "hands": {
+      "value": "two-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "defense": "def",
+    "fuid": "shortbow",
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "gHVbBOAKbhc1ITh5",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738512468932,
+    "modifiedTime": 1738512550485,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "BwRsFvMHAq9vUtEO": 3,
+    "esOkelwPNblkbxW3": 3
+  },
+  "_id": "j2aY5kgDRUbQS8YU",
+  "sort": 0,
+  "_key": "!items!j2aY5kgDRUbQS8YU"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Cornucopia",
+  "type": "accessory",
+  "_id": "zVaQlLCeEc12LM6S",
+  "img": "icons/commodities/flowers/lily-white.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<h2>Qualities</h2><ol><li><p>When you <strong>recover Inventory Points,</strong> any excess points can be recovered by an ally of your choice.</p></li><li><p>When you <strong>spend Inventory Points</strong>, you have a @CHECK[ins wlp veryHard] <strong>chance</strong> to recover @GAIN[1 ip]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "isEquipped": {
+      "value": false
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "fuid": ""
+  },
+  "effects": [],
+  "folder": "Tw1AVAJxY0kjNgy4",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1725119559246,
+    "modifiedTime": 1737757513619,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!zVaQlLCeEc12LM6S"
+}

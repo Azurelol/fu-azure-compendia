@@ -1,0 +1,107 @@
+{
+  "folder": "KtaUckdlpuTepIbr",
+  "name": "Storm",
+  "type": "weapon",
+  "_id": "gaRigGMzVrjw6yVO",
+  "img": "icons/weapons/swords/greatsword-crossguard-engraved-green.webp",
+  "system": {
+    "fuid": "storm",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<h2>Qualities</h2><ol><li><p>When you <strong>hit a target</strong> with this weapon you can spend @LOSS[5 mp] to unleash a <strong>secondary</strong> arc at another enemy within range, dealing @DMG[&amp;step(5,10,15) bolt]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 1
+    },
+    "defense": "def",
+    "damage": {
+      "value": 10
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "sword"
+    },
+    "hands": {
+      "value": "two-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738513528946,
+    "modifiedTime": 1738513601954,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!gaRigGMzVrjw6yVO"
+}

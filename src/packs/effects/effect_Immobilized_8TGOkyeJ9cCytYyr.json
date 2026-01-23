@@ -1,0 +1,74 @@
+{
+  "folder": "UDmhIEcAZEwTNzJ2",
+  "name": "Immobilized",
+  "type": "effect",
+  "_id": "8TGOkyeJ9cCytYyr",
+  "img": "icons/creatures/webs/web-spider-caught-hand-purple.webp",
+  "system": {
+    "fuid": "afc-immobilized",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.8TGOkyeJ9cCytYyr",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Immobilized",
+      "img": "icons/creatures/webs/web-spider-caught-hand-purple.webp",
+      "_id": "rWwxvVHi4SEqvfQy",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "<p>You are caught in a web or effect that does not allow you to move. You are <strong>unable to make melee attacks</strong> until you break free. Breaking free will require a suitable <strong>easy check</strong> at the end of your turn.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!8TGOkyeJ9cCytYyr.rWwxvVHi4SEqvfQy"
+    }
+  ],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.30",
+    "createdTime": 1730492177716,
+    "modifiedTime": 1730646342405,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!8TGOkyeJ9cCytYyr"
+}

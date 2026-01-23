@@ -1,0 +1,63 @@
+{
+  "folder": "hDxRisIuYNCNBKir",
+  "name": "Spellblade's Plate",
+  "type": "armor",
+  "_id": "tD1dKtVGufENY0aJ",
+  "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
+  "system": {
+    "fuid": "spellblades-plate",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>@UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><hr /><h2>Qualities</h2><ol><li><p>When you <strong>cast a spell</strong> you may spend @LOSS[5 mp] to gain @UUID[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength}</p></li><li><p>When you <strong>attack </strong>with an equipped melee weapon you may spend @LOSS[5 mp] in order to gain @UUID[Compendium.fu-azure-compendia.effects.RTJquNkzJGTWtqGZ]{Evade} until the start of your next turn.</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "attribute": "",
+      "value": 11
+    },
+    "mdef": {
+      "attribute": "wlp",
+      "value": 1
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738081843475,
+    "modifiedTime": 1738518525290,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!tD1dKtVGufENY0aJ"
+}

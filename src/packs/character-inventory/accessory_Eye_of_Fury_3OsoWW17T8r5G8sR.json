@@ -1,0 +1,58 @@
+{
+  "folder": "Vam3ztpfKmZRRbSw",
+  "name": "Eye of Fury",
+  "type": "accessory",
+  "_id": "3OsoWW17T8r5G8sR",
+  "img": "icons/equipment/neck/pendant-rough-silver-red.webp",
+  "system": {
+    "fuid": "eye-of-fury",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.JqjAUSTgQyZdfAML]{Fury}</p><hr /><p><em>A wild. primal power suffuses this pendant.</em></p><h2>Qualities</h2><ol><li><p><strong>Once per conflict</strong> scene when you gain @UUID[Compendium.projectfu.skills.DniA4VMTBNhk5a1v]{Adrenaline} you may spend @LOSS[&amp;step(10,15,20) hp] in order to perform a <strong>free attack</strong>.</p></li><li><p>When you benefit from @UUID[Compendium.projectfu.skills.oi2LgAoLN5IyuBG3]{Frenzy} you recover @GAIN[&amp;step(5,10,15) hp]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": -1
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737412242871,
+    "modifiedTime": 1737755988804,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!3OsoWW17T8r5G8sR"
+}

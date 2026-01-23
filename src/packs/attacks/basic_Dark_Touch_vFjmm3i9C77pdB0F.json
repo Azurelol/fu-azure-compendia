@@ -1,0 +1,83 @@
+{
+  "folder": "ht9aFgrgTbRLF3M6",
+  "name": "Dark Touch",
+  "type": "basic",
+  "_id": "vFjmm3i9C77pdB0F",
+  "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
+  "system": {
+    "fuid": "dark-touch",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 1
+    },
+    "defense": "mdef",
+    "damage": {
+      "value": 5
+    },
+    "type": {
+      "value": "melee"
+    },
+    "damageType": {
+      "value": "dark"
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731694796152,
+    "modifiedTime": 1731694796152,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!vFjmm3i9C77pdB0F"
+}

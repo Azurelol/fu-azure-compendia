@@ -1,0 +1,22 @@
+{
+  "name": "Trap",
+  "sorting": "a",
+  "folder": "orEorr1dJrzLuzO4",
+  "type": "Item",
+  "_id": "FQ1rTdacg153JWfh",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.30",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!FQ1rTdacg153JWfh"
+}

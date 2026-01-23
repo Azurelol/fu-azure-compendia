@@ -1,0 +1,58 @@
+{
+  "folder": "UwcyjtjzjqdeSyde",
+  "name": "Safe Detonation",
+  "type": "rule",
+  "_id": "ljVyEUPhqdmdcuwd",
+  "img": "icons/magic/perception/mask-stone-eyes-orange.webp",
+  "system": {
+    "fuid": "safe-detonation",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you use @UUID[Compendium.fu-azure-compendia.skills.lScwb7A2maf1mewy]{Detonation} your <strong>allies are not targeted.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731697611091,
+    "modifiedTime": 1731697675243,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!ljVyEUPhqdmdcuwd"
+}

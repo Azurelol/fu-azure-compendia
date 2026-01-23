@@ -1,0 +1,74 @@
+{
+  "folder": "sE8kVvnk48MlEc84",
+  "name": "Scales of Justice",
+  "type": "accessory",
+  "_id": "Vwlts1xnEZZWSXqL",
+  "img": "icons/tools/hand/scale-balances-merchant-brown.webp",
+  "system": {
+    "fuid": "crusaders-banner",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class:</strong> @UUID[Compendium.projectfu.classes.8HxmAoTTwLlmQ8Fc]{Orator}</p><hr /><p><em>Never blind.</em></p><h2>Qualities</h2><ol><li><p>At at the <strong>beginning of your turn </strong>you can spend @LOSS[5 mp] in order to inflict an enemy with @UUID[Compendium.fu-azure-compendia.effects.Gb2QyfiaVKD1RuiR]{Seal of Judgement}</p></li><li><p>At the <strong>beginning of your turn</strong> you can <strong>instead</strong> spend @LOSS[5 mp] in order to affect an ally with @UUID[Compendium.fu-azure-compendia.effects.TI8kVyfULJbFh3WU]{Seal of Wisdom}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1730825382112,
+    "modifiedTime": 1737750336753,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!Vwlts1xnEZZWSXqL"
+}

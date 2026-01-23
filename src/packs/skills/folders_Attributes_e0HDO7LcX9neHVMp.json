@@ -1,0 +1,22 @@
+{
+  "name": "Attributes",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "e0HDO7LcX9neHVMp",
+  "description": "",
+  "sort": 600000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1731526744554,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!e0HDO7LcX9neHVMp"
+}

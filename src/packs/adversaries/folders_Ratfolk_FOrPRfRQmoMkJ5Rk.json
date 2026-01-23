@@ -1,0 +1,22 @@
+{
+  "name": "Ratfolk",
+  "sorting": "a",
+  "folder": "t7uOZRF533g2zxGo",
+  "type": "Actor",
+  "_id": "FOrPRfRQmoMkJ5Rk",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": 1725130870665,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!FOrPRfRQmoMkJ5Rk"
+}

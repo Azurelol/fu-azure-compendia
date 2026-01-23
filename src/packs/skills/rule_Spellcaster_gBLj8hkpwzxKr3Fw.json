@@ -1,0 +1,109 @@
+{
+  "folder": "e0HDO7LcX9neHVMp",
+  "name": "Spellcaster",
+  "type": "rule",
+  "_id": "gBLj8hkpwzxKr3Fw",
+  "img": "icons/magic/symbols/star-yellow.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "You are a wizard, Imperial Mage 72"
+    },
+    "description": "<p>You have the ability to cast spells. Choose from one option:</p><ul><li><p>You learn <strong>one spell</strong> and increase your maximum Mind Points by 10.</p></li><li><p>You learn <strong>two spells</strong>.</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "spellcaster"
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Increased Mind Points",
+      "img": "icons/magic/symbols/star-yellow.webp",
+      "_id": "dEsAGF1XtfqBrZKh",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.resources.mp.max",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none",
+          "type": "default",
+          "source": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!gBLj8hkpwzxKr3Fw.dEsAGF1XtfqBrZKh"
+    }
+  ],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!gBLj8hkpwzxKr3Fw"
+}

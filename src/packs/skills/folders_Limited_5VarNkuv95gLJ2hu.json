@@ -1,0 +1,22 @@
+{
+  "name": "Limited",
+  "sorting": "a",
+  "folder": "Y30FsMWJPwv01kX5",
+  "type": "Item",
+  "_id": "5VarNkuv95gLJ2hu",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!5VarNkuv95gLJ2hu"
+}

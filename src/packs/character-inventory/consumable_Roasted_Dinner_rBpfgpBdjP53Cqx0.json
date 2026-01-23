@@ -1,0 +1,48 @@
+{
+  "folder": "BYGNpBIU9IpbOZHE",
+  "name": "Roasted Dinner",
+  "type": "consumable",
+  "_id": "rBpfgpBdjP53Cqx0",
+  "img": "icons/consumables/food/chicken-bird-cooked.webp",
+  "system": {
+    "fuid": "roasted-porcine",
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>During a camp scene</strong>, you prepare a hearty and flavorful feast, featuring tender, slow-roasted meat with a <strong>crisp</strong>, golden-brown exterior, accompanied by seasoned vegetables <strong>caramelized</strong> <strong>to</strong> <strong>perfection</strong>. Served with rich, savory gravy and a side of warm, buttery bread, it’s a comforting meal that brings warmth to any table.</p><p><strong>All party members</strong> gain @UUID[Compendium.fu-azure-compendia.effects.Iygu6CiKl9ZLpVi9]{Physical Ward} until it expires or their next rest.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 2
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739387551397,
+    "modifiedTime": 1739392374907,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!rBpfgpBdjP53Cqx0"
+}

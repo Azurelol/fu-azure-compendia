@@ -1,0 +1,143 @@
+{
+  "name": "Campaign",
+  "_id": "nKKtuOOqEmQO4n8l",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Introduction",
+      "type": "text",
+      "_id": "7JgmHKk0RBnY9aa1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>This journal will contain advice and tips for running a campaign in this system, starting from session zero to preparing a prologue, then preparing your long-term campaign.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.25",
+        "createdTime": 1727373448811,
+        "modifiedTime": 1727373805681,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!nKKtuOOqEmQO4n8l.7JgmHKk0RBnY9aa1"
+    },
+    {
+      "sort": 200000,
+      "name": "Structure",
+      "type": "text",
+      "_id": "eCpd4jSJ7TCLGrbB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>At this time of writing, my preferred approach for planning out a campaign is that of planning it out as a 12-session affair. Think of it as a season in a modern show.</p><p>This approach has served me well by first setting clear expectations for myself and the players in terms of what things we shall focus on during the campaign.</p><p>I have found great success in using session zero as a springboard for preparing the campaign's various plots in terms of <a href=\"https://www.dungeonworldsrd.com/gamemastering/fronts/\">Fronts</a>, a game master tool from Dungeon World, itself a seminal title in the space.</p><h2>Fronts</h2><p>I have found that starting with 3 campaign fronts is best, and have each grim portent in each front regularly advance between sessions, either at the start of a session or at the end.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.25",
+        "createdTime": 1727373519236,
+        "modifiedTime": 1727632369509,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!nKKtuOOqEmQO4n8l.eCpd4jSJ7TCLGrbB"
+    },
+    {
+      "sort": 150000,
+      "name": "Session Zero",
+      "type": "text",
+      "_id": "cXimJDR3jNPEhe4H",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The core rulebook for the system does a brilliant job in laying out a plan for preparing for your campaign in the <strong>Press Start</strong> chapter. When you have your session zero I <em>strongly</em> suggest you go over each page together with your players and answer the questions together.</p><p>In this page I will write some addendums of my own as well link some resources which may help this venture.</p><h2>World Creation</h2><p>I found great success using <a href=\"https://azgaar.github.io/Fantasy-Map-Generator/\">Azgaars Fantasy Map Generator</a> to prepare for my campaign. You can generate a landmass, export it as an image then import it to Foundry as a scene, allowing everyone on the table to work on the world map together.</p><p>You can use Foundry's <strong>map notes</strong> under the Journal Notes and pin them on the map for locations. This can be enhanced with the usage of the <a href=\"https://foundryvtt.com/packages/pin-cushion\">Pin Cushion</a> module.</p><h2>Prologue</h2><p>As suggested in the CRB, a good prologue should have the campaign hit the ground running and give an exciting welcome to your players to the world you have created together.</p><p>When preparing the prologue, it is best to target for a couple sessions worth of play and for it be a more guided experience than general play. This will give everyone time to familiarize themselves with the PCs and for the players to find out their character's voices.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.25",
+        "createdTime": 1727373812135,
+        "modifiedTime": 1727632185574,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!nKKtuOOqEmQO4n8l.cXimJDR3jNPEhe4H"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.23",
+    "createdTime": 1726079138871,
+    "modifiedTime": 1726079138871,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!nKKtuOOqEmQO4n8l"
+}

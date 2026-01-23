@@ -1,0 +1,112 @@
+{
+  "name": "Engraved Needle",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/dagger-ringed-engraved-green.webp",
+  "system": {
+    "subtype": {
+      "value": ""
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<h2>Qualities</h2><ol><li><p></p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 150
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "value": 4
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "category": {
+      "value": "thrown"
+    },
+    "hands": {
+      "value": "one-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "defense": "def",
+    "fuid": "shuriken",
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "ISM5s11EZfu60GRM",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738511544083,
+    "modifiedTime": 1739041598130,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "BwRsFvMHAq9vUtEO": 3,
+    "esOkelwPNblkbxW3": 3
+  },
+  "_id": "ojGdMHIhT92IWt8l",
+  "sort": 0,
+  "_key": "!items!ojGdMHIhT92IWt8l"
+}

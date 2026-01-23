@@ -1,0 +1,58 @@
+{
+  "folder": "Hj9kM30W1OxU1kBe",
+  "name": "Escape",
+  "type": "rule",
+  "_id": "MfmNjR8II4F88YGS",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "system": {
+    "fuid": "escape",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When <strong>reduced to 0 HP,</strong> you may <strong>spend</strong> <strong>1 Ultima Point</strong> in order to safely disappear from the scene.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!MfmNjR8II4F88YGS"
+}

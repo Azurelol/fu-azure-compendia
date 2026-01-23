@@ -1,0 +1,58 @@
+{
+  "folder": "ViM4tJL6WtXIChbr",
+  "name": "Magical Mine",
+  "type": "rule",
+  "_id": "CtSVJRUuWMVpQNXX",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "fuid": "magical-mine",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>One</strong> of the characters must make a @CHECK[ins wlp normal] check or step into an magical trap inscribed into the floor. If they are caught in it the party can take either of the following approaches:</p><ul><li><p>Trapped character attempts to <strong>bolt away</strong> from it with a @CHECK[dex ins hard] check.</p></li><li><p>Another character attempts to <strong>disarm</strong> the trap via magical means with an <strong>individual minor ritual.</strong></p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738426594456,
+    "modifiedTime": 1738427478219,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!CtSVJRUuWMVpQNXX"
+}

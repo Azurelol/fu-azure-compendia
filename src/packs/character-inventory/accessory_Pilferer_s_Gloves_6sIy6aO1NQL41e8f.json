@@ -1,0 +1,58 @@
+{
+  "folder": "YbHHnshr5RnqMZCO",
+  "name": "Pilferer's Gloves",
+  "type": "accessory",
+  "_id": "6sIy6aO1NQL41e8f",
+  "img": "icons/equipment/hand/glove-tooled-leather-brown.webp",
+  "system": {
+    "fuid": "pilferers-gloves",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Class: @UUID[Compendium.projectfu.classes.q7ak4N89Makw4jiJ]{Rogue}</p><hr /><p><em>Who said anything about idle hands?</em></p><h2>Qualities</h2><ol><li><p>While benefiting from @UUID[Compendium.projectfu.skills.ksgKc90MZSpDTka7]{Dodge} when you are <strong>missed</strong> by a <strong>melee</strong> attack by <strong>4 or more,</strong> you recover @GAIN[1 ip]. This can only <strong>occur once per conflict</strong>.</p></li><li><p>When you perform @UUID[Compendium.projectfu.skills.c2XRt5pvOab25Tbe]{Cheap Shot} you recover @GAIN[&amp;step(2,3,4) mp]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737747438276,
+    "modifiedTime": 1737748347799,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!6sIy6aO1NQL41e8f"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "ViM4tJL6WtXIChbr",
+  "name": "Snake Trap",
+  "type": "rule",
+  "_id": "1X38JWxBWzH78lMG",
+  "img": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+  "system": {
+    "fuid": "snake-trap",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>One</strong> of the characters in the scene must make a @CHECK[dex ins normal] check or step into a pressure trigger leading to a nearby opening releasing a mass of snakes near them. In their rush they inflict @DMG[$step(10,15,20) poison] damage to them and inflict @EFFECT[shaken] to <strong>another</strong>.</p><p><em>Why is it always snakes?</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738426799002,
+    "modifiedTime": 1738427061418,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!1X38JWxBWzH78lMG"
+}

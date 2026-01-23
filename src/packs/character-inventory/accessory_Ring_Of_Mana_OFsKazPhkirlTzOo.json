@@ -1,0 +1,58 @@
+{
+  "folder": "QewFtrmh9koj7U7n",
+  "name": "Ring Of Mana",
+  "type": "accessory",
+  "_id": "OFsKazPhkirlTzOo",
+  "img": "icons/equipment/finger/ring-winged-gold-blue.webp",
+  "system": {
+    "fuid": "ring-of-power",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.vSE3PMoHTGLC1yzG]{Elementalist}</p><hr /><p>When you cast @UUID[Compendium.projectfu.skills.zlmL0suZwTCQYzE5]{Elemental Magic} you may empower your spell further and have it apply an additional effect based on its element for <strong>one turn</strong>.</p><ul><li><p><strong>You</strong>: @LOSS[5 mp]</p></li></ul><table><tbody><tr><td><p><strong>Element</strong></p></td><td><p><strong>Effect</strong></p></td></tr><tr><td><p>Fire</p></td><td><p>@UUID[Compendium.fu-azure-compendia.effects.OYh5Swp0087I3f0k]{Burning}</p></td></tr><tr><td><p>Ice</p></td><td><p>@UUID[Compendium.fu-azure-compendia.effects.zqmBtaCGTo9DVmyR]{Frostbite}</p></td></tr><tr><td><p>Bolt</p></td><td><p>@UUID[Compendium.fu-azure-compendia.effects.ypvTV9uyc7R6LPA4]{Shocked}</p></td></tr><tr><td><p>Earth</p></td><td><p>@UUID[Compendium.fu-azure-compendia.effects.tFTJ4dYIRNyMdlCK]{Rooted}</p></td></tr><tr><td><p>Air</p></td><td><p>@UUID[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone}</p></td></tr></tbody></table>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 1
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737409695805,
+    "modifiedTime": 1737754137048,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!OFsKazPhkirlTzOo"
+}

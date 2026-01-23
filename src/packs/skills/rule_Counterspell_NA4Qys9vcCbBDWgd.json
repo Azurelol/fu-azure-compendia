@@ -1,0 +1,58 @@
+{
+  "folder": "02EELzRzHhrEwzoj",
+  "name": "Counterspell",
+  "type": "rule",
+  "_id": "NA4Qys9vcCbBDWgd",
+  "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
+  "system": {
+    "fuid": "counterspell",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When an enemy uses the <strong>Spell </strong>action, you may <strong>spend an equal amount of mind points</strong> to attempt an opposed @CHECK[wlp wlp] check to compromise the spell (<strong>before</strong> their spell has been fully resolved). If the spell is compromised the caster may <strong>spend its cost again</strong> in order to finish casting it.</p><p><em>You may only use this skill once per round.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1734805163246,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!NA4Qys9vcCbBDWgd"
+}

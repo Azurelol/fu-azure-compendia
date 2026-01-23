@@ -1,0 +1,141 @@
+{
+  "folder": "YXxIAFAGV7qohzPK",
+  "name": "Summon",
+  "type": "spell",
+  "_id": "NfeRKAgrOHxtKQIP",
+  "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+  "system": {
+    "fuid": "summon",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You summon up <strong>two</strong> <strong>soldier-rank</strong> <strong>demons or elementals</strong> onto the scene to fight on your behalf (You <strong>may not have more than two on the scene</strong> at any given time). At the time of summoning you may spend @LOSS[5 mp] on each to further strengthen them:</p><ul><li><p><strong>Empower:</strong> @EFFECT[mig-up] | @EFFECT[dex-up] | @EFFECT[ins-up] | @EFFECT[wlp-up]</p></li><li><p><strong>Imprint:</strong> @UUID[Compendium.fu-azure-compendia.skills.4iT7No3ENLk94pbp]{Interrupt} @UUID[Compendium.fu-azure-compendia.skills.KnzS7X7Ew1AnvevI]{Punish} @UUID[Compendium.fu-azure-compendia.skills.ZgDF34ssI4PzOjZV]{Engage}</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "10"
+    },
+    "maxTargets": {
+      "value": 0
+    },
+    "target": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429073863,
+    "modifiedTime": 1736612829944,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!NfeRKAgrOHxtKQIP"
+}

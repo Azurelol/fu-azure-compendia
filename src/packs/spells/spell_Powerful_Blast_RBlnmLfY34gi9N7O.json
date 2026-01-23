@@ -1,0 +1,141 @@
+{
+  "folder": "DQEzi3fRhapnCyvi",
+  "name": "Powerful Blast",
+  "type": "spell",
+  "img": "icons/magic/fire/projectile-fireball-orange-yellow.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Unleashes a massive attack on the target area. If there are multiple targets on the area, the damage is shared and lessened for each individual. @UUID[Compendium.fu-azure-compendia.macros.Macro.P2BPcaXdk198oyT0]{Stack Marker}</p><hr /><table><tbody><tr><td data-colwidth=\"70\"><p><strong>Targets</strong></p></td><td data-colwidth=\"189\"><p><strong>Damage per target</strong></p></td></tr><tr><td data-colwidth=\"70\"><p>1</p></td><td data-colwidth=\"189\"><p>@DMG[100 untyped]</p></td></tr><tr><td data-colwidth=\"70\"><p>2</p></td><td data-colwidth=\"189\"><p>@DMG[40 untyped]</p></td></tr><tr><td data-colwidth=\"70\"><p>3</p></td><td data-colwidth=\"189\"><p>@DMG[30 untyped]</p></td></tr><tr><td data-colwidth=\"70\"><p>4+</p></td><td data-colwidth=\"189\"><p>@DMG[20 untyped]</p></td></tr></tbody></table><p><em>Note that this action is only valid in an <strong>active field battle.</strong></em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "20"
+    },
+    "maxTargets": {
+      "value": 1
+    },
+    "target": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "wlp"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 5,
+        "type": {
+          "value": "dark"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "fuid": "powerful-blast"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429073863,
+    "modifiedTime": 1731429073863,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "RBlnmLfY34gi9N7O",
+  "sort": 100000,
+  "_key": "!items!RBlnmLfY34gi9N7O"
+}

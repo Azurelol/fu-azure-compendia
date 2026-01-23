@@ -1,0 +1,107 @@
+{
+  "folder": "e0HDO7LcX9neHVMp",
+  "name": "Minion",
+  "type": "rule",
+  "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "You are just a tire-tube man"
+    },
+    "description": "<p>You are a follower of a more powerful creature and can <strong>only act once per round during one of their turns</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "minion"
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.LpCwZNfop9hZHx9X",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Minion",
+      "img": "modules/fu-azure-compendia/assets/icons/skills/private-first-class.png",
+      "_id": "xZAaO6opYOvvRYMs",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.resources.hp.max",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!LpCwZNfop9hZHx9X.xZAaO6opYOvvRYMs"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "LpCwZNfop9hZHx9X",
+  "sort": 100000,
+  "_key": "!items!LpCwZNfop9hZHx9X"
+}

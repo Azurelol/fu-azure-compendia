@@ -1,0 +1,58 @@
+{
+  "folder": "7nJ0oAhFKLGbXuX6",
+  "name": "Heroes Song",
+  "type": "rule",
+  "_id": "KFMvEIStAaGmTM7Z",
+  "img": "icons/magic/holy/chalice-glowing-gold-water.webp",
+  "system": {
+    "fuid": "heroes-song",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>At the <strong>end of the round</strong> one of your allies gains one of the following effects. That ally <strong>cannot gain that effect again until</strong> all other allies have also gained an effect on the following rounds.</p><p>@EFFECT[wlp-up] @EFFECT[dex-up] @EFFECT[ins-up] @EFFECT[mig-up]</p><p></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1732035250401,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!KFMvEIStAaGmTM7Z"
+}

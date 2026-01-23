@@ -1,0 +1,910 @@
+{
+  "folder": "0jo7ku2NgTBuY8Hs",
+  "name": "Lizardfolk Shaman",
+  "type": "npc",
+  "_id": "34dWwRJfuJ9bXAKQ",
+  "img": "modules/fu-azure-compendia/assets/tokens/humanoids/Crocodile%20Warriors%20Mage.png",
+  "system": {
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 40,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 65,
+        "bonus": 0
+      },
+      "rp1": {
+        "name": "",
+        "value": 0
+      },
+      "rp2": {
+        "name": "",
+        "value": 0
+      },
+      "rp3": {
+        "name": "",
+        "value": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "max": 6,
+        "value": 6
+      },
+      "fp": {
+        "value": 3
+      },
+      "bonds": [],
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 1
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": -1
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 6
+      },
+      "wlp": {
+        "base": 10
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "bonuses": {
+      "accuracy": {
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "damage": {
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      }
+    },
+    "traits": {
+      "value": ""
+    },
+    "species": {
+      "value": "beast"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "isElite": {
+      "value": false
+    },
+    "isChampion": {
+      "value": 1
+    },
+    "isCompanion": {
+      "value": false
+    },
+    "companion": {
+      "playerLevel": 1,
+      "skillLevel": 1
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "description": "",
+    "associatedTherioforms": "",
+    "role": {
+      "value": "mage"
+    }
+  },
+  "prototypeToken": {
+    "name": "Lizardfolk Shaman",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/humanoids/Crocodile%20Warriors%20Mage.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2.5,
+      "scaleY": 2.5,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Poison",
+      "type": "spell",
+      "img": "icons/magic/acid/projectiles-trio-salvo.webp",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Each target hit by this spell suffers @EFFECT[poisoned].</p><hr /><p>@LOSS[10 mp] for <strong>one</strong> target.</p><p>@LOSS[20 mp] for <strong>two</strong> targets.</p><p>@LOSS[30 mp] for <strong>three</strong> targets.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "class": {
+          "value": "NPC"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "target": {
+          "value": "Up to three creatures"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "rollInfo": {
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          },
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR311"
+        },
+        "subtype": {},
+        "opportunity": "",
+        "maxTargets": {
+          "value": 3
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.game-master.Item.PYXh4QmqJDiA2tqy",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725130167175,
+        "modifiedTime": 1725130167175,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "folder": "PpBzAnM7EK75ayIT",
+      "_id": "GMAapOkPZqe1rAy9",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "_key": "!actors.items!34dWwRJfuJ9bXAKQ.GMAapOkPZqe1rAy9"
+    },
+    {
+      "name": "War Cry",
+      "type": "spell",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Until this spell ends, each target gains a +1 bonus to Accuracy Checks</p><hr /><p>@EFFECT[eyJuYW1lIjoiV2FyIENyeSIsImNoYW5nZXMiOlt7ImtleSI6InN5c3RlbS5ib251c2VzLmFjY3VyYWN5LmFjY3VyYWN5Q2hlY2siLCJtb2RlIjoyLCJ2YWx1ZSI6MX1dLCJpY29uIjoiaWNvbnMvc2tpbGxzL3dvdW5kcy9pbmp1cnktZmFjZS1pbXBhY3Qtb3JhbmdlLndlYnAifQ==]</p><p>@LOSS[10 mp] for <strong>one</strong> target.</p><p>@LOSS[20 mp] for <strong>two</strong> targets.</p><p>@LOSS[30 mp] for <strong>three</strong> targets.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "class": {
+          "value": "NPC"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "hasDamage": {
+            "value": false
+          },
+          "value": 0,
+          "type": {
+            "value": "physical"
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "mpCost": {
+          "value": "10"
+        },
+        "target": {
+          "value": "Up to three creatures"
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "rollInfo": {
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          },
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "source": {
+          "value": "FUCR311"
+        },
+        "subtype": {},
+        "opportunity": "",
+        "maxTargets": {
+          "value": 3
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.game-master.Item.sJc4OnOFGBTiQEzs",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1725130266610,
+        "modifiedTime": 1725130266610,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "folder": "PpBzAnM7EK75ayIT",
+      "_id": "xGmuhbyksjOH6BJl",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3
+      },
+      "_key": "!actors.items!34dWwRJfuJ9bXAKQ.xGmuhbyksjOH6BJl"
+    },
+    {
+      "folder": "y9VacGKyFP10h5ee",
+      "name": "Second Wind",
+      "type": "rule",
+      "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, you immediately <strong>recover from all status effects</strong>.</p>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "second-wind"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.U5g8KhPV1gmQI5DS",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.25",
+        "createdTime": 1727551629288,
+        "modifiedTime": 1727551629288,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "gSUO34nUXFA6ma1G",
+      "sort": 400000,
+      "_key": "!actors.items!34dWwRJfuJ9bXAKQ.gSUO34nUXFA6ma1G"
+    },
+    {
+      "folder": "qRpDGGGdnhmkFuQj",
+      "name": "Acid Spit",
+      "type": "basic",
+      "img": "icons/magic/acid/projectile-smoke-glowing.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "wlp"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "mdef",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "ranged"
+        },
+        "damageType": {
+          "value": "poison"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "acid-spit"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.Jxgwu1AFxBM0lBJG",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.25",
+        "createdTime": 1727551638697,
+        "modifiedTime": 1727551638697,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "pSJUuK0Qu2nVvRRF",
+      "sort": 0,
+      "_key": "!actors.items!34dWwRJfuJ9bXAKQ.pSJUuK0Qu2nVvRRF"
+    },
+    {
+      "folder": "MgMKdbFzDjpQzPDq",
+      "name": "Claw",
+      "type": "basic",
+      "_id": "tqIVcvb6T3ZRLqFu",
+      "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You attack the target with your claws"
+        },
+        "description": "",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "value": 5
+        },
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "fuid": "claw"
+      },
+      "effects": [],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.xGhewaDJfJsZCx0L",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.25",
+        "createdTime": 1727551646563,
+        "modifiedTime": 1727551646563,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!34dWwRJfuJ9bXAKQ.tqIVcvb6T3ZRLqFu"
+    },
+    {
+      "folder": "e0HDO7LcX9neHVMp",
+      "name": "Spellcaster",
+      "type": "rule",
+      "_id": "ryjC3jsuKsPUNx4x",
+      "img": "icons/magic/symbols/star-yellow.webp",
+      "system": {
+        "subtype": {},
+        "summary": {
+          "value": "You are a wizard, Imperial Mage 72"
+        },
+        "description": "<p>You have the ability to cast spells. Choose from one option:</p><ul><li><p>You learn <strong>one spell</strong> and increase your maximum Mind Points by 10.</p></li><li><p>You learn <strong>two spells</strong>.</p></li></ul>",
+        "isFavored": {
+          "value": false
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6
+        },
+        "source": {
+          "value": "FU-AZURE"
+        },
+        "fuid": "spellcaster"
+      },
+      "effects": [
+        {
+          "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "name": "Increased Mind Points",
+          "img": "modules/fu-azure-compendia/assets/icons/skills/spell-book.png",
+          "_id": "dEsAGF1XtfqBrZKh",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.resources.mp.max",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "CrisisInteraction": "none"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "projectfu",
+            "systemVersion": "2.4.0-alpha.30",
+            "createdTime": null,
+            "modifiedTime": 1730586805490,
+            "lastModifiedBy": "esOkelwPNblkbxW3",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!34dWwRJfuJ9bXAKQ.ryjC3jsuKsPUNx4x.dEsAGF1XtfqBrZKh"
+        }
+      ],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": 1730586799951,
+        "modifiedTime": 1730586799951,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!actors.items!34dWwRJfuJ9bXAKQ.ryjC3jsuKsPUNx4x"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1725130024786,
+    "modifiedTime": 1733600371924,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!actors!34dWwRJfuJ9bXAKQ"
+}

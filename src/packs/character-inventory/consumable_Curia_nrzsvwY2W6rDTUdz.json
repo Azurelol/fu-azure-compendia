@@ -1,0 +1,48 @@
+{
+  "folder": "sqjQQzGCPYuCoSGu",
+  "name": "Curia",
+  "type": "consumable",
+  "_id": "nrzsvwY2W6rDTUdz",
+  "img": "icons/consumables/potions/potion-tube-corked-orange.webp",
+  "system": {
+    "fuid": "balm",
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>A restorative that can be administered on a target to recover from <strong>all status effects</strong> when <strong>not in a conflict.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1725725296372,
+    "modifiedTime": 1738506365269,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!nrzsvwY2W6rDTUdz"
+}

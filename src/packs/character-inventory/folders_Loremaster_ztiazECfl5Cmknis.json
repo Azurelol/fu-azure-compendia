@@ -1,0 +1,22 @@
+{
+  "name": "Loremaster",
+  "sorting": "a",
+  "folder": "F9mqRMVKb439LYON",
+  "type": "Item",
+  "_id": "ztiazECfl5Cmknis",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!ztiazECfl5Cmknis"
+}

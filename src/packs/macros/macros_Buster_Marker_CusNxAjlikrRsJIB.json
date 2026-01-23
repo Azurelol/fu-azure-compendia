@@ -1,0 +1,28 @@
+{
+  "folder": "cYboTilysLIvvBor",
+  "name": "Buster Marker",
+  "type": "script",
+  "_id": "CusNxAjlikrRsJIB",
+  "author": "esOkelwPNblkbxW3",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "let name = \"tank_buster.webm\";\nlet path = \"modules/fu-azure-compendia/assets/tiles/\" + name;\n\nlet token = canvas.tokens.controlled[0];\nlet position = token.position;\n\nlet tileData = {\n  x: position.x - 50,\n  y: position.y - 175,\n  width: 200,\n  height: 300,\n  elevation: 1,\n  texture: {src: path}\n};\nlet marker = canvas.scene.createEmbeddedDocuments(\"Tile\",[tileData]);",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724089701627,
+    "modifiedTime": 1724091255052,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!macros!CusNxAjlikrRsJIB"
+}

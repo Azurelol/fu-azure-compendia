@@ -1,0 +1,58 @@
+{
+  "folder": "wW6Y7QUFksiPe6Iu",
+  "name": "Steal",
+  "type": "rule",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Your <strong>melee attack</strong> on a target gives you a chance to steal their items. When you hit a target affected by @EFFECT[slow] you may treat your <strong>HR as 0</strong> when calculating the damage by this attack. If you do, the target loses @LOSS[1 ip] . If you are <strong>defeated</strong>, the target can <strong>recover all IP you have stolen</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "steal"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "dhc9tCXL5roh3GgU",
+  "sort": 300000,
+  "_key": "!items!dhc9tCXL5roh3GgU"
+}

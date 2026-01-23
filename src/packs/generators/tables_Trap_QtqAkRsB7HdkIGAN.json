@@ -1,0 +1,354 @@
+{
+  "name": "Trap",
+  "_id": "QtqAkRsB7HdkIGAN",
+  "img": "icons/environment/traps/trap-jaw-tan.webp",
+  "description": "<p>What kind of trap has the party sprung?</p>",
+  "results": [
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/environment/traps/pressure-plate.webp",
+      "_id": "NRWiAq0LemPucHRH",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Closing Walls",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.wWiL8wr1J6TdwOPS",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.NRWiAq0LemPucHRH"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/magic/earth/projectile-spiked-stone-boulder-brown.webp",
+      "_id": "UxYg6KDbajSdIy00",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Falling Boulder",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.m5iwhBlsjXJdWnzY",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.UxYg6KDbajSdIy00"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "icons/containers/chest/chest-reinforced-stone.webp",
+      "_id": "XVNinJibf8EPe5gs",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "False Treasure",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.QFZ7XwCHSF24h4YT",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.XVNinJibf8EPe5gs"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/environment/traps/pressure-plate.webp",
+      "_id": "r8gnTstGUXnmxhJq",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Floor Hatch",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.om9rejk6giu9J8Yw",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.r8gnTstGUXnmxhJq"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "img": "icons/environment/traps/spiked-wall.webp",
+      "_id": "dIobgRypJ1XSQNrN",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Floor Spikes",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.4rDjH2HTmgPNmigz",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.dIobgRypJ1XSQNrN"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/skills/ranged/arrows-flying-salvo-blue.webp",
+      "_id": "2sXZkFtodkmjcBRg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Raining Needles",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.BENClXZilOT6HEsN",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.2sXZkFtodkmjcBRg"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-broad-energy-pink.webp",
+      "_id": "2scW4oiY6nlqaYE2",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Swinging Blade",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.D6VOzz0gNUmodb2p",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.2scW4oiY6nlqaYE2"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_id": "BROtzihOehXytIns",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Sudden Slime",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.c8Q623Pyr3cCelv9",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.BROtzihOehXytIns"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "img": "icons/magic/acid/projectile-needles-salvo-green.webp",
+      "_id": "IcDW0AQZMuZ2v1mk",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Poison Darts",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.LcIxKSCBSBvPkLy8",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.IcDW0AQZMuZ2v1mk"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "img": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+      "_id": "4shw946ptkoen1a1",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Snake Trap",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.1X38JWxBWzH78lMG",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.4shw946ptkoen1a1"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "3D509AG3C3H0aSBi",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Magical Mine",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.CtSVJRUuWMVpQNXX",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.3D509AG3C3H0aSBi"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "img": "icons/magic/control/debuff-energy-snare-brown.webp",
+      "_id": "p1XEupoErHhvy8ze",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Slick Surface",
+      "documentUuid": "Compendium.fu-azure-compendia.skills.Item.VBbQpbhfZwmgcxxh",
+      "description": "",
+      "_key": "!tables.results!QtqAkRsB7HdkIGAN.p1XEupoErHhvy8ze"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723982897910,
+    "modifiedTime": 1738432857853,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "_key": "!tables!QtqAkRsB7HdkIGAN"
+}

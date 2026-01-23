@@ -1,0 +1,58 @@
+{
+  "folder": "zAIZzTlY47dOMYU2",
+  "name": "Fencer's Gloves",
+  "type": "accessory",
+  "_id": "LFUP2qUa8YBx36l7",
+  "img": "icons/equipment/hand/gauntlet-plate-steel-grey.webp",
+  "system": {
+    "fuid": "sheathe",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.kVSzbabb2AUviwnH]{Weaponmaster}</p><hr /><p>A lifetime of training and aptitude all leading to a single moment of test.</p><h2>Qualities</h2><ol><li><p>When you perform a @UUID[Compendium.projectfu.skills.XhcTVGtGEk7L2Ddq]{Counterattack} if the result of the accuracy check was a <strong>fumble</strong> you make your <strong>free attack</strong> at <strong>full</strong> <strong>potency</strong>.</p></li><li><p>When you take the @EFFECT[guard] action you <strong>can</strong> <strong>perform</strong> a @UUID[Compendium.projectfu.skills.XhcTVGtGEk7L2Ddq]{Counterattack} even if the result of the <strong>failed</strong> accuracy check was <strong>not an even number</strong>.</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737745428297,
+    "modifiedTime": 1737747997379,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!LFUP2qUa8YBx36l7"
+}

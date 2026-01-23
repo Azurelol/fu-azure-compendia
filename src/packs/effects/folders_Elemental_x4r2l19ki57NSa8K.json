@@ -1,0 +1,22 @@
+{
+  "name": "Elemental",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "x4r2l19ki57NSa8K",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.30",
+    "createdTime": 1730492932921,
+    "modifiedTime": 1737749925057,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!x4r2l19ki57NSa8K"
+}

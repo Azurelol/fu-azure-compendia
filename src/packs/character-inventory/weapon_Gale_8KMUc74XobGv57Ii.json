@@ -1,0 +1,107 @@
+{
+  "folder": "KtaUckdlpuTepIbr",
+  "name": "Gale",
+  "type": "weapon",
+  "_id": "8KMUc74XobGv57Ii",
+  "img": "icons/weapons/swords/sword-guard-serrated.webp",
+  "system": {
+    "fuid": "gale",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><em>A magicked sword that unleashes slashing wind at range.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 1
+    },
+    "defense": "def",
+    "damage": {
+      "value": 5
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "category": {
+      "value": "sword"
+    },
+    "hands": {
+      "value": "two-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "air"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738513347173,
+    "modifiedTime": 1738513509008,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!8KMUc74XobGv57Ii"
+}

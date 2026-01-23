@@ -1,0 +1,186 @@
+{
+  "name": "Random Action",
+  "_id": "dYnk6EvDHrLS0WPy",
+  "img": "icons/skills/social/trading-injustice-scale-gray.webp",
+  "description": "<p>You take a random action</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "8PAs835bFV42ocg8",
+      "img": "systems/projectfu/styles/static/compendium/weapons/bronze-sword.png",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Attack",
+      "name": "",
+      "_key": "!tables.results!dYnk6EvDHrLS0WPy.8PAs835bFV42ocg8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "bfggZBkywsA2McfI",
+      "img": "systems/projectfu/styles/static/compendium/twin-shields/twin-shields.png",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Guard",
+      "name": "",
+      "_key": "!tables.results!dYnk6EvDHrLS0WPy.bfggZBkywsA2McfI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "uVPJJmIOot6WLFEm",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Hinder",
+      "name": "",
+      "_key": "!tables.results!dYnk6EvDHrLS0WPy.uVPJJmIOot6WLFEm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "d6BLEJ86svykKWdf",
+      "img": "systems/projectfu/styles/static/compendium/weapons/staff.png",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Spell",
+      "name": "",
+      "_key": "!tables.results!dYnk6EvDHrLS0WPy.d6BLEJ86svykKWdf"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "MMAgm3IOnaIfN88G",
+      "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Inventory",
+      "name": "",
+      "_key": "!tables.results!dYnk6EvDHrLS0WPy.MMAgm3IOnaIfN88G"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "Cp9b7CiT9zhS1Dz1",
+      "img": "systems/projectfu/styles/static/compendium/weapons/tome.png",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Study",
+      "name": "",
+      "_key": "!tables.results!dYnk6EvDHrLS0WPy.Cp9b7CiT9zhS1Dz1"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724340180329,
+    "modifiedTime": 1738432840236,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "_key": "!tables!dYnk6EvDHrLS0WPy"
+}

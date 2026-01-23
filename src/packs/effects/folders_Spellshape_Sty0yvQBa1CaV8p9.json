@@ -1,0 +1,22 @@
+{
+  "name": "Spellshape",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "Sty0yvQBa1CaV8p9",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731430338619,
+    "modifiedTime": 1731430338619,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!Sty0yvQBa1CaV8p9"
+}

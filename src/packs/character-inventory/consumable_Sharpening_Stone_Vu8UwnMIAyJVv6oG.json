@@ -1,0 +1,48 @@
+{
+  "folder": "WqnB62gTODcIzXp0",
+  "name": "Sharpening Stone",
+  "type": "consumable",
+  "_id": "Vu8UwnMIAyJVv6oG",
+  "img": "icons/commodities/stone/geode-raw-black.webp",
+  "system": {
+    "fuid": "sharpening-stone",
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.kVSzbabb2AUviwnH]{Weaponmaster}</p><hr /><p>You perform a <strong>free attack</strong> with an equipped weapon, ignoring any @UUID[Compendium.projectfu.actor-effects.6yf1uUJP4vxmU3eW]{Physical Resistance} and inflicting physical weakness to it until the <strong>start of your next turn</strong>.</p><ul><li><p><strong>Target</strong>: @UUID[Compendium.projectfu.actor-effects.6JCfyn7Ewt0AJndC]{Physical Weakness}</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 2
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731101895863,
+    "modifiedTime": 1739391100052,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!Vu8UwnMIAyJVv6oG"
+}

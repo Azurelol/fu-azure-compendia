@@ -1,0 +1,58 @@
+{
+  "name": "Monster Journal",
+  "type": "accessory",
+  "_id": "EjMjnIBcRclH1QNV",
+  "img": "icons/sundries/books/symbol-axe-gold-grey.webp",
+  "system": {
+    "fuid": "monster-journal",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<h2>Qualities</h2><ol><li><p>When you perform the <strong>Study</strong> action against a target you gain @UUID[Compendium.fu-azure-compendia.effects.TpmhsH2JmpcsZspZ]{Continuation} but <strong>only against it</strong>.</p></li><li><p>When your party gains an opportunity against a creature <strong>you have studied</strong> they can spend it to apply @UUID[Compendium.projectfu.actor-effects.6JCfyn7Ewt0AJndC]{Physical Weakness} for the <strong>next 3 attacks.</strong></p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "folder": "qW3u0PAZV0qA44CF",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737396862894,
+    "modifiedTime": 1738081763794,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!EjMjnIBcRclH1QNV"
+}

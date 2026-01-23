@@ -1,0 +1,112 @@
+{
+  "name": "Staff of the Guardian",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-forest-jewel.webp",
+  "system": {
+    "subtype": {
+      "value": ""
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "attributes": {
+      "primary": {
+        "value": "wlp"
+      },
+      "secondary": {
+        "value": "wlp"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "value": 6
+    },
+    "type": {
+      "value": "melee"
+    },
+    "category": {
+      "value": "arcane"
+    },
+    "hands": {
+      "value": "two-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "defense": "def",
+    "fuid": "staff",
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    }
+  },
+  "effects": [],
+  "folder": "9KyLjHuP2IBKjVPN",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738510802414,
+    "modifiedTime": 1738511516661,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "BwRsFvMHAq9vUtEO": 3,
+    "esOkelwPNblkbxW3": 3
+  },
+  "_id": "pp6WrMqwvdJnizoO",
+  "sort": 0,
+  "_key": "!items!pp6WrMqwvdJnizoO"
+}

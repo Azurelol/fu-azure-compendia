@@ -1,0 +1,22 @@
+{
+  "name": "Traps",
+  "sorting": "a",
+  "folder": "ZdTfeUcpLWrXOfOl",
+  "type": "Item",
+  "_id": "ViM4tJL6WtXIChbr",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1738408645937,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!ViM4tJL6WtXIChbr"
+}

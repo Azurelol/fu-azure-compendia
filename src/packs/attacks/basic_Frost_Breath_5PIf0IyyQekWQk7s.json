@@ -1,0 +1,83 @@
+{
+  "folder": "ht9aFgrgTbRLF3M6",
+  "name": "Frost Breath",
+  "type": "basic",
+  "_id": "5PIf0IyyQekWQk7s",
+  "img": "icons/magic/air/wind-weather-snow-gusts.webp",
+  "system": {
+    "fuid": "frost-breath",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 5
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "damageType": {
+      "value": "ice"
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": "Multi 2"
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731694796152,
+    "modifiedTime": 1731694796152,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!5PIf0IyyQekWQk7s"
+}
