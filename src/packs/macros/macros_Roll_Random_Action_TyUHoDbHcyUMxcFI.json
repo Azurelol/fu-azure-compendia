@@ -1,0 +1,28 @@
+{
+  "name": "Roll Random Action",
+  "type": "script",
+  "img": "icons/skills/social/trading-injustice-scale-gray.webp",
+  "command": "const table = await fromUuid(\"Compendium.fu-azure-compendia.generators.RollTable.dYnk6EvDHrLS0WPy\");\nawait table.draw();",
+  "author": "esOkelwPNblkbxW3",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738432292951,
+    "modifiedTime": 1738433416899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "TyUHoDbHcyUMxcFI",
+  "sort": 500000,
+  "_key": "!macros!TyUHoDbHcyUMxcFI"
+}

@@ -1,0 +1,117 @@
+{
+  "folder": "y9VacGKyFP10h5ee",
+  "name": "Berserk",
+  "type": "rule",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "You lose your sense of reason"
+    },
+    "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, you lose your sense of reason and go on a rampage. You go @UUID[Compendium.fu-azure-compendia.effects.5SBUP9DO404L0fFB]{Berserk}.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "berserk"
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.effects.Item.5SBUP9DO404L0fFB",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Berserk",
+      "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+      "_id": "XzoI7p37Y1hrjkHx",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.affinities.physical.current",
+          "mode": 5,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.melee",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "description": "<p>You lose your sense of reason and attack your enemies with a wild abandon. On your turns you will <strong>always make an attack</strong> against whoever last damaged you, otherwise a target of your choosing. During this rage you are affected by @UUID[Compendium.projectfu.actor-effects.ax706lkF7lv1c2nn]{Physical Vulnerability} and your <strong>melee attacks deal additional damage</strong>.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "enraged"
+      ],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "active"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.effects.Item.5SBUP9DO404L0fFB.ActiveEffect.MKMn2qv6MbdzBfln",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!871vVzsbElUZSSnP.XzoI7p37Y1hrjkHx"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "871vVzsbElUZSSnP",
+  "sort": 200000,
+  "_key": "!items!871vVzsbElUZSSnP"
+}

@@ -1,0 +1,48 @@
+{
+  "folder": "876sKGjwrabaUXAf",
+  "name": "Oil Flask",
+  "type": "consumable",
+  "_id": "6yo2cjnsJf5WZXym",
+  "img": "icons/containers/kitchenware/jug-wrapped-red.webp",
+  "system": {
+    "fuid": "oil-flask",
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>The target suffers from @UUID[Compendium.projectfu.actor-effects.k2lBFehmZtleydxx]{Fire Vulnerability} until it suffers <strong>fire</strong> <strong>damage</strong>.</p><p></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 2
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737409291581,
+    "modifiedTime": 1739391122351,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!6yo2cjnsJf5WZXym"
+}

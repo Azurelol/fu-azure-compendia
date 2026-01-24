@@ -1,0 +1,22 @@
+{
+  "name": "Generic",
+  "sorting": "a",
+  "folder": "t7uOZRF533g2zxGo",
+  "type": "Actor",
+  "_id": "d9ymbJpH4pmRf4pv",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": 1727295512383,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!d9ymbJpH4pmRf4pv"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Control",
+  "sorting": "a",
+  "folder": "Y30FsMWJPwv01kX5",
+  "type": "Item",
+  "_id": "9VMVM0zzARloavFS",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!9VMVM0zzARloavFS"
+}

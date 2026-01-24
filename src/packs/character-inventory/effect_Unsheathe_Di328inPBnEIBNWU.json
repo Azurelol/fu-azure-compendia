@@ -1,0 +1,83 @@
+{
+  "folder": "OJ6V9dx4DY3ZbV4j",
+  "name": "Unsheathe",
+  "type": "effect",
+  "_id": "Di328inPBnEIBNWU",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "system": {
+    "fuid": "afc-Unsheathe",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.Di328inPBnEIBNWU",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Unsheathe",
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "RTFB7jNMNtIOhlT0",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.damage.melee",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "<p>You deal additional @ICON[physical] damage with your <strong>first attack in a conflict</strong>.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": 1731445096356,
+        "modifiedTime": 1731445640753,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Di328inPBnEIBNWU.RTFB7jNMNtIOhlT0"
+    }
+  ],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731445089010,
+    "modifiedTime": 1738082280429,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!Di328inPBnEIBNWU"
+}

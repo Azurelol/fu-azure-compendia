@@ -1,0 +1,52 @@
+{
+  "name": "Elixir+",
+  "type": "consumable",
+  "img": "systems/projectfu/styles/static/compendium/consumables/elixir.png",
+  "system": {
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>One</strong> <strong>creature</strong> recovers @HEAL[&amp;step(50,60,70) mp].</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 3
+    },
+    "source": {
+      "value": "FUCR104"
+    },
+    "fuid": "afc-elixir"
+  },
+  "effects": [],
+  "folder": "sqjQQzGCPYuCoSGu",
+  "ownership": {
+    "default": 0,
+    "hYECXwi6O8UUBuN4": 3,
+    "BwRsFvMHAq9vUtEO": 3,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737757685325,
+    "modifiedTime": 1738506409071,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "t0S5EzwSzhTNc707",
+  "sort": 200000,
+  "_key": "!items!t0S5EzwSzhTNc707"
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Conflict",
+  "_id": "bL5mCSHeyBs35vXq",
+  "img": "icons/magic/death/grave-tombstone-glow-tan.webp",
+  "description": "<p>What kind of <strong>conflict</strong> did the party encounter?</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        9
+      ],
+      "drawn": false,
+      "_id": "wEC8AgUuXqI2zV03",
+      "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "An easy battle!",
+      "name": "",
+      "_key": "!tables.results!bL5mCSHeyBs35vXq.wEC8AgUuXqI2zV03"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "_id": "WYP0MU0WObtxSyGw",
+      "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A normal battle!",
+      "name": "",
+      "_key": "!tables.results!bL5mCSHeyBs35vXq.WYP0MU0WObtxSyGw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "k4fHx0vk7pzQ62gu",
+      "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A hard battle! Afterwards the party earns a chance for a field upgrade.",
+      "name": "",
+      "_key": "!tables.results!bL5mCSHeyBs35vXq.k4fHx0vk7pzQ62gu"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723929708481,
+    "modifiedTime": 1738504457741,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "_key": "!tables!bL5mCSHeyBs35vXq"
+}

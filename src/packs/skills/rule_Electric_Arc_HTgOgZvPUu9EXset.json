@@ -1,0 +1,58 @@
+{
+  "folder": "9sF7Li98rc4NikRM",
+  "name": "Electric Arc",
+  "type": "rule",
+  "img": "icons/magic/lightning/bolt-strike-sparks-yellow.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After you <strong>hit an enemy with a bolt attack or spell,</strong> you can deal bolt damage to an <strong>additional target</strong>.</p><ul><li><p><strong>Additional Target</strong>: @DMG[&amp;step(5,10,15) bolt]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "electric-arc"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1735327493412,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "HTgOgZvPUu9EXset",
+  "sort": 500000,
+  "_key": "!items!HTgOgZvPUu9EXset"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "QcfVNtLzs54G3Kom",
+  "name": "Windbreakers",
+  "type": "accessory",
+  "_id": "JDe6lDdG7qCs4vdF",
+  "img": "icons/equipment/head/goggles-leather-tan.webp",
+  "system": {
+    "fuid": "windbreakers",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.BpzqLw0tPg39wrUF]{Pilot}</p><hr /><p><em>Ready? Set? Go!</em></p><h2>Qualities</h2><ol><li><p>Whenever you would <strong>enter</strong> your personal vehicle you can <strong>equip</strong> this accessory as a <strong>free action</strong></p></li><li><p>While driving your personal vehicle <strong>without</strong> weapon modules you gain @UUID[Compendium.fu-azure-compendia.character-inventory.adOwiuGCpZMhnZ6z]{Quick Draw}</p></li><li><p>When you gain the benefits of @UUID[Compendium.projectfu.skills.HCzLtYgEWScIeJNq]{Heart in the Engine} and <strong>it</strong> <strong>deals</strong> <strong>extra</strong> <strong>damage</strong> with the result of the accuracy check being an <strong>even number</strong> your <strong>passenger</strong> can make a <strong>free HR0 attack</strong> against it.</p></li><li><p>When the <strong>passenger</strong> of your vehicle <strong>would be targeted</strong> you can choose to be targeted instead</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737754424005,
+    "modifiedTime": 1737755410232,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!JDe6lDdG7qCs4vdF"
+}

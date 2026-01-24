@@ -1,0 +1,48 @@
+{
+  "folder": "BYGNpBIU9IpbOZHE",
+  "name": "Playing Cards",
+  "type": "consumable",
+  "_id": "9kybaaOXWcV10jba",
+  "img": "icons/sundries/gaming/playing-cards.webp",
+  "system": {
+    "fuid": "playing-cards",
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>During a rest scene</strong> you take out a deck of playing cards for you to play with your party members. All participating members may make one of the following checks:</p><p>The <strong>highest</strong> <strong>roll</strong> <strong>wins</strong> the game and earns @GAIN[&amp;step(100,200,300) zenit] and <strong>starts the next conflict</strong> with @UUID[Compendium.fu-azure-compendia.effects.AcW14zmUzQkID1tQ]{Taunt}.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739389858841,
+    "modifiedTime": 1739390113180,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!9kybaaOXWcV10jba"
+}

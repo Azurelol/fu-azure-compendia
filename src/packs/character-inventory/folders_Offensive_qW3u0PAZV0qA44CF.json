@@ -1,0 +1,22 @@
+{
+  "name": "Offensive",
+  "sorting": "a",
+  "folder": "n3k0PZUwSdsi1VOn",
+  "type": "Item",
+  "_id": "qW3u0PAZV0qA44CF",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737392434214,
+    "modifiedTime": 1737392437746,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!qW3u0PAZV0qA44CF"
+}

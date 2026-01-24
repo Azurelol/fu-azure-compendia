@@ -1,0 +1,58 @@
+{
+  "folder": "CtbYZEgqegzQ4U5g",
+  "name": "Adopt Stance",
+  "type": "rule",
+  "_id": "Pz9RtRHA5zMS7uIZ",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "fuid": "adopt-stance",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>At the end of your turn, you can adopt a <strong>specific</strong> stance with a <strong>visible tell</strong> as you prepare to unleash a powerful technique on your next turn.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!Pz9RtRHA5zMS7uIZ"
+}

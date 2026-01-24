@@ -1,0 +1,22 @@
+{
+  "name": "Firearm",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "mBamk06GRZ7YBu3Y",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1733781093550,
+    "modifiedTime": 1733781093550,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!mBamk06GRZ7YBu3Y"
+}

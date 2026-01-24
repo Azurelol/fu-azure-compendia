@@ -1,0 +1,65 @@
+{
+  "name": "Masterwork",
+  "_id": "prZlqZpAy69UrhEt",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Summary",
+      "type": "text",
+      "_id": "ihffae2pactya3ma",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Certain</strong> <strong>equipment</strong> comes with an <strong>unique set of qualities,</strong> with <strong>additional qualities being able to be unlocked</strong> <strong>in order</strong> through access to blacksmiths or artisans at the <strong>discretion of the Game Master,</strong> when it makes sense in the narrative.</p><p>Such items are considered <strong>masterworks</strong> and are extremely rare. In fact, you may only see one of these once in a campaign!</p><h2>Qualities</h2><p>These items always have their <strong>initial quality already unlocked.</strong> The cost for unlocking them can be seen below:</p><table><tbody><tr><td data-colwidth=\"304\"><p><strong>Quality</strong></p></td><td><p><strong>Cost</strong></p></td></tr><tr><td data-colwidth=\"304\"><p>1</p></td><td><p>Free</p></td></tr><tr><td data-colwidth=\"304\"><p>2</p></td><td><p>500z</p></td></tr><tr><td data-colwidth=\"304\"><p>3</p></td><td><p>1000z</p></td></tr><tr><td data-colwidth=\"304\"><p>4</p></td><td><p>2000z</p></td></tr></tbody></table><h2>Upgrades</h2><p>Based on their type, the following <strong>fundamental</strong> <strong>upgrades </strong>are available separately:</p><table><tbody><tr><td><p><strong>Type</strong></p></td><td><p><strong>Effect</strong></p></td><td><p><strong>Cost</strong></p></td></tr><tr><td><p>Weapon</p></td><td><p>@UUID[Compendium.fu-azure-compendia.character-inventory.Item.beGp1WxQzzdxMmvB]{Honing}</p></td><td><p>200</p></td></tr><tr><td><p>Weapon</p></td><td><p>@UUID[Compendium.fu-azure-compendia.character-inventory.Item.o0C9iKfmuOaJKG8p]{Potency}</p></td><td><p>600</p></td></tr><tr><td><p>Armor</p></td><td><p>@UUID[Compendium.fu-azure-compendia.character-inventory.Item.udyzdg0BnTKFdPNe]{Bulwark}</p></td><td><p>800</p></td></tr><tr><td><p>Armor</p></td><td><p>@UUID[Compendium.fu-azure-compendia.character-inventory.Item.D44Ord8IMySPW84L]{Warding}</p></td><td><p>800</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": 1731351574111,
+        "modifiedTime": 1739215538792,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!prZlqZpAy69UrhEt.ihffae2pactya3ma"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731351495778,
+    "modifiedTime": 1731351495778,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!prZlqZpAy69UrhEt"
+}

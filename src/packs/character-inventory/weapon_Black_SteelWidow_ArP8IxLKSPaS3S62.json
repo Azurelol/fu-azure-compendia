@@ -1,0 +1,163 @@
+{
+  "name": "Black SteelWidow",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-topbarrel.webp",
+  "system": {
+    "subtype": {
+      "value": ""
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><em>Forged in shadow and tempered by precision.</em></p><p>@UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><h2>Qualities</h2><ol><li><p>@UUID[Compendium.fu-azure-compendia.character-inventory.7x9ibwOvZ2JjaRYz]{Stored Power}</p></li><li><p></p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 250
+    },
+    "isMartial": {
+      "value": true
+    },
+    "quality": {
+      "value": ""
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "value": 10
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "category": {
+      "value": "firearm"
+    },
+    "hands": {
+      "value": "two-handed"
+    },
+    "impType": {
+      "value": "minor"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "isCustomWeapon": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "defense": "def",
+    "fuid": "pistol",
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "name": "Stored Power",
+      "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.damage.all",
+          "value": "2",
+          "mode": 2,
+          "priority": 30
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>If you did <strong>not take an offensive action</strong> during your <strong>last turn,</strong> you gain <strong>increased damage</strong> on your offensive action.</p>",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.7x9ibwOvZ2JjaRYz",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1739213405861,
+        "modifiedTime": 1739213405861,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "DS5vBXUnqypHJ89l",
+      "_key": "!items.effects!ArP8IxLKSPaS3S62.DS5vBXUnqypHJ89l"
+    }
+  ],
+  "folder": "RYYcEAF6ufRCCG8N",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739210798899,
+    "modifiedTime": 1739213339339,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "BwRsFvMHAq9vUtEO": 3,
+    "esOkelwPNblkbxW3": 3
+  },
+  "_id": "ArP8IxLKSPaS3S62",
+  "sort": 0,
+  "_key": "!items!ArP8IxLKSPaS3S62"
+}

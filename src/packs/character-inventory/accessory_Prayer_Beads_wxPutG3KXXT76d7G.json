@@ -1,0 +1,74 @@
+{
+  "folder": "p2cnBshruJyqH7wd",
+  "name": "Prayer Beads",
+  "type": "accessory",
+  "_id": "wxPutG3KXXT76d7G",
+  "img": "icons/equipment/neck/necklace-simple-bead-grey.webp",
+  "system": {
+    "fuid": "prayer-beads",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.s7AtJlv04lTsbKg4]{Spiritist}</p><hr /><h2>Qualities</h2><ol><li><p>When you recover a target's hit points with a <strong>Spell</strong>, you can <strong>remove a single status effect</strong> from them by channeling additional energy into the spell. @LOSS[10 mp]</p></li><li><p>Whenever you heal a target with a healing spell, you may spend an additional <strong>@LOSS[10 mp]</strong> in order to give them @UUID[Compendium.fu-azure-compendia.effects.wmld4YK2TtfzQbzj]{Regeneration} for 2 turns.</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1730827586583,
+    "modifiedTime": 1737753245520,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!wxPutG3KXXT76d7G"
+}

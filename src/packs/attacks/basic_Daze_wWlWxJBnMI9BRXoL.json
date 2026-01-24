@@ -1,0 +1,83 @@
+{
+  "folder": "qRpDGGGdnhmkFuQj",
+  "name": "Daze",
+  "type": "basic",
+  "_id": "wWlWxJBnMI9BRXoL",
+  "img": "icons/magic/unholy/orb-beam-pink.webp",
+  "system": {
+    "fuid": "daze",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>The target is @EFFECT[dazed] until the end of their next turn.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "wlp"
+      }
+    },
+    "accuracy": {
+      "value": 1
+    },
+    "defense": "mdef",
+    "damage": {
+      "value": 5
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "damageType": {
+      "value": "dark"
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731694793976,
+    "modifiedTime": 1733784298456,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!wWlWxJBnMI9BRXoL"
+}

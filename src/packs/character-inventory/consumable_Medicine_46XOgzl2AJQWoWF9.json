@@ -1,0 +1,48 @@
+{
+  "folder": "sqjQQzGCPYuCoSGu",
+  "name": "Medicine",
+  "type": "consumable",
+  "_id": "46XOgzl2AJQWoWF9",
+  "img": "icons/consumables/potions/round-cork-leaf-green.webp",
+  "system": {
+    "fuid": "herbs",
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>A restorative that can be administered on a target to recover @GAIN[$minor+5 hp] when <strong>not in a conflict.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1725725546485,
+    "modifiedTime": 1738506357661,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!46XOgzl2AJQWoWF9"
+}

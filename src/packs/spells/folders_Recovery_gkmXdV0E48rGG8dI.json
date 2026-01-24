@@ -1,0 +1,22 @@
+{
+  "name": "Recovery",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "gkmXdV0E48rGG8dI",
+  "description": "",
+  "sort": 1100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1735328633056,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!gkmXdV0E48rGG8dI"
+}

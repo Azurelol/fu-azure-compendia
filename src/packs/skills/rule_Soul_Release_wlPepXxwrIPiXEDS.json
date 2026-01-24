@@ -1,0 +1,58 @@
+{
+  "folder": "y9VacGKyFP10h5ee",
+  "name": "Soul Release",
+  "type": "rule",
+  "_id": "wlPepXxwrIPiXEDS",
+  "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+  "system": {
+    "fuid": "soul-release",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you are reduced to 0 Hit Points, each other character in the scene recovers a <strong>heavy amount of mind points</strong>.</p><ul><li><p><strong>Targets</strong>: @GAIN[$heavy mp]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1734804961965,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!wlPepXxwrIPiXEDS"
+}

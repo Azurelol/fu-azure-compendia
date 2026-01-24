@@ -1,0 +1,141 @@
+{
+  "folder": "3wV2pvX92KXaJvom",
+  "name": "Disintegrate",
+  "type": "spell",
+  "_id": "rTCpmpRrltjIHtqy",
+  "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
+  "system": {
+    "fuid": "disintegrate",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You shoot a tracer bolt of dark energy at your target, which upon making contact intensifies into a destructive beam. If the target is <strong>reduced</strong> <strong>to 0 Hit Points</strong> by this spell, they are <strong>reduced to ash</strong>.</p><p>If the target is suffering from @EFFECT[weak] and they are hit by this spell they suffer from @UUID[Compendium.projectfu.actor-effects.7Vp8dQTW2uTxURrt]{Dark Vulnerability} until the <strong>end the next round</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "mpCost": {
+      "value": "20"
+    },
+    "maxTargets": {
+      "value": 0
+    },
+    "target": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "wlp"
+        }
+      },
+      "accuracy": {
+        "value": 1
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 15,
+        "type": {
+          "value": "dark"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429073863,
+    "modifiedTime": 1731429073863,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!rTCpmpRrltjIHtqy"
+}

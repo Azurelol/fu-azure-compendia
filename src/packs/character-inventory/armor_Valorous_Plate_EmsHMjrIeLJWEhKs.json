@@ -1,0 +1,82 @@
+{
+  "folder": "hDxRisIuYNCNBKir",
+  "name": "Valorous Plate",
+  "type": "armor",
+  "_id": "EmsHMjrIeLJWEhKs",
+  "img": "icons/equipment/chest/breastplate-gorget-steel.webp",
+  "system": {
+    "fuid": "victory-plate",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><em>A hundredfold scratches and scars are but a recital of the many wearers of this wondrous plate.</em></p><p>@UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><hr /><h2>Qualities</h2><ol><li><p><strong>@UUID[Compendium.fu-azure-compendia.character-inventory.17CNw0Sd9gZIjnaI]{Advancing}</strong></p></li><li><p>When you hit an enemy with a melee weapon and the result of the accuracy check was an <strong>even number</strong> you may recover @GAIN[&amp;step(1,2,3) hp]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 12
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": -4
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": ""
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1729613505176,
+    "modifiedTime": 1738518581099,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!EmsHMjrIeLJWEhKs"
+}

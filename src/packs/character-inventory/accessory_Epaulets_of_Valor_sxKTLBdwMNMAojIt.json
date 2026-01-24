@@ -1,0 +1,58 @@
+{
+  "folder": "zAIZzTlY47dOMYU2",
+  "name": "Epaulets of Valor",
+  "type": "accessory",
+  "_id": "sxKTLBdwMNMAojIt",
+  "img": "icons/equipment/shoulder/shoulderguard-steel-cross.webp",
+  "system": {
+    "fuid": "bone",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.kVSzbabb2AUviwnH]{Weaponmaster}</p><hr /><h2>Qualities</h2><ol><li><p>When you perform @UUID[Compendium.projectfu.skills.7jWycVYFgZ1BMxch]{Bone Crusher} you gain @UUID[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength}.</p></li><li><p>When you perform @UUID[Compendium.projectfu.skills.IhBCZsilt0bj5RJK]{Bladestorm} and it <strong>misses</strong> its targets you gain @UUID[Compendium.fu-azure-compendia.effects.Item.RTJquNkzJGTWtqGZ]{Evade}.</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737746300489,
+    "modifiedTime": 1737756196758,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!sxKTLBdwMNMAojIt"
+}

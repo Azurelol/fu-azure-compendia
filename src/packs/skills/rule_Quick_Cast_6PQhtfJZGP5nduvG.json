@@ -1,0 +1,58 @@
+{
+  "folder": "yp679XUkEdEYNSVY",
+  "name": "Quick Cast",
+  "type": "rule",
+  "img": "icons/magic/symbols/arrowhead-green.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>At the start of a Conflict, you <strong>immediately begin @UUID[Compendium.fu-azure-compendia.effects.NhgTuHJUOKcnbY5t]{Casting}.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "quick-cast"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "6PQhtfJZGP5nduvG",
+  "sort": 0,
+  "_key": "!items!6PQhtfJZGP5nduvG"
+}

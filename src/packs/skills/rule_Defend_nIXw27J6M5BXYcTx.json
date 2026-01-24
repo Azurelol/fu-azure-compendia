@@ -1,0 +1,58 @@
+{
+  "folder": "yp679XUkEdEYNSVY",
+  "name": "Defend",
+  "type": "rule",
+  "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>At the beginning of a Conflict you gain @UUID[Compendium.fu-azure-compendia.effects.13ubm3WjQ8Xuc63Q]{Block}.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "defend"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1738519023330,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "nIXw27J6M5BXYcTx",
+  "sort": 0,
+  "_key": "!items!nIXw27J6M5BXYcTx"
+}

@@ -1,0 +1,29 @@
+{
+  "folder": "QtyzxwYnKnGuuppa",
+  "name": "Spell Card",
+  "_id": "YIGREpxw5Tz2xWyJ",
+  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "description": "<p>You draw a spell card.</p>",
+  "results": [],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.25",
+    "createdTime": 1726691760258,
+    "modifiedTime": 1738432167884,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "formula": "1d2",
+  "_key": "!tables!YIGREpxw5Tz2xWyJ"
+}

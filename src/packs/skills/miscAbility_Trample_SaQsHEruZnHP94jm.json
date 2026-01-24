@@ -1,0 +1,155 @@
+{
+  "folder": "jhB4JfgEJK1iRZu9",
+  "name": "Trample",
+  "type": "miscAbility",
+  "_id": "SaQsHEruZnHP94jm",
+  "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+  "system": {
+    "fuid": "trample",
+    "subtype": {
+      "value": "other"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After you have finished @UUID[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging} you rush forward and attempt to trample all your enemies in the field. Each of them must make a @CHECK[dex ins normal] check or be trampled underfoot, taking the listed damage.</p><p>Any one of your targets may attempt to stop you with an <strong>opposed</strong> @CHECK[mig mig]. If they succeed the action is disrupted, otherwise they are @UUID[Compendium.fu-azure-compendia.effects.2CdYy1zLjc6uOIPC]{Stunned}<strong> </strong>until the end of their next turn and take the brunt of the damage, leaving other targets unaffected.</p><ul><li><p><strong>Targets</strong>: @DMG[&amp;step(15,25,35) physical]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": {
+        "value": false
+      },
+      "value": 0,
+      "type": {
+        "value": "physical"
+      },
+      "onRoll": "",
+      "onApply": ""
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "accuracy": {
+          "value": false
+        },
+        "damage": {
+          "value": false
+        },
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "dex"
+        },
+        "secondary": {
+          "value": "dex"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "opportunity": "",
+    "cost": {
+      "amount": 20
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1746870829848,
+    "lastModifiedBy": "JXPd932s9DHQRD0w",
+    "exportSource": null
+  },
+  "_key": "!items!SaQsHEruZnHP94jm"
+}

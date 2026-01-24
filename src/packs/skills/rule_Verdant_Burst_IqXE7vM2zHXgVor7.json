@@ -1,0 +1,58 @@
+{
+  "folder": "y9VacGKyFP10h5ee",
+  "name": "Verdant Burst",
+  "type": "rule",
+  "_id": "IqXE7vM2zHXgVor7",
+  "img": "icons/magic/nature/root-vine-caduceus-healing.webp",
+  "system": {
+    "fuid": "verdant-burst",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When reduced to 0 HP, a burst of life energy explodes from your body <strong>restoring minor hit points</strong> to all other <strong>Plant</strong> creatures in the scene.</p><ul><li><p><strong>Plants</strong>: @GAIN[$minor hp]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1734804982685,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!IqXE7vM2zHXgVor7"
+}

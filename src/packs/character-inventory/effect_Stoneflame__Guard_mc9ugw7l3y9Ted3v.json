@@ -1,0 +1,95 @@
+{
+  "folder": "OJ6V9dx4DY3ZbV4j",
+  "name": "Stoneflame  Guard",
+  "type": "effect",
+  "_id": "mc9ugw7l3y9Ted3v",
+  "img": "icons/magic/earth/lava-stone-fire-eye.webp",
+  "system": {
+    "fuid": "flameguard",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "img": "icons/magic/earth/lava-stone-fire-eye.webp",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.mc9ugw7l3y9Ted3v",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Stoneflame Guard",
+      "_id": "KRzwGWr6VXi3mray",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.incomingDamage.ice",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.incomingDamage.fire",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.incomingDamage.earth",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "description": "<p>You <strong>reduce fire and</strong> <strong>earth damage</strong> taken while <strong>increasing ice damage</strong> taken.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1739393311814,
+        "modifiedTime": 1739394861120,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mc9ugw7l3y9Ted3v.KRzwGWr6VXi3mray"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739393305512,
+    "modifiedTime": 1739394851070,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!mc9ugw7l3y9Ted3v"
+}

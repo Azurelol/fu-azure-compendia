@@ -1,0 +1,83 @@
+{
+  "folder": "ht9aFgrgTbRLF3M6",
+  "name": "Syringe",
+  "type": "basic",
+  "_id": "xNofuY91CX3c5xv5",
+  "img": "icons/tools/hand/awl-steel-brown.webp",
+  "system": {
+    "fuid": "afc-syringe",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Applies @UUID[Compendium.fu-azure-compendia.effects.Y3marN7OOXMzNmCC]{Weakened} on a hit.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 1
+    },
+    "defense": "def",
+    "damage": {
+      "value": 5
+    },
+    "type": {
+      "value": "melee"
+    },
+    "damageType": {
+      "value": "poison"
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1735587213503,
+    "modifiedTime": 1735587319566,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!xNofuY91CX3c5xv5"
+}

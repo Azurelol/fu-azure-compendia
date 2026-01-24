@@ -1,0 +1,74 @@
+{
+  "folder": "p2cnBshruJyqH7wd",
+  "name": "Pendant of Mercy",
+  "type": "accessory",
+  "_id": "sFEWt96SSyYnUZ8z",
+  "img": "icons/equipment/neck/amulet-heart.webp",
+  "system": {
+    "fuid": "pendant-of-mercy",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.s7AtJlv04lTsbKg4]{Spiritist}</p><hr /><p><em>A holy symbol that has been blessed by a goddess of mercy and redemption.</em></p><h2>Qualities</h2><ol><li><p>Whenever an enemy is defeated in a conflict and <strong>are spared</strong> you may recover @GAIN[&amp;step(2,4,6) mp]</p></li><li><p>Whenever you rest in a <strong>camp scene</strong> you may pick one of your allies in order to have a <strong>heart-to-heart</strong> about one of their <strong>traits. </strong>Afterwards whenever <strong>one</strong> of you enters <strong>Crisis</strong> during your next conflict with a Villain, the <strong>other</strong> may <strong>immediately act</strong> outside of their turn. </p></li></ol><p></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1730225378427,
+    "modifiedTime": 1737753816999,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!sFEWt96SSyYnUZ8z"
+}

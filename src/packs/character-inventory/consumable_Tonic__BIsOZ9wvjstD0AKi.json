@@ -1,0 +1,52 @@
+{
+  "name": "Tonic+",
+  "type": "consumable",
+  "img": "systems/projectfu/styles/static/compendium/consumables/tonic.png",
+  "system": {
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>One creature <strong>recovers</strong> from <strong>all status effects.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 2
+    },
+    "source": {
+      "value": ""
+    },
+    "fuid": "afc-tonic"
+  },
+  "effects": [],
+  "folder": "sqjQQzGCPYuCoSGu",
+  "ownership": {
+    "default": 0,
+    "hYECXwi6O8UUBuN4": 3,
+    "BwRsFvMHAq9vUtEO": 3,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737757724269,
+    "modifiedTime": 1738506421967,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "BIsOZ9wvjstD0AKi",
+  "sort": 150000,
+  "_key": "!items!BIsOZ9wvjstD0AKi"
+}

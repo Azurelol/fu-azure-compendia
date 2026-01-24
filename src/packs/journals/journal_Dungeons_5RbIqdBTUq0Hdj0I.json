@@ -1,0 +1,299 @@
+{
+  "name": "Dungeons",
+  "_id": "5RbIqdBTUq0Hdj0I",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Introduction",
+      "type": "text",
+      "_id": "SiC96PQG9Qk9Bpl7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In this journal we will go over my process for creating then running an adventure location in this system, including internal and external resources for it. You will most likely start with the next page and go along.</p><p>For your campaign, I recommend creating a <strong>journal for all the locations you run</strong>, with a page for each. At the top of each page you would have a small map for it, its creation to be covered in the very next page.</p><p>During play you may want to keep this journal open in order to make use of the various generators I have provided such as for hazards, discoveries, etc.</p><h2>What kind of Map?</h2><p>The first step in preparing an adventure location is to decide which kind of map makes sense for your location and your time investment.</p><p>There are multiple approaches that one can take for creating a dungeon map. Since Fabula Ultima is a more narrative system we need not bother with actual grids but can instead use a combination of evocative background art and thoughtful narration in order to have players build a map of the dungeon in their minds.</p><p>Follow the next pages to decide which method.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1723920003733,
+        "modifiedTime": 1723982555806,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!5RbIqdBTUq0Hdj0I.SiC96PQG9Qk9Bpl7"
+    },
+    {
+      "sort": 200000,
+      "name": "Map - Randomly Generated",
+      "type": "text",
+      "_id": "wMmp2ID6MAjrEFlZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>I will go over my preferred approach for creating a location map, which involves randomly generating a graph of nodes, each of which is an event. </p><p>We will use an online tool for generating maps like it, <a href=\"https://c-w-z.github.io/rougelike-map-generator/\">Roguelike Map Generator</a>. I recommend working with a vertex count between 10 and 15. You generate the map with <strong>New Map.</strong> If you are not satisfied with the events, you can generate them again with <strong>Decide Room Type</strong></p><p>After you have generated map you like, right click on the image to open it in a new tab where you can copy it. Since Foundry allows you to paste images directly onto journal entries, I <strong>recommend</strong> you do that on a journal for the location.</p><p><em>Note that only you should have access to this map. Let your players make maps of their own in order to track where they are going! Encourage them even!</em></p><p></p><h1>Usage</h1><p>With the map created, we can now consider about the events the players may get to see within it as they explore the location. Let's practice with the following map which has already generated the following events for us: <strong>Danger (Skull), Elite, Treasure, Merchant, Rest, Discovery and Boss</strong>.</p><img src=\"modules/fu-azure-compendia/assets/art/map_example.png\" width=\"500\" height=\"500\" /><p>The party would start at the bottom left and has two initial routes they can take. Their goal is to <strong>reach the boss,</strong> or rather the <strong>climax</strong> of the location… which is usually a boss battle. We are sticking to the tropes here, people!</p><blockquote><p>If the location merits it, it may not be a bad idea to include a persistent environmental effect on the whole location. See the @UUID[.nLPC5oKD7VRGS4GE]{Environment} page for more</p></blockquote><h2>Danger</h2><p>A danger in a location could be either an <strong>easy</strong> <strong>battle</strong>, a <strong>trap</strong> or a <strong>hazard</strong>. Having more than just battles being dangerous will improve the flow and pacing of your run.</p><h2>Elite</h2><p>This should be a <strong>normal battle</strong> with <strong>at least one elite</strong> in it. At its conclusion there be a a small reward for the party, whether that be zenit, an item or new information is up to you. Or it can be random!</p><h2>Treasure</h2><p>For a treasure node, it may do to prepare a couple items ahead of time that you can use here. Then when they reach it, you can do a roll for which one they get. Otherwise if you have prepared a folder of generic items they could earn at each tier of play, you can could on that as well. For more, see the @UUID[.cA59mdqM5dvCNSQk]{Treasure} page.</p><h2>Rest</h2><p>In this node, give the players an opportunity to rest as detailed in the CRB (page 90). I <strong>heavily recommend</strong> placing this <strong>within a node or two of the boss.</strong></p><h2>Merchant</h2><p>In this node you want to provide the party with a <strong>chance to restore their IP.</strong> It could be one of the following:</p><ul><li><p>A merchant with a <strong>small</strong> selection of item, also gives the party an opportunity to restock their IP <strong>at the cost of Zenith</strong>.</p></li><li><p>A fortuitous cache of ingredients and items that the party can scavenge… <strong>at the cost of Fabula Point</strong>s</p></li></ul><h2>Discovery (Unknown)</h2><p>A <strong>totally random</strong> event, also called a <strong>Discovery.</strong> I suggest using a random table for this and having many entries for it which you can then adapt to the current situation. For more, see the @UUID[.Y5fkd7w8KbNVjUfm]{Discovery} page.</p><h2>Boss</h2><p>This is the area which contains the climax of the location, preceded by a hopefully exciting boss fight against a worthy adversary. After they are defeated the party should be <strong>rewarded in some way.</strong> Take a look at the rewards page for more information.</p><h3>Resources</h3><ul><li><p>Another map generator, <a href=\"https://github.com/yurkth/stsmapgen\">stsmapgen</a></p></li></ul><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1723920148266,
+        "modifiedTime": 1723982739015,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!5RbIqdBTUq0Hdj0I.wMmp2ID6MAjrEFlZ"
+    },
+    {
+      "sort": 425000,
+      "name": "Discovery",
+      "type": "text",
+      "_id": "Y5fkd7w8KbNVjUfm",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1723921200945,
+        "modifiedTime": 1723982751686,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!5RbIqdBTUq0Hdj0I.Y5fkd7w8KbNVjUfm"
+    },
+    {
+      "sort": 500000,
+      "name": "Treasure",
+      "type": "text",
+      "_id": "cA59mdqM5dvCNSQk",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1723928762846,
+        "modifiedTime": 1723928766561,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!5RbIqdBTUq0Hdj0I.cA59mdqM5dvCNSQk"
+    },
+    {
+      "sort": 350000,
+      "name": "Dangers",
+      "type": "text",
+      "_id": "4aATpX7rQwioI64X",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>There are 3 types of dangers in the location: <strong>battles</strong>, <strong>traps</strong> and <strong>hazards</strong>. This page will cover the latter two as battles will be mostly designed by you elsewhere.</p><ul><li><p>A <strong>trap</strong> is an <strong>active</strong>, <strong>mechanical danger</strong> that has been <strong>purposefully setup</strong> to deter intruders and protect something precious.</p></li><li><p>A <strong>hazard</strong> is a <strong>passive</strong>, <strong>persistent danger</strong> that is usually a feature of the environment. It could be something like a <strong>hazardous gas,</strong> far-reaching curse, magical aura, etc. </p></li></ul><p>Avoiding traps usually requires a <strong>[DEX + INS]</strong> check, though you should allow creative solutions if they make sense.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1723928873921,
+        "modifiedTime": 1724092681446,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!5RbIqdBTUq0Hdj0I.4aATpX7rQwioI64X"
+    },
+    {
+      "sort": 700000,
+      "name": "Rewards",
+      "type": "text",
+      "_id": "ppEdswegG3eAgTmW",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>There are several reward types you can award players with at the end of a location: <strong>Treasure, Epiphany, Progress.</strong>.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1723929324136,
+        "modifiedTime": 1723930591956,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!5RbIqdBTUq0Hdj0I.ppEdswegG3eAgTmW"
+    },
+    {
+      "sort": 387500,
+      "name": "Adversaries",
+      "type": "text",
+      "_id": "Mi2JoUJ6c01i76g6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The random battles in the location should generally be of easy and normal difficulty, with the <strong>hard battle reserved for the boss</strong>. What that means in terms of overall difficulty should depend on the prowess of your group and the size of the location.</p><p>I heavily recommend coming up with a few different battles ahead of time. For an example it could look something like this (for 4 PCs):</p><table><tbody><tr><td data-colwidth=\"119\"><p><strong>Easy</strong></p></td><td><p>Wolf x3</p></td></tr><tr><td data-colwidth=\"119\"><p><strong>Easy</strong></p></td><td><p>Slime x2, Bat x1</p></td></tr><tr><td data-colwidth=\"119\"><p><strong>Easy</strong></p></td><td><p>Skeleton x2, Skeleton Mage x1</p></td></tr><tr><td data-colwidth=\"119\"><p><strong>Normal</strong></p></td><td><p>Skeleton Champion x1, Skeleton Mage x2</p></td></tr><tr><td data-colwidth=\"119\"><p><strong>Normal</strong></p></td><td><p>Skeleton Champion x2</p></td></tr></tbody></table><p>You need <strong>not go overboard</strong> here; how many adversaries you can prepare depends on how big your bestiary, what is appropriate for the location, and how much time you are willing to spend.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1723982227442,
+        "modifiedTime": 1723982754250,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!5RbIqdBTUq0Hdj0I.Mi2JoUJ6c01i76g6"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723919998340,
+    "modifiedTime": 1723919998340,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!5RbIqdBTUq0Hdj0I"
+}

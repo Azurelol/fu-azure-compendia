@@ -1,0 +1,22 @@
+{
+  "name": "Elite",
+  "sorting": "a",
+  "folder": "lqtIGcvOQ1uVljjN",
+  "type": "Actor",
+  "_id": "TFz7hllUTJ6fGmXr",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!TFz7hllUTJ6fGmXr"
+}

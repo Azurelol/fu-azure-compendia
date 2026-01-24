@@ -1,0 +1,22 @@
+{
+  "name": "Accessories",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "n3k0PZUwSdsi1VOn",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723997061763,
+    "modifiedTime": 1723997061763,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!n3k0PZUwSdsi1VOn"
+}

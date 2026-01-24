@@ -1,0 +1,48 @@
+{
+  "folder": "876sKGjwrabaUXAf",
+  "name": "Pocket Sand",
+  "type": "consumable",
+  "_id": "gWsl1BpJiRsfxrWw",
+  "img": "icons/commodities/stone/stone-chunk-tan.webp",
+  "system": {
+    "fuid": "pocket-sand",
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>As a <strong>free action</strong>, you throw a fistful of sand that you keep in your pocket at the target, leaving it @UUID[Compendium.fu-azure-compendia.effects.rBZmlS8sebFLLg91]{Blinded}.</p><p><em>This can only be used <strong>once</strong> <strong>per conflict.</strong></em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1730227469874,
+    "modifiedTime": 1739391127820,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!gWsl1BpJiRsfxrWw"
+}

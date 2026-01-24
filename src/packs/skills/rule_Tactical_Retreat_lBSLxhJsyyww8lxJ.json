@@ -1,0 +1,58 @@
+{
+  "folder": "y9VacGKyFP10h5ee",
+  "name": "Tactical Retreat",
+  "type": "rule",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you enter Crisis for the first time in a conflict, you make preparations to <strong>escape.</strong> At the <strong>end of the next round</strong> you will safely <strong>retreat from the scene.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "tactical-retreat"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "lBSLxhJsyyww8lxJ",
+  "sort": 800000,
+  "_key": "!items!lBSLxhJsyyww8lxJ"
+}

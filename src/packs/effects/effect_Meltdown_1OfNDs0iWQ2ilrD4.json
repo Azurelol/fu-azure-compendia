@@ -1,0 +1,76 @@
+{
+  "folder": "3BLIDFMsgi1NtvSX",
+  "name": "Meltdown",
+  "type": "effect",
+  "_id": "1OfNDs0iWQ2ilrD4",
+  "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+  "system": {
+    "fuid": "afc-meltdown",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.effects.Item.1OfNDs0iWQ2ilrD4",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Meltdown",
+      "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+      "_id": "aOusYc39JW8KoEUu",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "<p>Your mind suffers a breakdown as the accumulated stress upon your psyche has grown far too much to bear. Some of your worst fears, phobias or insecurities come to the surface.</p><ul><li><p>You immediately <strong>reduce</strong> <strong>the strength of</strong> <strong>one of the bonds</strong> you have with another character in the scene. <em>What do you say or do?</em></p></li><li><p>You immediately lose a minor amount of mind points. @UUID[Compendium.fu-azure-compendia.macros.6fgFOA6Hxy8bFujo]{Lose Minor Mind Points}</p></li><li><p><strong>On each of your turns</strong> suffering this condition you will <strong>take one less action.</strong></p></li><li><p>To clear this condition one of your allies may perform an <strong>Objective</strong> action in order to bring you to your senses with a <strong>normal [INS + WLP] check.</strong></p></li></ul>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": 1731966819482,
+        "modifiedTime": 1731967668747,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1OfNDs0iWQ2ilrD4.aOusYc39JW8KoEUu"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731966780972,
+    "modifiedTime": 1731967351198,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!1OfNDs0iWQ2ilrD4"
+}

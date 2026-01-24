@@ -1,0 +1,22 @@
+{
+  "name": "Natural",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "MgMKdbFzDjpQzPDq",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1731694795092,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!MgMKdbFzDjpQzPDq"
+}

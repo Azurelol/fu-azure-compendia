@@ -1,0 +1,28 @@
+{
+  "name": "Roll Trap",
+  "type": "script",
+  "img": "icons/environment/traps/trap-jaw-tan.webp",
+  "command": "const table = await fromUuid(\"Compendium.fu-azure-compendia.generators.RollTable.QtqAkRsB7HdkIGAN\");\nawait table.draw();",
+  "author": "esOkelwPNblkbxW3",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738432254828,
+    "modifiedTime": 1738433416899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "9OGZ2AUbTdKYoz4c",
+  "sort": 400000,
+  "_key": "!macros!9OGZ2AUbTdKYoz4c"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "KYgu1b1Zvm1W4uef",
+  "name": "Vacuum Chamber",
+  "type": "rule",
+  "_id": "nviuW1YdSErhdbgx",
+  "img": "icons/magic/air/wind-vortex-swirl-blue.webp",
+  "system": {
+    "fuid": "vacuum-chamber",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>The chamber in the <strong>scene</strong> you are in has been suddenly voided of <strong>all air.</strong></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738412191726,
+    "modifiedTime": 1738426510865,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!nviuW1YdSErhdbgx"
+}

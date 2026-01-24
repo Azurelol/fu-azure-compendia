@@ -1,0 +1,58 @@
+{
+  "folder": "9sF7Li98rc4NikRM",
+  "name": "Crushing",
+  "type": "rule",
+  "_id": "Ay0KK0g1VdCTlwmr",
+  "img": "icons/magic/earth/strike-stone-stalactite-blood-red.webp",
+  "system": {
+    "fuid": "crushing",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After you <strong>hit an enemy with an earth spell or attack,</strong> you stagger them from the heavy blow. They are affected by  @EFFECT[weak] until the <strong>end of their next turn</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!Ay0KK0g1VdCTlwmr"
+}

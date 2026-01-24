@@ -1,0 +1,58 @@
+{
+  "folder": "2yYVHxTETZOIfumo",
+  "name": "Superior Shield",
+  "type": "rule",
+  "img": "icons/equipment/shield/heater-crystal-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you perform the @EFFECT[guard] <strong> </strong>action, you gain @UUID[Compendium.projectfu.actor-effects.SDc9JdC2tHXUi5xk]{Physical Immunity} until the <strong>start of your next turn</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "superior-shield"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "ky82hw4LUjo2IWMo",
+  "sort": 175000,
+  "_key": "!items!ky82hw4LUjo2IWMo"
+}

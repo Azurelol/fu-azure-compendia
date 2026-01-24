@@ -1,0 +1,74 @@
+{
+  "folder": "YbHHnshr5RnqMZCO",
+  "name": "Rebel's Eyepatch",
+  "type": "accessory",
+  "_id": "jAsjM8LSWGV85Rep",
+  "img": "icons/equipment/head/hood-cloth-blue-white.webp",
+  "system": {
+    "fuid": "eyepatch",
+    "subtype": {},
+    "summary": {
+      "value": "I need only one eye for my own justice"
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.q7ak4N89Makw4jiJ]{Rogue}</p><hr /><p>An eyepatch you have adopted to wearing. @UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><h2>Qualities</h2><ol><li><p><strong>Panache</strong>: When you reappear in a scene after having used @UUID[Compendium.projectfu.skills.cHKzZJBYjwLuRfDL]{See You Later} you do so with a flair for the dramatic. The <strong>first check</strong> you make gains <strong>+4 bonus</strong>. If you do this in a conflict and have @UUID[Compendium.projectfu.skills.tiu0D74YNxirN6Tr]{High Speed} it also <strong>costs no mind points.</strong></p></li><li><p>@UUID[Compendium.fu-azure-compendia.character-inventory.ef9OjgazzQT7U4cL]{Vanishing}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731352368629,
+    "modifiedTime": 1737747172738,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!jAsjM8LSWGV85Rep"
+}

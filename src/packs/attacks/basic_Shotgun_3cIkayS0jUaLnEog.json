@@ -1,0 +1,83 @@
+{
+  "folder": "mBamk06GRZ7YBu3Y",
+  "name": "Shotgun",
+  "type": "basic",
+  "_id": "3cIkayS0jUaLnEog",
+  "img": "icons/weapons/guns/gun-pistol-brown.webp",
+  "system": {
+    "fuid": "shotgun",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 10
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": "Multi 2"
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1733783976099,
+    "modifiedTime": 1735591434361,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!3cIkayS0jUaLnEog"
+}

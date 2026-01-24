@@ -1,0 +1,78 @@
+{
+  "folder": "x4r2l19ki57NSa8K",
+  "name": "Frostbite",
+  "type": "effect",
+  "_id": "zqmBtaCGTo9DVmyR",
+  "img": "icons/magic/water/ice-snowman.webp",
+  "system": {
+    "fuid": "afc-frostbite",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.effects.Item.zqmBtaCGTo9DVmyR",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Frostbite",
+      "img": "icons/magic/water/ice-snowman.webp",
+      "_id": "8tjBfhHpqeHzk6uW",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "<p>You are frostbitten and suffer from @EFFECT[slow] until the <strong>end of your next turn.</strong></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "slow"
+      ],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": 1730644239594,
+        "modifiedTime": 1731178520333,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!zqmBtaCGTo9DVmyR.8tjBfhHpqeHzk6uW"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.30",
+    "createdTime": 1730644048903,
+    "modifiedTime": 1730644394473,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!zqmBtaCGTo9DVmyR"
+}

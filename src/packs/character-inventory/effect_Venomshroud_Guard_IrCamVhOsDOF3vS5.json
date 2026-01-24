@@ -1,0 +1,95 @@
+{
+  "folder": "OJ6V9dx4DY3ZbV4j",
+  "name": "Venomshroud Guard",
+  "type": "effect",
+  "_id": "IrCamVhOsDOF3vS5",
+  "img": "icons/magic/unholy/beam-impact-green.webp",
+  "system": {
+    "fuid": "venomshroud-guard",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "img": "icons/magic/unholy/beam-impact-green.webp",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.IrCamVhOsDOF3vS5",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Venomshroud Guard",
+      "_id": "t6COntAoGu4a01la",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.incomingDamage.dark",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.incomingDamage.poison",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.incomingDamage.light",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "<p>You <strong>reduce dark and</strong> <strong>poison damage</strong> taken while <strong>increasing light damage</strong> taken.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1739394622083,
+        "modifiedTime": 1739394926439,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!IrCamVhOsDOF3vS5.t6COntAoGu4a01la"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739394620133,
+    "modifiedTime": 1739394931003,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!IrCamVhOsDOF3vS5"
+}

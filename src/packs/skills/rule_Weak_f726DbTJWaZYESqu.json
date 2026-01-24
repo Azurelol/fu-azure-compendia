@@ -1,0 +1,127 @@
+{
+  "folder": "e0HDO7LcX9neHVMp",
+  "name": "Weak",
+  "type": "rule",
+  "img": "icons/magic/movement/chevrons-down-yellow.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "You are just a tire-tube man"
+    },
+    "description": "<p>You are weaker than most creatures your size. You have <strong>half the maximum hit points</strong> <strong>for your level</strong> and <strong>count as half a soldier</strong> for encounter building purposes.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "weak"
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.LpCwZNfop9hZHx9X",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Weak",
+      "img": "icons/magic/movement/chevrons-down-yellow.webp",
+      "_id": "xZAaO6opYOvvRYMs",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.resources.hp.max",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.melee",
+          "mode": 2,
+          "value": "-5",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.ranged",
+          "mode": 2,
+          "value": "-5",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.accuracy.accuracyCheck",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "description": "<p>You are weaker than usual for your kind.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none",
+          "type": "default",
+          "source": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!f726DbTJWaZYESqu.xZAaO6opYOvvRYMs"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "f726DbTJWaZYESqu",
+  "sort": 300000,
+  "_key": "!items!f726DbTJWaZYESqu"
+}

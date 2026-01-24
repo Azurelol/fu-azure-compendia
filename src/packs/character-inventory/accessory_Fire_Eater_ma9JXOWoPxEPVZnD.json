@@ -1,0 +1,58 @@
+{
+  "folder": "hpvqjDAkwK9kAXTh",
+  "name": "Fire Eater",
+  "type": "accessory",
+  "_id": "ma9JXOWoPxEPVZnD",
+  "img": "icons/equipment/finger/ring-cabochon-thin-silver-orange.webp",
+  "system": {
+    "fuid": "fire-eater",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<h2>Qualities</h2><ul><li><p><strong>Once</strong> per round when you are about to receive <strong>fire damage</strong> you can spend @LOSS[5 mp] in order to gain @UUID[Compendium.projectfu.actor-effects.FAfKTXxluiqIVP5t]{Fire Resistance} until the <strong>start of your next turn</strong>.</p></li><li><p><strong>Every two times</strong> you perform the above you gain @UUID[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength}</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738080677144,
+    "modifiedTime": 1738081144620,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!ma9JXOWoPxEPVZnD"
+}

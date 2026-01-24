@@ -1,0 +1,76 @@
+{
+  "folder": "FgeAceml8A4XpFAl",
+  "name": "Advancing",
+  "type": "effect",
+  "_id": "17CNw0Sd9gZIjnaI",
+  "img": "icons/skills/melee/strike-weapons-orange.webp",
+  "system": {
+    "fuid": "advancing",
+    "cost": {
+      "value": 1000
+    }
+  },
+  "effects": [
+    {
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.17CNw0Sd9gZIjnaI",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Advancing",
+      "_id": "BooF9r4fSW1p9Y50",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "<p>Once per conflict when you reduce an enemy to <strong>0 HP</strong> you can immediately perform a <strong>free attack</strong> (HR0) against a target of your choosing.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1738082484633,
+        "modifiedTime": 1738082573124,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!17CNw0Sd9gZIjnaI.BooF9r4fSW1p9Y50"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738082480437,
+    "modifiedTime": 1739394702371,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!17CNw0Sd9gZIjnaI"
+}

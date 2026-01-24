@@ -1,0 +1,28 @@
+{
+  "name": "Roll Prompt",
+  "type": "script",
+  "img": "icons/skills/social/diplomacy-handshake-blue.webp",
+  "command": "const table = await fromUuid(\"Compendium.fu-azure-compendia.generators.RollTable.qLmjwS7NhlvvsxZL\");\nawait table.draw();",
+  "author": "esOkelwPNblkbxW3",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738432264259,
+    "modifiedTime": 1738433416899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "Dpo2AdTkWy7wV51U",
+  "sort": 600000,
+  "_key": "!macros!Dpo2AdTkWy7wV51U"
+}

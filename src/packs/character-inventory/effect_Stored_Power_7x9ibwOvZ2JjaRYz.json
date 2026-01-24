@@ -1,0 +1,83 @@
+{
+  "folder": "OJ6V9dx4DY3ZbV4j",
+  "name": "Stored Power",
+  "type": "effect",
+  "_id": "7x9ibwOvZ2JjaRYz",
+  "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+  "system": {
+    "fuid": "afc-stored-power",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.7x9ibwOvZ2JjaRYz",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "name": "Stored Power",
+      "_id": "vHJvHC5VkF2bko2N",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "<p>If you did <strong>not take an offensive action</strong> during your <strong>last turn,</strong> you gain <strong>increased damage</strong> on your offensive action.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1739212919143,
+        "modifiedTime": 1739213380993,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7x9ibwOvZ2JjaRYz.vHJvHC5VkF2bko2N"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739212912071,
+    "modifiedTime": 1739212999054,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!7x9ibwOvZ2JjaRYz"
+}

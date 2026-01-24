@@ -1,0 +1,58 @@
+{
+  "folder": "Vam3ztpfKmZRRbSw",
+  "name": "Book of Grudges",
+  "type": "accessory",
+  "_id": "MtzDXSlxH1Slgzjt",
+  "img": "icons/sundries/books/book-symbol-bat-red.webp",
+  "system": {
+    "fuid": "book-of-grudges",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class:</strong> @UUID[Compendium.projectfu.classes.JqjAUSTgQyZdfAML]{Fury}</p><hr /><p></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737412082017,
+    "modifiedTime": 1737412224865,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!MtzDXSlxH1Slgzjt"
+}

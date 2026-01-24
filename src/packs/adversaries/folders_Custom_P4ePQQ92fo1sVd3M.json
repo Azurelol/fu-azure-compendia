@@ -1,0 +1,22 @@
+{
+  "name": "Custom",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "P4ePQQ92fo1sVd3M",
+  "description": "",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724439822036,
+    "modifiedTime": 1727902723808,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!P4ePQQ92fo1sVd3M"
+}

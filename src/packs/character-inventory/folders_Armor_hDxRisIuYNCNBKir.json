@@ -1,0 +1,22 @@
+{
+  "name": "Armor",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "hDxRisIuYNCNBKir",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723997306116,
+    "modifiedTime": 1723997306116,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!hDxRisIuYNCNBKir"
+}

@@ -1,0 +1,48 @@
+{
+  "folder": "WqnB62gTODcIzXp0",
+  "name": "Poison Coating",
+  "type": "consumable",
+  "_id": "ogouH2U3oa4GMzXI",
+  "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+  "system": {
+    "fuid": "poison-coating",
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.EWKUOGOMmyHfgOJm]{Wayfarer} @UUID[Compendium.projectfu.classes.q7ak4N89Makw4jiJ]{Rogue}</p><hr /><p>You perform a <strong>free attack</strong> with a weapon you have equipped. If it hits you apply @UUID[Compendium.fu-azure-compendia.effects.rYQkHKEB7M1LJqNc]{Contact Poison} to the target.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737409459150,
+    "modifiedTime": 1739391101413,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!ogouH2U3oa4GMzXI"
+}

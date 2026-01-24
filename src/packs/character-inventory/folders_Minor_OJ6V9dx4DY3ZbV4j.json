@@ -1,0 +1,22 @@
+{
+  "name": "Minor",
+  "sorting": "a",
+  "folder": "kRm5QW0PYcTwI93W",
+  "type": "Item",
+  "_id": "OJ6V9dx4DY3ZbV4j",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!OJ6V9dx4DY3ZbV4j"
+}

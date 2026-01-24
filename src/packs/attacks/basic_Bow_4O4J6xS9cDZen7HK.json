@@ -1,0 +1,83 @@
+{
+  "folder": "tjWV9h97KAbXCCnC",
+  "name": "Bow",
+  "type": "basic",
+  "_id": "4O4J6xS9cDZen7HK",
+  "img": "systems/projectfu/styles/static/compendium/weapons/shortbow.png",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "You attack the target with a shot from your bow"
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "dex"
+      }
+    },
+    "accuracy": {
+      "value": 1
+    },
+    "defense": "def",
+    "damage": {
+      "value": 5
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "fuid": "bow"
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731694797281,
+    "modifiedTime": 1733784385946,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!4O4J6xS9cDZen7HK"
+}

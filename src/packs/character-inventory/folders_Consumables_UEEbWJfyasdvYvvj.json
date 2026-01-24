@@ -1,0 +1,22 @@
+{
+  "name": "Consumables",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "UEEbWJfyasdvYvvj",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724698205498,
+    "modifiedTime": 1724698205498,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!UEEbWJfyasdvYvvj"
+}

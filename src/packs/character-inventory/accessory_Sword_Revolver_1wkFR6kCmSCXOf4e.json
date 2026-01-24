@@ -1,0 +1,171 @@
+{
+  "folder": "zAIZzTlY47dOMYU2",
+  "name": "Sword Revolver",
+  "type": "accessory",
+  "_id": "1wkFR6kCmSCXOf4e",
+  "img": "icons/equipment/waist/belt-buckle-ring-leather-tan.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": "You can never have too many options"
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.kVSzbabb2AUviwnH]{Weaponmaster}</p><hr /><p>A holster that can sheathe up to <strong>3 swords.</strong> @UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><h3>Qualities</h3><ol><li><p><strong>@UUID[Compendium.fu-azure-compendia.skills.uZDFAWtruoNy7Nj3]{Quickdraw}</strong></p></li><li><p>@UUID[Compendium.fu-azure-compendia.character-inventory.Di328inPBnEIBNWU]{Unsheathe}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "isEquipped": {
+      "value": false
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "fuid": ""
+  },
+  "effects": [
+    {
+      "name": "Unsheathe",
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.damage.melee",
+          "value": "5",
+          "mode": 2,
+          "priority": 30
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>You deal additional @ICON[physical] damage with your <strong>first attack in a conflict</strong>.</p>",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.Di328inPBnEIBNWU",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1737412861597,
+        "modifiedTime": 1737412870847,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "Pj4NTXh5RqhAtNwh",
+      "_key": "!items.effects!1wkFR6kCmSCXOf4e.Pj4NTXh5RqhAtNwh"
+    },
+    {
+      "name": "Quick Draw",
+      "img": "icons/skills/melee/hand-grip-staff-blue.webp",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>You can perform the <strong>Equipment</strong> action as a <strong>free action</strong> once per conflict.</p>",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.adOwiuGCpZMhnZ6z",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1737413102764,
+        "modifiedTime": 1737413102764,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "cdgKZVUd9tfReELY",
+      "_key": "!items.effects!1wkFR6kCmSCXOf4e.cdgKZVUd9tfReELY"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724691532928,
+    "modifiedTime": 1737745680049,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!1wkFR6kCmSCXOf4e"
+}

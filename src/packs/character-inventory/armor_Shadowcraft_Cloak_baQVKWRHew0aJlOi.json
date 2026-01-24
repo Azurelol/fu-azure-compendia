@@ -1,0 +1,82 @@
+{
+  "folder": "hDxRisIuYNCNBKir",
+  "name": "Shadowcraft Cloak",
+  "type": "armor",
+  "_id": "baQVKWRHew0aJlOi",
+  "img": "icons/equipment/back/cloak-plain-blue.webp",
+  "system": {
+    "fuid": "shadow-cloak",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>@UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><hr /><h2>Qualities</h2><ul><li><p>When you would be the <strong>target</strong> of an action that has <strong>multiple targets,</strong> you can <strong>spend </strong>@LOSS[1 fp] in order to have it target <strong>another of your allies</strong> instead.</p></li><li><p>At the <strong>start of a conflict </strong>you gain @UUID[Compendium.fu-azure-compendia.effects.coaSCstLAwMnXkdf]{Invisible}</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 1
+    },
+    "mdef": {
+      "value": 2
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1729614453367,
+    "modifiedTime": 1738518653642,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!baQVKWRHew0aJlOi"
+}

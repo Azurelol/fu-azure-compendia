@@ -1,0 +1,22 @@
+{
+  "name": "Animated",
+  "sorting": "a",
+  "folder": "HH8m094MPYLrdyqp",
+  "type": "Actor",
+  "_id": "aUQmI8ziO4GvlJFe",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": 1735665572657,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!aUQmI8ziO4GvlJFe"
+}

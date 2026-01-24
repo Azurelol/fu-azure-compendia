@@ -1,0 +1,22 @@
+{
+  "name": "Curses",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "t3JqGR7jlMm1Hbpv",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731176845166,
+    "modifiedTime": 1731176845166,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!t3JqGR7jlMm1Hbpv"
+}

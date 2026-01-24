@@ -1,0 +1,83 @@
+{
+  "folder": "ht9aFgrgTbRLF3M6",
+  "name": "Chaos Glare",
+  "type": "basic",
+  "_id": "tbNepg6K2qnu50NG",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "wlp"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "mdef",
+    "damage": {
+      "value": 5
+    },
+    "type": {
+      "value": "ranged"
+    },
+    "damageType": {
+      "value": "dark"
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": "If the target is dazed, they will perform one fewer action on their next turn (to a minimum of 0 actions)."
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "fuid": "chaos-glare"
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731694796152,
+    "modifiedTime": 1731694796152,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!tbNepg6K2qnu50NG"
+}

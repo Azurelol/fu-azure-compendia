@@ -1,0 +1,58 @@
+{
+  "folder": "hpvqjDAkwK9kAXTh",
+  "name": "Abyssal Stone",
+  "type": "accessory",
+  "_id": "FVSK8S6LDJPqo7UY",
+  "img": "icons/equipment/finger/ring-cabochon-engraved-purple.webp",
+  "system": {
+    "fuid": "abyssal-stone",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<h2>Qualities</h2><ul><li><p><strong>Once</strong> per round when you are about to receive <strong>dark damage</strong> you can spend @LOSS[5 mp] in order to gain @UUID[Compendium.projectfu.actor-effects.fBbLvII5LUEqInQQ]{Dark Resistance} until the <strong>start of your next turn</strong>.</p></li><li><p><strong>Every two times</strong> you perform the above you recover @GAIN[&amp;step(5,10,15) mp]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738081178282,
+    "modifiedTime": 1738081300519,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!FVSK8S6LDJPqo7UY"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Gunners",
+  "sorting": "a",
+  "folder": "t7uOZRF533g2zxGo",
+  "type": "Actor",
+  "_id": "20SWlKx48Kvx84i4",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": null,
+    "modifiedTime": 1735592630341,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!20SWlKx48Kvx84i4"
+}

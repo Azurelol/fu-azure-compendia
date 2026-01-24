@@ -1,0 +1,58 @@
+{
+  "folder": "02EELzRzHhrEwzoj",
+  "name": "Charm",
+  "type": "rule",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After an enemy <strong>hits you with a melee or ranged attack</strong> , you attempt to charm their senses and redirect their attack onto one of their allies with a @CHECK[ins wlp hard] <strong>check</strong>.</p><p><em>This can only trigger once per round.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "charm"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1733073814097,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "1ISTlygCBp5wselZ",
+  "sort": 0,
+  "_key": "!items!1ISTlygCBp5wselZ"
+}

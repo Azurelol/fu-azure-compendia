@@ -1,0 +1,74 @@
+{
+  "folder": "hg4JCkgXqnqeX6cH",
+  "name": "Marked",
+  "type": "effect",
+  "_id": "MftLJFDNhnIRDsEN",
+  "img": "icons/skills/targeting/crosshair-bars-yellow.webp",
+  "system": {
+    "fuid": "afc-marked",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.MftLJFDNhnIRDsEN",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Marked",
+      "img": "icons/skills/targeting/crosshair-bars-yellow.webp",
+      "_id": "1LJ5qLjxr9bB7P0l",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "<p>An eneemy is targeting you for a special action.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!MftLJFDNhnIRDsEN.1LJ5qLjxr9bB7P0l"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.30",
+    "createdTime": 1730492177716,
+    "modifiedTime": 1730493252641,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!MftLJFDNhnIRDsEN"
+}

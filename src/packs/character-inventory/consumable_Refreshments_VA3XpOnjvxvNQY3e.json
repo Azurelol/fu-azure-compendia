@@ -1,0 +1,48 @@
+{
+  "folder": "BYGNpBIU9IpbOZHE",
+  "name": "Refreshments",
+  "type": "consumable",
+  "_id": "VA3XpOnjvxvNQY3e",
+  "img": "icons/consumables/drinks/alcohol-spirits-bottle-blue.webp",
+  "system": {
+    "fuid": "spirits",
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>During a camp scene,</strong> you can share a bottle or two with your allies. Choose <strong>one</strong> of the following:</p><table><tbody><tr><td><p><strong>Type</strong></p></td><td><p><strong>Effect</strong></p></td><td><p><strong>Check</strong></p></td></tr><tr><td><p>Fruity Wine</p></td><td><p>@EFFECT[ins-up]</p></td><td><p>@CHECK[mig wlp easy]</p></td></tr><tr><td><p>Regional Beer</p></td><td><p>@EFFECT[wlp-up]</p></td><td><p>@CHECK[mig wlp normal]</p></td></tr><tr><td><p>Spirits</p></td><td><p>@EFFECT[dex-up]</p></td><td><p>@CHECK[mig wlp hard]</p></td></tr></tbody></table><p>Each character that takes a drink must make an <strong>Alcohol Tolerance Check </strong>to tolerate its effects. Any character that fails is compelled to try again. If they fail the check 3 times they will suffer from @UUID[Compendium.fu-azure-compendia.effects.Rrx394UCBCyTljSj]{Hangover} at the <strong>end of the camp scene</strong>.</p><p>Any effects gained last until the end of the <strong>next conflict scene</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 2
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1730826423522,
+    "modifiedTime": 1738083020435,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!VA3XpOnjvxvNQY3e"
+}

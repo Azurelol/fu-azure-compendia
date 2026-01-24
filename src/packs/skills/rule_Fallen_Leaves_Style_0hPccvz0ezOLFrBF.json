@@ -1,0 +1,58 @@
+{
+  "folder": "7nJ0oAhFKLGbXuX6",
+  "name": "Fallen Leaves Style",
+  "type": "rule",
+  "_id": "0hPccvz0ezOLFrBF",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "fuid": "fallen-leaves-style",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>At the <strong>end of the round</strong> you instruct the <strong>party</strong> in a counter-defensive formation.</p><ul><li><p><strong>Party</strong>: @UUID[Compendium.fu-azure-compendia.effects.x1tLaaRsBa4Ag1cZ]{Riposte}.</p></li></ul><p><em>Any characters with @UUID[Compendium.projectfu.skills.XhcTVGtGEk7L2Ddq]{Counterattack} do not gain this effect.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1732035613913,
+    "modifiedTime": 1733075348928,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!0hPccvz0ezOLFrBF"
+}

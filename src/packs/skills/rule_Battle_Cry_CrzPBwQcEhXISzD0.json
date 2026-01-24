@@ -1,0 +1,58 @@
+{
+  "folder": "7nJ0oAhFKLGbXuX6",
+  "name": "Battle Cry",
+  "type": "rule",
+  "_id": "CrzPBwQcEhXISzD0",
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "system": {
+    "fuid": "battle-shout",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>At the <strong>start of the round</strong> the <strong>party</strong> gains @UUID[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength}</p><p><em>This can only trigger every other round.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1732034623443,
+    "modifiedTime": 1738518822528,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!CrzPBwQcEhXISzD0"
+}

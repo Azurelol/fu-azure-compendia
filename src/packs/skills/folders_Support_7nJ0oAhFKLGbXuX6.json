@@ -1,0 +1,22 @@
+{
+  "name": "Support",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "7nJ0oAhFKLGbXuX6",
+  "description": "",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": null,
+    "modifiedTime": 1731526744554,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!7nJ0oAhFKLGbXuX6"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Undead",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "2neNam43J0ZZWlXo",
+  "description": "",
+  "sort": 200000,
+  "color": "#a553c4",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723754361240,
+    "modifiedTime": 1727902723808,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!2neNam43J0ZZWlXo"
+}

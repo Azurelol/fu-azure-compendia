@@ -1,0 +1,83 @@
+{
+  "folder": "iMy2WAuDdtn16il8",
+  "name": "Potency",
+  "type": "effect",
+  "_id": "o0C9iKfmuOaJKG8p",
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp",
+  "system": {
+    "fuid": "afc-potency",
+    "cost": {
+      "value": 600
+    }
+  },
+  "effects": [
+    {
+      "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.o0C9iKfmuOaJKG8p",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Potency",
+      "_id": "GmerjxjsnWhyMQ3A",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.damage.value",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "<p>The weapon deals <strong>+2 extra damage.</strong></p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1739215471612,
+        "modifiedTime": 1739215774608,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!o0C9iKfmuOaJKG8p.GmerjxjsnWhyMQ3A"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739215459105,
+    "modifiedTime": 1739216152371,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!o0C9iKfmuOaJKG8p"
+}

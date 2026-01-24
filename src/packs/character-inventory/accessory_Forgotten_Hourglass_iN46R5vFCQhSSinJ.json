@@ -1,0 +1,74 @@
+{
+  "folder": "eEU4WXEPFjPZ0Fkw",
+  "name": "Forgotten Hourglass",
+  "type": "accessory",
+  "_id": "iN46R5vFCQhSSinJ",
+  "img": "icons/magic/time/hourglass-brown-orange.webp",
+  "system": {
+    "fuid": "watchers-eye",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class:</strong> @UUID[Compendium.projectfu.classes.A24rkaeNHdKThN4N]{Entropist}</p><hr /><p><em>Peer into the sands of time.</em> </p><h2>Qualities</h2><ol><li><p><strong>Once per conflict </strong>when an ally is about to be the <strong>target of an offensive action</strong> you may warn them of danger by spending @LOSS[10 mp] to give them @UUID[Compendium.fu-azure-compendia.effects.13ubm3WjQ8Xuc63Q]{Block}</p></li><li><p>When you cast @UUID[Compendium.projectfu.spells.odCKj31VovzmcEUw]{Acceleration} you also give the target @UUID[Compendium.fu-azure-compendia.effects.Uw1tWLyDpdw06ONL]{Aid}</p></li><li><p>When you cast @UUID[Compendium.projectfu.spells.AAsEhxIBxlig3hRk]{Divination} and <strong>force</strong> a a target to <strong>reroll</strong>, you may <strong>predict</strong> whether the new result of the check will be a <strong>failure</strong> or <strong>success</strong>. If you are <strong>correct</strong> you gain @UUID[Compendium.fu-azure-compendia.effects.TpmhsH2JmpcsZspZ]{Continuation}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1730826131584,
+    "modifiedTime": 1737756047491,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!iN46R5vFCQhSSinJ"
+}

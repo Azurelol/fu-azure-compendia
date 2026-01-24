@@ -1,0 +1,138 @@
+{
+  "name": "Random",
+  "_id": "5RKa3SmMBRZNAIM1",
+  "img": "icons/environment/wilderness/terrain-forest-gray.webp",
+  "description": "<p>What happens?</p>",
+  "results": [
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/magic/death/grave-tombstone-glow-tan.webp",
+      "_id": "7kfxZunxiIIEtNk5",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Conflict",
+      "documentUuid": "Compendium.fu-azure-compendia.generators.RollTable.bL5mCSHeyBs35vXq",
+      "description": "",
+      "_key": "!tables.results!5RKa3SmMBRZNAIM1.7kfxZunxiIIEtNk5"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/environment/traps/trap-jaw-tan.webp",
+      "_id": "X1hnKxP8pa4jTVLW",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Trap",
+      "documentUuid": "Compendium.fu-azure-compendia.generators.RollTable.QtqAkRsB7HdkIGAN",
+      "description": "",
+      "_key": "!tables.results!5RKa3SmMBRZNAIM1.X1hnKxP8pa4jTVLW"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "icons/environment/wilderness/mine-interior-dungeon-door.webp",
+      "_id": "fKt0SqINazKwZliI",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Salvage",
+      "documentUuid": "Compendium.fu-azure-compendia.generators.RollTable.uOAFED1ImT1yWFKQ",
+      "description": "",
+      "_key": "!tables.results!5RKa3SmMBRZNAIM1.fKt0SqINazKwZliI"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "name": "Prompt",
+      "img": "icons/skills/social/diplomacy-handshake-blue.webp",
+      "documentUuid": "Compendium.azure-campaign-compendia.tables.RollTable.V3BZ0FNC9gohmZPi",
+      "_id": "fRROREH3oKFUfVca",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1755716933177,
+        "modifiedTime": 1755716933177,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!tables.results!5RKa3SmMBRZNAIM1.fRROREH3oKFUfVca"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JXPd932s9DHQRD0w": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1744215064428,
+    "modifiedTime": 1755716940515,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
+  },
+  "formula": "1d4",
+  "_key": "!tables!5RKa3SmMBRZNAIM1"
+}

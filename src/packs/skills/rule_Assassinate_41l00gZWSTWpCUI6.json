@@ -1,0 +1,58 @@
+{
+  "folder": "7nJ0oAhFKLGbXuX6",
+  "name": "Assassinate",
+  "type": "rule",
+  "_id": "41l00gZWSTWpCUI6",
+  "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
+  "system": {
+    "fuid": "assassinate",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>At the <strong>end of the round</strong>, choose one <strong>soldier-rank</strong> enemy in <strong>Crisis</strong>. They are <strong>immediately reduced to 0 Hit Points</strong>.</p><p><em>This can only trigger once per conflict.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731433870542,
+    "modifiedTime": 1732035250401,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!41l00gZWSTWpCUI6"
+}

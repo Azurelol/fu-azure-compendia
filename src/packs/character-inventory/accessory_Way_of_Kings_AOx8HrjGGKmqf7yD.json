@@ -1,0 +1,58 @@
+{
+  "folder": "sE8kVvnk48MlEc84",
+  "name": "Way of Kings",
+  "type": "accessory",
+  "_id": "AOx8HrjGGKmqf7yD",
+  "img": "icons/sundries/books/book-tooled-blue-yellow.webp",
+  "system": {
+    "fuid": "way-of-kings",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.8HxmAoTTwLlmQ8Fc]{Orator}</p><hr /><p><em>A collection of parables by an ancient king from another time.</em></p><h2>Qualities</h2><ul><li><p>When you @UUID[Compendium.projectfu.skills.04DiGVKhF3DtmJ4n]{Encourage} you may <strong>spend its cost again</strong> in order to target an additional ally.</p></li><li><p><strong>Once per conflict</strong> if the target is in <strong>Crisis</strong> when they are the target of the skill you may make an @CHECK[ins wlp veryHard], which if successful gives them @UUID[Compendium.fu-azure-compendia.effects.hnXVEabmOmtGQtNv]{Brilliant Conviction} instead.</p></li><li><p><strong>Once per conflict</strong> if a party member would be <strong>defeated</strong> you can make a @CHECK[ins wlp veryHard] check. If <strong>successful</strong> you may ask \"<em>What is the most important step a person can take?\".  </em>Depending on the party member's answer they may gain <strong>one</strong> of the following: @UUID[Compendium.fu-azure-compendia.effects.wmld4YK2TtfzQbzj]{Regeneration} @UUID[Compendium.fu-azure-compendia.effects.ixyGsIPrzCrmNnhR]{Concentration}</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737413352101,
+    "modifiedTime": 1737757904421,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!AOx8HrjGGKmqf7yD"
+}

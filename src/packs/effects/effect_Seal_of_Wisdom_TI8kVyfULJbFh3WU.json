@@ -1,0 +1,76 @@
+{
+  "folder": "l1GpVcN4agExMG9J",
+  "name": "Seal of Wisdom",
+  "type": "effect",
+  "_id": "TI8kVyfULJbFh3WU",
+  "img": "icons/magic/light/beam-rays-blue.webp",
+  "system": {
+    "fuid": "seal-of-wisdom",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "img": "icons/magic/light/beam-rays-blue.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.TI8kVyfULJbFh3WU",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Seal of Wisdom",
+      "_id": "mTH7ybh0UMev3NA1",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "<p>When you <strong>hit</strong> a target with a melee or ranged attack you recover @GAIN[10 mp]</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1737750112575,
+        "modifiedTime": 1737750300987,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!TI8kVyfULJbFh3WU.mTH7ybh0UMev3NA1"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737750103462,
+    "modifiedTime": 1737750214692,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!TI8kVyfULJbFh3WU"
+}

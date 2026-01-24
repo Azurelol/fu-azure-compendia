@@ -1,0 +1,76 @@
+{
+  "folder": "ecb265AiQGmQqXcQ",
+  "name": "Ultima Clock",
+  "type": "effect",
+  "_id": "1nffZ0gn6OMwKgH5",
+  "img": "icons/magic/lightning/orb-ball-purple.webp",
+  "system": {
+    "fuid": "afc-ultima-clock",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.fu-azure-compendia.adversary-creation.Item.1nffZ0gn6OMwKgH5",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Ultima Clock",
+      "img": "icons/magic/lightning/orb-ball-purple.webp",
+      "_id": "BjCVxlMGdGOt6Rhm",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "<p>You have an <strong>Ultima Power</strong> you can perform by filling up its clock, with the following triggers:</p><ul><li><p>Fill 1 section each time you lose Hit Points in a round, unless that loss was self-inflicted.</p></li><li><p>Fill 1 section when you enter Crisis for the first time in a conflict.</p></li><li><p>Fill 1 section when you hit with an attack or spell and the <strong>result of the accuracy check was an odd number</strong>.</p></li><li><p>Unleashing the zero effect erases all sections of the Zero Clock.</p></li></ul>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!1nffZ0gn6OMwKgH5.BjCVxlMGdGOt6Rhm"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0-alpha.30",
+    "createdTime": 1730492177716,
+    "modifiedTime": 1731098686825,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!1nffZ0gn6OMwKgH5"
+}

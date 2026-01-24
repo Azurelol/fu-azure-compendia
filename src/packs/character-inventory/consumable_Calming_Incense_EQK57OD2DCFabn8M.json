@@ -1,0 +1,48 @@
+{
+  "folder": "BYGNpBIU9IpbOZHE",
+  "name": "Calming Incense",
+  "type": "consumable",
+  "_id": "EQK57OD2DCFabn8M",
+  "img": "icons/consumables/plants/tearthumb-halberd-leaf-green.webp",
+  "system": {
+    "fuid": "calming-incense",
+    "subtype": {
+      "value": "utility"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>During a rest scene</strong>, a soothing blend of rare herbs and mystical essences that fills the air with a gentle, tranquil aroma. When burned, it eases the mind, dispels agitation, and promotes inner peace, making it ideal for meditation, focus, or resisting mental disturbances.</p><p><strong>All party members</strong> gain @UUID[Compendium.fu-azure-compendia.effects.Oo3f41XjiLRl8u5y]{Mental Ward} until it expires or their next rest.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 2
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739391201957,
+    "modifiedTime": 1739392493637,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!EQK57OD2DCFabn8M"
+}

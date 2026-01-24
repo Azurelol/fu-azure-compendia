@@ -1,0 +1,58 @@
+{
+  "folder": "hpvqjDAkwK9kAXTh",
+  "name": "Ophidian  Eye",
+  "type": "accessory",
+  "_id": "tdCbARMj81LNnbah",
+  "img": "icons/equipment/finger/ring-ouroboros-copper.webp",
+  "system": {
+    "fuid": "ophidian-eye",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<h2>Qualities</h2><ul><li><p><strong>Once</strong> per round when you are about to receive <strong>poison damage</strong> you can spend @LOSS[5 mp] in order to gain @UUID[Compendium.projectfu.actor-effects.3xPA7x9S3fggYHkX]{Poison Resistance} until the <strong>start of next your turn</strong>.</p></li><li><p><strong>Every two times</strong> you perform the above you recover @GAIN[$step(5,10,15) hp]</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738080960959,
+    "modifiedTime": 1738081151975,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!tdCbARMj81LNnbah"
+}

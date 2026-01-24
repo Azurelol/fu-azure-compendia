@@ -1,0 +1,89 @@
+{
+  "folder": "WuqxGkhx855wRG9f",
+  "name": "Taunt",
+  "type": "effect",
+  "_id": "AcW14zmUzQkID1tQ",
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "system": {
+    "fuid": "taunt",
+    "cost": {
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.AcW14zmUzQkID1tQ",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Taunt",
+      "_id": "R7oHa76GBEpGGSzG",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.derived.def.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.derived.mdef.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "description": "<p>You invite an attack with <strong>reduced defenses</strong>. The <strong>next</strong> <strong>hostile action</strong> against your party must <strong>include</strong> <strong>you</strong> among its list of target<em>s.</em> Afterwards this effect expires.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1739039090701,
+        "modifiedTime": 1739040173202,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AcW14zmUzQkID1tQ.R7oHa76GBEpGGSzG"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1739039087638,
+    "modifiedTime": 1739039349226,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!AcW14zmUzQkID1tQ"
+}

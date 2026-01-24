@@ -1,0 +1,68 @@
+{
+  "name": "Fell Raiment",
+  "type": "armor",
+  "img": "icons/equipment/chest/robe-collared-pink.webp",
+  "system": {
+    "subtype": {
+      "value": ""
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>@UUID[Compendium.fu-azure-compendia.guides.prZlqZpAy69UrhEt]{Masterwork}</p><hr /><h2>Qualities</h2><ol><li><p>The amount of <strong>hit points</strong> or <strong>mind points</strong> you gain from spells that drain them is increased by @GAIN[5 hp] or @GAIN[5 mp]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 200
+    },
+    "isMartial": {
+      "value": false
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 1,
+      "attribute": "dex"
+    },
+    "mdef": {
+      "value": 2,
+      "attribute": "ins"
+    },
+    "init": {
+      "value": -2
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "sage-robe"
+  },
+  "effects": [],
+  "folder": "hDxRisIuYNCNBKir",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738517171909,
+    "modifiedTime": 1738518534434,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "BwRsFvMHAq9vUtEO": 3,
+    "esOkelwPNblkbxW3": 3
+  },
+  "_id": "2ZRZz5KOz9SbO87S",
+  "sort": 0,
+  "_key": "!items!2ZRZz5KOz9SbO87S"
+}

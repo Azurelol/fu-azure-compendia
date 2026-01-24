@@ -1,0 +1,102 @@
+{
+  "folder": "o5X6vSZtExEFGp9S",
+  "name": "Oaken Wraps",
+  "type": "accessory",
+  "_id": "7XYhlso6lAeq5dB5",
+  "img": "icons/equipment/back/cloak-collared-leaves-green.webp",
+  "system": {
+    "fuid": "oaken-wraps",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.I3qOytLtqR9OAawS]{Chimerist}</p><hr /><h2>Qualities</h2><ol><li><p>At the <strong>start of a conflict</strong> you may spend @LOSS[10 mp] in order to <strong>Study</strong> a creature belonging to the <strong>beast</strong>, <strong>monster</strong> or <strong>plant</strong> Species.</p></li><li><p>@UUID[Compendium.fu-azure-compendia.character-inventory.xvTpvOlIc2rHaJ9M]{Desperate Recovery}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 1000
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 1
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [
+    {
+      "name": "Desperate Recovery",
+      "img": "icons/magic/life/cross-embers-glow-yellow-purple.webp",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict you may recover from <strong>one status effect</strong>.</p>",
+      "origin": "Compendium.fu-azure-compendia.character-inventory.Item.xvTpvOlIc2rHaJ9M",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "type": "default",
+          "source": "",
+          "CrisisInteraction": "none"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1737751276598,
+        "modifiedTime": 1737751276598,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "AGCb5OKrmjqAkKpb",
+      "_key": "!items.effects!7XYhlso6lAeq5dB5.AGCb5OKrmjqAkKpb"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737750917415,
+    "modifiedTime": 1737751339348,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!7XYhlso6lAeq5dB5"
+}

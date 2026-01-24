@@ -1,0 +1,65 @@
+{
+  "name": "System: Active Field Battle",
+  "_id": "KQDfkgpcllPEDspr",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Introduction",
+      "type": "text",
+      "_id": "8X16bMXm2LHds130",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>An optional subsystem for the default battle system in Fabula Ultima. While the default rules are gridless and can be played entirely in theater of the mind, for those of us who like to make things a bit more dynamic we can add another layer of gameplay.</p><p>In this system some NPCs have special actions that place markers on the field, which require player characters to act accordingly, usually by moving around the battlefield or rotating their character.</p><p>So what do we need to make this work?</p><ol><li><p>A scene with a background map in either an <strong>isometric or top-down perspective.</strong></p></li><li><p>Sprites for both PCs and NPCs on said field.</p></li><li><p>Special actions on said NPCs that declare the action and place a marker on the same turn. </p></li></ol><p>Now to make it it work properly we need guidelines:</p><ol><li><p><strong>PCs</strong> <strong>can only move on their turn,</strong> unless they can't by the fiction (they are grabbed, frozen, etc)</p></li><li><p>NPC actions that place markers <strong>need to give the players enough time so they can make informed decisions</strong> and prepare themselves.</p></li></ol><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1724087711022,
+        "modifiedTime": 1724088206136,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!KQDfkgpcllPEDspr.8X16bMXm2LHds130"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1724087702252,
+    "modifiedTime": 1724088229832,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!KQDfkgpcllPEDspr"
+}

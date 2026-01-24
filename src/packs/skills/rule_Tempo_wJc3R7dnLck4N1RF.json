@@ -1,0 +1,58 @@
+{
+  "folder": "yfNBuxkwJmpLWyP5",
+  "name": "Tempo",
+  "type": "rule",
+  "_id": "wJc3R7dnLck4N1RF",
+  "img": "icons/skills/melee/strikes-sword-scimitar.webp",
+  "system": {
+    "fuid": "tempo",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>It takes time for you to build up to your full potential. After you <strong>perform an attack</strong> you <strong>gain a stacking damage bonus to your attacks until you take damage from any source,</strong> at which point the stacks are lost.</p><ol><li><p>@DMG[5 physical]</p></li><li><p>@DMG[10 physical]</p></li><li><p>@DMG[15 physical]</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1731429340899,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!wJc3R7dnLck4N1RF"
+}

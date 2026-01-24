@@ -1,0 +1,58 @@
+{
+  "folder": "MkDJrlkn452pkT5v",
+  "name": "Heavy Burden",
+  "type": "accessory",
+  "_id": "xe73pERoC2KFxkLP",
+  "img": "icons/equipment/back/cape-layered-purple.webp",
+  "system": {
+    "fuid": "mantle-of-stewardship",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.2ZBMQzwMLEGVJkz2]{Commander}</p><hr /><h2>Qualities</h2><ol><li><p>When you perform @UUID[Compendium.projectfu.skills.HC27DMHBE4M54y6Y]{Queen's Gambit} and the ally recovers health, they also gain @UUID[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength}</p></li><li><p>When you enter <strong>Crisis</strong> for the first time in a conflict, an ally of your choosing immediately performs  @EFFECT[guard] on you until the <strong>start of their next turn</strong></p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737752031283,
+    "modifiedTime": 1737752399419,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!xe73pERoC2KFxkLP"
+}

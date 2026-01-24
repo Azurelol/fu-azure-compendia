@@ -1,0 +1,58 @@
+{
+  "folder": "L18cyY70l9hTIZpS",
+  "name": "Artisan Brush",
+  "type": "accessory",
+  "_id": "t6Bg7FKHirkfaNyB",
+  "img": "icons/tools/hand/brush-paint-brown-tan.webp",
+  "system": {
+    "fuid": "artisan-brush",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.m2nmisQnnkVKowT7]{Symbolist}</p><hr /><h2>Qualities</h2><ol><li><p>Once per conflict you can <strong>spend</strong> <strong>mind points</strong> in order to perform <strong>Symbolism</strong> as a <strong>free action</strong> during your turn by spending @LOSS[20 mp]</p></li><li><p>Once per conflict if an ally <strong>bearing </strong>one of your symbol would <strong>receive damage</strong> you can <strong>spend mind points equal</strong> to that of the damage in order to <strong>destroy</strong> that symbol and <strong>nullify</strong> the damage. Requires @UUID[Compendium.projectfu.skills.h6ynrwX1sUsBQYAE]{Symbolic Connection}</p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737393870466,
+    "modifiedTime": 1737757054586,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!t6Bg7FKHirkfaNyB"
+}

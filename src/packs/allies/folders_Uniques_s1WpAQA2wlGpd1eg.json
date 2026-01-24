@@ -1,0 +1,22 @@
+{
+  "name": "Uniques",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "s1WpAQA2wlGpd1eg",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731426629411,
+    "modifiedTime": 1731434994369,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!s1WpAQA2wlGpd1eg"
+}

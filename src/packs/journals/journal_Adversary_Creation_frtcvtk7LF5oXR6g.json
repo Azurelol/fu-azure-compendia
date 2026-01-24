@@ -1,0 +1,260 @@
+{
+  "name": "Adversary Creation",
+  "_id": "frtcvtk7LF5oXR6g",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Introduction",
+      "type": "text",
+      "_id": "UoZ2n7JsiqGtVwUE",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Hello there, fellow human Gamemaster.</p><p>The method for designing and quickly creating adversaries with my module is rather straightforward and takes a composition-based approach to the process. We will use the guidelines from the core rulebook (Page 302) and with the power of automation we will create NPCs for your campaign.</p><p>While creating NPCs, you will be wanting to use both the <strong>Adversary Creation</strong> and <strong>Adversaries</strong> compendiums.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1723917727504,
+        "modifiedTime": 1724697936158,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!frtcvtk7LF5oXR6g.UoZ2n7JsiqGtVwUE"
+    },
+    {
+      "sort": 200000,
+      "name": "Checklist",
+      "type": "text",
+      "_id": "QVYdZsckNv8LnosF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The following is the process for adversary creation using the <em>Adversary Creation</em> item compendium. Starting with a concept for your NPC we will bring it to life in a sequence of steps:</p><ol><li><p><strong>Create the </strong><em><strong>Actor,</strong></em> either by duplicating one of the <em>templates</em> for the species in the <em>Adversaries</em> compendium or creating the actor om your own. Then with the sheet open switch to the <em>Combat</em> tab.</p></li><li><p><strong>Assign its @UUID[.S4ADSg9Jd7MWUxgw]{Species} </strong>based on the concept.</p></li><li><p><strong>Assign its @UUID[.NekzOdNTCEGLqvlj]{Traits}</strong> based on the concept.</p></li><li><p><strong>Adjust its attributes and elemental affinities</strong> based on the traits and the concept.</p></li><li><p><strong>Add one or two attacks</strong> based on your role for the adversary.</p></li><li><p><strong>Assign its @UUID[.6OBSxsjVC8pCZjYY]{Skills} </strong>based on your concept that will make it interesting to fight against. I believe every adversary should have something unique or special that players have to watch out for.<br /><em>Note that while most skills have their passive effects already enabled, some skills that have multiple options (such as Specialized) need to have those passive effects enabled manually.</em></p></li><li><p><strong>Add spells</strong> as needed if you chose the spellcaster skill 1 or more times.</p></li><li><p><strong>Review your skill point usage</strong> anytime by checking out the <em>Settings</em> tab on the actor. Don't worry if you have points left over after fleshing it out. It is better for an adversary to be slightly undertuned than the other way around.</p></li></ol>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1723918095690,
+        "modifiedTime": 1724697336200,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!frtcvtk7LF5oXR6g.QVYdZsckNv8LnosF"
+    },
+    {
+      "sort": 300000,
+      "name": "Species",
+      "type": "text",
+      "_id": "S4ADSg9Jd7MWUxgw",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Here are some thoughts and clarifications to explain how NPCs are being classified in this compendia. If a species is not mentioned it's because my views are very much aligned with those in the CRB.</p><h2>Beasts vs Monsters</h2><p>For my bestiary, I think of beasts as having <strong>evolved</strong> <strong>naturally</strong> to become part of their ecosystem, awhereas monsters are <strong>unnatural</strong> and tend to displace other creatures and upset the natural order when given a chance. They can come in a variety of ways such as:</p><ul><li><p><strong>Environmental</strong> mutations, such as an imbalance in the natural elements</p></li><li><p><strong>Magical</strong> or <strong>technological</strong> engineering to purposefully change them towards an usually sinister purpose</p></li></ul><h2>Monsters vs Humanoids</h2><p>Some humanoid-looking NPCs can be hard  to classify here. For me the distinction comes from humanoids being able to form societies, however small whereas monsters tend to be solitary and may be even be unable to reproduce in the first place.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1724688328474,
+        "modifiedTime": 1724697245237,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!frtcvtk7LF5oXR6g.S4ADSg9Jd7MWUxgw"
+    },
+    {
+      "sort": 400000,
+      "name": "Skills",
+      "type": "text",
+      "_id": "6OBSxsjVC8pCZjYY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>I have categorized skills in several categories based on what they roughly do.</p><h2>Active</h2><p>Active skills<strong> </strong>directly impact how the NPC behaves. I recommend giving each NPC <strong>at least one skill from these categories</strong>, and composing interesting ones by mix-and-matching 2-3 from among the following categories</p><ul><li><p><strong>Actions:</strong> Special actions that can be performed</p></li><li><p><strong>Initiative:</strong> Skills that activate at the beginning of a conflict</p></li><li><p><strong>Crisis</strong>: Skills that activate when an NPC reaches crisis (or reaches 0 HP)</p></li><li><p><strong>Reactions:</strong> Skills that trigger on a specific condition during a round.</p></li><li><p><strong>Talents</strong>: These skills usually modify the combat style of the NPC by enhancing their attacks in some way.</p></li></ul><h2>Passive</h2><p>Passive skills, directly affect the NPCs attributes (such as hit points) or how they deal with statuses.</p><ul><li><p><strong>Attributes: </strong>Affects hit points, mind points and the like for the NPC.</p></li><li><p><strong>Statuses:</strong> Affects how the NPC reacts to statuses, such as possibly negating them entirely.</p></li></ul><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1724689082661,
+        "modifiedTime": 1724697376549,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!frtcvtk7LF5oXR6g.6OBSxsjVC8pCZjYY"
+    },
+    {
+      "sort": 500000,
+      "name": "Traits",
+      "type": "text",
+      "_id": "NekzOdNTCEGLqvlj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Since each NPC in the system needs to have 4 traits, we should make use of that to help inform the GM what a given adversary's role in an conflict is, and what their behavior is like. I will stick to the following convention for traits on an NPC on the compendia:</p><ol><li><p><strong>Role</strong></p></li><li><p><strong>Personality</strong></p></li><li><p><strong>Appearance</strong></p></li><li><p><strong>Hint</strong></p></li></ol><h2>1. Role</h2><p>We have much to learn from other systems regarding how to handle this. At the time of this writing here are the following traits that define the role and starting attributes for an NPC.</p><p><em>The official NPC assembly rules will include roles as well. They will be mapped accordingly to the below when they match the intent.</em></p><table><tbody><tr><td data-colwidth=\"114\"><p><strong>Role</strong></p></td><td data-colwidth=\"46\"><p><strong>DEX</strong></p></td><td data-colwidth=\"44\"><p><strong>MIG</strong></p></td><td data-colwidth=\"38\"><p><strong>INS</strong></p></td><td data-colwidth=\"57\"><p><strong>WLP</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td data-colwidth=\"114\"><p>Brute</p></td><td data-colwidth=\"46\"><p>d8</p></td><td data-colwidth=\"44\"><p>d10</p></td><td data-colwidth=\"38\"><p>d6</p></td><td data-colwidth=\"57\"><p>d8</p></td><td><p>Robust, hits hard but easy to hit</p></td></tr><tr><td data-colwidth=\"114\"><p>Skirmisher, Hunter</p></td><td data-colwidth=\"46\"><p>d10</p></td><td data-colwidth=\"44\"><p>d8</p></td><td data-colwidth=\"38\"><p>d8</p></td><td data-colwidth=\"57\"><p>d6</p></td><td><p>Accurate, highly damaging.</p></td></tr><tr><td data-colwidth=\"114\"><p>Mage</p></td><td data-colwidth=\"46\"><p>d8</p></td><td data-colwidth=\"44\"><p>d6</p></td><td data-colwidth=\"38\"><p>d8</p></td><td data-colwidth=\"57\"><p>d10</p></td><td><p>Focuses on casting damaging spells. Fragile.</p></td></tr><tr><td data-colwidth=\"114\"><p>Guardian, Sentinel</p></td><td data-colwidth=\"46\"><p>d8</p></td><td data-colwidth=\"44\"><p>d10</p></td><td data-colwidth=\"38\"><p>d8</p></td><td data-colwidth=\"57\"><p>d6</p></td><td><p>Protects allies. Hard to kill.</p></td></tr><tr><td data-colwidth=\"114\"><p>Controller, Saboteur</p></td><td data-colwidth=\"46\"><p>d8</p></td><td data-colwidth=\"44\"><p>d6</p></td><td data-colwidth=\"38\"><p>d10</p></td><td data-colwidth=\"57\"><p>d8</p></td><td><p>Focuses on weakening enemies, affecting enemy actions. Fragile.</p></td></tr><tr><td data-colwidth=\"114\"><p>Support</p></td><td data-colwidth=\"46\"><p>d8</p></td><td data-colwidth=\"44\"><p>d6</p></td><td data-colwidth=\"38\"><p>d8</p></td><td data-colwidth=\"57\"><p>d10</p></td><td><p>Provides bonuses and healing to allies. Fragile.</p></td></tr><tr><td data-colwidth=\"114\"><p>Leader</p></td><td data-colwidth=\"46\"><p>d8</p></td><td data-colwidth=\"44\"><p>d8</p></td><td data-colwidth=\"38\"><p>d8</p></td><td data-colwidth=\"57\"><p>d8</p></td><td><p>Commands allies, directly impacts their actions and reactions</p></td></tr></tbody></table><h2>2. Personality</h2><p>The second trait can be used to establish the NPC's baseline personality (which of course can vary for certain individuals). A good list of them can be found <a href=\"https://ideonomy.mit.edu/essays/traits.html\">here</a>.</p><h3>Positive</h3><table><tbody><tr><td><p>alert, admirable, brave, calm, charismatic, clever, cowardly, earnest, dignified, firm, faithful, fair, gallant, gentle, heroic, honorable, honest, humble, helpful, independent, intuitive, insightful, kind, logical, lovable, loyal, modest, methodical, observant, optimistic, orderly, passionate, patient, peaceful, persuasive, playful, popular, practical, principled, protective, rational, realistic, reliable, resourceful, romantic, selfless, shrewd, serious, simple, skillful, sociable, spontaneous, sporting, stable, steadfast, stoic, strong, studious, sweet, tolerant, trusting, understanding, upright, warm, well-bred, wise, witty</p></td></tr></tbody></table><h3>Neutral</h3><table><tbody><tr><td><p>absentminded, aggressive, ambitious, amusing, artful, authoritarian, businesslike, casual, chummy, conservative, cute, deceptive, determined, dominating, dry, emotional, enigmatic, folksy, formal, frugal, high-spirited, iconoclastic, impersonal, impressionable, intense, irreverent, mellow, obedient, outspoken, placid, political, private, progressive, proud, pure, questioning, quiet, religious, reserved, restrained, sarcastic, skeptical, stern, strict, solitary, solemn, soft, tough, unhurried, whimsical</p></td></tr></tbody></table><h3>Negative</h3><table><tbody><tr><td><p>abrasive, amoral, angry, anxious, apathetic, arrogant, artificial, asocial, barbaric, bewildered, bizarre, blunt, boisterous, brutal, calculating, callous, cantakerous, careless, cautious, clumsy, coarse, cold, complacent, compulsive, conceited, confused, contemptible, cowardly, crafty, crass, crazy, criminal, crude, cruel, cynical, decadent, deceitful, demanding, desperate, destructive, devious, difficult, dirty, disconcerting, discouraging, dishonest, disloyal, disorderly, disruptive, disturbing, dogmatic, domineering, dull, egocentric, envious, erratic, excitable, expedient, extreme, faithless, false, fanatical, fatalistic, fearful, fickle, fiery, flamboyant, foolish, forgetful, fraudulent, frightening, frivolous, gloomy, greedy , grim, gullible, hateful, haughty, hedonistic, high-handed, hostile, ignorant, impatient, inconsiderate, indecisive, insecure, intolerant, irascible, irrational, irresponsible, irritable, lazy, malicious, messy, miserable, miserly, misguided, monstrous, moody, morbid, naive, narcissistic, narrow-minded, neurotic, nihilistic, obnoxious, obsessive, oblivious, opportunistic, paranoid, pedantic, perverse, petty, pompous, possessive, power-hungry, predatory, prejudiced, presumptuous, pretentious, pugnacious puritanical, quirky, repentant, regretful, repressed, resentful, ridiculous, rigid, rowdy, sadistic, scheming, scornful, secretive, selfish, self-indulgent, shallow, shortsighted, shy, silly, sloppy, tactless, timid, treacherous, uncaring, unfriendly, unreliable, unstable, vague, venal, venomous, vindictive, weak-willed, willful</p></td></tr></tbody></table><h2>3. Appearance</h2><p>This third trait can provide a hint regarding the NPC's attributes.</p><table><tbody><tr><td><p>big, small, towering, scaled</p></td></tr></tbody></table><h2>4. Hint</h2><p>The fourth trait can be used to provide a hint to players, double up on one of the previous or... whatever you think should be noted.</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1724695281374,
+        "modifiedTime": 1725466859268,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!frtcvtk7LF5oXR6g.NekzOdNTCEGLqvlj"
+    },
+    {
+      "sort": 600000,
+      "name": "Scaling",
+      "type": "text",
+      "_id": "9E7fNDZfi4vap5el",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The adversaries designed in the module range from levels 5 to 10, and have been designed so that they could fit any suitable campaign.</p><p>In order to scale up one these NPCs, you should do the following in order:</p><ul><li><p><strong>Apply</strong> <strong>the following effect</strong> onto the actor: @UUID[Compendium.fu-azure-compendia.effects.ACMly1iHYs5ku1wG]{Level Scaling}</p></li><li><p><strong>Add</strong> a <strong>number</strong> of additional skills based on their new level, at the rate of 1 skill for each 10 levels. I recommend adding skills from categories they don't already have, such as reactions, talents, crisis, etc.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "2.4.0-alpha.25",
+        "createdTime": 1727626328679,
+        "modifiedTime": 1738427843267,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!frtcvtk7LF5oXR6g.9E7fNDZfi4vap5el"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723917698921,
+    "modifiedTime": 1723917698921,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!frtcvtk7LF5oXR6g"
+}

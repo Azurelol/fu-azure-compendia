@@ -1,0 +1,58 @@
+{
+  "name": "Seal of Judgement",
+  "type": "rule",
+  "_id": "cLbMtOA7YMsDpg2H",
+  "img": "icons/magic/light/beam-horizon-strike-yellow.webp",
+  "system": {
+    "fuid": "blinding-flash",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After you <strong>hit an enemy with a light attack or spell</strong> they are affected by @UUID[Compendium.fu-azure-compendia.effects.Gb2QyfiaVKD1RuiR]{Seal of Judgement}</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "folder": "9sF7Li98rc4NikRM",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1737750044385,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!cLbMtOA7YMsDpg2H"
+}

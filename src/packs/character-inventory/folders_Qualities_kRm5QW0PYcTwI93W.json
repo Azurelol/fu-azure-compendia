@@ -1,0 +1,22 @@
+{
+  "name": "Qualities",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "kRm5QW0PYcTwI93W",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "2.4.0",
+    "createdTime": 1731445078476,
+    "modifiedTime": 1731445078476,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!kRm5QW0PYcTwI93W"
+}

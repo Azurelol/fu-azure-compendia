@@ -1,0 +1,58 @@
+{
+  "folder": "y9VacGKyFP10h5ee",
+  "name": "Malfunction",
+  "type": "rule",
+  "_id": "QCXmofmGGV8EdGcX",
+  "img": "icons/magic/lightning/bolt-strike-creature-pink.webp",
+  "system": {
+    "fuid": "malfunction",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, there's a chance a mechanism you possess breaks or begins to malfunction. <strong>Roll a d8</strong> and consult the table below for the <strong>effect</strong>.</p><table><tbody><tr><td data-colwidth=\"134\"><p><strong>Dice</strong></p></td><td data-colwidth=\"136\"><p><strong>Effect</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td data-colwidth=\"134\"><p>1-2</p></td><td data-colwidth=\"136\"><p>Backfire</p></td><td><p>You take @DMG[$minor fire]. If you were struck in melee, the attacker also takes this damage as well.</p></td></tr><tr><td data-colwidth=\"134\"><p>3-4</p></td><td data-colwidth=\"136\"><p>Damaged Propulsion</p></td><td><p>You are affected by @EFFECT[dex-down]</p></td></tr><tr><td data-colwidth=\"134\"><p>5-6</p></td><td data-colwidth=\"136\"><p>Loose Screws</p></td><td><p>You are affected by @EFFECT[mig-down]</p></td></tr><tr><td data-colwidth=\"134\"><p>7-8</p></td><td data-colwidth=\"136\"><p>Reboot</p></td><td><p>You are @UUID[Compendium.fu-azure-compendia.effects.2CdYy1zLjc6uOIPC]{Stunned}</p></td></tr></tbody></table>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1735331808276,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!QCXmofmGGV8EdGcX"
+}

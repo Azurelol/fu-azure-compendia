@@ -1,0 +1,58 @@
+{
+  "folder": "yfNBuxkwJmpLWyP5",
+  "name": "Lifesteal",
+  "type": "rule",
+  "_id": "mRJ87ZMLnDVG9Lp0",
+  "img": "icons/magic/unholy/projectile-helix-blood-red.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Your <strong>melee attack</strong> on a target invigorates you, allowing you to <strong>recover</strong> <strong>minor hit points</strong>..</p><ul><li><p><strong>You</strong>: @GAIN[$minor hp] </p></li></ul><p><em>Note that the frequency of this skill depends on your rank.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "lifesteal"
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1734805749182,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!mRJ87ZMLnDVG9Lp0"
+}

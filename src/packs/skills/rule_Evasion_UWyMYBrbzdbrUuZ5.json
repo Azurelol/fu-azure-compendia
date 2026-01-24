@@ -1,0 +1,58 @@
+{
+  "folder": "02EELzRzHhrEwzoj",
+  "name": "Evasion",
+  "type": "rule",
+  "img": "icons/skills/movement/ball-spinning-blue.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>You <strong>automatically evade an attack or spell </strong>that targets you. However if the result of the <strong>accuracy check</strong> was <strong>a critical success</strong> the attacker can use their <strong>opportunity</strong> to ignore this effect.</p><p><em>This can only trigger once per round, on the first attack.</em></p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "evasion"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1736613162783,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "UWyMYBrbzdbrUuZ5",
+  "sort": 200000,
+  "_key": "!items!UWyMYBrbzdbrUuZ5"
+}

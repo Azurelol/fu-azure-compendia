@@ -1,0 +1,58 @@
+{
+  "folder": "Vmxx1XUVjl7nMufb",
+  "name": "Flames",
+  "type": "rule",
+  "_id": "knpB0AIbXPMdS0tl",
+  "img": "icons/magic/fire/flame-burning-building.webp",
+  "system": {
+    "fuid": "flames",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>The <strong>scene</strong> is awash in burning smoke and fire.</p><ul><li><p><strong>Party:</strong> @DMG[&amp;step(3,5,7) fire] at the <strong>start of each round</strong>.</p></li></ul>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1738410897902,
+    "modifiedTime": 1738411534627,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!knpB0AIbXPMdS0tl"
+}

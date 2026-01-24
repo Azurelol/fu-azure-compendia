@@ -1,0 +1,182 @@
+{
+  "name": "Conflicts",
+  "_id": "QyVTGBUeRh0FHUwS",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Social Clocks",
+      "type": "text",
+      "_id": "9jD3Sb93Tvrd63Ay",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>This page will contain a list of possible social conflicts for a campaign. These are conflicts where both heroes and the opposing side have different goals. In these words are mightier than the proverbial greatsword.</p><table><tbody><tr><td data-colwidth=\"103\"><p><strong>Type</strong></p></td><td data-colwidth=\"63\"><p><strong>Clock</strong></p></td><td data-colwidth=\"67\"><p><strong>Sections</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td data-colwidth=\"103\"><p>Trial</p></td><td data-colwidth=\"63\"><p>Opposing</p></td><td data-colwidth=\"67\"><p>12</p></td><td><p>A trial where someone is being judged and both party and adversaries want to influence the outcome.</p></td></tr><tr><td data-colwidth=\"103\"><p>Convince Leader</p></td><td data-colwidth=\"63\"><p>Opposing</p></td><td data-colwidth=\"67\"><p>12</p></td><td><p>Persuade an authority figure towards a course of action</p></td></tr><tr><td data-colwidth=\"103\"><p>Encourage</p></td><td data-colwidth=\"63\"><p>Contested</p></td><td data-colwidth=\"67\"><p>6</p></td><td><p>Someone is about to give up the fight and must be convinced otherwise.</p></td></tr><tr><td data-colwidth=\"103\"><p></p></td><td data-colwidth=\"63\"><p></p></td><td data-colwidth=\"67\"><p></p></td><td><p></p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735749249782,
+        "modifiedTime": 1736786543709,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!QyVTGBUeRh0FHUwS.9jD3Sb93Tvrd63Ay"
+    },
+    {
+      "sort": 0,
+      "name": "Actions",
+      "type": "text",
+      "_id": "rDcKYWZFyDkSTay3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<table><tbody><tr><td><p><strong>Type</strong></p></td><td><p><strong>Description</strong></p></td><td><p><strong>Check</strong></p></td></tr><tr><td><p>Predict Movement</p></td><td><p>Anticipate someone's movements to cut them off</p></td><td><p>@CHECK[dex ins]</p></td></tr><tr><td><p>Repair, Craft</p></td><td><p>Repair or craft a mechanical item</p></td><td><p>@CHECK[dex ins]</p></td></tr><tr><td><p>Catch</p></td><td><p>Grab someone before they get away</p></td><td><p>@CHECK[dex mig]</p></td></tr><tr><td><p>Recall Information</p></td><td><p>Recall the layout of the location</p></td><td><p>@CHECK[ins ins]</p></td></tr><tr><td><p>Avoid Trap, Escape</p></td><td><p>Avoid a trap that has been sprung, Escape from a collapsing building</p></td><td><p>@CHECK[dex ins]</p></td></tr><tr><td><p>Examine</p></td><td><p>Investigate someone or something</p></td><td><p>@CHECK[ins ins]</p></td></tr><tr><td><p>Magical Solution</p></td><td><p>Cast a spell to gain an advantage</p></td><td><p>@CHECK[ins wlp]</p></td></tr><tr><td><p>Intimidate</p></td><td><p>Cause someone to stumble or hesitate</p></td><td><p>@CHECK[mig wlp]</p></td></tr><tr><td><p>Sneak</p></td><td><p>Sneak undetected past someone</p></td><td><p>@CHECK[dex dex]</p></td></tr><tr><td><p>Taunt</p></td><td><p>Draw someone's attention into attacking you</p></td><td><p>@CHECK[dex wlp]</p></td></tr><tr><td><p>Shoot</p></td><td><p>Attack someone at range to Interrupt an action or movement</p></td><td><p>@CHECK[dex ins]</p></td></tr><tr><td><p>Coordinate Retreat</p></td><td><p>Assist others in retreating</p></td><td><p>@CHECK[ins wlp]</p></td></tr><tr><td><p>Wrestle Down</p></td><td><p>Pin someone down with brute force</p></td><td><p>@CHECK[mig mig]</p></td></tr><tr><td><p>Present Reasons</p></td><td><p>Provide compelling arguments based on logic</p></td><td><p>@CHECK[ins wlp]</p></td></tr><tr><td><p>Discuss Strategy</p></td><td><p>Discuss tactics and strategy with a group of people</p></td><td><p>@CHECK[ins mig]</p></td></tr><tr><td><p>Passionate Speech</p></td><td><p>Give an impassioned speech</p></td><td><p>@CHECK[wlp wlp]</p></td></tr><tr><td><p>Lure</p></td><td><p>Lure someone into saying too much</p></td><td><p>@CHECK[ins wlp]</p></td></tr><tr><td><p>Barricade</p></td><td><p>Barricade a location</p></td><td><p>@CHECK[dex mig]</p></td></tr><tr><td><p>Push Back</p></td><td><p>Push someone back from your position</p></td><td><p>@CHECK[mig mig]</p></td></tr><tr><td><p>Disrupt Action</p></td><td><p>Line up a shot to disrupt a ritual or complex action</p></td><td><p>@CHECK[dex ins]</p></td></tr><tr><td><p>Throw Something</p></td><td><p>Pick up something or someone to throw to interrupt an action</p></td><td><p>@CHECK[dex mig]</p></td></tr><tr><td><p>Gather Information</p></td><td><p>Get information from someone during a conversation</p></td><td><p>@CHECK[ins wlp]</p></td></tr><tr><td><p>Persuade</p></td><td><p>Convince someone of your point of view</p></td><td><p>@CHECK[ins wlp]</p></td></tr><tr><td><p>Resist</p></td><td><p>Resist pain or exhaustion</p></td><td><p>@CHECK[mig wlp]</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735749598650,
+        "modifiedTime": 1738517237878,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!QyVTGBUeRh0FHUwS.rDcKYWZFyDkSTay3"
+    },
+    {
+      "sort": 100000,
+      "name": "Objective Clocks",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>This page will contain a list of clocks <strong>within an existing conflict.</strong> These are objectives which would give the party an advantage within a battle.</p><table><tbody><tr><td data-colwidth=\"100\"><p><strong>Type</strong></p></td><td data-colwidth=\"72\"><p><strong>Clock</strong></p></td><td data-colwidth=\"59\"><p><strong>Sections</strong></p></td><td data-colwidth=\"301\"><p><strong>Description</strong></p></td><td><p><strong>Advancement</strong></p></td></tr><tr><td data-colwidth=\"100\"><p>Keep Out</p></td><td data-colwidth=\"72\"><p>Opposing</p></td><td data-colwidth=\"59\"><p>4</p></td><td data-colwidth=\"301\"><p>Prevent reinforcements from arriving in the scene</p></td><td><p></p></td></tr><tr><td data-colwidth=\"100\"><p>Chase</p></td><td data-colwidth=\"72\"><p>Opposing</p></td><td data-colwidth=\"59\"><p>10</p></td><td data-colwidth=\"301\"><p>Prevent someone from fleeing</p></td><td><p></p></td></tr><tr><td data-colwidth=\"100\"><p>Shoot Down</p></td><td data-colwidth=\"72\"><p>Opposing</p></td><td data-colwidth=\"59\"><p>6</p></td><td data-colwidth=\"301\"><p>Bring a flying creature down</p></td><td><p></p></td></tr><tr><td data-colwidth=\"100\"><p>Prevent Ritual</p></td><td data-colwidth=\"72\"><p>Contested</p></td><td data-colwidth=\"59\"><p>10</p></td><td data-colwidth=\"301\"><p>Stop a powerful spell from being concluded</p></td><td><p>+1 automatically each round</p></td></tr><tr><td data-colwidth=\"100\"><p>Defuse Explosive</p></td><td data-colwidth=\"72\"><p>Contested</p></td><td data-colwidth=\"59\"><p>8</p></td><td data-colwidth=\"301\"><p>Prevent device from exploding</p></td><td><p></p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.fu-azure-compendia.guides.JournalEntry.QyVTGBUeRh0FHUwS.JournalEntryPage.9jD3Sb93Tvrd63Ay",
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735751090031,
+        "modifiedTime": 1736786748971,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "_id": "4rWrnzYAvufm8qK1",
+      "category": null,
+      "_key": "!journal.pages!QyVTGBUeRh0FHUwS.4rWrnzYAvufm8qK1"
+    },
+    {
+      "sort": -100000,
+      "name": "Clocks",
+      "type": "text",
+      "_id": "wQBET5gPjKJYqVKx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In all complex conflicts (ones that don't <em>just</em> involve the party beating the adversaries down) there will usually be a goal which the party wants to achieve. These can be done in the following ways:</p><ul><li><p><strong>Opposing Clocks</strong>: Consists of two clocks. One to be filled by the <strong>party</strong> to interrupt the adversaries objective or complete it before them. Another for the <strong>adversaries</strong> to complete their objective.</p></li><li><p><strong>Contested Clock:</strong> A clock that the adversaries are advancing which the party is trying to turn back.</p></li></ul><p>Advancing or turning back clocks requires the use of the <strong>Objective</strong> action.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "esOkelwPNblkbxW3": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1735751153320,
+        "modifiedTime": 1736786368334,
+        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!QyVTGBUeRh0FHUwS.wQBET5gPjKJYqVKx"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1735749241785,
+    "modifiedTime": 1735749241785,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!QyVTGBUeRh0FHUwS"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "7tnvOZeP6C4fIrSY",
+  "name": "Rocket Boots",
+  "type": "accessory",
+  "_id": "IjIOIhw2AZP84Sis",
+  "img": "icons/equipment/feet/boots-armored-leather-brown.webp",
+  "system": {
+    "fuid": "rocket-boots",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.Zmqvu8QKmgyIci7C]{Tinkerer}</p><hr /><h2>Qualities</h2><ol><li><p><strong>Once per conflict</strong> you can spend @LOSS[1 ip] <strong>at the end of your turn</strong> in order to gain @UUID[Compendium.fu-azure-compendia.effects.TaI0WVX1BfRa95iA]{Flying} until the <strong>end of your next turn.</strong></p></li></ol>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "def": {
+      "value": 0
+    },
+    "mdef": {
+      "value": 0
+    },
+    "init": {
+      "value": 0
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737393443627,
+    "modifiedTime": 1737746704515,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_key": "!items!IjIOIhw2AZP84Sis"
+}

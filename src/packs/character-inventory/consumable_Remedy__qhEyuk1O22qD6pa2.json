@@ -1,0 +1,52 @@
+{
+  "name": "Remedy+",
+  "type": "consumable",
+  "img": "systems/projectfu/styles/static/compendium/consumables/remedy.png",
+  "system": {
+    "subtype": {
+      "value": "potion"
+    },
+    "summary": {
+      "value": ""
+    },
+    "description": "<p><strong>One creature</strong> recovers @HEAL[&amp;step(50,60,70) hp].</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "ipCost": {
+      "value": 3
+    },
+    "source": {
+      "value": ""
+    },
+    "fuid": "fua-remedy"
+  },
+  "effects": [],
+  "folder": "sqjQQzGCPYuCoSGu",
+  "ownership": {
+    "default": 0,
+    "hYECXwi6O8UUBuN4": 3,
+    "BwRsFvMHAq9vUtEO": 3,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1737757647778,
+    "modifiedTime": 1738506390560,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "qhEyuk1O22qD6pa2",
+  "sort": 300000,
+  "_key": "!items!qhEyuk1O22qD6pa2"
+}

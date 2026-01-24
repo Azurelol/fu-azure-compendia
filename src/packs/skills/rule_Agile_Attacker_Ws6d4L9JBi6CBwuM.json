@@ -1,0 +1,58 @@
+{
+  "folder": "yfNBuxkwJmpLWyP5",
+  "name": "Agile Attacker",
+  "type": "rule",
+  "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+  "system": {
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>Whenever you <strong>hit a target</strong> with one of your attacks and the result of the accuracy check was an <strong>even number</strong>, you <strong>provoke no reactions</strong>.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    },
+    "fuid": "agile-attacker"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1735589994990,
+    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "exportSource": null
+  },
+  "_id": "Ws6d4L9JBi6CBwuM",
+  "sort": 25000,
+  "_key": "!items!Ws6d4L9JBi6CBwuM"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Demons",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "FCrAJtPhRO3qoKwq",
+  "description": "",
+  "sort": 700000,
+  "color": "#d83f23",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1723754233914,
+    "modifiedTime": 1727902723808,
+    "lastModifiedBy": "esOkelwPNblkbxW3"
+  },
+  "_key": "!folders!FCrAJtPhRO3qoKwq"
+}
