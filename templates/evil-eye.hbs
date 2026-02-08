@@ -1,0 +1,22 @@
+<main class="afc__evil-eye">
+
+    <section class="flexrow flex-group-center">
+        <img class="eye-img" alt="Evil Eye"
+             src="modules/fu-azure-compendia/styles/dead-eye.png">
+        {{#each targets as |target|}}
+            {{#with target}}
+                <div class="flexcol flex-group-center">
+                    <a data-uuid="{{actor.uuid}}"
+                       class="actor-link"
+                       data-action="afcTargetCombatant"
+                       data-type="Actor" data-tooltip="{{actor.name}}">
+                        <img src="{{actor.img}}" alt="{{actor.name}}" class="profile-img actor-img">
+                    </a>
+                    <a data-action="afcTargetCombatant" data-uuid="{{actor.uuid}}">
+                        <span>{{@index}}</span>
+                    </a>
+                </div>
+            {{/with}}
+        {{/each}}
+    </section>
+</main>

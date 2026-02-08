@@ -13,6 +13,10 @@ const keys = Object.freeze({
   animateCombatEvent: 'animateCombatEvent',
   animateResourceEvent: 'animateResourceEvent',
   animateStatusEvent: 'animateStatusEvent',
+  enableTargetingSystem: 'enableTargetingSystem',
+  publicTargetingMessage: 'publicTargetingMessage',
+  autoTargetOnTurnStart: 'autoTargetOnTurnStart',
+  targetingCache: 'targetingCache',
 })
 
 /**
@@ -33,9 +37,16 @@ function registerSettings() {
   registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check");
 
   registerSlider(keys.volume, "Volume", "The volume of sound effects", 0.25, 0, 1, 0.1);
+  registerToggle(keys.enableTargetingSystem, "Evil Eye", "Provide targeting prompts for adversaries.", true);
+  registerToggle(keys.publicTargetingMessage, "Evil Eye: Public Message", "Whether to display the targeting message to all users.", false);
+  registerToggle(keys.autoTargetOnTurnStart, "Evil Eye: Auto Target On Turn Start", "Whether to automatically target the first prioritized target at the start of the adversary's turn.", false, false);
 }
 
-function registerToggle(key, name, hint, reload = false) {
+function getSetting(key) {
+  return game.settings.get(moduleId, key);
+}
+
+function registerToggle(key, name, hint, reload = false, defaultValue = true) {
   game.settings.register(moduleId, key, {
     name: name,
     hint: hint,
@@ -43,7 +54,7 @@ function registerToggle(key, name, hint, reload = false) {
     config: true,
     type: Boolean,
     requiresReload: reload,
-    default: true,
+    default: defaultValue,
     onChange: value => console.log(`${name}? ${value}`)
   });
 }
@@ -63,8 +74,19 @@ function registerSlider(key, name, hint, base, min, max, step) {
     }});
 }
 
-function getSetting(key) {
-  return game.settings.get(moduleId, key);
+function saveData(key) {
+  game.settings.register(moduleId, key, {
+    scope: "world",
+    config: false,
+    default: {},
+    type: Object
+  });
+}
+
+function modifyData(key, action) {
+  const data = getSetting(key);
+  action(data);
+  saveData(key, data);
 }
 
 function isEnabled(key) {
@@ -81,6 +103,8 @@ function getVolume() {
 
 export const AzureCompendiaSettings = Object.freeze({
     registerSettings,
+    saveData,
+    modifyData,
     getSetting,
     isEnabled,
     moduleId,

@@ -3,6 +3,7 @@ import { AzureCompendiaSettings } from "./settings.mjs";
 import { AzureCompendiaPresets } from "./presets.mjs";
 import {AzureCompendiaSequences} from "./sequences.mjs";
 import {AzureCompendiaFilters} from "./filters.mjs";
+import {AzureCompendiaTargeting} from "./targeting.mjs";
 
 /**
  * @typedef CombatEvent
@@ -20,6 +21,7 @@ import {AzureCompendiaFilters} from "./filters.mjs";
 
 /**
  * @typedef Combatant
+ * @property {String} name
  * @property {Number} id
  * @property {Number} actorId
  * @property {FUActor} actor
@@ -242,73 +244,95 @@ async function animateCombatEvent(event) {
     await sequence.play();
 }
 
-function isEnabled() {
-    return AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.enableAnimationSystem);
+/**
+ * @param {CombatEvent} event
+ * @returns {Promise<void>}
+ */
+async function handleTargeting(event) {
+    switch (event.type) {
+        case 'FU.StartOfTurn':
+            if (event.actor.type === 'npc') {
+                await AzureCompendiaTargeting.select(event)
+            }
+            break;
+
+        default:
+            break;
+    }
 }
+
 
 /**
  * @description Subscribes to the system combat events
  */
 function subscribe() {
 
-    if (!isEnabled()) {
+    if (AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.enableAnimationSystem)) {
+        if (!game.modules.get("sequencer")?.active) {
+            console.debug("Sequencer not installed and active!");
+            return;
+        }
+
+        if (!game.modules.get("JB2A_DnD5e")?.active && !game.modules.get("jb2a_patreon")?.active) {
+            console.debug("JB2A module not installed and active!");
+            return;
+        }
+
+        Hooks.on('projectfu.events.attack', async event => {
+            await animateAttack(event);
+        });
+
+        Hooks.on('projectfu.events.spell', async event => {
+            await animateSpell(event);
+        });
+
+        Hooks.on('projectfu.events.skill', async event => {
+            await animateSkill(event);
+        });
+
+        Hooks.on('projectfu.events.item', async event => {
+            await animateItem(event);
+        });
+
+        Hooks.on('projectfu.events.study', async event => {
+            await animateStudy(event);
+        });
+
+        Hooks.on('projectfu.events.gain', async event => {
+            await playResourcePreset(event, "gain");
+        });
+
+        Hooks.on('projectfu.events.loss', async event => {
+            await playResourcePreset(event, "loss");
+        });
+
+        Hooks.on('projectfu.events.crisis', async event => {
+            //Azurecompendia.log(`Playing preset for crisis event on token: ${event.token.name}`);
+        });
+
+        Hooks.on('projectfu.events.status', async event => {
+            await playStatusPreset(event);
+        });
+
+        Hooks.on('projectfu.events.defeat', async event => {
+            await animateDefeat(event);
+        });
+
+        Hooks.on('projectfu.events.combat', async event => {
+            await animateCombatEvent(event)
+        });
+    }
+    else{
         Azurecompendia.log(`CTRPLR was not enabled`)
-        return;
     }
 
-    if (!game.modules.get("sequencer")?.active) {
-        console.debug("Sequencer not installed and active!");
-        return;
+    if (AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.enableTargetingSystem)) {
+        Hooks.on('projectfu.events.combat', async event => {
+            if (game.user.isGM) {
+                await handleTargeting(event)
+            }
+        });
     }
-
-    if (!game.modules.get("JB2A_DnD5e")?.active && !game.modules.get("jb2a_patreon")?.active) {
-        console.debug("JB2A module not installed and active!");
-        return;
-    }
-
-    Hooks.on('projectfu.events.attack', async event => {
-        await animateAttack(event);
-    });
-
-    Hooks.on('projectfu.events.spell', async event => {
-        await animateSpell(event);
-    });
-
-    Hooks.on('projectfu.events.skill', async event => {
-        await animateSkill(event);
-    });
-
-    Hooks.on('projectfu.events.item', async event => {
-        await animateItem(event);
-    });
-
-    Hooks.on('projectfu.events.study', async event => {
-        await animateStudy(event);
-    });
-
-    Hooks.on('projectfu.events.gain', async event => {
-        await playResourcePreset(event, "gain");
-    });
-
-    Hooks.on('projectfu.events.loss', async event => {
-        await playResourcePreset(event, "loss");
-    });
-
-    Hooks.on('projectfu.events.crisis', async event => {
-        //Azurecompendia.log(`Playing preset for crisis event on token: ${event.token.name}`);
-    });
-
-    Hooks.on('projectfu.events.status', async event => {
-        await playStatusPreset(event);
-    });
-
-    Hooks.on('projectfu.events.defeat', async event => {
-        await animateDefeat(event);
-    });
-
-    Hooks.on('projectfu.events.combat', async event => {
-        await animateCombatEvent(event)
-    });
 }
 
 export const AzureCompendiaEvents = Object.freeze({

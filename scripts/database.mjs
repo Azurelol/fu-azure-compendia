@@ -98,6 +98,9 @@ const entries = {
             ],
             sleep: [
                 toEntry('44_Sleep_01')
+            ],
+            stagger: [
+                toEntry('glass_break')
             ]
         },
         effect: {
@@ -234,6 +237,9 @@ const entries = {
             ],
             turnEnd: [
                 toEntry('Magical_Interface_8-1')
+            ],
+            pressure: [
+                toEntry('cast-generic-02')
             ]
         }
     }

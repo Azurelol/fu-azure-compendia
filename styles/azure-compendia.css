@@ -1,0 +1,32 @@
+.afc__evil-eye {
+    background: linear-gradient(135deg, #9667b0, #7a3fa0); /* smooth purple gradient */
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 4px;
+    border: 1px solid #a37ed4; /* soft complementary border */
+    border-radius: 8px; /* more rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 0 8px #a37ed4; /* inner shadow + mystical glow */
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4); /* subtle text depth */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+
+    .eye-img {
+        width: auto;
+        height: 48px;
+        object-fit: scale-down;
+    }
+
+    .actor-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .actor-target {
+        color: white;
+    }
+
+    .actor-img {
+        width: auto;
+        height: 48px;
+    }
+}
