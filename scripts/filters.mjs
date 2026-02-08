@@ -43,6 +43,11 @@ function clearTokenFilters(combatants) {
     }
 }
 
+/**
+ *
+ * @param index
+ * @returns {string}
+ */
 function getDisposition(index) {
     switch (index) {
         case -1: return "HOSTILE";
@@ -58,8 +63,6 @@ function getDispositionColor(index) {
         case "FRIENDLY": return partyColor;
     }
     return alliedColor;
-    // Foundry defaults
-    // return CONFIG.Canvas.dispositionColors[getDisposition(index)];
 }
 
 export const AzureCompendiaFilters = Object.freeze({
