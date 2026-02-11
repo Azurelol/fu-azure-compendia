@@ -24,7 +24,7 @@
     },
     "attributes": {
       "primary": {
-        "value": "dex"
+        "value": "ins"
       },
       "secondary": {
         "value": "wlp"
@@ -33,7 +33,7 @@
     "accuracy": {
       "value": 0
     },
-    "defense": "mdef",
+    "defense": "wlp",
     "damage": {
       "value": 5
     },
@@ -59,7 +59,7 @@
         }
       }
     },
-    "fuid": "chaos-glare"
+    "fuid": "afc-chaos-glare"
   },
   "effects": [],
   "sort": 1100000,
@@ -67,16 +67,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731694796152,
-    "modifiedTime": 1731694796152,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770837634894,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!tbNepg6K2qnu50NG"

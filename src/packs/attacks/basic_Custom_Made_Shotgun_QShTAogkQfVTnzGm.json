@@ -1,11 +1,11 @@
 {
-  "folder": "q4kECx8TkPsLcTnC",
+  "folder": "ht9aFgrgTbRLF3M6",
   "name": "Custom-Made Shotgun",
   "type": "basic",
   "_id": "QShTAogkQfVTnzGm",
   "img": "icons/weapons/guns/gun-double-barrel.webp",
   "system": {
-    "fuid": "custom-made-shotgun",
+    "fuid": "afc-custom-made-shotgun",
     "subtype": {},
     "summary": {
       "value": ""
@@ -62,21 +62,25 @@
     }
   },
   "effects": [],
-  "sort": 200000,
+  "sort": 1175000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735646647080,
-    "modifiedTime": 1735668122960,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770838261176,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!QShTAogkQfVTnzGm"

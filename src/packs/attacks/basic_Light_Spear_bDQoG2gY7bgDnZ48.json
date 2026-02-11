@@ -58,23 +58,27 @@
         }
       }
     },
-    "fuid": "light-spear"
+    "fuid": "afc-light-spear"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731694793976,
-    "modifiedTime": 1731694793976,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770836833932,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "bDQoG2gY7bgDnZ48",

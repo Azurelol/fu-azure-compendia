@@ -1,11 +1,11 @@
 {
-  "folder": "q4kECx8TkPsLcTnC",
+  "folder": "ht9aFgrgTbRLF3M6",
   "name": "Azure Bolter",
   "type": "basic",
   "_id": "8YOteVdJN1ISIQyO",
   "img": "icons/weapons/guns/gun-pistol-flintlock-metal.webp",
   "system": {
-    "fuid": "storm-bolt",
+    "fuid": "afc-azure-bolter",
     "subtype": {},
     "summary": {
       "value": ""
@@ -62,21 +62,25 @@
     }
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 1500000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735667040329,
-    "modifiedTime": 1735667121757,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770837406051,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!8YOteVdJN1ISIQyO"

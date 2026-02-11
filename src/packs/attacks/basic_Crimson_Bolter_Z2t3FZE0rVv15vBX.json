@@ -1,11 +1,11 @@
 {
-  "folder": "q4kECx8TkPsLcTnC",
+  "folder": "ht9aFgrgTbRLF3M6",
   "name": "Crimson Bolter",
   "type": "basic",
   "_id": "Z2t3FZE0rVv15vBX",
   "img": "icons/weapons/guns/gun-pistol-brown.webp",
   "system": {
-    "fuid": "custom-made-pistol",
+    "fuid": "afc-crimson-bolter",
     "subtype": {},
     "summary": {
       "value": ""
@@ -62,21 +62,25 @@
     }
   },
   "effects": [],
-  "sort": 150000,
+  "sort": 1150000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735666970456,
-    "modifiedTime": 1735667125676,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770837407433,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Z2t3FZE0rVv15vBX"

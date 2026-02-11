@@ -5,7 +5,7 @@
   "_id": "vFjmm3i9C77pdB0F",
   "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
   "system": {
-    "fuid": "dark-touch",
+    "fuid": "afc-dark-touch",
     "subtype": {},
     "summary": {
       "value": ""
@@ -67,16 +67,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731694796152,
-    "modifiedTime": 1731694796152,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770837645705,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!vFjmm3i9C77pdB0F"

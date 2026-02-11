@@ -5,12 +5,12 @@
   "_id": "GMLQx0a6ais2RSS4",
   "img": "icons/weapons/guns/gun-topbarrel.webp",
   "system": {
-    "fuid": "sniper-rifle",
+    "fuid": "afc-sniper-rifle",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>Requires @UUID[Compendium.fu-azure-compendia.effects.5qFbZynjbNXDkWrq]{Aiming}</p>",
+    "description": "<p>Requires @EFFECT[Compendium.fu-azure-compendia.effects.5qFbZynjbNXDkWrq]{Aiming}</p>",
     "isFavored": {
       "value": false
     },
@@ -67,16 +67,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1733784140485,
-    "modifiedTime": 1735592003437,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770837422996,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!GMLQx0a6ais2RSS4"

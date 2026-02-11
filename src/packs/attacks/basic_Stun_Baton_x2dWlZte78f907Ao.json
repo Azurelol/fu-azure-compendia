@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Inflicts @UUID[Compendium.projectfu.conditions-effects.dl04MUhnkGS7KY5x]{Dazed} on a hit</p>",
+    "description": "",
     "isFavored": {
       "value": false
     },
@@ -59,6 +59,11 @@
           "value": false
         }
       }
+    },
+    "effects": {
+      "entries": [
+        "dazed"
+      ]
     }
   },
   "effects": [],
@@ -67,16 +72,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735589512499,
-    "modifiedTime": 1735589602816,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770838503294,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!x2dWlZte78f907Ao"

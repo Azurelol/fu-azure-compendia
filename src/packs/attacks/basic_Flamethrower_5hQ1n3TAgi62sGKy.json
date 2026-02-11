@@ -5,7 +5,7 @@
   "_id": "5hQ1n3TAgi62sGKy",
   "img": "icons/magic/fire/flame-burning-embers-yellow.webp",
   "system": {
-    "fuid": "flamethrower",
+    "fuid": "afc-flamethrower",
     "subtype": {},
     "summary": {
       "value": ""
@@ -67,16 +67,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731694796152,
-    "modifiedTime": 1735591434361,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770836966063,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!5hQ1n3TAgi62sGKy"

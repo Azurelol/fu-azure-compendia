@@ -7,7 +7,7 @@
   "system": {
     "subtype": {},
     "summary": {
-      "value": "You swing your greataxe at the target"
+      "value": ""
     },
     "description": "",
     "isFavored": {
@@ -59,7 +59,7 @@
         }
       }
     },
-    "fuid": "greataxe"
+    "fuid": "afc-greataxe"
   },
   "effects": [],
   "sort": 1300000,
@@ -67,16 +67,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731694797281,
-    "modifiedTime": 1733784385946,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770837520382,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!5RfjEYF2OMHrTk6D"
