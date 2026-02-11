@@ -12,7 +12,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You smash the ground, dealing earth damage and knocking down your enemies unless they make a @CHECK[dex ins normal] check.</p><ul><li><p><strong>Enemies</strong>: @DMG[&amp;step(20,25,30) earth] + @UUID[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone}</p></li><li><p><strong>Requires</strong>: @UUID[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging}</p></li></ul>",
+    "description": "<p>You smash the ground, dealing earth damage and knocking down your enemies unless they make a @CHECK[dex ins normal] check.</p><ul><li><p><strong>Requires</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -28,7 +28,8 @@
       },
       "hrZero": {
         "value": false
-      }
+      },
+      "traits": false
     },
     "attributes": {
       "primary": {
@@ -43,13 +44,11 @@
     },
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
+      "type": "earth",
+      "onRoll": "&step(20,25,30)",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -126,7 +125,15 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "effects": {
+      "entries": [
+        "afc-prone"
+      ]
+    },
+    "cost": {
+      "amount": "20"
+    }
   },
   "effects": [],
   "sort": 0,
@@ -134,16 +141,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735588235889,
-    "modifiedTime": 1735588595336,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770842236859,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!lldfY8mHQs4UxJPu"

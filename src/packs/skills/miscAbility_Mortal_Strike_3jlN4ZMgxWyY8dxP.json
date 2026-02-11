@@ -5,14 +5,14 @@
   "_id": "3jlN4ZMgxWyY8dxP",
   "img": "icons/skills/melee/strike-axe-blood-red.webp",
   "system": {
-    "fuid": "mortal-strike",
+    "fuid": "afc-mortal-strike",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You imbue dark energies into your <strong>melee weapon</strong> and immediately perform a <strong>free attack</strong>.</p><ul><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.BwWOMB7HkRYf42tT]{Reduced Healing}</p></li><li><p><strong>Combo</strong>: @UUID[Compendium.fu-azure-compendia.effects.uTYKEOQSIGtStvlU]{Curse of Mortality}</p></li></ul>",
+    "description": "<p>You imbue dark energies into your <strong>melee weapon</strong> and immediately perform a <strong>free attack</strong>.</p><ul><li><p><strong>Combo</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.uTYKEOQSIGtStvlU]{Curse of Mortality}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -20,12 +20,8 @@
       "value": false
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
+      "accuracy": true,
+      "damage": true,
       "hrZero": {
         "value": false
       }
@@ -41,15 +37,11 @@
     "accuracy": {
       "value": 0
     },
-    "defense": "def",
+    "defense": "",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
-      "type": {
-        "value": "physical"
-      },
+      "type": "",
       "onRoll": "",
       "onApply": ""
     },
@@ -126,7 +118,7 @@
       }
     },
     "hasRoll": {
-      "value": false
+      "value": true
     },
     "opportunity": "",
     "cost": {
@@ -134,6 +126,14 @@
     },
     "targeting": {
       "rule": "single"
+    },
+    "resource": {
+      "enabled": false
+    },
+    "effects": {
+      "entries": [
+        "afc-reduced-healing"
+      ]
     }
   },
   "effects": [],
@@ -142,16 +142,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1746870827109,
-    "lastModifiedBy": "JXPd932s9DHQRD0w",
+    "modifiedTime": 1770841165926,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!3jlN4ZMgxWyY8dxP"

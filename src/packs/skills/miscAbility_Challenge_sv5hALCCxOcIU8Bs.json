@@ -1,0 +1,108 @@
+{
+  "name": "Challenge",
+  "type": "miscAbility",
+  "_id": "sv5hALCCxOcIU8Bs",
+  "img": "icons/skills/melee/hand-grip-axe-strike-orange.webp",
+  "system": {
+    "fuid": "afc-challenge",
+    "description": "<p>By wit or might you provoke the target. You make an <strong>HR0 attack on the target</strong>. If it <strong>hits</strong> the target is <strong>challenged </strong>until the <strong>start of your next turn.</strong> If it attacks anyone else but you it takes <strong>penalty to their accuracy check</strong>.</p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "attributes": {
+      "primary": "dex",
+      "secondary": "ins"
+    },
+    "useWeapon": {
+      "accuracy": true,
+      "damage": true,
+      "traits": true
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": true,
+      "hrZero": false,
+      "value": 0,
+      "type": "",
+      "onRoll": "",
+      "onApply": ""
+    },
+    "targeting": {
+      "rule": "special",
+      "max": 0
+    },
+    "traits": [],
+    "effects": {
+      "entries": [
+        "afc-challenged"
+      ]
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": "",
+      "perTarget": false
+    },
+    "resource": {
+      "enabled": false,
+      "amount": "",
+      "type": "hp"
+    },
+    "hasRoll": {
+      "value": true
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "hasClock": {
+      "value": false
+    },
+    "source": "FU-AZURE",
+    "opportunity": "",
+    "accuracy": ""
+  },
+  "effects": [],
+  "folder": "9VMVM0zzARloavFS",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1770838953843,
+    "modifiedTime": 1770840453681,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!sv5hALCCxOcIU8Bs"
+}

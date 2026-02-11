@@ -4,10 +4,11 @@
   "_id": "WIRrIQLdKcPfPjrF",
   "img": "icons/magic/control/debuff-chains-blue.webp",
   "system": {
-    "fuid": "restrained",
+    "fuid": "afc-restrained",
     "cost": {
       "value": 0
-    }
+    },
+    "source": ""
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1733071351766,
-    "modifiedTime": 1733071590042,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770839348046,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!WIRrIQLdKcPfPjrF"

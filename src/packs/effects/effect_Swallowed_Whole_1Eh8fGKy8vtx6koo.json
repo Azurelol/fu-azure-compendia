@@ -5,10 +5,11 @@
   "_id": "1Eh8fGKy8vtx6koo",
   "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
   "system": {
-    "fuid": "fua-swallowed-whole",
+    "fuid": "afc-swallowed-whole",
     "cost": {
       "value": 0
-    }
+    },
+    "source": ""
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738410386650,
-    "modifiedTime": 1738410411039,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770839374685,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!1Eh8fGKy8vtx6koo"

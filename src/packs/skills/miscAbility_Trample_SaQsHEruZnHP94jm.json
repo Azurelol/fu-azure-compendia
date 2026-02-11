@@ -5,14 +5,14 @@
   "_id": "SaQsHEruZnHP94jm",
   "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
   "system": {
-    "fuid": "trample",
+    "fuid": "afc-trample",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>After you have finished @UUID[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging} you rush forward and attempt to trample all your enemies in the field. Each of them must make a @CHECK[dex ins normal] check or be trampled underfoot, taking the listed damage.</p><p>Any one of your targets may attempt to stop you with an <strong>opposed</strong> @CHECK[mig mig]. If they succeed the action is disrupted, otherwise they are @UUID[Compendium.fu-azure-compendia.effects.2CdYy1zLjc6uOIPC]{Stunned}<strong> </strong>until the end of their next turn and take the brunt of the damage, leaving other targets unaffected.</p><ul><li><p><strong>Targets</strong>: @DMG[&amp;step(15,25,35) physical]</p></li></ul>",
+    "description": "<p>After you have finished @EFFECT[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging} you rush forward and attempt to trample all your enemies in the field. Each of them must make a @CHECK[dex ins normal] check or be trampled underfoot, taking the listed damage.</p><p>Any one of your targets may attempt to stop you with an <strong>opposed</strong> <strong>[MIG + MIG]</strong> check If they succeed the action is disrupted, otherwise they are @EFFECT[Compendium.fu-azure-compendia.effects.2CdYy1zLjc6uOIPC]{Stunned}<strong> </strong>until the end of their next turn and take the brunt of the damage, leaving other targets unaffected.</p>",
     "isFavored": {
       "value": false
     },
@@ -28,7 +28,8 @@
       },
       "hrZero": {
         "value": false
-      }
+      },
+      "traits": false
     },
     "attributes": {
       "primary": {
@@ -43,14 +44,12 @@
     },
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
       "type": {
         "value": "physical"
       },
-      "onRoll": "",
+      "onRoll": "&step(15,25,35)",
       "onApply": ""
     },
     "impdamage": {
@@ -131,6 +130,11 @@
     "opportunity": "",
     "cost": {
       "amount": 20
+    },
+    "effects": {
+      "entries": [
+        "afc-stunned"
+      ]
     }
   },
   "effects": [],
@@ -139,16 +143,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1746870829848,
-    "lastModifiedBy": "JXPd932s9DHQRD0w",
+    "modifiedTime": 1770842415921,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!SaQsHEruZnHP94jm"

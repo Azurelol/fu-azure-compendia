@@ -5,10 +5,11 @@
   "_id": "5qFbZynjbNXDkWrq",
   "img": "icons/skills/ranged/person-archery-bow-attack-orange.webp",
   "system": {
-    "fuid": "fua-aiming",
+    "fuid": "afc-aiming",
     "cost": {
       "value": 0
-    }
+    },
+    "source": ""
   },
   "effects": [
     {
@@ -71,12 +72,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1733781786651,
-    "modifiedTime": 1733783154783,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770839536646,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!5qFbZynjbNXDkWrq"

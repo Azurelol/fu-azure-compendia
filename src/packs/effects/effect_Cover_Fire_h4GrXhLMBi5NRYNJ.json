@@ -5,10 +5,11 @@
   "_id": "h4GrXhLMBi5NRYNJ",
   "img": "icons/skills/ranged/arrows-flying-salvo-purple.webp",
   "system": {
-    "fuid": "fua-cover-fire",
+    "fuid": "afc-cover-fire",
     "cost": {
       "value": 0
-    }
+    },
+    "source": ""
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737756329914,
-    "modifiedTime": 1737756621449,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770839500618,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!h4GrXhLMBi5NRYNJ"

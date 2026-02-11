@@ -5,14 +5,14 @@
   "_id": "C0N1AwNIZcP7NBc2",
   "img": "icons/creatures/webs/web-spider-glowing-purple.webp",
   "system": {
-    "fuid": "web",
+    "fuid": "afc-web",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You shoot a substance that will leave the target pinned in place.</p><ul><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.Item.8TGOkyeJ9cCytYyr]{Immobilized}.</p></li></ul>",
+    "description": "<p>You shoot a substance that will leave the target pinned in place.</p>",
     "isFavored": {
       "value": false
     },
@@ -41,7 +41,7 @@
     "accuracy": {
       "value": 0
     },
-    "defense": "def",
+    "defense": "dex",
     "damage": {
       "hasDamage": {
         "value": false
@@ -49,7 +49,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -129,24 +131,33 @@
     "opportunity": "",
     "cost": {
       "amount": 0
+    },
+    "effects": {
+      "entries": [
+        "afc-immobilized"
+      ]
     }
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1739396208358,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770840582063,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!C0N1AwNIZcP7NBc2"

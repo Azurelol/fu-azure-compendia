@@ -5,10 +5,11 @@
   "_id": "AcW14zmUzQkID1tQ",
   "img": "icons/skills/social/intimidation-impressing.webp",
   "system": {
-    "fuid": "taunt",
+    "fuid": "afc-taunt",
     "cost": {
       "value": 0
-    }
+    },
+    "source": ""
   },
   "effects": [
     {
@@ -77,12 +78,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1739039087638,
-    "modifiedTime": 1739039349226,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770839438308,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!AcW14zmUzQkID1tQ"

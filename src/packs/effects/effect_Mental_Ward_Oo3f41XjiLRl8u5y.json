@@ -5,10 +5,11 @@
   "_id": "Oo3f41XjiLRl8u5y",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fuid": "mental-ward",
+    "fuid": "afc-mental-ward",
     "cost": {
       "value": 0
-    }
+    },
+    "source": ""
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1739389304637,
-    "modifiedTime": 1739389581450,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770839412478,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Oo3f41XjiLRl8u5y"

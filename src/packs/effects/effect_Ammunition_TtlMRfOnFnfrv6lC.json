@@ -5,10 +5,11 @@
   "_id": "TtlMRfOnFnfrv6lC",
   "img": "icons/weapons/ammunition/bullets-cartridge-shell-gray.webp",
   "system": {
-    "fuid": "fua-ammunition",
+    "fuid": "afc-ammunition",
     "cost": {
       "value": 0
-    }
+    },
+    "source": ""
   },
   "effects": [
     {
@@ -27,7 +28,18 @@
       "img": "icons/weapons/ammunition/bullets-cartridge-shell-gray.webp",
       "_id": "eS0sWMVYpHMl0gZr",
       "type": "base",
-      "system": {},
+      "system": {
+        "rules": {
+          "progress": {
+            "enabled": true,
+            "id": "ammo",
+            "name": "Ammunition",
+            "current": 4,
+            "max": 4,
+            "style": "bar"
+          }
+        }
+      },
       "changes": [],
       "description": "",
       "tint": "#ffffff",
@@ -44,12 +56,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1733786083063,
-        "modifiedTime": 1733786301679,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1770839673664,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!TtlMRfOnFnfrv6lC.eS0sWMVYpHMl0gZr"
@@ -64,12 +76,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1733786077347,
-    "modifiedTime": 1733786249678,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770839603098,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!TtlMRfOnFnfrv6lC"

@@ -5,14 +5,14 @@
   "_id": "SVSsYEDBUu0aUoy5",
   "img": "icons/skills/melee/strikes-sword-triple-gray.webp",
   "system": {
-    "fuid": "whirlwind",
+    "fuid": "afc-whirlwind",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging} you unleash a wide-reaching attack against three targets, treating your <strong>treating your High Roll as 0</strong> when calculating damage dealt by the attack.</p>",
+    "description": "<p>After you finish @EFFECT[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging} you unleash a wide-reaching attack against <strong>up to four targets</strong>, treating your <strong>treating your High Roll as 0</strong> when calculating damage dealt by the attack.</p>",
     "isFavored": {
       "value": false
     },
@@ -20,12 +20,8 @@
       "value": false
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
+      "accuracy": true,
+      "damage": true,
       "hrZero": {
         "value": false
       }
@@ -41,15 +37,16 @@
     "accuracy": {
       "value": 0
     },
-    "defense": "def",
+    "defense": "dex",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": "",
+      "hrZero": true
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,9 +121,17 @@
       }
     },
     "hasRoll": {
-      "value": false
+      "value": true
     },
-    "opportunity": ""
+    "opportunity": "",
+    "cost": {
+      "amount": "5",
+      "perTarget": true
+    },
+    "targeting": {
+      "rule": "multiple",
+      "max": 4
+    }
   },
   "effects": [],
   "sort": 0,
@@ -134,16 +139,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770842569000,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!SVSsYEDBUu0aUoy5"

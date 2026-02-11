@@ -5,14 +5,14 @@
   "_id": "DPJbh3y1C3GLLXr8",
   "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
   "system": {
-    "fuid": "engage",
+    "fuid": "afc-engage",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You close distance with the target as you make a <strong>melee HR0 attack</strong>, focusing your attention on it until you switch targets or the round ends.</p><ul><li><p><strong>Target:</strong> @UUID[Compendium.fu-azure-compendia.effects.Item.PkJXIizP4xIv9RfY]{Engaged}</p></li></ul>",
+    "description": "<p>You close distance with the target as you make a <strong>melee HR0 attack</strong>, focusing your attention on it until <strong>you switch targets</strong> or the <strong>round ends.</strong></p>",
     "isFavored": {
       "value": false
     },
@@ -33,7 +33,9 @@
       "hasDamage": true,
       "hrZero": true,
       "value": 0,
-      "type": "physical"
+      "type": "physical",
+      "onRoll": "",
+      "onApply": ""
     },
     "isBehavior": {
       "value": false
@@ -73,24 +75,33 @@
       "rule": "single",
       "max": 0
     },
-    "opportunity": ""
+    "opportunity": "",
+    "effects": {
+      "entries": [
+        "afc-engaged"
+      ]
+    }
   },
   "effects": [],
-  "sort": 0,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1739396040932,
-    "modifiedTime": 1739396270984,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770840511243,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!DPJbh3y1C3GLLXr8"

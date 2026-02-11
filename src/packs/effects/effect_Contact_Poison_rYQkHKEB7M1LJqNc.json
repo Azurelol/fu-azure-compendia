@@ -5,10 +5,11 @@
   "_id": "rYQkHKEB7M1LJqNc",
   "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
   "system": {
-    "fuid": "contact-poison",
+    "fuid": "afc-contact-poison",
     "cost": {
       "value": 0
-    }
+    },
+    "source": ""
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0-alpha.30",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1730588016365,
-    "modifiedTime": 1730588174498,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770839471415,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!rYQkHKEB7M1LJqNc"

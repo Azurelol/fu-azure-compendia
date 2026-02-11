@@ -5,14 +5,14 @@
   "_id": "x0haRlOhUjIAY5JD",
   "img": "icons/magic/unholy/hand-weapon-glow-black-green.webp",
   "system": {
-    "fuid": "cursed-blade",
+    "fuid": "afc-cursed-blade",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>Your weapon can be used to deliver a potent curse. You immediately perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. If it hits you can immediately cast a <strong>curse-type Spell</strong> on the same target.</p><ul><li><p><strong>Combo</strong>: @UUID[Compendium.fu-azure-compendia.effects.Item.KMvq0kYOZnyHiSEr]{Miasma} for 1 turn</p></li></ul>",
+    "description": "<p>Your weapon can be used to deliver a potent curse. You immediately perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. If it hits you can immediately cast a <strong>curse-type Spell</strong> on the same target.</p><ul><li><p><strong>Combo</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.Item.KMvq0kYOZnyHiSEr]{Miasma} for 1 turn</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -20,12 +20,8 @@
       "value": false
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
+      "accuracy": true,
+      "damage": true,
       "hrZero": {
         "value": false
       }
@@ -43,13 +39,13 @@
     },
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,7 +120,7 @@
       }
     },
     "hasRoll": {
-      "value": false
+      "value": true
     },
     "opportunity": "",
     "cost": {
@@ -140,16 +136,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1739396312579,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770840873731,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!x0haRlOhUjIAY5JD"
