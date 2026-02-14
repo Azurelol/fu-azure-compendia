@@ -5,12 +5,12 @@
   "_id": "wgYenKntW4MNv9oz",
   "img": "icons/magic/nature/leaf-juggle-humanoid-green.webp",
   "system": {
-    "fuid": "partial-mimicry",
+    "fuid": "afc-partial-mimicry",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>At the <strong>end of the round</strong>, the last enemy hit by one of your allies will suffer from @UUID[Compendium.fu-azure-compendia.effects.rYQkHKEB7M1LJqNc]{Contact Poison} for 1 turn.</p>",
+    "description": "<p>At the <strong>end of the round</strong>, the last enemy hit by one of your allies will suffer from @EFFECT[Compendium.fu-azure-compendia.effects.rYQkHKEB7M1LJqNc]{Contact Poison} for 1 turn.</p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1732035250401,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083433695,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!wgYenKntW4MNv9oz"

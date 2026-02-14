@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You jump into the air while preparing to unleash a powerful attack.</p><ul><li><p><strong>You</strong>: @UUID[Compendium.fu-azure-compendia.effects.TaI0WVX1BfRa95iA]{Flying} and @UUID[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength} until the end of your next turn.</p></li></ul>",
+    "description": "<p>You jump into the air while <strong>preparing</strong> to unleash a powerful attack.</p>",
     "isFavored": {
       "value": false
     },
@@ -48,7 +48,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -126,27 +128,40 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "jump",
+    "fuid": "afc-jump",
     "cost": {
       "resource": "hp"
+    },
+    "targeting": {
+      "rule": "self"
+    },
+    "effects": {
+      "entries": [
+        "flying",
+        "afc-strength"
+      ]
     }
   },
   "effects": [],
-  "sort": 400000,
+  "sort": 700000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1737393567993,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770920088958,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!XgxSmplTu1qM0Nc0"

@@ -34,7 +34,7 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "flying"
+    "fuid": "afc-flying"
   },
   "effects": [
     {
@@ -88,16 +88,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770920606101,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!fQUtLJk5vnZ1kE8U"

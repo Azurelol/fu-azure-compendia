@@ -1,5 +1,5 @@
 {
-  "folder": "CxiOOFr6RmoYlFk8",
+  "folder": "wW6Y7QUFksiPe6Iu",
   "name": "Disarm",
   "type": "rule",
   "img": "icons/skills/melee/sword-damaged-broken-glow-red.webp",
@@ -33,26 +33,30 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "disarm"
+    "fuid": "afc-disarm"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1733600624198,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771085610100,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "8qFHB2T6MbGP8P5T",
-  "sort": 1000000,
+  "sort": 350000,
   "_key": "!items!8qFHB2T6MbGP8P5T"
 }

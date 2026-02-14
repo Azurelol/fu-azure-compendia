@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "disolving-agent"
+    "fuid": "afc-disolving-agent"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731533594495,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084726071,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "gt0UlqE2x5ZG4CtO",

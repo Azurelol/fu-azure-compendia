@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>At the beginning of each round you gain @UUID[Compendium.fu-azure-compendia.effects.13ubm3WjQ8Xuc63Q]{Block} which <strong>blocks all damage from the next hit on you</strong>.</p>",
+    "description": "<p>At the beginning of each round you gain @EFFECT[Compendium.fu-azure-compendia.effects.13ubm3WjQ8Xuc63Q]{Block} which <strong>blocks all damage from the next hit on you</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "reactive-block"
+    "fuid": "afc-reactive-block"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083902600,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "d7haPyozBXr4FAsX",

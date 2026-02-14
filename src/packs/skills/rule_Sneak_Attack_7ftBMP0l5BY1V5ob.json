@@ -34,7 +34,7 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "sneak-attack"
+    "fuid": "afc-sneak-attack"
   },
   "effects": [],
   "sort": 500000,
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1734805799906,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083590990,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!7ftBMP0l5BY1V5ob"

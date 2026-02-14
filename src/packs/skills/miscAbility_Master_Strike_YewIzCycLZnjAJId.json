@@ -5,14 +5,14 @@
   "_id": "YewIzCycLZnjAJId",
   "img": "icons/skills/melee/strike-dagger-white-orange.webp",
   "system": {
-    "fuid": "mark-for-death",
+    "fuid": "afc-master-strike",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>After charging your @UUID[Compendium.fu-azure-compendia.effects.1nffZ0gn6OMwKgH5]{Ultima Clock} you mark a target that is currently in <strong>Crisis</strong> for execution. <strong>At the end of the next round</strong> you will perform <strong>a free attack </strong>against them which will <strong>reduce</strong> <strong>them to 0 Hit Points</strong> if they are still in <strong>Crisis</strong>, <strong>or to 1 Hit Point</strong> otherwise.</p><ul><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.MftLJFDNhnIRDsEN]{Marked}</p></li></ul><p><em>You may only use this against a target once per conflict.</em></p>",
+    "description": "<p>After charging your @UUID[Compendium.fu-azure-compendia.effects.1nffZ0gn6OMwKgH5]{Ultima Clock} you mark a target that is currently in <strong>Crisis</strong> for execution. <strong>At the end of the next round</strong> you will perform <strong>a free attack </strong>against them which will <strong>reduce</strong> <strong>them to 0 Hit Points</strong> if they are still in <strong>Crisis</strong>, <strong>or to 1 Hit Point</strong> otherwise.</p><ul><li><p><strong>Target</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.MftLJFDNhnIRDsEN]{Marked}</p></li></ul><p><em>You may only use this against a target once per conflict.</em></p>",
     "isFavored": {
       "value": false
     },
@@ -49,7 +49,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -134,16 +136,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731430052559,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084887151,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!YewIzCycLZnjAJId"

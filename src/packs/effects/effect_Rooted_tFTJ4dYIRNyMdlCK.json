@@ -8,7 +8,8 @@
     "fuid": "afc-rooted",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -27,9 +28,20 @@
       "img": "icons/magic/nature/root-vine-entangled-hand.webp",
       "_id": "WRwiOcUGtZ7DhMn8",
       "type": "base",
-      "system": {},
+      "system": {
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
-      "description": "<p>You have been temporarily restrained by roots and are <strong>unable to perform any actions that require you to engage a target in melee. </strong>This will expire at the <strong>end of your turn</strong> unless stated otherwise.</p>",
+      "description": "<p>You have been temporarily restrained and are <strong>unable to perform any actions that require you to engage a target in melee. </strong>This will expire at the <strong>end of your turn</strong> unless stated otherwise.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -44,12 +56,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0",
+        "systemVersion": "#{VERSION}#",
         "createdTime": 1731695591297,
-        "modifiedTime": 1731696105817,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1771084515265,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!tFTJ4dYIRNyMdlCK.WRwiOcUGtZ7DhMn8"
@@ -64,12 +76,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731695553463,
-    "modifiedTime": 1731695590133,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084523206,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!tFTJ4dYIRNyMdlCK"

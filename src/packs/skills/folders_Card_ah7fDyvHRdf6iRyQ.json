@@ -1,7 +1,7 @@
 {
   "name": "Card",
   "sorting": "a",
-  "folder": null,
+  "folder": "UwcyjtjzjqdeSyde",
   "type": "Item",
   "_id": "ah7fDyvHRdf6iRyQ",
   "description": "",
@@ -11,12 +11,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": 1731431483516,
-    "modifiedTime": 1731526744554,
-    "lastModifiedBy": "esOkelwPNblkbxW3"
+    "modifiedTime": 1771085652285,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
   },
   "_key": "!folders!ah7fDyvHRdf6iRyQ"
 }

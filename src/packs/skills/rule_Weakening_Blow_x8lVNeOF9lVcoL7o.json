@@ -5,12 +5,12 @@
   "_id": "x8lVNeOF9lVcoL7o",
   "img": "icons/skills/melee/sword-damaged-broken-orange.webp",
   "system": {
-    "fuid": "weakening-blow",
+    "fuid": "afc-weakening-blow",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>When you <strong>hit a target with a melee</strong> <strong>attack </strong>and the <strong>result of the accuracy check is an odd number</strong>, you may inflict them with @UUID[Compendium.fu-azure-compendia.effects.Y3marN7OOXMzNmCC]{Weakened} until the end of their next turn.</p>",
+    "description": "<p>When you <strong>hit a target with a melee</strong> <strong>attack </strong>and the <strong>result of the accuracy check is an odd number</strong>, you may inflict them with @EFFECT[Compendium.fu-azure-compendia.effects.Y3marN7OOXMzNmCC]{Weakened} until the end of their next turn.</p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731533594495,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084832925,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!x8lVNeOF9lVcoL7o"

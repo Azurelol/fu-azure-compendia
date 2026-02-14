@@ -5,7 +5,7 @@
   "_id": "QkRmse4QB3u58ns8",
   "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
   "system": {
-    "fuid": "rooting-strike",
+    "fuid": "afc-impeding-strike",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731533594495,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084760713,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!QkRmse4QB3u58ns8"

@@ -5,12 +5,12 @@
   "_id": "y1MmGM3E7X8sNFa0",
   "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
   "system": {
-    "fuid": "distract",
+    "fuid": "afc-expose-weakness",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>At the <strong>start of the round </strong>one of your enemies suffers from @UUID[Compendium.projectfu.actor-effects.6JCfyn7Ewt0AJndC]{Physical Weakness}</p>",
+    "description": "<p>At the <strong>start of the round </strong>one of your enemies suffers from @EFFECT[Compendium.projectfu.actor-effects.6JCfyn7Ewt0AJndC]{Physical Weakness}</p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1738518862043,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771079586093,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!y1MmGM3E7X8sNFa0"

@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>At the <strong>start of each round,</strong> all your enemies take elemental damage.</p><ul><li><p><strong>Enemies: </strong>@DMG[&amp;step(3,5,7) untyped]</p></li></ul>",
+    "description": "<p>At the <strong>start of each round,</strong> all your enemies take elemental damage.</p><p><strong>Enemies: </strong>@DMG[&amp;step(3,5,7) untyped]</p>",
     "isFavored": {
       "value": false
     },
@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "elemental-aura"
+    "fuid": "afc-elemental-aura"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1734805864837,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083767587,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "gwsyTms7CcG6TUVo",

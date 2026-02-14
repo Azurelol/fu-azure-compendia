@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "dispelling-strike"
+    "fuid": "afc-dispelling-strike"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1735591933693,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084731188,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "UR1neFyBrxmpcJD7",

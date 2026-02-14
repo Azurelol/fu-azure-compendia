@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you perform the @EFFECT[guard] <strong> </strong>action, you gain @UUID[Compendium.projectfu.actor-effects.SDc9JdC2tHXUi5xk]{Physical Immunity} until the <strong>start of your next turn</strong>.</p>",
+    "description": "<p>When you perform the @EFFECT[guard] action, you gain @EFFECT[Compendium.projectfu.actor-effects.SDc9JdC2tHXUi5xk]{Physical Immunity} until the <strong>start of your next turn</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "superior-shield"
+    "fuid": "afc-superior-shield"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083940332,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "ky82hw4LUjo2IWMo",

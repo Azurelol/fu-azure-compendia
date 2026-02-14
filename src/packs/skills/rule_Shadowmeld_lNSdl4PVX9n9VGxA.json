@@ -5,12 +5,12 @@
   "_id": "lNSdl4PVX9n9VGxA",
   "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
   "system": {
-    "fuid": "shadowmeld",
+    "fuid": "afc-shadowmeld",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>At the <strong>start of a conflict,</strong> you meld into the shadows and become @UUID[Compendium.fu-azure-compendia.effects.coaSCstLAwMnXkdf]{Invisible}.</p>",
+    "description": "<p>At the <strong>start of a conflict,</strong> you meld into the shadows and become @EFFECT[Compendium.fu-azure-compendia.effects.coaSCstLAwMnXkdf]{Invisible}.</p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1738082728256,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771079005034,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!lNSdl4PVX9n9VGxA"

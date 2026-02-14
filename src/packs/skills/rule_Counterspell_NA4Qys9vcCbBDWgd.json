@@ -5,7 +5,7 @@
   "_id": "NA4Qys9vcCbBDWgd",
   "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
   "system": {
-    "fuid": "counterspell",
+    "fuid": "afc-counterspell",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1734805163246,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771079252213,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!NA4Qys9vcCbBDWgd"

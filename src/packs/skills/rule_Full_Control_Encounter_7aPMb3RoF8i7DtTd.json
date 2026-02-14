@@ -5,7 +5,7 @@
   "_id": "7aPMb3RoF8i7DtTd",
   "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
   "system": {
-    "fuid": "full-control-encounter",
+    "fuid": "afc-full-control-encounter",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731432299557,
-    "modifiedTime": 1732035250401,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083100823,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!7aPMb3RoF8i7DtTd"

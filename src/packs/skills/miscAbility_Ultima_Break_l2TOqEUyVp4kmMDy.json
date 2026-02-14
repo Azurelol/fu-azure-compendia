@@ -5,14 +5,14 @@
   "_id": "l2TOqEUyVp4kmMDy",
   "img": "icons/skills/melee/weapons-crossed-swords-teal.webp",
   "system": {
-    "fuid": "limit-break",
+    "fuid": "afc-ultima-break",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You begin to transcend your limits. You spend <strong>1 Ultima Point.</strong> At the <strong>end of the round</strong> you will perform an <strong>extremely powerful ability</strong>. After you have performed it, you will be <strong>unable to take any actions</strong> for the following round.</p>",
+    "description": "<p>You begin to transcend your limits. You spend <strong>1 Ultima Point.</strong> At the <strong>end of the round</strong> you will perform an <strong>extremely powerful ability</strong>. After you have performed it, you will be <strong>unable to take any actions</strong> on your following turn.</p>",
     "isFavored": {
       "value": false
     },
@@ -49,7 +49,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -134,16 +136,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771085389067,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!l2TOqEUyVp4kmMDy"

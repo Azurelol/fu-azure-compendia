@@ -5,14 +5,14 @@
   "_id": "DGbp75Iox5y7YEZC",
   "img": "icons/skills/ranged/bullet-sparks-yellow.webp",
   "system": {
-    "fuid": "reload",
+    "fuid": "afc-reload",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You reload your ranged weaponry and can use it again.</p>",
+    "description": "<p>You <strong>reload</strong> your ranged weaponry and can use it again.</p>",
     "isFavored": {
       "value": false
     },
@@ -49,7 +49,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -134,16 +136,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770846008774,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!DGbp75Iox5y7YEZC"

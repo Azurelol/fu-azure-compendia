@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You take a defensive stance and focus on recovering from any status effects you are afflicted by. <strong>For</strong> <strong>each status effect</strong> you can spend <strong>mind points </strong>to immediately remove it.</p><ul><li><p><strong>You:</strong> @EFFECT[guard]</p></li></ul>",
+    "description": "<p>You take a defensive stance and focus on recovering from any status effects you are afflicted by. <strong>For</strong> <strong>each status effect</strong> you can spend <strong>mind points </strong>to immediately remove it.</p>",
     "isFavored": {
       "value": false
     },
@@ -48,7 +48,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -126,12 +128,17 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "recover",
+    "fuid": "afc-recover",
     "cost": {
       "amount": 5
     },
     "targeting": {
       "rule": "self"
+    },
+    "effects": {
+      "entries": [
+        "guard"
+      ]
     }
   },
   "effects": [],
@@ -140,16 +147,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1739396393097,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770845000479,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!120OuojLuhv4Wr30"

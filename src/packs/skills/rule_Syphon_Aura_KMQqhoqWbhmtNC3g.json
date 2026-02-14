@@ -5,12 +5,12 @@
   "_id": "KMQqhoqWbhmtNC3g",
   "img": "icons/magic/symbols/runes-star-blue.webp",
   "system": {
-    "fuid": "syphon",
+    "fuid": "afc-syphon",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>As long as you are present in the scene, all enemy MP costs are <strong>increased by a minor amount</strong>.</p><ul><li><p><strong>Caster:</strong> @LOSS[&amp;step(5,10,15) mp]</p></li></ul>",
+    "description": "<p>As long as you are present in the scene, all enemy MP costs are <strong>increased by a minor amount</strong>.</p><p><strong>Caster:</strong> @LOSS[&amp;step(5,10,15) mp]</p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1735502839184,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083794016,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!KMQqhoqWbhmtNC3g"

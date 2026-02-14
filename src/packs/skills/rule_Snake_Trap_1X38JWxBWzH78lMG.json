@@ -5,7 +5,7 @@
   "_id": "1X38JWxBWzH78lMG",
   "img": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
   "system": {
-    "fuid": "snake-trap",
+    "fuid": "afc-snake-trap",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738426799002,
-    "modifiedTime": 1738427061418,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771078371034,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!1X38JWxBWzH78lMG"

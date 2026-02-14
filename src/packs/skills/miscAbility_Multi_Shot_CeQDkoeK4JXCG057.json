@@ -5,7 +5,7 @@
   "_id": "CeQDkoeK4JXCG057",
   "img": "icons/skills/ranged/arrows-flying-triple-gray.webp",
   "system": {
-    "fuid": "double-shot",
+    "fuid": "afc-multi-shot",
     "subtype": {
       "value": "other"
     },
@@ -20,12 +20,8 @@
       "value": false
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
+      "accuracy": true,
+      "damage": true,
       "hrZero": {
         "value": false
       }
@@ -38,18 +34,14 @@
         "value": "ins"
       }
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": "1",
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
+      "type": "",
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,7 +116,7 @@
       }
     },
     "hasRoll": {
-      "value": false
+      "value": true
     },
     "opportunity": "",
     "cost": {
@@ -141,16 +133,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1739395671361,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770919705409,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!CeQDkoeK4JXCG057"

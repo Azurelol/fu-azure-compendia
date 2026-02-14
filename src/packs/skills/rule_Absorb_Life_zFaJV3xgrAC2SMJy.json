@@ -5,12 +5,12 @@
   "_id": "zFaJV3xgrAC2SMJy",
   "img": "icons/magic/unholy/hand-claw-fire-green.webp",
   "system": {
-    "fuid": "absorb-life",
+    "fuid": "afc-absorb-life",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>At the <strong>end of the round</strong> you drain the life of each creature you have @UUID[Compendium.fu-azure-compendia.effects.1Pxb0pniA44cr60T]{Grabbed}.</p><ul><li><p><strong>Grabbed</strong>: @LOSS[$minor hp]</p></li><li><p><strong>You</strong>: @GAIN[$minor hp]</p></li></ul>",
+    "description": "<p>At the <strong>end of the round</strong> you drain the life of each creature you have @EFFECT[Compendium.fu-azure-compendia.effects.1Pxb0pniA44cr60T]{Grabbed}.</p><ul><li><p><strong>Grabbed</strong>: @LOSS[$minor hp]</p></li><li><p><strong>You</strong>: @GAIN[$minor hp]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735748855782,
-    "modifiedTime": 1735748978550,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083850415,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!zFaJV3xgrAC2SMJy"

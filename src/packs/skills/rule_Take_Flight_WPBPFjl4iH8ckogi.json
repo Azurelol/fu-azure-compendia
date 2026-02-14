@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, you gain @UUID[Compendium.fu-azure-compendia.effects.TaI0WVX1BfRa95iA]{Flying} until the <strong>end of the next round.</strong></p>",
+    "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, you gain @EFFECT[Compendium.fu-azure-compendia.effects.TaI0WVX1BfRa95iA]{Flying} until the <strong>end of the next round.</strong></p>",
     "isFavored": {
       "value": false
     },
@@ -36,22 +36,100 @@
       "value": "FU-AZURE"
     }
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Take Flight",
+      "img": "icons/skills/movement/arrow-upward-white.webp",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "SAfZeOKusgMDRrnn": {
+              "type": "ruleElement",
+              "_id": "SAfZeOKusgMDRrnn",
+              "trigger": {
+                "_id": "zEMlPhcywdz9VNEI",
+                "type": "statusRuleTrigger",
+                "eventRelation": "source",
+                "status": "crisis",
+                "change": "added"
+              },
+              "actions": {
+                "GvCX2BBGBQPR7ZvO": {
+                  "type": "messageRuleAction",
+                  "_id": "GvCX2BBGBQPR7ZvO",
+                  "message": "<p>You gain @EFFECT[Compendium.fu-azure-compendia.effects.TaI0WVX1BfRa95iA]{Flying} until the <strong>end of the next round.</strong></p>"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "vjJO5OeSJfzUTuDY",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771078493534,
+        "modifiedTime": 1771078515753,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!WPBPFjl4iH8ckogi.vjJO5OeSJfzUTuDY"
+    }
+  ],
   "sort": 0,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735584222588,
-    "modifiedTime": 1735585278447,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771078241084,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!WPBPFjl4iH8ckogi"

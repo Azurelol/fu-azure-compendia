@@ -5,14 +5,14 @@
   "_id": "d9ctw1yGurxUsY04",
   "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
   "system": {
-    "fuid": "fatal-drop",
+    "fuid": "afc-fatal-drop",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>While you are @EFFECT[flying] and have a creature grabbed, you climb even higher into the air before finally dropping the creature so that it may fall to the ground and take <strong>heavy physical damage</strong>.</p><ul><li><p><strong>Target</strong>: @DMG[&amp;step(20,30,40) physical]</p></li></ul>",
+    "description": "<p>While you are @EFFECT[flying] and have a creature grabbed, you climb even higher into the air before finally dropping the creature so that it may fall to the ground and take <strong>heavy physical damage</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -28,7 +28,8 @@
       },
       "hrZero": {
         "value": false
-      }
+      },
+      "traits": false
     },
     "attributes": {
       "primary": {
@@ -43,13 +44,13 @@
     },
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "&step(20,30,40)",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -129,21 +130,25 @@
     "opportunity": ""
   },
   "effects": [],
-  "sort": 300000,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1734803506247,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770920088958,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!d9ctw1yGurxUsY04"

@@ -5,7 +5,7 @@
   "_id": "2RBWZKmWq6o4nsUB",
   "img": "icons/skills/ranged/arrow-strike-apple-orange.webp",
   "system": {
-    "fuid": "fake-out",
+    "fuid": "afc-fake-out",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735670590729,
-    "modifiedTime": 1735671472592,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771079277096,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!2RBWZKmWq6o4nsUB"

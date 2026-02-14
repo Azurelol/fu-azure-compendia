@@ -5,7 +5,7 @@
   "_id": "w0UDdYYf07wtuT0h",
   "img": "icons/magic/earth/projectile-stone-bullet-pink.webp",
   "system": {
-    "fuid": "splinter",
+    "fuid": "afc-splinter",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1734805476633,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771079328819,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!w0UDdYYf07wtuT0h"

@@ -1,16 +1,16 @@
 {
-  "folder": "CxiOOFr6RmoYlFk8",
+  "folder": "wW6Y7QUFksiPe6Iu",
   "name": "Launch",
   "type": "rule",
   "_id": "vEvNVgPVlwfYABk2",
   "img": "icons/skills/movement/arrow-upward-yellow.webp",
   "system": {
-    "fuid": "launch",
+    "fuid": "afc-launch",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>When you <strong>hit a target with a melee</strong> <strong>attack</strong> and the <strong>result of the accuracy check was an even number,</strong> you may <strong>treat your High Roll (HR) as 0</strong> in order to launch them into the air.</p><ul><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.Firc8bjg6bcDR1e1]{Launched}</p></li></ul>",
+    "description": "<p>When you <strong>hit a target with a melee</strong> <strong>attack</strong> and the <strong>result of the accuracy check was an even number,</strong> you may <strong>treat your High Roll (HR) as 0</strong> in order to launch them into the air.</p><ul><li><p><strong>Target</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.Firc8bjg6bcDR1e1]{Launched}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -37,21 +37,25 @@
     }
   },
   "effects": [],
-  "sort": 800000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1735588801803,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771085602148,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!vEvNVgPVlwfYABk2"

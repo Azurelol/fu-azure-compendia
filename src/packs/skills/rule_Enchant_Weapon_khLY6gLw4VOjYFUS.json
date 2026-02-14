@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>At the end of the round you enchant one of your allies weapons with one of the following elements: <strong>air, bolt, earth, fire or ice</strong>.</p><p><em>After you use this skill, you cannot use it again until the start of your next turn.</em></p>",
+    "description": "<p>At the end of the round you enchant one of your allies weapons with one of the following elements: <strong>air, bolt, earth, fire or ice</strong>. </p><p><strong>Ally:</strong> @WEAPON[air bolt earth fire ice e:eot]</p><p><em>After you use this skill, you cannot use it again until the start of your next turn.</em></p>",
     "isFavored": {
       "value": false
     },
@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "enchant-weapon"
+    "fuid": "afc-enchant-weapon"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1732035488088,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771079568218,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "khLY6gLw4VOjYFUS",

@@ -210,7 +210,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>The adversaries designed in the module range from levels 5 to 10, and have been designed so that they could fit any suitable campaign.</p><p>In order to scale up one these NPCs, you should do the following in order:</p><ul><li><p><strong>Apply</strong> <strong>the following effect</strong> onto the actor: @UUID[Compendium.fu-azure-compendia.effects.ACMly1iHYs5ku1wG]{Level Scaling}</p></li><li><p><strong>Add</strong> a <strong>number</strong> of additional skills based on their new level, at the rate of 1 skill for each 10 levels. I recommend adding skills from categories they don't already have, such as reactions, talents, crisis, etc.</p></li></ul>"
+        "content": "<p>The adversaries designed in the module range from levels 5 to 10, and have been designed so that they could fit any suitable campaign.</p><p>In order to scale up one these NPCs, you are able to make use of the NPC role feature, which should be already assigned for the ones provided by the module. Just level up/down the NPC and all stats should scale accordingly!</p>"
       },
       "video": {
         "controls": true,
@@ -225,12 +225,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "2.4.0-alpha.25",
         "createdTime": 1727626328679,
-        "modifiedTime": 1738427843267,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1771077178983,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "category": null,

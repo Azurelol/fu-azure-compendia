@@ -5,18 +5,19 @@
   "type": "Item",
   "_id": "wJl9ksKpDg0rAuUA",
   "description": "",
-  "sort": 200000,
+  "sort": 500000,
   "color": null,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null
+    "modifiedTime": 1770920195193,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
   },
   "_key": "!folders!wJl9ksKpDg0rAuUA"
 }

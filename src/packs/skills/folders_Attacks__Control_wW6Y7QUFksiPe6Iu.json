@@ -1,22 +1,23 @@
 {
-  "name": "Combo",
+  "name": "Attacks: Control",
   "sorting": "a",
-  "folder": "CQpnaB8OosAND43V",
+  "folder": null,
   "type": "Item",
   "_id": "wW6Y7QUFksiPe6Iu",
   "description": "",
-  "sort": 0,
-  "color": null,
+  "sort": 1500000,
+  "color": "#ff8080",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null
+    "modifiedTime": 1771085639718,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
   },
   "_key": "!folders!wW6Y7QUFksiPe6Iu"
 }

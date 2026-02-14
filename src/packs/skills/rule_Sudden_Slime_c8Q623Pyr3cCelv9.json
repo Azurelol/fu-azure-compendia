@@ -5,7 +5,7 @@
   "_id": "c8Q623Pyr3cCelv9",
   "img": "icons/creatures/slimes/slime-face-melting-green.webp",
   "system": {
-    "fuid": "ceiling-slime",
+    "fuid": "afc-ceiling-slime",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738409691884,
-    "modifiedTime": 1738426771332,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771078444499,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!c8Q623Pyr3cCelv9"

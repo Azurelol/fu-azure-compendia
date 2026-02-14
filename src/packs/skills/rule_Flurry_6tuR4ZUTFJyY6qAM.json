@@ -5,12 +5,12 @@
   "_id": "6tuR4ZUTFJyY6qAM",
   "img": "icons/skills/melee/swords-triple-orange.webp",
   "system": {
-    "fuid": "flurry",
+    "fuid": "afc-flurry",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>One of your attacks gains the <strong>multi (2)</strong> property.</p>",
+    "description": "<p>When you perform an <strong>attack</strong> and the result of the accuracy check is an <strong>even number,</strong> you may attack an additional target.</p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083558584,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!6tuR4ZUTFJyY6qAM"

@@ -5,14 +5,14 @@
   "_id": "RMk2ygyQv75a9emt",
   "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
   "system": {
-    "fuid": "burrow",
+    "fuid": "afc-burrow",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You burrow into the ground and cannot be regularly targeted until the start of your next turn. However you gain @EFFECT[eyJuYW1lIjoiRWFydGggVnVsbmVyYWJpbGl0eSIsImNoYW5nZXMiOlt7ImtleSI6InN5c3RlbS5hZmZpbml0aWVzLmVhcnRoIiwibW9kZSI6MCwidmFsdWUiOiJkb3duZ3JhZGUifV0sImljb24iOiJpY29ucy9tYWdpYy9lYXJ0aC9leHBsb3Npb24tbGF2YS1zdG9uZS15ZWxsb3cud2VicCJ9] and can be targeted by spells that deal <strong>earth damage.</strong></p><p>At the <strong>start of your next turn</strong> you get a <strong>free attack</strong> against a target of your choice.</p>",
+    "description": "<p>You burrow into the ground and cannot be regularly targeted until the start of your next turn. However you gain @EFFECT[Compendium.projectfu.actor-effects.kGH0nvB5UPJsPDw2]{Earth Vulnerability} and can be targeted by spells that deal <strong>earth damage.</strong></p><p>At the <strong>start of your next turn</strong> you get a <strong>free attack</strong> against a target of your choice.</p>",
     "isFavored": {
       "value": false
     },
@@ -49,7 +49,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -129,21 +131,25 @@
     "opportunity": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770920088958,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!RMk2ygyQv75a9emt"

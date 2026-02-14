@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p><strong>At the start of a Conflict</strong>, you immediately perform a villainous monologue on your enemies as you attempt to break their will. You make an <strong>opposed @CHECK[wlp wlp] check</strong> against a target of their choice. Depending on the outcome the following happens:</p><ul><li><p><strong>You win.</strong> All targets are @EFFECT[shaken] until they overcome your arguments. At the <strong>beginning of each round</strong> one of your targets may attempt a rebuke using the <strong>same check</strong> as above.</p></li><li><p><strong>You lose.</strong> All targets gain @UUID[Compendium.fu-azure-compendia.effects.hnXVEabmOmtGQtNv]{Brilliant Conviction} for 1 round</p></li></ul>",
+    "description": "<p><strong>At the start of a Conflict</strong>, you immediately perform a villainous monologue on your enemies as you attempt to break their will. You make an <strong>opposed @CHECK[wlp wlp] check</strong> against a target of their choice. Depending on the outcome the following happens:</p><ul><li><p><strong>You win.</strong> All targets are @EFFECT[shaken] until they overcome your arguments. At the <strong>beginning of each round</strong> one of your targets may attempt a rebuke using the <strong>same check</strong> as above.</p></li><li><p><strong>You lose.</strong> All targets gain @EFFECT[Compendium.fu-azure-compendia.effects.hnXVEabmOmtGQtNv]{Brilliant Conviction} for 1 round</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "monologue"
+    "fuid": "afc-monologue"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1733601446045,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771085243014,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "XdGriyEEgDkvk8vs",

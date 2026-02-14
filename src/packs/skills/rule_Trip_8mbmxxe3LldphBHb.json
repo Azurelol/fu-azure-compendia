@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you hit a target that is suffering from @EFFECT[slow] with a <strong>melee attack</strong>, you may <strong>treat your HR</strong> <strong>as 0</strong> and knock them down. Until the <strong>beginning of their next turn</strong> they will suffer from @UUID[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone}.</p>",
+    "description": "<p>When you hit a target that is suffering from @EFFECT[slow] with a <strong>melee attack</strong>, you may <strong>treat your HR</strong> <strong>as 0</strong> and knock them down. Until the <strong>beginning of their next turn</strong> they will suffer from @EFFECT[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone}.</p>",
     "isFavored": {
       "value": false
     },
@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "trip"
+    "fuid": "afc-trip"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083826661,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "8mbmxxe3LldphBHb",

@@ -5,12 +5,12 @@
   "_id": "0hPccvz0ezOLFrBF",
   "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
   "system": {
-    "fuid": "fallen-leaves-style",
+    "fuid": "afc-fallen-leaves-style",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>At the <strong>end of the round</strong> you instruct the <strong>party</strong> in a counter-defensive formation.</p><ul><li><p><strong>Party</strong>: @UUID[Compendium.fu-azure-compendia.effects.x1tLaaRsBa4Ag1cZ]{Riposte}.</p></li></ul><p><em>Any characters with @UUID[Compendium.projectfu.skills.XhcTVGtGEk7L2Ddq]{Counterattack} do not gain this effect.</em></p>",
+    "description": "<p>At the <strong>end of the round</strong> you instruct the <strong>party</strong> in a counter-defensive formation.</p><ul><li><p><strong>Party</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.x1tLaaRsBa4Ag1cZ]{Riposte}.</p></li></ul><p><em>Any characters with @UUID[Compendium.projectfu.skills.XhcTVGtGEk7L2Ddq]{Counterattack} do not gain this effect.</em></p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1732035613913,
-    "modifiedTime": 1733075348928,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771079598700,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!0hPccvz0ezOLFrBF"

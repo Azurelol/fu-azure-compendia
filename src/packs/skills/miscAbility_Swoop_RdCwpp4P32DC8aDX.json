@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You make a <strong>melee attack</strong> on the target. If it <strong>hits</strong> and the result of the Accuracy Check was an <strong>even number,</strong> you automatically have them @UUID[Compendium.fu-azure-compendia.effects.1Pxb0pniA44cr60T]{Grabbed} and bring them up with you into the air until they break free or the end of your next turn.</p>",
+    "description": "<p>You make a <strong>melee attack</strong> on the target. If it <strong>hits</strong> and the result of the Accuracy Check was an <strong>even number,</strong> you automatically have them @EFFECT[Compendium.fu-azure-compendia.effects.1Pxb0pniA44cr60T]{Grabbed} and bring them up with you into the air until they break free or the end of your next turn.</p>",
     "isFavored": {
       "value": false
     },
@@ -18,12 +18,8 @@
       "value": false
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
+      "accuracy": true,
+      "damage": true,
       "hrZero": {
         "value": false
       }
@@ -36,18 +32,14 @@
         "value": "ins"
       }
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": "1",
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
+      "type": "",
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -122,29 +114,118 @@
       }
     },
     "hasRoll": {
-      "value": false
+      "value": true
     },
     "opportunity": "",
-    "fuid": "swoop"
+    "fuid": "afc-swoop"
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Swoop",
+      "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "TXWEojZtdzcAARBO": {
+              "type": "ruleElement",
+              "_id": "TXWEojZtdzcAARBO",
+              "trigger": {
+                "_id": "zGpMxjipRbAwHnAX",
+                "type": "renderCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [],
+                "itemGroups": [],
+                "local": true,
+                "identifier": ""
+              },
+              "predicates": {
+                "yqWJJH7tUIBpMQg0": {
+                  "type": "checkRulePredicate",
+                  "_id": "yqWJJH7tUIBpMQg0",
+                  "result": null,
+                  "outcome": "success",
+                  "parity": "even"
+                }
+              },
+              "actions": {
+                "ae7cg90UozjBOXdJ": {
+                  "type": "applyEffectRuleAction",
+                  "_id": "ae7cg90UozjBOXdJ",
+                  "effect": "afc-grabbed"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "6nM1q9EFkyQxMoVb",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1770844106360,
+        "modifiedTime": 1770844161672,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!RdCwpp4P32DC8aDX.6nM1q9EFkyQxMoVb"
+    }
+  ],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1734803575483,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770920088958,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "RdCwpp4P32DC8aDX",
-  "sort": 100000,
+  "sort": 400000,
   "_key": "!items!RdCwpp4P32DC8aDX"
 }

@@ -5,12 +5,12 @@
   "_id": "UeiXaZfJegKN3T55",
   "img": "icons/magic/acid/pouring-gas-smoke-liquid.webp",
   "system": {
-    "fuid": "poison-swamp",
+    "fuid": "afc-poison-swamp",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>Whether in a bog, marsh or <em>swamp</em>, movement through this putrid water in the <strong>scene</strong> is <em>slow</em> and <em>hazardous</em><strong>.</strong></p><ul><li><p><strong>Party: @UUID[Compendium.projectfu.conditions-effects.C7QdRx0QrJcI2po5]{Poisoned} @UUID[Compendium.projectfu.conditions-effects.E0TVnMZHPXdeop2v]{Slow} </strong>which<strong> cannot</strong> be removed until the party has left the <strong>scene</strong>.</p></li><li><p>The first time a character enters <strong>crisis</strong> while affected they may spend @LOSS[1 fp] in order to gain a <strong>bond</strong> of <strong>hatred</strong> towards <em>Poison Swamps</em><strong>.</strong></p></li></ul>",
+    "description": "<p>Whether in a bog, marsh or <em>swamp</em>, movement through this putrid water in the <strong>scene</strong> is <em>slow</em> and <em>hazardous</em><strong>.</strong></p><ul><li><p><strong>Party: @EFFECT[Compendium.projectfu.conditions-effects.C7QdRx0QrJcI2po5]{Poisoned} @EFFECT[Compendium.projectfu.conditions-effects.E0TVnMZHPXdeop2v]{Slow} </strong>which<strong> cannot</strong> be removed until the party has left the <strong>scene</strong>.</p></li><li><p>The first time a character enters <strong>crisis</strong> while affected they may spend @LOSS[1 fp] in order to gain a <strong>bond</strong> of <strong>hatred</strong> towards <em>Poison Swamps</em><strong>.</strong></p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738412572462,
-    "modifiedTime": 1738424177883,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771078323076,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!UeiXaZfJegKN3T55"

@@ -1,0 +1,107 @@
+{
+  "folder": "N2XHNVAETv6r1OK6",
+  "name": "Throw",
+  "type": "miscAbility",
+  "_id": "OUyFR5cWbNl64u3x",
+  "img": "icons/magic/control/encase-creature-monster-hold.webp",
+  "system": {
+    "fuid": "afc-throw",
+    "description": "<p>While you have a creature @EFFECT[Compendium.fu-azure-compendia.effects.1Pxb0pniA44cr60T]{Grabbed}<strong> </strong>you throw it away a fair distance. It takes <strong>minor physical damage</strong> and is <strong>dazed</strong>.</p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "attributes": {
+      "primary": "dex",
+      "secondary": "ins"
+    },
+    "useWeapon": {
+      "accuracy": false,
+      "damage": false,
+      "traits": true
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": true,
+      "hrZero": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "$minor",
+      "onApply": ""
+    },
+    "targeting": {
+      "rule": "special",
+      "max": 0
+    },
+    "traits": [],
+    "effects": {
+      "entries": [
+        "dazed"
+      ]
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": "",
+      "perTarget": false
+    },
+    "resource": {
+      "enabled": false,
+      "amount": "",
+      "type": "hp"
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "hasClock": {
+      "value": false
+    },
+    "source": "FU-AZURE",
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1770920105163,
+    "modifiedTime": 1770920154620,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!OUyFR5cWbNl64u3x"
+}

@@ -5,14 +5,14 @@
   "_id": "nfEgnUjswIexfIJP",
   "img": "icons/skills/targeting/target-strike-triple-blue.webp",
   "system": {
-    "fuid": "mark",
+    "fuid": "afc-mark",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You mark a target for your <strong>next action</strong>. @UUID[Compendium.fu-azure-compendia.effects.MftLJFDNhnIRDsEN]{Marked}</p>",
+    "description": "<p>You mark a target for your <strong>next action.</strong></p>",
     "isFavored": {
       "value": false
     },
@@ -49,7 +49,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -126,7 +128,15 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "targeting": {
+      "rule": "single"
+    },
+    "effects": {
+      "entries": [
+        "afc-marked"
+      ]
+    }
   },
   "effects": [],
   "sort": 150000,
@@ -134,16 +144,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770845765013,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!nfEgnUjswIexfIJP"

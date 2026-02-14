@@ -1,0 +1,107 @@
+{
+  "folder": "HucPuVfjnBQiXm4M",
+  "name": "Spellshape",
+  "type": "miscAbility",
+  "_id": "PV9r4xgQxSuIVfWo",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "system": {
+    "fuid": "afc-spellshape",
+    "description": "<p>You begin <strong>casting</strong> while choosing <strong>one</strong> of the following effects for your spell <strong>on your next turn:</strong></p><ul><li><p><strong>@EFFECT[Compendium.fu-azure-compendia.effects.xAGR50THlBmsi3oM]{Double Cast}</strong></p></li><li><p><strong>@EFFECT[Compendium.fu-azure-compendia.effects.NnHWJN7xdmMV09yU]{Overwhelming Cast}</strong></p></li><li><p><strong>@EFFECT[Compendium.fu-azure-compendia.effects.Nhf6SXg485l0r3hm]{Multi Cast}</strong></p></li></ul>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "attributes": {
+      "primary": "dex",
+      "secondary": "ins"
+    },
+    "useWeapon": {
+      "accuracy": false,
+      "damage": false,
+      "traits": true
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": false,
+      "hrZero": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "",
+      "onApply": ""
+    },
+    "targeting": {
+      "rule": "self",
+      "max": 0
+    },
+    "traits": [],
+    "effects": {
+      "entries": [
+        "afc-casting"
+      ]
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": "",
+      "perTarget": false
+    },
+    "resource": {
+      "enabled": false,
+      "amount": "",
+      "type": "hp"
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "hasClock": {
+      "value": false
+    },
+    "source": "FU-AZURE",
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1770845835441,
+    "modifiedTime": 1770845890281,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!PV9r4xgQxSuIVfWo"
+}

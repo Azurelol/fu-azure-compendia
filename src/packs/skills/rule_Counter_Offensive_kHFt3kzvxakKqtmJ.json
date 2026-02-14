@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>If you performed the <strong>Guard</strong> action on your previous turn, your next attack will deal extra damage.</p><ul><li><p><strong>Target</strong>: @DMG[&amp;step(5,10,15) physical]</p></li></ul>",
+    "description": "<p>If you performed the <strong>Guard</strong> action on your previous turn, your next attack will deal extra damage.</p><p><strong>Target</strong>: @DMG[&amp;step(5,10,15) physical]</p>",
     "isFavored": {
       "value": false
     },
@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "counter-offensive"
+    "fuid": "afc-counter-offensive"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1734805948304,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083874059,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "kHFt3kzvxakKqtmJ",

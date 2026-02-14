@@ -9,7 +9,7 @@
     "summary": {
       "value": "You go out with a bang"
     },
-    "description": "<p>When reduced to 0 hit points, you explode dealing <strong>minor elemental damage</strong> to every other creature on the scene <strong>unless you were vulnerable to the damage</strong>.</p><ul><li><p><strong>Targets</strong>: @DMG[$minor fire]</p></li></ul>",
+    "description": "<p>When reduced to 0 hit points, you explode dealing <strong>minor elemental damage</strong> to every other creature on the scene <strong>unless you were vulnerable to the damage</strong>.</p><p><strong>Scene:</strong> @DMG[$minor fire]</p>",
     "isFavored": {
       "value": false
     },
@@ -34,24 +34,83 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "detonation"
+    "fuid": "afc-detonation"
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Detonation",
+      "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "PRn6kEN16YtsCuGV",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771077703155,
+        "modifiedTime": 1771077858252,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!lScwb7A2maf1mewy.PRn6kEN16YtsCuGV"
+    }
+  ],
   "sort": 1700000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1734804912640,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771077852276,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!lScwb7A2maf1mewy"

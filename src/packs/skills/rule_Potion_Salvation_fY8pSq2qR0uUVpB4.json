@@ -5,12 +5,12 @@
   "_id": "fY8pSq2qR0uUVpB4",
   "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
   "system": {
-    "fuid": "potion-salvation",
+    "fuid": "afc-potion-salvation",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>At the <strong>end of the round</strong> you throw a healing potion at the ally who has the <strong>lowest</strong> amount of hit points. They recover a minor amount of hit points.</p><ul><li><p><strong>Ally</strong>: @HEAL[minor+5 hp]</p></li></ul>",
+    "description": "<p>At the <strong>end of the round</strong> you throw a healing potion at the ally who has the <strong>lowest</strong> amount of hit points. They recover a minor amount of hit points.</p><p><strong>Ally</strong>: @HEAL[minor+5 hp]</p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1734805583558,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083163154,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!fY8pSq2qR0uUVpB4"

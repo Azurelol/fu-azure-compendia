@@ -5,12 +5,12 @@
   "_id": "CrzPBwQcEhXISzD0",
   "img": "icons/skills/social/intimidation-impressing.webp",
   "system": {
-    "fuid": "battle-shout",
+    "fuid": "afc-battle-shout",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>At the <strong>start of the round</strong> the <strong>party</strong> gains @UUID[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength}</p><p><em>This can only trigger every other round.</em></p>",
+    "description": "<p>At the <strong>start of the round</strong> the <strong>party</strong> gains @EFFECT[Compendium.fu-azure-compendia.effects.q8VBAZTtL8SdLUCs]{Strength}</p><p><em>This can only trigger every other round.</em></p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1732034623443,
-    "modifiedTime": 1738518822528,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771079512420,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!CrzPBwQcEhXISzD0"

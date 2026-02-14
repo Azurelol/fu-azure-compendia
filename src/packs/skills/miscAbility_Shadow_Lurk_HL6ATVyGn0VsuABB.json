@@ -5,7 +5,7 @@
   "_id": "HL6ATVyGn0VsuABB",
   "img": "icons/skills/melee/strike-dagger-arcane-pink.webp",
   "system": {
-    "fuid": "shadow-lurk",
+    "fuid": "afc-shadow-lurk",
     "subtype": {
       "value": "other"
     },
@@ -49,7 +49,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -134,16 +136,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731446464377,
-    "modifiedTime": 1733072995404,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084918831,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!HL6ATVyGn0VsuABB"

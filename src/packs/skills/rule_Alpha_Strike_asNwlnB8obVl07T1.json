@@ -33,23 +33,98 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "alpha-strike"
+    "fuid": "afc-alpha-strike"
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Alpha Strike",
+      "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "B0EcHyLH17J9B827": {
+              "type": "ruleElement",
+              "_id": "B0EcHyLH17J9B827",
+              "trigger": {
+                "eventRelation": "source",
+                "eventType": "startOfCombat"
+              },
+              "actions": {
+                "FPMBRosu6N6ZgImt": {
+                  "type": "messageRuleAction",
+                  "_id": "FPMBRosu6N6ZgImt",
+                  "message": "<p>You immediately perform a free attack.</p>"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "owvOEH9RE2YI2TET",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771078526637,
+        "modifiedTime": 1771078548675,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!asNwlnB8obVl07T1.owvOEH9RE2YI2TET"
+    }
+  ],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771078477280,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "asNwlnB8obVl07T1",

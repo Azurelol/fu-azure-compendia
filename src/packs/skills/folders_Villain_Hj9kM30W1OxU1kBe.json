@@ -6,17 +6,18 @@
   "_id": "Hj9kM30W1OxU1kBe",
   "description": "",
   "sort": 800000,
-  "color": null,
+  "color": "#8000ff",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": 1731526744554,
-    "lastModifiedBy": "esOkelwPNblkbxW3"
+    "modifiedTime": 1771085026149,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
   },
   "_key": "!folders!Hj9kM30W1OxU1kBe"
 }

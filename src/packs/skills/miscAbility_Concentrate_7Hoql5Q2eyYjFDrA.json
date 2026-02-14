@@ -1,18 +1,18 @@
 {
   "folder": "wJl9ksKpDg0rAuUA",
-  "name": "Time-out",
+  "name": "Concentrate",
   "type": "miscAbility",
   "_id": "7Hoql5Q2eyYjFDrA",
   "img": "icons/magic/life/heart-cross-blue.webp",
   "system": {
-    "fuid": "time-out",
+    "fuid": "afc-concentrate",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You take a defensive stance and focus on recovering your energy.</p><ul><li><p><strong>You</strong>:  @EFFECT[guard] + @GAIN[$heavy mp]</p></li></ul>",
+    "description": "<p>You take a <strong>defensive stance</strong> and focus on <strong>recovering your energy.</strong></p>",
     "isFavored": {
       "value": false
     },
@@ -49,7 +49,9 @@
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -126,7 +128,20 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "effects": {
+      "entries": [
+        "guard"
+      ]
+    },
+    "resource": {
+      "enabled": true,
+      "type": "mp",
+      "amount": "$heavy"
+    },
+    "targeting": {
+      "rule": "self"
+    }
   },
   "effects": [],
   "sort": 0,
@@ -134,16 +149,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735669311080,
-    "modifiedTime": 1735669393624,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770845274517,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!7Hoql5Q2eyYjFDrA"

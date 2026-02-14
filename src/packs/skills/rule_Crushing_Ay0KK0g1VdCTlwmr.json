@@ -5,7 +5,7 @@
   "_id": "Ay0KK0g1VdCTlwmr",
   "img": "icons/magic/earth/strike-stone-stalactite-blood-red.webp",
   "system": {
-    "fuid": "crushing",
+    "fuid": "afc-crushing",
     "subtype": {},
     "summary": {
       "value": ""
@@ -36,22 +36,102 @@
       "value": "FU-AZURE"
     }
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Crushing",
+      "img": "icons/magic/earth/strike-stone-stalactite-blood-red.webp",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "3My0rdubhWhAEru0": {
+              "type": "ruleElement",
+              "_id": "3My0rdubhWhAEru0",
+              "trigger": {
+                "_id": "5ZVhQuEYhnVSN8lK",
+                "type": "calculateDamageRuleTrigger",
+                "eventRelation": "source",
+                "damageSources": [],
+                "damageTypes": [
+                  "earth"
+                ]
+              },
+              "actions": {
+                "EHOfPaUimVJ6IN4K": {
+                  "type": "applyEffectRuleAction",
+                  "_id": "EHOfPaUimVJ6IN4K",
+                  "effect": "weak"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "JC0cspWMYkSCMxNx",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771084465356,
+        "modifiedTime": 1771084566240,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!Ay0KK0g1VdCTlwmr.JC0cspWMYkSCMxNx"
+    }
+  ],
   "sort": 0,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084461218,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Ay0KK0g1VdCTlwmr"

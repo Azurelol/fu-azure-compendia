@@ -5,12 +5,12 @@
   "_id": "kp8mBAHhHLZ8FJ8I",
   "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
   "system": {
-    "fuid": "wounding",
+    "fuid": "afc-wounding",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>When you <strong>hit a target with a melee</strong> <strong>attack </strong>and the <strong>result of the accuracy check is an odd number</strong>, you may <strong>treat your High Roll (HR) as 0</strong> in order to leave a gaping wound that leaves them @UUID[Compendium.fu-azure-compendia.effects.hSMGmrqhl1UjHlI8]{Bleeding}.</p>",
+    "description": "<p>When you <strong>hit a target with a melee</strong> <strong>attack </strong>and the <strong>result of the accuracy check is an odd number</strong>, you may <strong>treat your High Roll (HR) as 0</strong> in order to leave a gaping wound that leaves them @EFFECT[Compendium.fu-azure-compendia.effects.hSMGmrqhl1UjHlI8]{Bleeding}.</p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731533594495,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084848326,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!kp8mBAHhHLZ8FJ8I"

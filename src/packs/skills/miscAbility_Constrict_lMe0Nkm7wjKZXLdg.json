@@ -11,7 +11,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You squeeze the creature that you have <strong>@UUID[Compendium.fu-azure-compendia.effects.1Pxb0pniA44cr60T]{Grabbed}</strong> and deal physical damage.</p><ul><li><p><strong>Target</strong>: @DMG[&amp;step(15,20,25) physical]</p></li></ul>",
+    "description": "<p>You squeeze the creature that you have <strong>@EFFECT[Compendium.fu-azure-compendia.effects.1Pxb0pniA44cr60T]{Grabbed}</strong> and deal physical damage.</p>",
     "isFavored": {
       "value": false
     },
@@ -27,7 +27,8 @@
       },
       "hrZero": {
         "value": false
-      }
+      },
+      "traits": false
     },
     "attributes": {
       "primary": {
@@ -42,13 +43,13 @@
     },
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "&step(15,20,25)",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -126,7 +127,7 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "constrict"
+    "fuid": "afc-constrict"
   },
   "effects": [],
   "sort": 1000000,
@@ -134,16 +135,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1735331273964,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770845954688,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!lMe0Nkm7wjKZXLdg"

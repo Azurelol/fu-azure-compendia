@@ -5,7 +5,7 @@
   "_id": "knpB0AIbXPMdS0tl",
   "img": "icons/magic/fire/flame-burning-building.webp",
   "system": {
-    "fuid": "flames",
+    "fuid": "afc-flames",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738410897902,
-    "modifiedTime": 1738411534627,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771078311034,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!knpB0AIbXPMdS0tl"

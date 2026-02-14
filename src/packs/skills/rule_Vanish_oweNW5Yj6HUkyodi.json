@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, you become @UUID[Compendium.fu-azure-compendia.effects.coaSCstLAwMnXkdf]{Invisible}<strong> </strong>until the <strong>start of your next turn</strong>.</p>",
+    "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, you become @EFFECT[Compendium.fu-azure-compendia.effects.coaSCstLAwMnXkdf]{Invisible}<strong> </strong>until the <strong>start of your next turn</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -40,16 +40,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771078249331,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "oweNW5Yj6HUkyodi",

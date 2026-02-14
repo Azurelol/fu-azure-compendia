@@ -5,7 +5,7 @@
   "_id": "41l00gZWSTWpCUI6",
   "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
   "system": {
-    "fuid": "assassinate",
+    "fuid": "afc-assassinate",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731433870542,
-    "modifiedTime": 1732035250401,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771079502368,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!41l00gZWSTWpCUI6"

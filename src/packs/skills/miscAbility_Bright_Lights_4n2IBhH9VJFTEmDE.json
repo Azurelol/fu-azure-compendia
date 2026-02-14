@@ -5,14 +5,14 @@
   "_id": "4n2IBhH9VJFTEmDE",
   "img": "icons/magic/light/beam-rays-orange.webp",
   "system": {
-    "fuid": "bright-lights",
+    "fuid": "afc-bright-lights",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You shoot a powerful beam of light at your enemies.</p><ul><li><p><strong>Enemies</strong>: @DMG[&amp;step(20,25,30) light] on a failed @CHECK[dex ins normal] check.</p></li></ul>",
+    "description": "<p>You shoot a powerful beam of light at your enemies. They must make a @CHECK[dex ins normal] check or <strong>suffer damage</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -28,7 +28,8 @@
       },
       "hrZero": {
         "value": false
-      }
+      },
+      "traits": false
     },
     "attributes": {
       "primary": {
@@ -43,13 +44,11 @@
     },
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
-      "type": {
-        "value": "physical"
-      }
+      "type": "light",
+      "onRoll": "&step(20,25,30)",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -137,16 +136,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735667250668,
-    "modifiedTime": 1739395586118,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770844457994,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!4n2IBhH9VJFTEmDE"

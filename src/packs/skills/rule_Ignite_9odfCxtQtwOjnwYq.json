@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After you <strong>hit an enemy with a fire attack or spell,</strong> they are left @UUID[Compendium.fu-azure-compendia.effects.OYh5Swp0087I3f0k]{Burning} for 1 round.</p>",
+    "description": "<p>After you <strong>hit an enemy with a fire attack or spell,</strong> they are left @EFFECT[Compendium.fu-azure-compendia.effects.OYh5Swp0087I3f0k]{Burning} for 1 round.</p>",
     "isFavored": {
       "value": false
     },
@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "ignite"
+    "fuid": "afc-ignite"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084664420,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "9odfCxtQtwOjnwYq",

@@ -1,22 +1,23 @@
 {
   "name": "Defense",
   "sorting": "a",
-  "folder": "CQpnaB8OosAND43V",
+  "folder": null,
   "type": "Item",
   "_id": "2yYVHxTETZOIfumo",
   "description": "",
-  "sort": 0,
-  "color": null,
+  "sort": 1300000,
+  "color": "#0080ff",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null
+    "modifiedTime": 1771085064591,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
   },
   "_key": "!folders!2yYVHxTETZOIfumo"
 }

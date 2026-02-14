@@ -5,14 +5,14 @@
   "_id": "XZaQ98RCtyviKHRy",
   "img": "icons/weapons/crossbows/crossbow-golden-bolt.webp",
   "system": {
-    "fuid": "siegebreaker",
+    "fuid": "afc-siegebreaker",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "",
+    "description": "<p>After you have finished @EFFECT[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging} , you unleash a powerful missile against the <strong>enemy with the highest defense, </strong>knocking them prone if the result of the accuracy check was an <strong>even number.</strong></p>",
     "isFavored": {
       "value": false
     },
@@ -20,12 +20,8 @@
       "value": false
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
-      "damage": {
-        "value": false
-      },
+      "accuracy": true,
+      "damage": true,
       "hrZero": {
         "value": false
       }
@@ -38,18 +34,14 @@
         "value": "ins"
       }
     },
-    "accuracy": {
-      "value": 0
-    },
+    "accuracy": "5",
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
-      "value": 0,
-      "type": {
-        "value": "physical"
-      }
+      "hasDamage": true,
+      "value": 10,
+      "type": "",
+      "onRoll": "",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,26 +116,115 @@
       }
     },
     "hasRoll": {
-      "value": false
+      "value": true
     },
     "opportunity": ""
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Siegebreaker",
+      "img": "icons/weapons/crossbows/crossbow-golden-bolt.webp",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "XMJXAiYPfopOZohf": {
+              "type": "ruleElement",
+              "_id": "XMJXAiYPfopOZohf",
+              "trigger": {
+                "_id": "YcEp0aeofne08zxt",
+                "type": "renderCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [],
+                "itemGroups": [],
+                "local": true,
+                "identifier": ""
+              },
+              "predicates": {
+                "yLMFsivGTWsgwcrN": {
+                  "type": "checkRulePredicate",
+                  "_id": "yLMFsivGTWsgwcrN",
+                  "outcome": "success",
+                  "parity": "even",
+                  "result": null
+                }
+              },
+              "actions": {
+                "QNFd2PRpsBH3zgJG": {
+                  "type": "applyEffectRuleAction",
+                  "_id": "QNFd2PRpsBH3zgJG",
+                  "effect": "afc-prone"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "DGG0J7sDFn8xKZij",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1770919872454,
+        "modifiedTime": 1770919971059,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!XZaQ98RCtyviKHRy.DGG0J7sDFn8xKZij"
+    }
+  ],
   "sort": 0,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735592497842,
-    "modifiedTime": 1739395692032,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770919863268,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!XZaQ98RCtyviKHRy"

@@ -8,7 +8,8 @@
     "fuid": "fua-powerful-body",
     "cost": {
       "value": 1
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -75,12 +76,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770920628847,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!be89bKTR7X5TDn7w"

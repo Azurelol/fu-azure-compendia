@@ -8,7 +8,7 @@
     "summary": {
       "value": "You command your allies to focus on a target"
     },
-    "description": "<p>At the <strong>start of a conflict,</strong> you command all your allies to <strong>focus their attention on a single target</strong> and inflict it with @UUID[Compendium.projectfu.actor-effects.6JCfyn7Ewt0AJndC]{Physical Weakness}.</p>",
+    "description": "<p>At the <strong>start of a conflict,</strong> you command all your allies to <strong>focus their attention on a single target</strong> and inflict it with @EFFECT[Compendium.projectfu.actor-effects.6JCfyn7Ewt0AJndC]{Physical Weakness}.</p>",
     "isFavored": {
       "value": false
     },
@@ -33,23 +33,27 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "focus-fire"
+    "fuid": "afc-focus-fire"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1738518991303,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771078987257,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "FFJ4k0iZvhg3W6lN",

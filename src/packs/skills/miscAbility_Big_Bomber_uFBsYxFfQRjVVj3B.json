@@ -5,14 +5,14 @@
   "_id": "uFBsYxFfQRjVVj3B",
   "img": "icons/magic/fire/explosion-fireball-medium-orange.webp",
   "system": {
-    "fuid": "big-bomber",
+    "fuid": "afc-big-bomber",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You target an incapacitated enemy suffering from @UUID[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone} or @UUID[Compendium.fu-azure-compendia.effects.2CdYy1zLjc6uOIPC]{Stunned} by releasing a powerful bomb on them, dealing fire damage.</p><ul><li><p><strong>Target</strong>: @DMG[&amp;step(15,20,25) fire]</p></li></ul>",
+    "description": "<p>You target an incapacitated enemy suffering from @EFFECT[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone} or @EFFECT[Compendium.fu-azure-compendia.effects.2CdYy1zLjc6uOIPC]{Stunned} by releasing a powerful bomb on them, dealing fire damage.</p>",
     "isFavored": {
       "value": false
     },
@@ -28,7 +28,8 @@
       },
       "hrZero": {
         "value": false
-      }
+      },
+      "traits": false
     },
     "attributes": {
       "primary": {
@@ -43,13 +44,13 @@
     },
     "defense": "def",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "&step(15,20,25)",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -87,9 +88,7 @@
       "step": 1,
       "max": 6
     },
-    "source": {
-      "value": ""
-    },
+    "source": "FU-AZURE",
     "rollInfo": {
       "useWeapon": {
         "accuracy": {
@@ -126,7 +125,10 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "cost": {
+      "amount": "10"
+    }
   },
   "effects": [],
   "sort": 0,
@@ -134,16 +136,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735581222879,
-    "modifiedTime": 1735583163696,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770844283871,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!uFBsYxFfQRjVVj3B"

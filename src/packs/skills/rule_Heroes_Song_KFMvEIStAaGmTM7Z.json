@@ -5,12 +5,12 @@
   "_id": "KFMvEIStAaGmTM7Z",
   "img": "icons/magic/holy/chalice-glowing-gold-water.webp",
   "system": {
-    "fuid": "heroes-song",
+    "fuid": "afc-heroes-song",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>At the <strong>end of the round</strong> one of your allies gains one of the following effects. That ally <strong>cannot gain that effect again until</strong> all other allies have also gained an effect on the following rounds.</p><p>@EFFECT[wlp-up] @EFFECT[dex-up] @EFFECT[ins-up] @EFFECT[mig-up]</p><p></p>",
+    "description": "<p>At the <strong>end of the round</strong> one of your allies gains one of the following effects. That <strong>ally</strong> <strong>cannot gain that effect again until</strong> all other allies have also gained an effect on the following rounds.</p><p><strong>Ally:</strong> @EFFECT[wlp-up] @EFFECT[dex-up] @EFFECT[ins-up] @EFFECT[mig-up]</p><p></p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1732035250401,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083140988,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!KFMvEIStAaGmTM7Z"

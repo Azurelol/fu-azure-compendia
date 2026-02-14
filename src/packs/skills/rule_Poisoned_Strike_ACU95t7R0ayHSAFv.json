@@ -1,14 +1,14 @@
 {
-  "folder": "2KJQRZg4WkBly58w",
-  "name": "Throw",
+  "folder": "CxiOOFr6RmoYlFk8",
+  "name": "Poisoned Strike",
   "type": "rule",
-  "img": "icons/magic/control/encase-creature-monster-hold.webp",
+  "img": "icons/skills/melee/strike-dagger-poison-green.webp",
   "system": {
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>While you have a creature <strong>grabbed</strong>, you throw it away a fair distance. It takes <strong>minor physical damage</strong> and is <strong>dazed</strong>.</p><ul><li><p><strong>Target</strong>: @DMG[minor physical] and @UUID[Compendium.projectfu.conditions-effects.dl04MUhnkGS7KY5x]{Dazed}</p></li></ul>",
+    "description": "<p>When you <strong>hit a target with a melee attack</strong> and the <strong>result of the accuracy check is an odd number</strong>, you may <strong>spend</strong>  @LOSS[10 mp] and <strong>treat your High Roll (HR) as 0</strong> in order to inflict them with @EFFECT[poisoned].</p>",
     "isFavored": {
       "value": false
     },
@@ -33,26 +33,30 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "throw"
+    "fuid": "afc-poisoned-strike"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1735590258581,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084825542,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
-  "_id": "KTjjotAW4OfCsGFn",
-  "sort": 0,
-  "_key": "!items!KTjjotAW4OfCsGFn"
+  "_id": "ACU95t7R0ayHSAFv",
+  "sort": 1100000,
+  "_key": "!items!ACU95t7R0ayHSAFv"
 }

@@ -1,0 +1,138 @@
+{
+  "folder": "9sF7Li98rc4NikRM",
+  "name": "Poisonous",
+  "type": "rule",
+  "_id": "7U7NWUOW8ldii6Gn",
+  "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
+  "system": {
+    "fuid": "afc-poisonous",
+    "subtype": {},
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>After you <strong>hit an enemy with a poison attack or spell</strong> they suffer from @EFFECT[Compendium.fu-azure-compendia.effects.rYQkHKEB7M1LJqNc]{Contact Poison}.</p>",
+    "isFavored": {
+      "value": false
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6
+    },
+    "source": {
+      "value": "FU-AZURE"
+    }
+  },
+  "effects": [
+    {
+      "name": "Contact Poison",
+      "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "lga8jfZigbf5EeZ4": {
+              "type": "ruleElement",
+              "_id": "lga8jfZigbf5EeZ4",
+              "trigger": {
+                "_id": "t3t13k1RRxU1qRgX",
+                "type": "calculateDamageRuleTrigger",
+                "eventRelation": "source",
+                "damageSources": [],
+                "damageTypes": [
+                  "poison"
+                ]
+              },
+              "actions": {
+                "hrNywasjwx8qmAZZ": {
+                  "type": "applyEffectRuleAction",
+                  "_id": "hrNywasjwx8qmAZZ",
+                  "effect": "afc-contact-poison"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "4EDdspdLiG5SclAE",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771083964831,
+        "modifiedTime": 1771084054061,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!7U7NWUOW8ldii6Gn.4EDdspdLiG5SclAE"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "esOkelwPNblkbxW3": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1731429340899,
+    "modifiedTime": 1771084187843,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
+  },
+  "_key": "!items!7U7NWUOW8ldii6Gn"
+}

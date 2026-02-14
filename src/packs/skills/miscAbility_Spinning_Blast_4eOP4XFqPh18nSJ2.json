@@ -5,14 +5,14 @@
   "_id": "4eOP4XFqPh18nSJ2",
   "img": "icons/skills/ranged/bullets-triple-ball-yellow.webp",
   "system": {
-    "fuid": "spinning-blast",
+    "fuid": "afc-spinning-blast",
     "subtype": {
       "value": "other"
     },
     "summary": {
       "value": ""
     },
-    "description": "<p>You go into a vicious spin as you unload your firearm upon your enemies.</p><ul><li><p><strong>Enemies:</strong> @DMG[&amp;step(10,15,20) physical] on failure of a @CHECK[dex ins normal] check.</p></li><li><p><strong>Requires</strong>: @UUID[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging}</p></li></ul>",
+    "description": "<p>You go into a vicious spin as you unload your firearm upon your enemies.</p><ul><li><p><strong>Requires</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.NX682xL02ccgm206]{Charging}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -20,36 +20,31 @@
       "value": false
     },
     "useWeapon": {
-      "accuracy": {
-        "value": false
-      },
+      "accuracy": true,
       "damage": {
         "value": false
       },
       "hrZero": {
         "value": false
-      }
+      },
+      "traits": false
     },
     "attributes": {
       "primary": {
         "value": "dex"
       },
-      "secondary": {
-        "value": "ins"
-      }
+      "secondary": "ins"
     },
-    "accuracy": {
-      "value": 0
-    },
-    "defense": "def",
+    "accuracy": "1",
+    "defense": "dex",
     "damage": {
-      "hasDamage": {
-        "value": false
-      },
+      "hasDamage": true,
       "value": 0,
       "type": {
         "value": "physical"
-      }
+      },
+      "onRoll": "&step(10,15,20)",
+      "onApply": ""
     },
     "impdamage": {
       "hasImpDamage": {
@@ -124,7 +119,7 @@
       }
     },
     "hasRoll": {
-      "value": false
+      "value": true
     },
     "opportunity": "",
     "cost": {
@@ -137,16 +132,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735592590660,
-    "modifiedTime": 1739395719163,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770844824462,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!4eOP4XFqPh18nSJ2"

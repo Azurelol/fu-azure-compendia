@@ -5,12 +5,12 @@
   "_id": "CO0ZzAehkCkFLeF6",
   "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
   "system": {
-    "fuid": "safeguard",
+    "fuid": "afc-safeguard",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>At the end of the round all your allies gain <strong>resistance</strong> to <strong>one</strong> of the following elements:</p><ul><li><p>@UUID[Compendium.projectfu.actor-effects.FAfKTXxluiqIVP5t]{Fire Resistance} @UUID[Compendium.projectfu.actor-effects.SWdZeuJTEq1ig6S8]{Ice Resistance}</p></li><li><p>@UUID[Compendium.projectfu.actor-effects.3tMyw1mCjd7SfGTD]{Air Resistance}@UUID[Compendium.projectfu.actor-effects.H3SJ1fej3GSyHdKG]{Earth Resistance}</p></li><li><p>@UUID[Compendium.projectfu.actor-effects.fBbLvII5LUEqInQQ]{Dark Resistance}@UUID[Compendium.projectfu.actor-effects.Xab6AwcRhoxVhygu]{Light Resistance}</p></li><li><p>@UUID[Compendium.projectfu.actor-effects.QrEztsujMpK33cpj]{Bolt Resistance}@UUID[Compendium.projectfu.actor-effects.3xPA7x9S3fggYHkX]{Poison Resistance}</p></li></ul><p><em>This can only be used <strong>two times</strong> per conflict.</em></p>",
+    "description": "<p>At the end of the round all your allies gain <strong>resistance</strong> to <strong>one</strong> of the following elements:</p><ul><li><p>@EFFECT[Compendium.projectfu.actor-effects.FAfKTXxluiqIVP5t]{Fire Resistance} @EFFECT[Compendium.projectfu.actor-effects.SWdZeuJTEq1ig6S8]{Ice Resistance}</p></li><li><p>@EFFECT[Compendium.projectfu.actor-effects.3tMyw1mCjd7SfGTD]{Air Resistance}@EFFECT[Compendium.projectfu.actor-effects.H3SJ1fej3GSyHdKG]{Earth Resistance}</p></li><li><p>@EFFECT[Compendium.projectfu.actor-effects.fBbLvII5LUEqInQQ]{Dark Resistance}@EFFECT[Compendium.projectfu.actor-effects.Xab6AwcRhoxVhygu]{Light Resistance}</p></li><li><p>@EFFECT[Compendium.projectfu.actor-effects.QrEztsujMpK33cpj]{Bolt Resistance}@EFFECT[Compendium.projectfu.actor-effects.3xPA7x9S3fggYHkX]{Poison Resistance}</p></li></ul><p><em>This can only be used <strong>once </strong>per conflict.</em></p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1732035250401,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771083392320,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!CO0ZzAehkCkFLeF6"

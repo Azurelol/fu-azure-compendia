@@ -5,7 +5,7 @@
   "_id": "nLeUXuQV4cEYEa6w",
   "img": "icons/magic/symbols/circled-gem-pink.webp",
   "system": {
-    "fuid": "arcane-torrent",
+    "fuid": "afc-arcane-torrent",
     "subtype": {},
     "summary": {
       "value": ""
@@ -36,22 +36,100 @@
       "value": "FU-AZURE"
     }
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Arcane Torrent",
+      "img": "icons/magic/symbols/circled-gem-pink.webp",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "2RYFcHewDLMIY7ZT": {
+              "type": "ruleElement",
+              "_id": "2RYFcHewDLMIY7ZT",
+              "trigger": {
+                "_id": "YJTsvn5xKJDUu9p0",
+                "type": "statusRuleTrigger",
+                "eventRelation": "",
+                "status": "crisis",
+                "change": "added"
+              },
+              "actions": {
+                "aTiTqyiYgW2d4JOV": {
+                  "type": "messageRuleAction",
+                  "_id": "aTiTqyiYgW2d4JOV",
+                  "message": "<p>You unleash a violent burst of magic energy. It removes <strong>one beneficial effect</strong> from your attacker and restores @GAIN[10 mp] for you.</p>"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "5YhHeILL2tlEpKmI",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771077261862,
+        "modifiedTime": 1771077367483,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!nLeUXuQV4cEYEa6w.5YhHeILL2tlEpKmI"
+    }
+  ],
   "sort": 900000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1770920665313,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!nLeUXuQV4cEYEa6w"

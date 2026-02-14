@@ -5,12 +5,12 @@
   "_id": "v3LVXgPdJd2J6IXy",
   "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
   "system": {
-    "fuid": "combination-strike",
+    "fuid": "afc-combination-strike",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>When you <strong>hit a target with a melee</strong> <strong>attack </strong>and the <strong>result of the accuracy check is an odd number</strong>, you may <strong>treat your High Roll (HR) as 0</strong> in order to inflict @UUID[Compendium.fu-azure-compendia.effects.mJeQJ9OtkLrJeE1X]{Combo} on them.</p>",
+    "description": "<p>When you <strong>hit a target with a melee</strong> <strong>attack </strong>and the <strong>result of the accuracy check is an odd number</strong>, you may <strong>treat your High Roll (HR) as 0</strong> in order to inflict @EFFECT[Compendium.fu-azure-compendia.effects.mJeQJ9OtkLrJeE1X]{Combo} on them.</p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731533594495,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771084710416,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!v3LVXgPdJd2J6IXy"

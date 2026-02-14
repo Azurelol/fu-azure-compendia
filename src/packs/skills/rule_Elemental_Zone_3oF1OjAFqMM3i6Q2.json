@@ -9,7 +9,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>All creatures in the <strong>scene</strong> are granted a <strong>weakness</strong> to a specific element.</p><ul><li><p><strong>Scene:</strong> @UUID[Compendium.projectfu.actor-effects.dAFACJSQzCbcU9We]{Fire Weakness} @UUID[Compendium.projectfu.actor-effects.BVOW692emrw4yxR0]{Ice Weakness} @UUID[Compendium.projectfu.actor-effects.aI4tsuVswH5gfGab]{Air Weakness} @UUID[Compendium.projectfu.actor-effects.MRNCMGIcZStGVV9J]{Bolt Weakness} @UUID[Compendium.projectfu.actor-effects.YpXM5ClzMzIcwCgd]{Earth Weakness}</p></li></ul>",
+    "description": "<p>All creatures in the <strong>scene</strong> are granted a <strong>weakness</strong> to a specific element.</p><ul><li><p><strong>Scene:</strong> @EFFECT[Compendium.projectfu.actor-effects.dAFACJSQzCbcU9We]{Fire Weakness} @EFFECT[Compendium.projectfu.actor-effects.BVOW692emrw4yxR0]{Ice Weakness} @EFFECT[Compendium.projectfu.actor-effects.aI4tsuVswH5gfGab]{Air Weakness} @EFFECT[Compendium.projectfu.actor-effects.MRNCMGIcZStGVV9J]{Bolt Weakness} @EFFECT[Compendium.projectfu.actor-effects.YpXM5ClzMzIcwCgd]{Earth Weakness}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -34,7 +34,7 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "elemental-zone"
+    "fuid": "afc-elemental-zone"
   },
   "effects": [],
   "sort": 0,
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731694981206,
-    "modifiedTime": 1738411275307,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771078303910,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!3oF1OjAFqMM3i6Q2"
