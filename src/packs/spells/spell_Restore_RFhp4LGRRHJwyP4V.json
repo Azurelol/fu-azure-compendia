@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Each target recovers from <strong>all status effects.</strong></p><ul><li><p><strong>You</strong>: @LOSS[10 mp] for each target</p></li></ul>",
+    "description": "<p>Each target recovers from <strong>all status effects.</strong></p>",
     "isFavored": {
       "value": false
     },
@@ -118,7 +118,7 @@
     "maxTargets": {
       "value": 3
     },
-    "fuid": "cleanse"
+    "fuid": "afc-restore"
   },
   "effects": [],
   "ownership": {
@@ -128,17 +128,20 @@
     "esOkelwPNblkbxW3": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "projectfu": {
+      "favorite": false
+    }
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1731702201044,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095806889,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "RFhp4LGRRHJwyP4V",

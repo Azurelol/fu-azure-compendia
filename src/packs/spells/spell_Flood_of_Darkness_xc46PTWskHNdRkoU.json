@@ -5,12 +5,12 @@
   "_id": "xc46PTWskHNdRkoU",
   "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
   "system": {
-    "fuid": "flood-of-darkness",
+    "fuid": "afc-flood-of-darkness",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a strong wave of dark energy that envelops the scene. All targets suffer <strong>unavoidable dark damage</strong> and suffer from <strong>miasma</strong>.</p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets:</strong> @DMG[&amp;step(15,25,35 dark] + @UUID[Compendium.fu-azure-compendia.effects.KMvq0kYOZnyHiSEr]{Miasma}</p></li></ul>",
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a strong wave of dark energy that envelops the scene. All targets suffer <strong>unavoidable dark damage</strong> and suffer from <strong>miasma</strong>.</p><ul><li><p><strong>Targets:</strong> @DMG[&amp;step(15,25,35 dark] + @EFFECT[Compendium.fu-azure-compendia.effects.KMvq0kYOZnyHiSEr]{Miasma}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -117,7 +117,12 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "effects": {
+      "entries": [
+        "afc-miasma"
+      ]
+    }
   },
   "effects": [],
   "sort": 0,
@@ -125,16 +130,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731700020910,
-    "modifiedTime": 1735328330231,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095484328,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!xc46PTWskHNdRkoU"

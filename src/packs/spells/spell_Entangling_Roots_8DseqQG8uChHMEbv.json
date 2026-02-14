@@ -5,12 +5,12 @@
   "_id": "8DseqQG8uChHMEbv",
   "img": "icons/magic/nature/root-vine-entangled-hand.webp",
   "system": {
-    "fuid": "entangling-roots",
+    "fuid": "afc-entangling-roots",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>Vines and roots quickly grow around the target, attempting to grasp it. If they make contact, the target takes earth damage and is grabbed.</p><ul><li><p><strong>You: </strong>@LOSS[10 mp] for each target<br /><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.1Pxb0pniA44cr60T]{Grabbed}</p></li></ul>",
+    "description": "<p>Vines and roots quickly grow around the target, attempting to grasp it. If they make contact, the target suffers earth damage and is <strong>grabbed</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -117,7 +117,12 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "effects": {
+      "entries": [
+        "afc-grabbed"
+      ]
+    }
   },
   "effects": [],
   "sort": 400000,
@@ -125,16 +130,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735497792923,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095671833,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!8DseqQG8uChHMEbv"

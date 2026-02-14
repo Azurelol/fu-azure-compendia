@@ -5,7 +5,7 @@
   "_id": "a6XUBZvLQrc5HU8f",
   "img": "icons/magic/water/vortex-water-whirlpool.webp",
   "system": {
-    "fuid": "whirlpool",
+    "fuid": "afc-whirlpool",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735328628411,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095532207,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!a6XUBZvLQrc5HU8f"

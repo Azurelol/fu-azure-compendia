@@ -5,7 +5,7 @@
   "_id": "NLMOabNEJbxN4oen",
   "img": "icons/weapons/swords/sword-winged-pink.webp",
   "system": {
-    "fuid": "trial-by-sword",
+    "fuid": "afc-trial-by-sword",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735330382085,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095563037,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!NLMOabNEJbxN4oen"

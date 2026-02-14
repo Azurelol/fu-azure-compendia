@@ -5,7 +5,7 @@
   "_id": "Qp2TRZszj3aa1Ikv",
   "img": "icons/magic/nature/vines-thorned-entwined-teal.webp",
   "system": {
-    "fuid": "thorn-bind-hostage",
+    "fuid": "afc-thorn-bind-hostage",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731433212728,
-    "modifiedTime": 1731434257287,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095934783,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Qp2TRZszj3aa1Ikv"

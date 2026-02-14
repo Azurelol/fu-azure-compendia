@@ -5,7 +5,7 @@
   "_id": "f2PfFy994FsyCekM",
   "img": "icons/magic/lightning/bolts-salvo-clouds-sky.webp",
   "system": {
-    "fuid": "thunderstorm",
+    "fuid": "afc-thunderstorm",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731530441887,
-    "modifiedTime": 1735328503307,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095516456,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!f2PfFy994FsyCekM"

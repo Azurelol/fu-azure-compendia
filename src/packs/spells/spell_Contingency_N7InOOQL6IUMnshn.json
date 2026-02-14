@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You prepare a spell to be used <strong>on</strong> <strong>you or one of your allies</strong>. You <strong>secretly choose</strong> <strong>one</strong> of the following <strong>triggers</strong>, which will invoke the spell:</p><ul><li><p>The target is <strong>attacked in melee</strong>. </p></li><li><p>The target is <strong>attacked from range</strong>.</p></li><li><p>A <strong>spell is cast</strong> at the target.</p></li><li><p>The target has <strong>triggered a reaction</strong>.</p></li><li><p>The target has <strong>entered crisis</strong>.</p></li><li><p>The target has been <strong>reduced to 0 hit points</strong>.</p></li></ul><p><em>You spend the cost of this spell (@LOSS[20 mp]) and of the companion spell at the time of casting.</em></p>",
+    "description": "<p>You prepare a spell to be used <strong>on</strong> <strong>you or one of your allies</strong>. You <strong>secretly choose</strong> <strong>one</strong> of the following <strong>triggers</strong>, which will invoke the spell:</p><ul><li><p>The target is <strong>attacked in melee</strong>.</p></li><li><p>The target is <strong>attacked from range</strong>.</p></li><li><p>A <strong>spell is cast</strong> at the target.</p></li><li><p>The target has <strong>triggered a reaction</strong>.</p></li><li><p>The target has <strong>entered crisis</strong>.</p></li><li><p>The target has been <strong>reduced to 0 hit points</strong>.</p></li></ul><p><em>You spend the cost of this spell and of the companion spell at the time of casting.</em></p>",
     "isFavored": {
       "value": false
     },
@@ -116,23 +116,27 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "contingency"
+    "fuid": "afc-contingency"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1733072129674,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095876020,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "N7InOOQL6IUMnshn",

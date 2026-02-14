@@ -5,12 +5,12 @@
   "_id": "XxzhoA1MjqQDVOEj",
   "img": "icons/magic/unholy/hand-marked-pink.webp",
   "system": {
-    "fuid": "curse-of-agony",
+    "fuid": "afc-curse-of-agony",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>You affect the target with a powerful curse.</p><ul><li><p><strong>You</strong>: @LOSS[10 mp]</p></li><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.SDFcCuQPNCFEVeN0]{Curse of Agony}</p></li></ul>",
+    "description": "<p>You affect the target with a powerful curse.</p><ul><li><p><strong>Target</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.SDFcCuQPNCFEVeN0]{Curse of Agony}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1731698999482,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088691391,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!XxzhoA1MjqQDVOEj"

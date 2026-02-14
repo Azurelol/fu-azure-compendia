@@ -5,7 +5,7 @@
   "_id": "cz31wrJO1UjGllu6",
   "img": "icons/magic/fire/projectile-meteor-salvo-heavy-red.webp",
   "system": {
-    "fuid": "comet-rain",
+    "fuid": "afc-comet-rain",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735330322095,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095538002,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!cz31wrJO1UjGllu6"

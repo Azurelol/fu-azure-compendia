@@ -5,7 +5,7 @@
   "_id": "c31EJtQXgGbrj9Ho",
   "img": "icons/skills/melee/strike-flail-spiked-pink.webp",
   "system": {
-    "fuid": "vorpal-rampage",
+    "fuid": "afc-massacre",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1731429073863,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095957482,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!c31EJtQXgGbrj9Ho"

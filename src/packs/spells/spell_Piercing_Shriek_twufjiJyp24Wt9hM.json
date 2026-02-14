@@ -112,7 +112,7 @@
       "value": "FU-AZURE"
     },
     "opportunity": "",
-    "fuid": "area-status",
+    "fuid": "afc-piercing-shriek",
     "maxTargets": {
       "value": 0
     }
@@ -120,17 +120,20 @@
   "effects": [],
   "flags": {
     "core": {},
-    "cf": {}
+    "cf": {},
+    "projectfu": {
+      "favorite": false
+    }
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735330839318,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095852237,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "folder": "3bUW8RxjfwdHZaeH",

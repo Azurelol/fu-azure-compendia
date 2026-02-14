@@ -5,7 +5,7 @@
   "_id": "0nPbIBK6CmIBcTKx",
   "img": "icons/magic/light/explosion-star-glow-orange.webp",
   "system": {
-    "fuid": "holy-shock",
+    "fuid": "afc-holy-shock",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735330488823,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095689883,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!0nPbIBK6CmIBcTKx"

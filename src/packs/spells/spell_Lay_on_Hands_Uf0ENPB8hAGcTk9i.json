@@ -5,7 +5,7 @@
   "_id": "Uf0ENPB8hAGcTk9i",
   "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
   "system": {
-    "fuid": "lay-on-hands",
+    "fuid": "afc-lay-on-hands",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735330694046,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095789099,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Uf0ENPB8hAGcTk9i"

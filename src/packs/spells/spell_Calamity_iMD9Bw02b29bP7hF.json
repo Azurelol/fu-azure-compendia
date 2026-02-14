@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a great blast of raw energy upon the battlefield. All targets suffer <strong>unavoidable</strong> <strong>damage</strong>.</p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 untyped]</p></li></ul>",
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a great blast of raw energy upon the battlefield. All targets suffer <strong>unavoidable</strong> <strong>damage</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -104,11 +104,11 @@
       },
       "damage": {
         "hasDamage": {
-          "value": false
+          "value": true
         },
-        "value": 5,
+        "value": 0,
         "type": {
-          "value": "dark"
+          "value": "untyped"
         }
       }
     },
@@ -116,23 +116,27 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "calamity"
+    "fuid": "afc-calamity"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735328223840,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095342227,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "iMD9Bw02b29bP7hF",

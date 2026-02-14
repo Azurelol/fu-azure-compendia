@@ -5,12 +5,12 @@
   "_id": "rlbK6Yr6XUmc7MM6",
   "img": "icons/magic/symbols/star-rising-purple.webp",
   "system": {
-    "fuid": "keen-edge",
+    "fuid": "afc-enchanntment",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>You cast a support spell on one of your allies. Choose <strong>one</strong> of the following.</p><ul><li><p><strong>You</strong>: @LOSS[10 mp]</p></li><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.14zB1oTJL42HmJ6g]{Karma Drive} @UUID[Compendium.fu-azure-compendia.effects.oOA6Cimb9xHwkaG8]{Keen Edge}</p></li></ul>",
+    "description": "<p>You cast a support spell on one of your allies. Choose <strong>one</strong> of the following.</p><ul><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.14zB1oTJL42HmJ6g]{Karma Drive} @UUID[Compendium.fu-azure-compendia.effects.oOA6Cimb9xHwkaG8]{Keen Edge}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731434754809,
-    "modifiedTime": 1732032767024,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095755299,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!rlbK6Yr6XUmc7MM6"

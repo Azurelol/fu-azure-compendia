@@ -5,12 +5,12 @@
   "_id": "FTQK4oOWYe1hsLxF",
   "img": "icons/magic/fire/beam-jet-stream-spiral-yellow.webp",
   "system": {
-    "fuid": "hellfire",
+    "fuid": "afc-hellfire",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you engulf all your enemies in flames, dealing <strong>unavoidable</strong> <strong>fire damage </strong>and leaving them burning for 3 rounds.</p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 fire] + <strong>@UUID[Compendium.fu-azure-compendia.effects.OYh5Swp0087I3f0k]{Burning}</strong></p></li></ul>",
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you engulf all your enemies in flames, dealing <strong>unavoidable</strong> <strong>fire damage </strong>and leaving them burning for 3 rounds.</p><ul><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 fire] + <strong>@UUID[Compendium.fu-azure-compendia.effects.OYh5Swp0087I3f0k]{Burning}</strong></p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735328346850,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095496969,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!FTQK4oOWYe1hsLxF"

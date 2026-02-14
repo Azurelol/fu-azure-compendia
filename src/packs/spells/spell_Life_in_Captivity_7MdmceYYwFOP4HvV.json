@@ -5,7 +5,7 @@
   "_id": "7MdmceYYwFOP4HvV",
   "img": "icons/magic/control/debuff-chains-purple.webp",
   "system": {
-    "fuid": "life-in-captivity",
+    "fuid": "afc-life-in-captivity",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735330975850,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095946236,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!7MdmceYYwFOP4HvV"

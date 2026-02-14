@@ -5,12 +5,12 @@
   "_id": "AWHQn6ah7vTSVDhq",
   "img": "icons/magic/water/bubbles-air-water-pink.webp",
   "system": {
-    "fuid": "black-rain",
+    "fuid": "afc-black-rain",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>Rain pours down in the scene, draining your enemies mind points and replenishing your hit points.</p><ul><li><p><strong>Enemies</strong>: @LOSS[$minor mp]</p></li><li><p><strong>You</strong>: @LOSS[20 mp] @GAIN[$heavy hp]</p></li><li><p><strong>Requires</strong>: @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling}</p></li></ul>",
+    "description": "<p>Rain pours down in the scene, draining your enemies mind points and replenishing your hit points.</p><ul><li><p><strong>Enemies</strong>: @LOSS[$minor mp]</p></li><li><p><strong>You</strong>: @GAIN[$heavy hp]</p></li><li><p><strong>Requires</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735748087094,
-    "modifiedTime": 1735748489085,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088732940,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!AWHQn6ah7vTSVDhq"

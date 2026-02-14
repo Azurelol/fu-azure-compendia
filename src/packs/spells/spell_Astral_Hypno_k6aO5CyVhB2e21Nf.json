@@ -5,7 +5,7 @@
   "_id": "k6aO5CyVhB2e21Nf",
   "img": "icons/magic/control/sleep-bubble-purple.webp",
   "system": {
-    "fuid": "astral-hypno",
+    "fuid": "afc-astral-hypno",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731434282126,
-    "modifiedTime": 1731434686719,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095886318,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!k6aO5CyVhB2e21Nf"

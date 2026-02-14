@@ -5,7 +5,7 @@
   "_id": "1qflPqQVtfQMMBoe",
   "img": "icons/weapons/guns/gun-worn-steel.webp",
   "system": {
-    "fuid": "mark-97-launchers",
+    "fuid": "afc-mark-97-launchers",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1731429073863,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095779688,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!1qflPqQVtfQMMBoe"

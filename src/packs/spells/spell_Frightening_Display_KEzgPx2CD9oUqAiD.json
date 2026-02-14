@@ -115,22 +115,25 @@
     "maxTargets": {
       "value": 0
     },
-    "fuid": "frightening-display"
+    "fuid": "afc-frightening-display"
   },
   "effects": [],
   "flags": {
     "core": {},
-    "cf": {}
+    "cf": {},
+    "projectfu": {
+      "favorite": false
+    }
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1731429073863,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095835255,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "folder": "3bUW8RxjfwdHZaeH",

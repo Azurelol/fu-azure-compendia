@@ -116,23 +116,27 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "verboten"
+    "fuid": "afc-verboten"
   },
   "effects": [],
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1738433118056,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095594732,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "q5uAZBmxAEkz5Fiv",

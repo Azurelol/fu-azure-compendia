@@ -5,12 +5,12 @@
   "_id": "NL8XVt1Ay4N8gElZ",
   "img": "icons/magic/water/snowflake-ice-blue-white.webp",
   "system": {
-    "fuid": "cold-snap",
+    "fuid": "afc-cold-snap",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a devastating wave of cold to freeze your enemies. All targets suffer <strong>unavoidable ice damage</strong> and are left frozen.</p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 ice] + <strong>@UUID[Compendium.fu-azure-compendia.effects.rVUnQaybL0TnwwHi]{Frozen}</strong></p></li></ul>",
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a devastating wave of cold to freeze your enemies. All targets suffer <strong>unavoidable ice damage</strong> and are left frozen.</p><ul><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 ice] + <strong>@UUID[Compendium.fu-azure-compendia.effects.rVUnQaybL0TnwwHi]{Frozen}</strong></p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735328282730,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095353346,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!NL8XVt1Ay4N8gElZ"

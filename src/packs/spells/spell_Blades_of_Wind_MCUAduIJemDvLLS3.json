@@ -1,11 +1,11 @@
 {
   "folder": "3wV2pvX92KXaJvom",
-  "name": "Whirling Death",
+  "name": "Blades of Wind",
   "type": "spell",
   "_id": "MCUAduIJemDvLLS3",
   "img": "icons/magic/movement/pinwheel-turning-blue.webp",
   "system": {
-    "fuid": "whirling-death",
+    "fuid": "afc-blades-of-wind",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1731429073863,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095730725,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!MCUAduIJemDvLLS3"

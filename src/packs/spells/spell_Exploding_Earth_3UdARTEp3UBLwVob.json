@@ -118,7 +118,7 @@
     "maxTargets": {
       "value": 3
     },
-    "fuid": "exploding-earth"
+    "fuid": "afc-exploding-earth"
   },
   "effects": [],
   "ownership": {
@@ -128,17 +128,20 @@
     "esOkelwPNblkbxW3": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "projectfu": {
+      "favorite": false
+    }
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1731429073863,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095676526,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "3UdARTEp3UBLwVob",

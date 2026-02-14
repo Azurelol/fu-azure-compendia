@@ -5,7 +5,7 @@
   "_id": "AuGJwnaQTSGPHM7H",
   "img": "icons/tools/smithing/hammer-sledge-steel-grey.webp",
   "system": {
-    "fuid": "auto-repair-unit",
+    "fuid": "afc-auto-repair-unit",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735330940436,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095940212,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!AuGJwnaQTSGPHM7H"

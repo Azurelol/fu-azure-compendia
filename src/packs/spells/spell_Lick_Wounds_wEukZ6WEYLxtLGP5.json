@@ -115,22 +115,25 @@
     "maxTargets": {
       "value": 1
     },
-    "fuid": "lick-wounds"
+    "fuid": "afc-lick-wounds"
   },
   "effects": [],
   "flags": {
     "core": {},
-    "cf": {}
+    "cf": {},
+    "projectfu": {
+      "favorite": false
+    }
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735330738122,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095791667,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "folder": "gkmXdV0E48rGG8dI",

@@ -5,12 +5,12 @@
   "_id": "yi5dwj5hKi7QZMwL",
   "img": "icons/magic/earth/lava-stone-fire-yellow.webp",
   "system": {
-    "fuid": "earthquake",
+    "fuid": "afc-earthquake",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a localized earthquake that shakes the ground, toppling your enemies before showering them with earth and stone. All targets suffer <strong>unavoidable earth damage</strong> and are knocked prone.</p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 earth] + <strong>@UUID[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone}</strong></p></li></ul>",
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a localized earthquake that shakes the ground, toppling your enemies before showering them with earth and stone. All targets suffer <strong>unavoidable earth damage</strong> and are knocked prone.</p><ul><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 earth] + <strong>@UUID[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone}</strong></p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731527812100,
-    "modifiedTime": 1735328313008,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095367876,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!yi5dwj5hKi7QZMwL"

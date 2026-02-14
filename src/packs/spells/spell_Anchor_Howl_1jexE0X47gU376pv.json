@@ -5,7 +5,7 @@
   "_id": "1jexE0X47gU376pv",
   "img": "icons/creatures/abilities/bear-roar-bite-brown.webp",
   "system": {
-    "fuid": "anchor-howl",
+    "fuid": "afc-anchor-howl",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731445714180,
-    "modifiedTime": 1733071189915,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095883617,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!1jexE0X47gU376pv"

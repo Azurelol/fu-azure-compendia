@@ -5,7 +5,7 @@
   "_id": "aTaFyVloJbjgfLNg",
   "img": "icons/magic/unholy/hands-circle-light-green.webp",
   "system": {
-    "fuid": "curse-of-gluttony",
+    "fuid": "afc-curse-of-gluttony",
     "subtype": {},
     "summary": {
       "value": ""
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1731699000778,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771095609953,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!aTaFyVloJbjgfLNg"
