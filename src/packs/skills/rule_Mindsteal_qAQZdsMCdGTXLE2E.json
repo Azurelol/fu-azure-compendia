@@ -1,5 +1,5 @@
 {
-  "folder": "yfNBuxkwJmpLWyP5",
+  "folder": "0BYHpnrwZkIGLNOQ",
   "name": "Mindsteal",
   "type": "rule",
   "_id": "qAQZdsMCdGTXLE2E",
@@ -37,7 +37,7 @@
     "fuid": "afc-mindsteal"
   },
   "effects": [],
-  "sort": 175000,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771083583006,
+    "modifiedTime": 1771087565839,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

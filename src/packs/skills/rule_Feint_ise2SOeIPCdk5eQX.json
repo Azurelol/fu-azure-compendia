@@ -1,5 +1,5 @@
 {
-  "folder": "yfNBuxkwJmpLWyP5",
+  "folder": "lAMm1hTSeeWKGSr1",
   "name": "Feint",
   "type": "rule",
   "_id": "ise2SOeIPCdk5eQX",
@@ -37,7 +37,7 @@
     }
   },
   "effects": [],
-  "sort": 0,
+  "sort": 125000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -46,12 +46,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735590674615,
-    "modifiedTime": 1735591344515,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771087586270,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!ise2SOeIPCdk5eQX"

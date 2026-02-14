@@ -1,5 +1,5 @@
 {
-  "folder": "yfNBuxkwJmpLWyP5",
+  "folder": "lAMm1hTSeeWKGSr1",
   "name": "Tempo",
   "type": "rule",
   "_id": "wJc3R7dnLck4N1RF",
@@ -37,7 +37,7 @@
     }
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771083595687,
+    "modifiedTime": 1771087488362,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

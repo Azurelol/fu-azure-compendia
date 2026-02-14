@@ -5,12 +5,12 @@
   "_id": "D5cR3PYpj3WjfpFC",
   "img": "icons/magic/control/voodoo-doll-pain-damage-pink.webp",
   "system": {
-    "fuid": "shutdown",
+    "fuid": "afc-animated-object",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p>You are have been g<span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">ranted a semblance of life through the use of rituals or other strange magic. What animates you can be temporarily disrupted by an appropriate <strong>normal [INS + WLP] check. </strong>If successful, you are considered defeated.</span></p><p></p>",
+    "description": "<p>You are have been g<span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">ranted a semblance of life through the use of rituals or other strange magic. What animates you can be temporarily disrupted by an appropriate <strong>normal @CHECK[ins wlp] check.</strong></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">If successful you are considered defeated if you are a soldier or stunned if you are an elite.</span></p><p></p>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771086293397,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!D5cR3PYpj3WjfpFC"

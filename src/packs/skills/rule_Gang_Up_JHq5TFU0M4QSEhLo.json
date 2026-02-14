@@ -1,5 +1,5 @@
 {
-  "folder": "CxiOOFr6RmoYlFk8",
+  "folder": "0BYHpnrwZkIGLNOQ",
   "name": "Gang Up",
   "type": "rule",
   "img": "icons/skills/social/intimidation-impressing.webp",
@@ -52,11 +52,11 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084741301,
+    "modifiedTime": 1771087573233,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "JHq5TFU0M4QSEhLo",
-  "sort": 1400000,
+  "sort": 300000,
   "_key": "!items!JHq5TFU0M4QSEhLo"
 }

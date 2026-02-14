@@ -1,12 +1,12 @@
 {
-  "name": "Aura",
+  "name": "Attacks: Persistent Damage",
   "sorting": "a",
   "folder": null,
   "type": "Item",
-  "_id": "VhDvktGWCoZOFp3W",
+  "_id": "9sF7Li98rc4NikRM",
   "description": "",
-  "sort": 1000000,
-  "color": "#0080ff",
+  "sort": 1200000,
+  "color": "#ff4a4a",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -15,9 +15,9 @@
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": 1771085669429,
+    "modifiedTime": 1771087200558,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
-  "_key": "!folders!VhDvktGWCoZOFp3W"
+  "_key": "!folders!9sF7Li98rc4NikRM"
 }

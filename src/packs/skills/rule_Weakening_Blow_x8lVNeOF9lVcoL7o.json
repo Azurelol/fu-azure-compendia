@@ -1,5 +1,5 @@
 {
-  "folder": "CxiOOFr6RmoYlFk8",
+  "folder": "r8qv2MQV23aVq2p1",
   "name": "Weakening Blow",
   "type": "rule",
   "_id": "x8lVNeOF9lVcoL7o",
@@ -37,7 +37,7 @@
     }
   },
   "effects": [],
-  "sort": 400000,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084832925,
+    "modifiedTime": 1771087389840,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

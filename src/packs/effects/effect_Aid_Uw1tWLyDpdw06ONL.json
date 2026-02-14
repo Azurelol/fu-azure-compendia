@@ -8,7 +8,8 @@
     "fuid": "afc-aid",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -77,12 +78,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735670748346,
-    "modifiedTime": 1737756621449,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088218160,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Uw1tWLyDpdw06ONL"

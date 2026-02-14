@@ -1,5 +1,5 @@
 {
-  "folder": "5VarNkuv95gLJ2hu",
+  "folder": "wJl9ksKpDg0rAuUA",
   "name": "Adrenaline Cocktail",
   "type": "miscAbility",
   "_id": "wS4Y8xxByaGDbgbU",
@@ -12,7 +12,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You revive an ally that has been defeated with an invigorating cocktail of questionable substances.</p><ul><li><p><strong>Ally</strong>: Restored to half their hit points.</p></li><li><p><strong>You</strong>: -1 Charge</p></li></ul>",
+    "description": "<p>You <strong>revive</strong> <strong>an ally</strong> that has been defeated with an invigorating cocktail of questionable substances. You may do this only <strong>once per conflict</strong>.</p><ul><li><p><strong>Ally</strong>: Restored to half their hit points.</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -131,7 +131,7 @@
     "opportunity": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -148,7 +148,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735586917021,
-    "modifiedTime": 1770747274350,
+    "modifiedTime": 1771086933981,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

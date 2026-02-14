@@ -1,5 +1,5 @@
 {
-  "folder": "CxiOOFr6RmoYlFk8",
+  "folder": "r8qv2MQV23aVq2p1",
   "name": "Poisoned Strike",
   "type": "rule",
   "img": "icons/skills/melee/strike-dagger-poison-green.webp",
@@ -52,11 +52,11 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084825542,
+    "modifiedTime": 1771087378790,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "ACU95t7R0ayHSAFv",
-  "sort": 1100000,
+  "sort": 400000,
   "_key": "!items!ACU95t7R0ayHSAFv"
 }

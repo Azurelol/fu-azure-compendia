@@ -1,5 +1,5 @@
 {
-  "folder": "yfNBuxkwJmpLWyP5",
+  "folder": "lAMm1hTSeeWKGSr1",
   "name": "Flurry",
   "type": "rule",
   "_id": "6tuR4ZUTFJyY6qAM",
@@ -37,7 +37,7 @@
     }
   },
   "effects": [],
-  "sort": 200000,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771083558584,
+    "modifiedTime": 1771087592010,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

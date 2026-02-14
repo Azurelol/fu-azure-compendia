@@ -8,7 +8,8 @@
     "fuid": "afc-ultima-clock",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -30,7 +31,7 @@
       "system": {
         "rules": {
           "progress": {
-            "enabled": false,
+            "enabled": true,
             "id": "ultima-clock",
             "name": "Ultima Clock",
             "current": 0,
@@ -59,7 +60,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": null,
-        "modifiedTime": 1770839752729,
+        "modifiedTime": 1771088162430,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
@@ -75,12 +76,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0-alpha.30",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1730492177716,
-    "modifiedTime": 1731098686825,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088145881,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!1nffZ0gn6OMwKgH5"

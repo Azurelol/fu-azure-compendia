@@ -8,7 +8,8 @@
     "fuid": "afc-dazzled",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -77,12 +78,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731695202288,
-    "modifiedTime": 1731695368402,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088238804,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!lJoZdkhIcQTTeglC"

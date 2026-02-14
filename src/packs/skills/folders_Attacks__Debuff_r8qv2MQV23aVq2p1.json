@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Attacks: Debuff",
+  "color": "#ff4a4a",
+  "sorting": "a",
+  "_id": "r8qv2MQV23aVq2p1",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1771087320027,
+    "modifiedTime": 1771087320027,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!folders!r8qv2MQV23aVq2p1"
+}

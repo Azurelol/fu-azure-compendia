@@ -1,22 +1,23 @@
 {
-  "name": "Family",
+  "name": "Passives: Family",
   "sorting": "a",
-  "folder": "e0HDO7LcX9neHVMp",
+  "folder": null,
   "type": "Item",
   "_id": "BQtoREnZt6o5Yz7j",
   "description": "",
-  "sort": 100000,
-  "color": null,
+  "sort": 1700000,
+  "color": "#008000",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null
+    "modifiedTime": 1771087117945,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
   },
   "_key": "!folders!BQtoREnZt6o5Yz7j"
 }

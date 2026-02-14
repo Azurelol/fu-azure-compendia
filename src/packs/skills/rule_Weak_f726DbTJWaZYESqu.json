@@ -8,7 +8,7 @@
     "summary": {
       "value": "You are just a tire-tube man"
     },
-    "description": "<p>You are weaker than most creatures your size. You have <strong>half the maximum hit points</strong> <strong>for your level</strong> and <strong>count as half a soldier</strong> for encounter building purposes.</p>",
+    "description": "<p>You are <strong>weaker</strong> than most creatures of your type. You have <strong>half the maximum hit points</strong> <strong>for your level</strong> and <strong>count as half a soldier</strong> for encounter building purposes.</p>",
     "isFavored": {
       "value": false
     },
@@ -33,7 +33,7 @@
     "source": {
       "value": "FU-AZURE"
     },
-    "fuid": "weak"
+    "fuid": "afc-weak"
   },
   "effects": [
     {
@@ -109,16 +109,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771087917921,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "f726DbTJWaZYESqu",

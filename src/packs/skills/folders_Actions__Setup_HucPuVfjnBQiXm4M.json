@@ -1,23 +1,23 @@
 {
-  "name": "Limited",
+  "name": "Actions: Setup",
   "sorting": "a",
-  "folder": "Y30FsMWJPwv01kX5",
+  "folder": null,
   "type": "Item",
-  "_id": "5VarNkuv95gLJ2hu",
+  "_id": "HucPuVfjnBQiXm4M",
   "description": "",
-  "sort": 100000,
-  "color": null,
+  "sort": 2500000,
+  "color": "#4d4dff",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "#{VERSION}#",
+    "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": 1770920195193,
+    "modifiedTime": 1771086842622,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
-  "_key": "!folders!5VarNkuv95gLJ2hu"
+  "_key": "!folders!HucPuVfjnBQiXm4M"
 }

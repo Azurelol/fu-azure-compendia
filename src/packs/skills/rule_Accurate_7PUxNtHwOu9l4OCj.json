@@ -30,7 +30,238 @@
     },
     "source": "FU-AZURE"
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Magic Check Bonus",
+      "img": "systems/projectfu/styles/static/icons/checks/check_magic.png",
+      "type": "base",
+      "system": {
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "changes": [
+        {
+          "key": "system.bonuses.accuracy.magicCheck",
+          "mode": 2,
+          "value": "3",
+          "priority": 50
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Increase Magic Check bonus by 3.</p>",
+      "origin": "Compendium.projectfu.actor-effects.Item.c9zl1Xr8nOK66ED1",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "source": "",
+          "Source": {
+            "name": "Magic Check Up",
+            "actorUuid": null,
+            "itemUuid": "Compendium.projectfu.actor-effects.Item.c9zl1Xr8nOK66ED1",
+            "effectUuid": null,
+            "fuid": "magic-check-up"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771087693577,
+        "modifiedTime": 1771087888159,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "Naov4zBFHP8GiRqd",
+      "_key": "!items.effects!7PUxNtHwOu9l4OCj.Naov4zBFHP8GiRqd"
+    },
+    {
+      "name": "Opposed Check Bonus",
+      "img": "systems/projectfu/styles/static/icons/checks/check_opposed.png",
+      "type": "base",
+      "system": {
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "type": "default",
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "changes": [
+        {
+          "key": "system.bonuses.accuracy.opposedCheck",
+          "mode": 2,
+          "value": "3",
+          "priority": 50
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Increase Opposed Check bonus by 3.</p>",
+      "origin": "Compendium.projectfu.actor-effects.Item.bFR5xZ1WYfDZWrru",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Opposed Check Up",
+            "actorUuid": null,
+            "itemUuid": "Compendium.projectfu.actor-effects.Item.bFR5xZ1WYfDZWrru",
+            "effectUuid": null,
+            "fuid": "opposed-check-up"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771087699439,
+        "modifiedTime": 1771087887580,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "Xv2U3o2URRpsQix9",
+      "_key": "!items.effects!7PUxNtHwOu9l4OCj.Xv2U3o2URRpsQix9"
+    },
+    {
+      "name": "Accuracy Check Bonus",
+      "img": "systems/projectfu/styles/static/icons/checks/check_accuracy.png",
+      "type": "base",
+      "system": {
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "changes": [
+        {
+          "key": "system.bonuses.accuracy.accuracyCheck",
+          "mode": 2,
+          "value": "3",
+          "priority": 50
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Increase Accuracy Check bonus by 3.</p>",
+      "origin": "Compendium.projectfu.actor-effects.Item.62RZnGQvUWIEyeJ7",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "source": "",
+          "Source": {
+            "name": "Accuracy Check Up",
+            "actorUuid": null,
+            "itemUuid": "Compendium.projectfu.actor-effects.Item.62RZnGQvUWIEyeJ7",
+            "effectUuid": null,
+            "fuid": "accuracy-check-up"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771087704665,
+        "modifiedTime": 1771087887065,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "ukf16VPuUtB89qiS",
+      "_key": "!items.effects!7PUxNtHwOu9l4OCj.ukf16VPuUtB89qiS"
+    }
+  ],
   "sort": 0,
   "ownership": {
     "default": 0,

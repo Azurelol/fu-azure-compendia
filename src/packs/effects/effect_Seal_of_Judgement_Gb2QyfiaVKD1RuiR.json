@@ -8,7 +8,8 @@
     "fuid": "afc-seal-of-judgement",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1734806043180,
-    "modifiedTime": 1737750089989,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088190099,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Gb2QyfiaVKD1RuiR"

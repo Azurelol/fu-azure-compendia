@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After you <strong>hit an enemy with an ice spell or attack,</strong> you slow them down as their body temperature drops. They are affected by @UUID[Compendium.fu-azure-compendia.effects.zqmBtaCGTo9DVmyR]{Frostbite} until the <strong>end of their next turn</strong>.</p>",
+    "description": "<p>After you <strong>hit an enemy with an ice spell or attack,</strong> you slow them down as their body temperature drops. They are affected by @EFFECT[Compendium.fu-azure-compendia.effects.zqmBtaCGTo9DVmyR]{Frostbite} until the <strong>end of their next turn</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -40,16 +40,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1731429340899,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771086475979,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "ct8bwyp3VeqynXo9",

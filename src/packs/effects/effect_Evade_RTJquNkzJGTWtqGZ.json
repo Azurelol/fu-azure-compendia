@@ -8,7 +8,8 @@
     "fuid": "afc-evade",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -77,12 +78,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731175584066,
-    "modifiedTime": 1731175951627,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088263290,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!RTJquNkzJGTWtqGZ"

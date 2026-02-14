@@ -1,5 +1,5 @@
 {
-  "folder": "9sF7Li98rc4NikRM",
+  "folder": "r8qv2MQV23aVq2p1",
   "name": "Crushing",
   "type": "rule",
   "_id": "Ay0KK0g1VdCTlwmr",
@@ -113,7 +113,7 @@
       "_key": "!items.effects!Ay0KK0g1VdCTlwmr.JC0cspWMYkSCMxNx"
     }
   ],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -130,7 +130,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084461218,
+    "modifiedTime": 1771087329328,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

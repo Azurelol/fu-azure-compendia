@@ -8,7 +8,8 @@
     "fuid": "afc-focused",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0-alpha.30",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1730497320039,
-    "modifiedTime": 1730502156607,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088126682,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!nBkvvwD7j2kDTp2v"

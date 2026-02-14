@@ -1,5 +1,5 @@
 {
-  "folder": "9sF7Li98rc4NikRM",
+  "folder": "lAMm1hTSeeWKGSr1",
   "name": "Electric Arc",
   "type": "rule",
   "img": "icons/magic/lightning/bolt-strike-sparks-yellow.webp",
@@ -52,11 +52,11 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084647885,
+    "modifiedTime": 1771087613555,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "HTgOgZvPUu9EXset",
-  "sort": 500000,
+  "sort": 700000,
   "_key": "!items!HTgOgZvPUu9EXset"
 }

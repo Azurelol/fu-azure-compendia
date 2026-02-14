@@ -9,7 +9,7 @@
     "cost": {
       "value": 0
     },
-    "source": ""
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -67,7 +67,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1730492177716,
-    "modifiedTime": 1770839279872,
+    "modifiedTime": 1771088388138,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

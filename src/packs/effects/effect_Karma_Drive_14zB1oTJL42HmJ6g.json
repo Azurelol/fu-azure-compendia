@@ -8,7 +8,8 @@
     "fuid": "afc-karma-drive",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1732032313566,
-    "modifiedTime": 1737756621449,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088224890,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!14zB1oTJL42HmJ6g"

@@ -1,12 +1,12 @@
 {
-  "name": "Attacks",
+  "name": "Reactions: Crisis",
   "sorting": "a",
   "folder": null,
   "type": "Item",
-  "_id": "yfNBuxkwJmpLWyP5",
+  "_id": "y9VacGKyFP10h5ee",
   "description": "",
-  "sort": 1100000,
-  "color": "#ff8080",
+  "sort": 700000,
+  "color": "#ff8040",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -15,9 +15,9 @@
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": 1771084958183,
+    "modifiedTime": 1771086326190,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
-  "_key": "!folders!yfNBuxkwJmpLWyP5"
+  "_key": "!folders!y9VacGKyFP10h5ee"
 }

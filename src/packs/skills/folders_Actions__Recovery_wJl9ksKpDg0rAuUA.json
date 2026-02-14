@@ -1,12 +1,12 @@
 {
-  "name": "Ranged",
+  "name": "Actions: Recovery",
   "sorting": "a",
-  "folder": "Y30FsMWJPwv01kX5",
+  "folder": null,
   "type": "Item",
-  "_id": "2KJQRZg4WkBly58w",
+  "_id": "wJl9ksKpDg0rAuUA",
   "description": "",
-  "sort": 400000,
-  "color": null,
+  "sort": 1900000,
+  "color": "#4d4dff",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -15,9 +15,9 @@
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": 1770920195193,
+    "modifiedTime": 1771086751858,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
-  "_key": "!folders!2KJQRZg4WkBly58w"
+  "_key": "!folders!wJl9ksKpDg0rAuUA"
 }

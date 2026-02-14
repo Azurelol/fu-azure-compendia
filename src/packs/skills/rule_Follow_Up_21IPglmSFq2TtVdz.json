@@ -1,5 +1,5 @@
 {
-  "folder": "yfNBuxkwJmpLWyP5",
+  "folder": "lAMm1hTSeeWKGSr1",
   "name": "Follow Up",
   "type": "rule",
   "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
@@ -52,11 +52,11 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771083486667,
+    "modifiedTime": 1771087502450,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "21IPglmSFq2TtVdz",
-  "sort": 100000,
+  "sort": 400000,
   "_key": "!items!21IPglmSFq2TtVdz"
 }

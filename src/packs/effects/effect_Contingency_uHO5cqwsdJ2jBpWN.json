@@ -8,7 +8,8 @@
     "fuid": "afc-contingency",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -62,12 +63,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0-alpha.30",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1730492177716,
-    "modifiedTime": 1730493273560,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088187185,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!uHO5cqwsdJ2jBpWN"

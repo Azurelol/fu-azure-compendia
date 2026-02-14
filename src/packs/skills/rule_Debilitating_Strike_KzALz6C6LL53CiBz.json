@@ -1,5 +1,5 @@
 {
-  "folder": "CxiOOFr6RmoYlFk8",
+  "folder": "r8qv2MQV23aVq2p1",
   "name": "Debilitating Strike",
   "type": "rule",
   "_id": "KzALz6C6LL53CiBz",
@@ -37,7 +37,7 @@
     "fuid": "afc-debilitating-strike"
   },
   "effects": [],
-  "sort": 1200000,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084715116,
+    "modifiedTime": 1771087342379,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

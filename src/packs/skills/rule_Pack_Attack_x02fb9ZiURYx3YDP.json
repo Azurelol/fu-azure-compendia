@@ -1,5 +1,5 @@
 {
-  "folder": "yfNBuxkwJmpLWyP5",
+  "folder": "lAMm1hTSeeWKGSr1",
   "name": "Pack Attack",
   "type": "rule",
   "_id": "x02fb9ZiURYx3YDP",
@@ -37,7 +37,7 @@
     "fuid": "afc-pack-attack"
   },
   "effects": [],
-  "sort": 400000,
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771083587127,
+    "modifiedTime": 1771087517310,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

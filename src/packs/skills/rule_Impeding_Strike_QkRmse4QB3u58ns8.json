@@ -1,5 +1,5 @@
 {
-  "folder": "CxiOOFr6RmoYlFk8",
+  "folder": "r8qv2MQV23aVq2p1",
   "name": "Impeding Strike",
   "type": "rule",
   "_id": "QkRmse4QB3u58ns8",
@@ -37,7 +37,7 @@
     }
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084760713,
+    "modifiedTime": 1771087359155,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

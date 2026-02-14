@@ -1,12 +1,12 @@
 {
-  "name": "Unique",
+  "name": "Reactions: Initiative",
   "sorting": "a",
   "folder": null,
   "type": "Item",
-  "_id": "UwcyjtjzjqdeSyde",
+  "_id": "yp679XUkEdEYNSVY",
   "description": "",
-  "sort": 1600000,
-  "color": null,
+  "sort": 900000,
+  "color": "#ff8040",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -15,9 +15,9 @@
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": 1771084983864,
+    "modifiedTime": 1771086332528,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
-  "_key": "!folders!UwcyjtjzjqdeSyde"
+  "_key": "!folders!yp679XUkEdEYNSVY"
 }

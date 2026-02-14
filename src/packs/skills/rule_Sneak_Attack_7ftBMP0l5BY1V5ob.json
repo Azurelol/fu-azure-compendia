@@ -1,5 +1,5 @@
 {
-  "folder": "yfNBuxkwJmpLWyP5",
+  "folder": "lAMm1hTSeeWKGSr1",
   "name": "Sneak Attack",
   "type": "rule",
   "_id": "7ftBMP0l5BY1V5ob",
@@ -37,7 +37,7 @@
     "fuid": "afc-sneak-attack"
   },
   "effects": [],
-  "sort": 500000,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771083590990,
+    "modifiedTime": 1771087489726,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

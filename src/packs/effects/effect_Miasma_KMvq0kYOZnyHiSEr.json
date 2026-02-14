@@ -8,7 +8,8 @@
     "fuid": "afc-miasma",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0-alpha.30",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1730646475023,
-    "modifiedTime": 1730646526300,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088242365,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!KMvq0kYOZnyHiSEr"

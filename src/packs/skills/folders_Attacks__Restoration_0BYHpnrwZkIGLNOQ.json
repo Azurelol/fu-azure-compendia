@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Attacks: Restoration",
+  "color": "#ff4a4a",
+  "sorting": "a",
+  "_id": "0BYHpnrwZkIGLNOQ",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1771087559840,
+    "modifiedTime": 1771087559840,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!folders!0BYHpnrwZkIGLNOQ"
+}

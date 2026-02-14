@@ -6,7 +6,7 @@
   "_id": "CxiOOFr6RmoYlFk8",
   "description": "",
   "sort": 1400000,
-  "color": "#ff8080",
+  "color": "#ff4a4a",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -15,7 +15,7 @@
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": null,
-    "modifiedTime": 1771085485970,
+    "modifiedTime": 1771086648038,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

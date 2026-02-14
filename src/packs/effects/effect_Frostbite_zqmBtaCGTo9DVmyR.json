@@ -8,7 +8,8 @@
     "fuid": "afc-frostbite",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -66,12 +67,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0-alpha.30",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1730644048903,
-    "modifiedTime": 1730644394473,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088240881,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!zqmBtaCGTo9DVmyR"

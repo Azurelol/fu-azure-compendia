@@ -8,7 +8,8 @@
     "fuid": "afc-burning",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -68,12 +69,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0-alpha.30",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1730502579815,
-    "modifiedTime": 1730502609896,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088235276,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!OYh5Swp0087I3f0k"

@@ -8,7 +8,8 @@
     "fuid": "afc-impulsive",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -27,9 +28,20 @@
       "name": "Impulsive",
       "_id": "t6OVj3P0Z2zBhnmj",
       "type": "base",
-      "system": {},
+      "system": {
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
-      "description": "<p><strong>During a round</strong> in which you still <strong>have a turn left</strong> you must take it <strong>after before all other</strong> members of your party. Afterwards this effect expires.</p>",
+      "description": "<p><strong>During a round</strong> in which you still <strong>have a turn left</strong> you must take it <strong>before all other</strong> members of your party. Afterwards this effect expires.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -44,12 +56,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1739212658349,
-        "modifiedTime": 1739212738456,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1771088334298,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!3ed2nRx75nCnSVI0.t6OVj3P0Z2zBhnmj"
@@ -64,12 +76,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1739212656358,
-    "modifiedTime": 1739212745361,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088324859,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!3ed2nRx75nCnSVI0"

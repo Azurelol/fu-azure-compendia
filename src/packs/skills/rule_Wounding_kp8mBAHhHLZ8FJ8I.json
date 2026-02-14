@@ -1,5 +1,5 @@
 {
-  "folder": "CxiOOFr6RmoYlFk8",
+  "folder": "9sF7Li98rc4NikRM",
   "name": "Wounding",
   "type": "rule",
   "_id": "kp8mBAHhHLZ8FJ8I",
@@ -37,7 +37,7 @@
     }
   },
   "effects": [],
-  "sort": 200000,
+  "sort": 450000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084848326,
+    "modifiedTime": 1771087384737,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

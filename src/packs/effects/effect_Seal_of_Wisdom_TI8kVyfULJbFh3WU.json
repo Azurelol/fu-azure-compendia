@@ -8,7 +8,8 @@
     "fuid": "seal-of-wisdom",
     "cost": {
       "value": 0
-    }
+    },
+    "source": "FU-AZURE"
   },
   "effects": [
     {
@@ -64,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737750103462,
-    "modifiedTime": 1737750214692,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771088192046,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!TI8kVyfULJbFh3WU"

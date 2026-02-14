@@ -1,5 +1,5 @@
 {
-  "folder": "yfNBuxkwJmpLWyP5",
+  "folder": "0BYHpnrwZkIGLNOQ",
   "name": "Lifesteal",
   "type": "rule",
   "_id": "mRJ87ZMLnDVG9Lp0",
@@ -37,7 +37,7 @@
     "fuid": "afc-lifesteal"
   },
   "effects": [],
-  "sort": 150000,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -54,7 +54,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771083578684,
+    "modifiedTime": 1771087564576,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
