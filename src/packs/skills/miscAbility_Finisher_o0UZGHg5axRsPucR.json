@@ -37,7 +37,7 @@
     "accuracy": {
       "value": 0
     },
-    "defense": "def",
+    "defense": "",
     "damage": {
       "hasDamage": true,
       "value": 0,
@@ -144,7 +144,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1735591496564,
-    "modifiedTime": 1770841089965,
+    "modifiedTime": 1771103089561,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

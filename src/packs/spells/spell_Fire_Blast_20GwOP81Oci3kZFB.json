@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses. Damage dealt by this spell <strong>ignores Resistances</strong>.</p><hr /><p>@LOSS[15 mp]</p>",
+    "description": "<p>You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses. Damage dealt by this spell <strong>ignores Resistances</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -140,7 +140,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1771095679201,
+    "modifiedTime": 1771102312669,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

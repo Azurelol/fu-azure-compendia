@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When another creature is threatened by a <strong>spell</strong>, you may immediately put up a protective ward to block it by <strong>spending mind points equal to the cost of the spell</strong>.</p><p><em>After you use this skill, you cannot use it again until the start of your next turn.</em></p>",
+    "description": "<p>When another creature is threatened by a <strong>spell</strong>, you may immediately put up a protective ward and attempt to block it by <strong>spending mind points equal to the cost of the spell</strong> and making a successful @CHECK[ins wlp normal] check.</p><p><em>After you use this skill, you cannot use it again until the start of your next turn.</em></p>",
     "isFavored": {
       "value": false
     },
@@ -52,7 +52,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771079339685,
+    "modifiedTime": 1771148298449,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

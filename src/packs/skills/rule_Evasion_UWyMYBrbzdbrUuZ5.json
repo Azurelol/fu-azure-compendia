@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You <strong>automatically evade an attack or spell </strong>that targets you. However if the result of the <strong>accuracy check</strong> was <strong>a critical success</strong> the attacker can use their <strong>opportunity</strong> to ignore this effect.</p><p><em>This can only trigger once per round, on the first attack.</em></p>",
+    "description": "<p>When an <strong>attack or spell would hit you</strong> if the result of the accuracy check was an <strong>odd number,</strong> you <strong>evade it.</strong> However if the result was <strong>a critical success</strong> the attacker can use their <strong>opportunity</strong> to ignore this effect.</p><p><em>This can only trigger once per round, on the first attack.</em></p>",
     "isFavored": {
       "value": false
     },
@@ -52,7 +52,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771079268175,
+    "modifiedTime": 1771103378979,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

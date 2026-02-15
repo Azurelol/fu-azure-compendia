@@ -16,7 +16,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -123,16 +123,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
-    "systemVersion": "2.4.0",
+    "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1731434247113,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771102208091,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "pDZgpWx0yo2M5YAz",

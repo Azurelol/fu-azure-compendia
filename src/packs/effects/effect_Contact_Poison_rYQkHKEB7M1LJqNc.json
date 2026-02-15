@@ -28,7 +28,35 @@
       "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
       "_id": "fc06YgV4UhbTGQC4",
       "type": "base",
-      "system": {},
+      "system": {
+        "rules": {
+          "elements": {
+            "FuIz1BkqwVSDWDHG": {
+              "type": "ruleElement",
+              "_id": "FuIz1BkqwVSDWDHG",
+              "trigger": {
+                "eventRelation": "source"
+              },
+              "actions": {
+                "u541ErnMsxZogOcE": {
+                  "type": "applyDamageRuleAction",
+                  "_id": "u541ErnMsxZogOcE",
+                  "damageType": "poison",
+                  "amount": "&step(5,10,15)"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
       "description": "<p>You have been affected by a contact poison and will suffer <strong>poison damage</strong> at the <strong>end of your turn</strong>. This effect will then expire unless stated otherwise.</p><ul><li><p><strong>You:</strong> @DMG[&amp;step(5,10,15) poison]</p></li></ul>",
       "tint": "#ffffff",
@@ -45,12 +73,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
+        "systemVersion": "#{VERSION}#",
         "createdTime": 1730588025808,
-        "modifiedTime": 1735327561204,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1771103589761,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!rYQkHKEB7M1LJqNc.fc06YgV4UhbTGQC4"

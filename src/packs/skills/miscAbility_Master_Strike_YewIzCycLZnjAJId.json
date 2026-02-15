@@ -12,7 +12,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After charging your @UUID[Compendium.fu-azure-compendia.effects.1nffZ0gn6OMwKgH5]{Ultima Clock} you mark a target that is currently in <strong>Crisis</strong> for execution. <strong>At the end of the next round</strong> you will perform <strong>a free attack </strong>against them which will <strong>reduce</strong> <strong>them to 0 Hit Points</strong> if they are still in <strong>Crisis</strong>, <strong>or to 1 Hit Point</strong> otherwise.</p><ul><li><p><strong>Target</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.MftLJFDNhnIRDsEN]{Marked}</p></li></ul><p><em>You may only use this against a target once per conflict.</em></p>",
+    "description": "<p>You <strong>mark a target</strong> that is currently in <strong>Crisis</strong> for execution. <strong>At the start of the next round</strong> you will perform <strong>a free attack </strong>against them which will <strong>reduce</strong> <strong>them to 0 Hit Points</strong> if they are still in <strong>Crisis</strong>, <strong>or to 1 Hit Point</strong> otherwise.</p><p><em>You may only use this against a target once per conflict.</em></p>",
     "isFavored": {
       "value": false
     },
@@ -128,7 +128,12 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "effects": {
+      "entries": [
+        "afc-marked"
+      ]
+    }
   },
   "effects": [],
   "sort": 100000,
@@ -148,7 +153,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084887151,
+    "modifiedTime": 1771150640466,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

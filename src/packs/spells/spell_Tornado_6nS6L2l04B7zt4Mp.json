@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you summon a localized small tornado against your enemies that lifts them up high into the air and cuts them with slicing winds. All targets suffer <strong>unavoidable air damage</strong> and are considered launched until the <strong>end of the next round.</strong></p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 air] +  @UUID[Compendium.fu-azure-compendia.effects.Firc8bjg6bcDR1e1]{Launched}</p></li></ul>",
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you summon a localized small tornado against your enemies that lifts them up high into the air and cuts them with slicing winds. All targets suffer <strong>unavoidable air damage</strong> and are considered launched until the <strong>end of the next round.</strong></p><ul><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 air] + @UUID[Compendium.fu-azure-compendia.effects.Firc8bjg6bcDR1e1]{Launched}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -16,7 +16,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -135,7 +135,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1771095524119,
+    "modifiedTime": 1771102141022,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

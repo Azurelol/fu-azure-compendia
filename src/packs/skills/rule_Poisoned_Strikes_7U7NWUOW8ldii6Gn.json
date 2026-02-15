@@ -1,11 +1,11 @@
 {
   "folder": "9sF7Li98rc4NikRM",
-  "name": "Poisonous",
+  "name": "Poisoned Strikes",
   "type": "rule",
   "_id": "7U7NWUOW8ldii6Gn",
   "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
   "system": {
-    "fuid": "afc-poisonous",
+    "fuid": "afc-poisoned-strikes",
     "subtype": {},
     "summary": {
       "value": ""
@@ -38,7 +38,7 @@
   },
   "effects": [
     {
-      "name": "Contact Poison",
+      "name": "Poisoned Strikes",
       "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
       "system": {
         "duration": {
@@ -107,7 +107,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1771083964831,
-        "modifiedTime": 1771084054061,
+        "modifiedTime": 1771150496715,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!7U7NWUOW8ldii6Gn.4EDdspdLiG5SclAE"
@@ -130,7 +130,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1771084187843,
+    "modifiedTime": 1771103478140,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

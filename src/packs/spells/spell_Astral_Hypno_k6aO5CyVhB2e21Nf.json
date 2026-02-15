@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You send the target into a sudden @UUID[Compendium.fu-azure-compendia.effects.j3oBtOJaTjk6dzgN]{Sleep} for <strong>two turns. </strong>However they cannot make a check to recover.</p><ul><li><p><strong>You</strong>: @LOSS[20 mp]</p></li><li><p><strong>Target</strong>: @UUID[Compendium.fu-azure-compendia.effects.j3oBtOJaTjk6dzgN]{Sleep}</p></li></ul>",
+    "description": "<p>You send the target into a sudden @UUID[Compendium.fu-azure-compendia.effects.j3oBtOJaTjk6dzgN]{Sleep} for <strong>two turns. </strong>However they cannot make a check to recover.</p><ul><li><p><strong>Target</strong>: @EFFECT[Compendium.fu-azure-compendia.effects.j3oBtOJaTjk6dzgN]{Sleep}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -137,7 +137,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731434282126,
-    "modifiedTime": 1771095886318,
+    "modifiedTime": 1771102517433,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

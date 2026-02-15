@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -140,7 +140,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1771095708430,
+    "modifiedTime": 1771102382519,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

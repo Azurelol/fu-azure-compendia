@@ -185,6 +185,12 @@
     "associatedTherioforms": "",
     "role": {
       "value": "hunter"
+    },
+    "pressurePoints": {
+      "entries": [
+        "firearm",
+        "spear"
+      ]
     }
   },
   "prototypeToken": {
@@ -283,60 +289,67 @@
   },
   "items": [
     {
-      "name": "Unarmed Strike",
-      "type": "weapon",
-      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "folder": "jhB4JfgEJK1iRZu9",
+      "name": "Fan of Knives",
+      "type": "miscAbility",
+      "_id": "L6S6ud2OfXPtaMQL",
+      "img": "icons/skills/ranged/daggers-thrown-salvo-orange.webp",
       "system": {
-        "subtype": {
-          "value": ""
-        },
+        "fuid": "afc-fan-of-knives",
+        "description": "",
         "summary": {
           "value": ""
-        },
-        "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
         },
         "showTitleCard": {
           "value": false
         },
-        "cost": {
-          "value": 0
-        },
-        "isMartial": {
-          "value": false
-        },
-        "quality": {
-          "value": ""
-        },
         "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "mig"
-          }
+          "primary": "dex",
+          "secondary": "ins"
         },
-        "accuracy": {
-          "value": 0
+        "useWeapon": {
+          "accuracy": true,
+          "damage": false,
+          "traits": true
         },
+        "defense": "dex",
         "damage": {
-          "value": 0
+          "hasDamage": true,
+          "hrZero": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": ""
         },
-        "type": {
-          "value": "melee"
+        "targeting": {
+          "rule": "multiple",
+          "max": 4
         },
-        "category": {
-          "value": "brawling"
+        "traits": [],
+        "effects": {
+          "entries": []
         },
-        "hands": {
-          "value": "one-handed"
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": false
         },
-        "impType": {
-          "value": "minor"
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
         },
-        "damageType": {
-          "value": "physical"
+        "hasRoll": {
+          "value": true
+        },
+        "rp": {
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "hasResource": {
+          "value": false
         },
         "isBehavior": {
           "value": false
@@ -344,71 +357,54 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
+        "progress": {
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "hasClock": {
           "value": false
         },
-        "source": {
-          "value": "FUCR130"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "defense": "def",
-        "fuid": "unarmed-strike",
-        "def": {
-          "value": 0
-        },
-        "mdef": {
-          "value": 0
-        },
-        "init": {
-          "value": 0
-        }
+        "source": "FU-AZURE",
+        "accuracy": "",
+        "opportunity": ""
       },
       "effects": [],
-      "folder": "SnyIBMif9646gEkD",
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.27",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      },
-      "_id": "Jw5qLa7fULo1Zp3d",
       "sort": 0,
       "ownership": {
         "default": 0,
-        "BwRsFvMHAq9vUtEO": 3,
-        "esOkelwPNblkbxW3": 3
+        "J5B4HfVqUaCPvzGg": 3
       },
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.Jw5qLa7fULo1Zp3d"
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.L6S6ud2OfXPtaMQL",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150334802,
+        "modifiedTime": 1771151190555,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.L6S6ud2OfXPtaMQL"
     },
     {
       "folder": "tjWV9h97KAbXCCnC",
       "name": "Dagger",
       "type": "basic",
-      "_id": "9yTGvvORMOLjbrqy",
+      "_id": "0htrxlfCeiT1z6r9",
       "img": "systems/projectfu/styles/static/compendium/weapons/steel-dagger.png",
       "system": {
-        "subtype": {},
         "summary": {
-          "value": "You attach the target with a stab from your dagger"
+          "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -445,9 +441,7 @@
         "quality": {
           "value": ""
         },
-        "source": {
-          "value": "FU-AZURE"
-        },
+        "source": "FU-AZURE",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -455,378 +449,71 @@
             }
           }
         },
-        "fuid": "dagger"
+        "fuid": "afc-dagger",
+        "hasDamage": true,
+        "effects": {
+          "entries": []
+        },
+        "traits": []
       },
       "effects": [],
-      "sort": 500000,
+      "sort": 1100000,
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
       },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.0htrxlfCeiT1z6r9",
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.27",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.9yTGvvORMOLjbrqy"
-    },
-    {
-      "folder": "y9VacGKyFP10h5ee",
-      "name": "Vanish",
-      "type": "rule",
-      "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, you become <strong>invisible</strong> until the start of your next turn and cannot be targeted.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "hasClock": {
-          "value": false
-        },
-        "progress": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "FU-AZURE"
-        },
-        "fuid": "vanish"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "esOkelwPNblkbxW3": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.oweNW5Yj6HUkyodi",
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.27",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      },
-      "_id": "1uZuzOisGpZHtxK6",
-      "sort": 1000000,
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.1uZuzOisGpZHtxK6"
-    },
-    {
-      "folder": "CxiOOFr6RmoYlFk8",
-      "name": "Poisoner",
-      "type": "rule",
-      "img": "icons/skills/melee/strike-dagger-poison-green.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>When you <strong>hit a target with a melee attack</strong> and the <strong>result of the accuracy check is an odd number</strong>, you may <strong>treat your High Roll (HR) as 0</strong> in order to inflict them with @EFFECT[poisoned].</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "hasClock": {
-          "value": false
-        },
-        "progress": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "FU-AZURE"
-        },
-        "fuid": "poisoner"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "esOkelwPNblkbxW3": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.ACU95t7R0ayHSAFv",
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.27",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      },
-      "_id": "sOQ6D8sQwttjx4E9",
-      "sort": 900000,
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.sOQ6D8sQwttjx4E9"
-    },
-    {
-      "name": "Unarmed Strike",
-      "type": "weapon",
-      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "cost": {
-          "value": 0
-        },
-        "isMartial": {
-          "value": false
-        },
-        "quality": {
-          "value": ""
-        },
-        "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "value": 0
-        },
-        "type": {
-          "value": "melee"
-        },
-        "category": {
-          "value": "brawling"
-        },
-        "hands": {
-          "value": "one-handed"
-        },
-        "impType": {
-          "value": "minor"
-        },
-        "damageType": {
-          "value": "physical"
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "defense": "def",
-        "fuid": "unarmed-strike",
-        "def": {
-          "value": 0
-        },
-        "mdef": {
-          "value": 0
-        },
-        "init": {
-          "value": 0
+      "flags": {
+        "projectfu": {
+          "favorite": false
         }
       },
-      "effects": [],
-      "folder": "SnyIBMif9646gEkD",
-      "flags": {
-        "core": {}
-      },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.0htrxlfCeiT1z6r9",
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.27",
-        "createdTime": 1728115163960,
-        "modifiedTime": 1728115163960,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150342338,
+        "modifiedTime": 1771151190557,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_id": "N6marZ7B6GyrxiL0",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "BwRsFvMHAq9vUtEO": 3,
-        "esOkelwPNblkbxW3": 3
-      },
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.N6marZ7B6GyrxiL0"
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.0htrxlfCeiT1z6r9"
     },
     {
-      "folder": "02EELzRzHhrEwzoj",
-      "name": "Evasion",
-      "type": "rule",
-      "img": "icons/skills/movement/ball-spinning-blue.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You <strong>automatically evade an attack or spell </strong>that targets you.</p><p><em>This can only trigger once per round, on the first attack.</em></p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "hasClock": {
-          "value": false
-        },
-        "progress": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "FU-AZURE"
-        },
-        "fuid": "evasion"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "esOkelwPNblkbxW3": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.UWyMYBrbzdbrUuZ5",
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.27",
-        "createdTime": 1728115928252,
-        "modifiedTime": 1728115928252,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
-      },
-      "_id": "h12nMlIbMzCCvzXq",
-      "sort": 200000,
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.h12nMlIbMzCCvzXq"
-    },
-    {
-      "folder": "Hj9kM30W1OxU1kBe",
-      "name": "Master Strike",
+      "folder": "HucPuVfjnBQiXm4M",
+      "name": "Mark",
       "type": "miscAbility",
-      "_id": "gB23BMthQe5YxZTW",
-      "img": "icons/skills/melee/strike-dagger-white-orange.webp",
+      "_id": "nfEgnUjswIexfIJP",
+      "img": "icons/skills/targeting/target-strike-triple-blue.webp",
       "system": {
-        "fuid": "mark-for-death",
-        "subtype": {
-          "value": "other"
-        },
+        "fuid": "afc-mark",
         "summary": {
           "value": ""
         },
-        "description": "<p>You mark a target that is currently in <strong>Crisis</strong> for execution. Your <strong>next attack</strong> against them <strong>reduces</strong> <strong>them to 0 Hit Points</strong> if they are still in Crisis, <strong>or to 1 Hit Point</strong> if they are no longer in Crisis.</p><p><em>You may only use this against a target once per conflict.</em></p>",
-        "isFavored": {
-          "value": false
-        },
+        "description": "<p>You mark a target for your <strong>next action.</strong></p>",
         "showTitleCard": {
           "value": false
         },
         "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
+          "accuracy": false,
+          "damage": false,
+          "traits": true
         },
         "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "ins"
-          }
+          "primary": "dex",
+          "secondary": "dex"
         },
-        "accuracy": {
-          "value": 0
-        },
+        "accuracy": "0",
         "defense": "def",
         "damage": {
-          "hasDamage": {
-            "value": false
-          },
+          "hasDamage": false,
           "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
         },
         "isBehavior": {
           "value": false
@@ -844,91 +531,527 @@
           "name": "Name",
           "current": 0,
           "step": 1,
-          "max": 6
+          "max": 6,
+          "enabled": false
         },
         "rp": {
           "name": "Name",
           "current": 0,
           "step": 1,
-          "max": 6
+          "max": 6,
+          "enabled": false
         },
-        "source": {
-          "value": "FU-AZURE"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "accuracy": {
-              "value": false
-            },
-            "damage": {
-              "value": false
-            },
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "dex"
-            },
-            "secondary": {
-              "value": "dex"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 0,
-            "type": {
-              "value": "physical"
-            }
-          }
-        },
+        "source": "FU-AZURE",
         "hasRoll": {
           "value": false
         },
-        "opportunity": ""
+        "opportunity": "",
+        "targeting": {
+          "rule": "single",
+          "max": 0
+        },
+        "effects": {
+          "entries": [
+            "afc-marked"
+          ]
+        },
+        "traits": [],
+        "cost": {
+          "resource": "mp",
+          "amount": "",
+          "perTarget": false
+        },
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        }
+      },
+      "effects": [],
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.nfEgnUjswIexfIJP",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150370660,
+        "modifiedTime": 1771151190560,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.nfEgnUjswIexfIJP"
+    },
+    {
+      "folder": "yp679XUkEdEYNSVY",
+      "name": "Shadowmeld",
+      "type": "rule",
+      "_id": "lNSdl4PVX9n9VGxA",
+      "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+      "system": {
+        "fuid": "afc-shadowmeld",
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>At the <strong>start of a conflict,</strong> you meld into the shadows and become @EFFECT[Compendium.fu-azure-compendia.effects.coaSCstLAwMnXkdf]{Invisible}.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": "FU-AZURE"
       },
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.YewIzCycLZnjAJId",
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.lNSdl4PVX9n9VGxA",
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.27",
-        "createdTime": 1728211831488,
-        "modifiedTime": 1728211831488,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150392442,
+        "modifiedTime": 1771151190562,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.gB23BMthQe5YxZTW"
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.lNSdl4PVX9n9VGxA"
     },
     {
-      "folder": "ht9aFgrgTbRLF3M6",
-      "name": "Fan of Poison Knives",
-      "type": "basic",
-      "_id": "NYxCe7t5pQ5kTjJz",
-      "img": "icons/skills/ranged/daggers-thrown-salvo-orange.webp",
+      "folder": "02EELzRzHhrEwzoj",
+      "name": "Evasion",
+      "type": "rule",
+      "img": "icons/skills/movement/ball-spinning-blue.webp",
       "system": {
-        "fuid": "throwing-knife",
-        "subtype": {},
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When an <strong>attack or spell would hit you</strong> if the result of the accuracy check was an <strong>odd number,</strong> you <strong>evade it.</strong> However if the result was <strong>a critical success</strong> the attacker can use their <strong>opportunity</strong> to ignore this effect.</p><p><em>This can only trigger once per round, on the first attack.</em></p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": "FU-AZURE",
+        "fuid": "afc-evasion"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.UWyMYBrbzdbrUuZ5",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150410241,
+        "modifiedTime": 1771151190566,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "UWyMYBrbzdbrUuZ5",
+      "sort": 200000,
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.UWyMYBrbzdbrUuZ5"
+    },
+    {
+      "folder": "lAMm1hTSeeWKGSr1",
+      "name": "Sneak Attack",
+      "type": "rule",
+      "_id": "7ftBMP0l5BY1V5ob",
+      "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
+      "system": {
+        "summary": {
+          "value": "You capitalize on an enemy's momentary opening"
+        },
+        "description": "<p>You deal additional damage to targets that are <strong>dazed, unable to detect you</strong> or that have been <strong>previously attacked </strong>this round.</p><ul><li><p><strong>Target</strong>: @DMG[&amp;step(5,10,15) physical]</p></li></ul>",
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": "FU-AZURE",
+        "fuid": "afc-sneak-attack"
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.7ftBMP0l5BY1V5ob",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150420696,
+        "modifiedTime": 1771151190571,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.7ftBMP0l5BY1V5ob"
+    },
+    {
+      "folder": "y9VacGKyFP10h5ee",
+      "name": "Vanish",
+      "type": "rule",
+      "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you enter <strong>Crisis</strong> for the first time in a conflict, you become @EFFECT[Compendium.fu-azure-compendia.effects.coaSCstLAwMnXkdf]{Invisible}<strong> </strong>until the <strong>start of your next turn</strong>.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": "FU-AZURE",
+        "fuid": "vanish"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.oweNW5Yj6HUkyodi",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150431399,
+        "modifiedTime": 1771151190574,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "oweNW5Yj6HUkyodi",
+      "sort": 1000000,
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.oweNW5Yj6HUkyodi"
+    },
+    {
+      "folder": "jhB4JfgEJK1iRZu9",
+      "name": "Poisoned Stab",
+      "type": "miscAbility",
+      "_id": "jE7DDHFq5cYvo9cg",
+      "img": "icons/weapons/daggers/dagger-poisoned.webp",
+      "system": {
+        "fuid": "afc-poisoned-stab",
+        "description": "",
+        "summary": {
+          "value": ""
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "ins"
+        },
+        "useWeapon": {
+          "accuracy": true,
+          "damage": true,
+          "traits": false
+        },
+        "defense": "def",
+        "damage": {
+          "hasDamage": true,
+          "hrZero": false,
+          "value": 10,
+          "type": "poison",
+          "onRoll": "",
+          "onApply": ""
+        },
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": [],
+        "effects": {
+          "entries": []
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": "5",
+          "perTarget": false
+        },
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "rp": {
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "progress": {
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "hasClock": {
+          "value": false
+        },
+        "source": "FU-AZURE",
+        "opportunity": "",
+        "accuracy": "3"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.jE7DDHFq5cYvo9cg",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150456285,
+        "modifiedTime": 1771151190579,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.jE7DDHFq5cYvo9cg"
+    },
+    {
+      "folder": "qsJT6TCOmuMfiZMm",
+      "name": "Master Strike",
+      "type": "miscAbility",
+      "_id": "YewIzCycLZnjAJId",
+      "img": "icons/skills/melee/strike-dagger-white-orange.webp",
+      "system": {
+        "fuid": "afc-master-strike",
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You <strong>mark a target</strong> that is currently in <strong>Crisis</strong> for execution. <strong>At the start of the next round</strong> you will perform <strong>a free attack </strong>against them which will <strong>reduce</strong> <strong>them to 0 Hit Points</strong> if they are still in <strong>Crisis</strong>, <strong>or to 1 Hit Point</strong> otherwise.</p><p><em>You may only use this against a target once per conflict.</em></p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": "0",
+        "defense": "def",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": "FU-AZURE",
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "traits": [],
+        "effects": {
+          "entries": [
+            "afc-marked"
+          ]
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": "",
+          "perTarget": false
+        },
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        }
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.YewIzCycLZnjAJId",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150660066,
+        "modifiedTime": 1771151190581,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.YewIzCycLZnjAJId"
+    },
+    {
+      "folder": "tjWV9h97KAbXCCnC",
+      "name": "Crossbow",
+      "type": "basic",
+      "_id": "qEXCNWSfOHDNJqUe",
+      "img": "systems/projectfu/styles/static/compendium/weapons/crossbow.png",
+      "system": {
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -947,7 +1070,7 @@
           }
         },
         "accuracy": {
-          "value": 1
+          "value": 0
         },
         "defense": "def",
         "damage": {
@@ -957,61 +1080,66 @@
           "value": "ranged"
         },
         "damageType": {
-          "value": "poison"
+          "value": "physical"
         },
         "cost": {
           "value": 100
         },
         "quality": {
-          "value": "Multi 3"
+          "value": ""
         },
-        "source": {
-          "value": "FU-AZURE"
-        },
+        "source": "FU-AZURE",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
               "value": false
             }
           }
-        }
+        },
+        "fuid": "afc-crossbow",
+        "hasDamage": true,
+        "effects": {
+          "entries": []
+        },
+        "traits": []
       },
       "effects": [],
-      "sort": 200000,
+      "sort": 1700000,
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.BLNRq9MITP2jODmI",
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.qEXCNWSfOHDNJqUe",
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
-        "createdTime": 1728212106038,
-        "modifiedTime": 1730589382525,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771150674688,
+        "modifiedTime": 1771151190584,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.NYxCe7t5pQ5kTjJz"
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.qEXCNWSfOHDNJqUe"
     },
     {
       "folder": "9sF7Li98rc4NikRM",
-      "name": "Contact Poison",
+      "name": "Poisoned Strikes",
       "type": "rule",
-      "_id": "AB5Pt9QvseuVEGp1",
+      "_id": "7U7NWUOW8ldii6Gn",
       "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
       "system": {
-        "fuid": "contact-poison",
-        "subtype": {},
+        "fuid": "afc-poisoned-strikes",
         "summary": {
           "value": ""
         },
-        "description": "<p>After you <strong>hit an enemy with a poison attack or spell</strong> they suffer from @UUID[Compendium.fu-azure-compendia.effects.rYQkHKEB7M1LJqNc]{Contact Poison}.</p>",
-        "isFavored": {
-          "value": false
-        },
+        "description": "<p>After you <strong>hit an enemy with a poison attack or spell</strong> they suffer from @EFFECT[Compendium.fu-azure-compendia.effects.rYQkHKEB7M1LJqNc]{Contact Poison}.</p>",
         "showTitleCard": {
           "value": false
         },
@@ -1028,147 +1156,116 @@
           "name": "Name",
           "current": 0,
           "step": 1,
-          "max": 6
+          "max": 6,
+          "enabled": false
         },
-        "source": {
-          "value": "FU-AZURE"
-        }
+        "source": "FU-AZURE"
       },
-      "effects": [],
+      "effects": [
+        {
+          "name": "Poisoned Strikes",
+          "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
+          "system": {
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 1
+            },
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "rules": {
+              "elements": {
+                "lga8jfZigbf5EeZ4": {
+                  "type": "ruleElement",
+                  "_id": "lga8jfZigbf5EeZ4",
+                  "trigger": {
+                    "_id": "t3t13k1RRxU1qRgX",
+                    "type": "calculateDamageRuleTrigger",
+                    "eventRelation": "source",
+                    "damageSources": [],
+                    "damageTypes": [
+                      "poison"
+                    ]
+                  },
+                  "actions": {
+                    "hrNywasjwx8qmAZZ": {
+                      "type": "applyEffectRuleAction",
+                      "_id": "hrNywasjwx8qmAZZ",
+                      "effect": "afc-contact-poison"
+                    }
+                  },
+                  "predicates": {},
+                  "selector": "initial",
+                  "enabled": true
+                }
+              },
+              "progress": {
+                "enabled": false,
+                "id": "",
+                "name": "",
+                "current": 0,
+                "max": 6,
+                "style": "basic",
+                "step": 1
+              }
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "startRound": 0,
+            "startTurn": 0
+          },
+          "disabled": false,
+          "_id": "4EDdspdLiG5SclAE",
+          "type": "base",
+          "changes": [],
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+            "modifiedTime": 1771151190777
+          },
+          "_key": "!actors.items.effects!Z1IjVQLaouQR4WJG.7U7NWUOW8ldii6Gn.4EDdspdLiG5SclAE"
+        }
+      ],
       "sort": 100000,
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
       },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.7U7NWUOW8ldii6Gn",
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
-        "createdTime": 1730589326289,
-        "modifiedTime": 1730589326289,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
-      },
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.AB5Pt9QvseuVEGp1"
-    },
-    {
-      "folder": "yp679XUkEdEYNSVY",
-      "name": "Shadowmeld",
-      "type": "rule",
-      "_id": "LNC0oP68YkTuPhsI",
-      "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
-      "system": {
-        "fuid": "shadowmeld",
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>At the start of a Conflict, you meld into the shadows and become @UUID[Compendium.fu-azure-compendia.effects.coaSCstLAwMnXkdf]{Invisible}.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "hasClock": {
-          "value": false
-        },
-        "progress": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "FU-AZURE"
+      "flags": {
+        "projectfu": {
+          "favorite": false
         }
       },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "esOkelwPNblkbxW3": 3
-      },
-      "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.lNSdl4PVX9n9VGxA",
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.7U7NWUOW8ldii6Gn",
         "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
-        "createdTime": 1730589396188,
-        "modifiedTime": 1730589396188,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
-      },
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.LNC0oP68YkTuPhsI"
-    },
-    {
-      "folder": "yfNBuxkwJmpLWyP5",
-      "name": "Sneak Attack",
-      "type": "rule",
-      "_id": "owANj1x5zxeq5KV0",
-      "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": "You capitalize on an enemy's momentary opening"
-        },
-        "description": "<p>You deal additional damage to targets that are <strong>dazed, unable to detect you</strong> or that have been <strong>previously attacked </strong>this round.</p><ul><li><p><strong>Target</strong>: @DMG[&amp;step(5,10,15) physical]</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "hasClock": {
-          "value": false
-        },
-        "progress": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "FU-AZURE"
-        },
-        "fuid": "sneak-attack"
-      },
-      "effects": [],
-      "sort": 500000,
-      "ownership": {
-        "default": 0,
-        "esOkelwPNblkbxW3": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.7ftBMP0l5BY1V5ob",
-        "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1735502894144,
-        "modifiedTime": 1735502894144,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
+        "createdTime": 1771150756923,
+        "modifiedTime": 1771151190586,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.items!Z1IjVQLaouQR4WJG.owANj1x5zxeq5KV0"
+      "_key": "!actors.items!Z1IjVQLaouQR4WJG.7U7NWUOW8ldii6Gn"
     }
   ],
   "effects": [
@@ -1230,12 +1327,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1728115163879,
-    "modifiedTime": 1733601588540,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771152080441,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "Z1IjVQLaouQR4WJG",

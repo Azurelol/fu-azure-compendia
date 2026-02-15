@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You unleash a searing barrage against your foes, conjuring flames out of thin air. Each target hit by this spell suffers <strong>fire</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers <strong>@EFFECT[shaken]</strong>.</p><hr /><ul><li><p>@LOSS[10 mp] for <strong>one</strong> target.</p></li><li><p>@LOSS[20 mp] for <strong>two</strong> targets.</p></li><li><p>@LOSS[30 mp] for <strong>three</strong> targets.</p></li></ul>",
+    "description": "<p>You unleash a searing barrage against your foes, conjuring flames out of thin air. Each target hit by this spell suffers <strong>fire</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers <strong>@EFFECT[shaken]</strong>.</p>",
     "isFavored": {
       "value": false
     },
@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -140,7 +140,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1771095682051,
+    "modifiedTime": 1771102322970,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

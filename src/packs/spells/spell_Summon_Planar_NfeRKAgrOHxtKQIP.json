@@ -1,11 +1,11 @@
 {
   "folder": "YXxIAFAGV7qohzPK",
-  "name": "Summon",
+  "name": "Summon Planar",
   "type": "spell",
   "_id": "NfeRKAgrOHxtKQIP",
   "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
   "system": {
-    "fuid": "afc-summon",
+    "fuid": "afc-summon-planar",
     "subtype": {},
     "summary": {
       "value": ""
@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -137,7 +137,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1771095929943,
+    "modifiedTime": 1771102567465,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

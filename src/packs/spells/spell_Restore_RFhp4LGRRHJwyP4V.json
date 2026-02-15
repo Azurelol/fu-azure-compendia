@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": "Spiritist"
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -140,7 +140,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1771095806889,
+    "modifiedTime": 1771102483447,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

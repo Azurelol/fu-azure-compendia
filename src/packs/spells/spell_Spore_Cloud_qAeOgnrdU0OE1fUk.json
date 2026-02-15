@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p><span class=\"hanging-indent\">You unleash a cloud of spores that affects all your enemies. </span></p><ul><li><p><span class=\"hanging-indent\"><strong>You: </strong>@LOSS[20 mp].</span></p></li><li><p><strong>Targets</strong>: @DMG[&amp;step(10,15,20) poison]</p></li></ul>",
+    "description": "<p><span class=\"hanging-indent\">You unleash a cloud of spores that affects all your enemies.</span></p><ul><li><p><strong>Targets</strong>: @DMG[&amp;step(10,15,20) poison]</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -125,16 +125,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1735330542320,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771102379552,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!qAeOgnrdU0OE1fUk"

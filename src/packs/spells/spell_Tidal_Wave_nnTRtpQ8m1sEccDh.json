@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a great tide of water which crashes upon your enemies. All targets suffer <strong>unavoidable ice damage</strong> and are knocked down.</p><ul><li><p><strong>You:</strong> @LOSS[40 mp]</p></li><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 ice] +<strong> </strong>@UUID[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone}</p></li></ul>",
+    "description": "<p>After you finish @UUID[Compendium.fu-azure-compendia.effects.LOyDXg3cySJFVbK4]{Channeling} you unleash a great tide of water which crashes upon your enemies. All targets suffer <strong>unavoidable ice damage</strong> and are knocked down.</p><ul><li><p><strong>Targets: </strong>@DMG[&amp;step(15,25,35 ice] +<strong> </strong>@UUID[Compendium.fu-azure-compendia.effects.Fm8mJMBKwf0CylMc]{Prone}</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -137,7 +137,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1771095520333,
+    "modifiedTime": 1771102149295,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

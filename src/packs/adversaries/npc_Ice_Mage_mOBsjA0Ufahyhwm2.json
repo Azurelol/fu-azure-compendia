@@ -289,418 +289,16 @@
   },
   "items": [
     {
-      "folder": "3wV2pvX92KXaJvom",
-      "name": "Ice Barrage",
-      "type": "spell",
-      "img": "icons/magic/water/projectiles-ice-faceted-salvo-blue.webp",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You coat your foes under a thick layer of frost. Each target hit by this spell suffers <strong>ice</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[slow].</p><hr /><ul><li><p>@LOSS[10 mp] for <strong>one</strong> target.</p></li><li><p>@LOSS[20 mp] for <strong>two</strong> targets.</p></li><li><p>@LOSS[30 mp] for <strong>three</strong> targets.</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": "Elementalist"
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "mig"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "mpCost": {
-          "value": "10"
-        },
-        "target": {
-          "value": "Up to three creatures"
-        },
-        "duration": {
-          "value": "instantaneous"
-        },
-        "isOffensive": {
-          "value": true
-        },
-        "source": {
-          "value": "FU-AZURE"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "wlp"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": true
-            },
-            "type": {
-              "value": "ice"
-            },
-            "value": 10
-          }
-        },
-        "hasRoll": {
-          "value": true
-        },
-        "opportunity": "Each target hit by this spell suffers slow.",
-        "maxTargets": {
-          "value": 3
-        }
-      },
-      "effects": [],
-      "ownership": {
-        "default": 2,
-        "hYECXwi6O8UUBuN4": 3,
-        "BwRsFvMHAq9vUtEO": 3,
-        "esOkelwPNblkbxW3": 3
-      },
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.rKWF6CYWnAzLIr6U",
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.25",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      },
-      "_id": "PKLVueZQMEdKEwLv",
-      "sort": 300000,
-      "_key": "!actors.items!mOBsjA0Ufahyhwm2.PKLVueZQMEdKEwLv"
-    },
-    {
-      "folder": "ioJ1w5rsjvKTT4n0",
-      "name": "Ice Prison",
-      "type": "spell",
-      "img": "icons/magic/water/barrier-ice-water-cube.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>You freeze the target in an ice block. It cannot take actions and will take damage at the end of each of its turns. Freeing an encased target is an <strong>easy 2-section clock.</strong></p><p>@DMG[10 ice]</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "class": {
-          "value": ""
-        },
-        "useWeapon": {
-          "accuracy": {
-            "value": false
-          },
-          "damage": {
-            "value": false
-          },
-          "hrZero": {
-            "value": false
-          }
-        },
-        "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "hasDamage": {
-            "value": false
-          },
-          "value": 0,
-          "type": {
-            "value": "physical"
-          }
-        },
-        "impdamage": {
-          "hasImpDamage": {
-            "value": false
-          },
-          "value": 0,
-          "impType": {
-            "value": "minor"
-          },
-          "type": {
-            "value": "physical"
-          }
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "mpCost": {
-          "value": "20"
-        },
-        "maxTargets": {
-          "value": 1
-        },
-        "target": {
-          "value": "1"
-        },
-        "duration": {
-          "value": "instantaneous"
-        },
-        "isOffensive": {
-          "value": false
-        },
-        "source": {
-          "value": "FU-AZURE"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          },
-          "attributes": {
-            "primary": {
-              "value": "ins"
-            },
-            "secondary": {
-              "value": "wlp"
-            }
-          },
-          "accuracy": {
-            "value": 0
-          },
-          "damage": {
-            "hasDamage": {
-              "value": false
-            },
-            "value": 5,
-            "type": {
-              "value": "dark"
-            }
-          }
-        },
-        "hasRoll": {
-          "value": false
-        },
-        "opportunity": ""
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "esOkelwPNblkbxW3": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.BHvRs2X48ObW0Ncz",
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.25",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      },
-      "_id": "HXr0aS6IHY4OSt2n",
-      "sort": 500000,
-      "_key": "!actors.items!mOBsjA0Ufahyhwm2.HXr0aS6IHY4OSt2n"
-    },
-    {
-      "name": "Unarmed Strike",
-      "type": "weapon",
-      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
-      "system": {
-        "subtype": {
-          "value": ""
-        },
-        "summary": {
-          "value": ""
-        },
-        "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "cost": {
-          "value": 0
-        },
-        "isMartial": {
-          "value": false
-        },
-        "quality": {
-          "value": ""
-        },
-        "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "mig"
-          }
-        },
-        "accuracy": {
-          "value": 0
-        },
-        "damage": {
-          "value": 0
-        },
-        "type": {
-          "value": "melee"
-        },
-        "category": {
-          "value": "brawling"
-        },
-        "hands": {
-          "value": "one-handed"
-        },
-        "impType": {
-          "value": "minor"
-        },
-        "damageType": {
-          "value": "physical"
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "isCustomWeapon": {
-          "value": false
-        },
-        "source": {
-          "value": "FUCR130"
-        },
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "defense": "def",
-        "fuid": "unarmed-strike",
-        "def": {
-          "value": 0
-        },
-        "mdef": {
-          "value": 0
-        },
-        "init": {
-          "value": 0
-        }
-      },
-      "effects": [],
-      "folder": "SnyIBMif9646gEkD",
-      "flags": {
-        "core": {}
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.25",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      },
-      "_id": "fJVgeHDV48spXzGm",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "BwRsFvMHAq9vUtEO": 3,
-        "esOkelwPNblkbxW3": 3
-      },
-      "_key": "!actors.items!mOBsjA0Ufahyhwm2.fJVgeHDV48spXzGm"
-    },
-    {
       "folder": "qRpDGGGdnhmkFuQj",
       "name": "Ray of Frost",
       "type": "basic",
-      "_id": "wPEjVZJYuyMS8ptJ",
+      "_id": "VKweUqZYSr4g9QYl",
       "img": "icons/magic/water/projectile-icecicle-glowing.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
         "description": "",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -737,9 +335,7 @@
         "quality": {
           "value": ""
         },
-        "source": {
-          "value": "FU-AZURE"
-        },
+        "source": "FU-AZURE",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -747,58 +343,68 @@
             }
           }
         },
-        "fuid": "ray-of-frost"
+        "fuid": "afc-ray-of-frost",
+        "hasDamage": true,
+        "effects": {
+          "entries": []
+        },
+        "traits": []
       },
       "effects": [],
       "sort": 300000,
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.VKweUqZYSr4g9QYl",
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.VKweUqZYSr4g9QYl",
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.25",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771151828447,
+        "modifiedTime": 1771151828447,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.items!mOBsjA0Ufahyhwm2.wPEjVZJYuyMS8ptJ"
+      "_key": "!actors.items!mOBsjA0Ufahyhwm2.VKweUqZYSr4g9QYl"
     },
     {
-      "name": "Unarmed Strike",
-      "type": "weapon",
-      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "folder": "3wV2pvX92KXaJvom",
+      "name": "Icicle Barrage",
+      "type": "spell",
+      "img": "icons/magic/water/projectiles-ice-faceted-salvo-blue.webp",
       "system": {
-        "subtype": {
-          "value": ""
-        },
         "summary": {
           "value": ""
         },
-        "description": "<p>Automatically equipped in each empty hand slot.</p>",
-        "isFavored": {
-          "value": false
-        },
+        "description": "<p>You form razor-sharp icicles of ice then launch them at your foes. Each target hit by this spell suffers <strong>ice</strong> damage.</p><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[slow].</p>",
         "showTitleCard": {
           "value": false
         },
-        "cost": {
-          "value": 0
+        "class": {
+          "value": "NPC"
         },
-        "isMartial": {
-          "value": false
-        },
-        "quality": {
-          "value": ""
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
         },
         "attributes": {
           "primary": {
-            "value": "dex"
+            "value": "mig"
           },
           "secondary": {
             "value": "mig"
@@ -807,23 +413,17 @@
         "accuracy": {
           "value": 0
         },
-        "damage": {
-          "value": 0
-        },
-        "type": {
-          "value": "melee"
-        },
-        "category": {
-          "value": "brawling"
-        },
-        "hands": {
-          "value": "one-handed"
-        },
-        "impType": {
-          "value": "minor"
-        },
-        "damageType": {
-          "value": "physical"
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
         },
         "isBehavior": {
           "value": false
@@ -831,72 +431,143 @@
         "weight": {
           "value": 1
         },
-        "isCustomWeapon": {
-          "value": false
+        "duration": {
+          "value": "instantaneous"
         },
-        "source": {
-          "value": "FUCR130"
+        "isOffensive": {
+          "value": true
         },
+        "source": "FU-AZURE",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
               "value": false
             }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "ice"
+            },
+            "value": 10
           }
         },
-        "defense": "def",
-        "fuid": "unarmed-strike",
-        "def": {
-          "value": 0
+        "hasRoll": {
+          "value": true
         },
-        "mdef": {
-          "value": 0
+        "opportunity": "Each target hit by this spell suffers slow.",
+        "fuid": "afc-icicle-barrage",
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": true
         },
-        "init": {
-          "value": 0
-        }
+        "targeting": {
+          "max": 3,
+          "rule": "multiple"
+        },
+        "defense": "mdef",
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        },
+        "effects": {
+          "entries": []
+        },
+        "traits": []
       },
       "effects": [],
-      "folder": "SnyIBMif9646gEkD",
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
       "flags": {
-        "core": {}
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.fu-azure-compendia.spells.Item.rKWF6CYWnAzLIr6U",
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.25",
-        "createdTime": 1727637179821,
-        "modifiedTime": 1727637179821,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771151838288,
+        "modifiedTime": 1771151838288,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_id": "JrLFa4dEDS3Fd2io",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "BwRsFvMHAq9vUtEO": 3,
-        "esOkelwPNblkbxW3": 3
-      },
-      "_key": "!actors.items!mOBsjA0Ufahyhwm2.JrLFa4dEDS3Fd2io"
+      "_id": "rKWF6CYWnAzLIr6U",
+      "sort": 900000,
+      "_key": "!actors.items!mOBsjA0Ufahyhwm2.rKWF6CYWnAzLIr6U"
     },
     {
-      "folder": "2yYVHxTETZOIfumo",
-      "name": "Reactive Block",
-      "type": "rule",
-      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "folder": "Twmb2WP96ZA1JYhr",
+      "name": "Ice Prison",
+      "type": "spell",
+      "img": "icons/magic/water/barrier-ice-water-cube.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
-        "description": "<p>At the beginning of each round you gain @UUID[Compendium.fu-azure-compendia.effects.13ubm3WjQ8Xuc63Q]{Block} which <strong>blocks all damage from the next hit on you</strong>.</p>",
-        "isFavored": {
-          "value": false
-        },
+        "description": "<p>You freeze a target affected by @EFFECT[slow] in an ice block, leaving them @EFFECT[Compendium.fu-azure-compendia.effects.rVUnQaybL0TnwwHi]{Frozen}.</p>",
         "showTitleCard": {
           "value": false
+        },
+        "class": {
+          "value": "NPC"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
         },
         "isBehavior": {
           "value": false
@@ -904,56 +575,104 @@
         "weight": {
           "value": 1
         },
-        "hasClock": {
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
           "value": false
         },
-        "progress": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
+        "source": "FU-AZURE",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 5,
+            "type": {
+              "value": "dark"
+            }
+          }
         },
-        "source": {
-          "value": "FU-AZURE"
+        "hasRoll": {
+          "value": false
         },
-        "fuid": "reactive-block"
+        "opportunity": "",
+        "fuid": "afc-ice-prison",
+        "cost": {
+          "resource": "mp",
+          "amount": "20",
+          "perTarget": false
+        },
+        "targeting": {
+          "max": 1,
+          "rule": "single"
+        },
+        "defense": "mdef",
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        },
+        "effects": {
+          "entries": [
+            "afc-frozen"
+          ]
+        },
+        "traits": []
       },
       "effects": [],
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.d7haPyozBXr4FAsX",
+        "compendiumSource": "Compendium.fu-azure-compendia.spells.Item.BHvRs2X48ObW0Ncz",
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
-        "createdTime": 1730586381010,
-        "modifiedTime": 1730586381010,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771151875263,
+        "modifiedTime": 1771151875263,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_id": "dMa7UdAkIJUaNgqx",
-      "sort": 100000,
-      "_key": "!actors.items!mOBsjA0Ufahyhwm2.dMa7UdAkIJUaNgqx"
+      "_id": "BHvRs2X48ObW0Ncz",
+      "sort": 1100000,
+      "_key": "!actors.items!mOBsjA0Ufahyhwm2.BHvRs2X48ObW0Ncz"
     },
     {
       "folder": "e0HDO7LcX9neHVMp",
       "name": "Spellcaster",
       "type": "rule",
-      "_id": "g2XDsmf1XD6eBkXv",
+      "_id": "gBLj8hkpwzxKr3Fw",
       "img": "icons/magic/symbols/star-yellow.webp",
       "system": {
-        "subtype": {},
         "summary": {
-          "value": "You are a wizard, Imperial Mage 72"
+          "value": "You are a wizard, Imperial Mage 72."
         },
         "description": "<p>You have the ability to cast spells. Choose from one option:</p><ul><li><p>You learn <strong>one spell</strong> and increase your maximum Mind Points by 10.</p></li><li><p>You learn <strong>two spells</strong>.</p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
         "showTitleCard": {
           "value": false
         },
@@ -970,12 +689,11 @@
           "name": "Name",
           "current": 0,
           "step": 1,
-          "max": 6
+          "max": 6,
+          "enabled": false
         },
-        "source": {
-          "value": "FU-AZURE"
-        },
-        "fuid": "spellcaster"
+        "source": "FU-AZURE",
+        "fuid": "afc-spellcaster"
       },
       "effects": [
         {
@@ -986,15 +704,29 @@
             "seconds": null,
             "combat": null,
             "turns": null,
-            "startRound": null,
-            "startTurn": null
+            "startRound": 1,
+            "startTurn": 1
           },
-          "disabled": true,
+          "disabled": false,
           "name": "Increased Mind Points",
-          "img": "modules/fu-azure-compendia/assets/icons/skills/spell-book.png",
+          "img": "icons/magic/symbols/star-yellow.webp",
           "_id": "dEsAGF1XtfqBrZKh",
           "type": "base",
-          "system": {},
+          "system": {
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 0
+            },
+            "rules": {
+              "elements": {}
+            }
+          },
           "changes": [
             {
               "key": "system.resources.mp.max",
@@ -1010,41 +742,102 @@
           "sort": 0,
           "flags": {
             "projectfu": {
-              "CrisisInteraction": "none"
+              "source": ""
             }
           },
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "13.347",
+            "exportSource": null,
+            "coreVersion": "13.351",
             "systemId": "projectfu",
-            "systemVersion": "2.4.0-alpha.30",
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null,
-            "exportSource": null
+            "systemVersion": "#{VERSION}#",
+            "lastModifiedBy": null
           },
-          "_key": "!actors.items.effects!mOBsjA0Ufahyhwm2.g2XDsmf1XD6eBkXv.dEsAGF1XtfqBrZKh"
+          "_key": "!actors.items.effects!mOBsjA0Ufahyhwm2.gBLj8hkpwzxKr3Fw.dEsAGF1XtfqBrZKh"
         }
       ],
       "sort": 600000,
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.adversary-creation.Item.gBLj8hkpwzxKr3Fw",
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.gBLj8hkpwzxKr3Fw",
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
-        "createdTime": 1730586405075,
-        "modifiedTime": 1730586405075,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771151889933,
+        "modifiedTime": 1771151889933,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.items!mOBsjA0Ufahyhwm2.g2XDsmf1XD6eBkXv"
+      "_key": "!actors.items!mOBsjA0Ufahyhwm2.gBLj8hkpwzxKr3Fw"
+    },
+    {
+      "folder": "2yYVHxTETZOIfumo",
+      "name": "Reactive Block",
+      "type": "rule",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>At the beginning of each round you gain @EFFECT[Compendium.fu-azure-compendia.effects.13ubm3WjQ8Xuc63Q]{Block} which <strong>blocks all damage from the next hit on you</strong>.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "hasClock": {
+          "value": false
+        },
+        "progress": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "source": "FU-AZURE",
+        "fuid": "afc-reactive-block"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.d7haPyozBXr4FAsX",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771151899270,
+        "modifiedTime": 1771151899270,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "d7haPyozBXr4FAsX",
+      "sort": 100000,
+      "_key": "!actors.items!mOBsjA0Ufahyhwm2.d7haPyozBXr4FAsX"
     },
     {
       "folder": "9sF7Li98rc4NikRM",
@@ -1052,14 +845,10 @@
       "type": "rule",
       "img": "icons/magic/water/bubbles-air-water-light.webp",
       "system": {
-        "subtype": {},
         "summary": {
           "value": ""
         },
-        "description": "<p>After you <strong>hit an enemy with an ice spell or attack,</strong> you slow them down as their body temperature drops. They are affected by @UUID[Compendium.fu-azure-compendia.effects.zqmBtaCGTo9DVmyR]{Frostbite} until the <strong>end of their next turn</strong>.</p>",
-        "isFavored": {
-          "value": false
-        },
+        "description": "<p>After you <strong>hit an enemy with an ice spell or attack,</strong> you slow them down as their body temperature drops. They are affected by @EFFECT[Compendium.fu-azure-compendia.effects.zqmBtaCGTo9DVmyR]{Frostbite} until the <strong>end of their next turn</strong>.</p>",
         "showTitleCard": {
           "value": false
         },
@@ -1076,91 +865,37 @@
           "name": "Name",
           "current": 0,
           "step": 1,
-          "max": 6
+          "max": 6,
+          "enabled": false
         },
-        "source": {
-          "value": "FU-AZURE"
-        },
+        "source": "FU-AZURE",
         "fuid": "freezing"
       },
       "effects": [],
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3
+        "esOkelwPNblkbxW3": 3,
+        "J5B4HfVqUaCPvzGg": 3
       },
-      "flags": {},
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
       "_stats": {
         "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.ct8bwyp3VeqynXo9",
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1735498366905,
-        "modifiedTime": 1735498366905,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
+        "createdTime": 1771151922748,
+        "modifiedTime": 1771151922748,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_id": "x2wfpcT8uThb8uty",
+      "_id": "ct8bwyp3VeqynXo9",
       "sort": 600000,
-      "_key": "!actors.items!mOBsjA0Ufahyhwm2.x2wfpcT8uThb8uty"
-    },
-    {
-      "folder": "HucPuVfjnBQiXm4M",
-      "name": "Spellshape",
-      "type": "rule",
-      "_id": "ogSYlqarIQAT1Bk1",
-      "img": "icons/magic/symbols/star-rising-purple.webp",
-      "system": {
-        "subtype": {},
-        "summary": {
-          "value": "You shape your next spell"
-        },
-        "description": "<p>You begin @UUID[Compendium.fu-azure-compendia.effects.NhgTuHJUOKcnbY5t]{Casting} while choosing <strong>one</strong> of the following effects for your spell <strong>on your next turn:</strong></p><ul><li><p><strong>@UUID[Compendium.fu-azure-compendia.effects.xAGR50THlBmsi3oM]{Double Cast}</strong></p></li><li><p><strong>@UUID[Compendium.fu-azure-compendia.effects.NnHWJN7xdmMV09yU]{Overwhelming Cast}</strong></p></li><li><p><strong>@UUID[Compendium.fu-azure-compendia.effects.Nhf6SXg485l0r3hm]{Multi Cast}</strong></p></li></ul>",
-        "isFavored": {
-          "value": false
-        },
-        "showTitleCard": {
-          "value": false
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "hasClock": {
-          "value": false
-        },
-        "progress": {
-          "name": "Name",
-          "current": 0,
-          "step": 1,
-          "max": 6
-        },
-        "source": {
-          "value": "FU-AZURE"
-        },
-        "fuid": "spellshape"
-      },
-      "effects": [],
-      "sort": 400000,
-      "ownership": {
-        "default": 0,
-        "esOkelwPNblkbxW3": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.6YO0xYrzdBxPPxm3",
-        "duplicateSource": null,
-        "coreVersion": "13.347",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1735498376803,
-        "modifiedTime": 1735498376803,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
-        "exportSource": null
-      },
-      "_key": "!actors.items!mOBsjA0Ufahyhwm2.ogSYlqarIQAT1Bk1"
+      "_key": "!actors.items!mOBsjA0Ufahyhwm2.ct8bwyp3VeqynXo9"
     }
   ],
   "effects": [],

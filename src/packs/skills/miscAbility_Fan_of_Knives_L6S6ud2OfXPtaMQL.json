@@ -1,0 +1,106 @@
+{
+  "folder": "jhB4JfgEJK1iRZu9",
+  "name": "Fan of Knives",
+  "type": "miscAbility",
+  "_id": "L6S6ud2OfXPtaMQL",
+  "img": "icons/skills/ranged/daggers-thrown-salvo-orange.webp",
+  "system": {
+    "fuid": "afc-fan-of-knives",
+    "description": "",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "attributes": {
+      "primary": "dex",
+      "secondary": "ins"
+    },
+    "useWeapon": {
+      "accuracy": true,
+      "damage": false,
+      "traits": true
+    },
+    "defense": "dex",
+    "damage": {
+      "hasDamage": true,
+      "hrZero": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "",
+      "onApply": ""
+    },
+    "targeting": {
+      "rule": "multiple",
+      "max": 4
+    },
+    "traits": [],
+    "effects": {
+      "entries": []
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": "10",
+      "perTarget": false
+    },
+    "resource": {
+      "enabled": false,
+      "amount": "",
+      "type": "hp"
+    },
+    "hasRoll": {
+      "value": true
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "hasClock": {
+      "value": false
+    },
+    "source": "FU-AZURE",
+    "opportunity": "",
+    "accuracy": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1771150232478,
+    "modifiedTime": 1771151050712,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!L6S6ud2OfXPtaMQL"
+}

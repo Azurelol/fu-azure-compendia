@@ -1,5 +1,5 @@
 {
-  "name": "Generic",
+  "name": "Mercenaries",
   "sorting": "a",
   "folder": "t7uOZRF533g2zxGo",
   "type": "Actor",
@@ -11,12 +11,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": null,
-    "modifiedTime": 1727295512383,
-    "lastModifiedBy": "esOkelwPNblkbxW3"
+    "modifiedTime": 1771147786064,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
   },
   "_key": "!folders!d9ymbJpH4pmRf4pv"
 }

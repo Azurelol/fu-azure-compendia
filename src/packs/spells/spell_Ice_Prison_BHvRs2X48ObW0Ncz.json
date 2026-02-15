@@ -8,7 +8,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You freeze a target affected by @EFFECT[slow] in an ice block, leaving them @UUID[Compendium.fu-azure-compendia.effects.rVUnQaybL0TnwwHi]{Frozen}.</p>",
+    "description": "<p>You freeze a target affected by @EFFECT[slow] in an ice block, leaving them @EFFECT[Compendium.fu-azure-compendia.effects.rVUnQaybL0TnwwHi]{Frozen}.</p>",
     "isFavored": {
       "value": false
     },
@@ -16,7 +16,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -116,7 +116,12 @@
       "value": false
     },
     "opportunity": "",
-    "fuid": "afc-ice-prison"
+    "fuid": "afc-ice-prison",
+    "effects": {
+      "entries": [
+        "afc-frozen"
+      ]
+    }
   },
   "effects": [],
   "ownership": {
@@ -135,7 +140,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1771095580124,
+    "modifiedTime": 1771151862166,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

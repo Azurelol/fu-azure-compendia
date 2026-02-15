@@ -10,7 +10,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You draw in the life force of your targets, dealing <strong>dark elemental damage.</strong> For <strong>each</strong> target that was hit you <strong>recover a minor amount of hit points.</strong></p><ul><li><p>You spend @LOSS[20 mp]</p></li><li><p>You recover @GAIN[10 mp] per target drained.</p></li></ul>",
+    "description": "<p>You draw in the life force of your targets, dealing <strong>dark elemental damage.</strong> For <strong>each</strong> target that was hit you <strong>recover a minor amount of hit points.</strong></p><ul><li><p>You recover @GAIN[10 mp] per target drained.</p></li></ul>",
     "isFavored": {
       "value": false
     },
@@ -18,7 +18,7 @@
       "value": false
     },
     "class": {
-      "value": ""
+      "value": "NPC"
     },
     "useWeapon": {
       "accuracy": {
@@ -137,7 +137,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429073863,
-    "modifiedTime": 1771095711814,
+    "modifiedTime": 1771102392027,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
