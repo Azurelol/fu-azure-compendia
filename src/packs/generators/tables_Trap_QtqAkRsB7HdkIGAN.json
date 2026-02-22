@@ -332,7 +332,7 @@
   "replacement": true,
   "displayRoll": false,
   "folder": null,
-  "sort": 0,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -341,12 +341,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1723982897910,
-    "modifiedTime": 1738432857853,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771180608627,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "formula": "1d12",

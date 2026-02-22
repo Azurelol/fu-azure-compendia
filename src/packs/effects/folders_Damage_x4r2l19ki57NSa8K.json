@@ -1,22 +1,23 @@
 {
-  "name": "Elemental",
+  "name": "Damage",
   "sorting": "a",
   "folder": null,
   "type": "Item",
   "_id": "x4r2l19ki57NSa8K",
   "description": "",
   "sort": 0,
-  "color": null,
+  "color": "#ff8080",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "2.4.0-alpha.30",
     "createdTime": 1730492932921,
-    "modifiedTime": 1737749925057,
-    "lastModifiedBy": "esOkelwPNblkbxW3"
+    "modifiedTime": 1771755229639,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "exportSource": null
   },
   "_key": "!folders!x4r2l19ki57NSa8K"
 }

@@ -164,7 +164,7 @@
   "replacement": true,
   "displayRoll": false,
   "folder": null,
-  "sort": 0,
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -173,12 +173,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1724340180329,
-    "modifiedTime": 1738432840236,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1771180608627,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "formula": "1d6",

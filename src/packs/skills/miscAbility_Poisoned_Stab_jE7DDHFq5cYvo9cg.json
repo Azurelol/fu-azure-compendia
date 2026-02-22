@@ -26,7 +26,7 @@
     "damage": {
       "hasDamage": true,
       "hrZero": false,
-      "value": 10,
+      "value": 5,
       "type": "poison",
       "onRoll": "",
       "onApply": ""
@@ -37,7 +37,12 @@
     },
     "traits": [],
     "effects": {
-      "entries": []
+      "entries": [
+        "afc-contact-poison"
+      ],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -99,7 +104,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1771103685682,
-    "modifiedTime": 1771150059386,
+    "modifiedTime": 1771756997976,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!jE7DDHFq5cYvo9cg"

@@ -1,0 +1,113 @@
+{
+  "folder": "x4r2l19ki57NSa8K",
+  "name": "Contact Poison",
+  "type": "effect",
+  "_id": "OschrJkydxC3q2zY",
+  "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
+  "system": {
+    "fuid": "afc-contact-poison",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Contact Poison",
+      "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
+      "system": {
+        "duration": {
+          "event": "endOfTurn",
+          "interval": 3,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "VsVMrLlNTfrSD8ed": {
+              "type": "ruleElement",
+              "_id": "VsVMrLlNTfrSD8ed",
+              "actions": {
+                "aI9sJU3bVJzk39nY": {
+                  "type": "applyDamageRuleAction",
+                  "_id": "aI9sJU3bVJzk39nY",
+                  "damageType": "poison",
+                  "amount": "&step(5,10,15)",
+                  "traits": {
+                    "entries": [
+                      "ignore-resistances"
+                    ]
+                  }
+                }
+              },
+              "trigger": {
+                "_id": "4a0Cz1FHeNDdbGWb",
+                "type": "combatRuleTrigger",
+                "eventRelation": "source",
+                "eventType": "endOfTurn"
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "UAWBQbuCgQ9yufJK",
+      "type": "base",
+      "changes": [],
+      "description": "<p>You suffer @DMG[&amp;step(5,10,15) poison] at the end of your turn.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1771755158640,
+        "modifiedTime": 1771758291688,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!OschrJkydxC3q2zY.UAWBQbuCgQ9yufJK"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1771755139290,
+    "modifiedTime": 1771755149716,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!OschrJkydxC3q2zY"
+}

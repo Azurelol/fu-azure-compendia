@@ -30,11 +30,41 @@
       "type": "base",
       "system": {
         "duration": {
-          "event": "endOfTurn"
+          "event": "endOfScene"
+        },
+        "rules": {
+          "progress": {
+            "enabled": true,
+            "id": "afc-burning",
+            "name": "Burning",
+            "current": 1,
+            "max": 3,
+            "style": "bar"
+          },
+          "elements": {
+            "ShboJTaCeysovwqn": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "kyjgZB0mQJxVQr0z",
+                "type": "combatRuleTrigger",
+                "eventRelation": "source",
+                "eventType": "endOfTurn"
+              },
+              "_id": "ShboJTaCeysovwqn",
+              "actions": {
+                "zK9ApzBiqMqAxj2O": {
+                  "type": "applyDamageRuleAction",
+                  "_id": "zK9ApzBiqMqAxj2O",
+                  "damageType": "fire",
+                  "amount": "5*&pg('afc-burning')"
+                }
+              }
+            }
+          }
         }
       },
       "changes": [],
-      "description": "<p>You are burning and will suffer fire damage at the <strong>end of your turn. </strong>This effect will then expire unless stated otherwise.</p><ul><li><p><strong>You:</strong> @DMG[&amp;step(5,10,15) fire]</p></li></ul>",
+      "description": "<p>You are burning and will suffer @DMG[5*$pg fire] at the <strong>end of your turn. </strong>This effect can <strong>stack up to 3 times,</strong> with increasing damage.</p><p>It will expire when you <strong>perform the</strong> <strong>Guard</strong> action, <strong>suffer</strong> @ICON[ice] <strong>damage</strong> or at <strong>the end of the conflict.</strong></p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -49,12 +79,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1730502590662,
-        "modifiedTime": 1742065886661,
-        "lastModifiedBy": "JXPd932s9DHQRD0w",
+        "modifiedTime": 1771758855962,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!OYh5Swp0087I3f0k.uEVte46oMgCqGk3o"

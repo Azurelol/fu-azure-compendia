@@ -116,7 +116,7 @@
   "replacement": true,
   "displayRoll": true,
   "folder": null,
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "JXPd932s9DHQRD0w": 3
@@ -125,11 +125,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1744215064428,
-    "modifiedTime": 1755716940515,
+    "modifiedTime": 1771180608627,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
