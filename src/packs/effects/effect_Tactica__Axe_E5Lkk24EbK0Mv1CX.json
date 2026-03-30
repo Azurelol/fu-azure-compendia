@@ -1,0 +1,167 @@
+{
+  "folder": "bMFOFb0gJAO4zSOF",
+  "name": "Tactica: Axe",
+  "type": "effect",
+  "_id": "E5Lkk24EbK0Mv1CX",
+  "img": "icons/weapons/axes/axe-battle-black.webp",
+  "system": {
+    "fuid": "afc-tactica-axe",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Axe",
+      "img": "icons/weapons/axes/axe-battle-black.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.E5Lkk24EbK0Mv1CX",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "KpwXi4gkaHhoMi4w": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "fzt6uxnFaTgy0udn",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "KpwXi4gkaHhoMi4w",
+              "predicates": {
+                "yhAkRjUxuDw4ZYzZ": {
+                  "type": "flagRulePredicate",
+                  "_id": "yhAkRjUxuDw4ZYzZ",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "sword"
+                }
+              },
+              "actions": {
+                "Pro6iFD2nFR19RIo": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "Pro6iFD2nFR19RIo",
+                  "bonus": "-2"
+                }
+              }
+            },
+            "HIcUS9kImC4aL7X5": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "F0X8NpNk1ohmghEk",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "HIcUS9kImC4aL7X5",
+              "predicates": {
+                "onk03sRHQurOJn3R": {
+                  "type": "flagRulePredicate",
+                  "_id": "onk03sRHQurOJn3R",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "lance"
+                }
+              },
+              "actions": {
+                "f7YTJhBEBOJi9pAF": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "f7YTJhBEBOJi9pAF",
+                  "bonus": "2"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "curE9GiJaHOIgtg4",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.weapon",
+          "mode": 2,
+          "value": "axe",
+          "priority": null
+        }
+      ],
+      "description": "<p><em>This effect should be attached to axe-type weapons for the tactica sub-system.</em></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Axe Unit",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.E5Lkk24EbK0Mv1CX",
+            "effectUuid": null,
+            "fuid": "afc-tactica-axe-unit"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774816561690,
+        "modifiedTime": 1774862761773,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!E5Lkk24EbK0Mv1CX.curE9GiJaHOIgtg4"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774816533109,
+    "modifiedTime": 1774864038913,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!E5Lkk24EbK0Mv1CX"
+}

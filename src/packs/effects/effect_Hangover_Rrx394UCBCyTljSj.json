@@ -1,5 +1,5 @@
 {
-  "folder": "D4TsK6IObRqhKJQ9",
+  "folder": "ecb265AiQGmQqXcQ",
   "name": "Hangover",
   "type": "effect",
   "_id": "Rrx394UCBCyTljSj",
@@ -59,7 +59,7 @@
       "_key": "!items.effects!Rrx394UCBCyTljSj.WS1kqf4mirSoSXYP"
     }
   ],
-  "sort": 100000,
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -72,7 +72,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1730826848918,
-    "modifiedTime": 1771088383192,
+    "modifiedTime": 1772053905752,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

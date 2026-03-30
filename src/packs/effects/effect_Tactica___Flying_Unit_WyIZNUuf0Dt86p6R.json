@@ -1,0 +1,110 @@
+{
+  "folder": "OUoJmTvPepByZmdk",
+  "name": "Tactica:  Flying Unit",
+  "type": "effect",
+  "_id": "WyIZNUuf0Dt86p6R",
+  "img": "icons/creatures/birds/birds-flock-fly-yellow.webp",
+  "system": {
+    "fuid": "afc-tactica-flying-unit",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica:  Flying Unit",
+      "img": "icons/creatures/birds/birds-flock-fly-yellow.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.WyIZNUuf0Dt86p6R",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "Odh36SDC8Sr2co9H",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.unit",
+          "mode": 2,
+          "value": "flying",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica:  Flying Unit",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.WyIZNUuf0Dt86p6R",
+            "effectUuid": null,
+            "fuid": "afc-tactica-flying-unit"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774817983536,
+        "modifiedTime": 1774817999831,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!WyIZNUuf0Dt86p6R.Odh36SDC8Sr2co9H"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774817921018,
+    "modifiedTime": 1774863564674,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!WyIZNUuf0Dt86p6R"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "Masterwork",
+  "name": "System: Masterwork Items",
   "_id": "prZlqZpAy69UrhEt",
   "pages": [
     {
@@ -52,12 +52,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "2.4.0",
     "createdTime": 1731351495778,
-    "modifiedTime": 1731351495778,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1774875462479,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "categories": [],

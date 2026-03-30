@@ -1,0 +1,22 @@
+{
+  "type": "Item",
+  "folder": "JT25Uly4kxMVVQhq",
+  "name": "Unit",
+  "color": "#2f97ff",
+  "sorting": "a",
+  "_id": "OUoJmTvPepByZmdk",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "modifiedTime": 1774863637437
+  },
+  "_key": "!folders!OUoJmTvPepByZmdk"
+}

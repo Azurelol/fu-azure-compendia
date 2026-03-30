@@ -28,7 +28,21 @@
       "img": "icons/magic/light/explosion-star-glow-orange.webp",
       "_id": "N0fi8GPtNNh9QPuR",
       "type": "base",
-      "system": {},
+      "system": {
+        "duration": {
+          "event": "endOfScene"
+        },
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [
         {
           "key": "system.bonuses.accuracy.accuracyCheck",
@@ -58,12 +72,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0",
+        "systemVersion": "#{VERSION}#",
         "createdTime": 1731695206534,
-        "modifiedTime": 1731695780527,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772052306805,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!lJoZdkhIcQTTeglC.N0fi8GPtNNh9QPuR"

@@ -1,0 +1,139 @@
+{
+  "folder": "bMFOFb0gJAO4zSOF",
+  "name": "Tactica: Cavalry Bane",
+  "type": "effect",
+  "_id": "rkNj9VOYlxxUqplT",
+  "img": "icons/weapons/polearms/spear-hooked-spike.webp",
+  "system": {
+    "fuid": "afc-tactica-cavalry-bane",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Cavalry Bane",
+      "img": "icons/weapons/polearms/spear-hooked-spike.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.rkNj9VOYlxxUqplT",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "wW1r12T5p8sDUJJs": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "1nd6WNsPlLrgznjc",
+                "type": "calculateDamageRuleTrigger",
+                "eventRelation": "source",
+                "damageSources": [
+                  "attack"
+                ],
+                "damageTypes": [],
+                "local": false,
+                "identifier": ""
+              },
+              "_id": "wW1r12T5p8sDUJJs",
+              "predicates": {
+                "TiyqGKvIMsEdLIsJ": {
+                  "type": "flagRulePredicate",
+                  "_id": "TiyqGKvIMsEdLIsJ",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "cavalry"
+                }
+              },
+              "actions": {
+                "I4Qf82JE7PEvYiwU": {
+                  "type": "modifyDamageRuleAction",
+                  "_id": "I4Qf82JE7PEvYiwU",
+                  "amount": "10",
+                  "effect": "",
+                  "cost": {
+                    "amount": null
+                  }
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "ob4XFyJ81UERhP3f",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Cavalry Bane",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.rkNj9VOYlxxUqplT",
+            "effectUuid": null,
+            "fuid": "tactica-cavalry-bane"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774863463379,
+        "modifiedTime": 1774863499369,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!rkNj9VOYlxxUqplT.ob4XFyJ81UERhP3f"
+    }
+  ],
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774863429049,
+    "modifiedTime": 1774864057124,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!rkNj9VOYlxxUqplT"
+}

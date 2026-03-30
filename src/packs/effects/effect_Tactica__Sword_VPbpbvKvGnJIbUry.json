@@ -1,0 +1,168 @@
+{
+  "folder": "bMFOFb0gJAO4zSOF",
+  "name": "Tactica: Sword",
+  "type": "effect",
+  "_id": "VPbpbvKvGnJIbUry",
+  "img": "icons/weapons/swords/greatsword-blue.webp",
+  "system": {
+    "fuid": "afc-tactica-sword",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Sword",
+      "img": "icons/weapons/swords/greatsword-blue.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.VPbpbvKvGnJIbUry",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "j56j9GVWTJEtvgdO": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "VAyKaC2Nyg01Gky7",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "j56j9GVWTJEtvgdO",
+              "predicates": {
+                "ADMgiEzOHUnN1Tm7": {
+                  "type": "flagRulePredicate",
+                  "_id": "ADMgiEzOHUnN1Tm7",
+                  "flag": ",",
+                  "scope": "fu-azure-compendia",
+                  "value": "axe",
+                  "key": "tactica.weapon"
+                }
+              },
+              "actions": {
+                "Z0OCJMvxd0lYHcZt": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "Z0OCJMvxd0lYHcZt",
+                  "bonus": "2"
+                }
+              }
+            },
+            "wZF0gfynjypkGUli": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "8kTZmarSRPxwTs2r",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "wZF0gfynjypkGUli",
+              "predicates": {
+                "iCa33IhO4YKFRAMR": {
+                  "type": "flagRulePredicate",
+                  "_id": "iCa33IhO4YKFRAMR",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "lance"
+                }
+              },
+              "actions": {
+                "5SHnFGZLTzd9OZ4t": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "5SHnFGZLTzd9OZ4t",
+                  "bonus": "-2"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "lGtsT1v4sYe2a1MJ",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.weapon",
+          "mode": 2,
+          "value": "sword",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Sword Unit",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.VPbpbvKvGnJIbUry",
+            "effectUuid": null,
+            "fuid": "tactica-sword-unit"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774814572878,
+        "modifiedTime": 1774862786108,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!VPbpbvKvGnJIbUry.lGtsT1v4sYe2a1MJ"
+    }
+  ],
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774814558308,
+    "modifiedTime": 1774864046810,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!VPbpbvKvGnJIbUry"
+}

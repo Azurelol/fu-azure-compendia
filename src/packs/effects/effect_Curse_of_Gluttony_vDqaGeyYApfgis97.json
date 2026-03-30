@@ -28,9 +28,23 @@
       "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
       "_id": "PBfeZQS8X05IoSRJ",
       "type": "base",
-      "system": {},
+      "system": {
+        "duration": {
+          "event": "endOfScene"
+        },
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
-      "description": "<p>You spend <strong>twice as much mind points</strong> on any of your actions until the end of your turn.</p>",
+      "description": "<p>You spend <strong>twice as much mind points</strong> on any of your actions.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -45,12 +59,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0",
+        "systemVersion": "#{VERSION}#",
         "createdTime": 1731177065029,
-        "modifiedTime": 1731177141541,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772053679352,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!vDqaGeyYApfgis97.PBfeZQS8X05IoSRJ"

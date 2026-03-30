@@ -28,7 +28,21 @@
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "94mgr2RRnf74JhnX",
       "type": "base",
-      "system": {},
+      "system": {
+        "duration": {
+          "event": "endOfScene"
+        },
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
       "description": "<p>You are bleeding profusely from a wound and will suffer physical damage at the <strong>end of your turn.</strong> This effect <strong>will persist until you recover hit points.</strong></p><ul><li><p><strong>You:</strong> @DMG[&amp;step(5,10,15) physical]</p></li></ul>",
       "tint": "#ffffff",
@@ -45,12 +59,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
+        "systemVersion": "#{VERSION}#",
         "createdTime": null,
-        "modifiedTime": 1735327627425,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772052189483,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!hSMGmrqhl1UjHlI8.94mgr2RRnf74JhnX"

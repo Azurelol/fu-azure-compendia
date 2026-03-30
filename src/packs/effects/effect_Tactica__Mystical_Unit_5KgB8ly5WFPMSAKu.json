@@ -1,0 +1,116 @@
+{
+  "folder": "OUoJmTvPepByZmdk",
+  "name": "Tactica: Mystical Unit",
+  "type": "effect",
+  "_id": "5KgB8ly5WFPMSAKu",
+  "img": "icons/weapons/staves/staff-simple-jeweled-green.webp",
+  "system": {
+    "fuid": "afc-tactica-mystical-unit",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Mystical Unit",
+      "img": "icons/weapons/staves/staff-simple-jeweled-green.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.5KgB8ly5WFPMSAKu",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "RyCtIiVMqLxcr4Hv",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.unit",
+          "mode": 2,
+          "value": "mystical",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.incomingDamage.physical",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Mystical Unit",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.5KgB8ly5WFPMSAKu",
+            "effectUuid": null,
+            "fuid": "afc-tactica-mystical-unit"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774819218140,
+        "modifiedTime": 1774863969693,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!5KgB8ly5WFPMSAKu.RyCtIiVMqLxcr4Hv"
+    }
+  ],
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774819153773,
+    "modifiedTime": 1774863586514,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!5KgB8ly5WFPMSAKu"
+}

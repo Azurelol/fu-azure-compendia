@@ -1,0 +1,56 @@
+{
+  "folder": "hqf1FEMmVHy7RQD3",
+  "name": "Tactica: Pass",
+  "type": "rule",
+  "_id": "y2o9WAL7YH2LLaqG",
+  "img": "icons/skills/movement/arrow-down-pink.webp",
+  "system": {
+    "fuid": "afc-tactica-pass",
+    "description": "<p>The unit can move through spaces <strong>occupied</strong> by enemy units.</p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774870972970,
+    "modifiedTime": 1774871025378,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!y2o9WAL7YH2LLaqG"
+}

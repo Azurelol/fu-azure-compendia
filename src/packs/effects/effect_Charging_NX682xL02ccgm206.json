@@ -28,7 +28,18 @@
       "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
       "_id": "0Q7Kim17BdFJrPzn",
       "type": "base",
-      "system": {},
+      "system": {
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
       "description": "<p>You are gathering for a powerful action to be performed on your <strong>next turn.</strong></p>",
       "tint": "#ffffff",
@@ -45,18 +56,18 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
+        "systemVersion": "#{VERSION}#",
         "createdTime": null,
-        "modifiedTime": 1730502132653,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772053954462,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!NX682xL02ccgm206.0Q7Kim17BdFJrPzn"
     }
   ],
-  "sort": 112500,
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -69,7 +80,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1730492177716,
-    "modifiedTime": 1771088183633,
+    "modifiedTime": 1772053927820,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

@@ -38,6 +38,9 @@
             "max": 6,
             "style": "basic"
           }
+        },
+        "duration": {
+          "event": "endOfTurn"
         }
       },
       "changes": [],
@@ -60,7 +63,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1731695591297,
-        "modifiedTime": 1771084515265,
+        "modifiedTime": 1772052369277,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },

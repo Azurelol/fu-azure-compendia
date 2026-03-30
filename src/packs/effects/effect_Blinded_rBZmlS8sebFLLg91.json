@@ -28,7 +28,21 @@
       "img": "icons/magic/control/debuff-energy-hold-pink.webp",
       "_id": "4fs95lpfrrjh3d9n",
       "type": "base",
-      "system": {},
+      "system": {
+        "duration": {
+          "event": "endOfTurn"
+        },
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
       "description": "<p>You cannot see properly. In order to perform an <strong>action</strong> that targets another besides yourself, you must make a @CHECK[dex ins easy] <strong>check</strong> otherwise the action will fail. If you are suffering from @EFFECT[dazed] you <strong>cannot</strong> make the check. Unless otherwise stated this will expire at the <strong>end of your turn</strong>.</p>",
       "tint": "#ffffff",
@@ -45,12 +59,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
+        "systemVersion": "#{VERSION}#",
         "createdTime": null,
-        "modifiedTime": 1733072234724,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772052103486,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!rBZmlS8sebFLLg91.4fs95lpfrrjh3d9n"

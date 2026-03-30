@@ -1,0 +1,56 @@
+{
+  "folder": "hqf1FEMmVHy7RQD3",
+  "name": "Tactica: Pathfinder",
+  "type": "rule",
+  "_id": "AanUSekK2iaS3Ay4",
+  "img": "icons/sundries/flags/banner-flag-red-white.webp",
+  "system": {
+    "fuid": "afc-tactica-pathfinder",
+    "description": "<p>Allies can move <strong>through the space occupied</strong> by this unit <strong>without</strong> a movement cost.</p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774874065370,
+    "modifiedTime": 1774874216895,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!AanUSekK2iaS3Ay4"
+}

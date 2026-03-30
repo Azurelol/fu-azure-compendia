@@ -1,0 +1,22 @@
+{
+  "type": "Item",
+  "folder": "JT25Uly4kxMVVQhq",
+  "name": "Weapon",
+  "color": "#ff4a4a",
+  "sorting": "a",
+  "_id": "bMFOFb0gJAO4zSOF",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "modifiedTime": 1774863643352
+  },
+  "_key": "!folders!bMFOFb0gJAO4zSOF"
+}

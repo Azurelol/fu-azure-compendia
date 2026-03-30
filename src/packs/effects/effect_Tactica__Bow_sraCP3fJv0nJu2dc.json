@@ -1,0 +1,174 @@
+{
+  "folder": "bMFOFb0gJAO4zSOF",
+  "name": "Tactica: Bow",
+  "type": "effect",
+  "_id": "sraCP3fJv0nJu2dc",
+  "img": "icons/weapons/bows/bow-ornamental-carved-brown.webp",
+  "system": {
+    "fuid": "afc-tactica-bow",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Bow",
+      "img": "icons/weapons/bows/bow-ornamental-carved-brown.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.sraCP3fJv0nJu2dc",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "SXf3bdsVWGxiOp1i": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "SwqyDXYkiDgHCAWx",
+                "type": "calculateDamageRuleTrigger",
+                "eventRelation": "source",
+                "damageSources": [
+                  "attack"
+                ],
+                "damageTypes": [],
+                "local": false,
+                "identifier": ""
+              },
+              "_id": "SXf3bdsVWGxiOp1i",
+              "predicates": {
+                "Awfx6fFAb3AKj0DS": {
+                  "type": "flagRulePredicate",
+                  "_id": "Awfx6fFAb3AKj0DS",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "flying"
+                }
+              },
+              "actions": {
+                "MmGzxKJpfZiiJ6sS": {
+                  "type": "modifyDamageRuleAction",
+                  "_id": "MmGzxKJpfZiiJ6sS",
+                  "amount": "10",
+                  "effect": "",
+                  "cost": {
+                    "amount": null
+                  }
+                }
+              }
+            },
+            "KLrA09bm1Ntnp36U": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "dW21QHukC0hQfwYb",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "KLrA09bm1Ntnp36U",
+              "predicates": {
+                "bkXsTfxXAsLHzq9M": {
+                  "type": "flagRulePredicate",
+                  "_id": "bkXsTfxXAsLHzq9M",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "flying"
+                }
+              },
+              "actions": {
+                "bvzRTcHr1uiwN8Yo": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "bvzRTcHr1uiwN8Yo",
+                  "bonus": "2"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "s5mw1Bi9Ulz5aTaE",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.weapon",
+          "mode": 2,
+          "value": "bow",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Bow",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.sraCP3fJv0nJu2dc",
+            "effectUuid": null,
+            "fuid": "afc-tactica-bow"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774862851763,
+        "modifiedTime": 1774865676389,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!sraCP3fJv0nJu2dc.s5mw1Bi9Ulz5aTaE"
+    }
+  ],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774862822408,
+    "modifiedTime": 1774863582621,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!sraCP3fJv0nJu2dc"
+}

@@ -28,7 +28,21 @@
       "img": "icons/magic/unholy/energy-smoke-pink.webp",
       "_id": "ALTHNhprdjudRwSm",
       "type": "base",
-      "system": {},
+      "system": {
+        "duration": {
+          "event": "endOfScene"
+        },
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
       "description": "<p>You have been affected by dark energies and will <strong>lose mind points</strong> at <strong>the end of your turn</strong>. This effect will then expire unless stated otherwise.</p><ul><li><p><strong>You:</strong> @LOSS[$minor mp]</p></li></ul>",
       "tint": "#ffffff",
@@ -45,12 +59,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
+        "systemVersion": "#{VERSION}#",
         "createdTime": 1730646529655,
-        "modifiedTime": 1734803323195,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772052347790,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!KMvq0kYOZnyHiSEr.ALTHNhprdjudRwSm"

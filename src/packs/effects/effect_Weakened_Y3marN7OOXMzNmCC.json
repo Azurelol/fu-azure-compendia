@@ -28,7 +28,21 @@
       "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
       "_id": "KJxzRMLiIKIH6dul",
       "type": "base",
-      "system": {},
+      "system": {
+        "duration": {
+          "event": "endOfTurn"
+        },
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
       "description": "<p>Your <strong>next attack or spell</strong> that deals damage treats its <strong>High Roll (HR)</strong> as 0. This effect then expires unless stated otherwise.</p>",
       "tint": "#ffffff",
@@ -45,12 +59,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
+        "systemVersion": "#{VERSION}#",
         "createdTime": null,
-        "modifiedTime": 1731699526512,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772052138445,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!Y3marN7OOXMzNmCC.KJxzRMLiIKIH6dul"

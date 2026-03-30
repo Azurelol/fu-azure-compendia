@@ -1,0 +1,56 @@
+{
+  "folder": "hqf1FEMmVHy7RQD3",
+  "name": "Tactica: Renewal",
+  "type": "rule",
+  "_id": "ne4lbhKBXxq6S51j",
+  "img": "icons/magic/nature/leaf-glow-maple-teal.webp",
+  "system": {
+    "fuid": "afc-tactica-renewal",
+    "description": "<p>When the unit ends their turn with the <strong>wait</strong> <strong>action</strong> they recover @GAIN[5 hp].</p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774872170725,
+    "modifiedTime": 1774872250138,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!ne4lbhKBXxq6S51j"
+}

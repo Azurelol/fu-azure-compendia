@@ -128,7 +128,12 @@
     "hasRoll": {
       "value": false
     },
-    "opportunity": ""
+    "opportunity": "",
+    "effects": {
+      "duration": {
+        "interval": null
+      }
+    }
   },
   "effects": [],
   "sort": 100000,
@@ -148,7 +153,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731429340899,
-    "modifiedTime": 1770920088958,
+    "modifiedTime": 1772306212181,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

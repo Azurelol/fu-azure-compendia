@@ -1,0 +1,116 @@
+{
+  "folder": "OUoJmTvPepByZmdk",
+  "name": "Tactica: Infantry Unit",
+  "type": "effect",
+  "_id": "JMMAuf53DsqxoDnc",
+  "img": "icons/environment/people/infantry.webp",
+  "system": {
+    "fuid": "afc-tactica-infantry",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Infantry Unit",
+      "img": "icons/environment/people/infantry.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.JMMAuf53DsqxoDnc",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "DA2eJTHYbM7fwlf3",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.unit",
+          "mode": 2,
+          "value": "infantry",
+          "priority": null
+        },
+        {
+          "key": "system.resources.hp.max",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "<p>This unit can perform <strong>chain attacks</strong>.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Infantry",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.JMMAuf53DsqxoDnc",
+            "effectUuid": null,
+            "fuid": "tactica-infantry"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774862366516,
+        "modifiedTime": 1774874701479,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!JMMAuf53DsqxoDnc.DA2eJTHYbM7fwlf3"
+    }
+  ],
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774862319327,
+    "modifiedTime": 1774864024242,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!JMMAuf53DsqxoDnc"
+}

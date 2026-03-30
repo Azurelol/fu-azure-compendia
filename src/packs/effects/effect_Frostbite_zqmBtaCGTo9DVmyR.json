@@ -28,7 +28,21 @@
       "img": "icons/magic/water/ice-snowman.webp",
       "_id": "8tjBfhHpqeHzk6uW",
       "type": "base",
-      "system": {},
+      "system": {
+        "duration": {
+          "event": "endOfScene"
+        },
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
       "description": "<p>You are frostbitten and suffer from @EFFECT[slow] until the <strong>end of your next turn.</strong></p>",
       "tint": "#ffffff",
@@ -47,12 +61,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0-alpha.30",
+        "systemVersion": "#{VERSION}#",
         "createdTime": 1730644239594,
-        "modifiedTime": 1731178520333,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772052313833,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!zqmBtaCGTo9DVmyR.8tjBfhHpqeHzk6uW"

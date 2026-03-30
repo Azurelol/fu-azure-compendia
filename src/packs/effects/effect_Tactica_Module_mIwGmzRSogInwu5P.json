@@ -1,0 +1,116 @@
+{
+  "folder": "ecb265AiQGmQqXcQ",
+  "name": "Tactica Module",
+  "type": "effect",
+  "_id": "mIwGmzRSogInwu5P",
+  "img": "icons/sundries/gaming/chess-knight-white.webp",
+  "system": {
+    "fuid": "afc-tactica-module",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica Module",
+      "img": "icons/sundries/gaming/chess-knight-white.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.mIwGmzRSogInwu5P",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "Jrkx1TdUyHRBsxHc",
+      "type": "base",
+      "changes": [
+        {
+          "key": "system.bonuses.accuracy.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica Module",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.mIwGmzRSogInwu5P",
+            "effectUuid": null,
+            "fuid": "afc-tactica-module"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774187251719,
+        "modifiedTime": 1774187309494,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!mIwGmzRSogInwu5P.Jrkx1TdUyHRBsxHc"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774187225764,
+    "modifiedTime": 1774187249888,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!mIwGmzRSogInwu5P"
+}

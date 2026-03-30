@@ -1,0 +1,338 @@
+{
+  "name": "System: Fabula Tactica",
+  "_id": "FHnjDvV196AmONvt",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Introduction",
+      "type": "text",
+      "_id": "x7SAIaVAK5Y1eMhA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The following is a sub-system for emulating tactical grid-based battles using a plug-n-play approach to convert characters into \"tactica\" <strong>units</strong> through the use of active effects and certain rules covered in this journal</p><p>Many of its design decisions are inspired by games dear to me. I have tried my best to translate those mechanics into this system without over complicating things for myself or my players.</p><p>It has been designed to emulate small skirmishes and army battles using archetypes and tropes common to the SRPG genre. So rather than taking your existing PC and NPC sheets into the system I would encourage you to create new ones following the unit building rules or start from one of the provided templates.</p><p>All that said, feel free to modify whatever you see here for your own table!</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774186002462,
+        "modifiedTime": 1774870060040,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!journal.pages!FHnjDvV196AmONvt.x7SAIaVAK5Y1eMhA"
+    },
+    {
+      "sort": 200000,
+      "name": "Units",
+      "type": "text",
+      "_id": "1aKDL28nvM1Sn0s6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The following table summarizes the unit types to be used in the sub-system and their key characteristics. To convert any given unit to that type, just add the corresponding effect to it.</p><p>Each unit types has certain adjustments made to it, with some being <strong>particularly</strong> <strong>vulnerable</strong> to certain <strong>bane-type</strong> weapons.</p><p></p><table><tbody><tr><td><p><strong>Unit</strong></p></td><td><p><strong>Movement</strong> <strong>Range</strong></p></td><td><p><strong>Weapons</strong></p></td><td><p><strong>Break</strong></p></td><td><p><strong>Traits</strong></p></td></tr><tr><td><p>@UUID[Compendium.fu-azure-compendia.effects.Item.JMMAuf53DsqxoDnc]{Tactica: Infantry Unit}</p></td><td><p>2</p></td><td><p>Sword, Axe, Lance</p></td><td><p></p></td><td><p>Chain Attack</p></td></tr><tr><td><p>@UUID[Compendium.fu-azure-compendia.effects.Item.EirCba0XGv3uLZgo]{Tactica: Covert Unit}</p></td><td><p>2</p></td><td><p>Dagger, Bow</p></td><td><p>Mystical</p></td><td><p></p></td></tr><tr><td><p>@UUID[Compendium.fu-azure-compendia.effects.Item.WDm1FefxVFP9nm1m]{Tactica: Armored Unit}</p></td><td><p>2</p></td><td><p>Sword, Axe, Lance</p></td><td><p></p></td><td><p>Chain Guard</p></td></tr><tr><td><p>@UUID[Compendium.fu-azure-compendia.effects.Item.5KgB8ly5WFPMSAKu]{Tactica: Mystical Unit}</p></td><td><p>2</p></td><td><p>Tome</p></td><td><p></p></td><td><p></p></td></tr><tr><td><p>@UUID[Compendium.fu-azure-compendia.effects.Item.rIMdiLw6etJlGFtr]{Tactica: Cavalry Unit}</p></td><td><p>3</p></td><td><p>Sword, Axe, Lance</p></td><td><p>Infantry</p></td><td><p></p></td></tr><tr><td><p>@UUID[Compendium.fu-azure-compendia.effects.Item.WyIZNUuf0Dt86p6R]{Tactica: Flying Unit}</p></td><td><p>2</p></td><td><p>Axe, Lance</p></td><td><p>Cavalry</p></td><td><p></p></td></tr></tbody></table><h2></h2>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774864320844,
+        "modifiedTime": 1774875663768,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!journal.pages!FHnjDvV196AmONvt.1aKDL28nvM1Sn0s6"
+    },
+    {
+      "sort": 300000,
+      "name": "Weapons",
+      "type": "text",
+      "_id": "ovX25EkTqMzRIMWF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The following table summarizes the weapon types used in the sub-system. To convert any given basic attack or weapon to that type, just add the corresponding effect to it.</p><p>Some weapon types have boast particular advantages and disadvantages against others. These are not designed to provide hard counters but instead add a layer of tactical depth and planning when setting up specific match-ups.</p><p></p><table><tbody><tr><td data-colwidth=\"186\"><p><strong>Weapon</strong></p></td><td><p><strong>Range</strong></p></td><td><p><strong>Advantage</strong></p></td><td data-colwidth=\"145\"><p><strong>Disadvantage</strong></p></td><td><p></p></td></tr><tr><td data-colwidth=\"186\"><p>@UUID[Compendium.fu-azure-compendia.effects.Item.VPbpbvKvGnJIbUry]{Tactica: Sword}</p></td><td><p>1</p></td><td><p>Axe</p></td><td data-colwidth=\"145\"><p>Lance</p></td><td><p></p></td></tr><tr><td data-colwidth=\"186\"><p>@UUID[Compendium.fu-azure-compendia.effects.Item.E5Lkk24EbK0Mv1CX]{Tactica: Axe}</p></td><td><p>1</p></td><td><p>Lance</p></td><td data-colwidth=\"145\"><p>Sword</p></td><td><p></p></td></tr><tr><td data-colwidth=\"186\"><p>@UUID[Compendium.fu-azure-compendia.effects.Item.0FnEk6GBAmxlpH2d]{Tactica: Lance}</p></td><td><p>1</p></td><td><p>Sword</p></td><td data-colwidth=\"145\"><p>Axe</p></td><td><p></p></td></tr><tr><td data-colwidth=\"186\"><p>@UUID[Compendium.fu-azure-compendia.effects.Item.sraCP3fJv0nJu2dc]{Tactica: Bow}</p></td><td><p>2</p></td><td><p>Flying Unit</p></td><td data-colwidth=\"145\"><p></p></td><td><p></p></td></tr><tr><td data-colwidth=\"186\"><p>@UUID[Compendium.fu-azure-compendia.effects.Item.ULnqC3wBDFtLgZRa]{Tactica: Tome}</p></td><td><p>2</p></td><td><p>Armored Unit</p></td><td data-colwidth=\"145\"><p></p></td><td><p></p></td></tr><tr><td data-colwidth=\"186\"><p>@UUID[Compendium.fu-azure-compendia.effects.Item.Q22iMICpJwKZQ0p0]{Tactica: Dagger}</p></td><td><p>1</p></td><td><p>Tome</p></td><td data-colwidth=\"145\"><p></p></td><td><p></p></td></tr></tbody></table><p></p><p>On top of the base weapon types, the following are bonus properties that can be added to certain weapons to enable them to counter specific unit types.</p><p></p><table><tbody><tr><td><p><strong>Bane</strong></p></td><td><p><strong>Advantage</strong></p></td></tr><tr><td><p>@UUID[Compendium.fu-azure-compendia.effects.Item.rkNj9VOYlxxUqplT]{Tactica: Cavalry Bane}</p></td><td><p>Cavalry Unit</p></td></tr><tr><td><p>@UUID[Compendium.fu-azure-compendia.effects.Item.X44Xvs1UEbDI3ob7]{Tactica: Armor Bane}</p></td><td><p>Armored Unit</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774864778355,
+        "modifiedTime": 1774867913847,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!journal.pages!FHnjDvV196AmONvt.ovX25EkTqMzRIMWF"
+    },
+    {
+      "sort": 400000,
+      "name": "Glossary",
+      "type": "text",
+      "_id": "qlJWHvtrZzklsrlm",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The following are specific traits and keywords used in the subsystem.</p><p></p><table><tbody><tr><td><p><strong>Term</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Unit</p></td><td><p>An unit is a character that takes part in a combat within this subsystem. It can represent a single person or a group of people as part of a larger force.</p></td></tr><tr><td><p>Chain Attack</p></td><td><p>If the unit is adjacent to an enemy when an ally performs a melee attack, the unit with this feature can perform an HR0 attack <strong>before</strong> the initiating attack.</p></td></tr><tr><td><p>Chain Guard</p></td><td><p>If the unit is <strong>not in crisis,</strong> has <strong>waited</strong> and is <strong>adjacent to an ally</strong> when an enemy performs a melee attack, the unit will take the damage in place of their ally.</p></td></tr><tr><td><p>Break</p></td><td><p>When attacking an unit, if the result of the accuracy check was an <strong>even number,</strong> it cannot counter.</p></td></tr><tr><td><p>Bane</p></td><td><p>When attacking an unit of a specific type, bonus damage is dealt.</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774866268180,
+        "modifiedTime": 1774875859884,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!journal.pages!FHnjDvV196AmONvt.qlJWHvtrZzklsrlm"
+    },
+    {
+      "sort": 162500,
+      "name": "Combat Rules",
+      "type": "text",
+      "_id": "NwSODViODdmwIh8q",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>When a combat using this sub-system takes place, the following rules are in place</p><h2>Turn Order</h2><p>Each factions' units take their turns one after another during that faction's phase. Each combat round begins with a <strong>Player Phase</strong> followed by the <strong>Enemy Phase</strong>, thus ending the round.</p><p>During a phase, the units take their turns based on their overall agility, which can be represented by initiative or their dexterity attribute. If there's a tie you can let players quickly decide amongst themselves which units go first.</p><p>Don't over complicate this and just make a quick call.</p><h2>Unit Actions</h2><p>Each units turn consists of a movement phase followed by an action phase. Note that all movement and action ranges is tied along the cardinal directions (left, up, down, right).</p><h3>Movement Phase</h3><p>The unit can <strong>move</strong> up to their <strong>movement</strong> <strong>range</strong>. Some units such as flying can cross all terrain such as water, mountains, etc.</p><h3>Action Phase</h3><p>Second, it can perform an <strong>action:</strong></p><ul><li><p><strong>Attack</strong>: It can perform an attack on another unit within their attack range along the 4 cardinal directions. (If you are not familiar with the genre, an orthogonal would take one extra unit of range). The targeted unit may then <strong>counter</strong>.</p></li><li><p><strong>Skill</strong>: Some units have special skills they can perform on their turn.</p></li><li><p><strong>Wait: </strong>The unit ends their turn.</p></li></ul><h2>Counters</h2><p>When an unit attacks another it usually provokes a counter attack.</p><ul><li><p>Melee weapons usually provoke counters unless specified otherwise.</p></li><li><p>Bows cannot counter attacks with melee weapons by default.</p></li><li><p>When an unit inflicts break on another, it will provoke no counters.</p></li><li><p>Some skills affect the counter rules, on a case-by-case basis.</p></li></ul><p></p><h2>Resolution</h2><p>The combat typically ends when one faction wipes out the other, or a certain objective is accomplished.</p><h2>Death</h2><p>Depending on the tone of your campaign and the importance of the players' units, the following can happen when they would <strong>reach 0 Hit Points</strong>.</p><ul><li><p>Generic units are killed immediately.</p></li><li><p>Named units are injured and immediately retreat from the combat.</p></li><li><p>Named units are incapacitated and cannot take action for the rest of the combat unless they are healed, at which point they must wait out their next turn. There has to be a penalty!</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774866541570,
+        "modifiedTime": 1774873250325,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!journal.pages!FHnjDvV196AmONvt.NwSODViODdmwIh8q"
+    },
+    {
+      "sort": 500000,
+      "name": "Changelog",
+      "type": "text",
+      "_id": "YJI0dWkFmDY2VfJr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>With the sub-system still being play tested and being largely an experimental endeavor there will be certain decisions and adjustments that will need to be made as time goes on. Changes from versions will be recorded here for posterity.</p><p></p><table><tbody><tr><td><p><strong>Version</strong></p></td><td><p>Changes</p></td></tr><tr><td><p>1</p></td><td><p>-</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774868191575,
+        "modifiedTime": 1774868303666,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!journal.pages!FHnjDvV196AmONvt.YJI0dWkFmDY2VfJr"
+    },
+    {
+      "sort": 250000,
+      "name": "Skills",
+      "type": "text",
+      "_id": "iRvbxIuyaDgKpOEV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In this sub-system, units can have the following passive and active skills.</p><h2>Passive Skills</h2><ul><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.y2o9WAL7YH2LLaqG]{Tactica: Pass}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.9ti16lwufANkmqDO]{Tactica: Reprisal}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.eGra15bE3PeEhf5x]{Tactica: Canter}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.A67rjtmZgi1hdSHf]{Tactica: Vantage}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.ne4lbhKBXxq6S51j]{Tactica: Renewal}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.EVkrL6Qd314R3b11]{Tactica: Stealth}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.AanUSekK2iaS3Ay4]{Tactica: Pathfinder}</p></li></ul><h2>Active Skills</h2><ul><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.KskESzu4oKqHSIaO]{Tactica: Pivot}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.gsDqi5E9Go4dCdiE]{Tactica: Shove}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.dH01wa9SzVmUIUh0]{Tactica: Rally Body}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.iWwLsWDyzj10vDld]{Tactica: Rally Mind}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.uCegTE5JLrff354q]{Tactica: Dance}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.TJdztnKb5uajOhLk]{Tactica: Reposition}</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774869395767,
+        "modifiedTime": 1774874593026,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!journal.pages!FHnjDvV196AmONvt.iRvbxIuyaDgKpOEV"
+    },
+    {
+      "sort": 125000,
+      "name": "Basic Rules",
+      "type": "text",
+      "_id": "ZsgH8XWj8LZNv1k5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Unit Anatomy</h2><p>A tactica unit is a simplified NPC which should have the following, that are implemented via effects on the actors or their weapons:</p><ul><li><p><strong>@UUID[Compendium.fu-azure-compendia.journals.JournalEntry.FHnjDvV196AmONvt.JournalEntryPage.1aKDL28nvM1Sn0s6]{Unit Type}: </strong>A mechanical representation of their archetype and key attributes.</p></li><li><p>@UUID[Compendium.fu-azure-compendia.journals.JournalEntry.FHnjDvV196AmONvt.JournalEntryPage.ovX25EkTqMzRIMWF]{Weapons}: For generic and enemy units, one <strong>weapon</strong>. For the players' named units, up to <strong>two weapons</strong>.</p></li><li><p>@UUID[Compendium.fu-azure-compendia.journals.JournalEntry.FHnjDvV196AmONvt.JournalEntryPage.iRvbxIuyaDgKpOEV]{Skills}: For important enemy units, one <strong>skill</strong>. For the player's named units they should start with one, and possibly unlock others.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774870052675,
+        "modifiedTime": 1774873909564,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!journal.pages!FHnjDvV196AmONvt.ZsgH8XWj8LZNv1k5"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774185992292,
+    "modifiedTime": 1774185992292,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!journal!FHnjDvV196AmONvt"
+}

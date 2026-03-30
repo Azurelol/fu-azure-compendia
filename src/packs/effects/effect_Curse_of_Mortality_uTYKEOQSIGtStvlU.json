@@ -28,7 +28,21 @@
       "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
       "_id": "QKZMmpz3KJ9AeAIa",
       "type": "base",
-      "system": {},
+      "system": {
+        "duration": {
+          "event": "endOfScene"
+        },
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
       "description": "<p>You are <strong>unable</strong> to benefit from any effects that <strong>recover</strong> your <strong>hit points or mind points.</strong></p>",
       "tint": "#ffffff",
@@ -45,12 +59,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0",
+        "systemVersion": "#{VERSION}#",
         "createdTime": 1731176902529,
-        "modifiedTime": 1731177021627,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772053696877,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!uTYKEOQSIGtStvlU.QKZMmpz3KJ9AeAIa"

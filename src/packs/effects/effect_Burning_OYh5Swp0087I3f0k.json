@@ -58,8 +58,19 @@
                   "damageType": "fire",
                   "amount": "5*&pg('afc-burning')"
                 }
+              },
+              "predicates": {
+                "66j8jQSuWKyZcJUm": {
+                  "type": "bondRulePredicate",
+                  "_id": "66j8jQSuWKyZcJUm"
+                }
               }
             }
+          },
+          "stacking": {
+            "progress": true,
+            "duration": false,
+            "increment": 1
           }
         }
       },
@@ -83,7 +94,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1730502590662,
-        "modifiedTime": 1771758855962,
+        "modifiedTime": 1773090502247,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },

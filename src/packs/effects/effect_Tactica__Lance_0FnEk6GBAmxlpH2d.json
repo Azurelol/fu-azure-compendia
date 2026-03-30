@@ -1,0 +1,167 @@
+{
+  "folder": "bMFOFb0gJAO4zSOF",
+  "name": "Tactica: Lance",
+  "type": "effect",
+  "_id": "0FnEk6GBAmxlpH2d",
+  "img": "icons/weapons/polearms/spear-flared-steel.webp",
+  "system": {
+    "fuid": "afc-tactica-lance",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Lance",
+      "img": "icons/weapons/polearms/glaive-hooked-steel.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.0FnEk6GBAmxlpH2d",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "tSUv6b068AP8QPKe": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "BmlIj2TFveuiCROD",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "tSUv6b068AP8QPKe",
+              "predicates": {
+                "boq5xd1A4WNdWHt9": {
+                  "type": "flagRulePredicate",
+                  "_id": "boq5xd1A4WNdWHt9",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "sword"
+                }
+              },
+              "actions": {
+                "Ovll3FheMRroqNEy": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "Ovll3FheMRroqNEy",
+                  "bonus": "2"
+                }
+              }
+            },
+            "lrpjzim3KTLketEJ": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "AiwLO1jBhK5xb4Dz",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "lrpjzim3KTLketEJ",
+              "predicates": {
+                "2dziF1mN8NstDifn": {
+                  "type": "flagRulePredicate",
+                  "_id": "2dziF1mN8NstDifn",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "axe"
+                }
+              },
+              "actions": {
+                "4uHYkaGeTUurbaRi": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "4uHYkaGeTUurbaRi",
+                  "bonus": "-2"
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "Oe9JUc7y8YWTRhul",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.sword",
+          "mode": 2,
+          "value": "lance",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Lance",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.0FnEk6GBAmxlpH2d",
+            "effectUuid": null,
+            "fuid": "tactica-lance"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774817248297,
+        "modifiedTime": 1774862749538,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!0FnEk6GBAmxlpH2d.Oe9JUc7y8YWTRhul"
+    }
+  ],
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774817233197,
+    "modifiedTime": 1774864052010,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!0FnEk6GBAmxlpH2d"
+}

@@ -1,0 +1,144 @@
+{
+  "folder": "bMFOFb0gJAO4zSOF",
+  "name": "Tactica: Armor Bane",
+  "type": "effect",
+  "_id": "X44Xvs1UEbDI3ob7",
+  "img": "icons/skills/melee/shield-damaged-broken-blue.webp",
+  "system": {
+    "fuid": "afc-tactica-armor-bane",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Armor Bane",
+      "img": "icons/skills/melee/shield-damaged-broken-blue.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.X44Xvs1UEbDI3ob7",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "IPvikZebAT8Y2sbk": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "LP46QN1r2kF2fiOQ",
+                "type": "calculateDamageRuleTrigger",
+                "eventRelation": "source",
+                "damageSources": [
+                  "attack"
+                ],
+                "damageTypes": [],
+                "local": false,
+                "identifier": ""
+              },
+              "_id": "IPvikZebAT8Y2sbk",
+              "predicates": {
+                "Sc9smI1pG6oonxZ9": {
+                  "type": "flagRulePredicate",
+                  "_id": "Sc9smI1pG6oonxZ9",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "armored"
+                }
+              },
+              "actions": {
+                "ZDN6BtJIUajihPZN": {
+                  "type": "modifyDamageRuleAction",
+                  "_id": "ZDN6BtJIUajihPZN",
+                  "traits": {
+                    "entries": [
+                      "ignore-resistances"
+                    ]
+                  },
+                  "amount": "5",
+                  "effect": "",
+                  "cost": {
+                    "amount": null
+                  }
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "o7H2UBq2lZQjLR4d",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Armor Bane",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.X44Xvs1UEbDI3ob7",
+            "effectUuid": null,
+            "fuid": "tactica-armor-pierce"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774863306109,
+        "modifiedTime": 1774863371312,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!X44Xvs1UEbDI3ob7.o7H2UBq2lZQjLR4d"
+    }
+  ],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774863162280,
+    "modifiedTime": 1774864033584,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!X44Xvs1UEbDI3ob7"
+}

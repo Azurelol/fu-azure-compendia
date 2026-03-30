@@ -57,8 +57,13 @@
             "id": "",
             "name": "",
             "current": 0,
-            "max": 6,
+            "max": 4,
             "style": "basic"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": null
           }
         }
       },
@@ -86,7 +91,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1771755158640,
-        "modifiedTime": 1771758291688,
+        "modifiedTime": 1772211301691,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!OschrJkydxC3q2zY.UAWBQbuCgQ9yufJK"

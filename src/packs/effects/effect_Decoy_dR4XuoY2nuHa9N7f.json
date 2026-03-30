@@ -28,7 +28,21 @@
       "name": "Decoy",
       "_id": "JklH5TuM3ns94r2M",
       "type": "base",
-      "system": {},
+      "system": {
+        "duration": {
+          "event": "endOfScene"
+        },
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "basic"
+          }
+        }
+      },
       "changes": [],
       "description": "<p>The next hostile action that can include you <strong>among its targets</strong> must <strong>exclude</strong> you. Afterwards this effect expires.</p>",
       "tint": "#ffffff",
@@ -45,12 +59,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1739038845954,
-        "modifiedTime": 1739039002115,
-        "lastModifiedBy": "esOkelwPNblkbxW3",
+        "modifiedTime": 1772053729421,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!dR4XuoY2nuHa9N7f.JklH5TuM3ns94r2M"
