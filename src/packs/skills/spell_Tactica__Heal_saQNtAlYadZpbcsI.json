@@ -1,0 +1,146 @@
+{
+  "folder": "cuUpcbYKWpRO8BhR",
+  "name": "Tactica: Heal",
+  "type": "spell",
+  "_id": "saQNtAlYadZpbcsI",
+  "img": "icons/magic/life/cross-area-circle-green-white.webp",
+  "system": {
+    "fuid": "tactica-heal",
+    "description": "<p>You <strong>restore</strong> the <strong>hit points</strong> of an <strong>ally in an adjacent space.</strong></p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "class": {
+      "value": ""
+    },
+    "useWeapon": {
+      "accuracy": {
+        "value": false
+      },
+      "damage": {
+        "value": false
+      },
+      "hrZero": {
+        "value": false
+      }
+    },
+    "attributes": {
+      "primary": {
+        "value": "ins"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "mdef",
+    "resource": {
+      "enabled": true,
+      "amount": "15+$wlp",
+      "type": "hp"
+    },
+    "effects": {
+      "entries": [],
+      "prompt": false,
+      "duration": {
+        "event": "",
+        "tracking": "",
+        "interval": null
+      }
+    },
+    "impdamage": {
+      "hasImpDamage": {
+        "value": false
+      },
+      "value": 0,
+      "impType": {
+        "value": "minor"
+      },
+      "type": {
+        "value": "physical"
+      }
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "isOffensive": {
+      "value": false
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      },
+      "attributes": {
+        "primary": {
+          "value": "ins"
+        },
+        "secondary": {
+          "value": "mig"
+        }
+      },
+      "accuracy": {
+        "value": 0
+      },
+      "damage": {
+        "hasDamage": {
+          "value": false
+        },
+        "value": 0,
+        "type": {
+          "value": "physical"
+        }
+      }
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": "5",
+      "perTarget": false
+    },
+    "targeting": {
+      "rule": "single",
+      "max": 0
+    },
+    "traits": [],
+    "source": "FU-AZURE",
+    "opportunity": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774879520535,
+    "modifiedTime": 1774879718986,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!saQNtAlYadZpbcsI"
+}

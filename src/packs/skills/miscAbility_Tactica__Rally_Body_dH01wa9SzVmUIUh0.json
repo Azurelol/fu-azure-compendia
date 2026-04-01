@@ -1,5 +1,5 @@
 {
-  "folder": "hqf1FEMmVHy7RQD3",
+  "folder": "hneMNmBJl63lmwlH",
   "name": "Tactica: Rally Body",
   "type": "miscAbility",
   "_id": "dH01wa9SzVmUIUh0",
@@ -86,7 +86,7 @@
     "opportunity": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -104,7 +104,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774871715138,
-    "modifiedTime": 1774872015163,
+    "modifiedTime": 1774878904318,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!dH01wa9SzVmUIUh0"

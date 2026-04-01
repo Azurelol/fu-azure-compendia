@@ -13,7 +13,7 @@
   },
   "effects": [
     {
-      "name": "Tactica: Cavalry",
+      "name": "Tactica: Cavalry Unit",
       "img": "icons/environment/people/cavalry-heavy.webp",
       "origin": "Compendium.fu-azure-compendia.effects.Item.rIMdiLw6etJlGFtr",
       "system": {
@@ -28,7 +28,44 @@
           "crisisInteraction": "none"
         },
         "rules": {
-          "elements": {},
+          "elements": {
+            "C8skHTYMcoIzuYnd": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "T23kPXiR6XGdlTY4",
+                "type": "renderCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [],
+                "itemGroups": [],
+                "local": false,
+                "identifier": ""
+              },
+              "_id": "C8skHTYMcoIzuYnd",
+              "predicates": {
+                "4vWOO52hXSci6qzM": {
+                  "type": "flagRulePredicate",
+                  "_id": "4vWOO52hXSci6qzM",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "infantry"
+                },
+                "Jr6mgV8yj9UbGp9h": {
+                  "type": "checkRulePredicate",
+                  "_id": "Jr6mgV8yj9UbGp9h",
+                  "outcome": "success",
+                  "result": null,
+                  "parity": "even"
+                }
+              },
+              "actions": {
+                "iT3uvv019Ub4XlMs": {
+                  "type": "messageRuleAction",
+                  "_id": "iT3uvv019Ub4XlMs",
+                  "message": "<p>The unit suffers from <strong>break</strong>.</p>"
+                }
+              }
+            }
+          },
           "progress": {
             "enabled": false,
             "id": "",
@@ -59,7 +96,7 @@
           "priority": null
         }
       ],
-      "description": "",
+      "description": "<p>This unit gains <strong>increased movement</strong> and can inflict <strong>break</strong> on <strong>infantry units</strong>.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -83,7 +120,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774817788366,
-        "modifiedTime": 1774874720012,
+        "modifiedTime": 1774881971270,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!rIMdiLw6etJlGFtr.bgqKmtFpVxQFFobs"

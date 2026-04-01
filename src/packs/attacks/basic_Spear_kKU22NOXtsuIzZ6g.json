@@ -7,7 +7,7 @@
   "system": {
     "subtype": {},
     "summary": {
-      "value": "You attack the target with a thrust of your spear"
+      "value": ""
     },
     "description": "",
     "isFavored": {
@@ -31,11 +31,11 @@
       }
     },
     "accuracy": {
-      "value": 1
+      "value": 0
     },
     "defense": "def",
     "damage": {
-      "value": 5
+      "value": 7
     },
     "type": {
       "value": "melee"
@@ -59,7 +59,12 @@
         }
       }
     },
-    "fuid": "afc-spear"
+    "fuid": "afc-spear",
+    "effects": {
+      "duration": {
+        "interval": null
+      }
+    }
   },
   "effects": [],
   "sort": 1600000,
@@ -79,7 +84,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731694797281,
-    "modifiedTime": 1770838452693,
+    "modifiedTime": 1774877420963,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

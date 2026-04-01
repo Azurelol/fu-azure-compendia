@@ -57,12 +57,6 @@
           "mode": 2,
           "value": "infantry",
           "priority": null
-        },
-        {
-          "key": "system.resources.hp.max",
-          "mode": 2,
-          "value": "5",
-          "priority": null
         }
       ],
       "description": "<p>This unit can perform <strong>chain attacks</strong>.</p>",
@@ -89,7 +83,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774862366516,
-        "modifiedTime": 1774874701479,
+        "modifiedTime": 1774883789482,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!JMMAuf53DsqxoDnc.DA2eJTHYbM7fwlf3"

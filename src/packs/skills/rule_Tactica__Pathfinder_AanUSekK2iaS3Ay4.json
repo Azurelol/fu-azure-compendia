@@ -1,5 +1,5 @@
 {
-  "folder": "hqf1FEMmVHy7RQD3",
+  "folder": "KzLESm869DaNwCms",
   "name": "Tactica: Pathfinder",
   "type": "rule",
   "_id": "AanUSekK2iaS3Ay4",
@@ -31,7 +31,7 @@
     "source": "FU-AZURE"
   },
   "effects": [],
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -49,7 +49,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774874065370,
-    "modifiedTime": 1774874216895,
+    "modifiedTime": 1774878895103,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!AanUSekK2iaS3Ay4"

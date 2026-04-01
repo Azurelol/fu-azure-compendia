@@ -1,5 +1,5 @@
 {
-  "folder": "hqf1FEMmVHy7RQD3",
+  "folder": "KzLESm869DaNwCms",
   "name": "Tactica: Reprisal",
   "type": "rule",
   "_id": "9ti16lwufANkmqDO",
@@ -108,7 +108,7 @@
       "_key": "!items.effects!9ti16lwufANkmqDO.gODrjdCCPrpLfwYw"
     }
   ],
-  "sort": 0,
+  "sort": 125000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -126,7 +126,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774870786925,
-    "modifiedTime": 1774870859533,
+    "modifiedTime": 1774878907054,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!9ti16lwufANkmqDO"

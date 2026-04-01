@@ -1,5 +1,5 @@
 {
-  "folder": "hqf1FEMmVHy7RQD3",
+  "folder": "KzLESm869DaNwCms",
   "name": "Tactica: Vantage",
   "type": "rule",
   "_id": "A67rjtmZgi1hdSHf",
@@ -31,7 +31,7 @@
     "source": "FU-AZURE"
   },
   "effects": [],
-  "sort": 0,
+  "sort": 103125,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -49,7 +49,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774870651915,
-    "modifiedTime": 1774871520474,
+    "modifiedTime": 1774878913547,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!A67rjtmZgi1hdSHf"

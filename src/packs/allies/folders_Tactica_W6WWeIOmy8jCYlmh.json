@@ -1,0 +1,22 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Tactica",
+  "color": null,
+  "sorting": "a",
+  "_id": "W6WWeIOmy8jCYlmh",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+    "modifiedTime": 1774880759849
+  },
+  "_key": "!folders!W6WWeIOmy8jCYlmh"
+}

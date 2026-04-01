@@ -1,5 +1,5 @@
 {
-  "folder": "hqf1FEMmVHy7RQD3",
+  "folder": "hneMNmBJl63lmwlH",
   "name": "Tactica: Swap",
   "type": "miscAbility",
   "_id": "GrTQDvO7aKMdDXRO",
@@ -86,7 +86,7 @@
     "opportunity": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 103125,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -104,7 +104,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774873414888,
-    "modifiedTime": 1774873473154,
+    "modifiedTime": 1774878914437,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!GrTQDvO7aKMdDXRO"

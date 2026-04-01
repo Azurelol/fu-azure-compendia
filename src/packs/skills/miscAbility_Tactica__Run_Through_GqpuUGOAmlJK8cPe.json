@@ -1,12 +1,12 @@
 {
   "folder": "hneMNmBJl63lmwlH",
-  "name": "Tactica: Dance",
+  "name": "Tactica: Run Through",
   "type": "miscAbility",
-  "_id": "uCegTE5JLrff354q",
-  "img": "icons/skills/movement/arrow-upward-yellow.webp",
+  "_id": "GqpuUGOAmlJK8cPe",
+  "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
   "system": {
-    "fuid": "afc-tactica-dance",
-    "description": "<p>The unit <strong>refreshes</strong> another unit, letting them <strong>act again immediately</strong>.</p>",
+    "fuid": "tactica-run-through",
+    "description": "<p>You <strong>perform</strong> <strong>an</strong> <strong>attack</strong> against an adjacent foe, then <strong>move</strong> to the space on the opposite side of them.</p>",
     "summary": {
       "value": ""
     },
@@ -20,11 +20,11 @@
     "useWeapon": {
       "accuracy": false,
       "damage": false,
-      "traits": true
+      "traits": false
     },
     "defense": "def",
     "damage": {
-      "hasDamage": false,
+      "hasDamage": true,
       "hrZero": false,
       "value": 0,
       "type": "physical",
@@ -83,10 +83,11 @@
       "value": false
     },
     "source": "FU-AZURE",
-    "opportunity": ""
+    "opportunity": "",
+    "accuracy": ""
   },
   "effects": [],
-  "sort": 100000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -103,9 +104,9 @@
     "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "createdTime": 1774872278542,
-    "modifiedTime": 1774878901729,
+    "createdTime": 1774879753882,
+    "modifiedTime": 1774879838705,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
-  "_key": "!items!uCegTE5JLrff354q"
+  "_key": "!items!GqpuUGOAmlJK8cPe"
 }

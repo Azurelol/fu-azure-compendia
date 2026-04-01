@@ -31,11 +31,11 @@
       }
     },
     "accuracy": {
-      "value": 0
+      "value": 2
     },
     "defense": "def",
     "damage": {
-      "value": 5
+      "value": 4
     },
     "type": {
       "value": "melee"
@@ -59,7 +59,12 @@
         }
       }
     },
-    "fuid": "afc-dagger"
+    "fuid": "afc-dagger",
+    "effects": {
+      "duration": {
+        "interval": null
+      }
+    }
   },
   "effects": [],
   "sort": 1100000,
@@ -79,7 +84,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731694797281,
-    "modifiedTime": 1770837544936,
+    "modifiedTime": 1774877979166,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

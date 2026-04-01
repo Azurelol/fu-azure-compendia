@@ -7,7 +7,7 @@
   "system": {
     "subtype": {},
     "summary": {
-      "value": "You slash the target with your sword"
+      "value": ""
     },
     "description": "",
     "isFavored": {
@@ -59,7 +59,12 @@
         }
       }
     },
-    "fuid": "afc-sword"
+    "fuid": "afc-sword",
+    "effects": {
+      "duration": {
+        "interval": null
+      }
+    }
   },
   "effects": [],
   "sort": 1800000,
@@ -79,7 +84,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731694797281,
-    "modifiedTime": 1770838477816,
+    "modifiedTime": 1774876539751,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

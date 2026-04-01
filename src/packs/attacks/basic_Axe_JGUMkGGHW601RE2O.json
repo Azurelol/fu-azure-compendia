@@ -31,11 +31,11 @@
       }
     },
     "accuracy": {
-      "value": 0
+      "value": -1
     },
     "defense": "def",
     "damage": {
-      "value": 5
+      "value": 9
     },
     "type": {
       "value": "melee"
@@ -59,7 +59,12 @@
         }
       }
     },
-    "fuid": "afc-axe"
+    "fuid": "afc-axe",
+    "effects": {
+      "duration": {
+        "interval": null
+      }
+    }
   },
   "effects": [],
   "sort": 1400000,
@@ -79,7 +84,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731694797281,
-    "modifiedTime": 1770837524970,
+    "modifiedTime": 1774877438442,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

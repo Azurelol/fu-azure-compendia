@@ -1,5 +1,5 @@
 {
-  "folder": "hqf1FEMmVHy7RQD3",
+  "folder": "hneMNmBJl63lmwlH",
   "name": "Tactica: Shove",
   "type": "miscAbility",
   "_id": "gsDqi5E9Go4dCdiE",
@@ -86,7 +86,7 @@
     "opportunity": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 106250,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -104,7 +104,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774871562770,
-    "modifiedTime": 1774871612719,
+    "modifiedTime": 1774878911229,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!gsDqi5E9Go4dCdiE"

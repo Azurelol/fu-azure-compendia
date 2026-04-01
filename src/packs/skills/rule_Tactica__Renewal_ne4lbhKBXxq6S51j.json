@@ -1,5 +1,5 @@
 {
-  "folder": "hqf1FEMmVHy7RQD3",
+  "folder": "KzLESm869DaNwCms",
   "name": "Tactica: Renewal",
   "type": "rule",
   "_id": "ne4lbhKBXxq6S51j",
@@ -31,7 +31,7 @@
     "source": "FU-AZURE"
   },
   "effects": [],
-  "sort": 0,
+  "sort": 106250,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -49,7 +49,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774872170725,
-    "modifiedTime": 1774872250138,
+    "modifiedTime": 1774878912131,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!ne4lbhKBXxq6S51j"

@@ -1,5 +1,5 @@
 {
-  "folder": "hqf1FEMmVHy7RQD3",
+  "folder": "hneMNmBJl63lmwlH",
   "name": "Tactica: Reposition",
   "type": "miscAbility",
   "_id": "TJdztnKb5uajOhLk",
@@ -86,7 +86,7 @@
     "opportunity": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 112500,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -104,7 +104,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774874533509,
-    "modifiedTime": 1774874586689,
+    "modifiedTime": 1774878908601,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!TJdztnKb5uajOhLk"

@@ -1,0 +1,173 @@
+{
+  "folder": "hneMNmBJl63lmwlH",
+  "name": "Tactica: Potion",
+  "type": "skill",
+  "_id": "VbdVzWSHifM6YDZB",
+  "img": "icons/consumables/potions/bottle-bulb-corked-green.webp",
+  "system": {
+    "fuid": "afc-tactica-potion",
+    "description": "<p>This unit may use their <strong>action</strong> to recover the hit points of <strong>itself</strong> or an <strong>adjacent ally.</strong> This can be done as long as there are <strong>potions remaining in the stack</strong>.</p><ul><li><p><strong>Target</strong>: @GAIN[20 hp]</p></li></ul>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "attributes": {
+      "primary": "dex",
+      "secondary": "ins"
+    },
+    "useWeapon": {
+      "accuracy": false,
+      "damage": false,
+      "traits": true
+    },
+    "defense": "def",
+    "damage": {
+      "hasDamage": false,
+      "hrZero": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "",
+      "onApply": ""
+    },
+    "targeting": {
+      "rule": "special",
+      "max": 0
+    },
+    "traits": [],
+    "effects": {
+      "entries": [],
+      "prompt": false,
+      "duration": {
+        "event": "",
+        "tracking": "",
+        "interval": null
+      }
+    },
+    "cost": {
+      "resource": "mp",
+      "amount": "",
+      "perTarget": false
+    },
+    "resource": {
+      "enabled": false,
+      "amount": "",
+      "type": "hp"
+    },
+    "hasRoll": {
+      "value": false
+    },
+    "rp": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 10,
+      "min": 0
+    },
+    "class": {
+      "value": ""
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Potion",
+      "img": "icons/consumables/potions/bottle-bulb-corked-green.webp",
+      "origin": "Compendium.fu-azure-compendia.skills.Item.VbdVzWSHifM6YDZB",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": true,
+            "id": "tactica-potion",
+            "name": "Potion",
+            "current": 2,
+            "max": 2,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "pVX8lTwDTj0qUEgc",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Potion",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.skills.Item.VbdVzWSHifM6YDZB",
+            "effectUuid": null,
+            "fuid": "afc-tactica-potion"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1774879073216,
+        "modifiedTime": 1774879133196,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!VbdVzWSHifM6YDZB.pVX8lTwDTj0qUEgc"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774878994699,
+    "modifiedTime": 1774879270885,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!VbdVzWSHifM6YDZB"
+}
