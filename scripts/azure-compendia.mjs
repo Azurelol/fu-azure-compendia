@@ -14,6 +14,23 @@ Hooks.once('init', () => {
         Sequencer.Database.registerEntries(AzureCompendiaSettings.moduleId, AzureCompendiaDatabase.entries);
     });
     Azurecompendia.log('Hello World!');
+
+    // TODO: Add something??
+    // Hooks.on('projectfu.sheets.extensions', (extensions) => {
+    //     if (extensions.party) {
+    //         extensions.party.registerTab('fu-azure-compendia', {
+    //             group: 'primary',
+    //             active: 'false',
+    //             label: 'Azure Compendia',
+    //             icon: 'ra ra-book'
+    //         },
+    //             {
+    //               template: 'modules/fu-azure-compendia/templates/party-sheet-tab.hbs'
+    //             },
+    //             (context) => {
+    //         });
+    //     }
+    // });
 });
 
 
