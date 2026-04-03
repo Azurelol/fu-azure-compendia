@@ -1,0 +1,1 @@
+The following sprites were originally uploaded by [Iscaneus](https://www.deviantart.com/iscaneus), under [FE Class Tree Large](https://www.deviantart.com/iscaneus/art/FE-Class-Tree-Large-835383875).
