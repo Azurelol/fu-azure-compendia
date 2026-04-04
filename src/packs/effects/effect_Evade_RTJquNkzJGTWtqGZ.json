@@ -1,5 +1,5 @@
 {
-  "folder": "WuqxGkhx855wRG9f",
+  "folder": "D4TsK6IObRqhKJQ9",
   "name": "Evade",
   "type": "effect",
   "_id": "RTJquNkzJGTWtqGZ",
@@ -69,7 +69,7 @@
       "_key": "!items.effects!RTJquNkzJGTWtqGZ.VCR0I6nEdpNEMu78"
     }
   ],
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -82,7 +82,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731175584066,
-    "modifiedTime": 1771088263290,
+    "modifiedTime": 1775215557674,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

@@ -1,0 +1,1481 @@
+{
+  "folder": "3R3qXlL3089n2nJU",
+  "name": "Cassandra",
+  "type": "character",
+  "_id": "Cvzf5EdfpVyL2DwD",
+  "img": "modules/fu-azure-compendia/assets/tokens/allies/elementalist.png",
+  "system": {
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {
+      "mainHand": "BNAc3NDKhvZsjwRQ",
+      "offHand": "BNAc3NDKhvZsjwRQ",
+      "armor": "7OuAqOQEwAhZyyJq"
+    },
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "all": 0,
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "turns": 0
+    },
+    "multipliers": {
+      "incomingRecovery": {
+        "mp": 1,
+        "ip": 1,
+        "hp": 1
+      },
+      "incomingLoss": {
+        "hp": 1,
+        "mp": 1,
+        "ip": 1
+      },
+      "outgoingRecovery": {
+        "hp": 1,
+        "mp": 1,
+        "ip": 1
+      }
+    },
+    "overrides": {
+      "damageType": {
+        "all": {
+          "normal": "",
+          "priority": ""
+        },
+        "attack": {
+          "normal": "",
+          "priority": ""
+        },
+        "spell": {
+          "normal": "",
+          "priority": ""
+        },
+        "skill": {
+          "normal": "",
+          "priority": ""
+        }
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "description": "",
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 45,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 45,
+        "bonus": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "value": 6,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 3
+      },
+      "exp": {
+        "value": 0
+      },
+      "identity": {
+        "name": ""
+      },
+      "pronouns": {
+        "name": ""
+      },
+      "theme": {
+        "name": ""
+      },
+      "origin": {
+        "name": ""
+      }
+    },
+    "bonds": [],
+    "vehicle": {
+      "vehicle": null,
+      "embarked": false,
+      "weapons": [],
+      "armor": null,
+      "supports": []
+    },
+    "floralist": {
+      "planted": null,
+      "garden": null
+    }
+  },
+  "prototypeToken": {
+    "name": "Cassandra",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/allies/elementalist.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": "FUCR130",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        },
+        "hasDamage": true,
+        "traits": []
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209102439,
+        "modifiedTime": 1775209102439,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "AlOlUZ5gtp4TIRzt",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "_key": "!actors.items!Cvzf5EdfpVyL2DwD.AlOlUZ5gtp4TIRzt"
+    },
+    {
+      "name": "Elementalist",
+      "type": "class",
+      "system": {
+        "summary": {
+          "value": "Ignore the warnings of this World at your own risk."
+        },
+        "description": "<h5><strong>ALSO: Battle Mage, Geomancer, Sorcerer</strong></h5><p>An <strong>Elementalist </strong>has learned to channel the souls that flow within the basic elements of creation: Air, Earth, Fire and Water. Some of them develop complex spells to contain the powerful energies of nature; others seek its protection in harmony and communion. Elemental magic can be highly destructive, causing damage and inflicting negative status effects. Due to this, there are many who would covet an Elementalist’s abilities… often for nefarious purposes.</p><hr /><h5><strong>ELEMENTALIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>ELEMENTALIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.muhtqtJ6av32K34Z]{Cataclysm} <strong>(SL3)</strong></p><p>When you cast a spell with a <strong>duration</strong> of “Instantaneous”, if you have an <strong>arcane</strong> weapon equipped, you may <strong>increase the spell’s total MP cost</strong> by up to <strong>【SL × 10】</strong> Mind Points.</p><p>If you do so, the spell deals 5 extra damage for every 10 Mind Points by which you increased its cost this way.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5]{Elemental Magic} <strong>(SL10)</strong></p><p><span class=\"fontstyle0\">Each time you acquire this Skill, learn one Elementalist spell (see <strong>Core Rulebook</strong>, page <strong>188</strong>).</span></p><p><span class=\"fontstyle0\">Offensive </span>( @ICON[offensive] ) <span class=\"fontstyle0\">Elementalist spells use </span><span class=\"fontstyle3\"><strong>【</strong></span><span class=\"fontstyle4\"><strong>INS + WLP</strong></span><span class=\"fontstyle3\"><strong>】 </strong></span><span class=\"fontstyle0\">for the Magic Check.</span> </p><hr /><p>@UUID[Compendium.projectfu.skills.Item.b5zzfsWN7h5ugrnW]{Magic Artillery} <strong>(SL3)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell, if you have an <strong>arcane </strong>weapon equipped, you gain a bonus to your Magic Check equal to <strong>【SL × 2】</strong> .</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.qgy43lWGmJ2YGhTp]{Ritual Elementalism}</p><p>You may perform Rituals whose effects fall within the <strong>Elementalism </strong>discipline. </p><p>Elementalism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.v6rTedHMjbLuLdN3]{Spellblade} <strong>(SL4)</strong></p><p>When you cast an offensive ( @ICON[offensive] ) spell targeting a <strong>single creature</strong>, if the spell has a <strong>total Mind Point cost of 【SL × 10】or lower </strong>and you have one or more <strong>bow</strong>, <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, <strong>spear </strong>or <strong>sword </strong>weapons equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon’s Accuracy Check formula; for instance, the Magic Check for an Elementalist spell cast through a <strong>bronze sword</strong> (<strong>Core Rulebook</strong>, page <strong>131</strong>) will be <strong>【DEX + MIG】</strong>+1 instead of <strong>【INS + WLP】 </strong>.</p><h3 id=\"elementalist-skills\"><strong>ELEMENTALIST SPELLS</strong></h3><ul><li><p>For <strong>spell</strong> breakdown and a list of Elemental Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.hK8r8lsQNaknSqdq]{Elementalist Rules}</p></li></ul>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": "FUCR186",
+        "fuid": "elementalist"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.vSE3PMoHTGLC1yzG",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209136487,
+        "modifiedTime": 1775209136487,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "_id": "vSE3PMoHTGLC1yzG",
+      "sort": 1200000,
+      "_key": "!actors.items!Cvzf5EdfpVyL2DwD.vSE3PMoHTGLC1yzG"
+    },
+    {
+      "name": "Weaponmaster",
+      "type": "class",
+      "system": {
+        "summary": {
+          "value": "The wiser blades remain unsheathed."
+        },
+        "description": "<h5><strong>ALSO: Fighter, Rōnin, Warrior</strong></h5><p>Weaponmasters spend years upon years honing their close combat arts. Most of them display remarkable skill with a variety of weapons; others have trained to become one with a specific armament. Many <strong>Weaponmasters </strong>follow and protect someone out of love or loyalty, but there are also those who tirelessly wander the world seeking worthy opponents, legendary magical weapons, or capable teachers.</p><hr /><h5><strong>WEAPONMASTER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Hit Points by 5.</li><li>Gain the ability to equip <strong>martial melee weapons</strong> and <strong>martial shields</strong>.</li></ul><h2><strong>WEAPONMASTER SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.IhBCZsilt0bj5RJK]{Bladestorm}</p><p>When you perform a <strong>melee </strong>attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi (2)</strong>; or you increase the attack’s multi property by one, up to a maximum of <strong>multi (3)</strong>.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.7jWycVYFgZ1BMxch]{Bone Crusher} <strong>(SL4)</strong></p><p>When you hit one or more targets with a <strong>melee </strong>attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict <strong>dazed </strong>on each target hit by the attack; <strong>or </strong>inflict <strong>weak </strong>on each target hit by the attack; <strong>or </strong>each target hit by the attack loses <strong>【SL × 10】 </strong>Mind Points. Describe your maneuver!</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.WZDdQfw9VF64La2P]{Breach} <strong>(SL3)</strong></p><p>You may use an action and spend 5 Mind Points to perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack must target <strong>a single creature</strong>. If the attack is successful, it deals no damage and you choose one option: you destroy one shield equipped by the target; or you destroy the target’s equipped armor; <strong>or</strong> all sources deal <strong>【SL × 2】</strong> extra damage to the target until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.XhcTVGtGEk7L2Ddq]{Counterattack}</p><p>After an enemy <strong>hits or misses you with a melee attack</strong>, if the Result of their Accuracy Check was an <strong>even number</strong>, you may perform a<strong> free attack </strong>against that enemy (after their attack has been fully resolved). This attack must be a <strong>melee </strong>attack and must have that enemy as its <strong>only </strong>target; treat your<strong> High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ztxLYzo1ADCaRupR]{Melee Weapon Mastery} <strong>(SL4)</strong></p><p>You gain a bonus equal to <strong>【SL】 </strong>to all Accuracy Checks with <strong>melee </strong>weapons.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": true
+            },
+            "mp": {
+              "value": false
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": true
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": true
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": "FUCR218",
+        "fuid": "weaponmaster"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.kVSzbabb2AUviwnH",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209155431,
+        "modifiedTime": 1775209155431,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "_id": "kVSzbabb2AUviwnH",
+      "sort": 0,
+      "_key": "!actors.items!Cvzf5EdfpVyL2DwD.kVSzbabb2AUviwnH"
+    },
+    {
+      "folder": "t0can7tJoRis1H3f",
+      "name": "Bone Crusher",
+      "type": "skill",
+      "_id": "7jWycVYFgZ1BMxch",
+      "img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster_bone_crusher.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you hit one or more targets with a <strong>melee</strong> attack that would deal damage, you may have the attack deal no damage. If you do, choose one option:</p><ul><li><p>Inflict <strong>dazed </strong>on each target hit by the attack.</p></li><li><p>Inflict <strong>weak</strong> on each target hit by the attack.</p></li><li><p>Each target hit by the attack loses <strong>【SL × 10】</strong> Mind Points.</p></li></ul><p>Describe your maneuver!</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 4,
+          "min": 0
+        },
+        "class": {
+          "value": "Weaponmaster"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": "0",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": "FUCR219",
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "bone-crusher",
+        "targeting": {
+          "rule": "special",
+          "max": 0
+        },
+        "effects": {
+          "entries": [
+            "dazed",
+            "weak"
+          ],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": ""
+          }
+        },
+        "resource": {
+          "enabled": true,
+          "type": "mp",
+          "amount": "-10*$sl"
+        },
+        "traits": [],
+        "cost": {
+          "resource": "mp",
+          "amount": "",
+          "perTarget": false
+        }
+      },
+      "effects": [
+        {
+          "name": "Bone Crusher",
+          "img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster_bone_crusher.png",
+          "system": {
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 1
+            },
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "rules": {
+              "elements": {
+                "9r3nnSGW1csXQT6t": {
+                  "type": "ruleElement",
+                  "_id": "9r3nnSGW1csXQT6t",
+                  "trigger": {
+                    "_id": "87W43PcJeCZksnpe",
+                    "type": "renderCheckRuleTrigger",
+                    "eventRelation": "source",
+                    "checkTypes": [
+                      "accuracy"
+                    ],
+                    "itemGroups": [
+                      "attack"
+                    ],
+                    "identifier": "",
+                    "local": false
+                  },
+                  "actions": {
+                    "9e9YoPMUF2VqMiU1": {
+                      "type": "messageRuleAction",
+                      "_id": "9e9YoPMUF2VqMiU1",
+                      "message": "<p>Deal no damage to have targets: @EFFECT[dazed], @EFFECT[weak], or @LOSS[10*$sl mp]{SL × 10 MP}.</p>"
+                    }
+                  },
+                  "predicates": {
+                    "qyfjrVjUjfGzjNdB": {
+                      "type": "checkRulePredicate",
+                      "_id": "qyfjrVjUjfGzjNdB",
+                      "outcome": "success",
+                      "result": null,
+                      "attributes": {
+                        "primary": {
+                          "value": ""
+                        },
+                        "secondary": {
+                          "value": ""
+                        }
+                      },
+                      "parity": "",
+                      "quantifier": "any"
+                    },
+                    "jXE1ZYNF1tmxz1t9": {
+                      "type": "weaponRulePredicate",
+                      "_id": "jXE1ZYNF1tmxz1t9",
+                      "weaponType": "melee",
+                      "selector": "self",
+                      "martial": "",
+                      "handedness": "",
+                      "categories": []
+                    }
+                  },
+                  "selector": "initial",
+                  "enabled": true
+                }
+              },
+              "progress": {
+                "enabled": false,
+                "id": "",
+                "name": "",
+                "current": 0,
+                "max": 6,
+                "style": "basic",
+                "step": 1
+              }
+            }
+          },
+          "duration": {
+            "startTime": 0,
+            "combat": null,
+            "startRound": 0,
+            "startTurn": 0
+          },
+          "disabled": false,
+          "_id": "YkOEtHV4uwAnjQnW",
+          "type": "base",
+          "changes": [],
+          "description": "<p>When you hit one or more targets with a <strong>melee </strong>attack that would deal damage, you may have the attack deal no damage. If you do, choose to have the targets suffer <strong>dazed</strong>, <strong>weak</strong>, or <strong>lose MP</strong>.</p>",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!Cvzf5EdfpVyL2DwD.7jWycVYFgZ1BMxch.YkOEtHV4uwAnjQnW"
+        }
+      ],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.7jWycVYFgZ1BMxch",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209159348,
+        "modifiedTime": 1775209159348,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "sort": 200000,
+      "_key": "!actors.items!Cvzf5EdfpVyL2DwD.7jWycVYFgZ1BMxch"
+    },
+    {
+      "folder": "laGyUtQnXPDC2pZG",
+      "name": "Elemental Magic",
+      "type": "skill",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_elemental_magic.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Each time you acquire this Skill, learn one Elementalist spell (see <strong>Core Rulebook</strong>, page <strong>188</strong>).</p><p>Offensive (@ICON[offensive]) Elementalist spells use <strong>【INS + WLP】</strong> for the Magic Check.</p><hr /><p>For <strong>spell</strong> breakdown and a list of <strong>Elementalist Spells</strong>, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.hK8r8lsQNaknSqdq]{Elementalist Rules}</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": "0",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": "FUCR187",
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "elemental-magic",
+        "targeting": {
+          "rule": "self",
+          "max": 0
+        },
+        "effects": {
+          "duration": {
+            "interval": null,
+            "event": "",
+            "tracking": ""
+          },
+          "entries": [],
+          "prompt": false
+        },
+        "traits": [],
+        "cost": {
+          "resource": "mp",
+          "amount": "",
+          "perTarget": false
+        },
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "6utNKI7T4Vq4KjiR": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.zlmL0suZwTCQYzE5",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209162848,
+        "modifiedTime": 1775209229414,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "zlmL0suZwTCQYzE5",
+      "sort": 0,
+      "_key": "!actors.items!Cvzf5EdfpVyL2DwD.zlmL0suZwTCQYzE5"
+    },
+    {
+      "folder": "MQ3l4WYwAkXz8jPg",
+      "name": "Soaring Strike",
+      "type": "spell",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/spells/soaring_strike.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>The wind carries your strikes across the battlefield. You may immediately perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack may target creatures that can only be targeted by <strong>ranged</strong> attacks.</p><p>If you used a weapon belonging to the <strong>brawling</strong>, <strong>spear,</strong> or <strong>sword</strong> Category for this attack, it deals 5 extra damage.</p><p>If you hit a flying target with this attack, you may force them to land immediately.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": "FUCR189",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 5
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "soaring-strike",
+        "traits": [],
+        "targeting": {
+          "rule": "self",
+          "max": 0
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": false
+        },
+        "defense": "mdef",
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": ""
+          }
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "mA8SNY2rY4X5tOHa": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.YNo4gKczuJWRKPJ9",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209175835,
+        "modifiedTime": 1775209175835,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "YNo4gKczuJWRKPJ9",
+      "sort": 400000,
+      "_key": "!actors.items!Cvzf5EdfpVyL2DwD.YNo4gKczuJWRKPJ9"
+    },
+    {
+      "name": "Heavy Spear",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/heavy-spear.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": true
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 12
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "spear"
+        },
+        "hands": {
+          "value": "two-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": "FUCR131",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "heavy-spear",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        },
+        "hasDamage": true,
+        "traits": []
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.BNAc3NDKhvZsjwRQ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209184695,
+        "modifiedTime": 1775209184695,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "BNAc3NDKhvZsjwRQ",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "_key": "!actors.items!Cvzf5EdfpVyL2DwD.BNAc3NDKhvZsjwRQ"
+    },
+    {
+      "name": "Sage Robe",
+      "type": "armor",
+      "img": "systems/projectfu/styles/static/compendium/armor/sage-robe.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 200
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "def": {
+          "value": 1,
+          "attribute": "dex"
+        },
+        "mdef": {
+          "value": 2,
+          "attribute": "ins"
+        },
+        "init": {
+          "value": -2
+        },
+        "source": "FUCR132",
+        "fuid": "sage-robe",
+        "slots": "alpha",
+        "items": []
+      },
+      "effects": [],
+      "folder": "05D3J15J6lL30XAq",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.basic-equipment.Item.7OuAqOQEwAhZyyJq",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209191677,
+        "modifiedTime": 1775209191677,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "7OuAqOQEwAhZyyJq",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "_key": "!actors.items!Cvzf5EdfpVyL2DwD.7OuAqOQEwAhZyyJq"
+    },
+    {
+      "folder": "MQ3l4WYwAkXz8jPg",
+      "name": "Elemental Weapon",
+      "type": "spell",
+      "img": "systems/projectfu/styles/static/compendium/classes/elementalist/spells/elemental_weapon.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You imbue a weapon with elemental energy. Choose a damage type: <strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>. Until this spell ends, all damage dealt by the weapon becomes of the chosen damage type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action.</p><p>This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Targets Receive:</strong> @WEAPON[air bolt earth fire ice]{Elemental Weapon}</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Elementalist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "scene"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": "FUCR188",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "elemental-weapon",
+        "targeting": {
+          "rule": "single",
+          "max": 0
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": false
+        },
+        "defense": "mdef",
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "mA8SNY2rY4X5tOHa": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.GLQMtlajiccDx6oY",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209225089,
+        "modifiedTime": 1775209225089,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "GLQMtlajiccDx6oY",
+      "sort": 800000,
+      "_key": "!actors.items!Cvzf5EdfpVyL2DwD.GLQMtlajiccDx6oY"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775209102395,
+    "modifiedTime": 1775209196066,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!actors!Cvzf5EdfpVyL2DwD"
+}

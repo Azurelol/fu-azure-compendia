@@ -1,0 +1,352 @@
+{
+  "folder": "THTKVOwQBKn2T3kI",
+  "name": "Tactica Ridersbane",
+  "type": "basic",
+  "_id": "VrOCFrD78SpCMxW2",
+  "img": "icons/weapons/polearms/spear-hooked-spike.webp",
+  "system": {
+    "fuid": "afc-tactica-ridersbane",
+    "description": "",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 8
+    },
+    "hasDamage": true,
+    "type": {
+      "value": "melee"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "effects": {
+      "entries": [],
+      "prompt": false,
+      "duration": {
+        "event": "",
+        "tracking": "",
+        "interval": null
+      }
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "traits": [],
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Cavalry Bane",
+      "img": "icons/weapons/polearms/spear-hooked-spike.webp",
+      "type": "base",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "wW1r12T5p8sDUJJs": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "1nd6WNsPlLrgznjc",
+                "type": "calculateDamageRuleTrigger",
+                "eventRelation": "source",
+                "damageSources": [
+                  "attack"
+                ],
+                "damageTypes": [],
+                "local": true,
+                "identifier": ""
+              },
+              "_id": "wW1r12T5p8sDUJJs",
+              "predicates": {
+                "TiyqGKvIMsEdLIsJ": {
+                  "type": "flagRulePredicate",
+                  "_id": "TiyqGKvIMsEdLIsJ",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "cavalry",
+                  "selector": "initial",
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "I4Qf82JE7PEvYiwU": {
+                  "type": "modifyDamageRuleAction",
+                  "_id": "I4Qf82JE7PEvYiwU",
+                  "amount": "10",
+                  "effect": "",
+                  "cost": {
+                    "amount": null,
+                    "resource": "mp",
+                    "perTarget": false
+                  },
+                  "damageTypes": [],
+                  "traits": {
+                    "entries": []
+                  },
+                  "variant": ""
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar",
+            "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.rkNj9VOYlxxUqplT",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Cavalry Bane",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.rkNj9VOYlxxUqplT",
+            "effectUuid": null,
+            "fuid": "afc-tactica-cavalry-bane"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775218151179,
+        "modifiedTime": 1775218151179,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "qCKAnoHr0P8zdEqi",
+      "_key": "!items.effects!VrOCFrD78SpCMxW2.qCKAnoHr0P8zdEqi"
+    },
+    {
+      "name": "Tactica: Lance",
+      "img": "icons/weapons/polearms/spear-flared-worn-grey.webp",
+      "type": "base",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "tSUv6b068AP8QPKe": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "BmlIj2TFveuiCROD",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "tSUv6b068AP8QPKe",
+              "predicates": {
+                "boq5xd1A4WNdWHt9": {
+                  "type": "flagRulePredicate",
+                  "_id": "boq5xd1A4WNdWHt9",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "sword",
+                  "selector": "initial",
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "Ovll3FheMRroqNEy": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "Ovll3FheMRroqNEy",
+                  "bonus": "2"
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            },
+            "lrpjzim3KTLketEJ": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "AiwLO1jBhK5xb4Dz",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "lrpjzim3KTLketEJ",
+              "predicates": {
+                "2dziF1mN8NstDifn": {
+                  "type": "flagRulePredicate",
+                  "_id": "2dziF1mN8NstDifn",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "axe",
+                  "selector": "initial",
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "4uHYkaGeTUurbaRi": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "4uHYkaGeTUurbaRi",
+                  "bonus": "-2"
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar",
+            "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.weapon",
+          "value": "lance",
+          "mode": 2,
+          "priority": 50
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "<p>The wielder of this weapon has <strong>advantage</strong> <strong>against</strong> <strong>swords </strong>but <strong>disadvantage</strong> <strong>against</strong> <strong>axes.</strong></p>",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.0FnEk6GBAmxlpH2d",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Lance",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.0FnEk6GBAmxlpH2d",
+            "effectUuid": null,
+            "fuid": "afc-tactica-lance"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775223141618,
+        "modifiedTime": 1775223141618,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "HDeD7USxMMgi1otN",
+      "_key": "!items.effects!VrOCFrD78SpCMxW2.HDeD7USxMMgi1otN"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775218113783,
+    "modifiedTime": 1775218142771,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!VrOCFrD78SpCMxW2"
+}

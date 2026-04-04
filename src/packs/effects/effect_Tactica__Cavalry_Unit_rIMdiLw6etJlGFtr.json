@@ -94,6 +94,12 @@
           "mode": 2,
           "value": "cavalry",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
       "description": "<p>This unit gains <strong>increased movement</strong> and can inflict <strong>break</strong> on <strong>infantry units</strong>.</p>",
@@ -120,7 +126,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774817788366,
-        "modifiedTime": 1774881971270,
+        "modifiedTime": 1775211683089,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!rIMdiLw6etJlGFtr.bgqKmtFpVxQFFobs"

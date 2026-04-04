@@ -1,0 +1,56 @@
+{
+  "folder": "KzLESm869DaNwCms",
+  "name": "Tactica: Avenge",
+  "type": "rule",
+  "_id": "7oOTBvI34IflvamP",
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "system": {
+    "fuid": "afc-tactica-avenge",
+    "description": "<p>When an enemy attacks an ally within 2 spaces of this unit, gain @EFFECT[Compendium.fu-azure-compendia.effects.Item.q8VBAZTtL8SdLUCs]{Strength} for 1 turn.</p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775214757476,
+    "modifiedTime": 1775214852992,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!7oOTBvI34IflvamP"
+}

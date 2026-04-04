@@ -1,9 +1,9 @@
 {
-  "folder": "W6WWeIOmy8jCYlmh",
+  "folder": "7ORkqeMM7rbeuKf6",
   "name": "Tactica Mage",
   "type": "npc",
   "_id": "z0NYHSyBQIyGnYaB",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/fu-azure-compendia/assets/tokens/tactica/mage_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -285,7 +285,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/fu-azure-compendia/assets/tokens/tactica/mage_*.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -354,7 +354,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -368,22 +368,23 @@
     },
     "movementAction": null,
     "flags": {},
-    "randomImg": false,
+    "randomImg": true,
     "appendNumber": false,
     "prependAdjective": false
   },
   "items": [
     {
-      "folder": "qRpDGGGdnhmkFuQj",
-      "name": "Fire Bolt",
+      "folder": "THTKVOwQBKn2T3kI",
+      "name": "Tactica Fire Tome",
       "type": "basic",
-      "_id": "isShzw5XShFBwvLI",
-      "img": "icons/magic/fire/projectile-fireball-smoke-orange-red.webp",
+      "_id": "hPG4EIwjT0WkSmeU",
+      "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
       "system": {
+        "fuid": "afc-tactica-fire-tome",
+        "description": "",
         "summary": {
           "value": ""
         },
-        "description": "",
         "showTitleCard": {
           "value": false
         },
@@ -402,17 +403,27 @@
           }
         },
         "accuracy": {
-          "value": 1
+          "value": 0
         },
         "defense": "mdef",
         "damage": {
           "value": 5
         },
+        "hasDamage": true,
         "type": {
           "value": "ranged"
         },
         "damageType": {
           "value": "fire"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
         },
         "cost": {
           "value": 100
@@ -420,7 +431,6 @@
         "quality": {
           "value": ""
         },
-        "source": "FU-AZURE",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -428,17 +438,8 @@
             }
           }
         },
-        "fuid": "afc-fire-bolt",
-        "hasDamage": true,
-        "effects": {
-          "entries": [],
-          "prompt": false,
-          "duration": {
-            "event": "",
-            "tracking": ""
-          }
-        },
-        "traits": []
+        "traits": [],
+        "source": "FU-AZURE"
       },
       "effects": [
         {
@@ -504,33 +505,33 @@
                     "identifier": ""
                   },
                   "_id": "7fYgsEnKUo3sdyRC",
+                  "predicates": {
+                    "vmVijtpApPGGBuse": {
+                      "type": "flagRulePredicate",
+                      "_id": "vmVijtpApPGGBuse",
+                      "scope": "fu-azure-compendia",
+                      "key": "tactica.unit",
+                      "value": "armored",
+                      "selector": "initial",
+                      "quantifier": "any"
+                    }
+                  },
                   "actions": {
                     "aCe19xQHkKqeE8MF": {
                       "type": "modifyDamageRuleAction",
                       "_id": "aCe19xQHkKqeE8MF",
                       "amount": "5",
+                      "effect": "",
+                      "cost": {
+                        "amount": null,
+                        "resource": "mp",
+                        "perTarget": false
+                      },
                       "damageTypes": [],
                       "traits": {
                         "entries": []
                       },
-                      "cost": {
-                        "resource": "mp",
-                        "amount": null,
-                        "perTarget": false
-                      },
-                      "variant": "",
-                      "effect": ""
-                    }
-                  },
-                  "predicates": {
-                    "vmVijtpApPGGBuse": {
-                      "type": "flagRulePredicate",
-                      "_id": "vmVijtpApPGGBuse",
-                      "selector": "initial",
-                      "quantifier": "any",
-                      "scope": "fu-azure-compendia",
-                      "key": "tactica.unit",
-                      "value": "armored"
+                      "variant": ""
                     }
                   },
                   "selector": "initial",
@@ -563,8 +564,10 @@
           ],
           "disabled": false,
           "duration": {
-            "startTime": null,
-            "combat": null
+            "startTime": 0,
+            "combat": null,
+            "startRound": 0,
+            "startTurn": 0
           },
           "description": "",
           "origin": "Compendium.fu-azure-compendia.effects.Item.ULnqC3wBDFtLgZRa",
@@ -592,14 +595,13 @@
             "systemVersion": "#{VERSION}#",
             "lastModifiedBy": null
           },
-          "_id": "6qtzoikHywvNhXcV",
-          "_key": "!actors.items.effects!z0NYHSyBQIyGnYaB.isShzw5XShFBwvLI.6qtzoikHywvNhXcV"
+          "_id": "HPATA7eALX68bGZq",
+          "_key": "!actors.items.effects!z0NYHSyBQIyGnYaB.hPG4EIwjT0WkSmeU.HPATA7eALX68bGZq"
         }
       ],
-      "sort": 100000,
+      "sort": 0,
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3,
         "J5B4HfVqUaCPvzGg": 3
       },
       "flags": {
@@ -608,95 +610,20 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.isShzw5XShFBwvLI",
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.hPG4EIwjT0WkSmeU",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
+        "createdTime": 1775219460276,
+        "modifiedTime": 1775219460276,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.items!z0NYHSyBQIyGnYaB.isShzw5XShFBwvLI"
+      "_key": "!actors.items!z0NYHSyBQIyGnYaB.hPG4EIwjT0WkSmeU"
     }
   ],
   "effects": [
-    {
-      "name": "Tactica: Conversion",
-      "img": "icons/magic/control/control-influence-rally-purple.webp",
-      "origin": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
-      "system": {
-        "duration": {
-          "event": "none",
-          "interval": 1,
-          "tracking": "self",
-          "remaining": 1
-        },
-        "type": "default",
-        "predicate": {
-          "crisisInteraction": "none"
-        },
-        "rules": {
-          "elements": {},
-          "progress": {
-            "enabled": false,
-            "id": "",
-            "name": "",
-            "current": 0,
-            "max": 6,
-            "style": "bar",
-            "step": 1
-          },
-          "stacking": {
-            "progress": false,
-            "duration": false,
-            "increment": 1
-          }
-        }
-      },
-      "duration": {
-        "startTime": 0,
-        "combat": null
-      },
-      "disabled": false,
-      "_id": "VCwzWR6Q9GrWjeVT",
-      "type": "base",
-      "changes": [
-        {
-          "key": "system.bonuses.damage.all",
-          "mode": 2,
-          "value": "5",
-          "priority": null
-        }
-      ],
-      "description": "<p>This effect <strong>scales</strong> the unit's attributes for the tactica sub-system.</p>",
-      "tint": "#ffffff",
-      "transfer": false,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "projectfu": {
-          "Source": {
-            "name": "Tactica: Conversion",
-            "actorUuid": null,
-            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
-            "effectUuid": null,
-            "fuid": "tactica-classic"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1774884268912,
-        "modifiedTime": 1774884268912,
-        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
-      },
-      "_key": "!actors.effects!z0NYHSyBQIyGnYaB.VCwzWR6Q9GrWjeVT"
-    },
     {
       "name": "Tactica: Mystical Unit",
       "img": "icons/weapons/staves/staff-simple-jeweled-green.webp",
@@ -732,10 +659,12 @@
       },
       "duration": {
         "startTime": 0,
-        "combat": null
+        "combat": null,
+        "startRound": 0,
+        "startTurn": 0
       },
       "disabled": false,
-      "_id": "YTTbMe0TtUeXyWaa",
+      "_id": "2xXGEBl7Ye8A9We0",
       "type": "base",
       "changes": [
         {
@@ -746,6 +675,12 @@
         },
         {
           "key": "system.bonuses.incomingDamage.physical",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
           "mode": 2,
           "value": "5",
           "priority": null
@@ -774,14 +709,14 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1774885240394,
-        "modifiedTime": 1774885240394,
+        "createdTime": 1775211763195,
+        "modifiedTime": 1775211763195,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.effects!z0NYHSyBQIyGnYaB.YTTbMe0TtUeXyWaa"
+      "_key": "!actors.effects!z0NYHSyBQIyGnYaB.2xXGEBl7Ye8A9We0"
     }
   ],
-  "sort": 0,
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -795,7 +730,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774880759794,
-    "modifiedTime": 1774880759794,
+    "modifiedTime": 1775212037340,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!z0NYHSyBQIyGnYaB"

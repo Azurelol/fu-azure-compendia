@@ -57,6 +57,12 @@
           "mode": 2,
           "value": "infantry",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
       "description": "<p>This unit can perform <strong>chain attacks</strong>.</p>",
@@ -83,7 +89,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774862366516,
-        "modifiedTime": 1774883789482,
+        "modifiedTime": 1775211584272,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!JMMAuf53DsqxoDnc.DA2eJTHYbM7fwlf3"

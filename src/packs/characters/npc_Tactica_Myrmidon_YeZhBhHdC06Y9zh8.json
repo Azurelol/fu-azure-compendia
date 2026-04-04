@@ -1,0 +1,719 @@
+{
+  "folder": "7ORkqeMM7rbeuKf6",
+  "name": "Tactica Myrmidon",
+  "type": "npc",
+  "_id": "YeZhBhHdC06Y9zh8",
+  "img": "modules/fu-azure-compendia/assets/tokens/tactica/myrmidon_1.png",
+  "system": {
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 10
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 6
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {
+      "mainHand": "T0Yboz2fX79ykc6g"
+    },
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "all": 0,
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "turns": 0
+    },
+    "multipliers": {
+      "incomingRecovery": {
+        "mp": 1,
+        "ip": 1,
+        "hp": 1
+      },
+      "incomingLoss": {
+        "hp": 1,
+        "mp": 1,
+        "ip": 1
+      },
+      "outgoingRecovery": {
+        "hp": 1,
+        "mp": 1,
+        "ip": 1
+      }
+    },
+    "overrides": {
+      "damageType": {
+        "all": {
+          "normal": "",
+          "priority": ""
+        },
+        "attack": {
+          "normal": "",
+          "priority": ""
+        },
+        "spell": {
+          "normal": "",
+          "priority": ""
+        },
+        "skill": {
+          "normal": "",
+          "priority": ""
+        }
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "description": "",
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 50,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 35,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 0
+      },
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "traits": {
+      "value": ""
+    },
+    "species": {
+      "value": "humanoid"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "rank": {
+      "value": "soldier",
+      "replacedSoldiers": 1
+    },
+    "role": {
+      "value": "hunter"
+    },
+    "references": {
+      "actor": null,
+      "skill": null
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "pressurePoints": {
+      "entries": []
+    },
+    "associatedTherioforms": ""
+  },
+  "prototypeToken": {
+    "name": "Tactica Myrmidon",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/tactica/myrmidon_*.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "cover",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": true,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "THTKVOwQBKn2T3kI",
+      "name": "Tactica Iron Sword",
+      "type": "basic",
+      "_id": "exTOsn9ENlh09bhu",
+      "img": "icons/weapons/swords/greatsword-blue.webp",
+      "system": {
+        "fuid": "afc-tactica-iron-sword",
+        "description": "",
+        "summary": {
+          "value": ""
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 1
+        },
+        "defense": "def",
+        "damage": {
+          "value": 5
+        },
+        "hasDamage": true,
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "traits": [],
+        "source": "FU-AZURE"
+      },
+      "effects": [
+        {
+          "name": "Tactica: Sword",
+          "img": "icons/weapons/swords/greatsword-blue.webp",
+          "type": "base",
+          "system": {
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 1
+            },
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "rules": {
+              "elements": {
+                "j56j9GVWTJEtvgdO": {
+                  "type": "ruleElement",
+                  "trigger": {
+                    "_id": "VAyKaC2Nyg01Gky7",
+                    "type": "performCheckRuleTrigger",
+                    "eventRelation": "source",
+                    "checkTypes": [
+                      "accuracy"
+                    ]
+                  },
+                  "_id": "j56j9GVWTJEtvgdO",
+                  "predicates": {
+                    "ADMgiEzOHUnN1Tm7": {
+                      "type": "flagRulePredicate",
+                      "_id": "ADMgiEzOHUnN1Tm7",
+                      "scope": "fu-azure-compendia",
+                      "value": "axe",
+                      "key": "tactica.weapon",
+                      "selector": "initial",
+                      "quantifier": "any"
+                    }
+                  },
+                  "actions": {
+                    "Z0OCJMvxd0lYHcZt": {
+                      "type": "modifyCheckRuleAction",
+                      "_id": "Z0OCJMvxd0lYHcZt",
+                      "bonus": "2"
+                    }
+                  },
+                  "selector": "initial",
+                  "enabled": true
+                },
+                "wZF0gfynjypkGUli": {
+                  "type": "ruleElement",
+                  "trigger": {
+                    "_id": "8kTZmarSRPxwTs2r",
+                    "type": "performCheckRuleTrigger",
+                    "eventRelation": "source",
+                    "checkTypes": [
+                      "accuracy"
+                    ]
+                  },
+                  "_id": "wZF0gfynjypkGUli",
+                  "predicates": {
+                    "iCa33IhO4YKFRAMR": {
+                      "type": "flagRulePredicate",
+                      "_id": "iCa33IhO4YKFRAMR",
+                      "scope": "fu-azure-compendia",
+                      "key": "tactica.weapon",
+                      "value": "lance",
+                      "selector": "initial",
+                      "quantifier": "any"
+                    }
+                  },
+                  "actions": {
+                    "5SHnFGZLTzd9OZ4t": {
+                      "type": "modifyCheckRuleAction",
+                      "_id": "5SHnFGZLTzd9OZ4t",
+                      "bonus": "-2"
+                    }
+                  },
+                  "selector": "initial",
+                  "enabled": true
+                }
+              },
+              "progress": {
+                "enabled": false,
+                "id": "",
+                "name": "",
+                "current": 0,
+                "max": 6,
+                "style": "bar",
+                "step": 1
+              },
+              "stacking": {
+                "progress": false,
+                "duration": false,
+                "increment": 1
+              }
+            }
+          },
+          "changes": [
+            {
+              "key": "flags.fu-azure-compendia.tactica.weapon",
+              "value": "sword",
+              "mode": 2,
+              "priority": 50
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "combat": null,
+            "startRound": 0,
+            "startTurn": 0
+          },
+          "description": "<p>The wielder of this weapon has <strong>advantage</strong> <strong>against</strong> <strong>axes</strong> but <strong>disadvantage</strong> <strong>against</strong> <strong>lances</strong>.</p>",
+          "origin": "Compendium.fu-azure-compendia.effects.Item.VPbpbvKvGnJIbUry",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "Source": {
+                "name": "Tactica: Sword",
+                "actorUuid": null,
+                "itemUuid": "Compendium.fu-azure-compendia.effects.Item.VPbpbvKvGnJIbUry",
+                "effectUuid": null,
+                "fuid": "afc-tactica-sword"
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "lastModifiedBy": null
+          },
+          "_id": "vmOOpB4NsAXK2dns",
+          "_key": "!actors.items.effects!YeZhBhHdC06Y9zh8.exTOsn9ENlh09bhu.vmOOpB4NsAXK2dns"
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.exTOsn9ENlh09bhu",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775219762738,
+        "modifiedTime": 1775219762738,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!actors.items!YeZhBhHdC06Y9zh8.exTOsn9ENlh09bhu"
+    }
+  ],
+  "effects": [
+    {
+      "name": "Tactica: Infantry Unit",
+      "img": "icons/environment/people/infantry.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.JMMAuf53DsqxoDnc",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar",
+            "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": 0,
+        "combat": null,
+        "startRound": 0,
+        "startTurn": 0
+      },
+      "disabled": false,
+      "_id": "hsnqg5WcZpzF0x5o",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.unit",
+          "mode": 2,
+          "value": "infantry",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "<p>This unit can perform <strong>chain attacks</strong>.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Infantry Unit",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.JMMAuf53DsqxoDnc",
+            "effectUuid": null,
+            "fuid": "afc-tactica-infantry"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775211772777,
+        "modifiedTime": 1775211772777,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!actors.effects!YeZhBhHdC06Y9zh8.hsnqg5WcZpzF0x5o"
+    }
+  ],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774880759794,
+    "modifiedTime": 1775212036824,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!actors!YeZhBhHdC06Y9zh8"
+}

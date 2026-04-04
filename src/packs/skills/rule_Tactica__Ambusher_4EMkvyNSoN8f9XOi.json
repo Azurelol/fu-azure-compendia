@@ -1,0 +1,56 @@
+{
+  "folder": "KzLESm869DaNwCms",
+  "name": "Tactica: Ambusher",
+  "type": "rule",
+  "_id": "4EMkvyNSoN8f9XOi",
+  "img": "icons/skills/melee/strike-dagger-arcane-pink.webp",
+  "system": {
+    "fuid": "afc-tactica-ambusher",
+    "description": "<p>When you <strong>initiate a combat</strong> you gain @EFFECT[Compendium.fu-azure-compendia.effects.h2VsKwFNZh0Ech1g]{Advantage} before your first attack.</p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775216020154,
+    "modifiedTime": 1775216096968,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!4EMkvyNSoN8f9XOi"
+}

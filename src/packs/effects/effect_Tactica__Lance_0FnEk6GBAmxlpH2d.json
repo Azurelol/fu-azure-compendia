@@ -14,7 +14,7 @@
   "effects": [
     {
       "name": "Tactica: Lance",
-      "img": "icons/weapons/polearms/glaive-hooked-steel.webp",
+      "img": "icons/weapons/polearms/spear-flared-worn-grey.webp",
       "origin": "Compendium.fu-azure-compendia.effects.Item.0FnEk6GBAmxlpH2d",
       "system": {
         "duration": {
@@ -110,7 +110,7 @@
       "type": "base",
       "changes": [
         {
-          "key": "flags.fu-azure-compendia.tactica.sword",
+          "key": "flags.fu-azure-compendia.tactica.weapon",
           "mode": 2,
           "value": "lance",
           "priority": null
@@ -140,7 +140,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774817248297,
-        "modifiedTime": 1774876668814,
+        "modifiedTime": 1775223084828,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!0FnEk6GBAmxlpH2d.Oe9JUc7y8YWTRhul"

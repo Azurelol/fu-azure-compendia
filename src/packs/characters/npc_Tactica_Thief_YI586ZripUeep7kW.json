@@ -1,9 +1,9 @@
 {
-  "folder": "W6WWeIOmy8jCYlmh",
+  "folder": "7ORkqeMM7rbeuKf6",
   "name": "Tactica Thief",
   "type": "npc",
   "_id": "YI586ZripUeep7kW",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/fu-azure-compendia/assets/tokens/tactica/thief_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -285,7 +285,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/fu-azure-compendia/assets/tokens/tactica/thief_*.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -354,7 +354,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -368,179 +368,11 @@
     },
     "movementAction": null,
     "flags": {},
-    "randomImg": false,
+    "randomImg": true,
     "appendNumber": false,
     "prependAdjective": false
   },
   "items": [
-    {
-      "folder": "tjWV9h97KAbXCCnC",
-      "name": "Dagger",
-      "type": "basic",
-      "_id": "0htrxlfCeiT1z6r9",
-      "img": "systems/projectfu/styles/static/compendium/weapons/steel-dagger.png",
-      "system": {
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "showTitleCard": {
-          "value": false
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "attributes": {
-          "primary": {
-            "value": "dex"
-          },
-          "secondary": {
-            "value": "ins"
-          }
-        },
-        "accuracy": {
-          "value": 2
-        },
-        "defense": "def",
-        "damage": {
-          "value": 0
-        },
-        "type": {
-          "value": "melee"
-        },
-        "damageType": {
-          "value": "physical"
-        },
-        "cost": {
-          "value": 100
-        },
-        "quality": {
-          "value": ""
-        },
-        "source": "FU-AZURE",
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "fuid": "afc-dagger",
-        "hasDamage": true,
-        "effects": {
-          "entries": [],
-          "prompt": false,
-          "duration": {
-            "event": "",
-            "tracking": "",
-            "interval": null
-          }
-        },
-        "traits": []
-      },
-      "effects": [
-        {
-          "name": "Tactica: Dagger",
-          "img": "icons/weapons/daggers/dagger-straight-blue.webp",
-          "type": "base",
-          "system": {
-            "duration": {
-              "event": "none",
-              "interval": 1,
-              "tracking": "self",
-              "remaining": 1
-            },
-            "type": "default",
-            "predicate": {
-              "crisisInteraction": "none"
-            },
-            "rules": {
-              "elements": {},
-              "progress": {
-                "enabled": false,
-                "id": "",
-                "name": "",
-                "current": 0,
-                "max": 6,
-                "style": "bar",
-                "step": 1
-              },
-              "stacking": {
-                "progress": false,
-                "duration": false,
-                "increment": 1
-              }
-            }
-          },
-          "changes": [
-            {
-              "key": "flags.fu-azure-compendia.tactica.weapon",
-              "value": "dagger",
-              "mode": 2,
-              "priority": 50
-            }
-          ],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "combat": null
-          },
-          "description": "",
-          "origin": "Compendium.fu-azure-compendia.effects.Item.Q22iMICpJwKZQ0p0",
-          "tint": "#ffffff",
-          "transfer": true,
-          "statuses": [],
-          "sort": 0,
-          "flags": {
-            "projectfu": {
-              "Source": {
-                "name": "Tactica: Dagger",
-                "actorUuid": null,
-                "itemUuid": "Compendium.fu-azure-compendia.effects.Item.Q22iMICpJwKZQ0p0",
-                "effectUuid": null,
-                "fuid": "afc-tactica-dagger"
-              }
-            }
-          },
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "projectfu",
-            "systemVersion": "#{VERSION}#",
-            "lastModifiedBy": null
-          },
-          "_id": "fPVNRzYia7QkGJvv",
-          "_key": "!actors.items.effects!YI586ZripUeep7kW.0htrxlfCeiT1z6r9.fPVNRzYia7QkGJvv"
-        }
-      ],
-      "sort": 1100000,
-      "ownership": {
-        "default": 0,
-        "esOkelwPNblkbxW3": 3,
-        "J5B4HfVqUaCPvzGg": 3
-      },
-      "flags": {
-        "projectfu": {
-          "favorite": false
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.0htrxlfCeiT1z6r9",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
-        "modifiedTime": 1774884888003
-      },
-      "_key": "!actors.items!YI586ZripUeep7kW.0htrxlfCeiT1z6r9"
-    },
     {
       "folder": "KzLESm869DaNwCms",
       "name": "Tactica: Pass",
@@ -596,86 +428,179 @@
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!actors.items!YI586ZripUeep7kW.y2o9WAL7YH2LLaqG"
-    }
-  ],
-  "effects": [
+    },
     {
-      "name": "Tactica: Conversion",
-      "img": "icons/magic/control/control-influence-rally-purple.webp",
-      "origin": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
+      "folder": "THTKVOwQBKn2T3kI",
+      "name": "Tactica Iron Dagger",
+      "type": "basic",
+      "_id": "Dxn3Ci2p7zdV80Tt",
+      "img": "icons/weapons/daggers/dagger-straight-blue.webp",
       "system": {
-        "duration": {
-          "event": "none",
-          "interval": 1,
-          "tracking": "self",
-          "remaining": 1
+        "fuid": "afc-tactica-iron-dagger",
+        "description": "",
+        "summary": {
+          "value": ""
         },
-        "type": "default",
-        "predicate": {
-          "crisisInteraction": "none"
+        "showTitleCard": {
+          "value": false
         },
-        "rules": {
-          "elements": {},
-          "progress": {
-            "enabled": false,
-            "id": "",
-            "name": "",
-            "current": 0,
-            "max": 6,
-            "style": "bar",
-            "step": 1
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
           },
-          "stacking": {
-            "progress": false,
-            "duration": false,
-            "increment": 1
+          "secondary": {
+            "value": "ins"
           }
-        }
+        },
+        "accuracy": {
+          "value": 2
+        },
+        "defense": "def",
+        "damage": {
+          "value": 0
+        },
+        "hasDamage": true,
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "traits": [],
+        "source": "FU-AZURE"
       },
-      "duration": {
-        "startTime": 0,
-        "combat": null
-      },
-      "disabled": false,
-      "_id": "H3XkFJ3fLFeFVlZg",
-      "type": "base",
-      "changes": [
+      "effects": [
         {
-          "key": "system.bonuses.damage.all",
-          "mode": 2,
-          "value": "5",
-          "priority": null
+          "name": "Tactica: Dagger",
+          "img": "icons/weapons/daggers/dagger-straight-blue.webp",
+          "type": "base",
+          "system": {
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 1
+            },
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "rules": {
+              "elements": {},
+              "progress": {
+                "enabled": false,
+                "id": "",
+                "name": "",
+                "current": 0,
+                "max": 6,
+                "style": "bar",
+                "step": 1
+              },
+              "stacking": {
+                "progress": false,
+                "duration": false,
+                "increment": 1
+              }
+            }
+          },
+          "changes": [
+            {
+              "key": "flags.fu-azure-compendia.tactica.weapon",
+              "value": "dagger",
+              "mode": 2,
+              "priority": 50
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "combat": null,
+            "startRound": 0,
+            "startTurn": 0
+          },
+          "description": "",
+          "origin": "Compendium.fu-azure-compendia.effects.Item.Q22iMICpJwKZQ0p0",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "projectfu": {
+              "Source": {
+                "name": "Tactica: Dagger",
+                "actorUuid": null,
+                "itemUuid": "Compendium.fu-azure-compendia.effects.Item.Q22iMICpJwKZQ0p0",
+                "effectUuid": null,
+                "fuid": "afc-tactica-dagger"
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "lastModifiedBy": null
+          },
+          "_id": "tLat3o2Ub8kUCAMM",
+          "_key": "!actors.items.effects!YI586ZripUeep7kW.Dxn3Ci2p7zdV80Tt.tLat3o2Ub8kUCAMM"
         }
       ],
-      "description": "<p>This effect <strong>scales</strong> the unit's attributes for the tactica sub-system.</p>",
-      "tint": "#ffffff",
-      "transfer": false,
-      "statuses": [],
       "sort": 0,
+      "ownership": {
+        "default": 0,
+        "J5B4HfVqUaCPvzGg": 3
+      },
       "flags": {
         "projectfu": {
-          "Source": {
-            "name": "Tactica: Conversion",
-            "actorUuid": null,
-            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
-            "effectUuid": null,
-            "fuid": "tactica-classic"
-          }
+          "favorite": false
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.Dxn3Ci2p7zdV80Tt",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1774884290737,
-        "modifiedTime": 1774884290737,
+        "createdTime": 1775219893391,
+        "modifiedTime": 1775219893391,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.effects!YI586ZripUeep7kW.H3XkFJ3fLFeFVlZg"
-    },
+      "_key": "!actors.items!YI586ZripUeep7kW.Dxn3Ci2p7zdV80Tt"
+    }
+  ],
+  "effects": [
     {
       "name": "Tactica: Covert Unit",
       "img": "icons/equipment/back/cloak-plain-blue.webp",
@@ -707,28 +632,22 @@
                 "identifier": ""
               },
               "_id": "Kx89g4SUK1EbvBBg",
-              "actions": {
-                "aYYk1AdGJmw5ZeZs": {
-                  "type": "messageRuleAction",
-                  "_id": "aYYk1AdGJmw5ZeZs",
-                  "message": "<p>The target suffers from <strong>break</strong>.</p>"
-                }
-              },
               "predicates": {
                 "s1OeRG5ZVPFHw9HI": {
                   "type": "flagRulePredicate",
                   "_id": "s1OeRG5ZVPFHw9HI",
-                  "selector": "initial",
-                  "quantifier": "any",
                   "scope": "fu-azure-compendia",
                   "key": "tactica.unit",
-                  "value": "mystical"
+                  "value": "mystical",
+                  "selector": "initial",
+                  "quantifier": "any"
                 },
                 "5ZxoSBAo3QLPiMmE": {
                   "type": "checkRulePredicate",
                   "_id": "5ZxoSBAo3QLPiMmE",
-                  "parity": "even",
                   "outcome": "failure",
+                  "result": null,
+                  "parity": "even",
                   "attributes": {
                     "primary": {
                       "value": ""
@@ -737,8 +656,14 @@
                       "value": ""
                     }
                   },
-                  "result": null,
                   "quantifier": "any"
+                }
+              },
+              "actions": {
+                "aYYk1AdGJmw5ZeZs": {
+                  "type": "messageRuleAction",
+                  "_id": "aYYk1AdGJmw5ZeZs",
+                  "message": "<p>The target suffers from <strong>break</strong>.</p>"
                 }
               },
               "selector": "initial",
@@ -763,10 +688,12 @@
       },
       "duration": {
         "startTime": 0,
-        "combat": null
+        "combat": null,
+        "startRound": 0,
+        "startTurn": 0
       },
       "disabled": false,
-      "_id": "9kcQHCr5b4c5JBND",
+      "_id": "IoHEdDTIytrh0LKB",
       "type": "base",
       "changes": [
         {
@@ -780,9 +707,15 @@
           "mode": 2,
           "value": "1",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
-      "description": "<p>When this unit <strong>ends</strong> <strong>its</strong> <strong>turn</strong> in <strong>certain types</strong> <strong>of</strong> <strong>terrain</strong>, it gains @EFFECT[Compendium.fu-azure-compendia.effects.fbGux5CtxSaiCiKR]{Tactica: Terrain Bonus} until the <strong>start of its next turn.</strong></p>",
+      "description": "<p>This unit can inflict <strong>break</strong> on <strong>mystical units. </strong>When this unit <strong>ends</strong> <strong>its</strong> <strong>turn</strong> in <strong>certain types</strong> <strong>of</strong> <strong>terrain</strong>, it gains @EFFECT[Compendium.fu-azure-compendia.effects.fbGux5CtxSaiCiKR]{Tactica: Terrain Bonus} until the <strong>start of its next turn.</strong></p>",
       "tint": "#ffffff",
       "transfer": false,
       "statuses": [],
@@ -805,14 +738,14 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1774884746284,
-        "modifiedTime": 1774884746284,
+        "createdTime": 1775211802627,
+        "modifiedTime": 1775211802627,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.effects!YI586ZripUeep7kW.9kcQHCr5b4c5JBND"
+      "_key": "!actors.effects!YI586ZripUeep7kW.IoHEdDTIytrh0LKB"
     }
   ],
-  "sort": 0,
+  "sort": 1100000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -826,7 +759,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774880759794,
-    "modifiedTime": 1774884858943,
+    "modifiedTime": 1775212038858,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!YI586ZripUeep7kW"

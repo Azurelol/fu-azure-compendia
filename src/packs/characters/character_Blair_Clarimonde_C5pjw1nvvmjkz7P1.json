@@ -1,0 +1,1495 @@
+{
+  "folder": "3R3qXlL3089n2nJU",
+  "name": "Blair Clarimonde",
+  "type": "character",
+  "_id": "C5pjw1nvvmjkz7P1",
+  "img": "tokenizer/pc-images/blair_clarimonde.Avatar.webp?1775032335839",
+  "system": {
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 8
+      },
+      "wlp": {
+        "base": 8
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {},
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "all": 0,
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "turns": 0
+    },
+    "multipliers": {
+      "incomingRecovery": {
+        "mp": 1,
+        "ip": 1,
+        "hp": 1
+      },
+      "incomingLoss": {
+        "hp": 1,
+        "mp": 1,
+        "ip": 1
+      },
+      "outgoingRecovery": {
+        "hp": 1,
+        "mp": 1,
+        "ip": 1
+      }
+    },
+    "overrides": {
+      "damageType": {
+        "all": {
+          "normal": "",
+          "priority": ""
+        },
+        "attack": {
+          "normal": "",
+          "priority": ""
+        },
+        "spell": {
+          "normal": "",
+          "priority": ""
+        },
+        "skill": {
+          "normal": "",
+          "priority": ""
+        }
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "description": "",
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 45,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 45,
+        "bonus": 0
+      },
+      "zenit": {
+        "value": 0
+      },
+      "ip": {
+        "value": 6,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 3
+      },
+      "exp": {
+        "value": 0
+      },
+      "identity": {},
+      "pronouns": {},
+      "theme": {},
+      "origin": {}
+    },
+    "bonds": [],
+    "vehicle": {
+      "vehicle": null,
+      "embarked": false,
+      "weapons": [],
+      "armor": null,
+      "supports": []
+    },
+    "floralist": {
+      "planted": null,
+      "garden": null
+    }
+  },
+  "prototypeToken": {
+    "name": "Blair Clarimonde",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "tokenizer/pc-images/blair_clarimonde.Token.webp?1775032335839",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": "tokenizer/pc-images/blair_clarimonde.Token.webp?1775032335839"
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/projectfu/styles/static/compendium/weapons/unarmed-strike.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Automatically equipped in each empty hand slot.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "cost": {
+          "value": 0
+        },
+        "isMartial": {
+          "value": false
+        },
+        "quality": {
+          "value": ""
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        },
+        "type": {
+          "value": "melee"
+        },
+        "category": {
+          "value": "brawling"
+        },
+        "hands": {
+          "value": "one-handed"
+        },
+        "impType": {
+          "value": "minor"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "source": "FUCR130",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "defense": "def",
+        "fuid": "unarmed-strike",
+        "def": {
+          "value": 0
+        },
+        "mdef": {
+          "value": 0
+        },
+        "init": {
+          "value": 0
+        },
+        "hasDamage": true,
+        "traits": []
+      },
+      "effects": [],
+      "folder": "SnyIBMif9646gEkD",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775032320790,
+        "modifiedTime": 1775032320790,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "G8Xj5NEKuROtmAUA",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "_key": "!actors.items!C5pjw1nvvmjkz7P1.G8Xj5NEKuROtmAUA"
+    },
+    {
+      "name": "Orator",
+      "type": "class",
+      "system": {
+        "summary": {
+          "value": "Words are only as good as they actions that follow them."
+        },
+        "description": "<h5><strong>ALSO: Ambassador, Diplomat, Entertainer</strong></h5><p>Some are graceful and ever smiling, others are subtle and witty: <strong>Orators </strong>are as good at reading someone’s heart as they are at rounding up allies for their cause, sometimes unintentionally. The words of an Orator may rekindle spirits or plunge their opponents into despair: over the centuries, some Orators’ talents have brought entire nations to ruin… and just as many have granted fallen kingdoms a chance to rise from their very ashes.</p><hr /><h5><strong>ORATOR FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li></ul><h2><strong>ORATOR SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.DtEiCkDsC1amYABn]{Condemn} <strong>(SL4)</strong></p><p>You may use an action and spend 5 Mind Points to perform an Opposed <strong>【INS + WLP】 </strong>Check against an enemy that can hear and understand you. If you succeed, that enemy loses <strong>【SL × 5】</strong> Mind Points, suffers a status effect of your choice between dazed and shaken, and all sources deal <strong>【SL】</strong> extra damage to them until the start of your next turn.</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【INS + WLP】</strong> Checks for this Skill.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.04DiGVKhF3DtmJ4n]{Encourage} <strong>(SL6)</strong></p><p>During a conflict, you may use an action and spend 5 MP to choose <strong>another creature</strong> that can hear and understand you. That creature recovers <strong>【SL × 5】</strong> Hit Points and chooses <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>; they treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the start of your next turn.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.lK9onKSiMuQEe3zd]{My Trust In You} <strong>(SL2)</strong></p><p>After another Player Character who is able to hear you performs a Check, you may spend 1 Fabula Point and invoke one of their <strong>Traits </strong>or <strong>Bonds </strong>in order to let them reroll dice or improve the Result of the Check (following the normal rules). Then, if you have a <strong>Bond </strong>towards that character, they recover <strong>【SL × 10】 </strong>Mind Points.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.GjmqoWAJ4szsk0om]{Persuasive} <strong>(SL2)</strong></p><p>When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on <strong>charm</strong>, <strong>diplomacy</strong>, <strong>deception </strong>or <strong>intimidation</strong>, you may spend up to <strong>【SL × 20】 </strong>Mind Points. If you do, fill or erase an additional section of that Clock for every 20 Mind Points you spend this way.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ucCrtRAvv2qX8aJO]{Unexpected Ally}</p><p>You may use an action and spend 1 Fabula Point to choose a <strong>non-hostile</strong> creature able to hear and understand you. If you do, that creature becomes helpful towards you so long as you are kind and respectful to them and your requests are reasonable.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": "FUCR200",
+        "fuid": "orator"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.8HxmAoTTwLlmQ8Fc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775032751836,
+        "modifiedTime": 1775032751836,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "_id": "8HxmAoTTwLlmQ8Fc",
+      "sort": 300000,
+      "_key": "!actors.items!C5pjw1nvvmjkz7P1.8HxmAoTTwLlmQ8Fc"
+    },
+    {
+      "name": "Spiritist",
+      "type": "class",
+      "system": {
+        "summary": {
+          "value": "Show me the truth in your heart."
+        },
+        "description": "<h5><strong>ALSO: Healer, Priest, Witch</strong></h5><p><strong>Spiritists </strong>have developed a powerful connection with the raw aspects of soul: emotion, energy, life, and death. They wield power both miraculous and frightening, and are quite often affiliated with cults or religions. Several worlds see the powers of Spiritism as gifts from a deity or proof that a person’s heart is pure; however, there is no definite proof of these abilities coming from anything but discipline, empathy, and focus.</p><hr /><h5><strong>SPIRITIST FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li><li>You may perform Rituals whose effects fall within the <strong>Ritualism </strong>discipline.</li></ul><h2><strong>SPIRITIST SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.rVM7HhQ5OwdPtFwa]{Healing Power} <strong>(SL2)</strong></p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may have each of those allies recover an amount of Hit Points equal to <strong>【3 + (SL, multiplied by the number of Bonds you have)】</strong>.</p><p>This healing is separate from any healing caused by the effects of the spell.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.ek0pzfo1bSWGHfzb]{Ritual Spiritism}</p><p>You may perform Rituals whose effects fall within the Spiritism discipline.</p><p>Spiritism Rituals use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy]{Spiritual Magic} <strong>(SL10)</strong></p><p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive (@ICON[offensive]) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.pIkEDFcA5pnIpsu3]{Support Magic}</p><p>When you cast a spell that targets one or more allies, if you have an <strong>arcane </strong>weapon equipped, you may choose one of those allies you have a <strong>Bond </strong>towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the <strong>strength </strong>of your Bond towards them.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.affUHtuCYoDxmO4h]{Vismagus}</p><p>When you cast a spell, if you don’t have enough Mind Points to pay for its total cost, you may choose to spend <strong>twice as many</strong> Hit Points instead. You cannot use this Skill if doing so would reduce you to 0 Hit Points. If a spell cast this way would cause you to recover Hit Points, you instead recover no Hit Points (the spell functions normally on any other target).</p><h2><strong>SPIRITIST SPELLS</strong></h2><ul><li><p>For <strong>spell</strong> breakdown and a list of Spiritist Spells, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p></li></ul>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": true
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": "FUCR206",
+        "fuid": "spiritist"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.s7AtJlv04lTsbKg4",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209256483,
+        "modifiedTime": 1775209256483,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "_id": "s7AtJlv04lTsbKg4",
+      "sort": 200000,
+      "_key": "!actors.items!C5pjw1nvvmjkz7P1.s7AtJlv04lTsbKg4"
+    },
+    {
+      "folder": "XoV1kgCfYBfAuPoU",
+      "name": "Encourage",
+      "type": "skill",
+      "_id": "04DiGVKhF3DtmJ4n",
+      "img": "systems/projectfu/styles/static/compendium/classes/orator/orator_encourage.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>During a conflict, you may use an action and spend 5 Mind Points to choose an ally that can hear and understand you. That ally recovers <strong>【SL × 10】</strong> Hit Points and chooses <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>; they treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the start of your next turn.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 6,
+          "min": 0
+        },
+        "class": {
+          "value": "Orator"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": "0",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": "FUCR201",
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "encourage",
+        "cost": {
+          "amount": "5",
+          "resource": "mp",
+          "perTarget": false
+        },
+        "targeting": {
+          "rule": "single",
+          "max": 0
+        },
+        "resource": {
+          "enabled": true,
+          "amount": "$sl*10",
+          "type": "hp"
+        },
+        "effects": {
+          "entries": [
+            "Compendium.projectfu.skills.Item.zdJc2zsLCgyA5wOp",
+            "Compendium.projectfu.skills.Item.F9ep5ecBHb7R4RRr",
+            "Compendium.projectfu.skills.Item.eTDq4RldNEYv5XTd",
+            "Compendium.projectfu.skills.Item.nBSrAu72JcvvNcWq"
+          ],
+          "duration": {
+            "interval": null,
+            "event": "",
+            "tracking": ""
+          },
+          "prompt": true
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.04DiGVKhF3DtmJ4n",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209264346,
+        "modifiedTime": 1775209264346,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "sort": 0,
+      "_key": "!actors.items!C5pjw1nvvmjkz7P1.04DiGVKhF3DtmJ4n"
+    },
+    {
+      "folder": "LWIsJLQGwkSdYYwN",
+      "name": "Spiritual Magic",
+      "type": "skill",
+      "_id": "dwVQpxDTOZeNbcjy",
+      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_spiritual_magic.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>Each time you acquire this Skill, learn one Spiritist spell (see <strong>Core Rulebook</strong>, page <strong>208</strong>).</p><p>Offensive (@ICON[offensive]) Spiritist spells use <strong>【INS + WLP】 </strong>for the Magic Check.</p><hr /><p>For <strong>spell</strong> breakdown and a list of <strong>Spiritist Spells</strong>, refer to: @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP]{Spiritist Rules}</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 2,
+          "max": 10,
+          "min": 0
+        },
+        "class": {
+          "value": "Spiritist"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": "0",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": "FUCR207",
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "spiritual-magic",
+        "targeting": {
+          "rule": "self",
+          "max": 0
+        },
+        "effects": {
+          "duration": {
+            "interval": null,
+            "event": "",
+            "tracking": ""
+          },
+          "entries": [],
+          "prompt": false
+        },
+        "traits": [],
+        "cost": {
+          "resource": "mp",
+          "amount": "",
+          "perTarget": false
+        },
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.dwVQpxDTOZeNbcjy",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209267362,
+        "modifiedTime": 1775209285612,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "sort": 300000,
+      "_key": "!actors.items!C5pjw1nvvmjkz7P1.dwVQpxDTOZeNbcjy"
+    },
+    {
+      "folder": "KUerX2dLyeZ8A3Xw",
+      "name": "Heal",
+      "type": "spell",
+      "_id": "uQd6aE423mPv12Vc",
+      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spells/heal.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You invigorate your companions, soothing their pain and healing their fatigue. Each target recovers 40 Hit Points<span>. This amount increases to </span>50 Hit Points <span>if you are <strong>level 20 or higher</strong>, or to </span>60 Hit Points <span>if you are <strong>level 40 or higher</strong>.</span></p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Spiritist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "source": "FUCR209",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "dex"
+            },
+            "secondary": {
+              "value": "dex"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "type": {
+              "value": "physical"
+            },
+            "value": 0
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "opportunity": "",
+        "fuid": "heal",
+        "resource": {
+          "enabled": true,
+          "amount": "&step(40,50,60)",
+          "type": "hp"
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": true
+        },
+        "targeting": {
+          "max": 3,
+          "rule": "multiple"
+        },
+        "defense": "mdef",
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "mA8SNY2rY4X5tOHa": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.uQd6aE423mPv12Vc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209277359,
+        "modifiedTime": 1775209277359,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "sort": 1300000,
+      "_key": "!actors.items!C5pjw1nvvmjkz7P1.uQd6aE423mPv12Vc"
+    },
+    {
+      "folder": "KUerX2dLyeZ8A3Xw",
+      "name": "Lux",
+      "type": "spell",
+      "_id": "c73bNM930l9ZUJZh",
+      "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spells/lux.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>You focus your inner energy into a barrage of blinding soul rays. You deal <strong>【HR + 15】</strong> <strong>light</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": "Spiritist"
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "mig"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": true
+        },
+        "source": "FUCR209",
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "wlp"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": true
+            },
+            "type": {
+              "value": "light"
+            },
+            "value": 15
+          }
+        },
+        "hasRoll": {
+          "value": true
+        },
+        "opportunity": "",
+        "fuid": "lux",
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": true
+        },
+        "targeting": {
+          "max": 3,
+          "rule": "multiple"
+        },
+        "defense": "mdef",
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
+        },
+        "traits": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "mA8SNY2rY4X5tOHa": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.c73bNM930l9ZUJZh",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209281518,
+        "modifiedTime": 1775209281518,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "sort": 800000,
+      "_key": "!actors.items!C5pjw1nvvmjkz7P1.c73bNM930l9ZUJZh"
+    },
+    {
+      "name": "Loremaster",
+      "type": "class",
+      "system": {
+        "summary": {
+          "value": "Ah, I knew this was going to happen."
+        },
+        "description": "<h5><strong>ALSO: Archivist, Sage, Scholar</strong></h5><p><strong>Loremasters </strong>are known for their insatiable curiosity and appetite for discovery. They firmly believe that knowledge equates to power, and would often trade all gold in the world for a chance at solving a good mystery. Unfortunately, a majority of Loremasters tend to be aloof and easily distracted, rarely concerning themselves with “pragmatic” matters… to the point of sometimes failing to realize the darker implications of their discoveries.</p><hr /><h5><strong>LOREMASTER FREE BENEFITS</strong></h5><ul><li>Permanently increase your maximum Mind Points by 5.</li></ul><h2><strong>LOREMASTER SKILLS</strong></h2><p>@UUID[Compendium.projectfu.skills.Item.J5KbrSiczxizbdM3]{Flash of Insight} <strong>(SL3)</strong></p><p>When you roll a <strong>13 or higher</strong> on a Check performed to investigate a creature, item or location — this includes using the <strong>Study </strong>action during a conflict — you may ask the Game Master up to <strong>【SL】 </strong>questions concerning the subject of your investigation. You may ask these questions immediately or save them for later; whenever you ask one of these questions, the Game Master will answer truthfully and you will describe your character’s deductive process. This Skill may only be used once on the same creature, item or location.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.xaNu6plCZfo9dGsX]{Focused} <strong>(SL5)</strong></p><p>Permanently increase your maximum Mind Points by <strong>【SL × 3】</strong>.</p><p>When you perform an Open Check using <strong>【INS + INS】</strong>, you gain a bonus equal to <strong>【SL】 </strong>on that Check (this <strong>only </strong>applies to Open Checks).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.XNAHXFdVPKiABegZ]{Knowledge Is Power}</p><p>When you perform an Accuracy Check, you may replace <strong>one </strong>of the Attribute dice with <strong>Insight </strong>(such as <strong>【INS + INS】 </strong>for a <strong>pistol </strong>or <strong>【INS + MIG】 </strong>for a <strong>waraxe</strong>).</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.YiBD86tGOvFSlaZ6]{Quick Assessment} <strong>(SL6)</strong></p><p>At the start of a conflict, you may spend up to <strong>【SL × 5】 </strong>Mind Points. For every 5 Mind Points you spend this way, choose one option: choose a creature you can see and the GM reveals one of their <strong>Traits</strong>; <strong>or </strong>name a damage type and choose a creature you can see, and the GM reveals that creature’s <strong>Affinity </strong>towards that damage type.</p><hr /><p>@UUID[Compendium.projectfu.skills.Item.NseNebtgAwSF7pM6]{Trained Memory}</p><p>You may perfectly recall the details of any scene you have visited within the past week. You can “go back in time” within your mind in order to examine and investigate such scenes again — your <strong>Flash of Insight</strong> Skill will apply to these memories as well.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 10,
+          "min": 0
+        },
+        "benefits": {
+          "resources": {
+            "hp": {
+              "value": false
+            },
+            "mp": {
+              "value": true
+            },
+            "ip": {
+              "value": false
+            }
+          },
+          "martials": {
+            "melee": {
+              "value": false
+            },
+            "ranged": {
+              "value": false
+            },
+            "armor": {
+              "value": false
+            },
+            "shields": {
+              "value": false
+            }
+          },
+          "rituals": {
+            "arcanism": {
+              "value": false
+            },
+            "chimerism": {
+              "value": false
+            },
+            "elementalism": {
+              "value": false
+            },
+            "entropism": {
+              "value": false
+            },
+            "ritualism": {
+              "value": false
+            },
+            "spiritism": {
+              "value": false
+            }
+          }
+        },
+        "source": "FUCR198",
+        "fuid": "loremaster"
+      },
+      "img": "systems/projectfu/styles/static/compendium/classes/loremaster/loremaster.png",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.classes.Item.CCSYiJBV0Ce69JOp",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209302630,
+        "modifiedTime": 1775209302630,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "ownership": {
+        "default": 0,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "_id": "CCSYiJBV0Ce69JOp",
+      "sort": 100000,
+      "_key": "!actors.items!C5pjw1nvvmjkz7P1.CCSYiJBV0Ce69JOp"
+    },
+    {
+      "folder": "kDKKcLwB0Ut9ynTR",
+      "name": "Flash of Insight",
+      "type": "skill",
+      "_id": "J5KbrSiczxizbdM3",
+      "img": "systems/projectfu/styles/static/compendium/classes/loremaster/loremaster_flash_of_insight.png",
+      "system": {
+        "summary": {
+          "value": ""
+        },
+        "description": "<p>When you roll a <strong>13 or higher</strong> on a Check performed to investigate a creature, item or location — this includes using the <strong>Study </strong>action during a conflict — you may ask the Game Master up to <strong>【SL】</strong> questions concerning the subject of your investigation. You may ask these questions immediately or save them for later; whenever you ask one of these questions, the Game Master will answer truthfully and you will describe your character's deductive process.</p><p>This Skill may only be used once on the same creature, item or location.</p>",
+        "showTitleCard": {
+          "value": false
+        },
+        "level": {
+          "value": 1,
+          "max": 3,
+          "min": 0
+        },
+        "class": {
+          "value": "Loremaster"
+        },
+        "useWeapon": {
+          "accuracy": false,
+          "damage": false,
+          "traits": true
+        },
+        "attributes": {
+          "primary": "dex",
+          "secondary": "dex"
+        },
+        "accuracy": "0",
+        "damage": {
+          "hasDamage": false,
+          "value": 0,
+          "type": "physical",
+          "onRoll": "",
+          "onApply": "",
+          "hrZero": false
+        },
+        "source": "FUCR199",
+        "hasRoll": {
+          "value": false
+        },
+        "hasResource": {
+          "value": false
+        },
+        "rp": {
+          "name": "Name",
+          "current": 0,
+          "step": 1,
+          "max": 6,
+          "enabled": false
+        },
+        "defense": "def",
+        "fuid": "flash-of-insight",
+        "targeting": {
+          "rule": "self",
+          "max": 0
+        },
+        "traits": [],
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": ""
+          }
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": "",
+          "perTarget": false
+        },
+        "resource": {
+          "enabled": false,
+          "amount": "",
+          "type": "hp"
+        }
+      },
+      "effects": [
+        {
+          "name": "Flash of Insight",
+          "img": "systems/projectfu/styles/static/compendium/classes/loremaster/loremaster_flash_of_insight.png",
+          "system": {
+            "duration": {
+              "event": "none",
+              "interval": 1,
+              "tracking": "self",
+              "remaining": 1
+            },
+            "type": "default",
+            "predicate": {
+              "crisisInteraction": "none"
+            },
+            "rules": {
+              "elements": {
+                "5qIf7IG9ZAkwVt9R": {
+                  "type": "ruleElement",
+                  "_id": "5qIf7IG9ZAkwVt9R",
+                  "trigger": {
+                    "_id": "gkqkk1BJmj01J9jB",
+                    "type": "performCheckRuleTrigger",
+                    "eventRelation": "source",
+                    "checkTypes": [
+                      "open"
+                    ]
+                  },
+                  "predicates": {
+                    "udvpE739WHduDidd": {
+                      "type": "checkRulePredicate",
+                      "_id": "udvpE739WHduDidd",
+                      "result": 13,
+                      "attributes": {
+                        "primary": {
+                          "value": "ins"
+                        },
+                        "secondary": {
+                          "value": "ins"
+                        }
+                      },
+                      "parity": "",
+                      "outcome": "",
+                      "quantifier": "any"
+                    }
+                  },
+                  "actions": {
+                    "OqeboGimrr953F0i": {
+                      "type": "messageRuleAction",
+                      "_id": "OqeboGimrr953F0i",
+                      "message": "<p>If this was to investigate a creature, item or location, you may ask the GM up to<strong>【SL】</strong>questions concerning the subject.</p>"
+                    }
+                  },
+                  "selector": "initial",
+                  "enabled": true
+                }
+              },
+              "progress": {
+                "enabled": false,
+                "id": "",
+                "name": "",
+                "current": 0,
+                "max": 6,
+                "style": "basic",
+                "step": 1
+              }
+            }
+          },
+          "duration": {
+            "startTime": 0,
+            "combat": null,
+            "startRound": 0,
+            "startTurn": 0
+          },
+          "disabled": false,
+          "_id": "45F7umTTsKZUmmgj",
+          "type": "base",
+          "changes": [],
+          "description": "<p>When you roll a <strong>13 or higher</strong> on a Check performed to investigate a creature, item or location, you may ask the Game Master up to <strong>【SL】</strong> questions concerning the subject of your investigation.</p>",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "projectfu",
+            "systemVersion": "#{VERSION}#",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!C5pjw1nvvmjkz7P1.J5KbrSiczxizbdM3.45F7umTTsKZUmmgj"
+        }
+      ],
+      "ownership": {
+        "default": 2,
+        "hYECXwi6O8UUBuN4": 3,
+        "BwRsFvMHAq9vUtEO": 3,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "core": {},
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.projectfu.skills.Item.J5KbrSiczxizbdM3",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775209309365,
+        "modifiedTime": 1775209309365,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "sort": 0,
+      "_key": "!actors.items!C5pjw1nvvmjkz7P1.J5KbrSiczxizbdM3"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775032320766,
+    "modifiedTime": 1775032335841,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!actors!C5pjw1nvvmjkz7P1"
+}

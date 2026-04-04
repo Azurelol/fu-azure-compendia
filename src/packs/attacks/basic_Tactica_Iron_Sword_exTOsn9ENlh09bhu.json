@@ -1,0 +1,235 @@
+{
+  "folder": "THTKVOwQBKn2T3kI",
+  "name": "Tactica Iron Sword",
+  "type": "basic",
+  "_id": "exTOsn9ENlh09bhu",
+  "img": "icons/weapons/swords/greatsword-blue.webp",
+  "system": {
+    "fuid": "afc-tactica-iron-sword",
+    "description": "",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 1
+    },
+    "defense": "def",
+    "damage": {
+      "value": 5
+    },
+    "hasDamage": true,
+    "type": {
+      "value": "melee"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "effects": {
+      "entries": [],
+      "prompt": false,
+      "duration": {
+        "event": "",
+        "tracking": "",
+        "interval": null
+      }
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "traits": [],
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Sword",
+      "img": "icons/weapons/swords/greatsword-blue.webp",
+      "type": "base",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "j56j9GVWTJEtvgdO": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "VAyKaC2Nyg01Gky7",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "j56j9GVWTJEtvgdO",
+              "predicates": {
+                "ADMgiEzOHUnN1Tm7": {
+                  "type": "flagRulePredicate",
+                  "_id": "ADMgiEzOHUnN1Tm7",
+                  "scope": "fu-azure-compendia",
+                  "value": "axe",
+                  "key": "tactica.weapon",
+                  "selector": "initial",
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "Z0OCJMvxd0lYHcZt": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "Z0OCJMvxd0lYHcZt",
+                  "bonus": "2"
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            },
+            "wZF0gfynjypkGUli": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "8kTZmarSRPxwTs2r",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "wZF0gfynjypkGUli",
+              "predicates": {
+                "iCa33IhO4YKFRAMR": {
+                  "type": "flagRulePredicate",
+                  "_id": "iCa33IhO4YKFRAMR",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "lance",
+                  "selector": "initial",
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "5SHnFGZLTzd9OZ4t": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "5SHnFGZLTzd9OZ4t",
+                  "bonus": "-2"
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar",
+            "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.weapon",
+          "value": "sword",
+          "mode": 2,
+          "priority": 50
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "<p>The wielder of this weapon has <strong>advantage</strong> <strong>against</strong> <strong>axes</strong> but <strong>disadvantage</strong> <strong>against</strong> <strong>lances</strong>.</p>",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.VPbpbvKvGnJIbUry",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Sword",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.VPbpbvKvGnJIbUry",
+            "effectUuid": null,
+            "fuid": "afc-tactica-sword"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775217838482,
+        "modifiedTime": 1775217838482,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "vmOOpB4NsAXK2dns",
+      "_key": "!items.effects!exTOsn9ENlh09bhu.vmOOpB4NsAXK2dns"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775217806976,
+    "modifiedTime": 1775218369468,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!exTOsn9ENlh09bhu"
+}

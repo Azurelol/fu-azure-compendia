@@ -1,9 +1,9 @@
 {
-  "folder": "W6WWeIOmy8jCYlmh",
+  "folder": "7ORkqeMM7rbeuKf6",
   "name": "Tactica Archer",
   "type": "npc",
   "_id": "UoyU0TFoErrGszht",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/fu-azure-compendia/assets/tokens/tactica/archer_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -285,7 +285,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/fu-azure-compendia/assets/tokens/tactica/archer_*.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -354,7 +354,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -368,22 +368,23 @@
     },
     "movementAction": null,
     "flags": {},
-    "randomImg": false,
+    "randomImg": true,
     "appendNumber": false,
     "prependAdjective": false
   },
   "items": [
     {
-      "folder": "tjWV9h97KAbXCCnC",
-      "name": "Bow",
+      "folder": "THTKVOwQBKn2T3kI",
+      "name": "Tactica Iron Bow",
       "type": "basic",
-      "_id": "4O4J6xS9cDZen7HK",
-      "img": "systems/projectfu/styles/static/compendium/weapons/shortbow.png",
+      "_id": "c77MGo6DemqR1ed5",
+      "img": "icons/weapons/bows/shortbow-recurve-blue.webp",
       "system": {
+        "fuid": "afc-tactica-iron-bow",
+        "description": "",
         "summary": {
           "value": ""
         },
-        "description": "",
         "showTitleCard": {
           "value": false
         },
@@ -402,34 +403,19 @@
           }
         },
         "accuracy": {
-          "value": 1
+          "value": 2
         },
         "defense": "def",
         "damage": {
-          "value": 5
+          "value": 6
         },
+        "hasDamage": true,
         "type": {
           "value": "ranged"
         },
         "damageType": {
           "value": "physical"
         },
-        "cost": {
-          "value": 100
-        },
-        "quality": {
-          "value": ""
-        },
-        "source": "FU-AZURE",
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "fuid": "afc-bow",
-        "hasDamage": true,
         "effects": {
           "entries": [],
           "prompt": false,
@@ -439,7 +425,21 @@
             "interval": null
           }
         },
-        "traits": []
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "traits": [],
+        "source": "FU-AZURE"
       },
       "effects": [
         {
@@ -469,7 +469,7 @@
                       "attack"
                     ],
                     "damageTypes": [],
-                    "local": false,
+                    "local": true,
                     "identifier": ""
                   },
                   "_id": "SXf3bdsVWGxiOp1i",
@@ -564,8 +564,10 @@
           ],
           "disabled": false,
           "duration": {
-            "startTime": null,
-            "combat": null
+            "startTime": 0,
+            "combat": null,
+            "startRound": 0,
+            "startTurn": 0
           },
           "description": "",
           "origin": "Compendium.fu-azure-compendia.effects.Item.sraCP3fJv0nJu2dc",
@@ -593,14 +595,13 @@
             "systemVersion": "#{VERSION}#",
             "lastModifiedBy": null
           },
-          "_id": "ihLXW4cqCpXQT9Uk",
-          "_key": "!actors.items.effects!UoyU0TFoErrGszht.4O4J6xS9cDZen7HK.ihLXW4cqCpXQT9Uk"
+          "_id": "9IyX0a7bG0kmiHLb",
+          "_key": "!actors.items.effects!UoyU0TFoErrGszht.c77MGo6DemqR1ed5.9IyX0a7bG0kmiHLb"
         }
       ],
-      "sort": 1200000,
+      "sort": 0,
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3,
         "J5B4HfVqUaCPvzGg": 3
       },
       "flags": {
@@ -609,16 +610,17 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.4O4J6xS9cDZen7HK",
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.c77MGo6DemqR1ed5",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
-        "modifiedTime": 1774880878569
+        "createdTime": 1775219675998,
+        "modifiedTime": 1775219675998,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.items!UoyU0TFoErrGszht.4O4J6xS9cDZen7HK"
+      "_key": "!actors.items!UoyU0TFoErrGszht.c77MGo6DemqR1ed5"
     }
   ],
   "effects": [
@@ -638,7 +640,59 @@
           "crisisInteraction": "none"
         },
         "rules": {
-          "elements": {},
+          "elements": {
+            "Kx89g4SUK1EbvBBg": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "Jg4SpMtrnCUdnFGy",
+                "type": "renderCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ],
+                "itemGroups": [],
+                "local": false,
+                "identifier": ""
+              },
+              "_id": "Kx89g4SUK1EbvBBg",
+              "predicates": {
+                "s1OeRG5ZVPFHw9HI": {
+                  "type": "flagRulePredicate",
+                  "_id": "s1OeRG5ZVPFHw9HI",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "mystical",
+                  "selector": "initial",
+                  "quantifier": "any"
+                },
+                "5ZxoSBAo3QLPiMmE": {
+                  "type": "checkRulePredicate",
+                  "_id": "5ZxoSBAo3QLPiMmE",
+                  "outcome": "failure",
+                  "result": null,
+                  "parity": "even",
+                  "attributes": {
+                    "primary": {
+                      "value": ""
+                    },
+                    "secondary": {
+                      "value": ""
+                    }
+                  },
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "aYYk1AdGJmw5ZeZs": {
+                  "type": "messageRuleAction",
+                  "_id": "aYYk1AdGJmw5ZeZs",
+                  "message": "<p>The target suffers from <strong>break</strong>.</p>"
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            }
+          },
           "progress": {
             "enabled": false,
             "id": "",
@@ -657,10 +711,12 @@
       },
       "duration": {
         "startTime": 0,
-        "combat": null
+        "combat": null,
+        "startRound": 0,
+        "startTurn": 0
       },
       "disabled": false,
-      "_id": "ePjVGi1ZolqkCzwk",
+      "_id": "pbZOywS8F8lueFae",
       "type": "base",
       "changes": [
         {
@@ -674,9 +730,15 @@
           "mode": 2,
           "value": "1",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
-      "description": "<p>When this unit <strong>ends</strong> <strong>its</strong> <strong>turn</strong> in <strong>certain types</strong> <strong>of</strong> <strong>terrain</strong>, it gains @EFFECT[Compendium.fu-azure-compendia.effects.fbGux5CtxSaiCiKR]{Tactica: Terrain Bonus} until the <strong>start of its next turn.</strong></p>",
+      "description": "<p>This unit can inflict <strong>break</strong> on <strong>mystical units. </strong>When this unit <strong>ends</strong> <strong>its</strong> <strong>turn</strong> in <strong>certain types</strong> <strong>of</strong> <strong>terrain</strong>, it gains @EFFECT[Compendium.fu-azure-compendia.effects.fbGux5CtxSaiCiKR]{Tactica: Terrain Bonus} until the <strong>start of its next turn.</strong></p>",
       "tint": "#ffffff",
       "transfer": false,
       "statuses": [],
@@ -699,89 +761,14 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.effects!UoyU0TFoErrGszht.ePjVGi1ZolqkCzwk"
-    },
-    {
-      "name": "Tactica: Conversion",
-      "img": "icons/magic/control/control-influence-rally-purple.webp",
-      "origin": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
-      "system": {
-        "duration": {
-          "event": "none",
-          "interval": 1,
-          "tracking": "self",
-          "remaining": 1
-        },
-        "type": "default",
-        "predicate": {
-          "crisisInteraction": "none"
-        },
-        "rules": {
-          "elements": {},
-          "progress": {
-            "enabled": false,
-            "id": "",
-            "name": "",
-            "current": 0,
-            "max": 6,
-            "style": "bar",
-            "step": 1
-          },
-          "stacking": {
-            "progress": false,
-            "duration": false,
-            "increment": 1
-          }
-        }
-      },
-      "duration": {
-        "startTime": 0,
-        "combat": null
-      },
-      "disabled": false,
-      "_id": "KKJ5nxF1TZecziZD",
-      "type": "base",
-      "changes": [
-        {
-          "key": "system.bonuses.damage.all",
-          "mode": 2,
-          "value": "5",
-          "priority": null
-        }
-      ],
-      "description": "<p>This effect <strong>scales</strong> the unit's attributes for the tactica sub-system.</p>",
-      "tint": "#ffffff",
-      "transfer": false,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "projectfu": {
-          "Source": {
-            "name": "Tactica: Conversion",
-            "actorUuid": null,
-            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
-            "effectUuid": null,
-            "fuid": "tactica-classic"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1774884199757,
-        "modifiedTime": 1774884199757,
+        "createdTime": 1775211854025,
+        "modifiedTime": 1775211854025,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.effects!UoyU0TFoErrGszht.KKJ5nxF1TZecziZD"
+      "_key": "!actors.effects!UoyU0TFoErrGszht.pbZOywS8F8lueFae"
     }
   ],
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -795,7 +782,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774880759794,
-    "modifiedTime": 1774880759794,
+    "modifiedTime": 1775212032262,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!UoyU0TFoErrGszht"

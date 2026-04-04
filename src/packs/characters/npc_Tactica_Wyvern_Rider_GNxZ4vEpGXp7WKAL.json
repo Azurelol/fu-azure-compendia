@@ -1,9 +1,9 @@
 {
-  "folder": "W6WWeIOmy8jCYlmh",
+  "folder": "7ORkqeMM7rbeuKf6",
   "name": "Tactica Wyvern Rider",
   "type": "npc",
   "_id": "GNxZ4vEpGXp7WKAL",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/fu-azure-compendia/assets/tokens/tactica/wyvern_rider_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -285,14 +285,14 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
+      "src": "modules/fu-azure-compendia/assets/tokens/tactica/wyvern_rider_2.png",
+      "anchorX": 0.35,
+      "anchorY": 0.6,
       "offsetX": 0,
       "offsetY": 0,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1,
+      "fit": "cover",
+      "scaleX": 2,
+      "scaleY": 2,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -354,7 +354,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -374,16 +374,17 @@
   },
   "items": [
     {
-      "folder": "tjWV9h97KAbXCCnC",
-      "name": "Axe",
+      "folder": "THTKVOwQBKn2T3kI",
+      "name": "Tactica Iron Axe",
       "type": "basic",
-      "_id": "JGUMkGGHW601RE2O",
-      "img": "systems/projectfu/styles/static/compendium/weapons/broadaxe.png",
+      "_id": "2Bp0AkArc4X47TZH",
+      "img": "icons/weapons/axes/axe-broad-crescent-gray.webp",
       "system": {
+        "fuid": "afc-tactica-iron-axe",
+        "description": "",
         "summary": {
           "value": ""
         },
-        "description": "",
         "showTitleCard": {
           "value": false
         },
@@ -398,21 +399,31 @@
             "value": "mig"
           },
           "secondary": {
-            "value": "mig"
+            "value": "dex"
           }
         },
         "accuracy": {
-          "value": 0
+          "value": -1
         },
         "defense": "def",
         "damage": {
-          "value": 5
+          "value": 9
         },
+        "hasDamage": true,
         "type": {
           "value": "melee"
         },
         "damageType": {
           "value": "physical"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
         },
         "cost": {
           "value": 100
@@ -420,7 +431,6 @@
         "quality": {
           "value": ""
         },
-        "source": "FU-AZURE",
         "rollInfo": {
           "useWeapon": {
             "hrZero": {
@@ -428,17 +438,8 @@
             }
           }
         },
-        "fuid": "afc-axe",
-        "hasDamage": true,
-        "effects": {
-          "entries": [],
-          "prompt": false,
-          "duration": {
-            "event": "",
-            "tracking": ""
-          }
-        },
-        "traits": []
+        "traits": [],
+        "source": "FU-AZURE"
       },
       "effects": [
         {
@@ -549,8 +550,10 @@
           ],
           "disabled": false,
           "duration": {
-            "startTime": null,
-            "combat": null
+            "startTime": 0,
+            "combat": null,
+            "startRound": 0,
+            "startTurn": 0
           },
           "description": "<p>The wielder of this weapon has <strong>advantage</strong> <strong>against</strong> <strong>lances </strong>but <strong>disadvantage</strong> <strong>against</strong> <strong>swords</strong>.</p>",
           "origin": "Compendium.fu-azure-compendia.effects.Item.E5Lkk24EbK0Mv1CX",
@@ -578,14 +581,13 @@
             "systemVersion": "#{VERSION}#",
             "lastModifiedBy": null
           },
-          "_id": "HEz6IaakfaO3RzzE",
-          "_key": "!actors.items.effects!GNxZ4vEpGXp7WKAL.JGUMkGGHW601RE2O.HEz6IaakfaO3RzzE"
+          "_id": "jX91ut7RvxWspbFc",
+          "_key": "!actors.items.effects!GNxZ4vEpGXp7WKAL.2Bp0AkArc4X47TZH.jX91ut7RvxWspbFc"
         }
       ],
-      "sort": 1400000,
+      "sort": 0,
       "ownership": {
         "default": 0,
-        "esOkelwPNblkbxW3": 3,
         "J5B4HfVqUaCPvzGg": 3
       },
       "flags": {
@@ -594,15 +596,17 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.JGUMkGGHW601RE2O",
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.2Bp0AkArc4X47TZH",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
+        "createdTime": 1775219906071,
+        "modifiedTime": 1775219906071,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.items!GNxZ4vEpGXp7WKAL.JGUMkGGHW601RE2O"
+      "_key": "!actors.items!GNxZ4vEpGXp7WKAL.2Bp0AkArc4X47TZH"
     }
   ],
   "effects": [
@@ -637,28 +641,22 @@
                 "identifier": ""
               },
               "_id": "aI5LedrZpYDd5GlU",
-              "actions": {
-                "RnWKVJg0hoU4ZaAN": {
-                  "type": "messageRuleAction",
-                  "_id": "RnWKVJg0hoU4ZaAN",
-                  "message": "<p>The target suffers from <strong>break</strong>.</p>"
-                }
-              },
               "predicates": {
                 "Eanv3klT48n2dwyO": {
                   "type": "flagRulePredicate",
                   "_id": "Eanv3klT48n2dwyO",
-                  "selector": "initial",
-                  "quantifier": "any",
                   "scope": "fu-azure-compendia",
                   "key": "tactica.unit",
-                  "value": "cavalry"
+                  "value": "cavalry",
+                  "selector": "initial",
+                  "quantifier": "any"
                 },
                 "9yLYmt3RBtWV8wCp": {
                   "type": "checkRulePredicate",
                   "_id": "9yLYmt3RBtWV8wCp",
-                  "parity": "even",
                   "outcome": "success",
+                  "result": null,
+                  "parity": "even",
                   "attributes": {
                     "primary": {
                       "value": ""
@@ -667,8 +665,14 @@
                       "value": ""
                     }
                   },
-                  "result": null,
                   "quantifier": "any"
+                }
+              },
+              "actions": {
+                "RnWKVJg0hoU4ZaAN": {
+                  "type": "messageRuleAction",
+                  "_id": "RnWKVJg0hoU4ZaAN",
+                  "message": "<p>The target suffers from <strong>break</strong>.</p>"
                 }
               },
               "selector": "initial",
@@ -693,10 +697,12 @@
       },
       "duration": {
         "startTime": 0,
-        "combat": null
+        "combat": null,
+        "startRound": 0,
+        "startTurn": 0
       },
       "disabled": false,
-      "_id": "LrUDnT6e2CAxxZwz",
+      "_id": "6iytX0uQPbJBsviy",
       "type": "base",
       "changes": [
         {
@@ -704,9 +710,15 @@
           "mode": 2,
           "value": "flying",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
-      "description": "<p>This unit can <strong>cross over any terrain</strong> and inflicts <strong>break</strong> on <strong>cavalry units</strong>.</p>",
+      "description": "<p>This unit can <strong>cross over any terrain</strong> and can inflict <strong>break</strong> on <strong>cavalry units</strong>.</p>",
       "tint": "#ffffff",
       "transfer": false,
       "statuses": [],
@@ -729,91 +741,14 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1774881263162,
-        "modifiedTime": 1774881780965,
+        "createdTime": 1775211814001,
+        "modifiedTime": 1775211814001,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.effects!GNxZ4vEpGXp7WKAL.LrUDnT6e2CAxxZwz"
-    },
-    {
-      "name": "Tactica: Conversion",
-      "img": "icons/magic/control/control-influence-rally-purple.webp",
-      "origin": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
-      "system": {
-        "duration": {
-          "event": "none",
-          "interval": 1,
-          "tracking": "self",
-          "remaining": 1
-        },
-        "type": "default",
-        "predicate": {
-          "crisisInteraction": "none"
-        },
-        "rules": {
-          "elements": {},
-          "progress": {
-            "enabled": false,
-            "id": "",
-            "name": "",
-            "current": 0,
-            "max": 6,
-            "style": "bar",
-            "step": 1
-          },
-          "stacking": {
-            "progress": false,
-            "duration": false,
-            "increment": 1
-          }
-        }
-      },
-      "duration": {
-        "startTime": 0,
-        "combat": null
-      },
-      "disabled": false,
-      "_id": "WPX4tYxUeY5pBNzd",
-      "type": "base",
-      "changes": [
-        {
-          "key": "system.bonuses.damage.all",
-          "mode": 2,
-          "value": "5",
-          "priority": null
-        }
-      ],
-      "description": "<p>This effect <strong>scales</strong> the unit's attributes for the tactica sub-system.</p>",
-      "tint": "#ffffff",
-      "transfer": false,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "projectfu": {
-          "Source": {
-            "name": "Tactica: Conversion",
-            "actorUuid": null,
-            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
-            "effectUuid": null,
-            "fuid": "tactica-classic"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1774884309468,
-        "modifiedTime": 1774884309468,
-        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
-      },
-      "_key": "!actors.effects!GNxZ4vEpGXp7WKAL.WPX4tYxUeY5pBNzd"
+      "_key": "!actors.effects!GNxZ4vEpGXp7WKAL.6iytX0uQPbJBsviy"
     }
   ],
-  "sort": 0,
+  "sort": 1200000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -827,7 +762,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774880759794,
-    "modifiedTime": 1774880759794,
+    "modifiedTime": 1775212039397,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!GNxZ4vEpGXp7WKAL"

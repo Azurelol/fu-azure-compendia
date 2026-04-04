@@ -102,6 +102,12 @@
           "mode": 2,
           "value": "1",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
       "description": "<p>This unit can inflict <strong>break</strong> on <strong>mystical units. </strong>When this unit <strong>ends</strong> <strong>its</strong> <strong>turn</strong> in <strong>certain types</strong> <strong>of</strong> <strong>terrain</strong>, it gains @EFFECT[Compendium.fu-azure-compendia.effects.fbGux5CtxSaiCiKR]{Tactica: Terrain Bonus} until the <strong>start of its next turn.</strong></p>",
@@ -128,7 +134,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774878342132,
-        "modifiedTime": 1774885173914,
+        "modifiedTime": 1775211720252,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!EirCba0XGv3uLZgo.bqlakUzVTrAjFZso"

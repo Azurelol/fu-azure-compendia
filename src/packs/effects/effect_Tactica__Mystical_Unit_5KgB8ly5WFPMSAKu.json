@@ -63,6 +63,12 @@
           "mode": 2,
           "value": "5",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
       "description": "<p>This unit's attacks <strong>ignore physical resistance</strong> and <strong>terrain bonuses</strong>.</p>",
@@ -89,7 +95,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774819218140,
-        "modifiedTime": 1774885229762,
+        "modifiedTime": 1775211738225,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!5KgB8ly5WFPMSAKu.RyCtIiVMqLxcr4Hv"

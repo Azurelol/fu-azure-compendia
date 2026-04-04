@@ -1,0 +1,122 @@
+{
+  "folder": "JT25Uly4kxMVVQhq",
+  "name": "Tactica: Support Bonus",
+  "type": "effect",
+  "_id": "aTkCMRqJGENDcp2e",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "system": {
+    "fuid": "afc-tactica-support-bonus",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Support Bonus",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.aTkCMRqJGENDcp2e",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": true,
+            "id": "tactica-support-bonus",
+            "name": "Support Bonus",
+            "current": 1,
+            "max": 3,
+            "style": "basic"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "7T2hvrw3nQpfc4fr",
+      "type": "base",
+      "changes": [
+        {
+          "key": "system.bonuses.accuracy.all",
+          "mode": 2,
+          "value": "$pg",
+          "priority": null
+        },
+        {
+          "key": "system.derived.def.bonus",
+          "mode": 2,
+          "value": "$pg",
+          "priority": null
+        },
+        {
+          "key": "system.derived.mdef.bonus",
+          "mode": 2,
+          "value": "$pg",
+          "priority": null
+        }
+      ],
+      "description": "<p>You gain a bonus to your <strong>checks and defenses</strong> whenever <strong>adjacent</strong> to _.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Support Bonus",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.aTkCMRqJGENDcp2e",
+            "effectUuid": null,
+            "fuid": "afc-tactica-support-bonus"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775216653610,
+        "modifiedTime": 1775216754500,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!aTkCMRqJGENDcp2e.7T2hvrw3nQpfc4fr"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775216634422,
+    "modifiedTime": 1775216649820,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!aTkCMRqJGENDcp2e"
+}

@@ -1,9 +1,9 @@
 {
-  "folder": "W6WWeIOmy8jCYlmh",
+  "folder": "7ORkqeMM7rbeuKf6",
   "name": "Tactica Priest",
   "type": "npc",
   "_id": "CmVXGfn9w6Bsb1Nh",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/fu-azure-compendia/assets/tokens/tactica/priest_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -285,7 +285,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/fu-azure-compendia/assets/tokens/tactica/priest_*.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -354,7 +354,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -368,264 +368,18 @@
     },
     "movementAction": null,
     "flags": {},
-    "randomImg": false,
+    "randomImg": true,
     "appendNumber": false,
     "prependAdjective": false
   },
   "items": [
     {
-      "folder": "qRpDGGGdnhmkFuQj",
-      "name": "Light Spear",
-      "type": "basic",
-      "img": "icons/magic/light/projectile-flare-expliosion-yellow.webp",
-      "system": {
-        "summary": {
-          "value": ""
-        },
-        "description": "",
-        "showTitleCard": {
-          "value": false
-        },
-        "isBehavior": {
-          "value": false
-        },
-        "weight": {
-          "value": 1
-        },
-        "attributes": {
-          "primary": {
-            "value": "ins"
-          },
-          "secondary": {
-            "value": "wlp"
-          }
-        },
-        "accuracy": {
-          "value": 1
-        },
-        "defense": "mdef",
-        "damage": {
-          "value": 5
-        },
-        "type": {
-          "value": "ranged"
-        },
-        "damageType": {
-          "value": "light"
-        },
-        "cost": {
-          "value": 100
-        },
-        "quality": {
-          "value": ""
-        },
-        "source": "FU-AZURE",
-        "rollInfo": {
-          "useWeapon": {
-            "hrZero": {
-              "value": false
-            }
-          }
-        },
-        "fuid": "afc-light-spear",
-        "hasDamage": true,
-        "effects": {
-          "entries": [],
-          "prompt": false,
-          "duration": {
-            "event": "",
-            "tracking": ""
-          }
-        },
-        "traits": []
-      },
-      "effects": [
-        {
-          "name": "Tactica: Tome",
-          "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
-          "type": "base",
-          "system": {
-            "duration": {
-              "event": "none",
-              "interval": 1,
-              "tracking": "self",
-              "remaining": 1
-            },
-            "type": "default",
-            "predicate": {
-              "crisisInteraction": "none"
-            },
-            "rules": {
-              "elements": {
-                "vkNsVI7ogkNy6XHw": {
-                  "type": "ruleElement",
-                  "trigger": {
-                    "_id": "Dfb3QCP2E7trFHKQ",
-                    "type": "performCheckRuleTrigger",
-                    "eventRelation": "source",
-                    "checkTypes": [
-                      "accuracy"
-                    ]
-                  },
-                  "_id": "vkNsVI7ogkNy6XHw",
-                  "predicates": {
-                    "Dp0275AnoxlT4vX1": {
-                      "type": "flagRulePredicate",
-                      "_id": "Dp0275AnoxlT4vX1",
-                      "scope": "fu-azure-compendia",
-                      "key": "tactica.unit",
-                      "value": "armored",
-                      "selector": "initial",
-                      "quantifier": "any"
-                    }
-                  },
-                  "actions": {
-                    "xWV8FsYIHQcTKI73": {
-                      "type": "modifyCheckRuleAction",
-                      "_id": "xWV8FsYIHQcTKI73",
-                      "bonus": "2"
-                    }
-                  },
-                  "selector": "initial",
-                  "enabled": true
-                },
-                "7fYgsEnKUo3sdyRC": {
-                  "type": "ruleElement",
-                  "trigger": {
-                    "_id": "PhmyJIGtYnNPH9H3",
-                    "type": "calculateDamageRuleTrigger",
-                    "eventRelation": "source",
-                    "damageSources": [
-                      "attack"
-                    ],
-                    "damageTypes": [],
-                    "local": false,
-                    "identifier": ""
-                  },
-                  "_id": "7fYgsEnKUo3sdyRC",
-                  "predicates": {
-                    "vmVijtpApPGGBuse": {
-                      "type": "flagRulePredicate",
-                      "_id": "vmVijtpApPGGBuse",
-                      "scope": "fu-azure-compendia",
-                      "key": "tactica.unit",
-                      "value": "armored",
-                      "selector": "initial",
-                      "quantifier": "any"
-                    }
-                  },
-                  "actions": {
-                    "aCe19xQHkKqeE8MF": {
-                      "type": "modifyDamageRuleAction",
-                      "_id": "aCe19xQHkKqeE8MF",
-                      "amount": "5",
-                      "effect": "",
-                      "cost": {
-                        "amount": null,
-                        "resource": "mp",
-                        "perTarget": false
-                      },
-                      "damageTypes": [],
-                      "traits": {
-                        "entries": []
-                      },
-                      "variant": ""
-                    }
-                  },
-                  "selector": "initial",
-                  "enabled": true
-                }
-              },
-              "progress": {
-                "enabled": false,
-                "id": "",
-                "name": "",
-                "current": 0,
-                "max": 6,
-                "style": "bar",
-                "step": 1
-              },
-              "stacking": {
-                "progress": false,
-                "duration": false,
-                "increment": 1
-              }
-            }
-          },
-          "changes": [
-            {
-              "key": "flags.fu-azure-compendia.tactica.weapon",
-              "value": "tome",
-              "mode": 2,
-              "priority": 50
-            }
-          ],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "combat": null
-          },
-          "description": "",
-          "origin": "Compendium.fu-azure-compendia.effects.Item.ULnqC3wBDFtLgZRa",
-          "tint": "#ffffff",
-          "transfer": true,
-          "statuses": [],
-          "sort": 0,
-          "flags": {
-            "projectfu": {
-              "Source": {
-                "name": "Tactica: Tome",
-                "actorUuid": null,
-                "itemUuid": "Compendium.fu-azure-compendia.effects.Item.ULnqC3wBDFtLgZRa",
-                "effectUuid": null,
-                "fuid": "afc-tactica-tome"
-              }
-            }
-          },
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "projectfu",
-            "systemVersion": "#{VERSION}#",
-            "lastModifiedBy": null
-          },
-          "_id": "QyEfzqeGHzvgrC5E",
-          "_key": "!actors.items.effects!CmVXGfn9w6Bsb1Nh.bDQoG2gY7bgDnZ48.QyEfzqeGHzvgrC5E"
-        }
-      ],
-      "ownership": {
-        "default": 0,
-        "esOkelwPNblkbxW3": 3,
-        "J5B4HfVqUaCPvzGg": 3
-      },
-      "flags": {
-        "projectfu": {
-          "favorite": false
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.bDQoG2gY7bgDnZ48",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
-      },
-      "_id": "bDQoG2gY7bgDnZ48",
-      "sort": 0,
-      "_key": "!actors.items!CmVXGfn9w6Bsb1Nh.bDQoG2gY7bgDnZ48"
-    },
-    {
-      "folder": "cuUpcbYKWpRO8BhR",
-      "name": "Tactica: Heal",
+      "folder": "8LWP4BuwvieV1m9O",
+      "name": "Tactica Heal",
       "type": "spell",
-      "_id": "saQNtAlYadZpbcsI",
       "img": "icons/magic/life/cross-area-circle-green-white.webp",
       "system": {
-        "fuid": "tactica-heal",
+        "fuid": "afc-tactica-heal",
         "description": "<p>You <strong>restore</strong> the <strong>hit points</strong> of an <strong>ally in an adjacent space.</strong></p>",
         "summary": {
           "value": ""
@@ -661,7 +415,7 @@
         "defense": "mdef",
         "resource": {
           "enabled": true,
-          "amount": "15+$wlp",
+          "amount": "5+$wlp+$cl",
           "type": "hp"
         },
         "effects": {
@@ -729,7 +483,7 @@
         },
         "cost": {
           "resource": "mp",
-          "amount": "5",
+          "amount": "10",
           "perTarget": false
         },
         "targeting": {
@@ -739,6 +493,99 @@
         "traits": [],
         "source": "FU-AZURE",
         "opportunity": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.spells.Item.BAc5iA1FimrMbc1e",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775219788680,
+        "modifiedTime": 1775219788680,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "BAc5iA1FimrMbc1e",
+      "sort": 0,
+      "_key": "!actors.items!CmVXGfn9w6Bsb1Nh.BAc5iA1FimrMbc1e"
+    },
+    {
+      "folder": "THTKVOwQBKn2T3kI",
+      "name": "Tactica Staff",
+      "type": "basic",
+      "_id": "9NL2PfBKP2OiEKKD",
+      "img": "icons/weapons/staves/staff-ornate-green.webp",
+      "system": {
+        "fuid": "afc-tactica-staff",
+        "description": "<p>This weapon <strong>cannot</strong> <strong>counter</strong>.</p>",
+        "summary": {
+          "value": ""
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "value": 0
+        },
+        "hasDamage": true,
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "traits": [],
+        "source": "FU-AZURE"
       },
       "effects": [],
       "sort": 0,
@@ -752,15 +599,17 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.fu-azure-compendia.skills.Item.saQNtAlYadZpbcsI",
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.9NL2PfBKP2OiEKKD",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
+        "createdTime": 1775219880707,
+        "modifiedTime": 1775219880707,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.items!CmVXGfn9w6Bsb1Nh.saQNtAlYadZpbcsI"
+      "_key": "!actors.items!CmVXGfn9w6Bsb1Nh.9NL2PfBKP2OiEKKD"
     }
   ],
   "effects": [
@@ -799,10 +648,12 @@
       },
       "duration": {
         "startTime": 0,
-        "combat": null
+        "combat": null,
+        "startRound": 0,
+        "startTurn": 0
       },
       "disabled": false,
-      "_id": "io7zp3Dm2zmcPFqp",
+      "_id": "faZ9p9TcDi6MyCJC",
       "type": "base",
       "changes": [
         {
@@ -816,9 +667,15 @@
           "mode": 2,
           "value": "5",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
-      "description": "",
+      "description": "<p>This unit's attacks <strong>ignore physical resistance</strong> and <strong>terrain bonuses</strong>.</p>",
       "tint": "#ffffff",
       "transfer": false,
       "statuses": [],
@@ -841,89 +698,14 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.effects!CmVXGfn9w6Bsb1Nh.io7zp3Dm2zmcPFqp"
-    },
-    {
-      "name": "Tactica: Conversion",
-      "img": "icons/magic/control/control-influence-rally-purple.webp",
-      "origin": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
-      "system": {
-        "duration": {
-          "event": "none",
-          "interval": 1,
-          "tracking": "self",
-          "remaining": 1
-        },
-        "type": "default",
-        "predicate": {
-          "crisisInteraction": "none"
-        },
-        "rules": {
-          "elements": {},
-          "progress": {
-            "enabled": false,
-            "id": "",
-            "name": "",
-            "current": 0,
-            "max": 6,
-            "style": "bar",
-            "step": 1
-          },
-          "stacking": {
-            "progress": false,
-            "duration": false,
-            "increment": 1
-          }
-        }
-      },
-      "duration": {
-        "startTime": 0,
-        "combat": null
-      },
-      "disabled": false,
-      "_id": "rSER2Kf3uMcN3VC2",
-      "type": "base",
-      "changes": [
-        {
-          "key": "system.bonuses.damage.all",
-          "mode": 2,
-          "value": "5",
-          "priority": null
-        }
-      ],
-      "description": "<p>This effect <strong>scales</strong> the unit's attributes for the tactica sub-system.</p>",
-      "tint": "#ffffff",
-      "transfer": false,
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "projectfu": {
-          "Source": {
-            "name": "Tactica: Conversion",
-            "actorUuid": null,
-            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.IMaFUt5pGvyo96fQ",
-            "effectUuid": null,
-            "fuid": "tactica-classic"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "projectfu",
-        "systemVersion": "#{VERSION}#",
-        "createdTime": 1774884277968,
-        "modifiedTime": 1774884277968,
+        "createdTime": 1775211753458,
+        "modifiedTime": 1775211753458,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_key": "!actors.effects!CmVXGfn9w6Bsb1Nh.rSER2Kf3uMcN3VC2"
+      "_key": "!actors.effects!CmVXGfn9w6Bsb1Nh.faZ9p9TcDi6MyCJC"
     }
   ],
-  "sort": 0,
+  "sort": 1000000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -937,7 +719,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774880759794,
-    "modifiedTime": 1774880759794,
+    "modifiedTime": 1775212038437,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!CmVXGfn9w6Bsb1Nh"

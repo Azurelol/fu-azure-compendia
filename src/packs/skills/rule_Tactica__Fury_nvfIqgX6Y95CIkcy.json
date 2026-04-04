@@ -1,0 +1,133 @@
+{
+  "folder": "KzLESm869DaNwCms",
+  "name": "Tactica: Fury",
+  "type": "rule",
+  "_id": "nvfIqgX6Y95CIkcy",
+  "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+  "system": {
+    "fuid": "afc-tactica-fury",
+    "description": "",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "hasClock": {
+      "value": false
+    },
+    "progress": {
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Fury",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+      "origin": "Compendium.fu-azure-compendia.skills.Item.nvfIqgX6Y95CIkcy",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "Z7n0zs0wiULc8KI1",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.projectfu.critThreshold.accuracyCheck.melee",
+          "mode": 5,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Fury",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.skills.Item.nvfIqgX6Y95CIkcy",
+            "effectUuid": null,
+            "fuid": "afc-tactica-fury"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775221228729,
+        "modifiedTime": 1775221299213,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!nvfIqgX6Y95CIkcy.Z7n0zs0wiULc8KI1"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775220983918,
+    "modifiedTime": 1775221072588,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!nvfIqgX6Y95CIkcy"
+}
