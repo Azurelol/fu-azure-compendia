@@ -249,7 +249,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>In this sub-system, units can have the following passive and active skills.</p><h2>Passive Skills</h2><ul><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.y2o9WAL7YH2LLaqG]{Tactica: Pass}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.9ti16lwufANkmqDO]{Tactica: Reprisal}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.eGra15bE3PeEhf5x]{Tactica: Canter}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.A67rjtmZgi1hdSHf]{Tactica: Vantage}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.ne4lbhKBXxq6S51j]{Tactica: Renewal}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.EVkrL6Qd314R3b11]{Tactica: Stealth}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.AanUSekK2iaS3Ay4]{Tactica: Pathfinder}</p></li></ul><h2>Active Skills</h2><ul><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.KskESzu4oKqHSIaO]{Tactica: Pivot}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.gsDqi5E9Go4dCdiE]{Tactica: Shove}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.dH01wa9SzVmUIUh0]{Tactica: Rally Body}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.iWwLsWDyzj10vDld]{Tactica: Rally Mind}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.uCegTE5JLrff354q]{Tactica: Dance}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.TJdztnKb5uajOhLk]{Tactica: Reposition}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.GqpuUGOAmlJK8cPe]{Tactica: Run Through}</p></li></ul><h2>Spells</h2><p>These can be treated as active skills that consume MP.</p><ul><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.saQNtAlYadZpbcsI]{Tactica: Heal}</p></li></ul><p></p>"
+        "content": "<p>In this sub-system, units can have the following passive and active skills. Here are some examples.</p><h2>Passive Skills</h2><ul><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.y2o9WAL7YH2LLaqG]{Tactica: Pass}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.9ti16lwufANkmqDO]{Tactica: Reprisal}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.eGra15bE3PeEhf5x]{Tactica: Canter}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.A67rjtmZgi1hdSHf]{Tactica: Vantage}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.ne4lbhKBXxq6S51j]{Tactica: Renewal}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.EVkrL6Qd314R3b11]{Tactica: Stealth}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.AanUSekK2iaS3Ay4]{Tactica: Pathfinder}</p></li></ul><h2>Active Skills</h2><ul><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.KskESzu4oKqHSIaO]{Tactica: Pivot}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.gsDqi5E9Go4dCdiE]{Tactica: Shove}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.dH01wa9SzVmUIUh0]{Tactica: Rally Body}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.iWwLsWDyzj10vDld]{Tactica: Rally Mind}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.uCegTE5JLrff354q]{Tactica: Dance}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.TJdztnKb5uajOhLk]{Tactica: Reposition}</p></li><li><p>@UUID[Compendium.fu-azure-compendia.skills.Item.GqpuUGOAmlJK8cPe]{Tactica: Run Through}</p></li></ul><h2>Spells</h2><p>These can be treated as active skills that consume MP.</p><ul><li><p>@UUID[Compendium.fu-azure-compendia.spells.Item.BAc5iA1FimrMbc1e]{Tactica Heal}</p></li></ul>"
       },
       "video": {
         "controls": true,
@@ -270,7 +270,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774869395767,
-        "modifiedTime": 1774880058812,
+        "modifiedTime": 1775303841352,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!journal.pages!FHnjDvV196AmONvt.iRvbxIuyaDgKpOEV"
@@ -288,7 +288,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<h2>Unit Anatomy</h2><p>A tactica unit is a simplified NPC which should have the following, that are implemented via effects on the actors or their weapons:</p><ul><li><p><strong>@UUID[Compendium.fu-azure-compendia.journals.JournalEntry.FHnjDvV196AmONvt.JournalEntryPage.1aKDL28nvM1Sn0s6]{Unit Type}: </strong>A mechanical representation of their archetype and key attributes.</p></li><li><p>@UUID[Compendium.fu-azure-compendia.journals.JournalEntry.FHnjDvV196AmONvt.JournalEntryPage.ovX25EkTqMzRIMWF]{Weapons}: For generic and enemy units, one <strong>weapon</strong>. For the players' named units, up to <strong>two weapons</strong>.</p></li><li><p>@UUID[Compendium.fu-azure-compendia.journals.JournalEntry.FHnjDvV196AmONvt.JournalEntryPage.iRvbxIuyaDgKpOEV]{Skills}: For important enemy units, one <strong>skill</strong>. For the player's named units they should start with one, and possibly unlock others.</p></li></ul><h2>Spaces</h2><p>The system is meant to be played in a grid, with each cell in the grid being referred to as a  space within these rules. </p><p>When counting spaces for the purposes of movement and action ranges, you will want to count along the cardinal directions. <br /><br />For example, moving to an unit's diagonal would take up two movement points.</p>"
+        "content": "<h2>Unit Anatomy</h2><p>A tactica unit is a simplified NPC which should have the following, that are implemented via effects on the actors or their weapons:</p><ul><li><p><strong>@UUID[Compendium.fu-azure-compendia.journals.JournalEntry.FHnjDvV196AmONvt.JournalEntryPage.1aKDL28nvM1Sn0s6]{Unit Type}: </strong>A mechanical representation of their archetype and key attributes.</p></li><li><p>@UUID[Compendium.fu-azure-compendia.journals.JournalEntry.FHnjDvV196AmONvt.JournalEntryPage.ovX25EkTqMzRIMWF]{Weapons}: For generic and enemy units, one <strong>weapon</strong>. For the players' named units, up to <strong>two weapons</strong>.</p></li><li><p>@UUID[Compendium.fu-azure-compendia.journals.JournalEntry.FHnjDvV196AmONvt.JournalEntryPage.iRvbxIuyaDgKpOEV]{Skills}: For important enemy units, one <strong>skill</strong>. For the player's named units they should start with one, and possibly unlock others.</p></li></ul><p><em>Note that weapons have been implemented as NPC attacks to keep things simple. If your have characters with multiple \"weapons\" make sure they disable they toggle the weapon effects accordingly.</em></p><h2>Spaces</h2><p>The system is meant to be played in a grid, with each cell in the grid being referred to as a space within these rules.</p><p>When counting spaces for the purposes of movement and action ranges, you will want to count along the cardinal directions. <br /><br />For example, moving to an unit's diagonal would take up two movement points.</p>"
       },
       "video": {
         "controls": true,
@@ -309,14 +309,14 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774870052675,
-        "modifiedTime": 1775219098639,
+        "modifiedTime": 1775304133082,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!journal.pages!FHnjDvV196AmONvt.ZsgH8XWj8LZNv1k5"
     },
     {
       "sort": 450000,
-      "name": "Samples",
+      "name": "Assets",
       "type": "text",
       "_id": "GRDjjLOvLuhgYXNy",
       "system": {},
@@ -327,7 +327,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>The <strong>Characters</strong> compendium has been updated to include a folder with sample units for you to use as a base or out of the box.  There are two categories:</p><ul><li><p><strong>Heroes</strong>: These would be the characters your players would use in the encounters with the subsystem.</p></li><li><p><strong>Units</strong>: These are a collection of archetypes you can use.</p></li></ul>"
+        "content": "<h2>Actors</h2><p>The <strong>Characters</strong> compendium has been updated to include a folder with sample units for you to use as a base or out of the box. There are two categories:</p><ul><li><p><strong>Heroes</strong>: These would be the characters your players would use in the encounters with the subsystem.</p></li><li><p><strong>Units</strong>: These are a collection of archetypes you can use.</p></li></ul><h2>Sprites</h2><p>The sprites included in the module for use in the units have been re-scaled to 256x256 since quite a few units don't have an uniform size. The prototype tokens have an image scale of 2 at the minimum, with some being higher.</p><h2>Maps</h2><p>A variety of maps have been included for quick use with the system before you either look up or make up your own.</p>"
       },
       "video": {
         "controls": true,
@@ -348,7 +348,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774898311397,
-        "modifiedTime": 1775219250060,
+        "modifiedTime": 1775303018449,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!journal.pages!FHnjDvV196AmONvt.GRDjjLOvLuhgYXNy"

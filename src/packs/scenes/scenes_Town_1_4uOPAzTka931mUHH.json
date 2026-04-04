@@ -17,7 +17,7 @@
   },
   "foreground": null,
   "foregroundElevation": null,
-  "thumb": "worlds/fabula-kitchen-13/assets/scenes/q4lFDHyQrKThvGRQ-thumb.webp",
+  "thumb": "modules/fu-azure-compendia/assets/scenes/4uOPAzTka931mUHH-thumb.webp",
   "width": 1824,
   "height": 1536,
   "padding": 0.25,
@@ -108,7 +108,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1775250207478,
-    "modifiedTime": 1775250207478,
+    "modifiedTime": 1775304008104,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "navName": "",

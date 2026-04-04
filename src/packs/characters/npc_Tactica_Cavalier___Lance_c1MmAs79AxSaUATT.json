@@ -290,8 +290,8 @@
       "offsetX": 0,
       "offsetY": 0,
       "fit": "cover",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 2,
+      "scaleY": 2,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -758,7 +758,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1775210185587,
-    "modifiedTime": 1775212034850,
+    "modifiedTime": 1775303092619,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_id": "c1MmAs79AxSaUATT",

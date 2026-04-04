@@ -285,14 +285,14 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/fu-azure-compendia/assets/tokens/tactica/wyvern_rider_2.png",
-      "anchorX": 0.35,
+      "src": "modules/fu-azure-compendia/assets/tokens/tactica/wyvern_rider_1.png",
+      "anchorX": 0.6,
       "anchorY": 0.6,
       "offsetX": 0,
       "offsetY": 0,
       "fit": "cover",
-      "scaleX": 2,
-      "scaleY": 2,
+      "scaleX": 3,
+      "scaleY": 3,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -762,7 +762,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774880759794,
-    "modifiedTime": 1775212039397,
+    "modifiedTime": 1775303508763,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!GNxZ4vEpGXp7WKAL"

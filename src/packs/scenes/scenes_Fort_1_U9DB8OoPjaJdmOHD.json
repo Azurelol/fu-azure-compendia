@@ -17,7 +17,7 @@
   },
   "foreground": null,
   "foregroundElevation": null,
-  "thumb": "worlds/fabula-kitchen-13/assets/scenes/e1lSNCAbehnOvlE3-thumb.webp",
+  "thumb": "modules/fu-azure-compendia/assets/scenes/U9DB8OoPjaJdmOHD-thumb.webp",
   "width": 1536,
   "height": 1792,
   "padding": 0.25,
@@ -94,7 +94,7 @@
   "journal": null,
   "journalEntryPage": null,
   "weather": "",
-  "folder": null,
+  "folder": "wjgFPj41q27e7h15",
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -108,12 +108,12 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1775252630596,
-    "modifiedTime": 1775252630603,
+    "modifiedTime": 1775304003334,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "navName": "",
   "_id": "U9DB8OoPjaJdmOHD",
   "active": false,
-  "sort": 200000,
+  "sort": 400000,
   "_key": "!scenes!U9DB8OoPjaJdmOHD"
 }

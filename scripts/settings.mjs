@@ -37,7 +37,7 @@ function registerSettings() {
   registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check");
 
   registerSlider(keys.volume, "Volume", "The volume of sound effects", 0.25, 0, 1, 0.1);
-  registerToggle(keys.enableTargetingSystem, "Evil Eye", "Provide targeting prompts for adversaries.", true);
+  registerToggle(keys.enableTargetingSystem, "Evil Eye", "Provide targeting prompts for adversaries.", true, false);
   registerToggle(keys.publicTargetingMessage, "Evil Eye: Public Message", "Whether to display the targeting message to all users.", false);
   registerToggle(keys.autoTargetOnTurnStart, "Evil Eye: Auto Target On Turn Start", "Whether to automatically target the first prioritized target at the start of the adversary's turn.", false, false);
 }
