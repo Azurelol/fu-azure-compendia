@@ -1,0 +1,92 @@
+{
+  "folder": "THTKVOwQBKn2T3kI",
+  "name": "Tactica Staff",
+  "type": "basic",
+  "_id": "9NL2PfBKP2OiEKKD",
+  "img": "icons/weapons/staves/staff-ornate-green.webp",
+  "system": {
+    "fuid": "afc-tactica-staff",
+    "description": "<p>This weapon <strong>cannot</strong> <strong>counter</strong>.</p>",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "mig"
+      }
+    },
+    "accuracy": {
+      "value": 0
+    },
+    "defense": "def",
+    "damage": {
+      "value": 0
+    },
+    "hasDamage": true,
+    "type": {
+      "value": "melee"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "effects": {
+      "entries": [],
+      "prompt": false,
+      "duration": {
+        "event": "",
+        "tracking": "",
+        "interval": null
+      }
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "traits": [],
+    "source": "FU-AZURE"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775219830380,
+    "modifiedTime": 1775219876466,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!9NL2PfBKP2OiEKKD"
+}

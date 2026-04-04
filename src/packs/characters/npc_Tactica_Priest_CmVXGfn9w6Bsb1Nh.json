@@ -1,0 +1,726 @@
+{
+  "folder": "7ORkqeMM7rbeuKf6",
+  "name": "Tactica Priest",
+  "type": "npc",
+  "_id": "CmVXGfn9w6Bsb1Nh",
+  "img": "modules/fu-azure-compendia/assets/tokens/tactica/priest_1.png",
+  "system": {
+    "affinities": {
+      "physical": {
+        "base": 0
+      },
+      "air": {
+        "base": 0
+      },
+      "bolt": {
+        "base": 0
+      },
+      "dark": {
+        "base": 0
+      },
+      "earth": {
+        "base": 0
+      },
+      "fire": {
+        "base": 0
+      },
+      "ice": {
+        "base": 0
+      },
+      "light": {
+        "base": 0
+      },
+      "poison": {
+        "base": 0
+      }
+    },
+    "attributes": {
+      "dex": {
+        "base": 8
+      },
+      "ins": {
+        "base": 8
+      },
+      "mig": {
+        "base": 6
+      },
+      "wlp": {
+        "base": 10
+      }
+    },
+    "derived": {
+      "init": {
+        "bonus": 0
+      },
+      "def": {
+        "bonus": 0
+      },
+      "mdef": {
+        "bonus": 0
+      }
+    },
+    "equipped": {},
+    "bonuses": {
+      "bondStrength": 0,
+      "incomingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "incomingLoss": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "outgoingRecovery": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 0
+      },
+      "accuracy": {
+        "all": 0,
+        "accuracyCheck": 0,
+        "accuracyMelee": 0,
+        "accuracyRanged": 0,
+        "magicCheck": 0,
+        "opposedCheck": 0,
+        "openCheck": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0
+      },
+      "incomingDamage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "damage": {
+        "all": 0,
+        "melee": 0,
+        "ranged": 0,
+        "spell": 0,
+        "arcane": 0,
+        "bow": 0,
+        "brawling": 0,
+        "dagger": 0,
+        "firearm": 0,
+        "flail": 0,
+        "heavy": 0,
+        "spear": 0,
+        "sword": 0,
+        "thrown": 0,
+        "physical": 0,
+        "air": 0,
+        "bolt": 0,
+        "dark": 0,
+        "earth": 0,
+        "fire": 0,
+        "ice": 0,
+        "light": 0,
+        "poison": 0,
+        "beast": 0,
+        "construct": 0,
+        "demon": 0,
+        "elemental": 0,
+        "humanoid": 0,
+        "monster": 0,
+        "plant": 0,
+        "undead": 0
+      },
+      "turns": 0
+    },
+    "multipliers": {
+      "incomingRecovery": {
+        "mp": 1,
+        "ip": 1,
+        "hp": 1
+      },
+      "incomingLoss": {
+        "hp": 1,
+        "mp": 1,
+        "ip": 1
+      },
+      "outgoingRecovery": {
+        "hp": 1,
+        "mp": 1,
+        "ip": 1
+      }
+    },
+    "overrides": {
+      "damageType": {
+        "all": {
+          "normal": "",
+          "priority": ""
+        },
+        "attack": {
+          "normal": "",
+          "priority": ""
+        },
+        "spell": {
+          "normal": "",
+          "priority": ""
+        },
+        "skill": {
+          "normal": "",
+          "priority": ""
+        }
+      }
+    },
+    "immunities": {
+      "slow": {
+        "base": false
+      },
+      "dazed": {
+        "base": false
+      },
+      "weak": {
+        "base": false
+      },
+      "shaken": {
+        "base": false
+      },
+      "enraged": {
+        "base": false
+      },
+      "poisoned": {
+        "base": false
+      }
+    },
+    "description": "",
+    "level": {
+      "value": 5
+    },
+    "resources": {
+      "hp": {
+        "value": 40,
+        "bonus": 0
+      },
+      "mp": {
+        "value": 55,
+        "bonus": 0
+      },
+      "fp": {
+        "value": 0
+      },
+      "pronouns": {
+        "name": ""
+      }
+    },
+    "traits": {
+      "value": ""
+    },
+    "species": {
+      "value": "humanoid"
+    },
+    "villain": {
+      "value": ""
+    },
+    "phases": {
+      "value": 1
+    },
+    "multipart": {
+      "value": ""
+    },
+    "rank": {
+      "value": "soldier",
+      "replacedSoldiers": 1
+    },
+    "role": {
+      "value": "support"
+    },
+    "references": {
+      "actor": null,
+      "skill": null
+    },
+    "useEquipment": {
+      "value": false
+    },
+    "study": {
+      "value": 0
+    },
+    "pressurePoints": {
+      "entries": []
+    },
+    "associatedTherioforms": ""
+  },
+  "prototypeToken": {
+    "name": "Tactica Priest",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/fu-azure-compendia/assets/tokens/tactica/priest_*.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.mp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": true,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "8LWP4BuwvieV1m9O",
+      "name": "Tactica Heal",
+      "type": "spell",
+      "img": "icons/magic/life/cross-area-circle-green-white.webp",
+      "system": {
+        "fuid": "afc-tactica-heal",
+        "description": "<p>You <strong>restore</strong> the <strong>hit points</strong> of an <strong>ally in an adjacent space.</strong></p>",
+        "summary": {
+          "value": ""
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "class": {
+          "value": ""
+        },
+        "useWeapon": {
+          "accuracy": {
+            "value": false
+          },
+          "damage": {
+            "value": false
+          },
+          "hrZero": {
+            "value": false
+          }
+        },
+        "attributes": {
+          "primary": {
+            "value": "ins"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "mdef",
+        "resource": {
+          "enabled": true,
+          "amount": "5+$wlp+$cl",
+          "type": "hp"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
+        },
+        "impdamage": {
+          "hasImpDamage": {
+            "value": false
+          },
+          "value": 0,
+          "impType": {
+            "value": "minor"
+          },
+          "type": {
+            "value": "physical"
+          }
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "duration": {
+          "value": "instantaneous"
+        },
+        "isOffensive": {
+          "value": false
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          },
+          "attributes": {
+            "primary": {
+              "value": "ins"
+            },
+            "secondary": {
+              "value": "mig"
+            }
+          },
+          "accuracy": {
+            "value": 0
+          },
+          "damage": {
+            "hasDamage": {
+              "value": false
+            },
+            "value": 0,
+            "type": {
+              "value": "physical"
+            }
+          }
+        },
+        "hasRoll": {
+          "value": false
+        },
+        "cost": {
+          "resource": "mp",
+          "amount": "10",
+          "perTarget": false
+        },
+        "targeting": {
+          "rule": "single",
+          "max": 0
+        },
+        "traits": [],
+        "source": "FU-AZURE",
+        "opportunity": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.spells.Item.BAc5iA1FimrMbc1e",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775219788680,
+        "modifiedTime": 1775219788680,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "BAc5iA1FimrMbc1e",
+      "sort": 0,
+      "_key": "!actors.items!CmVXGfn9w6Bsb1Nh.BAc5iA1FimrMbc1e"
+    },
+    {
+      "folder": "THTKVOwQBKn2T3kI",
+      "name": "Tactica Staff",
+      "type": "basic",
+      "_id": "9NL2PfBKP2OiEKKD",
+      "img": "icons/weapons/staves/staff-ornate-green.webp",
+      "system": {
+        "fuid": "afc-tactica-staff",
+        "description": "<p>This weapon <strong>cannot</strong> <strong>counter</strong>.</p>",
+        "summary": {
+          "value": ""
+        },
+        "showTitleCard": {
+          "value": false
+        },
+        "isBehavior": {
+          "value": false
+        },
+        "weight": {
+          "value": 1
+        },
+        "attributes": {
+          "primary": {
+            "value": "dex"
+          },
+          "secondary": {
+            "value": "mig"
+          }
+        },
+        "accuracy": {
+          "value": 0
+        },
+        "defense": "def",
+        "damage": {
+          "value": 0
+        },
+        "hasDamage": true,
+        "type": {
+          "value": "melee"
+        },
+        "damageType": {
+          "value": "physical"
+        },
+        "effects": {
+          "entries": [],
+          "prompt": false,
+          "duration": {
+            "event": "",
+            "tracking": "",
+            "interval": null
+          }
+        },
+        "cost": {
+          "value": 100
+        },
+        "quality": {
+          "value": ""
+        },
+        "rollInfo": {
+          "useWeapon": {
+            "hrZero": {
+              "value": false
+            }
+          }
+        },
+        "traits": [],
+        "source": "FU-AZURE"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "J5B4HfVqUaCPvzGg": 3
+      },
+      "flags": {
+        "projectfu": {
+          "favorite": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.fu-azure-compendia.attacks.Item.9NL2PfBKP2OiEKKD",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775219880707,
+        "modifiedTime": 1775219880707,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!actors.items!CmVXGfn9w6Bsb1Nh.9NL2PfBKP2OiEKKD"
+    }
+  ],
+  "effects": [
+    {
+      "name": "Tactica: Mystical Unit",
+      "img": "icons/weapons/staves/staff-simple-jeweled-green.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.5KgB8ly5WFPMSAKu",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar",
+            "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": 0,
+        "combat": null,
+        "startRound": 0,
+        "startTurn": 0
+      },
+      "disabled": false,
+      "_id": "faZ9p9TcDi6MyCJC",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.unit",
+          "mode": 2,
+          "value": "mystical",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.incomingDamage.physical",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "<p>This unit's attacks <strong>ignore physical resistance</strong> and <strong>terrain bonuses</strong>.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Mystical Unit",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.5KgB8ly5WFPMSAKu",
+            "effectUuid": null,
+            "fuid": "afc-tactica-mystical-unit"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775211753458,
+        "modifiedTime": 1775211753458,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!actors.effects!CmVXGfn9w6Bsb1Nh.faZ9p9TcDi6MyCJC"
+    }
+  ],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1774880759794,
+    "modifiedTime": 1775212038437,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!actors!CmVXGfn9w6Bsb1Nh"
+}

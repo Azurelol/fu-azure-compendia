@@ -56,6 +56,41 @@
                   "bonus": "2"
                 }
               }
+            },
+            "7fYgsEnKUo3sdyRC": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "PhmyJIGtYnNPH9H3",
+                "type": "calculateDamageRuleTrigger",
+                "eventRelation": "source",
+                "damageSources": [
+                  "attack"
+                ],
+                "damageTypes": [],
+                "local": false,
+                "identifier": ""
+              },
+              "_id": "7fYgsEnKUo3sdyRC",
+              "predicates": {
+                "vmVijtpApPGGBuse": {
+                  "type": "flagRulePredicate",
+                  "_id": "vmVijtpApPGGBuse",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "armored"
+                }
+              },
+              "actions": {
+                "aCe19xQHkKqeE8MF": {
+                  "type": "modifyDamageRuleAction",
+                  "_id": "aCe19xQHkKqeE8MF",
+                  "amount": "5",
+                  "effect": "",
+                  "cost": {
+                    "amount": null
+                  }
+                }
+              }
             }
           },
           "progress": {
@@ -112,7 +147,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774865568409,
-        "modifiedTime": 1774868068524,
+        "modifiedTime": 1774877205011,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!ULnqC3wBDFtLgZRa.eH3hTO1zv1obZbxG"

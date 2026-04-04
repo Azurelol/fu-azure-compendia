@@ -59,7 +59,7 @@
           "priority": null
         },
         {
-          "key": "system.resources.hp.max",
+          "key": "system.bonuses.damage.all",
           "mode": 2,
           "value": "5",
           "priority": null
@@ -89,7 +89,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774862366516,
-        "modifiedTime": 1774874701479,
+        "modifiedTime": 1775211584272,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!JMMAuf53DsqxoDnc.DA2eJTHYbM7fwlf3"

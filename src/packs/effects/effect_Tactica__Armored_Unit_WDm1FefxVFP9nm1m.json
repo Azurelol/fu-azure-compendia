@@ -67,7 +67,7 @@
         {
           "key": "system.resources.hp.max",
           "mode": 2,
-          "value": "10",
+          "value": "5",
           "priority": null
         },
         {
@@ -81,9 +81,15 @@
           "mode": 2,
           "value": "-4",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
-      "description": "",
+      "description": "<p>This unit is <strong>resistant to physical damage</strong> and can perform <strong>chain guards</strong>.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -107,7 +113,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774817542097,
-        "modifiedTime": 1774864946204,
+        "modifiedTime": 1775211656638,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!WDm1FefxVFP9nm1m.q65idRIHUgKNkDLp"

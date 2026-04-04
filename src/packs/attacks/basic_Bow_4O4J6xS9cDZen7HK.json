@@ -27,7 +27,7 @@
         "value": "dex"
       },
       "secondary": {
-        "value": "dex"
+        "value": "ins"
       }
     },
     "accuracy": {
@@ -59,7 +59,12 @@
         }
       }
     },
-    "fuid": "afc-bow"
+    "fuid": "afc-bow",
+    "effects": {
+      "duration": {
+        "interval": null
+      }
+    }
   },
   "effects": [],
   "sort": 1200000,
@@ -79,7 +84,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731694797281,
-    "modifiedTime": 1770837528409,
+    "modifiedTime": 1774880851023,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

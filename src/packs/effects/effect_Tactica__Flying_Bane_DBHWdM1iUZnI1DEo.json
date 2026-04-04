@@ -1,0 +1,139 @@
+{
+  "folder": "bMFOFb0gJAO4zSOF",
+  "name": "Tactica: Flying Bane",
+  "type": "effect",
+  "_id": "DBHWdM1iUZnI1DEo",
+  "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+  "system": {
+    "fuid": "afc-tactica-flying-bane",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Flying Bane",
+      "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.DBHWdM1iUZnI1DEo",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "x1LCdw4oKmf9OjIl": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "QKdMzgzv9PAC1pqo",
+                "type": "calculateDamageRuleTrigger",
+                "eventRelation": "source",
+                "damageSources": [
+                  "attack"
+                ],
+                "damageTypes": [],
+                "local": true,
+                "identifier": ""
+              },
+              "_id": "x1LCdw4oKmf9OjIl",
+              "predicates": {
+                "q5c4WQlrdy0tp7y7": {
+                  "type": "flagRulePredicate",
+                  "_id": "q5c4WQlrdy0tp7y7",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "flying"
+                }
+              },
+              "actions": {
+                "Np4sFnO5DZ9zvcaw": {
+                  "type": "modifyDamageRuleAction",
+                  "_id": "Np4sFnO5DZ9zvcaw",
+                  "amount": "10",
+                  "effect": "",
+                  "cost": {
+                    "amount": null
+                  }
+                }
+              }
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "vpRIS5o9rqvwg5xM",
+      "type": "base",
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Flying Bane",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.DBHWdM1iUZnI1DEo",
+            "effectUuid": null,
+            "fuid": "afc-tactica-flying-bane"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775218741182,
+        "modifiedTime": 1775218793652,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_key": "!items.effects!DBHWdM1iUZnI1DEo.vpRIS5o9rqvwg5xM"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775218714970,
+    "modifiedTime": 1775218734722,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!DBHWdM1iUZnI1DEo"
+}

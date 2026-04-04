@@ -39,7 +39,7 @@
                   "attack"
                 ],
                 "damageTypes": [],
-                "local": false,
+                "local": true,
                 "identifier": ""
               },
               "_id": "wW1r12T5p8sDUJJs",
@@ -112,7 +112,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774863463379,
-        "modifiedTime": 1774863499369,
+        "modifiedTime": 1774880633491,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!rkNj9VOYlxxUqplT.ob4XFyJ81UERhP3f"

@@ -28,7 +28,46 @@
           "crisisInteraction": "none"
         },
         "rules": {
-          "elements": {},
+          "elements": {
+            "aI5LedrZpYDd5GlU": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "IEeBrkGFkMeKtKhz",
+                "type": "renderCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ],
+                "itemGroups": [],
+                "local": false,
+                "identifier": ""
+              },
+              "_id": "aI5LedrZpYDd5GlU",
+              "predicates": {
+                "Eanv3klT48n2dwyO": {
+                  "type": "flagRulePredicate",
+                  "_id": "Eanv3klT48n2dwyO",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "cavalry"
+                },
+                "9yLYmt3RBtWV8wCp": {
+                  "type": "checkRulePredicate",
+                  "_id": "9yLYmt3RBtWV8wCp",
+                  "outcome": "success",
+                  "result": null,
+                  "parity": "even"
+                }
+              },
+              "actions": {
+                "RnWKVJg0hoU4ZaAN": {
+                  "type": "messageRuleAction",
+                  "_id": "RnWKVJg0hoU4ZaAN",
+                  "message": "<p>The target suffers from <strong>break</strong>.</p>"
+                }
+              }
+            }
+          },
           "progress": {
             "enabled": false,
             "id": "",
@@ -57,9 +96,15 @@
           "mode": 2,
           "value": "flying",
           "priority": null
+        },
+        {
+          "key": "system.bonuses.damage.all",
+          "mode": 2,
+          "value": "5",
+          "priority": null
         }
       ],
-      "description": "",
+      "description": "<p>This unit can <strong>cross over any terrain</strong> and can inflict <strong>break</strong> on <strong>cavalry units</strong>.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -83,7 +128,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774817983536,
-        "modifiedTime": 1774817999831,
+        "modifiedTime": 1775211564911,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!WyIZNUuf0Dt86p6R.Odh36SDC8Sr2co9H"

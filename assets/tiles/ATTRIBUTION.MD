@@ -12,6 +12,9 @@
 - slab1
 - altar*
 
+[Melle](https://opengameart.org/users/melle)
+- map_pergament 
+
 # Licenses
 
 The following licenses were used in the above assets:

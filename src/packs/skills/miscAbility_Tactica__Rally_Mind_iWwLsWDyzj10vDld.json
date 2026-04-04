@@ -1,9 +1,9 @@
 {
-  "folder": "hqf1FEMmVHy7RQD3",
+  "folder": "hneMNmBJl63lmwlH",
   "name": "Tactica: Rally Mind",
   "type": "miscAbility",
   "_id": "iWwLsWDyzj10vDld",
-  "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+  "img": "icons/magic/perception/hand-eye-fire-blue.webp",
   "system": {
     "fuid": "afc-tactica-rally-mind",
     "description": "<p>You grant an <strong>adjacent ally</strong> one of the following for <strong>one turn</strong>:</p><ul><li><p>@EFFECT[wlp-up] @EFFECT[ins-up]</p></li></ul>",
@@ -86,7 +86,7 @@
     "opportunity": ""
   },
   "effects": [],
-  "sort": 0,
+  "sort": 125000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -104,7 +104,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1774871865986,
-    "modifiedTime": 1774872008309,
+    "modifiedTime": 1774883592737,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!items!iWwLsWDyzj10vDld"

@@ -1,0 +1,235 @@
+{
+  "folder": "THTKVOwQBKn2T3kI",
+  "name": "Tactica Iron Axe",
+  "type": "basic",
+  "_id": "2Bp0AkArc4X47TZH",
+  "img": "icons/weapons/axes/axe-broad-crescent-gray.webp",
+  "system": {
+    "fuid": "afc-tactica-iron-axe",
+    "description": "",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "mig"
+      },
+      "secondary": {
+        "value": "dex"
+      }
+    },
+    "accuracy": {
+      "value": -1
+    },
+    "defense": "def",
+    "damage": {
+      "value": 9
+    },
+    "hasDamage": true,
+    "type": {
+      "value": "melee"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "effects": {
+      "entries": [],
+      "prompt": false,
+      "duration": {
+        "event": "",
+        "tracking": "",
+        "interval": null
+      }
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "traits": [],
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Axe",
+      "img": "icons/weapons/axes/axe-battle-black.webp",
+      "type": "base",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "KpwXi4gkaHhoMi4w": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "fzt6uxnFaTgy0udn",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "KpwXi4gkaHhoMi4w",
+              "predicates": {
+                "yhAkRjUxuDw4ZYzZ": {
+                  "type": "flagRulePredicate",
+                  "_id": "yhAkRjUxuDw4ZYzZ",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "sword",
+                  "selector": "initial",
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "Pro6iFD2nFR19RIo": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "Pro6iFD2nFR19RIo",
+                  "bonus": "-2"
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            },
+            "HIcUS9kImC4aL7X5": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "F0X8NpNk1ohmghEk",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "HIcUS9kImC4aL7X5",
+              "predicates": {
+                "onk03sRHQurOJn3R": {
+                  "type": "flagRulePredicate",
+                  "_id": "onk03sRHQurOJn3R",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.weapon",
+                  "value": "lance",
+                  "selector": "initial",
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "f7YTJhBEBOJi9pAF": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "f7YTJhBEBOJi9pAF",
+                  "bonus": "2"
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar",
+            "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.weapon",
+          "value": "axe",
+          "mode": 2,
+          "priority": 50
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "<p>The wielder of this weapon has <strong>advantage</strong> <strong>against</strong> <strong>lances </strong>but <strong>disadvantage</strong> <strong>against</strong> <strong>swords</strong>.</p>",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.E5Lkk24EbK0Mv1CX",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Axe",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.E5Lkk24EbK0Mv1CX",
+            "effectUuid": null,
+            "fuid": "afc-tactica-axe"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775217887328,
+        "modifiedTime": 1775217887328,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "jX91ut7RvxWspbFc",
+      "_key": "!items.effects!2Bp0AkArc4X47TZH.jX91ut7RvxWspbFc"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775217857992,
+    "modifiedTime": 1775218060571,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!2Bp0AkArc4X47TZH"
+}

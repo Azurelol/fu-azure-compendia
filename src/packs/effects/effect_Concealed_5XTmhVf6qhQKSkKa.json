@@ -1,5 +1,5 @@
 {
-  "folder": "WuqxGkhx855wRG9f",
+  "folder": "D4TsK6IObRqhKJQ9",
   "name": "Concealed",
   "type": "effect",
   "_id": "5XTmhVf6qhQKSkKa",
@@ -56,7 +56,7 @@
       "_key": "!items.effects!5XTmhVf6qhQKSkKa.5gUhsjkbOf5g3OFb"
     }
   ],
-  "sort": 400000,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "esOkelwPNblkbxW3": 3
@@ -69,7 +69,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1730492177716,
-    "modifiedTime": 1771088251613,
+    "modifiedTime": 1775215677382,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },

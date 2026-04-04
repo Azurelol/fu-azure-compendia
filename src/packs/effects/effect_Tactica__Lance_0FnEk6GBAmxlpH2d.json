@@ -14,7 +14,7 @@
   "effects": [
     {
       "name": "Tactica: Lance",
-      "img": "icons/weapons/polearms/glaive-hooked-steel.webp",
+      "img": "icons/weapons/polearms/spear-flared-worn-grey.webp",
       "origin": "Compendium.fu-azure-compendia.effects.Item.0FnEk6GBAmxlpH2d",
       "system": {
         "duration": {
@@ -110,13 +110,13 @@
       "type": "base",
       "changes": [
         {
-          "key": "flags.fu-azure-compendia.tactica.sword",
+          "key": "flags.fu-azure-compendia.tactica.weapon",
           "mode": 2,
           "value": "lance",
           "priority": null
         }
       ],
-      "description": "",
+      "description": "<p>The wielder of this weapon has <strong>advantage</strong> <strong>against</strong> <strong>swords </strong>but <strong>disadvantage</strong> <strong>against</strong> <strong>axes.</strong></p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -140,7 +140,7 @@
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
         "createdTime": 1774817248297,
-        "modifiedTime": 1774862749538,
+        "modifiedTime": 1775223084828,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
       "_key": "!items.effects!0FnEk6GBAmxlpH2d.Oe9JUc7y8YWTRhul"

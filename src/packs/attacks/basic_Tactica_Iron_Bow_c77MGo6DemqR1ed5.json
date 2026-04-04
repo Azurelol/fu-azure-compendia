@@ -1,0 +1,249 @@
+{
+  "folder": "THTKVOwQBKn2T3kI",
+  "name": "Tactica Iron Bow",
+  "type": "basic",
+  "_id": "c77MGo6DemqR1ed5",
+  "img": "icons/weapons/bows/shortbow-recurve-blue.webp",
+  "system": {
+    "fuid": "afc-tactica-iron-bow",
+    "description": "",
+    "summary": {
+      "value": ""
+    },
+    "showTitleCard": {
+      "value": false
+    },
+    "isBehavior": {
+      "value": false
+    },
+    "weight": {
+      "value": 1
+    },
+    "attributes": {
+      "primary": {
+        "value": "dex"
+      },
+      "secondary": {
+        "value": "ins"
+      }
+    },
+    "accuracy": {
+      "value": 2
+    },
+    "defense": "def",
+    "damage": {
+      "value": 6
+    },
+    "hasDamage": true,
+    "type": {
+      "value": "ranged"
+    },
+    "damageType": {
+      "value": "physical"
+    },
+    "effects": {
+      "entries": [],
+      "prompt": false,
+      "duration": {
+        "event": "",
+        "tracking": "",
+        "interval": null
+      }
+    },
+    "cost": {
+      "value": 100
+    },
+    "quality": {
+      "value": ""
+    },
+    "rollInfo": {
+      "useWeapon": {
+        "hrZero": {
+          "value": false
+        }
+      }
+    },
+    "traits": [],
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "Tactica: Bow",
+      "img": "icons/weapons/bows/bow-ornamental-carved-brown.webp",
+      "type": "base",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {
+            "SXf3bdsVWGxiOp1i": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "SwqyDXYkiDgHCAWx",
+                "type": "calculateDamageRuleTrigger",
+                "eventRelation": "source",
+                "damageSources": [
+                  "attack"
+                ],
+                "damageTypes": [],
+                "local": true,
+                "identifier": ""
+              },
+              "_id": "SXf3bdsVWGxiOp1i",
+              "predicates": {
+                "Awfx6fFAb3AKj0DS": {
+                  "type": "flagRulePredicate",
+                  "_id": "Awfx6fFAb3AKj0DS",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "flying",
+                  "selector": "initial",
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "MmGzxKJpfZiiJ6sS": {
+                  "type": "modifyDamageRuleAction",
+                  "_id": "MmGzxKJpfZiiJ6sS",
+                  "amount": "10",
+                  "effect": "",
+                  "cost": {
+                    "amount": null,
+                    "resource": "mp",
+                    "perTarget": false
+                  },
+                  "damageTypes": [],
+                  "traits": {
+                    "entries": []
+                  },
+                  "variant": ""
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            },
+            "KLrA09bm1Ntnp36U": {
+              "type": "ruleElement",
+              "trigger": {
+                "_id": "dW21QHukC0hQfwYb",
+                "type": "performCheckRuleTrigger",
+                "eventRelation": "source",
+                "checkTypes": [
+                  "accuracy"
+                ]
+              },
+              "_id": "KLrA09bm1Ntnp36U",
+              "predicates": {
+                "bkXsTfxXAsLHzq9M": {
+                  "type": "flagRulePredicate",
+                  "_id": "bkXsTfxXAsLHzq9M",
+                  "scope": "fu-azure-compendia",
+                  "key": "tactica.unit",
+                  "value": "flying",
+                  "selector": "initial",
+                  "quantifier": "any"
+                }
+              },
+              "actions": {
+                "bvzRTcHr1uiwN8Yo": {
+                  "type": "modifyCheckRuleAction",
+                  "_id": "bvzRTcHr1uiwN8Yo",
+                  "bonus": "2"
+                }
+              },
+              "selector": "initial",
+              "enabled": true
+            }
+          },
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar",
+            "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.tactica.weapon",
+          "value": "bow",
+          "mode": 2,
+          "priority": 50
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": "Compendium.fu-azure-compendia.effects.Item.sraCP3fJv0nJu2dc",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Tactica: Bow",
+            "actorUuid": null,
+            "itemUuid": "Compendium.fu-azure-compendia.effects.Item.sraCP3fJv0nJu2dc",
+            "effectUuid": null,
+            "fuid": "afc-tactica-bow"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1775218236647,
+        "modifiedTime": 1775218236647,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+      },
+      "_id": "9IyX0a7bG0kmiHLb",
+      "_key": "!items.effects!c77MGo6DemqR1ed5.9IyX0a7bG0kmiHLb"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1775218176332,
+    "modifiedTime": 1775218229124,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!items!c77MGo6DemqR1ed5"
+}

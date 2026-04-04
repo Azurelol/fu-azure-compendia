@@ -64,9 +64,9 @@
       }
     },
     {
-      "name": "allies",
-      "label": "Allies",
-      "path": "packs/allies",
+      "name": "characters",
+      "label": "Characters",
+      "path": "packs/characters",
       "type": "Actor",
       "system": "projectfu",
       "ownership": {
