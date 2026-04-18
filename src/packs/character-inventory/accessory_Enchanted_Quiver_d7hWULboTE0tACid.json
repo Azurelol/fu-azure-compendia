@@ -5,7 +5,7 @@
   "_id": "d7hWULboTE0tACid",
   "img": "icons/containers/ammunition/arrows-quiver-purple-gold.webp",
   "system": {
-    "fuid": "enchanted-quiver",
+    "fuid": "afc-equipment-enchanted-quiver",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737392072993,
-    "modifiedTime": 1737756611890,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529262853,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!d7hWULboTE0tACid"

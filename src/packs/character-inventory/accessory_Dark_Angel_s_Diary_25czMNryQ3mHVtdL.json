@@ -5,7 +5,7 @@
   "_id": "25czMNryQ3mHVtdL",
   "img": "icons/sundries/books/book-purple-detail.webp",
   "system": {
-    "fuid": "dark-angels-journal",
+    "fuid": "afc-equipment-dark-angels-diary",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737395077029,
-    "modifiedTime": 1737751918292,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529132023,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!25czMNryQ3mHVtdL"

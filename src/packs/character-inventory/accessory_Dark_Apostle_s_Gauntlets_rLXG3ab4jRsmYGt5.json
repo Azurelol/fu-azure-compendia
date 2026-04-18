@@ -5,7 +5,7 @@
   "_id": "rLXG3ab4jRsmYGt5",
   "img": "icons/equipment/hand/glove-spiked-leather-grey.webp",
   "system": {
-    "fuid": "dark-apostles-cloak",
+    "fuid": "afc-equipment-dark-apostles-gauntlets",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737410183608,
-    "modifiedTime": 1737751793879,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529140061,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!rLXG3ab4jRsmYGt5"

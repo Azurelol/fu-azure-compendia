@@ -5,7 +5,7 @@
   "_id": "3UQwz84JNEK272xu",
   "img": "icons/equipment/back/mantle-collared-blue.webp",
   "system": {
-    "fuid": "commanders-cape",
+    "fuid": "afc-equipment-commanders-cape",
     "subtype": {},
     "summary": {
       "value": ""
@@ -58,16 +58,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1730824451790,
-    "modifiedTime": 1738081798840,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529087927,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!3UQwz84JNEK272xu"

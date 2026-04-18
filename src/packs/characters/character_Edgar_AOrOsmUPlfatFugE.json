@@ -3,7 +3,7 @@
   "name": "Edgar",
   "type": "character",
   "_id": "AOrOsmUPlfatFugE",
-  "img": "modules/fu-azure-compendia/assets/tokens/allies/tinkerer_iconic.png",
+  "img": "modules/fu-azure-compendia/assets/tokens/characters/tinkerer_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -280,7 +280,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/fu-azure-compendia/assets/tokens/allies/tinkerer_iconic.png",
+      "src": "modules/fu-azure-compendia/assets/tokens/characters/tinkerer_1.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -349,7 +349,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -487,7 +487,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1775212083548,
-    "modifiedTime": 1775212089868,
+    "modifiedTime": 1775673512695,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!AOrOsmUPlfatFugE"

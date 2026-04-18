@@ -53,7 +53,7 @@
         }
       }
     },
-    "fuid": ""
+    "fuid": "afc-equipment-sword-revolver"
   },
   "effects": [
     {
@@ -155,16 +155,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1724691532928,
-    "modifiedTime": 1737745680049,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529335645,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!1wkFR6kCmSCXOf4e"

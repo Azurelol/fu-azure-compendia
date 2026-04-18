@@ -5,7 +5,7 @@
   "_id": "rBpfgpBdjP53Cqx0",
   "img": "icons/consumables/food/chicken-bird-cooked.webp",
   "system": {
-    "fuid": "roasted-porcine",
+    "fuid": "afc-equipment-roasted-porcine",
     "subtype": {
       "value": "utility"
     },
@@ -24,6 +24,9 @@
     },
     "source": {
       "value": "FU-AZURE"
+    },
+    "damage": {
+      "onApply": ""
     }
   },
   "effects": [],
@@ -32,16 +35,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1739387551397,
-    "modifiedTime": 1739392374907,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529592807,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!rBpfgpBdjP53Cqx0"

@@ -5,7 +5,7 @@
   "_id": "wywrjqIgrsgT1o7r",
   "img": "icons/equipment/chest/robe-layered-blue.webp",
   "system": {
-    "fuid": "armored-cloak",
+    "fuid": "afc-equipment-armored-cloak",
     "subtype": {},
     "summary": {
       "value": ""
@@ -49,9 +49,7 @@
         "value": "ins"
       }
     },
-    "source": {
-      "value": "FU-AZURE"
-    },
+    "source": "FU-AZURE",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -117,16 +115,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1729613775742,
-    "modifiedTime": 1738518618742,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529396799,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!wywrjqIgrsgT1o7r"

@@ -19,10 +19,11 @@
     "ipCost": {
       "value": 3
     },
-    "source": {
-      "value": "FUCR104"
-    },
-    "fuid": "afc-elixir"
+    "source": "FU-AZURE",
+    "fuid": "afc-equipment-elixir",
+    "damage": {
+      "onApply": ""
+    }
   },
   "effects": [],
   "folder": "sqjQQzGCPYuCoSGu",
@@ -33,17 +34,20 @@
     "esOkelwPNblkbxW3": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "projectfu": {
+      "favorite": false
+    }
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737757685325,
-    "modifiedTime": 1738506409071,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529555708,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "t0S5EzwSzhTNc707",

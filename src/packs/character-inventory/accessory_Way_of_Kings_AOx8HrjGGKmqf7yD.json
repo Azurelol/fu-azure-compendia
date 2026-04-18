@@ -5,7 +5,7 @@
   "_id": "AOx8HrjGGKmqf7yD",
   "img": "icons/sundries/books/book-tooled-blue-yellow.webp",
   "system": {
-    "fuid": "way-of-kings",
+    "fuid": "afc-equipment-way-of-kings",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737413352101,
-    "modifiedTime": 1737757904421,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529236201,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!AOx8HrjGGKmqf7yD"

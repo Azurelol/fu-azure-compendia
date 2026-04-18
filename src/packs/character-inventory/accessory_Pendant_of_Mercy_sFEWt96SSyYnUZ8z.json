@@ -5,7 +5,7 @@
   "_id": "sFEWt96SSyYnUZ8z",
   "img": "icons/equipment/neck/amulet-heart.webp",
   "system": {
-    "fuid": "pendant-of-mercy",
+    "fuid": "afc-equipment-pendant-of-mercy",
     "subtype": {},
     "summary": {
       "value": ""
@@ -58,16 +58,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1730225378427,
-    "modifiedTime": 1737753816999,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529282673,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!sFEWt96SSyYnUZ8z"

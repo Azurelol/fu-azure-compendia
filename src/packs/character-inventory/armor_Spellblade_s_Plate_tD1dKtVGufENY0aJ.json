@@ -5,7 +5,7 @@
   "_id": "tD1dKtVGufENY0aJ",
   "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
   "system": {
-    "fuid": "spellblades-plate",
+    "fuid": "afc-equipment-spellblades-plate",
     "subtype": {},
     "summary": {
       "value": ""
@@ -37,9 +37,7 @@
     "init": {
       "value": 0
     },
-    "source": {
-      "value": "FU-AZURE"
-    }
+    "source": "FU-AZURE"
   },
   "effects": [],
   "sort": 0,
@@ -47,16 +45,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738081843475,
-    "modifiedTime": 1738518525290,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529422487,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!tD1dKtVGufENY0aJ"

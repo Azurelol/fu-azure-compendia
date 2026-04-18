@@ -3,7 +3,7 @@
   "name": "Cassandra",
   "type": "character",
   "_id": "Cvzf5EdfpVyL2DwD",
-  "img": "modules/fu-azure-compendia/assets/tokens/allies/elementalist.png",
+  "img": "modules/fu-azure-compendia/assets/tokens/characters/elementalist_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -284,7 +284,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/fu-azure-compendia/assets/tokens/allies/elementalist.png",
+      "src": "modules/fu-azure-compendia/assets/tokens/characters/elementalist_1.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -353,7 +353,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -1474,7 +1474,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1775209102395,
-    "modifiedTime": 1775209196066,
+    "modifiedTime": 1775673483126,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!Cvzf5EdfpVyL2DwD"

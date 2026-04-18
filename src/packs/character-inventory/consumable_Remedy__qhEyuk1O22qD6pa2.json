@@ -19,10 +19,11 @@
     "ipCost": {
       "value": 3
     },
-    "source": {
-      "value": ""
-    },
-    "fuid": "fua-remedy"
+    "source": "FU-AZURE",
+    "fuid": "afc-equipment-remedy",
+    "damage": {
+      "onApply": ""
+    }
   },
   "effects": [],
   "folder": "sqjQQzGCPYuCoSGu",
@@ -33,17 +34,20 @@
     "esOkelwPNblkbxW3": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "projectfu": {
+      "favorite": false
+    }
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737757647778,
-    "modifiedTime": 1738506390560,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529569387,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_id": "qhEyuk1O22qD6pa2",

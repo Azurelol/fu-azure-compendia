@@ -5,7 +5,7 @@
   "_id": "ogouH2U3oa4GMzXI",
   "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
   "system": {
-    "fuid": "poison-coating",
+    "fuid": "afc-equipment-poison-coating",
     "subtype": {
       "value": "potion"
     },
@@ -24,6 +24,9 @@
     },
     "source": {
       "value": "FU-AZURE"
+    },
+    "damage": {
+      "onApply": ""
     }
   },
   "effects": [],
@@ -32,16 +35,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737409459150,
-    "modifiedTime": 1739391101413,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529444689,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!ogouH2U3oa4GMzXI"

@@ -5,7 +5,7 @@
   "_id": "JDe6lDdG7qCs4vdF",
   "img": "icons/equipment/head/goggles-leather-tan.webp",
   "system": {
-    "fuid": "windbreakers",
+    "fuid": "afc-equipment-windbreakers",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737754424005,
-    "modifiedTime": 1737755410232,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529241184,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!JDe6lDdG7qCs4vdF"

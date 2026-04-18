@@ -4,7 +4,7 @@
   "_id": "3zFIp8bgtnTmRrsO",
   "img": "icons/sundries/flags/banner-sword-blue.webp",
   "system": {
-    "fuid": "crusaders-banner",
+    "fuid": "afc-equipment-crusaders-banner",
     "subtype": {},
     "summary": {
       "value": ""
@@ -58,16 +58,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1730825462886,
-    "modifiedTime": 1737411575935,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529205528,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!3zFIp8bgtnTmRrsO"

@@ -5,7 +5,7 @@
   "_id": "wkZkAyIiCuEYlU0Z",
   "img": "icons/sundries/books/book-simple-brown.webp",
   "system": {
-    "fuid": "personal-improvement-literature",
+    "fuid": "afc-equipment-personal-improvement-literature",
     "subtype": {},
     "summary": {
       "value": ""
@@ -58,16 +58,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1730827820097,
-    "modifiedTime": 1737757452790,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529359969,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!wkZkAyIiCuEYlU0Z"

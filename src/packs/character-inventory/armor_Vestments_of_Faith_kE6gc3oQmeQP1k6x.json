@@ -5,7 +5,7 @@
   "_id": "kE6gc3oQmeQP1k6x",
   "img": "icons/equipment/chest/robe-layered-white.webp",
   "system": {
-    "fuid": "vestments-of-faith",
+    "fuid": "afc-equipment-vestments-of-faith",
     "subtype": {},
     "summary": {
       "value": ""
@@ -37,9 +37,7 @@
     "init": {
       "value": 0
     },
-    "source": {
-      "value": "FU-AZURE"
-    }
+    "source": "FU-AZURE"
   },
   "effects": [],
   "sort": 0,
@@ -47,16 +45,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738516938116,
-    "modifiedTime": 1738518598123,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529438688,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!kE6gc3oQmeQP1k6x"

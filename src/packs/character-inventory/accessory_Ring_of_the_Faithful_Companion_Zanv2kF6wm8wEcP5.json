@@ -4,7 +4,7 @@
   "_id": "Zanv2kF6wm8wEcP5",
   "img": "icons/equipment/finger/ring-crown-dragon-green.webp",
   "system": {
-    "fuid": "ring-of-the-faithful-companion",
+    "fuid": "afc-equipment-ring-of-the-faithful-companion",
     "subtype": {},
     "summary": {
       "value": ""
@@ -58,16 +58,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1726687933141,
-    "modifiedTime": 1737746217782,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529315000,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Zanv2kF6wm8wEcP5"

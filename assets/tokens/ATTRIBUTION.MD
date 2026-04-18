@@ -148,5 +148,4 @@ The following licenses were used below (pardon me if I miss one):
 - dragon_*
 
 [Joline/Liquitty]
-- Olivia_fu
-- *_iconic
+- characters/*

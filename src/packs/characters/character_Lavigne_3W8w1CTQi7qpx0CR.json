@@ -3,7 +3,7 @@
   "name": "Lavigne",
   "type": "character",
   "_id": "3W8w1CTQi7qpx0CR",
-  "img": "modules/fu-azure-compendia/assets/tokens/allies/darkblade-1.png",
+  "img": "modules/fu-azure-compendia/assets/tokens/characters/darkblade_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -280,7 +280,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/fu-azure-compendia/assets/tokens/allies/darkblade-1.png",
+      "src": "modules/fu-azure-compendia/assets/tokens/characters/darkblade_1.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -349,7 +349,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -487,7 +487,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1775212061705,
-    "modifiedTime": 1775212077620,
+    "modifiedTime": 1775673533130,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!3W8w1CTQi7qpx0CR"

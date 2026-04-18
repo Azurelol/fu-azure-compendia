@@ -5,7 +5,7 @@
   "_id": "MtzDXSlxH1Slgzjt",
   "img": "icons/sundries/books/book-symbol-bat-red.webp",
   "system": {
-    "fuid": "book-of-grudges",
+    "fuid": "afc-equipment-book-of-grudges",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737412082017,
-    "modifiedTime": 1737412224865,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529185908,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!MtzDXSlxH1Slgzjt"

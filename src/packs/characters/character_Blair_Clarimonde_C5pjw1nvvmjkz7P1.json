@@ -3,7 +3,7 @@
   "name": "Blair Clarimonde",
   "type": "character",
   "_id": "C5pjw1nvvmjkz7P1",
-  "img": "tokenizer/pc-images/blair_clarimonde.Avatar.webp?1775032335839",
+  "img": "modules/fu-azure-compendia/assets/tokens/characters/orator_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -247,10 +247,18 @@
       "exp": {
         "value": 0
       },
-      "identity": {},
-      "pronouns": {},
-      "theme": {},
-      "origin": {}
+      "identity": {
+        "name": ""
+      },
+      "pronouns": {
+        "name": ""
+      },
+      "theme": {
+        "name": ""
+      },
+      "origin": {
+        "name": ""
+      }
     },
     "bonds": [],
     "vehicle": {
@@ -272,7 +280,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "tokenizer/pc-images/blair_clarimonde.Token.webp?1775032335839",
+      "src": "modules/fu-azure-compendia/assets/tokens/characters/orator_1.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -336,12 +344,12 @@
       "radius": 0
     },
     "ring": {
-      "enabled": true,
+      "enabled": false,
       "colors": {
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": "tokenizer/pc-images/blair_clarimonde.Token.webp?1775032335839"
@@ -1488,7 +1496,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1775032320766,
-    "modifiedTime": 1775032335841,
+    "modifiedTime": 1775673875015,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!C5pjw1nvvmjkz7P1"

@@ -5,7 +5,7 @@
   "_id": "FZn8jzO5FyaGEM3q",
   "img": "icons/equipment/back/cape-layered-blue-accent.webp",
   "system": {
-    "fuid": "guardians-cape",
+    "fuid": "afc-equipment-blue-cape",
     "subtype": {},
     "summary": {
       "value": ""
@@ -58,16 +58,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731353651603,
-    "modifiedTime": 1737748242046,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529202166,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!FZn8jzO5FyaGEM3q"

@@ -4,7 +4,7 @@
   "_id": "EjMjnIBcRclH1QNV",
   "img": "icons/sundries/books/symbol-axe-gold-grey.webp",
   "system": {
-    "fuid": "monster-journal",
+    "fuid": "afc-equipment-monster-journal",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737396862894,
-    "modifiedTime": 1738081763794,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529091544,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!EjMjnIBcRclH1QNV"

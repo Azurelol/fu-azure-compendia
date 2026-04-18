@@ -5,7 +5,7 @@
   "_id": "nrzsvwY2W6rDTUdz",
   "img": "icons/consumables/potions/potion-tube-corked-orange.webp",
   "system": {
-    "fuid": "balm",
+    "fuid": "afc-equipment-curia",
     "subtype": {
       "value": "potion"
     },
@@ -24,6 +24,9 @@
     },
     "source": {
       "value": "FU-AZURE"
+    },
+    "damage": {
+      "onApply": ""
     }
   },
   "effects": [],
@@ -32,16 +35,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1725725296372,
-    "modifiedTime": 1738506365269,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529546979,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!nrzsvwY2W6rDTUdz"

@@ -36,25 +36,26 @@
     "init": {
       "value": -2
     },
-    "source": {
-      "value": "FU-AZURE"
-    },
-    "fuid": "sage-robe"
+    "source": "FU-AZURE",
+    "fuid": "afc-equipment-fell-raiment"
   },
   "effects": [],
   "folder": "hDxRisIuYNCNBKir",
   "flags": {
-    "core": {}
+    "core": {},
+    "projectfu": {
+      "favorite": false
+    }
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738517171909,
-    "modifiedTime": 1738518534434,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529401508,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "ownership": {

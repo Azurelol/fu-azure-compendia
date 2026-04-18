@@ -5,7 +5,7 @@
   "_id": "VooZEV5nuyIYh2B8",
   "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
   "system": {
-    "fuid": "centrifugal-mixer",
+    "fuid": "afc-equipment-centrifugal-mixer",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737396533732,
-    "modifiedTime": 1737415511577,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529295487,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!VooZEV5nuyIYh2B8"

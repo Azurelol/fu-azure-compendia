@@ -5,7 +5,7 @@
   "_id": "FVSK8S6LDJPqo7UY",
   "img": "icons/equipment/finger/ring-cabochon-engraved-purple.webp",
   "system": {
-    "fuid": "abyssal-stone",
+    "fuid": "afc-equipment-abyssal-stone",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738081178282,
-    "modifiedTime": 1738081300519,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529068360,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!FVSK8S6LDJPqo7UY"

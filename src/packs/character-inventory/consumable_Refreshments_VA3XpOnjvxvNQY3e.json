@@ -5,7 +5,7 @@
   "_id": "VA3XpOnjvxvNQY3e",
   "img": "icons/consumables/drinks/alcohol-spirits-bottle-blue.webp",
   "system": {
-    "fuid": "spirits",
+    "fuid": "afc-equipment-refreshments",
     "subtype": {
       "value": "utility"
     },
@@ -24,6 +24,9 @@
     },
     "source": {
       "value": "FU-AZURE"
+    },
+    "damage": {
+      "onApply": ""
     }
   },
   "effects": [],
@@ -32,16 +35,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1730826423522,
-    "modifiedTime": 1738083020435,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529597812,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!VA3XpOnjvxvNQY3e"

@@ -5,7 +5,7 @@
   "_id": "sxKTLBdwMNMAojIt",
   "img": "icons/equipment/shoulder/shoulderguard-steel-cross.webp",
   "system": {
-    "fuid": "bone",
+    "fuid": "afc-equipment-epaulets-of-valor",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737746300489,
-    "modifiedTime": 1737756196758,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529323201,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!sxKTLBdwMNMAojIt"

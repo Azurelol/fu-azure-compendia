@@ -52,7 +52,7 @@
         }
       }
     },
-    "fuid": ""
+    "fuid": "afc-equipment-cornucopia"
   },
   "effects": [],
   "folder": "Tw1AVAJxY0kjNgy4",
@@ -61,16 +61,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1725119559246,
-    "modifiedTime": 1737757513619,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529354775,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!zVaQlLCeEc12LM6S"

@@ -5,7 +5,7 @@
   "_id": "EQK57OD2DCFabn8M",
   "img": "icons/consumables/plants/tearthumb-halberd-leaf-green.webp",
   "system": {
-    "fuid": "calming-incense",
+    "fuid": "afc-equipment-calming-incense",
     "subtype": {
       "value": "utility"
     },
@@ -24,6 +24,9 @@
     },
     "source": {
       "value": "FU-AZURE"
+    },
+    "damage": {
+      "onApply": ""
     }
   },
   "effects": [],
@@ -32,16 +35,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1739391201957,
-    "modifiedTime": 1739392493637,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529585646,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!EQK57OD2DCFabn8M"

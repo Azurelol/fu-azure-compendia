@@ -5,7 +5,7 @@
   "_id": "EmsHMjrIeLJWEhKs",
   "img": "icons/equipment/chest/breastplate-gorget-steel.webp",
   "system": {
-    "fuid": "victory-plate",
+    "fuid": "afc-equipment-valorous-plate",
     "subtype": {},
     "summary": {
       "value": ""
@@ -49,9 +49,7 @@
         "value": "ins"
       }
     },
-    "source": {
-      "value": "FU-AZURE"
-    },
+    "source": "FU-AZURE",
     "rollInfo": {
       "useWeapon": {
         "hrZero": {
@@ -66,16 +64,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1729613505176,
-    "modifiedTime": 1738518581099,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529432738,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!EmsHMjrIeLJWEhKs"

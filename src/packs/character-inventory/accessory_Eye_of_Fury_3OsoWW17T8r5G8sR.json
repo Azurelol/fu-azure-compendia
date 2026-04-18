@@ -5,7 +5,7 @@
   "_id": "3OsoWW17T8r5G8sR",
   "img": "icons/equipment/neck/pendant-rough-silver-red.webp",
   "system": {
-    "fuid": "eye-of-fury",
+    "fuid": "afc-equipment-eye-of-fury",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737412242871,
-    "modifiedTime": 1737755988804,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529190046,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!3OsoWW17T8r5G8sR"

@@ -5,12 +5,12 @@
   "_id": "fanmhfbXCemz5IMT",
   "img": "icons/equipment/neck/amulet-geometric-gold-green.webp",
   "system": {
-    "fuid": "a",
+    "fuid": "afc-equipment-archmage-pendant",
     "subtype": {},
     "summary": {
       "value": ""
     },
-    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.vSE3PMoHTGLC1yzG]{Elementalist}</p><hr /><h2>Qualities</h2><ol><li><p>When you would <strong>receive elemental damage</strong> of the same type of a <strong>damaging spell</strong> that you already have <strong>learned</strong>, you may gain <strong>resistance</strong> to it by spending @LOSS[10 mp]</p></li><li><p>When you cast @UUID[Compendium.projectfu.spells.AIqyQ1m2hpX27rsd]{Elemental Weapon} you may include an <strong>additional</strong> ally to receive the effect until the <strong>end of their next turn</strong> by spending @LOSS[5 mp]</p></li></ol>",
+    "description": "<p><strong>Class</strong>: @UUID[Compendium.projectfu.classes.vSE3PMoHTGLC1yzG]{Elementalist}</p><hr /><h2>Qualities</h2><ol><li><p>When you would <strong>receive elemental damage</strong> of the same type of a <strong>damaging spell</strong> that you already have <strong>learned</strong>, you may gain <strong>resistance</strong> to it by spending @LOSS[10 mp]</p></li><li><p>When you cast @UUID[Compendium.projectfu.skills.GLQMtlajiccDx6oY]{Elemental Weapon} you may include an <strong>additional</strong> ally to receive the effect until the <strong>end of their next turn</strong> by spending @LOSS[5 mp]</p></li></ol>",
     "isFavored": {
       "value": false
     },
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737750460393,
-    "modifiedTime": 1737751516341,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529166257,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!fanmhfbXCemz5IMT"

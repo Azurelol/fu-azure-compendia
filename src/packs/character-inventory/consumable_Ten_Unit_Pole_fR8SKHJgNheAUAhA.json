@@ -5,7 +5,7 @@
   "_id": "fR8SKHJgNheAUAhA",
   "img": "icons/tools/fishing/rod-simple-stick-brown.webp",
   "system": {
-    "fuid": "10-unit-pole",
+    "fuid": "afc-equipment-ten-unit-pole",
     "subtype": {
       "value": "utility"
     },
@@ -24,6 +24,9 @@
     },
     "source": {
       "value": "FU-AZURE"
+    },
+    "damage": {
+      "onApply": ""
     }
   },
   "effects": [],
@@ -32,16 +35,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737397222678,
-    "modifiedTime": 1739392835497,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529539079,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!fR8SKHJgNheAUAhA"

@@ -5,7 +5,7 @@
   "_id": "UCfCRD5lNLd86KKK",
   "img": "icons/equipment/chest/robe-layered-red.webp",
   "system": {
-    "fuid": "crimson-leathers",
+    "fuid": "afc-equipment-magisters-regalia",
     "subtype": {},
     "summary": {
       "value": ""
@@ -37,9 +37,7 @@
     "init": {
       "value": 0
     },
-    "source": {
-      "value": "FU-AZURE"
-    }
+    "source": "FU-AZURE"
   },
   "effects": [],
   "sort": 0,
@@ -47,16 +45,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1738517066849,
-    "modifiedTime": 1738518676312,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529385549,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!UCfCRD5lNLd86KKK"

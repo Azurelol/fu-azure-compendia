@@ -5,7 +5,7 @@
   "_id": "Vu8UwnMIAyJVv6oG",
   "img": "icons/commodities/stone/geode-raw-black.webp",
   "system": {
-    "fuid": "sharpening-stone",
+    "fuid": "afc-equipment-sharpening-stone",
     "subtype": {
       "value": "potion"
     },
@@ -24,6 +24,9 @@
     },
     "source": {
       "value": "FU-AZURE"
+    },
+    "damage": {
+      "onApply": ""
     }
   },
   "effects": [],
@@ -32,16 +35,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731101895863,
-    "modifiedTime": 1739391100052,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529453975,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Vu8UwnMIAyJVv6oG"

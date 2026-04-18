@@ -5,7 +5,7 @@
   "_id": "jAsjM8LSWGV85Rep",
   "img": "icons/equipment/head/hood-cloth-blue-white.webp",
   "system": {
-    "fuid": "eyepatch",
+    "fuid": "afc-equipment-rebels-eyepatch",
     "subtype": {},
     "summary": {
       "value": "I need only one eye for my own justice"
@@ -58,16 +58,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1731352368629,
-    "modifiedTime": 1737747172738,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529255468,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!jAsjM8LSWGV85Rep"

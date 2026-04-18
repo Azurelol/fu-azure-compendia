@@ -5,7 +5,7 @@
   "_id": "Q1g4hcLLd6r9uY5P",
   "img": "icons/equipment/neck/pendant-runed-hagalz-blue.webp",
   "system": {
-    "fuid": "summoners-signet",
+    "fuid": "afc-equipment-summoners-necklace",
     "subtype": {},
     "summary": {
       "value": ""
@@ -42,16 +42,20 @@
     "default": 0,
     "esOkelwPNblkbxW3": 3
   },
-  "flags": {},
+  "flags": {
+    "projectfu": {
+      "favorite": false
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1737751394055,
-    "modifiedTime": 1739041143371,
-    "lastModifiedBy": "esOkelwPNblkbxW3",
+    "modifiedTime": 1776529101309,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg",
     "exportSource": null
   },
   "_key": "!items!Q1g4hcLLd6r9uY5P"
