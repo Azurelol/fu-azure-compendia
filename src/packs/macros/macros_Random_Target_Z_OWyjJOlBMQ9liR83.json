@@ -1,0 +1,28 @@
+{
+  "folder": "WC2fKzxLr2oDRNIR",
+  "name": "Random Target Z",
+  "type": "script",
+  "_id": "OWyjJOlBMQ9liR83",
+  "author": "J5B4HfVqUaCPvzGg",
+  "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+  "scope": "global",
+  "command": "/*\nThis is an alternate targeting method for use with DiceSoNice and the PFU Combat HUD which mimics the targeting behavior of certain early jRPGs such as Final Fantasy (NES).\nThis behavior flips a coin for each party member until a 2 is flipped, then targets that player.\nPlayers can change how likely they are to be hit by requesting to be reordered in the Combat HUD.\n@author Zeyami\n*/\n\n\n// Will get a list of only friendly tokens in order they show up on the combat HUD. Erika of ProjectFU wrote this section.\nconst party = game.settings\n  .get(\"projectfu\", \"optionCombatHudActorOrdering\")\n  .filter(({ tokenId }) => {\n      const partymember = game.combat.combatants.find((partymember) => partymember.tokenId === tokenId)\n      if (partymember?.faction === \"friendly\") return true;\n      return false;\n  })\n  .sort((a, b) => a.order - b.order)\n  .map(({ tokenId }) => game.combat.combatants.find((partymember) => partymember.tokenId === tokenId).token);\n\n//Determines the # of coins to flip in DiceSoNice as well as which party member to target.\nlet roll;\nlet i = -1;\ndo {\n  roll = Math.ceil(Math.random() * 1000);\n  i += 1;\n} while ((roll <= 500) && (i + 1 <= party.length));\n\n//Sends the results to DiceSoNice for visualization.\nlet iRoll = await new Roll(i+'d2').evaluate({minimize: true});\ngame.dice3d.showForRoll(iRoll);\nlet tRoll = await new Roll('1d2').evaluate({maximize: true});\ngame.dice3d.showForRoll(tRoll);\n\n//Finds the matching token on the canvas and targets it.\nconst token = canvas.tokens.placeables.find(t => t.document.name === party[i].name);\ntoken.setTarget(true, { user: game.user, ReleaseOthers: true });",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1778966427318,
+    "modifiedTime": 1778966494554,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!macros!OWyjJOlBMQ9liR83"
+}
