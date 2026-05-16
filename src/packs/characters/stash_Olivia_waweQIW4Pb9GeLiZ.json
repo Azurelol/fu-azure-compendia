@@ -88,12 +88,12 @@
       "radius": 0
     },
     "ring": {
-      "enabled": true,
+      "enabled": false,
       "colors": {
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": "tokenizer/npc-images/olivia.Token.webp?1775032122296"
@@ -127,7 +127,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1775032092169,
-    "modifiedTime": 1775032122298,
+    "modifiedTime": 1776696130570,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
   "_key": "!actors!waweQIW4Pb9GeLiZ"

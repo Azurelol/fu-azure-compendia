@@ -49,10 +49,26 @@
       },
       "disabled": false,
       "name": "Minion",
-      "img": "modules/fu-azure-compendia/assets/icons/skills/private-first-class.png",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
       "_id": "xZAaO6opYOvvRYMs",
       "type": "base",
-      "system": {},
+      "system": {
+        "rules": {
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
       "changes": [
         {
           "key": "system.resources.hp.max",
@@ -74,12 +90,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.351",
         "systemId": "projectfu",
-        "systemVersion": "2.4.0",
+        "systemVersion": "#{VERSION}#",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1776884677133,
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
         "exportSource": null
       },
       "_key": "!items.effects!LpCwZNfop9hZHx9X.xZAaO6opYOvvRYMs"

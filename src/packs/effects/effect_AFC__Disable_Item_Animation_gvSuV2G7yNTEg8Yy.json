@@ -1,0 +1,110 @@
+{
+  "name": "AFC: Disable Item Animation",
+  "type": "effect",
+  "img": "icons/pings/chevron.webp",
+  "system": {
+    "fuid": "afc-disable-item-animation",
+    "cost": {
+      "value": 0
+    },
+    "source": "FU-AZURE"
+  },
+  "effects": [
+    {
+      "name": "AFC: Disable Item Animation",
+      "img": "icons/pings/chevron.webp",
+      "origin": "Item.MOdkKTIoAKeaI72b",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar",
+            "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "QQxM6Wrg4J91AlZ9",
+      "type": "base",
+      "changes": [
+        {
+          "key": "flags.fu-azure-compendia.disableItemAnimation",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "description": "<p>Add this effect directly onto an item to disable animations triggering from it being used.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "AFC: Disable Item Animation",
+            "actorUuid": null,
+            "itemUuid": "Item.MOdkKTIoAKeaI72b",
+            "effectUuid": null,
+            "fuid": "afc-disable-item-animation"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "lastModifiedBy": "J5B4HfVqUaCPvzGg",
+        "modifiedTime": 1778965138659
+      },
+      "_key": "!items.effects!gvSuV2G7yNTEg8Yy.QQxM6Wrg4J91AlZ9"
+    }
+  ],
+  "folder": "CkIaBoYBVGgQBqhp",
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1778965122258,
+    "modifiedTime": 1778965122258,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_id": "gvSuV2G7yNTEg8Yy",
+  "sort": 0,
+  "_key": "!items!gvSuV2G7yNTEg8Yy"
+}

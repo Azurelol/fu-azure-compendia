@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "CTRPLR",
+  "color": "#ff0080",
+  "sorting": "a",
+  "_id": "CkIaBoYBVGgQBqhp",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1778870970303,
+    "modifiedTime": 1778870978011,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!folders!CkIaBoYBVGgQBqhp"
+}

@@ -1,0 +1,28 @@
+{
+  "folder": "G3JyFzBPQar0m8mv",
+  "name": "Update Adversaries",
+  "type": "script",
+  "_id": "tJGRcWne6nqqHOXg",
+  "author": "J5B4HfVqUaCPvzGg",
+  "img": "icons/svg/skull.svg",
+  "scope": "global",
+  "command": "// This is a macro not meant for users!\nawait game.modules.get(\"fu-azure-compendia\").api.utils.updateAdversaries();",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "J5B4HfVqUaCPvzGg": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1776885021724,
+    "modifiedTime": 1776886146269,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!macros!tJGRcWne6nqqHOXg"
+}

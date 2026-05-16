@@ -1,9 +1,8 @@
 {
-  "folder": "3R3qXlL3089n2nJU",
-  "name": "Edgar",
+  "name": "Rogue",
   "type": "character",
-  "_id": "AOrOsmUPlfatFugE",
-  "img": "modules/fu-azure-compendia/assets/tokens/characters/tinkerer_1.png",
+  "_id": "baZblmAmffacE1av",
+  "img": "modules/fu-azure-compendia/assets/tokens/characters/rogue_1.png",
   "system": {
     "affinities": {
       "physical": {
@@ -261,6 +260,7 @@
       }
     },
     "bonds": [],
+    "advancements": [],
     "vehicle": {
       "vehicle": null,
       "embarked": false,
@@ -274,13 +274,13 @@
     }
   },
   "prototypeToken": {
-    "name": "Edgar",
+    "name": "Rogue",
     "displayName": 0,
     "actorLink": true,
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/fu-azure-compendia/assets/tokens/characters/tinkerer_1.png",
+      "src": "modules/fu-azure-compendia/assets/tokens/characters/rogue_1.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -349,7 +349,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 0,
+      "effects": 1,
       "subject": {
         "scale": 1,
         "texture": null
@@ -458,22 +458,23 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "createdTime": 1775212083591,
-        "modifiedTime": 1775212083591,
+        "createdTime": 1776793975476,
+        "modifiedTime": 1776793975476,
         "lastModifiedBy": "J5B4HfVqUaCPvzGg"
       },
-      "_id": "JRFjZUwXaMK119YH",
+      "_id": "IA7bihJVz0q3o7T9",
       "sort": 0,
       "ownership": {
         "default": 0,
         "BwRsFvMHAq9vUtEO": 3,
         "J5B4HfVqUaCPvzGg": 3
       },
-      "_key": "!actors.items!AOrOsmUPlfatFugE.JRFjZUwXaMK119YH"
+      "_key": "!actors.items!baZblmAmffacE1av.IA7bihJVz0q3o7T9"
     }
   ],
   "effects": [],
-  "sort": 200000,
+  "folder": "3R3qXlL3089n2nJU",
+  "sort": 400000,
   "ownership": {
     "default": 0,
     "J5B4HfVqUaCPvzGg": 3
@@ -486,9 +487,9 @@
     "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "createdTime": 1775212083548,
+    "createdTime": 1776793975455,
     "modifiedTime": 1776793997046,
     "lastModifiedBy": "J5B4HfVqUaCPvzGg"
   },
-  "_key": "!actors!AOrOsmUPlfatFugE"
+  "_key": "!actors!baZblmAmffacE1av"
 }
