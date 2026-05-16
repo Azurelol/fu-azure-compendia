@@ -1,0 +1,23 @@
+{
+  "type": "Macro",
+  "folder": null,
+  "name": "Community",
+  "color": null,
+  "sorting": "a",
+  "_id": "WC2fKzxLr2oDRNIR",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1778966385460,
+    "modifiedTime": 1778966385460,
+    "lastModifiedBy": "J5B4HfVqUaCPvzGg"
+  },
+  "_key": "!folders!WC2fKzxLr2oDRNIR"
+}
