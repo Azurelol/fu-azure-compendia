@@ -1,45 +1,111 @@
-const moduleId = 'fu-azure-compendia';
+export const moduleId = "fu-azure-compendia";
 
 // A key for each specific setting
 const keys = Object.freeze({
-  enableAnimationSystem : "enableAnimationSystem",
-  animateActions: 'animateActions',
+  enableAnimationSystem: "enableAnimationSystem",
+  animateActions: "animateActions",
   playSounds: "playSounds",
   volume: "volume",
-  dashOnMelee: "dashOnMelee",
-  fadeOnDefeat: "fadeOnDefeat",
-  dodgeOnMiss: 'dodgeOnMiss',
-  animateCheck: 'animateCheck',
-  animateCombatEvent: 'animateCombatEvent',
-  animateResourceEvent: 'animateResourceEvent',
-  animateStatusEvent: 'animateStatusEvent',
-  enableTargetingSystem: 'enableTargetingSystem',
-  publicTargetingMessage: 'publicTargetingMessage',
-  autoTargetOnTurnStart: 'autoTargetOnTurnStart',
-  targetingCache: 'targetingCache',
-})
+
+  animateCheck: "animateCheck",
+  animateDash: "animateDash",
+  animateHitReaction: "animateHitReaction",
+  animateCombatEvent: "animateCombatEvent",
+  animateResourceEvent: "animateResourceEvent",
+  animateStatusEvent: "animateStatusEvent",
+  animateDefeat: "animateDefeat",
+
+  enableTargetingSystem: "enableTargetingSystem",
+  publicTargetingMessage: "publicTargetingMessage",
+  autoTargetOnTurnStart: "autoTargetOnTurnStart",
+  targetingCache: "targetingCache",
+});
 
 /**
  * Register module settings with Foundry.
  * @example https://foundryvtt.com/api/classes/client.ClientSettings.html#register
  */
 function registerSettings() {
-  registerToggle(keys.enableAnimationSystem, "Combat Tuned Realistic Pose and Locomotion Rendering", "Animate canvas tokens based on combat events (attack, spells, skills)", true);
+  registerToggle(
+    keys.enableAnimationSystem,
+    "Combat Tuned Realistic Pose and Locomotion Rendering",
+    "Animate canvas tokens based on combat events (attack, spells, skills)",
+    true,
+  );
   registerToggle(keys.playSounds, "Play Sounds", "Whether sounds are enabled");
-  registerToggle(keys.animateActions, "Animate Actions", "Whether to animate action events such as attacks, skills, etc");
-  registerToggle(keys.animateCombatEvent, 'Animate Combat Lifetime Events', "Whether to animate combat lifetime events (turns, rounds, etc)");
-  registerToggle(keys.animateResourceEvent, 'Animate Resource Events', "Whether to animate resource gain and loss events");
-  registerToggle(keys.animateStatusEvent, 'Animate Status Events', "Whether to animate status events");
-  registerToggle(keys.animateCheck, 'Animate Checks', "Whether to show text for the result of the check on targeted tokens");
+  registerToggle(
+    keys.animateActions,
+    "Animate Actions",
+    "Whether to animate action events such as attacks, skills, etc",
+  );
+  registerToggle(
+    keys.animateCombatEvent,
+    "Animate Combat Lifetime Events",
+    "Whether to animate combat lifetime events (turns, rounds, etc)",
+  );
+  registerToggle(
+    keys.animateResourceEvent,
+    "Animate Resource Events",
+    "Whether to animate resource gain and loss events",
+  );
+  registerToggle(
+    keys.animateStatusEvent,
+    "Animate Status Events",
+    "Whether to animate status events",
+  );
+  registerToggle(
+    keys.animateCheck,
+    "Animate Checks",
+    "Whether to show text for the result of the check on targeted tokens",
+  );
 
-  registerToggle(keys.dashOnMelee, "Dash on Melee", "Whether for tokens to dash towards target on melee attacks");
-  registerToggle(keys.fadeOnDefeat, "Fade on KO", "Whether to fade out NPC tokens on defeat");
-  registerToggle(keys.dodgeOnMiss, "Dodge On Miss", "Whether to animate tokens dodging attacks on a missed check");
+  registerToggle(
+    keys.animateDash,
+    "Animate Dash",
+    "Whether for tokens to dash towards target on melee attacks",
+  );
+  registerToggle(
+    keys.animateDefeat,
+    "Animate Defeat",
+    "Whether to fade out NPC tokens on defeat",
+    false,
+    false,
+  );
+  registerToggle(
+    keys.animateHitReaction,
+    "Animate Hit Reaction",
+    "Whether to animate characters reacting to damage.",
+  );
 
-  registerSlider(keys.volume, "Volume", "The volume of sound effects", 0.25, 0, 1, 0.1);
-  registerToggle(keys.enableTargetingSystem, "Evil Eye", "Provide targeting prompts for adversaries.", true, false);
-  registerToggle(keys.publicTargetingMessage, "Evil Eye: Public Message", "Whether to display the targeting message to all users.", false);
-  registerToggle(keys.autoTargetOnTurnStart, "Evil Eye: Auto Target On Turn Start", "Whether to automatically target the first prioritized target at the start of the adversary's turn.", false, false);
+  registerSlider(
+    keys.volume,
+    "Volume",
+    "The volume of sound effects",
+    0.25,
+    0,
+    1,
+    0.1,
+  );
+  registerToggle(
+    keys.enableTargetingSystem,
+    "Evil Eye",
+    "Provide targeting prompts for adversaries.",
+    true,
+    false,
+  );
+  registerToggle(
+    keys.publicTargetingMessage,
+    "Evil Eye: Public Message",
+    "Whether to display the targeting message to all users.",
+    false,
+  );
+  registerToggle(
+    keys.autoTargetOnTurnStart,
+    "Evil Eye: Auto Target On Turn Start",
+    "Whether to automatically target the first prioritized target at the start of the adversary's turn.",
+    false,
+    false,
+  );
 }
 
 function getSetting(key) {
@@ -55,7 +121,7 @@ function registerToggle(key, name, hint, reload = false, defaultValue = true) {
     type: Boolean,
     requiresReload: reload,
     default: defaultValue,
-    onChange: value => console.log(`${name}? ${value}`)
+    onChange: (value) => console.log(`${name}? ${value}`),
   });
 }
 
@@ -70,8 +136,9 @@ function registerSlider(key, name, hint, base, min, max, step) {
     range: {
       min: min,
       max: max,
-      step: step
-    }});
+      step: step,
+    },
+  });
 }
 
 function saveData(key) {
@@ -79,7 +146,7 @@ function saveData(key) {
     scope: "world",
     config: false,
     default: {},
-    type: Object
+    type: Object,
   });
 }
 
@@ -102,12 +169,12 @@ function getVolume() {
 }
 
 export const AzureCompendiaSettings = Object.freeze({
-    registerSettings,
-    saveData,
-    modifyData,
-    getSetting,
-    isEnabled,
-    moduleId,
-    keys,
-    getVolume
+  registerSettings,
+  saveData,
+  modifyData,
+  getSetting,
+  isEnabled,
+  moduleId,
+  keys,
+  getVolume,
 });

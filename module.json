@@ -42,7 +42,7 @@
     }
   ],
   "esmodules": [
-    "scripts/azure-compendia.mjs"
+    "scripts/index.mjs"
   ],
   "scripts": [
     "vendor/pixi-filters.js",

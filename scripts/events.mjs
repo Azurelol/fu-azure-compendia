@@ -1,9 +1,10 @@
-import { Azurecompendia } from "./main.mjs";
-import { AzureCompendiaSettings } from "./settings.mjs";
-import { AzureCompendiaPresets } from "./presets.mjs";
+import {Azurecompendia} from "./main.mjs";
+import {AzureCompendiaSettings, moduleId} from "./settings.mjs";
+import {AzureCompendiaPresets} from "./presets.mjs";
 import {AzureCompendiaSequences} from "./sequences.mjs";
 import {AzureCompendiaFilters} from "./filters.mjs";
 import {AzureCompendiaTargeting} from "./targeting.mjs";
+import {Flags} from "./flags.mjs";
 
 /**
  * @typedef CombatEvent
@@ -47,6 +48,7 @@ import {AzureCompendiaTargeting} from "./targeting.mjs";
  * @typedef ItemReference
  * @property {String} name
  * @property {String} fuid
+ * @property {String} uuid
  */
 
 /**
@@ -58,36 +60,101 @@ import {AzureCompendiaTargeting} from "./targeting.mjs";
  */
 
 /**
+ * @param document
+ * @param {Boolean} flag
+ * @returns {Boolean}
+ */
+function hasFlag(document, flag) {
+  return document.getFlag(moduleId, flag) !== undefined;
+}
+
+/**
+ * @param actor
+ * @returns {boolean}
+ */
+function canAnimate(actor) {
+  return (
+    !AzureCompendiaSettings.isEnabled(
+      AzureCompendiaSettings.keys.animateActions,
+    ) || !hasFlag(actor, Flags.disableAnimations)
+  );
+}
+
+/**
+ * @param {ItemReference} itemReference
+ * @returns {Promise<Boolean>}
+ */
+async function canAnimateItem(itemReference) {
+  const item = await fromUuid(itemReference.uuid);
+  if (item) {
+    return !hasFlag(item, Flags.disableItemAnimation);
+  }
+  return true;
+}
+
+/**
  * @description Handles an event where a character performs an attack
  * @param {AttackEvent} event
  */
 async function animateAttack(event) {
-    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateActions)) {
-        return;
-    }
-    const traitString = new Array(...event.traits).join(' ')
-    Azurecompendia.log(`Animating attack event: ${event.type} on token: ${event.token.name} with traits: ${JSON.stringify(traitString)}`);
+  if (!canAnimate(event.actor)) {
+    return;
+  }
+  if (!(await canAnimateItem(event.item))) {
+    return;
+  }
+  const traitString = new Array(...event.traits).join(" ");
+  Azurecompendia.log(
+    `Animating attack event: ${event.type} on token: ${event.token.name} with traits: ${JSON.stringify(traitString)}`,
+  );
 
-    let sequence = new Sequence();
+  let sequence = new Sequence();
 
-    if (event.traits.has('spell')) {
-        AzureCompendiaSequences.animateSpellAttack(sequence, event.item, event.traits, event.type, event.token, event.targets);
+  if (event.traits.has("spell")) {
+    AzureCompendiaSequences.animateSpellAttack(
+      sequence,
+      event.item,
+      event.traits,
+      event.type,
+      event.token,
+      event.targets,
+    );
+  } else if (event.traits.has("melee")) {
+    if (
+      AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.animateDash)
+    ) {
+      AzureCompendiaSequences.animateMeleeDash(
+        sequence,
+        event.item,
+        event.traits,
+        event.type,
+        event.token,
+        event.targets,
+      );
+    } else {
+      AzureCompendiaSequences.animateMeleeAttack(
+        sequence,
+        event.item,
+        event.traits,
+        event.type,
+        event.token,
+        event.targets,
+      );
     }
-    else if (event.traits.has("melee")) {
-        if (AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.dashOnMelee)) {
-            AzureCompendiaSequences.animateMeleeDash(sequence, event.item, event.traits, event.type, event.token, event.targets);
-        }
-        else {
-            AzureCompendiaSequences.animateMeleeAttack(sequence, event.item, event.traits, event.type, event.token, event.targets);
-        }
-    }
-    else if (event.traits.has("ranged")) {
-        AzureCompendiaSequences.playRangedAnimation(sequence, event.item, event.traits, event.type, event.token, event.targets);
-    }
+  } else if (event.traits.has("ranged")) {
+    AzureCompendiaSequences.playRangedAnimation(
+      sequence,
+      event.item,
+      event.traits,
+      event.type,
+      event.token,
+      event.targets,
+    );
+  }
 
-    await sequence.play({
-        preload: true
-    });
+  await sequence.play({
+    preload: true,
+  });
 }
 
 /**
@@ -101,12 +168,18 @@ async function animateAttack(event) {
  */
 
 async function animateSpell(event) {
-    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateActions)) {
-        return;
-    }
-    let sequence = new Sequence();
-    AzureCompendiaSequences.animateSpell(sequence, event.item, event.traits, event.token, event.targets);
-    await sequence.play();
+  if (!canAnimate(event.actor)) {
+    return;
+  }
+  let sequence = new Sequence();
+  AzureCompendiaSequences.animateSpell(
+    sequence,
+    event.item,
+    event.traits,
+    event.token,
+    event.targets,
+  );
+  await sequence.play();
 }
 
 /**
@@ -119,12 +192,17 @@ async function animateSpell(event) {
  * @property {EventTarget[]} targets
  */
 async function animateSkill(event) {
-    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateActions)) {
-        return;
-    }
-    let sequence = new Sequence();
-    AzureCompendiaSequences.animateSkill(sequence, event.token, event.item, event.traits);
-    await sequence.play();
+  if (!canAnimate(event.actor)) {
+    return;
+  }
+  let sequence = new Sequence();
+  AzureCompendiaSequences.animateSkill(
+    sequence,
+    event.token,
+    event.item,
+    event.traits,
+  );
+  await sequence.play();
 }
 
 /**
@@ -138,12 +216,19 @@ async function animateSkill(event) {
  */
 
 async function animateItem(event) {
-    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateActions)) {
-        return;
-    }
-    let sequence = new Sequence();
-    AzureCompendiaSequences.animateItem(sequence, event.item, event.type, event.actor, event.token, event.targets);
-    await sequence.play();
+  if (!canAnimate(event.actor)) {
+    return;
+  }
+  let sequence = new Sequence();
+  AzureCompendiaSequences.animateItem(
+    sequence,
+    event.item,
+    event.type,
+    event.actor,
+    event.token,
+    event.targets,
+  );
+  await sequence.play();
 }
 
 /**
@@ -155,57 +240,88 @@ async function animateItem(event) {
  */
 
 async function animateStudy(event) {
-    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateActions)) {
-        return;
-    }
-    Azurecompendia.log(`Playing preset for study event`);
-    let sequence = new Sequence();
-    const preset = AzureCompendiaPresets.get("study");
-    for(const target of event.targets){
-        AzureCompendiaSequences.playAnimationOnToken(sequence, preset, target.token, 2);
-    }
-    await sequence.play();
+  if (!canAnimate(event.actor)) {
+    return;
+  }
+  Azurecompendia.log(`Playing preset for study event`);
+  let sequence = new Sequence();
+  const preset = AzureCompendiaPresets.get("study");
+  for (const target of event.targets) {
+    AzureCompendiaSequences.playAnimationOnToken(
+      sequence,
+      preset,
+      target.token,
+      2,
+    );
+  }
+  await sequence.play();
 }
 
 async function playResourcePreset(event, type) {
-    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateResourceEvent)) {
-        return;
-    }
-    if (!event.token){
-        return;
-    }
-    Azurecompendia.log(`Playing preset for gain event: ${event.resource} on token: ${event.token.name}`);
-    let sequence = new Sequence();
-    const name = `${event.resource}_${type}`
-    AzureCompendiaSequences.playAnimationOnToken(sequence, AzureCompendiaPresets.get(name), event.token);
-    await sequence.play();
+  if (
+    !AzureCompendiaSettings.isEnabled(
+      AzureCompendiaSettings.keys.animateResourceEvent,
+    )
+  ) {
+    return;
+  }
+  if (!event.token) {
+    return;
+  }
+  Azurecompendia.log(
+    `Playing preset for gain event: ${event.resource} on token: ${event.token.name}`,
+  );
+  let sequence = new Sequence();
+  const name = `${event.resource}_${type}`;
+  AzureCompendiaSequences.playAnimationOnToken(
+    sequence,
+    AzureCompendiaPresets.get(name),
+    event.token,
+  );
+  await sequence.play();
 }
 
 async function playStatusPreset(event) {
-    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateStatusEvent)) {
-        return;
-    }
-    if (!event.token){
-        return;
-    }
-    Azurecompendia.log(`Playing preset for status event: ${event.status}, enabled=${event.enabled}, on token: ${event.token.name}`);
-    if (event.enabled) {
-        let sequence = new Sequence();
-        AzureCompendiaSequences.animateEffectAboveToken(sequence, AzureCompendiaPresets.get(event.status), event.token);
-        await sequence.play();
-    }
+  if (
+    !AzureCompendiaSettings.isEnabled(
+      AzureCompendiaSettings.keys.animateStatusEvent,
+    )
+  ) {
+    return;
+  }
+  if (!event.token) {
+    return;
+  }
+  Azurecompendia.log(
+    `Playing preset for status event: ${event.status}, enabled=${event.enabled}, on token: ${event.token.name}`,
+  );
+  if (event.enabled) {
+    let sequence = new Sequence();
+    AzureCompendiaSequences.animateEffectAboveToken(
+      sequence,
+      AzureCompendiaPresets.get(event.status),
+      event.token,
+    );
+    await sequence.play();
+  }
 }
 
-async function animateDefeat(event){
-    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.fadeOnDefeat)) {
-        return;
-    }
-    if (event.actor.system.resources.hp.value <= 0) {
-        Azurecompendia.log(`Animating defeat for ${event.actor}`);
-        let sequence = new Sequence();
-        AzureCompendiaSequences.playDefeatAnimation(sequence, event.actor, event.token);
-        await sequence.play();
-    }
+async function animateDefeat(event) {
+  if (
+    !AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateDefeat)
+  ) {
+    return;
+  }
+  if (event.actor.system.resources.hp.value <= 0) {
+    Azurecompendia.log(`Animating defeat for ${event.actor}`);
+    let sequence = new Sequence();
+    AzureCompendiaSequences.playDefeatAnimation(
+      sequence,
+      event.actor,
+      event.token,
+    );
+    await sequence.play();
+  }
 }
 
 /**
@@ -213,35 +329,60 @@ async function animateDefeat(event){
  * @returns {Promise<void>}
  */
 async function animateCombatEvent(event) {
-    if (!AzureCompendiaSettings.isEnabled(AzureCompendiaSettings.keys.animateCombatEvent)) {
-        return;
-    }
+  if (
+    !AzureCompendiaSettings.isEnabled(
+      AzureCompendiaSettings.keys.animateCombatEvent,
+    )
+  ) {
+    return;
+  }
 
-    let sequence = new Sequence();
+  let sequence = new Sequence();
 
-    switch (event.type) {
-        case 'FU.StartOfCombat':
-            AzureCompendiaSequences.playSoundEffect(sequence, AzureCompendiaPresets.combatPresets.startOfCombat);
-            break;
-        case 'FU.EndOfCombat':
-            Azurecompendia.log(`Playing preset for combat event: ${event.type}`);
-            AzureCompendiaFilters.clearTokenFilters(event.combatants)
-            break;
-        case 'FU.StartOfTurn':
-            Azurecompendia.log(`Playing preset for combat event ${event.type} on token ${event.token.name}`);
-            AzureCompendiaFilters.toggleTokenOutline(event.combatant, event.token, true)
-            AzureCompendiaSequences.playSoundEffect(sequence, AzureCompendiaPresets.combatPresets.startOfTurn);
-            break;
-        case 'FU.EndOfTurn':
-            Azurecompendia.log(`Playing preset for combat event ${event.type} on token ${event.token.name}`);
-            AzureCompendiaFilters.toggleTokenOutline(event.combatant, event.token, false)
-            AzureCompendiaSequences.playSoundEffect(sequence, AzureCompendiaPresets.combatPresets.endOfTurn);
-            break;
-        default:
-            break;
-    }
+  switch (event.type) {
+    case "FU.StartOfCombat":
+      AzureCompendiaSequences.playSoundEffect(
+        sequence,
+        AzureCompendiaPresets.combatPresets.startOfCombat,
+      );
+      break;
+    case "FU.EndOfCombat":
+      Azurecompendia.log(`Playing preset for combat event: ${event.type}`);
+      AzureCompendiaFilters.clearTokenFilters(event.combatants);
+      break;
+    case "FU.StartOfTurn":
+      Azurecompendia.log(
+        `Playing preset for combat event ${event.type} on token ${event.token.name}`,
+      );
+      AzureCompendiaFilters.toggleTokenOutline(
+        event.combatant,
+        event.token,
+        true,
+      );
+      AzureCompendiaSequences.playSoundEffect(
+        sequence,
+        AzureCompendiaPresets.combatPresets.startOfTurn,
+      );
+      break;
+    case "FU.EndOfTurn":
+      Azurecompendia.log(
+        `Playing preset for combat event ${event.type} on token ${event.token.name}`,
+      );
+      AzureCompendiaFilters.toggleTokenOutline(
+        event.combatant,
+        event.token,
+        false,
+      );
+      AzureCompendiaSequences.playSoundEffect(
+        sequence,
+        AzureCompendiaPresets.combatPresets.endOfTurn,
+      );
+      break;
+    default:
+      break;
+  }
 
-    await sequence.play();
+  await sequence.play();
 }
 
 /**
@@ -249,92 +390,100 @@ async function animateCombatEvent(event) {
  * @returns {Promise<void>}
  */
 async function handleTargeting(event) {
-    switch (event.type) {
-        case 'FU.StartOfTurn':
-            if (event.actor.type === 'npc') {
-                await AzureCompendiaTargeting.select(event)
-            }
-            break;
+  switch (event.type) {
+    case "FU.StartOfTurn":
+      if (event.actor.type === "npc") {
+        await AzureCompendiaTargeting.select(event);
+      }
+      break;
 
-        default:
-            break;
-    }
+    default:
+      break;
+  }
 }
-
 
 /**
  * @description Subscribes to the system combat events
  */
 function subscribe() {
-
-    if (AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.enableAnimationSystem)) {
-        if (!game.modules.get("sequencer")?.active) {
-            console.debug("Sequencer not installed and active!");
-            return;
-        }
-
-        if (!game.modules.get("JB2A_DnD5e")?.active && !game.modules.get("jb2a_patreon")?.active) {
-            console.debug("JB2A module not installed and active!");
-            return;
-        }
-
-        Hooks.on('projectfu.events.attack', async event => {
-            await animateAttack(event);
-        });
-
-        Hooks.on('projectfu.events.spell', async event => {
-            await animateSpell(event);
-        });
-
-        Hooks.on('projectfu.events.skill', async event => {
-            await animateSkill(event);
-        });
-
-        Hooks.on('projectfu.events.item', async event => {
-            await animateItem(event);
-        });
-
-        Hooks.on('projectfu.events.study', async event => {
-            await animateStudy(event);
-        });
-
-        Hooks.on('projectfu.events.gain', async event => {
-            await playResourcePreset(event, "gain");
-        });
-
-        Hooks.on('projectfu.events.loss', async event => {
-            await playResourcePreset(event, "loss");
-        });
-
-        Hooks.on('projectfu.events.crisis', async event => {
-            //Azurecompendia.log(`Playing preset for crisis event on token: ${event.token.name}`);
-        });
-
-        Hooks.on('projectfu.events.status', async event => {
-            await playStatusPreset(event);
-        });
-
-        Hooks.on('projectfu.events.defeat', async event => {
-            await animateDefeat(event);
-        });
-
-        Hooks.on('projectfu.events.combat', async event => {
-            await animateCombatEvent(event)
-        });
-    }
-    else{
-        Azurecompendia.log(`CTRPLR was not enabled`)
+  if (
+    AzureCompendiaSettings.getSetting(
+      AzureCompendiaSettings.keys.enableAnimationSystem,
+    )
+  ) {
+    if (!game.modules.get("sequencer")?.active) {
+      console.debug("Sequencer not installed and active!");
+      return;
     }
 
-    if (AzureCompendiaSettings.getSetting(AzureCompendiaSettings.keys.enableTargetingSystem)) {
-        Hooks.on('projectfu.events.combat', async event => {
-            if (game.user.isGM) {
-                await handleTargeting(event)
-            }
-        });
+    if (
+      !game.modules.get("JB2A_DnD5e")?.active &&
+      !game.modules.get("jb2a_patreon")?.active
+    ) {
+      console.debug("JB2A module not installed and active!");
+      return;
     }
+
+    Hooks.on("projectfu.events.attack", async (event) => {
+      await animateAttack(event);
+    });
+
+    Hooks.on("projectfu.events.spell", async (event) => {
+      await animateSpell(event);
+    });
+
+    Hooks.on("projectfu.events.skill", async (event) => {
+      await animateSkill(event);
+    });
+
+    Hooks.on("projectfu.events.item", async (event) => {
+      await animateItem(event);
+    });
+
+    Hooks.on("projectfu.events.study", async (event) => {
+      await animateStudy(event);
+    });
+
+    Hooks.on("projectfu.events.gain", async (event) => {
+      await playResourcePreset(event, "gain");
+    });
+
+    Hooks.on("projectfu.events.loss", async (event) => {
+      await playResourcePreset(event, "loss");
+    });
+
+    Hooks.on("projectfu.events.crisis", async (event) => {
+      //Azurecompendia.log(`Playing preset for crisis event on token: ${event.token.name}`);
+    });
+
+    Hooks.on("projectfu.events.status", async (event) => {
+      await playStatusPreset(event);
+    });
+
+    Hooks.on("projectfu.events.defeat", async (event) => {
+      await animateDefeat(event);
+    });
+
+    Hooks.on("projectfu.events.combat", async (event) => {
+      await animateCombatEvent(event);
+    });
+  } else {
+    Azurecompendia.log(`CTRPLR was not enabled`);
+  }
+
+  if (
+    AzureCompendiaSettings.getSetting(
+      AzureCompendiaSettings.keys.enableTargetingSystem,
+    )
+  ) {
+    Hooks.on("projectfu.events.combat", async (event) => {
+      if (game.user.isGM) {
+        await handleTargeting(event);
+      }
+    });
+  }
 }
 
 export const AzureCompendiaEvents = Object.freeze({
-    subscribe
-})
+  subscribe,
+});
